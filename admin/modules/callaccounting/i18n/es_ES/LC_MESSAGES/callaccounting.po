@@ -1,0 +1,395 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callaccounting
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-30 12:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " Please enter new unique Call deck name "
+msgstr ""
+
+msgid "--Select a Group--"
+msgstr ""
+
+msgid ""
+"A free-form tag that will be assigned to calls matching this rate, to help "
+"you identify them in call reports.  For example, you might label your calls "
+"with tags such as 'International' or 'Alaska'."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add Dial Pattern"
+msgstr ""
+
+msgid "Add New Time Group..."
+msgstr ""
+
+msgid "Add Rate Deck"
+msgstr ""
+
+msgid "Add RateDeck"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "BillSec"
+msgstr ""
+
+msgid "CDR DETAILED REPORT"
+msgstr ""
+
+msgid "CDR REPORT"
+msgstr ""
+
+msgid "CDR REPORT Summery "
+msgstr ""
+
+msgid "CDR Report"
+msgstr ""
+
+msgid "CDR Summary Report"
+msgstr ""
+
+msgid "Call Accounting"
+msgstr ""
+
+msgid "Call Accounting "
+msgstr ""
+
+msgid "Call Accounting : DAHDI trunk Inbound call billing ambiguity"
+msgstr ""
+
+msgid "Call Accounting Dashboard"
+msgstr ""
+
+msgid "Call Accounting Module"
+msgstr ""
+
+msgid "Call Deck"
+msgstr ""
+
+msgid "Call Deck Priority "
+msgstr ""
+
+msgid "Call Deck Reports"
+msgstr ""
+
+msgid "Call Deck name can not be blank!"
+msgstr ""
+
+msgid "Call Details by"
+msgstr ""
+
+msgid "Call Direction"
+msgstr ""
+
+msgid "Call Direction "
+msgstr ""
+
+msgid "Call date"
+msgstr ""
+
+#, php-format
+msgid "Call deck (%s) deleted successfully"
+msgstr ""
+
+msgid "Calls"
+msgstr ""
+
+msgid "Cost"
+msgstr ""
+
+msgid "Cost Per Increment"
+msgstr ""
+
+msgid "Cost per Increment"
+msgstr ""
+
+msgid "Cost per increment"
+msgstr ""
+
+msgid "Date Range"
+msgstr ""
+
+msgid "Deck Name"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Detailed CDR Report"
+msgstr ""
+
+msgid "Dial Pattern"
+msgstr ""
+
+msgid "Dial pattern can NOT be Empty"
+msgstr ""
+
+msgid "Direction"
+msgstr ""
+
+msgid "Download CSV Reports"
+msgstr ""
+
+msgid "Download PDF Reports"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+msgid "Filter by Call Deck Name"
+msgstr ""
+
+msgid "Filter by Group time"
+msgstr ""
+
+msgid "Filter by Source"
+msgstr ""
+
+msgid "Filter by Username"
+msgstr ""
+
+msgid "FreePBX Call Accounting Module installation finished successfully.."
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Group Name"
+msgstr ""
+
+msgid "Group name"
+msgstr ""
+
+msgid "Grouped by"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import/Export Call Accounting Rate Deck"
+msgstr ""
+
+msgid "Increment Time"
+msgstr ""
+
+msgid "Increment Time "
+msgstr ""
+
+msgid "Increment Time of the dial pattern"
+msgstr ""
+
+msgid "Inherit from group"
+msgstr ""
+
+msgid "Initial Cost"
+msgstr ""
+
+msgid "Initial Time"
+msgstr ""
+
+#, php-format
+msgid "Insertion to rate Deck failed due to empty rate deck name.."
+msgstr ""
+
+msgid "Intial Cost"
+msgstr ""
+
+msgid "Intial Time"
+msgstr ""
+
+msgid "Intial Time of the dial pattern "
+msgstr ""
+
+msgid "Intial cost of the dial pattern"
+msgstr ""
+
+msgid "New Rate Deck Name"
+msgstr ""
+
+msgid "Optional: Select a RATE DECK to bill the calls."
+msgstr ""
+
+msgid "OutCID"
+msgstr ""
+
+msgid "Outbound/Inbound/All default is Outbound"
+msgstr ""
+
+msgid ""
+"Priority for selecting call deck, when the usermanagement and Trunks are "
+"assigned with Call decks"
+msgstr ""
+
+msgid "Rate Deck"
+msgstr ""
+
+#, php-format
+msgid "Rate Deck (%s) already configured.."
+msgstr ""
+
+#, php-format
+msgid "Rate Deck (%s:%d) added successfully.."
+msgstr ""
+
+msgid "Rate Deck Name"
+msgstr ""
+
+msgid "Rate Deck assigned to this group/user"
+msgstr ""
+
+msgid "Rate dial pattern already exist."
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "SELECT"
+msgstr ""
+
+msgid "Select a Group"
+msgstr ""
+
+msgid ""
+"Select a time group.  Time groups can be used to have different rates at "
+"different times of the day, for the same dial pattern."
+msgstr ""
+
+msgid "Select the date range for the report"
+msgstr ""
+
+msgid ""
+"Select whether you would like to match on inbound calls, outbound calls, or "
+"both."
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Tag  Name to identify the dial pattern"
+msgstr ""
+
+msgid "Tag Name"
+msgstr ""
+
+msgid "The Dial pattern to match the rates"
+msgstr ""
+
+msgid ""
+"The cost for each increment of time (set by the Increment Time value) beyond "
+"the initial time."
+msgstr ""
+
+msgid ""
+"The initial cost of the call.  Calls will always be charged the initial cost "
+"if the channel is answered"
+msgstr ""
+
+msgid ""
+"The number of seconds covered by the Initial Cost value.  For example, if "
+"Initial Cost is 1.00 and Initial Time is set to 60, the call will be charged "
+"1.00 for the first sixty seconds of the call."
+msgstr ""
+
+msgid ""
+"The number of seconds for increments of time beyond the Initial Time. For "
+"example, if this is set to 10 and Cost Per Increment is set to 0.05, the "
+"call will be charged an additional 0.05 for every ten seconds beyond the "
+"Initial Time value."
+msgstr ""
+
+msgid ""
+"The prefix that will be used to match calls to this rate. For example, enter "
+"'307' to match all calls that begin with 307.  More specific (longer) dial "
+"patterns are matched before less specific (shorter) prefixes."
+msgstr ""
+
+msgid "This module is used to allocate cost to outbound trunks/routes"
+msgstr ""
+
+msgid "Time Group "
+msgstr ""
+
+msgid "Time group"
+msgstr ""
+
+msgid "Timegroup can NOT be Empty"
+msgstr ""
+
+msgid ""
+"Timegroup name in the timegroup application groups created for "
+"callaccounting rate patterns"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Total Calls"
+msgstr ""
+
+msgid "Total Cost"
+msgstr ""
+
+msgid "Total calls"
+msgstr ""
+
+msgid "Unable to continue with out Deck Name"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "What is "
+msgstr ""
+
+msgid ""
+"You can Either select from SELECT BOX or you may fill it with desired value"
+msgstr ""
+
+msgid "already exists"
+msgstr ""
+
+msgid "dial_pattern is required"
+msgstr ""

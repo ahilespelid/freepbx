@@ -1,0 +1,187 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for webcallback
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:57+0000\n"
+"PO-Revision-Date: 2018-01-09 16:39+0200\n"
+"Last-Translator: Nils <Nils@heckenkamp.info>\n"
+"Language-Team: German <http://weblate.freepbx.org/projects/fpbxc/webcallback/"
+"de_DE/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid " already used, please use a different Name."
+msgstr ""
+
+msgid "A name to describe this Webcallback."
+msgstr ""
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add Web Callback"
+msgstr ""
+
+msgid "CID Prepend"
+msgstr ""
+
+msgid "CID Prepend:"
+msgstr ""
+
+msgid "Callback Name"
+msgstr ""
+
+msgid "Caller will be connected to this destination when they are called"
+msgstr ""
+
+msgid "Cid Prepend"
+msgstr ""
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Destination"
+msgstr "Ziel"
+
+msgid "Destination:"
+msgstr "Ziel:"
+
+msgid "Dial Matches"
+msgstr ""
+
+msgid "Dial Matches:"
+msgstr ""
+
+msgid "Digits to prepend to the destinatination number"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter number patterns the user can dial, one per line. For pattern "
+"information see %s"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Error Msg:"
+msgstr ""
+
+msgid "HTML Code"
+msgstr ""
+
+msgid "HTML Code:"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Icon:"
+msgstr ""
+
+msgid "Invalid Message"
+msgstr ""
+
+msgid "Invalid Msg:"
+msgstr ""
+
+msgid "List Web Callbacks"
+msgstr ""
+
+msgid "List Webcallbacks"
+msgstr ""
+
+msgid "Message to be show to caller when a invalid number has been entered"
+msgstr ""
+
+msgid "Message to be show to caller when a valid number has been entered"
+msgstr ""
+
+msgid "Message to be shown if something goes wrong"
+msgstr ""
+
+msgid "Message to be shown to caller when a invalid number has been entered"
+msgstr ""
+
+msgid "Message to be shown to caller when a valid number has been entered"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Num Prepend"
+msgstr ""
+
+msgid "Number Prepend"
+msgstr ""
+
+msgid "Number Prepend:"
+msgstr ""
+
+msgid "Oops, something went wrong!"
+msgstr ""
+
+msgid "Pick from the following icons that will be shown on your website"
+msgstr ""
+
+msgid "Please enter a valid Name."
+msgstr ""
+
+msgid "Please hold while we call you back."
+msgstr ""
+
+msgid "Please save this Web Callback to generate the HTML code."
+msgstr ""
+
+msgid "Please save to see the generated code"
+msgstr ""
+
+msgid "Please select an item in the list."
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "That number is invalid as a callback number"
+msgstr ""
+
+msgid "Use this code to add the current web callback to your website"
+msgstr ""
+
+msgid "Valid Message"
+msgstr ""
+
+msgid "Valid Msg:"
+msgstr ""
+
+msgid "Web Callback"
+msgstr ""
+
+msgid ""
+"You can optionally prefix the CallerID name. ie: If you prefix with \"Sales:"
+"\", a call from John Doe would display as \"Sales:John Doe\" on the "
+"extensions that ring."
+msgstr ""
+
+msgid "enter numbers the user can dial, one per line"
+msgstr ""
+
+msgid "is required."
+msgstr ""

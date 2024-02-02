@@ -1,0 +1,909 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for vega
+# Copyright (C) 2008-2018 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-26 06:15+0000\n"
+"PO-Revision-Date: 2020-02-18 14:47+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/vega/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+msgid " ?"
+msgstr " ?"
+
+msgid " Are you sure to change Gateway SIP DRIVER ?"
+msgstr " Sind Sie sicher, das Gateway SIP DRIVER zu wechseln?"
+
+msgid ""
+" Are you sure to change Vega gateway SSH port and reboot immediately(on "
+"submit) ?"
+msgstr ""
+" Sind Sie sicher, dass Sie den SSH-Port des Vega-Gateways ändern und sofort "
+"neu starten (beim Senden)?"
+
+msgid ""
+" Are you sure to change Vega gateway ip and reboot immediately(on submit) ?"
+msgstr ""
+" Sind Sie sicher, die Vega Gateway IP zu ändern und sofort neu zu starten "
+"(nach dem Absenden) ?"
+
+msgid " Are you sure to change Vega gateway ip type method to External/NAT ?"
+msgstr ""
+" Sind Sie sicher, die IP-Typmethode des Vega-Gateways in Extern / NAT zu "
+"ändern?"
+
+msgid ""
+" Are you sure to reset vega gateway configuration and push pbx vega module "
+"generated configuration to Vega gateway ?"
+msgstr ""
+" Sind Sie sicher, die Konfiguration des Vega-Gateways zurückzusetzen und die "
+"vom Pbx-Vega-Modul generierte Konfiguration auf das Vega-Gateway zu "
+"übertragen?"
+
+msgid " Firmware Upgrade"
+msgstr ""
+
+msgid " Force Refresh Status"
+msgstr ""
+
+msgid ".*"
+msgstr ".*"
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "Add Vega"
+msgstr "Füge Vega hinzu"
+
+msgid "Admin Password"
+msgstr "Admin Passwort"
+
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgid "Alternative DNS Server"
+msgstr "Alternativer DNS-Server"
+
+msgid "Applying Config and Rebooting Vega...It will take couple of min..\n"
+msgstr ""
+"Anwenden von Config und Neustarten von Vega ... Es dauert einige Minuten.\n"
+
+msgid ""
+"Applying Config to Vega...\n"
+" Please check 'status' to know if reboot required to apply config. \n"
+msgstr ""
+"Anwenden von Config auf Vega ...\n"
+"  Bitte überprüfen Sie den Status, um festzustellen, ob ein Neustart "
+"erforderlich ist, um die Konfiguration anzuwenden. \n"
+
+msgid "Are you sure to upload config file"
+msgstr "Sind Sie sicher, Konfigurationsdatei hochzuladen"
+
+msgid "Available Firmware"
+msgstr "Verfügbare Firmware"
+
+msgid "Basic Config"
+msgstr "Grundkonfiguration"
+
+#, php-format
+msgid "CLI command(%s) validation failed, expacted (%s), result(%s)"
+msgstr ""
+"Validierung des CLI-Befehls (%s) fehlgeschlagen, erwartet (%s), Ergebnis (%s)"
+
+msgid "Cache Expiration"
+msgstr ""
+
+msgid "Caller ID Can not be empty"
+msgstr "Anrufer-ID Kann nicht leer sein"
+
+msgid "Caller Id "
+msgstr "Anrufer-ID "
+
+msgid "ChanSIP"
+msgstr "ChanSIP"
+
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+msgid "Changing Vega Gateway configuration file"
+msgstr "Ändern der Vega Gateway-Konfigurationsdatei"
+
+msgid "Clock Master"
+msgstr "Uhrmeister"
+
+msgid "Comma separated list of emergency telephone numbers "
+msgstr "Durch Kommas getrennte Liste der Notrufnummern "
+
+msgid "Configure"
+msgstr "Konfigurieren"
+
+msgid "Connectivity"
+msgstr "Konnektivität"
+
+msgid "Country"
+msgstr "Land"
+
+msgid ""
+"Country to configure (pre-configured values for ring tone, FXO/FXS "
+"parameters etc)"
+msgstr ""
+"Zu konfigurierendes Land (vorkonfigurierte Werte für Klingelton, FXO/FXS-"
+"Parameter etc.)"
+
+msgid "CrossOver"
+msgstr "CrossOver"
+
+msgid "DHCP"
+msgstr "DHCP"
+
+msgid "DID to Forward to FreePBX"
+msgstr "DID an FreePBX weiterleiten"
+
+#, php-format
+msgid ""
+"DSP Failure \n"
+"%s\n"
+"Please refer to <a href='https://wiki.freepbx.org/display/VG/Firmware"
+"+Update#FirmwareUpdate-DSPUpgradeProcedure'> DSP Upgrade Using VEGA GUI  </a>"
+msgstr ""
+"DSP-Fehler\n"
+"%s\n"
+"Weitere Informationen finden Sie unter <a href='https://wiki.freepbx.org/"
+"display/VG/Firmware+Update#FirmwareUpdate-DSPUpgradeProcedure'> DSP-Upgrade "
+"mit VEGA-GUI  </a>"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Digital Rx Gain"
+msgstr "Digital Rx Gain"
+
+msgid "Digital Rx Gain "
+msgstr "Digital Rx Gain "
+
+msgid "Digital Rx Gain is Empty"
+msgstr "Digital Rx Gain ist leer"
+
+msgid "Digital Tx Gain"
+msgstr "Digital Tx Gain"
+
+msgid "Digital Tx Gain "
+msgstr "Digital Tx Gain "
+
+msgid "Digital Tx Gain is Empty"
+msgstr "Digital Tx Gain ist leer"
+
+msgid "Discovery"
+msgstr "Entdeckung"
+
+msgid "Download Config"
+msgstr "Lade Config herunter"
+
+msgid "Download Latest Firmware"
+msgstr "Lade neueste Firmware herunter"
+
+msgid "Download Vega Config File"
+msgstr "Lade Vega-Konfigurationsdatei herunter"
+
+msgid "Downloading is in progress..."
+msgstr "Herunterladen ist im Gange ..."
+
+msgid "Due to changing SSH port, Vega GW will reboot automatically "
+msgstr ""
+"Aufgrund der Änderung des SSH-Ports wird Vega GW automatisch neu gestartet "
+
+msgid "Duplicate Extension Selected"
+msgstr "Doppelte Nebenstelle ausgewählt"
+
+msgid "E1T1"
+msgstr "E1T1"
+
+msgid "E1T1 Ports"
+msgstr "E1T1 Ports"
+
+msgid "Edit Vega Config File"
+msgstr "Bearbeite die Vega-Konfigurationsdatei"
+
+msgid "Emergency Numbers"
+msgstr "Notrufnummern"
+
+msgid "Enable CID Generation"
+msgstr "Aktiviere CID-Generierung"
+
+msgid "Enable Caller-Id Detection"
+msgstr "Aktiviere Anrufer-ID-Erkennung"
+
+msgid "Enable Ports"
+msgstr "Ports aktivieren"
+
+msgid "Enabled"
+msgstr "aktiviert"
+
+msgid "Executing Vega Firmware download script...\n"
+msgstr "Ausführen des Vega Firmware-Download-Skripts ...\n"
+
+msgid "External/Public"
+msgstr "Extern/öffentlich"
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "FXO"
+msgstr "FXO"
+
+msgid "FXO Configuration"
+msgstr "FXO-Konfiguration"
+
+msgid "FXO Ports"
+msgstr "FXO-Ports"
+
+msgid "FXS"
+msgstr "FXS"
+
+msgid "FXS Configuration"
+msgstr "FXS-Konfiguration"
+
+msgid "FXS Ports"
+msgstr "FXS-Ports"
+
+#, php-format
+msgid "Failed to add Vega gateway (ip:%s) "
+msgstr "Fehler beim Hinzufügen des Vega-Gateways (IP: %s) "
+
+#, php-format
+msgid "Failed to configure TFTP server ip to Vega gateway (ip:%s) "
+msgstr ""
+"Fehler beim Konfigurieren der TFTP-Server-IP für das Vega-Gateway (IP: %s) "
+
+#, php-format
+msgid "Failed to configure Vega gateway (ip:%s) "
+msgstr "Fehler beim Konfigurieren des Vega-Gateways (IP: %s) "
+
+#, php-format
+msgid "Failed to execute e1t1 cli command on Vega(%s) "
+msgstr "Fehler beim Ausführen des Befehls e1t1 cli auf Vega (%s) "
+
+#, php-format
+msgid "Failed to execute sip reset reg cli command on Vega(%s) "
+msgstr "Fehler beim Ausführen des Befehls sip reset reg cli auf Vega (%s) "
+
+msgid "Failed to fetch MAC information from Vega!"
+msgstr "Fehler beim Abrufen der MAC-Informationen von Vega!"
+
+msgid "Failed to fetch Model information from Vega!"
+msgstr "Modellinformationen konnten nicht von Vega abgerufen werden!"
+
+#, php-format
+msgid "Failed to fetch config from Vega(%s) "
+msgstr "Fehler beim Abrufen der Konfiguration von Vega (%s) "
+
+#, php-format
+msgid "Failed to perform FXO trunk config on Vega(%s) "
+msgstr "Fehler beim Ausführen der FXO-Trunk-Konfiguration auf Vega (%s) "
+
+#, php-format
+msgid "Failed to perform dsp status on Vega "
+msgstr "Fehler beim Ausführen des DSP-Status für Vega "
+
+#, php-format
+msgid "Failed to perform factory reset full to Vega(%s) "
+msgstr "Fehler beim Zurücksetzen auf Werkseinstellungen auf Vega. (%s) "
+
+#, php-format
+msgid "Failed to perform factory reset on Vega(%s) "
+msgstr "Fehler beim Zurücksetzen auf die Werkseinstellungen für Vega (%s) "
+
+#, php-format
+msgid "Failed to perform quick apply on Vega(%s) "
+msgstr "Fehler beim schnellen Auftragen auf Vega (%s) "
+
+#, php-format
+msgid "Failed to reboot Vega(%s) "
+msgstr "Vega konnte nicht neu gestartet werden (%s) "
+
+#, php-format
+msgid "Failed to set E1t1 config commands to Vega(%s) "
+msgstr "Fehler beim Setzen der E1t1-Konfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set E1t1 quick config commands to Vega(%s) "
+msgstr ""
+"Fehler beim Setzen der E1t1-Schnellkonfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set FXO config commands to Vega(%s) "
+msgstr ""
+
+#, php-format
+msgid "Failed to set FXO trunk config commands to Vega(%s) "
+msgstr "Fehler beim Setzen der FXO-Trunk-Konfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set FXS config commands to Vega(%s) "
+msgstr "Fehler beim Setzen der FXS-Konfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set FXS port config commands to Vega(%s) "
+msgstr "Fehler beim Setzen der FXS-Portkonfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set LAN file transfer method(TFTP) vega(%s) "
+msgstr ""
+"Fehler beim Festlegen der TFTP-Methode (LAN File Transfer Method) (%s) "
+
+#, php-format
+msgid "Failed to set basic config commands to Vega(%s) "
+msgstr ""
+"Fehler beim Festlegen der grundlegenden Konfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to set provision server(type:%s, ip:%s) to vega(%s) "
+msgstr ""
+"Fehler beim Festlegen des Bereitstellungsservers (Typ:%s, IP:%s) auf vega "
+"(%s) "
+
+#, php-format
+msgid "Failed to set regstration type to Vega(%s) fxs(%d), fxo(%d) "
+msgstr ""
+"Regstrationstyp konnte nicht auf Vega (%s) fxs (%d), fxo (%d) gesetzt "
+"werden. "
+
+#, php-format
+msgid "Failed to set voip config commands to Vega(%s) "
+msgstr "Fehler beim Setzen der Voip-Konfigurationsbefehle auf Vega (%s) "
+
+#, php-format
+msgid "Failed to update Vega gateway configuration (ip:%s) "
+msgstr "Fehler beim Aktualisieren der Vega-Gateway-Konfiguration (IP:%s) "
+
+#, php-format
+msgid "Failed to update config commands(%s) to Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Konfigurationsbefehle (%s) auf Vega (%s) "
+
+#, php-format
+msgid ""
+"Failed to update config due to quick apply cli command failure on Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Konfiguration aufgrund eines Fehlers beim "
+"schnellen Anwenden des CLI-Befehls auf Vega (%s) "
+
+#, php-format
+msgid ""
+"Failed to update config due to quick test cli command failure on Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Konfiguration aufgrund eines schnellen Tests "
+"des Cli-Befehls auf Vega (%s) "
+
+#, php-format
+msgid "Failed to update config due to save cli command failure on Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Konfiguration aufgrund eines Fehlers beim "
+"Speichern des CLI-Befehls auf Vega (%s) "
+
+#, php-format
+msgid "Failed to update raw config commands(%s) to Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Raw-Konfigurationsbefehle (%s) auf Vega (%s) "
+
+#, php-format
+msgid ""
+"Failed to update raw config due to quick apply cli command failure on "
+"Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Raw-Konfiguration aufgrund eines schnellen "
+"Fehlers beim Anwenden des CLI-Befehls auf Vega (%s) "
+
+#, php-format
+msgid ""
+"Failed to update raw config due to save cli command failure on Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Raw-Konfiguration aufgrund eines Fehlers beim "
+"Speichern des CLI-Befehls auf Vega (%s) "
+
+#, php-format
+msgid ""
+"Failed to update trunk config due to create sip auth user command failure on "
+"Vega(%s) "
+msgstr ""
+"Fehler beim Aktualisieren der Trunk-Konfiguration aufgrund eines Fehlers "
+"beim Erstellen eines Benutzerbefehls für sip auth auf Vega (%s) "
+
+msgid ""
+"File is NOT FreePBX generated one!!!. Please upload freePBX generated "
+"configuration file"
+msgstr ""
+"Datei ist NICHT FreePBX generiert eine !!!. Bitte laden Sie die von freePBX "
+"generierte Konfigurationsdatei hoch"
+
+msgid "Firmware Management"
+msgstr "Firmware-Verwaltung"
+
+msgid "Firmware Upgrade"
+msgstr "Firmware-Aktualisierung"
+
+msgid "Firmware Upload"
+msgstr "Firmware-Upload"
+
+msgid "Firmware Vesrion Name"
+msgstr "Name der Firmware-Version"
+
+msgid "Firmware downloading in background.."
+msgstr "Firmware-Download im Hintergrund .."
+
+msgid "Force Vega Config update"
+msgstr "Erzwinge Aktualisierung der Vega-Konfiguration"
+
+msgid ""
+"Forcefully push configuration to Vega gateways. If this option is set then "
+"Pbx Vega module will factory reset vega and push pbx vega module "
+"configuration to vega gateways."
+msgstr ""
+"Drücken Sie die Konfiguration zwangsweise auf Vega-Gateways. Wenn diese "
+"Option aktiviert ist, setzt das Pbx Vega-Modul vega auf die "
+"Werkseinstellungen zurück und überträgt die Konfiguration des pbx vega-"
+"Moduls auf vega-Gateways."
+
+msgid "Framing"
+msgstr "Framing"
+
+msgid "FreePBX Vega Module install done successfully.."
+msgstr ""
+"Die Installation des FreePBX Vega-Moduls wurde erfolgreich durchgeführt."
+
+msgid "Gateway"
+msgstr "Gateway"
+
+msgid "Handle Emergency Calls?"
+msgstr "Notrufe bearbeiten?"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP Assignment"
+msgstr "IP-Zuweisung"
+
+msgid "ISDN Ports"
+msgstr "ISDN Ports"
+
+msgid "Interface"
+msgstr "Schnittstelle"
+
+msgid "LAN "
+msgstr "LAN "
+
+msgid "Lan"
+msgstr "Lan"
+
+msgid "Line Encoding"
+msgstr "Zeilendecodierung"
+
+msgid "Mac"
+msgstr "Mac"
+
+msgid "Model"
+msgstr "Modell"
+
+msgid "NT?"
+msgstr "NT?"
+
+msgid "NTP TIME Server"
+msgstr "NTP TIME Server"
+
+msgid "Netmask"
+msgstr "Netzmaske"
+
+msgid "Network Scan "
+msgstr "Netzwerkscan "
+
+msgid "Network Topology"
+msgstr "Netzwerktopologie"
+
+msgid "Network Topology E1 or T1 "
+msgstr "Netzwerktopologie E1 oder T1 "
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Numeric Caller ID"
+msgstr "Numerische Anrufer-ID"
+
+msgid "Numeric Caller ID Can not be empty"
+msgstr "Numerische Anrufer-ID Kann nicht leer sein"
+
+msgid "Numeric Caller ID Should be Numeric"
+msgstr "Die numerische Anrufer-ID sollte numerisch sein"
+
+msgid "OFF"
+msgstr "AUS"
+
+msgid "ON"
+msgstr "AN"
+
+msgid "PBX Extensions"
+msgstr "PBX Nebenstellen"
+
+msgid "PJSIP"
+msgstr "PJSIP"
+
+msgid ""
+"Pbx Vega module use ssh to communicate to vega. Please enter Vega SSH port "
+"(default:22), If behind NAT then port which is getting forwarded to Vega SSH "
+"port (default:22)"
+msgstr ""
+"Das Pbx Vega-Modul verwendet ssh, um mit vega zu kommunizieren. Bitte geben "
+"Sie den Vega SSH-Port ein (Standard: 22). Wenn sich hinter NAT befindet, "
+"wird der Port an den Vega SSH-Port weitergeleitet (Standard: 22)"
+
+msgid ""
+"Please Note: Subnet needs to be local to the PBX. MAC addresses are not "
+"routable <br/> Network scan will only display Vega gateways "
+msgstr ""
+"Bitte beachten Sie: Das Subnetz muss lokal zur TK-Anlage sein. MAC-Adressen "
+"sind nicht routingfähig <br/> Beim Netzwerkscan werden nur Vega-Gateways "
+"angezeigt "
+
+msgid "Please Select a Extension"
+msgstr "Bitte wählen Sie eine Nebenstelle"
+
+msgid "Please Select a Trunk"
+msgstr "Bitte wählen Sie einen Trunk"
+
+msgid "Please ensure that Vega ssh port (22) is exposed and accessible to pbx"
+msgstr ""
+"Bitte stellen Sie sicher, dass der Vega ssh-Port (22) für pbx frei und "
+"zugänglich ist"
+
+msgid "Please enter new Admin login password(If you want to change password ) "
+msgstr ""
+"Bitte geben Sie ein neues Admin-Login-Passwort ein (wenn Sie das Passwort "
+"ändern möchten) "
+
+msgid "Please enter new password before submitting update password"
+msgstr ""
+"Bitte geben Sie ein neues Passwort ein, bevor Sie das Update-Passwort senden"
+
+msgid ""
+"Please note: Changing SIP driver will reset all extensions and trucks "
+"already selected"
+msgstr ""
+"Bitte beachten Sie: Durch Ändern des SIP-Treibers werden alle bereits "
+"ausgewählten Nebenstellen und Trunks zurückgesetzt"
+
+msgid "Please select a DID to accept the calls from FXO port"
+msgstr "Bitte wählen Sie eine DID aus, um die Anrufe vom FXO-Port anzunehmen"
+
+msgid "Preferred DNS Server"
+msgstr "Bevorzugter DNS-Server"
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "Provisioning Protocol"
+msgstr "Bereitstellungsprotokoll"
+
+msgid "Provisioning Protocol for Vega "
+msgstr "Bereitstellungsprotokoll für Vega "
+
+msgid "Quick Vega Add"
+msgstr "Schnelles Vega Hinzufügen"
+
+msgid "Restore vega Config File"
+msgstr "Vega Configdatei wiederherstellen"
+
+msgid "Route Numbers Can not be empty"
+msgstr "Routennummern können nicht leer sein"
+
+msgid "Running Firmware"
+msgstr "Firmware ausführen"
+
+msgid "Running Vega Hooks"
+msgstr "Führe Vega Hooks aus"
+
+msgid "SIP Driver"
+msgstr "SIP-Treiber"
+
+msgid "SIP Trunk"
+msgstr "SIP Trunk"
+
+msgid "SIP Trunk to connect with Vega."
+msgstr "SIP-Trunk zur Verbindung mit Vega."
+
+msgid "Scan this Subnet(x.x.x.x/x):"
+msgstr "Scanne dieses Subnetz (x.x.x.x/x):"
+
+msgid "Select"
+msgstr "Wählen"
+
+msgid ""
+"Select SIP Driver either PJSIP or ChanSIP. Mixing of Pjsip and chansip is "
+"not supported right now in Vega gateways."
+msgstr ""
+"Wählen Sie den SIP-Treiber entweder PJSIP oder ChanSIP. Das Mischen von "
+"Pjsip und Chansip wird derzeit in Vega-Gateways nicht unterstützt."
+
+msgid "Start Scan"
+msgstr "Scan starten"
+
+msgid "Static"
+msgstr "Statisch"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Submit Vega Config"
+msgstr "Sende Vega Config"
+
+msgid "TFTP"
+msgstr "TFTP"
+
+msgid "Telephone Connections"
+msgstr "Telefonverbindungen"
+
+msgid "Telephone number(s) to route to the FXO interface"
+msgstr "Telefonnummer(n) zum Weiterleiten an die FXO-Schnittstelle"
+
+msgid "Textual Caller ID"
+msgstr "Textuelle Anrufer-ID"
+
+msgid ""
+"The time in seconds that FreePBX will cache Vega gateways status. Default to "
+"5 min."
+msgstr ""
+
+msgid ""
+"The time in seconds that FreePBX will wait for Vega gateways to respond for "
+"any request. Default to 5 sec."
+msgstr ""
+
+msgid "This module is used to configure and manage Vega gateways"
+msgstr ""
+
+msgid "This screen provides a way to store multiple Vega firmware versions."
+msgstr ""
+
+msgid "Tone Based Disconnect"
+msgstr "Tonbasierte Trennung"
+
+msgid "Tone based call disconnect "
+msgstr "Tonbasierte Anruftrennung "
+
+msgid "Update Password"
+msgstr "Kennwort aktualisieren"
+
+msgid "Upgrade Firmware"
+msgstr "Firmware upgraden"
+
+msgid "Upload"
+msgstr "Hochladen"
+
+msgid ""
+"Upload Only FreePBX genereated Vega config file.(This option allow user to "
+"Restore the downloaded Configuration file) "
+msgstr ""
+"Nur von FreePBX generierte Vega-Konfigurationsdatei hochladen. (Mit dieser "
+"Option kann der Benutzer die heruntergeladene Konfigurationsdatei "
+"wiederherstellen.) "
+
+msgid "Upload Vega Firmware(.bin file only) "
+msgstr "Laden Sie die Vega-Firmware hoch (nur .bin-Datei) "
+
+msgid "Upload Vega firmware .bin file only and max size of 8MB"
+msgstr ""
+"Laden Sie nur die Vega-Firmware-Bin-Datei und eine maximale Größe von 8 MB "
+"hoch"
+
+msgid "Vega"
+msgstr ""
+
+msgid "Vega Access Timeout"
+msgstr ""
+
+msgid "Vega Config Submit"
+msgstr "Vega Config senden"
+
+msgid "Vega Dashboard"
+msgstr "Vega Dashboard"
+
+msgid "Vega Firmware Management "
+msgstr "Vega Firmware Management "
+
+msgid "Vega Firmware Management Process ?"
+msgstr "Vega Firmware Management Prozess?"
+
+msgid "Vega Firmware Upload"
+msgstr "Vega Firmware Upload"
+
+msgid "Vega Firmware not selected.. Please select Vega firmware"
+msgstr "Vega-Firmware nicht ausgewählt. Bitte wähle eine Vega-Firmware"
+
+msgid "Vega GW will reboot automatically if there is change in static ip"
+msgstr ""
+"Vega GW wird automatisch neu gestartet, wenn sich die statische IP ändert"
+
+msgid "Vega Gateway Hostname"
+msgstr "Vega Gateway Hostname"
+
+msgid "Vega Gateway IP"
+msgstr "Vega Gateway IP"
+
+msgid "Vega Gateway Management"
+msgstr ""
+
+msgid "Vega Gateway SIP Rx Port"
+msgstr "Vega Gateway SIP Rx Port"
+
+msgid "Vega Gateway SSH Port"
+msgstr "Vega Gateway SSH Port"
+
+msgid "Vega Gateway User login ..."
+msgstr "Vega Gateway Benutzer Login ..."
+
+msgid "Vega Gateway User login Password..."
+msgstr "Vega Gateway Benutzer Login Passwort ..."
+
+msgid "Vega IP "
+msgstr "Vega IP "
+
+msgid "Vega IP Address Type"
+msgstr "Vega IP-Adresstyp"
+
+msgid "Vega IP can not be blank!"
+msgstr "Vega IP darf nicht leer sein!"
+
+msgid ""
+"Vega IP type , External if given ip is public IP or behind NAT or Lan if "
+"Vega is connected to local lan"
+msgstr ""
+"Vega IP-Typ, Extern, wenn die IP eine öffentliche IP ist, oder hinter NAT "
+"oder Lan, wenn Vega mit dem lokalen LAN verbunden ist"
+
+msgid "Vega Login Password"
+msgstr "Vega Login Passwort"
+
+msgid "Vega Login User "
+msgstr "Vega Login Benutzer "
+
+msgid "Vega Model"
+msgstr "Vega Modell"
+
+msgid "Vega Password Change"
+msgstr "Vega Passwortänderung"
+
+msgid "Vega Rx Sip Port"
+msgstr "Vega Rx Sip Port"
+
+msgid "Vega SSH Port"
+msgstr "Vega SSH Port"
+
+msgid "Vega Serial"
+msgstr "Vega Serial"
+
+#, php-format
+msgid "Vega configuration syncing already done\n"
+msgstr "Vega Konfigurationssynchronisierung ist bereits abgeschlossen\n"
+
+#, php-format
+msgid "Vega configuration syncing done\n"
+msgstr "Vega Konfigurationssynchronisierung abgeschlossen\n"
+
+#, php-format
+msgid ""
+"Vega configuration syncing failed, gateway not found against vegaid(%d) \n"
+msgstr ""
+"Synchronisierung der Vega-Konfiguration fehlgeschlagen, Gateway für vegaid "
+"nicht gefunden (%d) \n"
+
+#, php-format
+msgid "Vega configuration syncing failed..going to retry again..\n"
+msgstr ""
+"Die Synchronisierung der Vega-Konfiguration ist fehlgeschlagen. Es wird "
+"erneut versucht.\n"
+
+msgid "Vega firmware download failed as download file not present...\n"
+msgstr ""
+"Vega-Firmware-Download fehlgeschlagen, da Download-Datei nicht vorhanden "
+"ist ...\n"
+
+#, php-format
+msgid "Vega gateway (ip:%s, mac:%s) already configured.."
+msgstr "Vega Gateway (IP:%s, Mac:%s) bereits konfiguriert."
+
+#, php-format
+msgid "Vega gateway (ip:%s,mac:%s) deleted successfully"
+msgstr "Vega-Gateway (IP:%s, Mac:%s) erfolgreich gelöscht"
+
+#, php-format
+msgid "Vega gateway Add request returning success for vega(ip:%s, mac:%s) "
+msgstr ""
+"Vega-Gateway Anfrage hinzufügen, die Erfolg für Vega zurückgibt (IP:%s, Mac:"
+"%s) "
+
+msgid "Vega login password can not be blank!"
+msgstr "Vega Login Passwort darf nicht leer sein!"
+
+msgid "Vega login user can not be blank!"
+msgstr "Vega Login Benutzer kann nicht leer sein!"
+
+msgid "Visual Message Waiting Indication"
+msgstr "Visuelle Message Waiting Indication"
+
+msgid "Visual message waiting indication"
+msgstr "Visuelle Message Waiting Indication"
+
+msgid "VoIP"
+msgstr "VoIP"
+
+msgid ""
+"WARNING: Sysadmin module is not installed..required to run TFTP provisioning "
+"protocol.."
+msgstr ""
+"WARNUNG: Das Sysadmin-Modul ist nicht installiert. Zum Ausführen des TFTP-"
+"Bereitstellungsprotokolls erforderlich."
+
+msgid "What is "
+msgstr "Was ist "
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid ""
+"You can save or delete Vega firmware images from here. This will help to "
+"keep multiple firmwares to choose one while upgrading vega firmware."
+msgstr ""
+
+#, php-format
+msgid "vega_exe_cli_cmd: Invalid optype(%s) "
+msgstr "vega_exe_cli_cmd: Ungültiger Optype (%s) "
+
+#, php-format
+msgid ""
+"vega_exe_cli_cmd: vega(%s:%s), optype(%s), cmd(%s:%s) executed successfully"
+msgstr ""
+"vega_exe_cli_cmd: vega (%s:%s), optype (%s), cmd (%s:%s) erfolgreich "
+"ausgeführt"
+
+#, php-format
+msgid ""
+"vega_exe_cli_cmd: vega(%s:%s), optype(%s), cmd(%s:%s),\n"
+" resp(http:%d,body:%s) "
+msgstr ""
+"vega_exe_cli_cmd: vega (%s:%s), optype (%s), cmd (%s:%s),\n"
+"  resp (http:%d, body:%s) "
+
+#, php-format
+msgid "vegaid:%d, tableid=%d, key=%s val=%s newval=%s) "
+msgstr "vegaid:%d, tableid =%d, key =%s val =%s newval =%s) "
+
+#~ msgid "This will provides way to store multiple Vega firmware versions"
+#~ msgstr ""
+#~ "Auf diese Weise können mehrere Vega-Firmware-Versionen gespeichert werden"
+
+#~ msgid ""
+#~ "You can save or delete vega firmwares images from here. This will help to "
+#~ "keep multiple firmwares to choose one while upgrading vega firmware."
+#~ msgstr ""
+#~ "Hier können Sie vega firmwares Bilder speichern oder löschen. Dies hilft "
+#~ "dabei, mehrere Firmwares zu behalten, um beim Upgrade der vega-Firmware "
+#~ "eine auszuwählen."
+
+#~ msgid "Failed to run vega-bridge hook ..\n"
+#~ msgstr "Vega-Bridge-Haken konnte nicht ausgeführt werden..\n"

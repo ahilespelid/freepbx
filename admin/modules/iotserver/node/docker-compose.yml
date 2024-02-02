@@ -1,0 +1,27 @@
+---
+skeleton_app:
+    entrypoint: /usr/src/app/docker-entrypoint.sh
+    command: [ "node", "server.js" ]
+    image: ${REGISTRY}/${DOCKER_REPO_NAME}
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: sangoma
+      MYSQL_PASSWORD: sangomaftw!
+      MYSQL_DATABASE: skeleton_app_test
+    volumes:
+      - ./build:/usr/src/app/build
+      - ~/.aws:/home/node/.aws
+    links:
+      - mysql
+    ports:
+      - 3000:3000
+
+mysql:
+    image: mariadb:5.5.58
+    environment:
+      MYSQL_ROOT_PASSWORD: sangomaftw!
+      MYSQL_DATABASE: skeleton_app_test
+      MYSQL_USER: sangoma
+      MYSQL_PASSWORD: sangomaftw!
+    volumes:
+      - ./my.cnf:/etc/mysql/conf.d/my.cnf

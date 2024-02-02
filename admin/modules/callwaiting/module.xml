@@ -1,0 +1,35 @@
+<module>
+	<rawname>callwaiting</rawname>
+	<repo>standard</repo>
+	<name>Call Waiting</name>
+	<description>Provides an option to turn on/off call waiting</description>
+	<category>Applications</category>
+	<more-info>https://wiki.freepbx.org/display/FPG/Call+Waiting+Module</more-info>
+	<version>15.0.4.6</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<changelog>
+		*15.0.4.6* FREEI-3608 whoops error on rebuild 
+		*15.0.4.5* FREEI-3571 Add getWidgetListByModule method callwaitign module 
+		*15.0.4.4* Packaging of ver 15.0.4.4
+		*15.0.4.3* Packaging of ver 15.0.4.3
+		*15.0.4.2* FREEI-767 Restoring FPBX 15 Backup to FPBX 15 system is disabling Call Waiting on extensions 
+		*15.0.4* fixing legacy restore
+		*15.0.3* Rest Api
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Impliment Backup
+		*14.0.1.1* UCP fixes and updates
+		*14.0.1* UCP 14
+	</changelog>
+	<hooks>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Callwaiting">bulkhandlerGetHeaders</method>
+			<method callingMethod="export" class="Callwaiting">bulkhandlerExport</method>
+			<method callingMethod="import" class="Callwaiting">bulkhandlerImport</method>
+		</bulkhandler>
+	</hooks>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

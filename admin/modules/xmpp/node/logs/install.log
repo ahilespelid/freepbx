@@ -1,0 +1,12 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/xmpp/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/xmpp/node/package.json: 809faa2efae9468cbd25ba8ed9f029dd
+[npm-cache] [INFO] [npm] cache exists
+[npm-cache] [INFO] [npm] clearing installed dependencies at /var/www/html/admin/modules/xmpp/node/node_modules
+[npm-cache] [INFO] [npm] ...cleared
+[npm-cache] [INFO] [npm] retrieving dependencies from /home/asterisk/.package_cache/npm/5.6.0/809faa2efae9468cbd25ba8ed9f029dd.tar.gz
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/xmpp/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] done extracting
+[npm-cache] [INFO] successfully installed all dependencies

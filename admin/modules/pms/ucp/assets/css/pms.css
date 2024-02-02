@@ -1,0 +1,210 @@
+//Compiled CSS
+
+@CHARSET "UTF-8";
+ /* unvisited link */
+a {
+	text-decoration:none;
+    color: black;
+}
+a:link {
+	text-decoration:none;
+    color: black;
+}
+
+/* visited link */
+a:visited {
+	text-decoration:none;
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration:none;
+    color: black;
+}
+
+/* selected link */
+a:active {
+	text-decoration:none;
+    color: black;
+}
+
+.tac {
+	text-align:center;
+}
+
+.tal {
+	text-align:left;
+}
+
+.tar {
+	text-align:right;
+}
+
+.underline_tt {
+	border-bottom: 2px solid lightblue;
+}
+
+.nobd_top {
+	border-top: none;
+}
+
+.hidden_full {
+	visibility: hidden; 
+	display: none;
+}
+.backg {
+	background: white;
+}
+
+.nav {
+	background: #D7EBF9;
+}
+
+.fpbx_bg_menu {
+	background: #D7EBF9;
+	font-weight: bold;
+    border-radius: 7px;
+}
+
+.fpbx_corner {
+	background: #FFFFFF;
+    border-radius: 15px;
+	border: 2px solid;
+	border-color: #D7EBF9;
+
+}
+
+.small_content {
+	font-size: 11px;
+}
+
+.bg-white {
+	background: #FFFFFF;
+}
+
+.logo {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	align: midle;
+}
+
+.red {
+	background: red;
+	color: white;
+}
+
+.table-borderless td,table.borderless th{
+     border: none !important;
+}
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	@page { size: auto;  
+			margin: 0mm; 
+	}
+	body {  margin: 0mm; 
+			overflow: visible;
+	}
+	body * {
+			overflow: visible;
+			margin: 0mm;
+			visibility:hidden;
+
+	}
+	.page-break	{ display: block; page-break-before: always; }
+	  #printSection, #printSection * {
+				visibility:visible;
+	  }
+  
+  #printSection {
+			position:absolute;
+			left:0;
+			top:0;
+  }
+    
+
+}
+
+.para {
+    font-size:x-large;
+    height:3000px;
+}
+
+.bg_booking {
+	background: #6224E5 !important;
+	background-color: #6224E5 !important;
+}
+
+.bg_busy {
+	background: #2ECE83 !important;
+	background-color: #2ECE83 !important;
+
+}
+
+.w100 {
+	width: 100px;
+}
+
+.ui-tooltip {
+    white-space: pre-line;
+	text-align:left;
+}
+
+.grid_tooltip {
+  radius: 5px !important;
+  white-space: pre-line;
+  background-color: black;
+  color: white !important;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 50px;
+  text-align: left;
+  font: bold 14px ;
+  font-stretch: condensed;
+  text-decoration: none;
+  box-shadow: 0 0 5px black;
+}
+
+.room_list {
+  font-family: 'FontAwesome', 'sans-serif' !important;
+}
+
+.room_list option, .room_list select{
+  font-family: 'FontAwesome', 'sans-serif' !important;
+}
+
+.btn-group > .btn a{
+	color: #0F5A59 !important;
+}
+
+.btn-group > .btn.active a {
+	color: white !important;
+}
+
+.btn-group > .btn:active
+{
+  color: #0F5A59 !important;
+  background-color: #4C9471 !important;
+}
+
+.btn-group > .btn.active
+{
+  color: white !important;
+  background-color: #4C9471 !important;
+}
+
+.btn-group > .btn.first{
+	border-top-left-radius: 5px 5px !important;
+	border-bottom-left-radius: 5px 5px !important;
+}

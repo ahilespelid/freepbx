@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f /tmp/iptables-save-output
+/sbin/iptables-save -c > /tmp/iptables-save-output 2>&1
+

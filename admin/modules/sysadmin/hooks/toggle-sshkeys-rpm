@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# This will install the 'ssh_keys' rpm if not installed, or
+# remove it if it is installed.
+
+rpm -q ssh_keys > /dev/null 2>&1
+STATUS=$?
+
+if [ $STATUS == 0 ]; then
+  # It's installed. Remove it
+  yum -y remove ssh_keys > /dev/null 2>&1
+else
+  # It's not installed.
+  rm -f /tmp/ssh-install-log
+  yum -y install ssh_keys > /tmp/ssh-install-log 2>&1
+fi

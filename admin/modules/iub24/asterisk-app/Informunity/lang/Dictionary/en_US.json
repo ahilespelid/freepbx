@@ -1,0 +1,845 @@
+{
+  "Help": {
+    "sections": {
+      "network": {
+        "title": "System requirements",
+        "access_rules": {
+          "headers": {
+            "from": "From",
+            "to": "Where",
+            "port": "Port",
+            "protocol": "Protocol"
+          },
+          "lines": {
+            "0": {
+              "from": "FreePBX",
+              "to": "informunity.b24.link",
+              "port": "443",
+              "protocol": "https"
+            },
+            "1": {
+              "from": "FreePBX",
+              "to": "“Bitrix24 address”:address",
+              "port": "“Bitrix24 address”:port",
+              "protocol": "http/https"
+            },
+            "2": {
+              "from": "FreePBX",
+              "to": "oauth.bitrix.info",
+              "port": "443",
+              "protocol": "https"
+            },
+            "3": {
+              "from": "informunity.b24.link",
+              "to": "FreePBX",
+              "port": "“FreePBX address”:port",
+              "protocol": "http/https"
+            },
+            "4": {
+              "from": "informunity.b24.link",
+              "to": "“Bitrix24 address”:address",
+              "port": "“Bitrix24 address”:port\t",
+              "protocol": "http/https"
+            }
+          },
+          "annotation": {
+            "0": "FreePBX server must have continuous access to informunity.b24.link:443.",
+            "1": "FreePBX server must have continuous access to Bitrix24 portal, which address is indicated in \"Bitrix24 address\" field.",
+            "2": "informunity.b24.link must have recurring (once a day) access to 443 port via FQDN address of Bitrix24 portal.",
+            "3": "FreePBX server must be permanently available via address, indicated in the \"FreePBX address\" field for <b>informunity.b24.link</b>  (34.252.155.135; 195.201.40.10; 54.220.234.168)."
+          }
+        },
+        "example": {
+          "strings": {
+            "0": "If you use the Firewall module, it’s necessary to add informunity.b24.link as a trusted host",
+            "1": {
+              "title": "Example for Linux-iptables boundary Firewall:",
+              "lines": {
+                "0": {
+                  "label": "External address of boundary Firewall",
+                  "val": "177.177.177.177"
+                },
+                "1": {
+                  "label": "Internal address of FreePBX server:",
+                  "val": "10.0.4.2"
+                },
+                "2": {
+                  "label": "In the module settings it is required to set the following:",
+                  "val": "http://177.177.177.177:80"
+                }
+              },
+              "annotation": {
+                "0": "In Firewall settings configure the following:<br> <code>iptables -t nat -A PREROUTING -i eth0 -s 54.220.234.168/32 -p tcp -d 177.177.177.177/32 --dport 80 -j DNAT --to-destination 10.0.4.2:80</code>"
+              }
+            }
+          }
+        }
+      },
+      "registration": {
+        "title": "Registration",
+        "strings": {
+          "0": "Before the registration, we recommend to set up a special user account (for example, PBX) with administrator rights and proceed the registration process on behalf of this account. As a result, you avoid two problems:",
+          "1": {
+            "list": {
+              "0": "A priori the entities are created in the name of the user who registered the module in Bitrix24. Using a special account helps to avoid mess while creating and changing the entities.",
+              "1": "The user whose account is used for module registration must have the administrator rights for CRM, Tasks, Open lines, Users, Telephony, Disk, Chat, and notifications. If the rights are changed, the module can stop working correctly. To avoid this, we recommend creating user account with all listed rights."
+            }
+          },
+          "2": "<b class=\"red--text\">!</b>Before registration make sure that the Integration with Asterisk app is installed in your Bitrix24.",
+          "3": "To register the module, fill in the Bitrix24 address and FreePBX address fields, click the GET APPLICATION CODE button and wait for the additional browser window to appear.",
+          "4": "In the Access Code field, enter the received code, and log in to Bitrix24 as an administrator, if it is necessary.<br> Then click Apply",
+          "5": "As result, the screen should refresh and display the registration data",
+          "6": "<b>The app's payment status</b> — payment status of the app.<br><b>License active till</b> — the date till the license is active.<br><b>Users with extensions</b> — the number of Bitrix24 users for whom the internal number is pointed in the Bitrix24 settings."
+        }
+      },
+      "settings": {
+        "title": " Settings",
+        "strings": {
+          "0": "The Settings panel makes settings related to the operation of the whole module.",
+          "1": "<b>Download log</b> — here you can choose and download a log file from the server. If you use FreePBX Distro, the full file contains the log for the current day, while files with dates contain the logs for the day previous to the indicated date in their names.",
+          "2": "<b>Clear Cache</b> — allows clearing cache in Asterisk. Having changed the telephony settings on the side of the Bitrix24 portal, it is necessary to clear the cache in the integration module. Click the Clear Cache button and wait for the message Complete. The cache is cleared automatically once a day.",
+          "3": "<b class=\"blue--text\">Tests</b><br>&emsp;<b>Check Card Opening</b> here you can perform a test call registration and watch card representation.",
+          "4": "<b class=\"blue--text\">Recordings</b> — in this section, you can choose the format of the conversation recording for further attachment to Bitrix<br>&emsp;<i>mp3 (Mono)</i> — convert wav to mp3 and transmit records to Bitrix24(**Doesn't work with the WAV audio recording storage format)<br>&emsp;<i>mp3 (Stereo)</i> — the record is not related to the FreePBX settings. The client's voice goes to channel #1, the operator's voice goes to channel #2.<br>&emsp;<i>Don't attach records</i> — don't transmit records.<br>&emsp;<i>Links to records</i> — allows automatically adding links to call records from FreePBX to the entity description. If you do not see the Yes option, it means that it is not possible to add links given the chosen records format.<br>",
+          "5": "<b class=\"blue--text\">Handlers</b> — a section for managing the condition of Bitrix handlers<br>&emsp;<i><b>Click to Call</b></i> — Click to Call allows making requests to the PBX for placing a call. With the Click to Call handler, the call will come first to the internal number, and secondly, when the phone pen is picked up, it will be sent to the destination user. <br>&emsp;<i><b>Call Back</b></i> — Call Back allows making requests for a callback from the site widget.",
+          "6": "<b>Auto Answer Click To Call</b> — if Yes, the call will be automatically picked up on the extension. (This setting works only with the hardware that supports auto-answer function when receiving a specific SIP-header.)",
+          "7": "<b class=\"blue--text\">Other settings</b><br>&emsp;<b>Request Timeout, sec.</b> —  lets you set the maximum time that the module takes to wait after sending a request to Bitrix24 and/or to the license server. If requests to the portal do not return results by timeout, the first thing to do is to check the response time of the DNS-server that it takes convert the name to IP. Or you can register your Bitrix24 address and informunity.b24.link to /etc/hosts. The maximum possible value of this field sets only in case of an extremely slow network connection.<br>&emsp;<b>Identify the region for Russia</b> — allows changing the Lead's or Contact's address by phone number. This option works only on the territory of the Russian Federation."
+        }
+      },
+      "routingPoints": {
+        "title": "Routing points",
+        "strings": {
+          "0": "<p>This panel allows creating dial plan elements that later can be used as destinations in other modules and FreePBX routes. To register the incoming calls in Bitrix24, you need not only to configure the elements, but also to include them in the incoming routes.</p>",
+          "1": "<p>Click \"+\" to add a direction element. You will see the settings window.</p>",
+          "2": "<b>Description</b> — set the destination name.<br>&emsp;<b>Use for IVR</b> — this setting expands the capabilities of the Direct Dial function set for the standard IVR and allows registering calls to extensions. To set it up, select one or several IVRs that you want to enable this setting for. In this case, the Destination for Registered Callers and Destination settings do not apply. If a call is routed to an extension from the Exceptions list, it will not be registered.",
+          "3": "<b class=\"blue--text\">Registration settings</b> — settings that affect call logging in Bitrix24.<br>&emsp;<b>Create Lead</b> —  select Yes to create a lead or a deal at the moment of the call in case there is no registered lead, contact, or deal with this phone number in CRM.<br>&emsp;<b>Add to chat</b> — here you can choose which calls must be displayed in the chat list: no calls at all, only unanswered, or all calls.<br>&emsp;<b>Default User</b> — set the manager who will be responsible for all calls at the moment of their coming. If the call is not taken, the Default User becomes responsible for it. If the call is taken, the responsible person for it is the last person who speaks with the client.<br>&emsp;<b>Call Registration Priority</b> — Set a successive priority that will guide choosing a CRM entity for registering the info about calls. If the field says Default, the entities are selected following the default scenario set by Bitrix24. By setting your sequence, you abandon the default scenario.<br><br>How it works. Let say, you want to attach the info about calls to the Contact entity, provided the caller's number has already been registered in one or more CRM entities.<br>By setting the priority Contact → Company → Lead, you set the following scenario:",
+          "4": {
+            "list": {
+              "0": "First, the integration module asks Bitrix24 for a list of entities that are associated with the caller's number",
+              "1": "Then, if the Contact is in the list, the information about the call is attached to the Contact.",
+              "2": "If there is no Contact, the call is attached to the Company.",
+              "3": "If there is no Company, the call is attached to the Lead.",
+              "4": "If the Lead is absent as well, the system creates a new Lead following the standard scenario."
+            }
+          },
+          "5": "Since by canceling the default logic inherent in Bitrix24, we increase the number of requests made to look for the needed entity, the time the client spends waiting on the line may slightly increase.",
+          "6": "<b>Source</b> — specify the source of the call from the Bitrix24 directory. The list of sources is configured in Bitrix24 itself. You can use this option to identify various ad campaigns in case you use different phone numbers. (The source is assigned once — when creating a lead or a deal.)<br>&emsp;<b>CallerID</b> — allows to convert the caller's CallerID to the required format. Changes the CallerID only as part of the call registration. Default value: <i>${CALLERID(num)}</i>",
+          "7": "<b class=\"blue--text\">Call settings</b> — actions generated after the end of the call.<br>&emsp;<b>Show Card</b> — activate it to represent the card in Bitrix24 when a call is received.<br>&emsp;<b>Show Caller Name</b> — activate it if you want the name of the lead or contact from the CRM to be appearing on the phone / softphone when a call is received.<br>&emsp;<b>Change responsible for the lead</b> — аactivate it if you want the person responsible for the lead changed every time you respond.<br>&emsp;<b>Exceptions</b> — select a list of users for whom calls will not be registered and for whom call cards will not be displayed (the content of the lists is configured in the Exceptions panel).",
+          "8": "<b class=\"blue--text\">After call actions</b> — settings considered during the call.<br>&emsp;<b>Assign to Unanswered Call</b> — choose who will be responsible for a missed call if the lead, contact, or deal with the same number already registered in CRM: Default User or Assigned Manager. If the CRM does not have a lead, contact, or deal with such a phone number, the call will be registered to the Default User.<br>&emsp;<b>Create Task On Unanswered Call</b> — optionally you can choose a template for making tasks in case of missed calls. If this is not necessary, leave Disabled. (The task templates are configured in the Tasks panel.)<br>&emsp;<b>Assessment of service</b> — activate it if you want the subscriber to be asked to rate the quality of service (from zero to five) at the end of the call.<br>&emsp;<b>Initial message</b> — notification before evaluation.<br>&emsp;<b>Final message</b> — notification after evaluation.<br>",
+          "9": "<b class=\"blue--text\">Destination for registered callers</b> — here you can specify the destination for the clients already registered in CRM. This setting works only if there is a lead, contact, or deal with the indicated phone number in CRM. Otherwise, the setting is ignored.",
+          "10": "<b>Destination</b> — you should choose where the call will go: to the responsible manager, internal number, queue, call group, IVR, time conditions...<br>&emsp;<b>Dialing Time</b> —  the time period during which Asterisk will make attempts to reach the manager.",
+          "11": "* If you select Extension & Mobile, the setting is triggered for each call: first, Asterisk will call the extension number for 15 seconds, then to the mobile phone number for the exact same time.<br>",
+          "12": "* If you select a queue, a group call, or an IVR, the call will not return to the destination indicated for this route, but it will go to the Failover Destination.",
+          "13": "<b class=\"blue--text\">Regular destination</b> — destination for the call after its registration in Bitrix24.<br>"
+        }
+      },
+      "outboundRoutes": {
+        "title": "Outbound Routes",
+        "strings": {
+          "0": "This panel displays existing outbound routes. To register outgoing calls in Bitrix24, you need to activate the integration on the needed route. On routes marked as Intra-Company, the integration is activated automatically, and calls coming to this route are considered internal.",
+          "1": "ЧTo activate an outgoing route, click Edit in the Actions section (the Delete button is used to reset the integration settings on this route).",
+          "2": "<b>Description</b> — unchangeable field. <br>&emsp;<b>Status</b> — activate it to enable it on this route.",
+          "3": "<b class=\"blue--text\">Registration settings</b> — settings that affects call registration in Bitrix24.<br>&emsp;<b>Create Lead</b> — select Yes to create a lead or a deal during making a call in case of absence of registered lead, contact, or deal with this phone number in CRM.<br>&emsp;<b>Call Registration Priority</b> —  Set a successive priority that will guide choosing a CRM entity for registering the info about calls. If the field says Default, the entities are selected following the default scenario set by Bitrix24. By setting your sequence, you abandon the default scenario.<br><br>How it works. For example, you want to add the info about calls to the Contact entity, on condition the caller's number has already been registered in one or more CRM entities.<br>By setting the priority Contact → Company → Lead, you set the following scenario:",
+          "4": {
+            "lines": {
+              "0": "First, the integration module asks Bitrix24 for a list of entities for whom the caller's number is attached.",
+              "1": "Then, if the Contact is in the list, the information about the call is attached to the Contact.",
+              "2": "If there is no Contact, the call is attached to the Company.",
+              "3": "If there is no Company, the call is attached to the Lead.",
+              "4": "If the Lead is absent as well, the system creates a new Lead following the standard scenario."
+            }
+          },
+          "5": "Since by canceling the default logic inherent in Bitrix24, we increase the number of requests made searching for the needed entity, the time the client spends waiting on the line may slightly increase.",
+          "6": "<b>Source</b> — specify the source of the call from the Bitrix24 directory. The list of sources is configured in Bitrix24 itself. You can use this option to identify various ad campaigns in case you use different phone numbers. (The source is assigned once — when creating a lead or a deal.)<br>&emsp;<b>CallerID</b> — allows to convert the caller's CallerID to the required format. Changes the CallerID only as part of the call registration. Default value: <i>${CALLERID(num)}</i>",
+          "7": "<b class=\"blue--text\">Call settings</b> — settings that are taken into account during the call.<br>&emsp;<b>Show Card</b> — select Yes to display the card in Bitrix24 when making a call.<br>&emsp;<b>Exceptions</b> — select a list of users that do not get assigned with calls and do not receive pop-up call cards (to configure the list, please see the Exceptions panel). Employees from the Exceptions list will not have rights to register the call.",
+          "8": "<b class=\"blue--text\">After call actions</b> — actions generated after the end of the call.<br>&emsp;<b>Assessment of service</b> — if Yes, upon the end of the call, the client will be offered to assess the quality of service (from 0 to 5).<br>&emsp;<b>Initial message</b> — voice greeting before assessment.<br>&emsp;<b>Final message</b> — voice message after assessment.<br>"
+        }
+      },
+      "uponacall": {
+        "title": "Registration Upon The Call",
+        "strings": {
+          "0": "<p>“Registration during the call allows you to configure transferring data to Bitrix24 just during the conversation by pressing the key combination \"#3\". The combination can be edited in the control menu, Feature Codes.</p>",
+          "1": "<b class=\"blue--text\">Status</b> — activate to enable the ability to register ",
+          "2": "<b class=\"blue--text\">Call settings</b> — actions generated after the end of the call<br>&emsp;<b>Create Lead</b> — select Yes to create a lead or a deal during a call in case there is no registered lead, contact, or deal with this phone number in CRM.<br>&emsp;<b>Show Card</b> — select Yes to display the card in Bitrix24 during a call.<br>&emsp;<b>Call Registration Priority</b> —  Set a successive priority that will guide choosing a CRM entity for registering the info about calls. If the field says Default, the entities are selected following the default scenario set by Bitrix24. By setting your sequence, you abandon the default scenario.<br><br>How it works. Lets say, you want to fix the info about calls to the Contact entity, provided the caller's number has already been registered in one or more CRM entities.<br>By setting the priority Contact → Company → Lead, you set the following scenario:",
+          "3": {
+            "list": {
+              "0": "First, the integration module asks Bitrix24 for a list of entities for whom  the caller's number is attached.",
+              "1": "Then, if the Contact is in the list, the information about the call is attached to the Contact.",
+              "2": "If there is no Contact, the call is attached to the Company.",
+              "3": "If there is no Company, the call is attached to the Lead.",
+              "4": "If the Lead is absent as well, the system creates a new Lead following the standard scenario."
+            }
+          },
+          "4": "Since by canceling the default logic inherent in Bitrix24, we increase the number of requests made for searching the needed entity, the time the client spends waiting on the line may slightly increase.",
+          "5": "<b>Exceptions</b> — select a list of users that do not get assigned with calls and do not receive pop-up call cards (to configure the list, please see the Exceptions panel). Employees from the Exceptions list will not have rights to register the call. \"<br>&emsp;<b>Assessment of service</b> —  if Yes, at the end of the call, the client will be offered to assess the quality of service (from 0 to 5).<br>&emsp;<b>Initial message</b> — voice greeting before assessment.<br>&emsp;<b>Final message</b> — voice message after assessment.<br>"
+        }
+      },
+      "lines": {
+        "title": "Lines",
+        "strings": {
+          "0": "Line is a phone number displayed in Bitrix24. It is used to determine destinations for outgoing calls. Also, it is used in end-to-end analytics for call tracking set up.",
+          "1": "The 'Used in Outbound Route' section at the Lines panel displays which outgoing route uses this line’s prefix.",
+          "2": "To add a line, click \"<b>+</b>\" at the panel.",
+          "3": "&emsp;<b>DID</b> — enter the DID that receives a call. This parameter can be identified in the incoming call log (variable FROM_DID).<br>&emsp;<b>Number</b> — enter the line number that will be displayed in Bitrix24 telephony and end-to-end analytics.<br>&emsp;<b>Outbound Prefix</b> — in order to make a call from Bitrix24 through a certain line, you need to specify the prefix in dial patterns of the corresponding route in the outgoing routing and specify the same prefix in the Outbound Prefix field.<br>&emsp;<b>Call back destination</b> — destination for the callback from the site widget. For example, the call can be directed to a queue or to an IVR. Initially, you can choose only the default destination. After setting the lines (link), you will be able to assign each line with a particular destination."
+        }
+      },
+      "tasks": {
+        "title": "Task Templates",
+        "strings": {
+          "0": "The templates are used to assign a task to a person responsible for a lead or a contact in case they missed a call.",
+          "1": "You can customize templates for each incoming route.",
+          "2": "To add a task template click \"+\" at the panel.",
+          "3": "&emsp;<b>Task Name</b> — name of the task that will be displayed at the task card. \"<br>\n&emsp;<b>Accomplices</b> — people who help to solve the task.\"<br>\n&emsp;<b>Observers</b> — people you wish to observe the task.\"<br>\n&emsp;<b>Deadline</b> — time limit for the task execution set in hours/days.",
+          "4": "Task templates are selected in the Routing points settings."
+        }
+      },
+      "groups": {
+        "title": "Groups",
+        "strings": {
+          "0": "At this panel, you can create groups of employees that later can be chosen as exceptions so that their members do not participate in the module's work. It means that they will not get assigned with calls and will not receive pop-up call cards.",
+          "1": "To add a group click \"+\" at the panel. It will open the pop-up settings window. ",
+          "2": "&emsp;<b>Description </b> — enter the name of the group. Only you will see it. <br>\n&emsp;<b>Members</b> — select group members",
+          "3": "Group are selected in the 'Routing points', 'Outbound Routes', 'Registration Upon The Call'."
+        }
+      },
+      "bitrixusers": {
+        "title": "Bitrix24 Settings",
+        "strings": {
+          "0": "Make sure to specify the extension numbers for the telephony users. To do it, go to the telephony settings:",
+          "1": "Telephony → Telephony users ",
+          "2": "<i>Click on the three lines to the left of the user name, select Settings and enter the extension corresponding to the PBX number. For Click to Call to work correctly, the default number for outgoing calls should be Application: Integration with Asterisk</i>",
+          "3": "Also, you can set the default number in the general telephony settings:",
+          "4": "As a default number can be tied with a particular line. Make sure to create it beforehand at the Lines panel. "
+        },
+        "pics": {
+          "0": "https://lh3.googleusercontent.com/oy59cgCq1f-lpz58VvIFAvjAeAva-IZdE8uDf2ALBLFkxZohdOsXWo6P0XbkE6VEoiuOi_w84cTxj3_adKmKoL0YubPKb-0xuKV8fA0sK3jSdOI82Yd91oOEOn330x1UMtOHAY5z",
+          "1": "https://lh4.googleusercontent.com/XofRFotW8q3hvjuXD39HH2DbcJLf1eok_ikoyPGnbbKHruHi_OzcP5BTiPVNhu0KkFtEv6Ru-ZUjawmwnBj9a2SnCw-jBfXNRfoieSgpU9DC79iLbTwNdiZfQp8W-r5HWh3oxAEy",
+          "2": "https://lh5.googleusercontent.com/sigP9e9SzrLa5j2fDPyas-z7-RJfT2n7_PzLeNJDBfebl9BI7QkZ21rXiEcnNoczKLIjRraQdk2uvW6fzKAeC_PKB8yXPcyO5atPq-aEa_jBL8BA8pr3pykqJME1XfeKZs9aevOy",
+          "3": "https://lh5.googleusercontent.com/EmUbAW1OBfxxsOEuKjBDCW8xfj4Hbc1FtWsf2cp0BQ6BP1WE5oDSuzpl4CX2ULO4177oJYE8T1qZ2cu6mahq0sei5IT1qrqBGornvqTobV_uk4aa2jVWGGZyd9SYMPk0uR4rFWu1"
+        }
+      }
+    }
+  },
+  "IDest": {
+    "title": "Routing points",
+    "headers": {
+      "id": "ID",
+      "description": "Description",
+      "user_id": "Default user",
+      "used": "From",
+      "destination": "To",
+      "actions": "Actions"
+    },
+    "sets": {
+      "regSet": {
+        "label": "Registration settings",
+        "fields": {
+          "create_lead": {
+            "label": "Create lead"
+          },
+          "default_user_id": {
+            "label": "Default user",
+            "rules": "Default user must be chosen"
+          },
+          "regPriority": {
+            "label": "Call registration priority"
+          },
+          "sources": {
+            "label": "Source"
+          },
+          "modify_number": {
+            "label": "CallerID"
+          }
+        }
+      },
+      "callSet": {
+        "label": "Call settings",
+        "fields": {
+          "show_card": {
+            "label": "Show card"
+          },
+          "show_caller_name": {
+            "label": "Show caller name"
+          },
+          "update_lead": {
+            "label": "Change responsible for",
+            "items": {
+              "no": {
+                "label": "No one"
+              },
+              "lead": {
+                "label": "Lead"
+              },
+              "contact": {
+                "label": "Contact"
+              },
+              "company": {
+                "label": "Company"
+              },
+              "landcontact": {
+                "label": "Lead and Contact"
+              },
+              "landcompany": {
+                "label": "Lead and Company"
+              },
+              "cc": {
+                "label": "Contact and Company"
+              },
+              "all": {
+                "label": "All"
+              }
+            }
+          },
+          "exceptions": {
+            "label": "Exceptions"
+          }
+        }
+      },
+      "afterCall": {
+        "label": "After call finish",
+        "fields": {
+          "add_to_chat": {
+            "label": "Add to chat",
+            "items": {
+              "no": {
+                "label": "No"
+              },
+              "unanswered": {
+                "label": "Unanswered"
+              },
+              "all": {
+                "label": "All"
+              }
+            }
+          },
+          "assign": {
+            "label": "Assign to Unanswered Call",
+            "items": {
+              "assigned_manager": "Assigned Manager",
+              "default_user": "Default user",
+              "last": "User with last phone ring"
+            }
+          },
+          "task_create": {
+            "label": "Create Task On Unanswered Call"
+          },
+          "assessment": {
+            "assessment": "Assessment of service",
+            "greatings": "Initial message",
+            "bye": "Final message"
+          }
+        }
+      },
+      "set_manager": {
+        "label": "Change manager on transfer"
+      },
+      "manager_in_charge": {
+        "label": "Destination for callers in CRM",
+        "fields": {
+          "group": "Group",
+          "destination": "Destination",
+          "timeout": "Dialing timeout"
+        },
+        "placeholder": {
+          "group": "All"
+        },
+        "rules": "Dialing timeout must be set"
+      },
+      "destination": {
+        "label": "Regular destination",
+        "fields": {
+          "group": "Group",
+          "destination": "Destination",
+          "rules": "Destination must be chosen"
+        },
+        "placeholder": {
+          "group": "All"
+        }
+      }
+    },
+    "fields": {
+      "description": {
+        "label": "Description",
+        "rules": "Description must be entered"
+      },
+      "ivr": {
+        "label": "Use for IVR"
+      }
+    },
+    "buttons": {
+      "create": {
+        "label": "Create"
+      },
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    },
+    "msgs": {
+      "destinations_not_used": "Added destinations are not used at any route",
+      "dest_not_exists": "Destination is not exists",
+      "dest_not_configured": "Current destination not configured",
+      "dest_not_used": "Current destination not used"
+    }
+  },
+  "oRoutes": {
+    "title": "Outbound routes",
+    "headers": {
+      "description": "Description",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "sets": {
+      "regSet": {
+        "label": "Registration settings",
+        "fields": {
+          "create_lead": {
+            "label": "Create Lead"
+          },
+          "regPriority": {
+            "label": "Call Registration Priority",
+            "default": "Default",
+            "lcocom": "LEAD > CONTACT > COMPANY",
+            "lcomco": "LEAD > COMPANY > CONTACT",
+            "colcom": "CONTACT > LEAD > COMPANY",
+            "cocoml": "CONTACT > COMPANY > LEAD",
+            "comlco": "COMPANY > LEAD > CONTACT",
+            "comcol": "COMPANY > CONTACT > LEAD"
+          },
+          "sources": {
+            "label": "Source"
+          },
+          "modify_number": {
+            "label": "CallerID"
+          }
+        }
+      },
+      "callSet": {
+        "label": "Call settings",
+        "fields": {
+          "show_card": {
+            "label": "Show Card"
+          },
+          "exceptions": {
+            "label": "Exceptions"
+          }
+        }
+      },
+      "afterCall": {
+        "label": "After call finish",
+        "fields": {
+          "assign": {
+            "label": "Assign to Unanswered Call",
+            "items": {
+              "assigned_manager": "Assigned Manager",
+              "default_user": "Default user"
+            }
+          },
+          "task_create": {
+            "label": "Create Task On Unanswered Call"
+          },
+          "assessment": {
+            "assessment": "Assessment of service",
+            "greatings": "Initial message",
+            "bye": "Final message"
+          }
+        }
+      }
+    },
+    "fields": {
+      "status": {
+        "label": "Status"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "enabled": {
+        "label": "Enabled"
+      },
+      "disabled": {
+        "label": "Disabled"
+      }
+    },
+    "buttons": {
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    },
+    "msgs": {
+      "prefix_not_used": "Prefix not used",
+      "routes_not_configured": "Outbound routes not configured"
+    }
+  },
+  "Lines": {
+    "title": "Lines",
+    "headers": {
+      "number": "Number",
+      "prefix": "Prefix",
+      "used": "Used in Outbound Route",
+      "callback": "Callback Destination",
+      "actions": "Actions"
+    },
+    "fields": {
+      "number": "Number",
+      "prefix": "Prefix",
+      "callback": {
+        "group": "Group",
+        "destination": "Callback Destination",
+        "placeholder": {
+          "group": "All"
+        }
+      }
+    },
+    "buttons": {
+      "create": {
+        "label": "Create"
+      },
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    }
+  },
+  "Tasks": {
+    "title": "Task Templates",
+    "headers": {
+      "templateName": "Template name",
+      "actions": "Actions"
+    },
+    "sets": {
+      "taskN": "Task name",
+      "accomplices": "Accomplices",
+      "observers": "Observers",
+      "deadline": {
+        "label": "Deadline",
+        "rules": "Must be chosen",
+        "deadline_day": {
+          "days": "Days",
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "rules": "Must be chosen"
+        }
+      }
+    },
+    "buttons": {
+      "create": {
+        "label": "Create"
+      },
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    }
+  },
+  "Groups": {
+    "title": "Groups",
+    "headers": {
+      "groupN": "Group name",
+      "actions": "Actions"
+    },
+    "sets": {
+      "groupN": {
+        "label": "Group name"
+      },
+      "users": {
+        "label": "Users"
+      }
+    },
+    "buttons": {
+      "create": {
+        "label": "Create"
+      },
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    }
+  },
+  "RegPanel": {
+    "title": "Registration Data",
+    "sets": {
+      "licInfo": {
+        "label": "License information",
+        "status": {
+          "p": "The app's  payment status"
+        },
+        "active_before": {
+          "p": "License active till"
+        },
+        "users": {
+          "p": "Users with extensions"
+        }
+      },
+      "module": {
+        "label": "Module info",
+        "version": "Version",
+        "buttons": {
+          "download": {
+            "label": "Download"
+          },
+          "upgrade": {
+            "label": "Upgrade"
+          },
+          "close": {
+            "label": "Close"
+          }
+        }
+      }
+    },
+    "fields": {
+      "client_server": {
+        "label": "Bitrix24 address",
+        "rules": {
+          "DOMAIN_REQUIRED": "Bitrix24 domain name is required",
+          "WRONG_DOMAIN": "Wrong domain"
+        }
+      },
+      "ext_address": {
+        "label": "FreePBX address",
+        "rules": {
+          "ADDRESS_REQUIRED": "FreePBX external address is required"
+        }
+      },
+      "curlProxy": {
+        "label": "Proxy address",
+        "rules": {
+          "ADDRESS_REQUIRED": "Proxy address is required"
+        }
+      },
+      "setAccessCode": {
+        "label": "Application Code"
+      }
+    },
+    "buttons": {
+      "getAccessCode": {
+        "label": "Get Application Code"
+      },
+      "apply": {
+        "label": "Apply"
+      }
+    },
+    "msgs": {
+      "CURL_PROXY": "Set FreePBX address. It can't be determinate automatically.",
+      "NOT_REGISTERED": "Module is not registered",
+      "oauth_not_reachable_from_pbx": "Check the network configurations. oauth.bitrix.info must be available via https protocol from your FreePBX server.",
+      "CONTEXT_OVERWRITTEN": "The standard context is overwritten. It can affect the module s functioning.",
+      "PAID_LICENSE_EXPIRED": "Paid license expired",
+      "NO_TIME_LIMIT": "No time limit",
+      "ERROR_CANNOT_GET_FROM_L": "Can not get data from informunity.b24.link.",
+      "DEMO": "Demo",
+      "PAID": "Paid",
+      "SUBSCRIPTION": "SUBSCRIPTION",
+      "CHECK_DOMAIN_LICENSE_L": "Check the network configurations. informunity.b24.link must be available via https protocol from your FreePBX server.",
+      "CHECK_DOMAIN_LICENSE_B": "Check if the domain and/or port is entered correctly. If everything is correct, check the network configurations. Bitrix24 must be available via the indicated protocol and port from the informunity.b24.link.",
+      "CHECK_DOMAIN_FREEPBX_L": "Check if Freepbx address and/or port is entered correctly. If everything is correct, check the network configurations. Freepbx must be available via the indicated protocol and port from the informunity.b24.link.",
+      "I_N_R_FROM_FREEPBX": "Your Bitrix24 address is not reachable from your FreePBX server.",
+      "APP_IS_NOT_IN_BITRIX": "\"Asterisk Integration\" is not installed in your Bitrix24",
+      "SANGOMA_CRM": "Module \"Informunity Bitrix24\" is incompatible with module 'Customer Relationship Management Link'. Disable it with Module Admin!"
+    }
+  },
+  "Settings": {
+    "title": "Settings",
+    "buttons": {
+      "download": {
+        "label": "Download log",
+        "chose": "Chose log file to be Downloaded",
+        "rules": "File must be chosen",
+        "log": "Download",
+        "close": "Close"
+      },
+      "cache": {
+        "label": "Clear cache"
+      },
+      "offlinecalls": {
+        "label": "Register Calls"
+      }
+    },
+    "sets": {
+      "tests": {
+        "label": "Tests",
+        "buttons": {
+          "cardOpen": {
+            "label": "Test call registration",
+            "fields": {
+              "call_type": {
+                "label": "Call Type",
+                "values": {
+                  "inbound": "Inbound call",
+                  "outbound": "Outbound call",
+                  "callback": "Call back"
+                }
+              },
+              "callee": {
+                "label": "Who to show"
+              },
+              "caller_phone_number": {
+                "label": "Who is calling"
+              },
+              "line_number": {
+                "label": "Where the call came / From going out"
+              },
+              "show_card": {
+                "label": "Show Card"
+              },
+              "create_lead": {
+                "label": "Create Lead"
+              }
+            },
+            "buttons": {
+              "run": {
+                "label": "Execute"
+              },
+              "close": {
+                "label": "Close"
+              }
+            }
+          }
+        }
+      },
+      "rec": {
+        "label": "Recordings",
+        "values": {
+          "mp3Mono": "mp3 (Mono)",
+          "mp3Stereo": "mp3 (Stereo)",
+          "not_send": "Don't attach records",
+          "links": "Links to records"
+        },
+        "updateCDR": {
+          "label" : "Update CDR"
+        }
+      },
+      "handlers": {
+        "label": "Handlers",
+        "fields": {
+          "ctc_autoanswer": {
+            "label": "Auto answer click to call"
+          }
+        },
+        "buttons": {
+          "callback": {
+            "label": "Call back"
+          },
+          "c2c": {
+            "label": "Click to call"
+          }
+        }
+      },
+      "offlinecalls": {
+        "label": "Not Registered Calls"
+      }
+    },
+    "fields": {
+      "timeout": {
+        "label": "Requests timeout"
+      },
+      "headers": {
+        "label": "Parse SIP headers"
+      },
+      "det_region": {
+        "messages": "Identify the region for Russia"
+      }
+    },
+    "msgs": {
+      "offlinecalls": "There are not registered calls exists"
+    }
+  },
+  "uponACall": {
+    "title": "Registration Upon The Call",
+    "sets": {
+      "statusField": {
+        "status": {
+          "label": "Status"
+        },
+        "featureCode": {
+          "label": "Feature code",
+          "rules": "Feature code already used"
+        }
+      },
+      "callSet": {
+        "label": "Call settings",
+        "fields": {
+          "create_lead": {
+            "label": "Create Lead"
+          },
+          "show_card": {
+            "label": "Show Card"
+          },
+          "regPriority": {
+            "label": "Call Registration Priority"
+          },
+          "exceptions": {
+            "label": "Exceptions"
+          },
+          "assessment": {
+            "assessment": "Assessment of service",
+            "greatings": "Initial message",
+            "bye": "Final message"
+          }
+        }
+      }
+    }
+  },
+  "UTM": {
+    "title": "Headers to CRM fields relation",
+    "headers": {
+      "header": "SIP Header",
+      "field": "UTM field"
+    },
+    "fields": {
+      "header": "SIP Header",
+      "field": "UTM field"
+    },
+    "buttons": {
+      "create": {
+        "label": "Create"
+      },
+      "saved": {
+        "label": "Saved"
+      },
+      "close": {
+        "label": "Close"
+      }
+    }
+  },
+  "fields": {
+    "regPriority": {
+      "default": "Default",
+      "lcocom": "Lead > Contact > Company",
+      "lcomco": "Lead > Company > Contact",
+      "colcom": "Contact > Lead > Company",
+      "cocoml": "Contact > Company > Lead",
+      "comlco": "Company > Lead > Contact",
+      "comcol": "Company > Contact > Lead"
+    }
+  },
+  "system": {
+    "OUTBOUND": "Outbound",
+    "CALL_NOT_ANSWERED": "Call Not Answered",
+    "CHECK_DOMAIN_FREEPBX_B": "Check if the domain and/or port is entered correctly. If everything is correct, check the network configurations. Bitrix24 must be available via the indicated protocol and port from the FreePBX server.",
+    "CALLER_HANDLER_CANNOT_CREATED": "Error. Caller handler cannot be created at the Bitrix24 site"
+  },
+  "install": {
+    "INSTALLATION_CHECKING": "Installation checking",
+    "THIS_VERSION_INSTALLED": "This version has already been installed",
+    "DOWNGRADING": "Downgrading",
+    "RE-INSTALLING": "Re-installing",
+    "UPGRADING": "Upgrading",
+    "NEW_INSTALLATION": "New installation",
+    "DONE": "Done"
+  },
+  "uninstall": {
+    "CLEAN_UP": "Clean Up",
+    "UNLINK_RECORDINGS": "Unlink Recordings",
+    "HANDLERS": "Handlers"
+  }
+}

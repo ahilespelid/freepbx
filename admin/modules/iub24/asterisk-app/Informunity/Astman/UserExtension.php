@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Astman; class UserExtension { public $data; public static function Load($data) { return Custom::GetCustomData($data, __CLASS__); } public function __construct($data) { $this->data = $data; } public function Get() { goto m3v_j; m3v_j: if (!isset($this->data)) { goto YCEpn; } goto uMus6; k2bod: YCEpn: goto iUv8y; uMus6: global $astman; goto oHzEw; oHzEw: return $astman->database_get("\111\x55\x42\x32\x34", $this->data . "\57\120\x48\x4f\116\x45"); goto k2bod; iUv8y: } }

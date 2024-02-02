@@ -1,0 +1,127 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for calllimit
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A Maximum of"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Call Limit"
+msgstr ""
+
+msgid "Add Outbound Call Limit"
+msgstr ""
+
+msgid ""
+"An Outbound Call limit allows you to restrict the number of calls people "
+"make that match particular outbound routes."
+msgstr ""
+
+msgid "Call Limit"
+msgstr ""
+
+msgid ""
+"Call limit limits the number of calls that can be made using this route. "
+"These settings will be ignored if you set the Route type as Emergency or "
+"Intra-Company."
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Edit: "
+msgstr ""
+
+msgid ""
+"Enter the name of your outbound call limit rule to make it easier to select "
+"in your outbound route."
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Limit Reached Message"
+msgstr ""
+
+msgid "List Call Limits"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Note that this will match against <strong>all fields</strong>."
+msgstr ""
+
+msgid "Outbound Call Limit"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Select the maximum number of calls that can be made in a single period."
+msgstr ""
+
+msgid ""
+"Select the recording to be played to the caller when they have hit this "
+"limit and are unable to complete their outbound call."
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+#, perl-format
+msgid "The Name %s already used, please use a different name."
+msgstr ""
+
+msgid ""
+"The recordings module seems to be disabled or not installed. The default "
+"message will be played to callers when their call limit is reached"
+msgstr ""
+
+msgid ""
+"This means, for example, if you have a maximum of '10' in a 5 hour period, "
+"but a maximum of '5' per day, it will block calls after 5, because it will "
+"match on the 'per day' field."
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "You must set a valid name for this call limit"
+msgstr ""
+
+msgid "calls per"
+msgstr ""
+
+msgid "or"
+msgstr ""

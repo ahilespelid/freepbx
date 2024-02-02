@@ -1,0 +1,205 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cos
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 10:23+0000\n"
+"PO-Revision-Date: 2016-08-08 13:59+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/cos/ja_JP/"
+">\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+#, php-format
+msgid "%s is not a member of any CoS"
+msgstr ""
+
+msgid ""
+"(This may be changed in <a href='config.php?"
+"display=advancedsettings'>Advanced Settings)"
+msgstr ""
+
+msgid "<h2>Add new Class of Service</h2>"
+msgstr ""
+
+msgid "<h2>Edit Class of Service</h2>"
+msgstr ""
+
+msgid ""
+"<h3>Core Module Disabled</h3>\n"
+"<p>Please re-enable core through module admin</p>\n"
+msgstr ""
+
+msgid "ALLOW overrides DENY"
+msgstr ""
+
+msgid ""
+"ALLOW overrides DENY (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is ALLOW)"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add new CoS"
+msgstr ""
+
+msgid "Admin"
+msgstr "アドミン"
+
+msgid "Allow"
+msgstr ""
+
+msgid "Assigned"
+msgstr "アサイン済み"
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\tClass of Service allows you to "
+"limit access, per extension, to feature codes, trunks, queues, ring groups, "
+"etc."
+msgstr ""
+
+#, php-format
+msgid "COS '%s' granted access to '%s'"
+msgstr ""
+
+msgid "COS Name"
+msgstr ""
+
+msgid "COS Name is required."
+msgstr ""
+
+#, php-format
+msgid "CallerID not Parseable - received %s - exiting with DENY"
+msgstr ""
+
+msgid "Class of Service"
+msgstr "サービスクラス"
+
+msgid "Conferences"
+msgstr "音声会議"
+
+msgid ""
+"DENY overrides ALLOW (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is DENY)"
+msgstr ""
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Deny"
+msgstr ""
+
+msgid "Detected EXTERNAL Call. Skipping CoS Checks"
+msgstr ""
+
+msgid "Exclude"
+msgstr ""
+
+msgid "Extensions that are not assigned to a Class of Service have full access"
+msgstr ""
+
+msgid "Feature Codes"
+msgstr ""
+
+msgid ""
+"For further information, please <a href='//wiki.freepbx.org/display/FCM/Class"
+"+of+Service' target='_new'>visit the wiki</a>"
+msgstr ""
+
+msgid ""
+"If an extension is assigned to conflicting Class of Service groups, should "
+"ALLOW override DENY. Setting this to FALSE means that if any Class of "
+"Service DENIES the permission, the permission is DENIED. Setting this to "
+"TRUE means that if any Class of Service ALLOWS the permission, the "
+"permission is ALLOWED."
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "List CoS"
+msgstr ""
+
+msgid "Members"
+msgstr "メンバー"
+
+msgid "Move selected items to the left"
+msgstr ""
+
+msgid "Move selected items to the right"
+msgstr ""
+
+msgid "Not Assigned"
+msgstr "未アサイン"
+
+msgid "Outbound Routes integrates with the free Extension Routes Module."
+msgstr ""
+
+msgid "Paging"
+msgstr ""
+
+msgid "Please provide a friendly name for this COS entry"
+msgstr ""
+
+msgid "Queues"
+msgstr "キュー"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Ring Groups"
+msgstr ""
+
+msgid "Routes"
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Swap items"
+msgstr ""
+
+msgid "The Extension Route module is not loaded"
+msgstr ""
+
+msgid "The module has expired."
+msgstr ""
+
+msgid "The module is not installed"
+msgstr ""
+
+msgid "The module is not registered"
+msgstr ""
+
+msgid "The module is out of date"
+msgstr ""
+
+msgid "This may be because of any of the following reasons:"
+msgstr ""
+
+msgid "VoiceMail Blasts"
+msgstr ""
+
+#~ msgid "Contact Groups"
+#~ msgstr "連絡先グループ"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE, REQUIRES A LICENSE.\n"
+#~ "\t\tClass of Service allows you to limit access, per extension, to "
+#~ "feature codes, trunks, queues, ring groups, etc."
+#~ msgstr ""
+#~ "有償モジュール。ご利用するにはライセンスの購入が必要です。\n"
+#~ "\t\tサービスクラスでは、内線ごとの機能コード・トランク・キュー・着信グルー"
+#~ "プ等へのアクセスを制限することが可能です。"

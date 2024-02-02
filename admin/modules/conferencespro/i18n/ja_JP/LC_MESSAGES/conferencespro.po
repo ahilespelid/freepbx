@@ -1,0 +1,423 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for conferencespro
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 09:00+0000\n"
+"PO-Revision-Date: 2016-08-08 14:59+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
+"conferencespro/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+#, php-format
+msgid "%s's conference room"
+msgstr ""
+
+msgid "Add to Conference IVR"
+msgstr ""
+
+msgid "Admin PIN:"
+msgstr ""
+
+msgid "Admin Pin"
+msgstr ""
+
+msgid "Allow Menu"
+msgstr ""
+
+msgid "Allow Menu:"
+msgstr ""
+
+msgid "Allowed Conference Bridges"
+msgstr "許可されたカンファレンスブリッジ"
+
+msgid "Allows this conference to be included in the IVR context"
+msgstr ""
+
+msgid ""
+"Allows this conference to be managed by the specified user from the "
+"Recordings Interface"
+msgstr ""
+
+msgid "Announce user join/leave"
+msgstr ""
+
+msgid "Announce user(s) count on joining conference"
+msgstr ""
+
+msgid "Announcement"
+msgstr ""
+
+msgid "Applications"
+msgstr "アプリケーション"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Adds ability to "
+"manage Conference Room settings into the User Control Panel and also to "
+"create Conference IVRs"
+msgstr ""
+
+msgid "Conference Has Been Updated!"
+msgstr ""
+
+msgid "Conference IVR Options"
+msgstr ""
+
+msgid "Conference List IVR"
+msgstr ""
+
+msgid "Conference Name:"
+msgstr ""
+
+msgid "Conference Options for Room "
+msgstr ""
+
+msgid "Conference Pro"
+msgstr ""
+
+msgid "Conference Room Prefix"
+msgstr ""
+
+msgid "Conference User Manager"
+msgstr ""
+
+msgid "Conference room is empty"
+msgstr ""
+
+msgid "Conference room is not active so it can not be locked"
+msgstr ""
+
+msgid "Conferences"
+msgstr "音声会議"
+
+msgid "Conferences Pro"
+msgstr ""
+
+msgid "Conferences Pro IVR Announcement"
+msgstr ""
+
+msgid "Conferences included in IVR"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Enable Conference Access"
+msgstr "音声会議アクセスを有効にする"
+
+msgid "Enable Music On Hold when the conference has a single caller"
+msgstr ""
+
+msgid "Enable the conference Access in UCP for this user"
+msgstr ""
+
+msgid "Enter a PIN number for the admin user."
+msgstr ""
+
+msgid ""
+"Enter a PIN number for the admin user.<br><br>This setting is optional "
+"unless the 'leader wait' option is in use, then this PIN will identify the "
+"leader."
+msgstr ""
+
+msgid "Follow Me"
+msgstr ""
+
+msgid "Give this conference a brief name to help you identify it."
+msgstr ""
+
+#, php-format
+msgid ""
+"If enabled a conference at '%s' will be created for this user to use (If the "
+"conference already exists it will use the already existing conference and "
+"link it to this user). It will then be linked in UCP for the user to access. "
+"The prefix can be changed in the Conferences Pro settings page. Setting this "
+"to 'No' after previously setting this to 'Yes' will not remove the "
+"conference from the system"
+msgstr ""
+
+msgid "Inherit"
+msgstr "引き継ぐ"
+
+msgid "Invite Contact"
+msgstr ""
+
+msgid "Invite to Conference"
+msgstr ""
+
+msgid "Join Message"
+msgstr ""
+
+msgid "Join Message:"
+msgstr ""
+
+msgid "Leader Wait"
+msgstr ""
+
+msgid "Leader Wait:"
+msgstr ""
+
+msgid "Link Conference to this user"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Manageable by User"
+msgstr ""
+
+msgid "Marked"
+msgstr ""
+
+msgid "Maximum Number of users allowed to join this conference."
+msgstr ""
+
+msgid "Maximum Participants"
+msgstr ""
+
+msgid "Maximum Participants:"
+msgstr ""
+
+msgid "Message to be played to the caller before joining the conference."
+msgstr ""
+
+msgid ""
+"Message to be played to the caller before joining the conference.<br><br>To "
+"add additional recordings please talk to your administrator"
+msgstr ""
+
+msgid ""
+"Message to be played to the caller before joining the conference."
+"<br><br>Your administrator must install and enable the \"Systems Recordings"
+"\" Module to edit this option"
+msgstr ""
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route."
+msgstr ""
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route.<br><br>  This music is "
+"defined in the \"Music on Hold\" to the left."
+msgstr ""
+
+msgid "Music on Hold"
+msgstr ""
+
+msgid "Music on Hold Class"
+msgstr ""
+
+msgid "Music on Hold Class:"
+msgstr ""
+
+msgid "Music on Hold:"
+msgstr ""
+
+msgid ""
+"Mute everyone when they initially join the conference. Please note that if "
+"you do not have 'Leader Wait' set to yes you must have 'Allow Menu' set to "
+"Yes to unmute yourself"
+msgstr ""
+
+msgid "Mute on Join"
+msgstr ""
+
+msgid "Mute on Join:"
+msgstr ""
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Limit"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Numeric value only."
+msgstr ""
+
+msgid "Only Numeric Values Are Allowed!"
+msgstr ""
+
+msgid "Outbound Call"
+msgstr ""
+
+msgid "Please enter a valid Conference Name"
+msgstr ""
+
+msgid "Present Menu (user or admin) when '*' is received ('send' to menu)"
+msgstr ""
+
+msgid "Pro Options"
+msgstr ""
+
+msgid "Quiet Mode"
+msgstr ""
+
+msgid "Quiet Mode:"
+msgstr ""
+
+msgid "Quiet mode (do not play enter/leave sounds)"
+msgstr ""
+
+msgid "Record Conference"
+msgstr ""
+
+msgid "Record Conference:"
+msgstr ""
+
+msgid "Record the conference call"
+msgstr ""
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Room"
+msgstr ""
+
+msgid ""
+"Sets talker detection. Asterisk will sends events on the Manager Interface "
+"identifying\n"
+"the channel that is talking. The talker will also be identified on the "
+"output of\n"
+"the meetme list CLI command."
+msgstr ""
+
+msgid "Starting Conference..."
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Talker Detection:"
+msgstr ""
+
+msgid "Talker Optimization"
+msgstr ""
+
+msgid "Talker Optimization:"
+msgstr ""
+
+msgid ""
+"The prefix used along with the linked extension in User Manager when "
+"creating a linked conference"
+msgstr ""
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who\n"
+"are not speaking as being muted, meaning that no encoding is done on "
+"transmission\n"
+"and that received audio that is not registered as talking is omitted, "
+"causing no\n"
+"buildup in background noise."
+msgstr ""
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who are not speaking as being muted, meaning that no encoding is "
+"done on transmission and that received audio that is not registered as "
+"talking is omitted, causing no buildup in background noise."
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User Count"
+msgstr ""
+
+msgid "User Count:"
+msgstr ""
+
+msgid "User Linked Conference"
+msgstr "ユーザーにリンクされた音声会議"
+
+msgid "User PIN:"
+msgstr ""
+
+msgid "User Pin"
+msgstr ""
+
+msgid "User Type"
+msgstr ""
+
+msgid "User join/leave"
+msgstr ""
+
+msgid "User join/leave:"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+#, php-format
+msgid "Viewing Room %s"
+msgstr ""
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference"
+msgstr ""
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference."
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference."
+msgstr ""
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference.<br><br>This setting is optional.<br><br>If either PIN is "
+"entered, the user will be prompted to enter a PIN."
+msgstr ""
+
+msgid ""
+"You must set Allow Menu to Yes when not using a Leader or Admin in your "
+"conference, otherwise you will be unable to unmute yourself"
+msgstr ""
+
+msgid ""
+"You must set an admin PIN for the Conference Leader when selecting the "
+"leader wait option"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "inherit"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+#~ msgid "Settings"
+#~ msgstr "設定"

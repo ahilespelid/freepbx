@@ -1,0 +1,5647 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for endpoint
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-17 05:40+0000\n"
+"PO-Revision-Date: 2016-09-02 14:03+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/endpoint/"
+"ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid " (Use Horizontal Soft Keys to configure)."
+msgstr ""
+
+msgid ""
+" Endpoint Manager allows you to do easy provisioning of Sangoma's S , D & P "
+"series phones<br> Please refer to below wiki document for more details - "
+msgstr ""
+
+msgid " FAILED to remove. Verify extension is mapped."
+msgstr ""
+
+msgid " TFTP ringtones and images Files Restored"
+msgstr ""
+
+msgid " added successfully."
+msgstr ""
+
+msgid " and reconfig notify sent"
+msgstr ""
+
+msgid " have been rebuilt"
+msgstr ""
+
+msgid " is already in logged out mode"
+msgstr ""
+
+msgid " not configured"
+msgstr ""
+
+msgid " rebuilt"
+msgstr ""
+
+msgid " removed succesfully"
+msgstr ""
+
+msgid " sent reboot command"
+msgstr ""
+
+msgid " sent reboot command."
+msgstr ""
+
+msgid " supports DPMA Apps like "
+msgstr ""
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+#, php-format
+msgid "%s Ringtone Management"
+msgstr ""
+
+msgid "'"
+msgstr ""
+
+msgid "(Custom)"
+msgstr ""
+
+msgid "(Only For Digium Phones)"
+msgstr ""
+
+msgid ".  By default, these DPMA Apps are set to P370."
+msgstr ""
+
+msgid ".  Use Line Keys & Horizontal Soft Keys to configure."
+msgstr ""
+
+msgid "0"
+msgstr ""
+
+msgid "1"
+msgstr ""
+
+msgid "1 Minute"
+msgstr ""
+
+msgid "1 per line"
+msgstr ""
+
+msgid "10"
+msgstr ""
+
+msgid "10 Minutes"
+msgstr ""
+
+msgid "100"
+msgstr ""
+
+msgid "10:00 AM"
+msgstr ""
+
+msgid "10:00 PM"
+msgstr ""
+
+msgid "11:00 AM"
+msgstr ""
+
+msgid "11:00 PM"
+msgstr ""
+
+msgid "12 Hour"
+msgstr "12時制"
+
+msgid "12 Hour AM/PM"
+msgstr "12時制 (AM/PM付き)"
+
+msgid "120"
+msgstr ""
+
+msgid "128-bit WEP"
+msgstr "128ビットWEP"
+
+msgid "12:00 AM"
+msgstr ""
+
+msgid "12:00 PM"
+msgstr ""
+
+msgid "150"
+msgstr ""
+
+msgid "180"
+msgstr ""
+
+msgid "1:00 AM"
+msgstr ""
+
+msgid "1:00 PM"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "2 Minutes"
+msgstr ""
+
+msgid "24 Hour"
+msgstr "24時制"
+
+msgid "240"
+msgstr ""
+
+msgid "25"
+msgstr ""
+
+msgid "270"
+msgstr ""
+
+msgid "2:00 AM"
+msgstr ""
+
+msgid "2:00 PM"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "30"
+msgstr ""
+
+msgid "30 Minutes"
+msgstr ""
+
+msgid "300"
+msgstr ""
+
+msgid "35"
+msgstr ""
+
+msgid "3:00 AM"
+msgstr ""
+
+msgid "3:00 PM"
+msgstr ""
+
+msgid "4"
+msgstr ""
+
+msgid "4:00 AM"
+msgstr ""
+
+msgid "4:00 PM"
+msgstr ""
+
+msgid "5"
+msgstr ""
+
+msgid "5 Minutes"
+msgstr ""
+
+msgid "50"
+msgstr ""
+
+msgid "5:00 AM"
+msgstr ""
+
+msgid "5:00 PM"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "60"
+msgstr ""
+
+msgid "64-bit WEP"
+msgstr "64ビット WEP"
+
+msgid "65"
+msgstr ""
+
+msgid "6739i Directory Button"
+msgstr "6739i ディレクトリボタン"
+
+msgid "6739i Voicemail Button"
+msgstr "6739iボイスメールボタン"
+
+msgid "6:00 AM"
+msgstr ""
+
+msgid "6:00 PM"
+msgstr ""
+
+msgid "7"
+msgstr ""
+
+msgid "75"
+msgstr ""
+
+msgid "7:00 AM"
+msgstr ""
+
+msgid "7:00 PM"
+msgstr ""
+
+msgid "8"
+msgstr ""
+
+msgid "802.1Q VLAN Tag"
+msgstr ""
+
+msgid "802.1X Identity"
+msgstr ""
+
+msgid "802.1X MD5 Password"
+msgstr ""
+
+msgid "802.1X Mode"
+msgstr ""
+
+msgid "802.1p Priority Value"
+msgstr ""
+
+msgid "85"
+msgstr ""
+
+msgid "8:00 AM"
+msgstr ""
+
+msgid "8:00 PM"
+msgstr ""
+
+msgid "9"
+msgstr ""
+
+msgid "90"
+msgstr ""
+
+msgid "9:00 AM"
+msgstr ""
+
+msgid "9:00 PM"
+msgstr ""
+
+msgid "A \"File\"."
+msgstr "一つの「ファイル」。"
+
+msgid "A \"Parameter\"."
+msgstr "一つの「パラメータ」。"
+
+msgid "A \"Section\"."
+msgstr "一つの「セクション」。"
+
+msgid "A \"Value\"."
+msgstr "一つの「値」。"
+
+msgid "A PHP extension stopped the file upload"
+msgstr ""
+
+msgid "A basestation with that MAC Address already exists."
+msgstr ""
+
+msgid ""
+"A name to be provided in the phones Multicast Page application or on a Rapid "
+"Dial key when mapping this broadcast"
+msgstr ""
+
+msgid ""
+"A name to be provided in the phones announcement status bar when audio is "
+"received over below listener"
+msgstr ""
+
+msgid ""
+"A numeric identifier that, depending on the setting of Config Authorization "
+"requirements, can be used to assign the configuration of any phone."
+msgstr ""
+
+msgid "AM Color"
+msgstr "午前の色"
+
+msgid "AND uses an XML style."
+msgstr "且つXMLフォーマットを採用する。"
+
+#, fuzzy
+msgid "Aastra configs are a direct 1-to-1 relationship."
+msgstr "Aastraの設定は「1対1」の直接関係があります。"
+
+msgid "Aastra.cfg"
+msgstr "Aastra.cfg"
+
+msgid "Access Code PIN for handset registrations."
+msgstr ""
+
+msgid "Accessory"
+msgstr ""
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "Account assigned to device."
+msgstr ""
+
+msgid "Account for button."
+msgstr "ボタンを使うアカウント。"
+
+msgid ""
+"Account format is wrong , it should be AccountX where X is 1..N.(please note "
+"no space between Account and X)"
+msgstr ""
+
+msgid "Account is required."
+msgstr ""
+
+msgid "Account number to be assigned"
+msgstr "アサインするアカウント番号"
+
+msgid "Account the button should use (default is blank)."
+msgstr "このボタンで使うアカウント（デフォルトは空）。"
+
+msgid "Action"
+msgstr "アクション"
+
+msgid "Actions"
+msgstr ""
+
+msgid "Active Account"
+msgstr ""
+
+msgid "Active Calls"
+msgstr "アクティブコール"
+
+msgid "Active Sessions"
+msgstr "アクティブセッション"
+
+msgid "Add Base Station"
+msgstr ""
+
+msgid "Add Brand"
+msgstr "ブランドを追加"
+
+msgid "Add Extension"
+msgstr "内線を追加"
+
+msgid "Add Image"
+msgstr ""
+
+msgid "Add New Ringtone"
+msgstr ""
+
+msgid "Add Ringtone"
+msgstr ""
+
+msgid "Add an internal and external IP address"
+msgstr ""
+
+msgid ""
+"Add extension to extension mapping.\n"
+"Options:\n"
+"\t--brand     = Brand for extension ie: sangoma\n"
+"\t--mac       = MAC Address for extension.\n"
+"\t--template  = Template for extension.\n"
+"\t--model     = Model for extension.\n"
+"\t--account   = Account for extension.\n"
+"\t--accessory = Accessory setting for extension.\n"
+"\t--vpn       = VPN ID for extension."
+msgstr ""
+
+msgid "Add to Cart"
+msgstr ""
+
+#, fuzzy
+msgid "Admin UCP for All"
+msgstr "全員にUCP管理者の権限を付与"
+
+msgid "Advanced"
+msgstr "高度な設定"
+
+msgid "Alarm"
+msgstr ""
+
+#, fuzzy
+msgid "Algo configs are a direct 1-to-1 relationship."
+msgstr "Algoの設定は「1対1」の直接関係があります。"
+
+msgid "All"
+msgstr "全て"
+
+msgid "All Networks"
+msgstr ""
+
+#, php-format
+msgid ""
+"All Parameters are wrapped with % by the module.  You do not need to enter "
+"these."
+msgstr ""
+"このモジュールが全てのパラメータを ％ で囲みますので、ユーザーが入力する必要"
+"はありません。"
+
+msgid "All available brands have already been added!"
+msgstr "利用可能なブランドは全て追加されています。"
+
+#, fuzzy
+msgid "All entries are &lt;PARAMETER ua=ATTRIBUTE>VALUE&lt;/PARAMETER>"
+msgstr "全エントリーは &lt;PARAMETER ua=ATTRIBUTE>VALUE&lt;/PARAMETER>"
+
+msgid "Allow Auto Answer on Paging/Intercom."
+msgstr "ページングやインターコムで使う自動応答を許可する。"
+
+msgid "Allow Barge"
+msgstr "割込を許可"
+
+msgid "Allow Endpoint"
+msgstr ""
+
+msgid "Allow Insecure SSL"
+msgstr ""
+
+msgid "Allow Login"
+msgstr "ログインを許可"
+
+msgid "Allow Someone to Join an Existing Intercom."
+msgstr "ユーザーが通話中のインターコム通話への割込を許可する。"
+
+msgid ""
+"Allow display of UCP customization for all extensions (including un-changed)."
+msgstr ""
+"UCPカスタマイズ可能な項目を全ての内線に対して表示する（設定変更されていない内"
+"線も含む）。"
+
+msgid "Allowed Endpoints"
+msgstr "許可する内線"
+
+msgid "Allowed Settings"
+msgstr "許可する設定"
+
+msgid "Already Installed with required version<br/>"
+msgstr ""
+
+msgid "Always Off"
+msgstr ""
+
+msgid "Always On"
+msgstr ""
+
+msgid "An internal error occurred"
+msgstr ""
+
+msgid "Anonymous Call Rejection"
+msgstr ""
+
+msgid "Applies to "
+msgstr ""
+
+msgid "Applies to Model(s)"
+msgstr "該当するモデル"
+
+msgid "Apply"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "Are you sure you want to delete this item?"
+msgstr "この項目を削除してもよろしいですか？"
+
+msgid "Are you sure, the configured d-phones will get unregistered?"
+msgstr ""
+
+msgid "Arial"
+msgstr "Arial"
+
+msgid "Arial (Large)"
+msgstr "Arial (Large)"
+
+msgid "Arial Bold"
+msgstr "Arial Bold"
+
+msgid "Asterisk (DPMA) SSL Certificate Expiration"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk DPMA (res_digium_phone.so) module is not loaded.\n"
+"Please refer to '/var/log/endpoint_module_hook.log' for more details. \n"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk DPMA (res_digium_phone.so) module is not loaded/licensed. \n"
+"Please refer to DPMA management configuration for license configuration"
+msgstr ""
+
+msgid "Asterisk DPMA module is loaded.<br/><br/>"
+msgstr ""
+
+msgid "Asterisk Restated Successfully <br/>"
+msgstr ""
+
+#, php-format
+msgid "Asterisk digium phone module rpm is not installing..\n"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk digium phone module rpm is not installing..\n"
+"Please refer to '/var/log/endpoint_module_hook.log' for more details. \n"
+"Please try to enable DPMA after sometime.."
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk is not restarting. Please check the asterisk logs for more deatils "
+"or try to run fwconsole restart command."
+msgstr ""
+
+msgid "Attended"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Indication for Call Pickup"
+msgstr "応答を音声で通知"
+
+msgid "Audio Mode"
+msgstr "音声モード"
+
+#, fuzzy
+msgid "Audiocodes configs are a direct 1-to-1 relationship."
+msgstr "Audiocodesの設定は「1対1」の直接関係があります。"
+
+msgid "August"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Austria"
+msgstr ""
+
+#, php-format
+msgid ""
+"Authentication of HTTP or HTTPS provisioning requests from endpoints is "
+"currently <strong>%s</strong>. Configuration of provisioning ports and "
+"credentials is done through %s Sysadmin Provisioning Management %s."
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Auto Answer"
+msgstr "自動応答"
+
+msgid "Auto Off Hook"
+msgstr "自動オフフック"
+
+msgid "Auto Tree"
+msgstr ""
+
+msgid "Available Devices"
+msgstr "利用可能なデバイス"
+
+msgid "Available Firmwares"
+msgstr "利用可能なファームウェア"
+
+msgid "Available Phones"
+msgstr "利用可能な電話機"
+
+msgid "BLF Alert"
+msgstr ""
+
+msgid "BLF Directed Call Pickup"
+msgstr ""
+
+msgid "BLF Label"
+msgstr "BLFラベル"
+
+msgid "BLF Long Press Idle State"
+msgstr ""
+
+msgid "BLF Long Press Idle State Open Edit Button Screen"
+msgstr ""
+
+msgid "BLF Long Press In Use State"
+msgstr ""
+
+msgid "BLF Long Press Ring State"
+msgstr ""
+
+msgid "BLF Short Press Idle State"
+msgstr ""
+
+msgid "BLF Short Press In Use State"
+msgstr ""
+
+msgid "BLF Subscription"
+msgstr "BLF購読"
+
+msgid "BLF Substitution"
+msgstr "BLF置換え"
+
+msgid ""
+"BLF/Speeddial/Parking Status/In-call DTMF keys cannot have an empty value. "
+"Please fill out red marked fields."
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Background Color"
+msgstr "背景色"
+
+msgid "Background Image"
+msgstr "背景画像"
+
+msgid "Background color."
+msgstr "背景の色。"
+
+msgid ""
+"Background image functionality for the Sangoma Px series phones will not "
+"work if the image file name contains spaces. The image name should not have "
+"any space."
+msgstr ""
+
+msgid "Background image to display."
+msgstr "背景で使う画像。"
+
+msgid "Backlight Active Level"
+msgstr ""
+
+msgid "Backlight Dim Level"
+msgstr ""
+
+msgid "Backlight In-Active Level"
+msgstr ""
+
+msgid "Backlight Timeout"
+msgstr ""
+
+msgid ""
+"Backup & Restore process is in progress so not deleting '/tftpboot/*' from "
+"uninstall."
+msgstr ""
+
+msgid "Backup Destination"
+msgstr ""
+
+msgid "Backup Destination Address"
+msgstr ""
+
+msgid "Backup Destination Port"
+msgstr ""
+
+msgid "Backup Outbound Proxy"
+msgstr ""
+
+msgid "Backup Outbound Proxy Address"
+msgstr ""
+
+msgid "Backup Outbound Proxy Port"
+msgstr ""
+
+msgid "Base Station Management"
+msgstr ""
+
+msgid "Basefile Edit"
+msgstr "ベースファイルを編集"
+
+#, php-format
+msgid "Basefile Settings for %s %s Using Template %s"
+msgstr ""
+
+msgid "Basestation"
+msgstr ""
+
+msgid "Batang Bold"
+msgstr "Batang Bold"
+
+msgid "Beep"
+msgstr "通知音"
+
+msgid "Belgium"
+msgstr ""
+
+msgid "Black"
+msgstr "黒"
+
+msgid "Blind"
+msgstr ""
+
+msgid "Blink Colon"
+msgstr "「：」を点滅"
+
+msgid "Both"
+msgstr ""
+
+msgid "Both Internal and External IP can not be blank!"
+msgstr ""
+
+msgid "Both Ring and In-Use"
+msgstr "Ring／In-Use両方"
+
+msgid "Bottom to Top"
+msgstr "下から上"
+
+msgid "Brand"
+msgstr "ブランド"
+
+msgid "Brand of device to be provisioned"
+msgstr "プロビジョニングするデバイスのメーカー。"
+
+msgid "Brand of device."
+msgstr ""
+
+msgid "Brand."
+msgstr ""
+
+msgid "Brands"
+msgstr "ブランド"
+
+msgid "Brazil"
+msgstr "ブラジル"
+
+msgid "Brightness Level"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Busy"
+msgstr "通話中"
+
+msgid "CSV File of Extensions to Load"
+msgstr "読み込む内線のCSVファイル"
+
+msgid "CSV File to Load"
+msgstr "読み込むCSVファイル"
+
+msgid "Cadance"
+msgstr "Cadance"
+
+msgid "Call Completed Elsewhere"
+msgstr ""
+
+msgid "Call Stutter"
+msgstr "コールスタッター"
+
+msgid "Call Stutter for Voicemail Notifications."
+msgstr "ボイスメールの通知を音で通知します。"
+
+msgid "Call Waiting Signal"
+msgstr "キャッチホン信号"
+
+msgid "Call Waiting Tone"
+msgstr ""
+
+msgid "Camera"
+msgstr "カメラ"
+
+msgid "Cameras"
+msgstr "カメラ"
+
+msgid "Can Not Find Uploaded Files"
+msgstr ""
+
+msgid "Change UI Focus on Incoming Calls."
+msgstr "着信するときにUIを切り替えます。"
+
+msgid "Change screen saver timeout delay."
+msgstr ""
+
+msgid "Change screen saver."
+msgstr ""
+
+#, php-format
+msgid "Checking Asterisk %s phone module rpm..."
+msgstr ""
+
+msgid "Checking Asterisk DPMA module Licence..."
+msgstr ""
+
+#, php-format
+msgid "Checking Asterisk dpma module status..."
+msgstr ""
+
+#, php-format
+msgid "Checking FreePBX %s phone module status..."
+msgstr ""
+
+msgid "Checking Settings and Defaults..."
+msgstr ""
+
+msgid "Checking database tables..."
+msgstr ""
+
+msgid "Cherry"
+msgstr "チェリー"
+
+msgid "Chile"
+msgstr ""
+
+msgid "Chimes"
+msgstr ""
+
+msgid "China"
+msgstr ""
+
+msgid "Chinese Simplified"
+msgstr ""
+
+msgid "Chinese Traditional"
+msgstr ""
+
+msgid "Choose File"
+msgstr ""
+
+msgid "Cisco Enterprise uses an XML style."
+msgstr "Cisco EnterpriseはXMLフォーマットを採用しています。"
+
+msgid "Cisco Legacy Enterprise configs are a direct 1-to-1 relationship."
+msgstr "Cisco Legacy Enterpriseの設定ファイルは「1対1」の構成になっています。"
+
+msgid "Cisco SPA Series configs are XML based."
+msgstr "Cisco SPAシリーズはXMLフォーマットを採用しています。"
+
+msgid "Classic strobe fast"
+msgstr "クラシックストローブ（速）"
+
+msgid "Classic strobe medium"
+msgstr "クラシックストローブ（中）"
+
+msgid "Classic strobe slow"
+msgstr "クラシックストローブ（遅）"
+
+msgid "Click to upload a firmware file."
+msgstr ""
+
+msgid "Clock Colon blink on or off"
+msgstr "時計の「：」を点滅されるかどうか"
+
+msgid "Clock Color"
+msgstr "時計の色"
+
+msgid "Clock Font"
+msgstr "時計フォント"
+
+msgid "Clock Font Type"
+msgstr "時計フォントタイプ"
+
+msgid "Clock time formatting"
+msgstr "時計の時刻形式"
+
+msgid "Close"
+msgstr ""
+
+msgid "Color"
+msgstr "色"
+
+msgid "Color for Clock AM Font"
+msgstr "午前の時計フォント色"
+
+msgid "Color for Clock Font"
+msgstr "時計フォント色"
+
+msgid "Color for Clock PM Font"
+msgstr "午後の時計フォント色"
+
+msgid "Color for Message Font"
+msgstr "メッセージのフォント色"
+
+msgid "Color for Seconds Font"
+msgstr "秒のフォント色"
+
+msgid "Color: Amber, Blink: Fast"
+msgstr ""
+
+msgid "Color: Amber, Blink: Slow"
+msgstr ""
+
+msgid "Color: Amber, Blink: Solid"
+msgstr ""
+
+msgid "Color: Green, Blink: Fast"
+msgstr ""
+
+msgid "Color: Green, Blink: Slow"
+msgstr ""
+
+msgid "Color: Green, Blink: Solid"
+msgstr ""
+
+msgid "Color: Red, Blink: Fast"
+msgstr ""
+
+msgid "Color: Red, Blink: Slow"
+msgstr ""
+
+msgid "Color: Red, Blink: Solid"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Config File"
+msgstr ""
+
+msgid "Config Style"
+msgstr "コンフィグスタイル"
+
+msgid "Configure By"
+msgstr ""
+
+msgid "Configure date format for locale."
+msgstr ""
+
+msgid "Configure how the \"handsfree\" key on the IP phone operates."
+msgstr "「ハンズフリー」キーがどのように動作するか設定します。"
+
+msgid "Configure the country for tone selection."
+msgstr ""
+
+msgid "Configure the font size for the phones LCD display."
+msgstr ""
+
+msgid "Configure the language for the phones LCD display."
+msgstr ""
+
+msgid "Configure the language for the phones web gui."
+msgstr ""
+
+msgid "Configure the ring tone for all accounts."
+msgstr ""
+
+msgid "Configure whether a tone is heard when a call is left on hold."
+msgstr ""
+
+msgid "Configure whether a tone is heard when new voicemail is received."
+msgstr ""
+
+msgid "Configure whether a tone is heard when pressing keys on the phone."
+msgstr ""
+
+msgid ""
+"Configure whether anonymous calls are rejected.  Stops sip attacks that "
+"cause phones to ring, but will also block restricted numbers."
+msgstr ""
+
+msgid ""
+"Configure whether settings from the config file override local GUI "
+"settings.  Config File allows the config file to override GUI settings.  GUI "
+"allows GUI settings to override Config File settings."
+msgstr ""
+
+msgid ""
+"Configure whether the \"loading\" popup is displayed when using XML-API "
+"Phone Apps."
+msgstr ""
+
+msgid "Configured By"
+msgstr ""
+
+msgid "Configured By setting can't be changed if MAC Address is empty."
+msgstr ""
+
+msgid "Connect Remote Parties"
+msgstr ""
+
+msgid "Connected"
+msgstr "接続済み"
+
+msgid "Contact"
+msgstr ""
+
+msgid "Contact Photos"
+msgstr ""
+
+msgid "Continuous"
+msgstr "継続中"
+
+msgid "Contrast Level"
+msgstr ""
+
+msgid "Copying TFTP folder"
+msgstr ""
+
+msgid "Copying TFTP folder Done"
+msgstr ""
+
+msgid "Cortelco uses a nested XML style."
+msgstr "Coretelcoはネスト式XMLのフォーマットを採用しています。"
+
+msgid "Could not retrieve VPN client settings."
+msgstr ""
+
+msgid "Could not retrieve device brand."
+msgstr ""
+
+msgid "Could not retrieve device model."
+msgstr ""
+
+msgid "Country Tones"
+msgstr ""
+
+msgid "Cranberry"
+msgstr "クランベリー"
+
+msgid "Create symlink..."
+msgstr ""
+
+msgid ""
+"Current (V70) configs are a direct 1-to-1 relationship. PARAMETER = VALUE."
+msgstr "現在(V70)の設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Current Konftel uses a nested XML style."
+msgstr "Konftelは現在、ネスト式XMLのフォーマットを採用しています。"
+
+msgid "Current Panasonic uses a nested XML style."
+msgstr "現在のPanasonicはネスト式XMLのフォーマットを採用しています。"
+
+msgid "Current Style"
+msgstr "現在のスタイル"
+
+msgid ""
+"Currently, the Phone Authentication Method in Endpoint Manager under DPMA is "
+"set to None. This is not a recommended value so please set it to Global pin "
+"for more security."
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom Ext Management"
+msgstr "カスタム内線の管理"
+
+msgid "Custom Extension"
+msgstr "カスタム内線"
+
+msgid "Custom Extensions"
+msgstr "カスタム内線"
+
+msgid "Custom Firmware Management"
+msgstr ""
+
+msgid "Custom Photo"
+msgstr ""
+
+msgid ""
+"Custom firmware is not available.<b>Please use <a href=?"
+"display=endpoint&view=custfwupgrade>Custom Firmware Management</a></b>  to "
+"upload custom firmware"
+msgstr ""
+
+msgid ""
+"Custom firmware is not available.<b>Please use <a href=?"
+"display=endpoint&view=custfwupgrade>Custom Firmware Management</a></b> to "
+"upload custom firmware"
+msgstr ""
+
+msgid ""
+"Custom firmware is not available.<b>Please use <a href=?"
+"display=endpoint&view=custfwupgrade>Custom Firmware Management</a></b>to "
+"upload custom firmware"
+msgstr ""
+
+msgid "Cyberdata uses a nested XML style."
+msgstr "Cyberdataはネスト式XMLのフォーマットを採用しています。"
+
+msgid "Czech"
+msgstr ""
+
+#, php-format
+msgid "D series phones %s."
+msgstr ""
+
+msgid "D-M-Y"
+msgstr ""
+
+msgid "DECT"
+msgstr "DECT"
+
+msgid "DECT Basestations"
+msgstr ""
+
+msgid "DHSG Settings"
+msgstr "DHSG設定"
+
+msgid "DPMA Global Pin Warning"
+msgstr ""
+
+msgid "DPMA Management"
+msgstr ""
+
+msgid "DPMA Phone Authentication Warning"
+msgstr ""
+
+msgid "DPMA Settings"
+msgstr ""
+
+msgid "DPMA Version"
+msgstr ""
+
+msgid "DPMA files generated successfully"
+msgstr ""
+
+msgid "DPMA is already enabled"
+msgstr ""
+
+msgid "Data Sync"
+msgstr ""
+
+msgid "Data VLAN Tag"
+msgstr ""
+
+msgid "Date Format"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Day of week"
+msgstr ""
+
+msgid "Daylight Saving"
+msgstr ""
+
+msgid "Daylight Saving Schedule End"
+msgstr ""
+
+msgid "Daylight Saving Schedule Start"
+msgstr ""
+
+msgid "Daylight Savings"
+msgstr "サマータイム制"
+
+msgid "December"
+msgstr ""
+
+msgid "Dect"
+msgstr ""
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Default External Template"
+msgstr ""
+
+msgid "Default External Template for XML-API Login/Logout Module."
+msgstr ""
+
+msgid "Default Internal Template"
+msgstr ""
+
+msgid "Default Internal Template for XML-API Login/Logout Module."
+msgstr ""
+
+msgid "Default Photo"
+msgstr ""
+
+msgid "Default User List Template"
+msgstr ""
+
+msgid "Default User List Template is Empty."
+msgstr ""
+
+msgid "Default User List Template must be selected."
+msgstr ""
+
+msgid "Default entries have a description above for phones."
+msgstr ""
+
+msgid "Default entries have a description above."
+msgstr "デフォルトエントリーの上に説明が書いてあります。"
+
+msgid "Default format is First name, then last name."
+msgstr ""
+
+msgid "Default is All."
+msgstr ""
+
+msgid "Default is Disable."
+msgstr ""
+
+msgid "Default is None."
+msgstr ""
+
+msgid "Default is disable"
+msgstr ""
+
+msgid "Default value is 5."
+msgstr ""
+
+msgid ""
+"Define the phone number, extension number, or any other dial-able number on "
+"the PBX that will be called when the receiver is taken off hook."
+msgstr ""
+
+msgid "Defines how long led will be off."
+msgstr "LEDが点滅する時間。"
+
+msgid "Defines how long led will be on."
+msgstr "LEDが点灯する時間。"
+
+msgid "Defines how the led will flash."
+msgstr "LEDの点滅の仕方を定義します。"
+
+msgid ""
+"Defines the SIP UDP signaling address or hostname of this server, provided "
+"to the phone during its mDNS server discovery."
+msgstr ""
+
+msgid ""
+"Defines the SIP UDP signaling port for this server, provided to the phone "
+"during its mDNS server discovery. Defaults to 5060."
+msgstr ""
+
+msgid ""
+"Defines the SIP signaling transport for this server, provided to the phone "
+"during its mDNS server discovery. Defaults to UDP.<br> <b>TCP and TLS "
+"transports only supported with PJSIP.</b></br><b>Note:</b> For Initial fetch "
+"of config file cannot use TLS transport because SSL certificate can only be "
+"loaded and save with config file in Sangoma's D & P series phones (via a UDP "
+"or TCP transport). After the Config file and SSL certificate is loaded in "
+"Sangoma's D & P series phones then reconfigure or restart the phone to use "
+"TLS transport."
+msgstr ""
+
+msgid ""
+"Defines the registration server name for this server, provided to the phone "
+"during its mDNS server discovery."
+msgstr ""
+
+msgid "Defines what causes the led to activate."
+msgstr "LEDが点灯するトリガーを定義します。"
+
+msgid "Defines where the ringing will be played when using a headset."
+msgstr ""
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete Entry"
+msgstr "エントリーを削除する"
+
+msgid "Delete Extension and Remove Config(s)"
+msgstr ""
+
+msgid "Delete Selected"
+msgstr "選択中の項目を削除"
+
+msgid "Denmark"
+msgstr ""
+
+msgid "Describe this ringtone"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description of basefile."
+msgstr ""
+
+msgid "Descriptive name for the current template"
+msgstr ""
+
+msgid "Destination"
+msgstr "宛先"
+
+msgid "Destination Address"
+msgstr "宛先アドレス"
+
+msgid "Destination Server"
+msgstr "宛先サーバー"
+
+msgid "Destination must not be blank"
+msgstr ""
+
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Device Brand"
+msgstr ""
+
+msgid "Device Management"
+msgstr "デバイス管理"
+
+msgid "Device to send text to."
+msgstr "テキストを送信する宛先デバイス。"
+
+msgid "Devices from brands with no templates will not be displayed"
+msgstr "テンプレートのないブランドのデバイスは表示されません"
+
+msgid "Dial Code"
+msgstr "ダイヤルコード"
+
+msgid "Dial Entry Timeout"
+msgstr ""
+
+msgid "Dial First Digit"
+msgstr ""
+
+msgid "Dial Now Timeout"
+msgstr ""
+
+msgid "Dial Pattern Timeout"
+msgstr ""
+
+msgid "Dial Patterns"
+msgstr "ダイヤルパターン"
+
+msgid "Digium"
+msgstr ""
+
+msgid "Digium uses a nested XML style."
+msgstr "Digiumはネスト式XMLのフォーマットを採用しています。"
+
+msgid "Dim Backlight After Timeout"
+msgstr ""
+
+msgid "Direction of scrolling."
+msgstr "スクロールの方向。"
+
+msgid "Disable"
+msgstr "無効にする"
+
+msgid "Disable DPMA"
+msgstr ""
+
+msgid "Disable DPMA Logging"
+msgstr ""
+
+msgid "Disable DPMA is done succesfully"
+msgstr ""
+
+msgid "Disable Scroll"
+msgstr ""
+
+msgid ""
+"Disabled Hot Desking login/logout feature for Sangoma's D & P series models"
+msgstr ""
+
+msgid "Discovery Mode"
+msgstr ""
+
+msgid "Display"
+msgstr "表示"
+
+msgid "Display Contact Group"
+msgstr ""
+
+msgid "Display Contact Names"
+msgstr ""
+
+msgid "Display Numbers Of Call Logs"
+msgstr ""
+
+msgid "Display Phone IP in extension mapping page.  Slows page load time."
+msgstr ""
+"電話機のIPアドレスを内線マッピングページに表示する。ページの読み込みが遅く可"
+"能性があります。"
+
+msgid ""
+"Display contact names in your preferred format in the contact application."
+msgstr ""
+
+msgid "Display missed calls."
+msgstr "不在着信を表示する。"
+
+msgid "Display sip status in extension mapping page.  Slows page load time."
+msgstr ""
+"内線マッピングページにSIPステータスを表示する。ページの読み込みが遅く可能性が"
+"あります。"
+
+msgid "Done"
+msgstr ""
+
+msgid "Done (Background)"
+msgstr ""
+
+msgid "Done.<br/><br/>"
+msgstr ""
+
+msgid "Dotum"
+msgstr "Dotum"
+
+msgid "Dotum (Large)"
+msgstr "Dotum (Large)"
+
+msgid "Dotum Bold"
+msgstr "Dotum Bold"
+
+msgid "Download logs not found"
+msgstr ""
+
+msgid "Downloading Firmware..."
+msgstr ""
+
+msgid "Dpma"
+msgstr ""
+
+msgid "Drop Ringtone Here"
+msgstr ""
+
+msgid "Duplicate"
+msgstr "複製する"
+
+msgid "Duplicate File Found"
+msgstr "見つかったファイルを複製する"
+
+msgid "Duplicate Template Name"
+msgstr "テンプレート名を複製する"
+
+msgid ""
+"During this migration process Asterisk will restart. Are you sure you want "
+"to migrate now?"
+msgstr ""
+
+msgid ""
+"During this process Asterisk will restart. Are you sure you want to continue?"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "Dutch (Belgian)"
+msgstr ""
+
+msgid "EAP-MD5"
+msgstr ""
+
+msgid "EAP-TLS"
+msgstr ""
+
+msgid "EPM Custom Firmware Upload"
+msgstr ""
+
+msgid "EPM Firmware Management - How It works ?"
+msgstr ""
+
+msgid "EPM Ringtone Management - How It works ?"
+msgstr ""
+
+#, php-format
+msgid ""
+"EPM allows you to manage firmwares for most brands of devices. You have "
+"option to choose EPM sponsored firmware for the specific brands or use "
+"custom firmware upgrade approach to upload your own custom firmware Please "
+"refer to %s for more details."
+msgstr ""
+
+#, php-format
+msgid ""
+"EPM allows you to manage the custom ringtones for Sangoma's S and D series "
+"phones.Please refer to below wiki document for more details - <br>S series "
+"phones %s.</br>"
+msgstr ""
+
+#, php-format
+msgid ""
+"EPM also allows you to manage the custom phone firmwares by selecting '0.00' "
+"firmware version into specific slot.Please refer to %s for more details."
+msgstr ""
+
+#, php-format
+msgid ""
+"EPM also allows you to manage the custom phone firmwares where you can "
+"upload brands/model specific phone firmwares using 'EPM Custom firmware "
+"management'. Please refer to %s for more details."
+msgstr ""
+
+#, php-format
+msgid ""
+"EPM maintains phone firmwares into bundle and identify each bundle by EPM "
+"firmware version which is listed in 'Avalable Firmware' list. Each EPM "
+"firmware bundle will contain the supported models firmwares whose version "
+"numbers will be displayed once you drag and put bundle version into any of "
+"the available firmware slot.Please refer to %s for more details."
+msgstr ""
+
+msgid "Emergency CID"
+msgstr ""
+
+msgid "Emergency CIDs"
+msgstr ""
+
+msgid "Emergency CIDs from the Endpoint Manager module."
+msgstr ""
+
+msgid "Emergencycid"
+msgstr ""
+
+msgid "Emergencycid is required."
+msgstr ""
+
+msgid "Enable"
+msgstr "有効にする"
+
+msgid ""
+"Enable Current config style.  Requires all phones using this template to be "
+"at newer firmware."
+msgstr ""
+"現在のコンフィグスタイルを有効にする。このテンプレートを使う全ての電話機に最"
+"新のファームウェアをインストールする必要があります。"
+
+msgid "Enable DPMA"
+msgstr ""
+
+msgid ""
+"Enable DPMA has been initiated. Kindly check the fetchApiStatus api with the "
+"transaction id."
+msgstr ""
+
+msgid "Enable Endpoint in UCP for this user"
+msgstr ""
+
+msgid ""
+"Enable Endpoint to remove un-supported characters in button values and "
+"labels."
+msgstr ""
+"エンドポイントマネージャーが非対応の文字をボタンの値、もしくラベルから自動的"
+"に省略する機能を有効にします。"
+
+msgid "Enable HotLine option"
+msgstr ""
+
+msgid ""
+"Enable RESTApp Directory button for 6739i Messages button. NOTE: REQUIRES "
+"Phone Apps TO BE INSTALLED AND LICENSED!"
+msgstr ""
+
+msgid "Enable Scroll"
+msgstr ""
+
+msgid "Enable T38 or Passthrough."
+msgstr "T38もしくはパススルーを有効にする。"
+
+msgid ""
+"Enable Visual Voicemail for 6739i Messages button. NOTE: REQUIRES Phone Apps "
+"TO BE INSTALLED AND LICENSED!"
+msgstr ""
+
+msgid "Enable WiFi"
+msgstr ""
+
+msgid ""
+"Enable WiFi <br><b> Models Supported: P330 & P370 </b></br>Default is "
+"Disable."
+msgstr ""
+
+msgid ""
+"Enable and Disable missed call notification. <br> Default is Enable. </br>"
+msgstr ""
+
+msgid "Enable default template for EPM login Phone App."
+msgstr ""
+
+msgid "Enable mute when auto answering."
+msgstr "自動応答したときにマイクをミュートします。"
+
+msgid "Enable or Disable Multicell capabilities."
+msgstr ""
+
+msgid "Enable or Disable configuration of device for T38."
+msgstr ""
+
+msgid "Enable or Disable wireless."
+msgstr "無線機能を有効（無効）にします。"
+
+msgid "Enable or disable Backup Destination."
+msgstr ""
+
+msgid "Enable or disable DHCP for the VLAN."
+msgstr ""
+
+msgid "Enable or disable LLDP."
+msgstr ""
+
+msgid ""
+"Enable or disable Prefer Primary SIP Server. <br> Default is Disable.</br>"
+msgstr ""
+
+msgid "Enable or disable Sip Keep Alive Mode. <br> Default is Disable.</br>"
+msgstr ""
+
+msgid "Enable or disable call waiting audio notification."
+msgstr ""
+
+msgid ""
+"Enable or disable call waiting tone notification. <br> Default is Enable. </"
+"br>"
+msgstr ""
+
+msgid "Enable or disable daylight savings."
+msgstr "サマータイム制を有効（無効）にします。"
+
+msgid "Enable or disable multicast."
+msgstr "マルチキャストを有効（無効）にします。"
+
+msgid ""
+"Enable this option if you want to connect an Electronic Hook Switch (EHS) "
+"headset to the phone."
+msgstr ""
+
+msgid ""
+"Enable v70 and newer config style.  Requires all phones using this template "
+"to be at firmware version 70 or greater."
+msgstr ""
+
+msgid "Enable, disable or Auto daylight savings."
+msgstr ""
+
+msgid "Enable/Disable line key label scrolling or increase label width."
+msgstr ""
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid ""
+"Enables and disables audio notification when any BLF user is receiving a "
+"call."
+msgstr "BLFユーザーに着信したときの通知音を有効（無効）にします。"
+
+msgid "Enables and disables contact photo images on calls"
+msgstr ""
+
+msgid ""
+"Enables and disables contact photo images on calls. Works with selected "
+"models(D60, D62, D65, D80)"
+msgstr ""
+
+msgid "Enables and disables missed call status"
+msgstr ""
+
+msgid "Enables and disables the DHSG headset support on the phone."
+msgstr "DHSGヘッドセット機能を有効（無効）にします。"
+
+msgid "Enables and disables the user level password."
+msgstr "ユーザーレベルのパスワードを有効（無効）にします。"
+
+msgid "End Time"
+msgstr ""
+
+msgid "EndPoint"
+msgstr "エンドポイント"
+
+msgid "EndPoint Manager"
+msgstr "エンドポイントマネージャー"
+
+msgid "Endpoint"
+msgstr "エンドポイント"
+
+msgid "Endpoint Access"
+msgstr ""
+
+msgid "Endpoint Manager"
+msgstr "エンドポイントマネージャー"
+
+msgid ""
+"Endpoint Manager - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. "
+"Supports provisioning of devices."
+msgstr ""
+
+msgid "Endpoint Manager Custom Firmware Management "
+msgstr ""
+
+msgid "Endpoint Manager Custom Firmware Management Process ?"
+msgstr ""
+
+msgid "Endpoint Manager functions"
+msgstr ""
+
+msgid "Endpoint manager forced disabled."
+msgstr ""
+
+msgid "Endpoints from the Endpoint Manager module."
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "English (Australia)"
+msgstr ""
+
+msgid "English (Canada)"
+msgstr ""
+
+msgid "English (New Zealand)"
+msgstr ""
+
+msgid "English (U.K.)"
+msgstr ""
+
+msgid "English (U.S.)"
+msgstr ""
+
+msgid "Enter &quot;none&quot; to disable, or &quot;auto&quot; to auto-detect"
+msgstr ""
+
+msgid "Enter Secondary time server"
+msgstr ""
+
+msgid "Enter Vega Config"
+msgstr ""
+
+msgid "Enter a Time Server."
+msgstr "タイムサーバーを入力してください。"
+
+msgid "Enter a VLAN Tag ID"
+msgstr ""
+
+msgid "Enter a VLAN tag for the PC Port"
+msgstr ""
+
+msgid "Enter a delay between tones for calls left on hold."
+msgstr ""
+
+msgid "Enter a packet interval for LLDP"
+msgstr ""
+
+msgid "Enter a password for 802.1X authentication"
+msgstr ""
+
+msgid "Enter a port number for the backup destination of the phones."
+msgstr ""
+
+msgid "Enter a port number for the backup outbound proxy of the phones."
+msgstr ""
+
+msgid "Enter a port number for the outbound proxy of the phones."
+msgstr ""
+
+msgid "Enter a priority value for phone VLAN"
+msgstr ""
+
+msgid "Enter a timeout in seconds for the backlight"
+msgstr ""
+
+msgid "Enter a wait time for dial pattern match."
+msgstr ""
+
+msgid "Enter a wait time for timeout on dial."
+msgstr ""
+
+msgid "Enter a web address for an RSS feed.(Optional)"
+msgstr "RSSフィードのアドレスを入力してください。（オプション）"
+
+msgid "Enter an IP for the backup destination of the phones."
+msgstr ""
+
+msgid "Enter an IP for the backup outbound proxy of the phones."
+msgstr ""
+
+msgid "Enter an IP for the outbound proxy of the phones."
+msgstr ""
+
+msgid ""
+"Enter an IP or choose Internal or External for the destination of the phones."
+msgstr ""
+"SIPレジストの宛先。IPアドレスを入力するか、InternalかExternalを選択してくださ"
+"い。"
+
+msgid "Enter an identity tag for 802.1X authentication"
+msgstr ""
+
+msgid "Enter destination for HotLine."
+msgstr ""
+
+msgid ""
+"Enter dial patterns for the phone to use.  NOTE: patterns change between "
+"manufacturers and not all manufacturers use patterns."
+msgstr ""
+"電話機のダイヤルパターンを入力してください。注意：メーカーによってパターンの"
+"定義が異なる場合があります。また、ダイヤルパターンに対応しないメーカーもあり"
+"ますので、ご確認の上で設定してください。"
+
+msgid ""
+"Enter dial patterns timeout for the phone to use.<br> Default is 3|3|3|3|3|"
+"3</br>"
+msgstr ""
+
+msgid ""
+"Enter multicast addresses with port separated by comma. "
+"ie:224.0.36.0:10000,224.0.36.1:10000"
+msgstr ""
+"ポート番号を「:」で分けてマルチキャストアドレスを入力してください。例： "
+"224.0.36.0:10000,224.0.36.1:10000"
+
+msgid ""
+"Enter prefix code to use when long pressing a BLF key when target BLF "
+"extension is idle."
+msgstr ""
+
+msgid ""
+"Enter prefix code to use when long pressing a BLF key when target BLF "
+"extension is in use."
+msgstr ""
+
+msgid ""
+"Enter prefix code to use when long pressing a BLF key when target BLF "
+"extension is ringing."
+msgstr ""
+
+msgid ""
+"Enter prefix code to use when short pressing a BLF key when target BLF "
+"extension is idle."
+msgstr ""
+
+msgid ""
+"Enter prefix code to use when short pressing a BLF key when target BLF "
+"extension is in use."
+msgstr ""
+
+msgid "Enter tertiary time server"
+msgstr ""
+
+msgid ""
+"Enter the External Address of the PBX. This is the address (or hostname) "
+"that is reachable from devices that are on a public, or not directly "
+"connected, network.  Enter &quot;auto&quot; to automatically detect this "
+"address (once only). Use the word &quot;none&quot; to disable this field on "
+"endpoints."
+msgstr ""
+
+msgid ""
+"Enter the External Address of the PBX. This is the address (or hostname) "
+"that is reachable from devices that are on a public, or not directly "
+"connected, network. Enter \"auto\" to automatically detect this address "
+"(once only). Use the word \"none\" to disable this field on endpoints."
+msgstr ""
+
+msgid ""
+"Enter the Internal Address of the PBX. This is the address (or hostname) "
+"that is reachable from devices that are not going through any NAT. Enter "
+"\"auto\" to automatically detect this address (once only). Use the word "
+"\"none\" to disable this field on endpoints."
+msgstr ""
+
+msgid ""
+"Enter the Internal Address of the PBX. This is the address (or hostname) "
+"that is reachable from devices that are not going through any NAT. Enter "
+"&quot;auto&quot; to automatically detect this address (once only). Use the "
+"word &quot;none&quot; to disable this field on endpoints."
+msgstr ""
+
+msgid "Enter the SSID (name) of the wireless network."
+msgstr "無線ネットワークのSSID（名前）を入力してください。"
+
+msgid "Enter the WEP Key 1 hexadecimal code"
+msgstr "WEP Key 1の暗号キーを入力してください。"
+
+msgid "Enter the WPA Key code"
+msgstr "WPA暗号キーを入力してください。"
+
+msgid "Enter the WPA network key"
+msgstr "WPAネットワークキーを入力してください。"
+
+msgid "Enter the destination for call."
+msgstr "発信の宛先を設定してください。"
+
+msgid "Enter the digit(s) for relay activation during call."
+msgstr "通話中にリレーをトリガーする数字を入力してください。"
+
+msgid "Enter the digit(s) for relay activation."
+msgstr "リレーをトリガーする数字を入力してください。"
+
+msgid "Enter the extension to monitor."
+msgstr "モニターする内線を入力してください。"
+
+msgid "Enter the network key"
+msgstr ""
+
+msgid ""
+"Enter the password for Phone GUI Web Admin Access and Login XML. MUST BE 6 "
+"CHARACTERS and recommend numeric as not all phones can use alpha-numeric"
+msgstr ""
+
+msgid ""
+"Enter the password for Phone GUI Web User Access and Login XML. MUST BE 6 "
+"CHARACTERS and recommend numeric as not all phones can use alpha-numeric"
+msgstr ""
+
+msgid ""
+"Enter the time (in seconds) for phones to check config files for changes.  "
+"Only supported by some brands."
+msgstr ""
+"設定ファイルを更新する間隔（秒数）を入力してください。注意：メーカーによって"
+"対応しない場合があります。"
+
+msgid "Enter up to 12 IPEI separated by commas"
+msgstr ""
+
+msgid "Enter vega config separated by new line."
+msgstr ""
+
+msgid "Enterprise Series"
+msgstr "Enterprise Series"
+
+msgid "Error Saving"
+msgstr "保存に失敗"
+
+msgid ""
+"Error creating symlink. You may notice degraded functionality in User "
+"Control Panel as a result"
+msgstr ""
+
+msgid "Error rebuilding.  No mappings found for "
+msgstr ""
+
+#, php-format
+msgid "Error: Brand not present"
+msgstr ""
+
+#, php-format
+msgid "Error: Template or Brand not present"
+msgstr ""
+
+#, php-format
+msgid "Error: Template or Brand not specified"
+msgstr ""
+
+msgid "Europe (generic tones)"
+msgstr "ヨーロッパ（一般音声信号）"
+
+msgid "Every basefile entry requires a \"Section\" to be set."
+msgstr ""
+"全てのベースファイルエントリーでは「セクション」を設定する必要があります。"
+
+msgid "Every basefile entry requires the following."
+msgstr "全てのベースファイルエントリーには以下の項目が必須です。"
+
+msgid ""
+"Every entry should also have a \"Type\" setting.  This defines what the "
+"value type should be. Either \"string\" for text or \"integer\" for a number."
+msgstr ""
+"また、全てのエントリーには「タイプ」の設定も必要です。この設定は、パラメータ"
+"がストリングなのか、数字なのか指定するためです。"
+
+msgid "Example: 8085550000"
+msgstr ""
+
+msgid "Example: New York Office"
+msgstr ""
+
+msgid "Example: aabbccddeeff"
+msgstr ""
+
+msgid "Expansion Module"
+msgstr ""
+
+msgid "Expansion Modules"
+msgstr "拡張モジュール"
+
+msgid "Expansion module(s) to use."
+msgstr ""
+
+msgid "Expansion module0"
+msgstr ""
+
+msgid "Expansion module1"
+msgstr ""
+
+msgid "Expansion module2"
+msgstr ""
+
+msgid "Export"
+msgstr "書き出し"
+
+msgid "Export List"
+msgstr ""
+
+msgid "Ext.cfg"
+msgstr "Ext.cfg"
+
+msgid "Extension"
+msgstr "内線"
+
+msgid "Extension "
+msgstr ""
+
+msgid "Extension Label"
+msgstr "内線ラベル"
+
+msgid "Extension Mapping"
+msgstr "内線マッピング"
+
+msgid "Extension Mapping IP Addresses"
+msgstr "内線マッピングIPアドレス"
+
+msgid "Extension Mapping Phone Status"
+msgstr "内線マッピング端末ステータス"
+
+msgid "Extension Number"
+msgstr "内線番号"
+
+msgid "Extension Number on foreign system."
+msgstr "外部システムにおける内線番号"
+
+msgid "Extension Password"
+msgstr "内線パスワード"
+
+msgid "Extension Secret"
+msgstr "内線シークレット"
+
+msgid "Extension add failed"
+msgstr ""
+
+msgid "Extension assigned to device."
+msgstr ""
+
+msgid "Extension is configured in EPM."
+msgstr ""
+
+msgid "Extension is required."
+msgstr ""
+
+msgid "Extension label must not be blank"
+msgstr ""
+
+msgid "Extension number already exist"
+msgstr ""
+
+msgid "Extension number must not be blank"
+msgstr ""
+
+msgid "Extension password must not be blank"
+msgstr ""
+
+msgid ""
+"Extension rows highlighted yellow have not been rebuilt since changes were "
+"made to the template."
+msgstr ""
+
+msgid "Extension-Name"
+msgstr ""
+
+msgid "Extension."
+msgstr ""
+
+msgid "Extension/Name"
+msgstr "内線／名前"
+
+msgid "Extensions"
+msgstr ""
+
+msgid "External"
+msgstr "外部"
+
+msgid "External Address"
+msgstr ""
+
+msgid "External Default"
+msgstr ""
+
+msgid "External IP to add"
+msgstr ""
+
+msgid "External IP to address"
+msgstr ""
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "FTP Provisioning Port"
+msgstr ""
+
+msgid "FXS"
+msgstr "FXS"
+
+msgid "FXS Devices"
+msgstr "FXSデバイス"
+
+msgid "Failed to install "
+msgstr "インストールが失敗しました "
+
+msgid "Failed to start Enable DPMA"
+msgstr ""
+
+msgid "Failed to write file to disk"
+msgstr ""
+
+msgid "Farsi"
+msgstr ""
+
+msgid "Fax Enable"
+msgstr ""
+
+msgid "Fax Mode"
+msgstr "FAXモード"
+
+msgid "February"
+msgstr ""
+
+msgid "Feedback Suppression"
+msgstr "フィードバックの防止"
+
+msgid "Feedback Suppression Level."
+msgstr "フィードバック防止レベル。"
+
+msgid "Fetch Internal and External IPS"
+msgstr ""
+
+msgid "Fetching the MAC address of phones...Please wait..."
+msgstr ""
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "File should be either phone-settings or model-settings"
+msgstr "ファイルはphone-settings、若しくはmodel-settingsでなければなりません"
+
+msgid "File the entry belongs in."
+msgstr "エントリが所属するファイル名。"
+
+msgid "File the entry belongs in. Use dialplan for dialplan entries"
+msgstr ""
+"エントリが入るファイル名。ダイヤルプランのエントリは dialplan を使います。"
+
+msgid "Finland"
+msgstr ""
+
+msgid "Firewall Zone(s): "
+msgstr ""
+
+msgid "Firmware"
+msgstr "ファームウェア"
+
+msgid "Firmware Management"
+msgstr "ファームウェア管理"
+
+#, php-format
+msgid "Firmware Revisions for %s"
+msgstr ""
+
+msgid "Firmware Slot 1"
+msgstr "ファームウェアスロット1"
+
+msgid "Firmware Slot 2"
+msgstr "ファームウェアスロット2"
+
+msgid "Firmware Upload"
+msgstr ""
+
+msgid "Firmware Version"
+msgstr "ファームウェアバージョン"
+
+msgid "Firmware Version "
+msgstr ""
+
+msgid "Firmware download failed. Please resubmit to try again."
+msgstr ""
+
+msgid "Firmware downloading and installing. Please wait."
+msgstr ""
+
+msgid "Firmware successfully installed."
+msgstr "ファームウェアをインストールできました。"
+
+msgid "First Week"
+msgstr ""
+
+msgid "First name, then last name"
+msgstr ""
+
+msgid "Flash"
+msgstr "点滅"
+
+msgid "Flash Pattern"
+msgstr "点滅パターン"
+
+msgid "Flash or continuous light."
+msgstr "点滅するか、点灯になるか設定します。"
+
+msgid "Flashing"
+msgstr "点滅中"
+
+msgid "For Visual Voice Mail."
+msgstr "ビジュアルボイスメール用。"
+
+#, php-format
+msgid ""
+"For information and instructions on using Endpoint Manager, please see the "
+"%s Endpoint Manager Wiki %s."
+msgstr ""
+
+#, php-format
+msgid ""
+"For information on the brands and models supported in the full version of "
+"Endpoint Manager, please see %s the Endpoint Manager Wiki %s page."
+msgstr ""
+
+msgid "For instance"
+msgstr "次のインスタンス"
+
+msgid "For instance:"
+msgstr "次のインスタンス:"
+
+msgid ""
+"For more information on the brands and models supported in the full version "
+"of Endpoint Manager or to purchase a license, please contact your sales "
+"representative."
+msgstr ""
+
+msgid "Force Firmware Version"
+msgstr ""
+
+msgid "Force Phone to Check Config."
+msgstr ""
+
+msgid "Force Reboot of Phone."
+msgstr ""
+
+msgid "Foreground message color."
+msgstr "全景のメッセージ色"
+
+msgid "Forward Enabled"
+msgstr "転送が有効"
+
+msgid "Fourth Week"
+msgstr ""
+
+msgid "France"
+msgstr "フランス"
+
+#, php-format
+msgid ""
+"FreePBX Digium Phones module is also enabled so please uninstall/disable "
+"that module to avoid conflict of writing asterisk dpma configuration files "
+"by both 'Digium Phone module' and 'Endpoint Manager' "
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "French (Belgian)"
+msgstr ""
+
+msgid "French (Canadian)"
+msgstr ""
+
+msgid "Frequency in seconds to send qualify messages."
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "GUI"
+msgstr ""
+
+msgid "GUI Override"
+msgstr ""
+
+msgid "General"
+msgstr "一般"
+
+msgid "Generating Configs..."
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Germany"
+msgstr "ドイツ"
+
+msgid "Global Pin"
+msgstr ""
+
+msgid "Global Settings"
+msgstr "グローバル設定"
+
+msgid "Golbal settings have been updated successfully"
+msgstr ""
+
+msgid "Gold"
+msgstr "金色"
+
+msgid "Grandstream configs are a direct 1-to-1 relationship."
+msgstr "Grandstreamの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Great Britain"
+msgstr ""
+
+msgid "Greece"
+msgstr ""
+
+msgid "Green"
+msgstr "緑"
+
+msgid "GuitarStrum"
+msgstr ""
+
+msgid "Gungsuh"
+msgstr "Gungsuh"
+
+msgid "HTTP"
+msgstr "HTTP"
+
+msgid "HTTP Provisioning Port"
+msgstr ""
+
+msgid "HTTPS"
+msgstr ""
+
+msgid "HandSet Send Volume"
+msgstr ""
+
+msgid "HandsFree Send Volume"
+msgstr ""
+
+msgid "Handset Access Code"
+msgstr ""
+
+msgid "Handset ID"
+msgstr "ハンドセットID"
+
+msgid "Handset Volume"
+msgstr ""
+
+msgid "Hang Up Remote Parties"
+msgstr ""
+
+msgid "HeadSet Send Volume"
+msgstr ""
+
+msgid "Headset"
+msgstr ""
+
+msgid "Headset Only"
+msgstr "ヘッドセットのみ"
+
+msgid "Headset Priority"
+msgstr ""
+
+msgid "Headset Then Speaker"
+msgstr "ヘッドセット→スピーカー"
+
+msgid "Headset Volume"
+msgstr ""
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hidden Devices"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Hide Popup"
+msgstr ""
+
+msgid "High"
+msgstr "高"
+
+msgid "Hold Tone"
+msgstr ""
+
+msgid "Hold Tone Delay"
+msgstr ""
+
+msgid "Horizontal (Auto)"
+msgstr "横（自動）"
+
+msgid "Horizontal Soft Key"
+msgstr "横のソフトキー"
+
+msgid "Horizontal Soft Keys"
+msgstr "横のソフトキー"
+
+msgid "Hot Desk Emergency CID"
+msgstr ""
+
+msgid "Hot Desk Emergency CIDs"
+msgstr ""
+
+msgid "HotLine"
+msgstr ""
+
+msgid "HotLine Destination"
+msgstr ""
+
+#, php-format
+msgid "Hotdesk Emergency Extension"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "How call waiting alerts you."
+msgstr "キャッチホンがどのように通知するか設定します。"
+
+msgid "Htek configs are a direct 1-to-1 relationship."
+msgstr "Htekの設定は「1対1」の直接関係があります。"
+
+msgid "Hungary"
+msgstr ""
+
+msgid "Hunter"
+msgstr "ディープグリーン"
+
+msgid "ID"
+msgstr ""
+
+msgid "INUSE"
+msgstr ""
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP Address"
+msgstr "IPアドレス"
+
+msgid "IP or FQDN of LDAP server"
+msgstr ""
+
+msgid "IP-Address"
+msgstr ""
+
+msgid "IP/FQDN of foreign system."
+msgstr "外部システムのIPかFQDN"
+
+msgid "IPEI"
+msgstr ""
+
+msgid "IPEI (Handset)"
+msgstr ""
+
+msgid "IPEI ID of handset."
+msgstr ""
+
+msgid "IPEI value is blank. Are you ok to configure this "
+msgstr ""
+
+msgid "Idle"
+msgstr "アイドル"
+
+msgid ""
+"If 1, places any in-progress calls on hold before playing back audio, and "
+"ignore the phones local volume setting, playing back the audio at full "
+"volume. If 0, in-progress calls will have their audio played over the top of "
+"any in-progress calls. If 2, phone will ignore pages for this listener if it "
+"is involved in another call"
+msgstr ""
+
+msgid ""
+"If Enable than Sangoma D & P series phone will not marked missed call when "
+"RingGroup Extension is dialed and call answered by other phone.<br>This "
+"functionality Work when Mark Answered Elsewhere in RingGroup Extension is "
+"set to yes.</br>Not Supported Model: D80.<br>Default is Enable.</br>"
+msgstr ""
+
+msgid ""
+"If Enable, blind transfer a call with a single BLF button press.<br><b>Note: "
+"BLF Directed Call Pickup will not work with this functionality enabled.</b></"
+"br>Default is Disabled."
+msgstr ""
+
+msgid ""
+"If Enable, flashing BLF for a local extension would auto-dial the Directed "
+"Call Pickup feature code with an Extension number such as (**ext-no) and "
+"seize the ringing call from the other extension.<br>When you press a "
+"flashing BLF on an idle phone, it will just make a call to that device.</"
+"br><b>Note: The Quick BLF VM Transfer and Quick BLF Transfer will not work "
+"if this functionality is enabled.</b><br>Default is Disable.</br>"
+msgstr ""
+
+msgid ""
+"If Enable, the phones hard ringing key will not change the ringing-volume of "
+"the phone. This option will not work for D80 & P370 model. <br> Default is "
+"Disable.</br>"
+msgstr ""
+
+msgid ""
+"If Enable, the screen will dim after the backlight timeout has been reached "
+"and phone is otherwise idle. If Disable, the phone will not dim the screen. "
+"<br> Default is Enable. </br>"
+msgstr ""
+
+msgid ""
+"If Enabled, a Monitor key will be seen on the Contact Details page for all "
+"internal contacts that are extensions associated with a user. The Monitor "
+"key uses ChanSpy on SIP channels, allowing the user to listen in on a "
+"contacts current call. This functionality work when DPMA Apps is enabled."
+"<br>Models Not Supported: P310 & P315.</br>Default is Disabled."
+msgstr ""
+
+msgid ""
+"If Enabled, send pickup prefix codes on blf transfer while the phone is idle."
+"<br>Default is Enable.</br>"
+msgstr ""
+
+msgid ""
+"If Enabled, when the BLF extension is on a call or ringing, the BLF "
+"extensions voicemail box will be called when its rapid dial key is pressed. "
+"<br>If the BLF extension is on a call or ringing, and its rapid dial key is "
+"long-pressed, any current call that we are talking to will be transferred "
+"directly to the BLF extensions voicemail box.</br><b>Note: BLF Directed Call "
+"Pickup will not work with this functionality enabled.</b><br>Default is "
+"Disable.</br>"
+msgstr ""
+
+msgid ""
+"If Voicemail Application, then message key action will open the voicemail "
+"app, key will only use account 1. <br>If Standard Voicemail, then message "
+"key will be mapped to the extension defined for the voicemail option.</"
+"br>Default is Voicemail Application."
+msgstr ""
+
+msgid ""
+"If in case Restore process not running then you may delete /var/run/asterisk/"
+"restore_running.lock file and try uninstall again"
+msgstr ""
+
+msgid ""
+"If set to Custom Phone Label then use this Example: __line1Name__ or add any "
+"Label directly."
+msgstr ""
+
+msgid ""
+"If set to Enable, Dx phones will use the DPMA Apps. When set to Disable, "
+"supported models will use XML-API Phone Apps. This option is only valid for "
+"Dx series phones(except D80 ). Px series phones and D80 will use the DPMA "
+"apps regardless of this setting since they do not support XML-API Phone "
+"Apps. <br>Note: To Use DPMA Apps with D80 & P370 set PhoneApps Protocol to "
+"HTTPS.<br> Default is Enable. </br>"
+msgstr ""
+
+msgid ""
+"If set to Use Line Label then the Phone Label option will use the setting "
+"according to Line Label option."
+msgstr ""
+
+msgid ""
+"If set to yes, will advertise the mDNS server.<br> <b>Note:-</b> It is "
+"recommended to set this option to <b>No</b> if you are using DHCP Option 66 "
+"for provisioning the phones."
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Image Management"
+msgstr "イメージ管理"
+
+msgid "Import List"
+msgstr ""
+
+msgid "Import Template"
+msgstr "テンプレートのインポート"
+
+msgid "Important Endpoint Manager DPMA functionality change"
+msgstr ""
+
+msgid "Important updates regarding Firmware upgrade!"
+msgstr ""
+
+msgid "In-Use"
+msgstr "使用中"
+
+msgid "Incom configs are a direct 1-to-1 relationship with sections."
+msgstr ""
+"Incomの設定はセクション付き「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Incoming"
+msgstr "インバウンド"
+
+msgid "India"
+msgstr ""
+
+msgid "Inherit"
+msgstr "引き継ぐ"
+
+msgid ""
+"Installing/Updating the Asterisk digium phone module rpm...please wait...<br/"
+">"
+msgstr ""
+
+msgid ""
+"Installs Polycom Upgrader Bootroms to allow older versions to upgrade "
+"gracefully and avoid the boot loop."
+msgstr ""
+"ブートループを避けるために、Polycomのアップグレード専用ブートロムをインストー"
+"ルします。"
+
+msgid "Intercom"
+msgstr "インターコム"
+
+msgid ""
+"Intercom-Does not accept a new call, and returns a busy signal unless "
+"available."
+msgstr ""
+"インターコム：新規通話を拒否して、待ち状態になるまでビジーの信号を返します。"
+
+msgid "Internal"
+msgstr "内部"
+
+msgid "Internal Address"
+msgstr ""
+
+msgid "Internal Default"
+msgstr ""
+
+msgid "Internal IP address"
+msgstr ""
+
+msgid "Internal IP to add"
+msgstr ""
+
+msgid "Internal and External IPs have been Updated"
+msgstr ""
+
+msgid "Invalid Emergency CID"
+msgstr ""
+
+msgid "Invalid IP Address is entered in Primary Data Sync IP"
+msgstr ""
+
+msgid "Invalid Location Name"
+msgstr ""
+
+msgid "Invalid MAC Address entered."
+msgstr ""
+
+msgid "Invalid MAC Addresses:"
+msgstr ""
+
+msgid "Invalid image file name, image name should not have any space."
+msgstr ""
+
+msgid ""
+"It is normally correct to have the Provisioning Address match the usage of "
+"the template (Internal or External). In unusually complex networks, it may "
+"be required to select 'Custom' and enter a URL.  Note that you <strong>must</"
+"strong> enter a complete, valid URI with the protocol - '<tt>user:"
+"pass@1.2.3.4:4434</tt>' <strong>is not correct</strong>, but '<tt>https://"
+"user:pass@1.2.3.4:4434</tt>' is correct because it starts with a valid "
+"protocol (<tt>https://</tt>)."
+msgstr ""
+
+msgid ""
+"It is recommended to rebuild the phone configuration of Sangoma's P31x "
+"series phones only configured through Endpoint Manager with 4_15_4 FW or "
+"higher firmware version to continue to use the DPMA Apps feature."
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Italy"
+msgstr "イタリア"
+
+msgid "January"
+msgstr ""
+
+msgid "Japan"
+msgstr ""
+
+msgid "Jingle"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "Keep volume level after phone call."
+msgstr "通話が終わっても音量を保持します。"
+
+msgid "Key Press Tone"
+msgstr ""
+
+msgid "LCD Display Language"
+msgstr ""
+
+msgid "LCD Font Size"
+msgstr ""
+
+msgid "LDAP"
+msgstr ""
+
+msgid "LDAP Base"
+msgstr ""
+
+msgid "LDAP Display Name"
+msgstr ""
+
+msgid "LDAP Lookup For Incoming Call"
+msgstr ""
+
+msgid "LDAP Max Hits"
+msgstr ""
+
+msgid "LDAP Name Attributes"
+msgstr ""
+
+msgid "LDAP Name Filter"
+msgstr ""
+
+msgid "LDAP Number Attributes"
+msgstr ""
+
+msgid "LDAP Number Filter"
+msgstr ""
+
+msgid "LDAP Password"
+msgstr ""
+
+msgid "LDAP Port"
+msgstr ""
+
+msgid "LDAP Protocol"
+msgstr ""
+
+msgid "LDAP Search Delay"
+msgstr ""
+
+msgid "LDAP Server Address"
+msgstr ""
+
+msgid "LDAP Sorting Results"
+msgstr ""
+
+msgid "LDAP Username"
+msgstr ""
+
+msgid "LED Active Call Status"
+msgstr ""
+
+msgid "LED Idle Status"
+msgstr ""
+
+msgid "LED Missed Call Status"
+msgstr ""
+
+msgid "LED Power Status"
+msgstr ""
+
+msgid "LED Ringing Status"
+msgstr ""
+
+msgid "LED Voice Mail Status"
+msgstr ""
+
+msgid "LED in-use status"
+msgstr ""
+
+msgid "LLDP"
+msgstr ""
+
+msgid "LLDP Packet Interval"
+msgstr ""
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Label Scrolling"
+msgstr ""
+
+msgid "Label for Extension Display Name."
+msgstr "内線ディスプレイ名のラベル。"
+
+msgid "Label for line key on supported models."
+msgstr "ラインキーのラベル（対応機種のみ）。"
+
+msgid ""
+"Label for phone on supported models i.e S500, S505, S700, S705. <br>If set "
+"to Use line Label than Phone Label option will use the setting according of "
+"Line Label option.</br> If set to Custom Phone Label than use this Example: "
+"__line1Name__ or add any Label directly.<br>Default is None.</br>"
+msgstr ""
+
+msgid ""
+"Label for phone on supported models i.e. D60, D62, D65, P320, P325, P330."
+msgstr ""
+
+msgid "Label to be displayed for button."
+msgstr "ボタンに表示するラベル。"
+
+msgid "Label/Name to be used for buttons."
+msgstr "ボタンで使うラベル・名前。"
+
+msgid "Large"
+msgstr ""
+
+msgid "Last Week"
+msgstr ""
+
+msgid "Last name, then first name"
+msgstr ""
+
+msgid "Left to Right"
+msgstr "左→右"
+
+msgid "Legacy Enterprise Series"
+msgstr "Legacy Enterprise Series"
+
+msgid "Legacy Panasonic configs are a direct 1-to-1 relationship."
+msgstr ""
+"レガシィPanasonicの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Legacy Style"
+msgstr "レガシースタイル"
+
+msgid "Legacy configs  are a direct 1-to-1 relationship with sections."
+msgstr "レガシィの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Level 0"
+msgstr ""
+
+msgid "Level 1"
+msgstr ""
+
+msgid "Level 10"
+msgstr ""
+
+msgid "Level 2"
+msgstr ""
+
+msgid "Level 3"
+msgstr ""
+
+msgid "Level 4"
+msgstr ""
+
+msgid "Level 5"
+msgstr ""
+
+msgid "Level 6"
+msgstr ""
+
+msgid "Level 7"
+msgstr ""
+
+msgid "Level 8"
+msgstr ""
+
+msgid "Level 9"
+msgstr ""
+
+msgid "Licensed is activated.<br/><br/>"
+msgstr ""
+
+msgid "Line Keys"
+msgstr "ラインキー"
+
+msgid "Line Label"
+msgstr "ラインラベル"
+
+msgid "List Brands"
+msgstr ""
+
+msgid "List Images"
+msgstr ""
+
+msgid "List all templates."
+msgstr ""
+
+msgid ""
+"List extension(s) by order. Argument 1: Extension or ALL, Argument 2: Column "
+"to order by. Option --detail = All mapping information."
+msgstr ""
+
+msgid "List of External and Internal IP address"
+msgstr ""
+
+msgid "List of endpoint global settings"
+msgstr ""
+
+msgid "Listener"
+msgstr ""
+
+msgid "Lithuania"
+msgstr ""
+
+msgid "Loading.."
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Location Name"
+msgstr ""
+
+msgid "Location is required."
+msgstr ""
+
+msgid "Lock Ringing Volume"
+msgstr ""
+
+msgid "Logo LED"
+msgstr ""
+
+msgid "Logout the specified extensions. Specify extension."
+msgstr ""
+
+msgid "Loop"
+msgstr "ループ"
+
+msgid "Low"
+msgstr "低"
+
+msgid "M-D-Y"
+msgstr ""
+
+msgid "MAC"
+msgstr "MAC"
+
+msgid "MAC Address"
+msgstr "MACアドレス"
+
+msgid "MAC Address of Basestation."
+msgstr ""
+
+msgid "MAC Address of device to be provisioned"
+msgstr "プロビジョニングするデバイスのMACアドレス"
+
+msgid "MAC Address of repeater to use."
+msgstr ""
+
+msgid "MAC Addresses"
+msgstr ""
+
+msgid ""
+"MAC address associated with DB20 basestation not found. Please ensure that "
+"base station is configured properly in Base Station Management under "
+"Endpoint Manager."
+msgstr ""
+
+msgid ""
+"MAC address is blank. This means this extensions will only work with phones "
+"that support the hotdesking functionality. Are you ok to configure this "
+"extension ?"
+msgstr ""
+
+msgid "MAC address of repeater(s) to use."
+msgstr ""
+
+msgid "MAC already exists"
+msgstr ""
+
+msgid "MAC of device."
+msgstr ""
+
+msgid "MAC-Features.cfg"
+msgstr "MAC-Features.cfg"
+
+msgid "MAC.cfg"
+msgstr "MAC.cfg"
+
+msgid "Mac"
+msgstr ""
+
+msgid "Mac Addresses"
+msgstr ""
+
+msgid "Mac address must be entered for "
+msgstr ""
+
+msgid "Mac is required."
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Menu"
+msgstr ""
+
+msgid "Menu Key Type"
+msgstr ""
+
+msgid "Menu PIN"
+msgstr ""
+
+msgid "Menu requires PIN"
+msgstr ""
+
+msgid "Message Color"
+msgstr "メッセージ色"
+
+msgid "Message Font"
+msgstr "メッセージフォント"
+
+msgid "Message Font Type"
+msgstr "メッセージフォントタイプ"
+
+msgid "Message Waiting"
+msgstr "メッセージあり"
+
+msgid "Message for the request"
+msgstr ""
+
+msgid "Mexico"
+msgstr "メキシコ"
+
+msgid "Microphone Volume"
+msgstr "マイク音量"
+
+msgid "Microphone Volume Level"
+msgstr "マイクの音量"
+
+msgid "Migrating tables as required..."
+msgstr ""
+
+msgid "Missed Calls"
+msgstr "不在着信"
+
+msgid "Missing a temporary folder"
+msgstr ""
+
+msgid ""
+"Mitel uses a nested XML style, but simplified.  All entries are treated as a "
+"direct 1-to-1 relationship."
+msgstr ""
+"Mitelの設定は簡素化されたネスト式XMLのフォーマットを採用していますが、すべて"
+"のエントリーは「1対1」PARAMETER = VALUEとして扱われます。"
+
+msgid "Mocet uses a nested XML style."
+msgstr "Mocetはネスト式XMLのフォーマットを採用しています。"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Model"
+msgstr "モデル"
+
+msgid "Model assigned to device."
+msgstr ""
+
+msgid "Model is required."
+msgstr ""
+
+msgid "Model of device to be provisioned"
+msgstr "プロビジョニングするデバイスのモデル"
+
+msgid "Models"
+msgstr ""
+
+msgid "Module Settings"
+msgstr "モジュール設定"
+
+msgid "Momentary Key Press Digit"
+msgstr "一時キープレス数字"
+
+msgid "Monday"
+msgstr ""
+
+msgid ""
+"Monitor \"Message Waiting\" event (RFC 3842) on registered SIP extension"
+msgstr ""
+"SIPレジストしている内線で「メッセージあり」イベント（RFC3842）をモニターしま"
+"す"
+
+msgid "Monitor \"Ring\" event on registered SIP extension"
+msgstr "SIPレジストしている内線で「リング」イベントをモニターします"
+
+msgid "Monitor Call"
+msgstr ""
+
+msgid "Monitored Extension"
+msgstr "モニター対象内線"
+
+msgid "Month"
+msgstr ""
+
+msgid "Multi Cell debug"
+msgstr ""
+
+msgid "Multi-strobe and dim holdover"
+msgstr "マルチストロボと暗いホールドオーバ"
+
+msgid "Multi-strobe fast bright"
+msgstr "マルチストロボ（速）明るい"
+
+msgid "Multi-strobe fast dimmed"
+msgstr "マルチストロボ（速）暗い"
+
+msgid "Multi-strobe slow bright"
+msgstr "マルチストロボ（遅）明るい"
+
+msgid "Multi-strobe slow dimmed"
+msgstr "マルチストロボ（遅）暗い"
+
+msgid "Multicast"
+msgstr ""
+
+msgid "Multicast Address"
+msgstr "マルチキャストアドレス"
+
+msgid "Multicast Enable"
+msgstr "マルチキャストを有効"
+
+msgid "Multicast address to which phone should subscribe for audio"
+msgstr ""
+
+msgid "Multicast address to which phone will broadcast audio"
+msgstr ""
+
+msgid "Multicell Enable"
+msgstr ""
+
+msgid "Mute Mic"
+msgstr "マイクをミュート"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Name-Extension"
+msgstr "名前-内線"
+
+msgid ""
+"Needs to be the name of the file the setting will be in.  ie:mac-legacy, "
+"features, etc.  If you do not know what the file name is, click on an "
+"existing setting."
+msgstr ""
+"設定が入っているファイルの名前。例) mac-legacy, features など。ファイルの名前"
+"が分からない場合は、既存の設定をクリックしてください。"
+
+msgid "Netherlands"
+msgstr ""
+
+msgid "Network Scan"
+msgstr "ネットワークスキャン"
+
+msgid "New"
+msgstr "新規"
+
+#, php-format
+msgid "New %s Template"
+msgstr ""
+
+msgid "New Call"
+msgstr ""
+
+msgid "New Call Enabled"
+msgstr "新規通話が有効"
+
+msgid "New Custom Extension"
+msgstr "新規カスタム内線"
+
+msgid "New Emergency CID Mapping"
+msgstr ""
+
+msgid "New Template"
+msgstr "新規テンプレート"
+
+msgid "New Zealand"
+msgstr ""
+
+msgid "New basestation"
+msgstr ""
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Alert"
+msgstr ""
+
+msgid "No Devices Found"
+msgstr "デバイスが見つかりません"
+
+#, php-format
+msgid ""
+"No IPEI is configured for selected extension[ '%s' ]. \n"
+"Are you ok to configure this DB20 extension without IPEI ? \n"
+msgstr ""
+
+msgid "No Scrolling"
+msgstr "スクロールを禁止"
+
+msgid "No Templates"
+msgstr "テンプレートがありません"
+
+msgid "No file to load!"
+msgstr ""
+
+msgid "No file was uploaded"
+msgstr ""
+
+msgid ""
+"No matching MAC Address found. The entered MAC Address for this extension "
+"mapping must match the MAC Address of an existing Digium extension mapping "
+"that is set for Account1."
+msgstr ""
+
+msgid "No picture selected."
+msgstr "画像は選択されていません。"
+
+msgid "No ringtone file has been uploaded."
+msgstr ""
+
+msgid "None"
+msgstr "なし"
+
+msgid "Norway"
+msgstr ""
+
+msgid "Not Selected"
+msgstr "未選択"
+
+msgid "Not a valid picture format or size."
+msgstr "無効なフォーマットもしくはサイズ。"
+
+msgid ""
+"Not restoring firmware and configurations file which has to be done again on "
+"new system"
+msgstr ""
+
+msgid "Note: Every line(mapped extension) on a "
+msgstr ""
+
+msgid ""
+"Note: In the event that basestation settings have changed, you will need to "
+"rebuild the basestation configuration to apply those changes."
+msgstr ""
+
+msgid ""
+"Note: Some models are disabled due to current Endpoint Manager Global "
+"Settings. To enable phones that have been blocked, please set \"USE DPMA\" "
+"to \"Yes\" in Global Settings."
+msgstr ""
+
+msgid ""
+"Note: The DPMA Apps App-Record feature allows the use of a softkey to Start "
+"and Stop Recordings during a call. This feature requires the enabling of "
+"\"On Demand Recording\", which is found in an extension Advanced options. If "
+"that setting is changed, please make sure the extension configuration is "
+"rebuilt and applied through Endpoint Manager. App-Record is supported by "
+"Sangoma D & P series phones except P310 and P315 models."
+msgstr ""
+
+msgid ""
+"Note: The DPMA Apps on the Sangoma D80 & P370 phone will only work when the "
+"Phone Apps protocol in associated template is set to HTTPS."
+msgstr ""
+
+msgid ""
+"Note: The DPMA Apps, such as Queues/Follow Me App, work only if the phone "
+"app protocol in the template is HTTPS."
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Number of times to display the message. 0 means continual."
+msgstr "メッセージを表示する回数。0に設定すると制限しません。"
+
+msgid "Number of times to flash per second."
+msgstr "1秒に点滅する回数。"
+
+msgid "Obihai configs are a direct 1-to-1 relationship."
+msgstr "Obihaiの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Ochre"
+msgstr "ダークオレンジ"
+
+msgid "October"
+msgstr ""
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "Off Time"
+msgstr "オフタイム"
+
+msgid "Office"
+msgstr ""
+
+msgid "Office2"
+msgstr ""
+
+msgid "Olive"
+msgstr "オリーブ"
+
+msgid "On"
+msgstr "オン"
+
+msgid "On Time"
+msgstr "オンタイム"
+
+msgid "On this page you can create templates for"
+msgstr "このページでは次のテンプレートを作成できます："
+
+msgid "Only licensed for Sangoma and Digium devices."
+msgstr ""
+
+msgid "Only one file is allowed at a time"
+msgstr ""
+
+msgid "Open Edit button screen on long press during idle state."
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Orange"
+msgstr "オレンジ"
+
+msgid "Outbound Proxy"
+msgstr ""
+
+msgid "Outbound Proxy Address"
+msgstr ""
+
+msgid "Outbound Proxy Port"
+msgstr ""
+
+msgid "Outgoing"
+msgstr "アウトバウンド"
+
+msgid "PARAMETER = VALUE"
+msgstr "PARAMETER = VALUE"
+
+msgid "PARAMETER = VALUE."
+msgstr "PARAMETER = VALUE."
+
+msgid "PARAMETER=VALUE."
+msgstr "PARAMETER=VALUE."
+
+msgid "PC VLAN ID"
+msgstr ""
+
+msgid "PEAP-GTC"
+msgstr ""
+
+msgid "PEAP-MSCHAP"
+msgstr ""
+
+msgid "PJSIP AOR"
+msgstr ""
+
+msgid "PJSIP Max Contact Display Limit"
+msgstr ""
+
+msgid ""
+"PJSIP extensions configured with Transport set to Auto will be provisioned "
+"using the signaling transport set here. For non-PJSIP devices or PJSIP "
+"devices with transport not set to Auto, this setting is ignored."
+msgstr ""
+
+msgid "PM Color"
+msgstr "午後の色"
+
+msgid "Pager"
+msgstr "ページャー"
+
+msgid "Pager Ring Tone"
+msgstr "ページャーリングトーン"
+
+msgid "Pager Volume"
+msgstr "ページャー音量"
+
+msgid "Paging"
+msgstr "ページング"
+
+msgid "Paging-Force existing calls to ‘hang up’ and the new call is accepted."
+msgstr "ページング：通話中の呼を終了し、新規の通話に応答します。"
+
+msgid "Parameter"
+msgstr "パラメータ"
+
+msgid "Parameter setting."
+msgstr "パラメータの設定。"
+
+msgid "Passthrough"
+msgstr "パススルー"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Password must be at least 6 characters"
+msgstr ""
+
+msgid "Password to bind to LDAP server with. Leave blank for anonymous."
+msgstr ""
+
+msgid "Password/Secret of extension on foreign system."
+msgstr "外部システムにおける内線のパスワード／シークレット。"
+
+msgid "Perm"
+msgstr "Perm"
+
+msgid "Persistent Volume"
+msgstr "音量を保持"
+
+msgid "Phoenix configs are a direct 1-to-1 relationship."
+msgstr "Phoenixの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Phone"
+msgstr "電話機"
+
+msgid "Phone Admin Password"
+msgstr "電話機の管理者パスワード"
+
+msgid "Phone Authentication Method"
+msgstr ""
+
+msgid "Phone Brand"
+msgstr ""
+
+msgid "Phone Brand "
+msgstr ""
+
+msgid "Phone FW File"
+msgstr ""
+
+msgid "Phone FW Version"
+msgstr ""
+
+msgid "Phone Label"
+msgstr ""
+
+msgid "Phone Model"
+msgstr ""
+
+msgid "Phone User Password"
+msgstr "電話機のユーザーパスワード"
+
+msgid "Phone firmware version"
+msgstr ""
+
+msgid ""
+"Phone – Does not automatically pick up, requires input via IR or GPIO to "
+"accept the call."
+msgstr "電話：自動応答しません。応答するにはIRもしくはGPIOの入力が必要です。"
+
+msgid "Phone/Endpoint brand type is required."
+msgstr ""
+
+msgid "Phone/Headset Ringing"
+msgstr ""
+
+msgid "PhoneApps Protocol"
+msgstr ""
+
+msgid "Phones"
+msgstr "電話機"
+
+msgid "Pictures must be a GIF, JPEG, or PNG image file no greater than 20MB"
+msgstr ""
+
+msgid "Pin Code 1"
+msgstr "暗証番号1"
+
+msgid "Pin Code 10"
+msgstr "暗証番号10"
+
+msgid "Pin Code 2"
+msgstr "暗証番号2"
+
+msgid "Pin Code 3"
+msgstr "暗証番号3"
+
+msgid "Pin Code 4"
+msgstr "暗証番号4"
+
+msgid "Pin Code 5"
+msgstr "暗証番号5"
+
+msgid "Pin Code 6"
+msgstr "暗証番号6"
+
+msgid "Pin Code 7"
+msgstr "暗証番号7"
+
+msgid "Pin Code 8"
+msgstr "暗証番号8"
+
+msgid "Pin Code 9"
+msgstr "暗証番号9"
+
+msgid "Play Previous Recording"
+msgstr ""
+
+msgid ""
+"Please Note: MAC addresses are not routable.  Subnet needs to be local to "
+"the PBX"
+msgstr ""
+"注意：MACアドレス宛てに通信できません。サブネットはPBXのローカル環境でなけれ"
+"ばなりません。"
+
+msgid "Please Save/Submit this custom slot."
+msgstr ""
+
+msgid "Please enable RESTful Phone Apps in System Admin to use phone apps."
+msgstr ""
+
+msgid "Please enter phone model"
+msgstr ""
+
+msgid ""
+"Please note that not all firmware versions are tested with all possible "
+"configurations. Firmware updates may require that the phone first be reset "
+"to factory defaults. It is strongly recommended that firmware updates always "
+"be well tested on a single device or model before upgrading all devices."
+msgstr ""
+
+msgid ""
+"Please note: As of version 13.0.57, GXP-2130/35/40/60/70 phones use "
+"configuration entries that only work with Grandstream firmware 1.0.7.15 and "
+"above.  Please upgrade your firmware to avoid endless reboots."
+msgstr ""
+
+msgid "Please select Account before proceeding with submission.."
+msgstr ""
+
+#, php-format
+msgid "Please select a Provisioning Server Protocol in the template [ '%s' ]."
+msgstr ""
+
+msgid "Please select brand before proceeding with submission.."
+msgstr ""
+
+msgid "Please select model before proceeding with submission.."
+msgstr ""
+
+msgid "Please specify custom phone firmware version."
+msgstr ""
+
+msgid "Please specify phone model"
+msgstr ""
+
+msgid "Please try again."
+msgstr "再試行してください。"
+
+msgid "Please upload phone custom firmware file."
+msgstr ""
+
+msgid "Please wait while Migration process are performed"
+msgstr ""
+
+msgid "Please wait while process are performed"
+msgstr ""
+
+msgid "Polcom Special Keys"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Polycom uses a nested XML style with multiple files."
+msgstr ""
+"Polycomは複数のファイルで構成される、ネスト式XMLのフォーマットを採用していま"
+"す。"
+
+msgid "Port"
+msgstr ""
+
+msgid ""
+"Port (Valid integer(1-65535)), combined with address, to which phone should "
+"subscribe for audio."
+msgstr ""
+
+msgid ""
+"Port (Valid integer(1-65535)), combined with address, to which phone will "
+"broadcast audio."
+msgstr ""
+
+msgid "Ports"
+msgstr ""
+
+msgid "Portugal"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Portuguese (Brazilian)"
+msgstr ""
+
+msgid "Prefer Primary SIP Server"
+msgstr ""
+
+msgid "Preferred PJSIP Transport"
+msgstr ""
+
+msgid "Primary Data Sync IP"
+msgstr ""
+
+msgid "Primary Data Sync IP. <br>Default is 0.0.0.0</br>"
+msgstr ""
+
+msgid "Primary Time Server"
+msgstr "メインタイムサーバー"
+
+msgid ""
+"Prioritization level, lower given more priority, for playing back streams "
+"when more than one subscribed address is providing audio"
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Protocol PBX uses to transfer configs to phones."
+msgstr "PBXが電話機に設定ファイルを送信するプロトコル。"
+
+msgid "Protocol Phones use to connect to Phone Apps."
+msgstr ""
+
+msgid ""
+"Provides a method to upload custom phone firmware to Endpoint manager to use "
+"for configured phones. You can upload or delete custom firmware from here."
+msgstr ""
+
+msgid "Provision Address"
+msgstr ""
+
+msgid "Provision Server Address"
+msgstr "プロビジョニングサーバーアドレス"
+
+msgid "Provision Server Protocol"
+msgstr "プロビジョニングサーバープロトコル"
+
+msgid "Provision Type"
+msgstr ""
+
+msgid "Provisioning Address"
+msgstr ""
+
+msgid "Provisioning Protocol"
+msgstr ""
+
+msgid "Provisioning Server Address"
+msgstr ""
+
+msgid "Provisioning Server Protocol"
+msgstr ""
+
+msgid "Pulse"
+msgstr "パルス"
+
+msgid "Pumpkin"
+msgstr "かぼちゃ"
+
+msgid "Qualify Frequency"
+msgstr ""
+
+msgid "Queues App supported models i.e. P320, P325 & P330 phones."
+msgstr ""
+
+msgid "Quick BLF Transfer"
+msgstr ""
+
+msgid "Quick BLF VM Transfer"
+msgstr ""
+
+msgid "RESTfull Apps Port"
+msgstr "RESTfulアプリのポート"
+
+msgid "RSS Feed"
+msgstr "RSSフィード"
+
+msgid "ReSync Time"
+msgstr ""
+
+msgid "Read from endpoint"
+msgstr ""
+
+msgid "Rebuild Config(s) & Update Phones"
+msgstr ""
+
+msgid ""
+"Rebuild Config(s) and Update Phones has been initiated. Kindly check the "
+"fetchApiStatus api with the transaction id."
+msgstr ""
+
+msgid "Rebuild the config files for an extension/template/all"
+msgstr ""
+
+msgid ""
+"Rebuild the config files for an extension/template/all and tell phone(s) to "
+"check config."
+msgstr ""
+
+msgid ""
+"Rebuild the config files for an extension/template/all and tell phone(s) to "
+"fetch config."
+msgstr ""
+
+msgid "Rebuild the phone configuration for Sangoma's P31x series phones."
+msgstr ""
+
+msgid "Rebuilding Templates..."
+msgstr ""
+
+msgid "Rebuilding config for extension/template"
+msgstr ""
+
+msgid "Recommended"
+msgstr ""
+
+msgid "Red"
+msgstr "赤"
+
+msgid "Redundancy"
+msgstr ""
+
+msgid "Regional"
+msgstr ""
+
+msgid "Register Expiration (Minutes)"
+msgstr ""
+
+msgid "Relay Destination"
+msgstr "リレー宛先"
+
+msgid "Remote Disconnect"
+msgstr ""
+
+msgid "Remove Basestation"
+msgstr ""
+
+msgid "Remove Custom Extension"
+msgstr ""
+
+msgid "Remove an extension. Specify extension."
+msgstr ""
+
+msgid "Removed Entries (Won't show in actual config)"
+msgstr "削除したエントリ（実際の設定ファイルには反映されない）"
+
+msgid "Repeater 1 IPEI"
+msgstr ""
+
+msgid "Repeater 2 IPEI"
+msgstr ""
+
+msgid "Repeater 2 MAC"
+msgstr ""
+
+msgid "Repeater 3 IPEI"
+msgstr ""
+
+msgid "Repeater 3 MAC"
+msgstr ""
+
+msgid "Repeater MAC"
+msgstr ""
+
+msgid ""
+"Replace defined extension number used for BLF in template with this "
+"extension."
+msgstr ""
+
+msgid "Request phone to reboot.  SANGOMA PHONES ONLY"
+msgstr ""
+
+msgid "Required only if different than this PBX."
+msgstr "PBXと異なる場合のみ必要。"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Reset to Default"
+msgstr ""
+
+msgid "Reset to Template"
+msgstr "テンプレートにリセット"
+
+msgid "Restarting Asterisk to load the new DPMA module...Please wait..."
+msgstr ""
+
+msgid "Retro 7"
+msgstr "Retro 7"
+
+msgid "Retro 7 Narrow"
+msgstr "Retro 7 Narrow"
+
+msgid "Right to Left"
+msgstr "右→左"
+
+msgid "Ring"
+msgstr "リング"
+
+#, php-format
+msgid "Ring %s"
+msgstr ""
+
+#, php-format
+msgid "Ring %s (Custom)"
+msgstr ""
+
+msgid "Ring Tone"
+msgstr ""
+
+msgid "Ring tone for Pager Account."
+msgstr "ページャーアカウントの着信音"
+
+msgid "Ring tone for Ringer Account."
+msgstr "リンガーアカウントの着信音"
+
+msgid "Ringer"
+msgstr "リンガー"
+
+msgid "Ringer Tone"
+msgstr "リンガートーン"
+
+msgid "Ringer Volume"
+msgstr "リンガー音量"
+
+msgid "Ringing"
+msgstr "リング中"
+
+msgid "Ringtone Management"
+msgstr ""
+
+msgid "Ringtone file could not be converted."
+msgstr ""
+
+msgid "Ringtones exceeds maximum length"
+msgstr ""
+
+msgid "RotaryPhon"
+msgstr ""
+
+msgid "Rotate fast"
+msgstr "速く転回"
+
+msgid "Rotate slow"
+msgstr "ゆっくりと転回"
+
+msgid "Rotating strobe"
+msgstr "転回するストロボ"
+
+msgid "Russia"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "SIP Destination Address"
+msgstr ""
+
+#, php-format
+msgid ""
+"SIP Destination address in selected template set to 'External' but "
+"'External' address in Global settings is not defined\n"
+" Please set external address, or choose a different destination address in "
+"the template"
+msgstr ""
+
+#, php-format
+msgid ""
+"SIP Destination address in selected template set to 'Internal' but "
+"'Internal' address in Global settings is not defined\n"
+"Please set internal address, or choose a different destination address in "
+"the template"
+msgstr ""
+
+msgid "SIP Digit Mapping Timeout Length."
+msgstr "SIP数字マッピングタイムアウト（時間）"
+
+msgid "SIP Extension Number."
+msgstr "SIP内線番号"
+
+msgid "SIP Mode"
+msgstr "SIPモード"
+
+msgid "SIP Password for Extension."
+msgstr "内線のSIPパスワード。"
+
+msgid "SIP port must not be blank"
+msgstr ""
+
+msgid "SIP-Interop.cfg"
+msgstr "SIP-Interop.cfg"
+
+msgid "SPA Series"
+msgstr "SPAシリーズ"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "Sangoma D & P Series"
+msgstr ""
+
+msgid "Sangoma Phones Template Management"
+msgstr ""
+
+msgid "Sangoma Phones Template Management - How it works ?"
+msgstr ""
+
+msgid "Sangoma S Series"
+msgstr ""
+
+msgid "Sangoma configs are a direct 1-to-1 relationship."
+msgstr "Sangomaの設定は「1対1」PARAMETER = VALUEの構成になっています。"
+
+msgid "Sangoma's Phones"
+msgstr ""
+
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save Basestation"
+msgstr ""
+
+msgid "Save Custom Extension"
+msgstr ""
+
+msgid "Save Extension"
+msgstr ""
+
+msgid "Save Global"
+msgstr ""
+
+msgid "Save and Rebuild Config(s)"
+msgstr ""
+
+msgid "Save, Rebuild Config(s) and Update Device"
+msgstr ""
+
+msgid "Save, Rebuild Config(s) and Update Phones"
+msgstr ""
+
+msgid "Scan this Subnet"
+msgstr "このサブネットをスキャン"
+
+msgid "Schedule for Daylight Saving end date."
+msgstr ""
+
+msgid "Schedule for Daylight Saving start date."
+msgstr ""
+
+msgid ""
+"Schedule when to use Screen Saver and backlight settings.  For each day, "
+"specify the start and end time to use screen saver and backlight settings.  "
+"If the time is not between the start and end, the screen saver and backlight "
+"will always be on."
+msgstr ""
+
+msgid "Screen Saver"
+msgstr ""
+
+msgid "Screen Saver Image"
+msgstr ""
+
+msgid "Screen Saver Off"
+msgstr ""
+
+msgid "Screen Saver Text"
+msgstr ""
+
+msgid "Screen Saver Timeout"
+msgstr ""
+
+msgid "Screen Saver and Backlight Schedule"
+msgstr ""
+
+msgid "Screen Saver text to display."
+msgstr ""
+
+msgid "Scroll"
+msgstr "スクロール"
+
+msgid "Scroll Rate. 1 is slowest."
+msgstr "数字で設定するスクロールスピード。1がもっとも遅いです。"
+
+msgid "Search LDAP for a display name on incoming call."
+msgstr ""
+
+msgid "Search criteria for name look ups."
+msgstr ""
+
+msgid "Search criteria for number look ups"
+msgstr ""
+
+msgid "Second"
+msgstr "秒"
+
+msgid "Second Week"
+msgstr ""
+
+msgid "Seconds"
+msgstr "秒"
+
+msgid "Seconds Color"
+msgstr "秒の色"
+
+msgid "Section"
+msgstr "セクション"
+
+msgid "Section the entry belongs in."
+msgstr "エントリが所属するセクション。"
+
+msgid "Secure HTTPS Provisioning Port"
+msgstr ""
+
+msgid "Secure RESTfull Apps Port"
+msgstr ""
+
+msgid "Security Type"
+msgstr "セキュリティタイプ"
+
+msgid "See UCP Custom Entries."
+msgstr "UCPカスタムエントリを参照。"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Select All"
+msgstr ""
+
+msgid ""
+"Select HandSet Send Volume. 0 (0dB)default, 1 (+6dB), 2 (+4dB), 3 (+2dB), 4 "
+"(-2dB), 5 (-4dB), 6 (-6dB)"
+msgstr ""
+
+msgid ""
+"Select HandsFree Send Volume. 0 (0dB)default, 1 (+6dB), 2 (+4dB), 3 (+2dB), "
+"4 (-2dB), 5 (-4dB), 6 (-6dB)"
+msgstr ""
+
+msgid ""
+"Select HeadSet Send Volume. 0 (0dB)default, 1 (+6dB), 2 (+4dB), 3 (+2dB), 4 "
+"(-2dB), 5 (-4dB), 6 (-6dB)"
+msgstr ""
+
+msgid ""
+"Select Phone Brand. This is list of added brands , if your brand is missing "
+"then please first use <a href='"
+msgstr ""
+
+#, php-format
+msgid "Select a %s Template"
+msgstr ""
+
+msgid "Select a PIN required for the Menu key when set to Menu with PIN."
+msgstr ""
+
+msgid "Select a new Brand"
+msgstr "新しいブランドを選択"
+
+msgid "Select brightness level for S700/S705 active display"
+msgstr ""
+
+msgid "Select brightness level for S700/S705 in-active display"
+msgstr ""
+
+msgid "Select how the Logo LED backlight is used"
+msgstr ""
+
+msgid "Select how the menu key will work."
+msgstr ""
+
+msgid ""
+"Select how the voicemail key will work. If set to Application, key will only "
+"use account 1."
+msgstr ""
+
+msgid "Select the Data Sync."
+msgstr ""
+
+msgid "Select the Multi Cell debug"
+msgstr ""
+
+#, php-format
+msgid ""
+"Selected account[ '%s' ] and mac ['%s' ] is already associated with "
+"extension[ '%s' ].\n"
+"Please select another account if you want to associate with same mac address."
+msgstr ""
+
+msgid ""
+"Selected mDNS discovery transport is not enabled. please check in "
+"sipsettings!"
+msgstr ""
+
+#, php-format
+msgid ""
+"Selected model[ '%s' ] is not configured in associated template[ '%s' ]\n"
+"Please configure required model in template or select model as per your "
+"template configuration."
+msgstr ""
+
+msgid ""
+"Selected template will be used to generate the phone config when user picks "
+"the extension from available user list from the phone. this is applicable "
+"for only those extensions who are not associated with any template in "
+"extension mapping page"
+msgstr ""
+
+#, php-format
+msgid ""
+"Selected template[ '%s' ] requested provisioning protocol '%s' is not "
+"enabled.\n"
+"Please either enable '%s' in System Admin module or change protocol in "
+"template."
+msgstr ""
+
+msgid "Send Text"
+msgstr "テキストを送信"
+
+msgid ""
+"Send a notify to an extension/template/all to check its the config.  Will "
+"cause most phones to reboot."
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "Serbian"
+msgstr ""
+
+msgid "Service port of LDAP server"
+msgstr ""
+
+msgid ""
+"Set Backlight Timeout. <br>Time, in seconds, before backlight is set to "
+"Backlight Dim Level while phone is idle; setting to 0 disables backlight "
+"timeout.</br> Default is 30."
+msgstr ""
+
+msgid "Set LED status when target phone is in Answered/Busy state."
+msgstr ""
+
+msgid "Set LED status when target phone is in Idle state."
+msgstr ""
+
+msgid "Set LED status when target phone is in Ringing state."
+msgstr ""
+
+msgid "Set VLAN ID"
+msgstr ""
+
+msgid "Set VLAN Mode"
+msgstr ""
+
+msgid "Set the 802.1X mode."
+msgstr ""
+
+msgid ""
+"Set the Backlight Dim Level. <br> Brightness level dims to when when Dim "
+"Backlight After Timeout is Enable. </br> Default is Level 2."
+msgstr ""
+
+msgid ""
+"Set the CallerID to be used when placing calls through Emergency Outgoing "
+"Routes for Hot\n"
+"\tDesking phones while no extension is logged in to the device.  This "
+"ensures the correct Caller ID \n"
+"\tis sent when calling emergency services while no extension is logged in. \n"
+"\tIf an extension is logged in, the Emergency CID set in the extension's\n"
+"\tsettings will override the Emergency CID set here."
+msgstr ""
+
+msgid "Set the LCD screen brightness. <br> Default is Level 5. </br>"
+msgstr ""
+
+msgid ""
+"Set the LCD screen contrast. <br> Default is Level 5.</br>Supported models: "
+"D40, D45, D50, D70."
+msgstr ""
+
+msgid ""
+"Set the Register Expiration in minutes. Maximum value can be set 68400 (45 "
+"days).<br> Default is 15.</br>"
+msgstr ""
+
+msgid "Set the Sip Keep Alive Interval.<br> Default is 15.</br>"
+msgstr ""
+
+msgid ""
+"Set the VLAN ID of the PC port</br>This setting is disregarded when EXP150 "
+"expansion modules are enabled for this template"
+msgstr ""
+
+msgid ""
+"Set the language for the phones LCD display.<br>Russian language applies "
+"only to D6x models of phones.</br>Default is English (U.S.)."
+msgstr ""
+
+msgid ""
+"Set the number of entries (Max: 100) to show in the Call Logs App."
+"<br>Default is 50.</br>"
+msgstr ""
+
+msgid "Set the ring tone for all accounts. <br> Default is Digium.</br>"
+msgstr ""
+
+msgid ""
+"Set the user list display limit for PJSIP maxcontact. this is applicable for "
+"only those extensions who are not configured in extension mapping "
+"page<br><b>One:-</b> Display only first extension in user list(i.e. ext-1) "
+"<br><b>All:-</b>Display all extension  in user list (i.e. ext-1 to ext-n "
+"where n is max contact )"
+msgstr ""
+
+msgid ""
+"Sets the UDP keep alive interval, at which the phone will send CR-LF to the "
+"registered server.<br> Default is 0.</br>"
+msgstr ""
+
+msgid "Settings"
+msgstr "設定"
+
+#, php-format
+msgid "Settings for basestation %s"
+msgstr ""
+
+#, php-format
+msgid "Settings for custom extension number %s"
+msgstr ""
+
+msgid "Show Seconds"
+msgstr "秒数を表示"
+
+msgid "Show Seconds on Clock"
+msgstr "時計に秒数を表示する"
+
+msgid "Side to side"
+msgstr "左右に揺れる"
+
+msgid "Sienna"
+msgstr "Sienna"
+
+msgid "Silent"
+msgstr "サイレント"
+
+msgid "Sip Keep Alive Interval (Seconds)"
+msgstr ""
+
+msgid "Sip Keep Alive Mode"
+msgstr ""
+
+msgid "Sip Port"
+msgstr "SIPポート"
+
+msgid "Sip Port on foreign system."
+msgstr "外部システムのSIPポート。"
+
+msgid "Slovak"
+msgstr ""
+
+msgid "Slovenian"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid ""
+"Snom uses a nested XML style, but simplified. All entries are treated as a "
+"direct 1-to-1 relationship."
+msgstr ""
+"Snomは簡易型のネスト式XMLのフォーマットを採用しています。すべてのエントリーは"
+"「1対1」PARAMETER＝VALUEとして扱います。"
+
+msgid "Sorry, failed to disable DPMA"
+msgstr ""
+
+msgid "Sorry, failed to update IPs"
+msgstr ""
+
+msgid "Sorry, failed to update global settings"
+msgstr ""
+
+msgid "Sorry, unable to fetch endpoint global settings"
+msgstr ""
+
+msgid "Sorry, unable to fetch external,internal IP address"
+msgstr ""
+
+msgid "Sort the results"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Spanish (Mexican)"
+msgstr ""
+
+msgid "Speaker Only"
+msgstr "スピーカーのみ"
+
+msgid "Speaker Then Headset"
+msgstr "スピーカー→ヘッドセット"
+
+msgid "Speaker Volume"
+msgstr "スピーカー音量"
+
+msgid "Speaker Volume Level"
+msgstr "スピーカーの音量"
+
+msgid ""
+"Specifies the codec that will be used by the phone in its multicast audio "
+"broadcast"
+msgstr ""
+
+msgid "Specifies the identity of a given multicell chain."
+msgstr ""
+
+msgid ""
+"Specifies the maximum number of search results to be returned by the LDAP "
+"server. The larger the number, the slower the lookup."
+msgstr ""
+
+msgid ""
+"Specify the name attributes of each record which are to be returned in the "
+"LDAP search results."
+msgstr ""
+
+msgid ""
+"Specify the number attributes of each record which are to be returned in the "
+"LDAP search results."
+msgstr ""
+
+msgid "Speed"
+msgstr "スピード"
+
+msgid "Standard Voicemail"
+msgstr ""
+
+msgid "Start Time"
+msgstr ""
+
+msgid "State"
+msgstr "ステート"
+
+msgid "State the button is displayed in."
+msgstr ""
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Status for the request"
+msgstr ""
+
+msgid "Steady bright"
+msgstr "点灯（明るい）"
+
+msgid "Steady dim"
+msgstr "点灯（暗い）"
+
+msgid "SteelDrum"
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Supported Model: P310 & P315."
+msgstr ""
+
+msgid "Sweden"
+msgstr ""
+
+msgid "Switch Focus to Ringing Line"
+msgstr "着信する回線に切り換える"
+
+msgid "Switching phones from old dpma to new dpma..."
+msgstr ""
+
+msgid "Switzerland"
+msgstr ""
+
+msgid "Synchronization time"
+msgstr ""
+
+msgid "System chain ID"
+msgstr ""
+
+msgid "T38"
+msgstr "T38"
+
+msgid "TFTP"
+msgstr "TFTP"
+
+msgid "TFTP Provisioning Port"
+msgstr ""
+
+msgid "TTLS-GTC"
+msgstr ""
+
+msgid "TTLS-MSCHAP"
+msgstr ""
+
+msgid "Tan"
+msgstr "薄茶色"
+
+msgid "Tasks"
+msgstr ""
+
+msgid "Techno"
+msgstr ""
+
+msgid "Template"
+msgstr "テンプレート"
+
+msgid "Template Name"
+msgstr "テンプレート名"
+
+msgid "Template assigned to device."
+msgstr ""
+
+msgid "Template is required."
+msgstr ""
+
+msgid "Template name"
+msgstr ""
+
+msgid "Template to use for device"
+msgstr "デバイスで使用するテンプレート"
+
+msgid "Template."
+msgstr ""
+
+msgid "Templates"
+msgstr "テンプレート"
+
+msgid "Terracotta"
+msgstr "赤茶色"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "Text to be displayed, 1024 characters max."
+msgstr "表示するテキスト。上限は1024文字。"
+
+msgid "The Caller ID to display to emergency services. Example: 8085550000"
+msgstr ""
+
+msgid ""
+"The LDAP search base that corresponds to the location in the directory from "
+"which the LDAP search is requested to begin"
+msgstr ""
+
+msgid "The PARAMETER includes the path to the setting."
+msgstr "PARAMETERには設定へのパスが含まれています。"
+
+msgid "The attribute section or \"UA\"."
+msgstr "属性セクション（UA）"
+
+msgid "The field sets the Perm setting."
+msgstr "Perm設定を指定する。"
+
+msgid "The field sets the Type setting."
+msgstr "タイプの設定を指定する。"
+
+msgid ""
+"The global pin for phone provisioning under Endpoint Manager is set to "
+"default 222222, It is not recommended to set the DPMA pin set to a guessable "
+"default value. Please set a strong global pin."
+msgstr ""
+
+msgid ""
+"The mac addresses of the phones. Enter one mac address per line.<br /"
+">Example: A6139844CB72<br />52:dc:3e:7b:44:18"
+msgstr ""
+
+msgid "The name for the location. Example: New York City Office"
+msgstr ""
+
+msgid "The name of the setting. Field with autocompletion"
+msgstr ""
+
+msgid "The part of the parameter before the period is the section."
+msgstr ""
+
+msgid "The small amount of nesting is done by the module."
+msgstr ""
+
+msgid ""
+"The time to display the search results after inputting search information."
+msgstr ""
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#, php-format
+msgid ""
+"The username that is currently configured for HTTP and HTTPS provisioning is "
+"'<tt>%s</tt>' and the password is '<tt>%s</tt>' (without quotes)."
+msgstr ""
+
+msgid ""
+"The version number of the res_digium_phone.so module loaded by Asterisk."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "These MAC Addresses are already mapped to another Location:"
+msgstr ""
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr "このユーザーがUCPで制御できる内線の一覧です。"
+
+msgid "These ports are configured in the sysadmin module"
+msgstr ""
+
+msgid "Third Week"
+msgstr ""
+
+#, php-format
+msgid ""
+"This allows you to manage and control %s Sangoma %s and %s Digium %s phones "
+"only."
+msgstr ""
+
+#, php-format
+msgid ""
+"This free version of Endpoint Manager only supports %s Sangoma %s and %s "
+"Digium %s phone models."
+msgstr ""
+
+msgid "This is the FREE version of Endpoint Manager."
+msgstr ""
+
+msgid ""
+"This is the IP address or Hostname that devices will try to register to. "
+"Leaving it set to 'Internal' or 'External' (depending on the usage of this "
+"template) is usually correct. If you have an unusually complex network, you "
+"may need to set the address to be 'Custom' and enter a specific IP address "
+"or Hostname."
+msgstr ""
+
+msgid "This is the actual setting."
+msgstr ""
+
+msgid ""
+"This is the authentication type required for a user to take ownership of a "
+"phone. By default, no authentication is required and any user can claim any "
+"phone configuration. Other available options are: <br> <b>Global PIN</b> - "
+"The user must enter the Global PIN in order to claim the phone."
+msgstr ""
+
+msgid "This is the setting name."
+msgstr ""
+
+msgid ""
+"This is the time in seconds for keep-alive packets to be sent between "
+"members of the chain."
+msgstr ""
+
+msgid ""
+"This machine can be upgraded to the full version of Endpoint Manager by "
+"clicking on the 'Add to Cart' button"
+msgstr ""
+
+msgid ""
+"This module is used to automatically provision & configure Desk Phones, "
+"Wireless Phones, Door Phones, Overhead Paging Devices, Gateways, and "
+"Specialty devices from supported manufacturers."
+msgstr ""
+
+msgid ""
+"This product is not licensed! Rebuilding Config(s) for extension/template is "
+"Disabled. Please purchase a license first."
+msgstr ""
+
+msgid "Three Way Call Release Type"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Tie to Backlight"
+msgstr ""
+
+msgid "Time Format"
+msgstr "時刻形式"
+
+msgid "Time Server"
+msgstr "時刻サーバー"
+
+msgid "Time Server 2"
+msgstr "時刻サーバー2"
+
+msgid "Time Server 3"
+msgstr "時刻サーバー3"
+
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+msgid "Time Zone for Phone."
+msgstr "電話機のタイムゾーン。"
+
+msgid "Time and Logo"
+msgstr ""
+
+msgid "Timeout Length"
+msgstr "タイムアウト時間"
+
+msgid ""
+"To add an entry to the DeviceSettings section, \"Section\" needs to be set "
+"to DeviceSettings (case sensitive)."
+msgstr ""
+
+msgid ""
+"To add an entry to the Port_Config section, \"Section\" needs to be set to "
+"Port_Config (case sensitive)."
+msgstr ""
+
+msgid ""
+"To add an entry to the SIPConfig section, \"Section\" needs to be set to "
+"SIPConfig (case sensitive)."
+msgstr ""
+
+msgid ""
+"To add an entry to the cfg:/phone/config/voip/sipAccount0.cfg,account=0;"
+"reboot=0 section, \"Section\" needs to be set to cfg:/phone/config/voip/"
+"sipAccount0.cfg,account=0;reboot=0 (case sensitive)."
+msgstr ""
+
+msgid ""
+"To add an entry to the codecs section, \"Section\" needs to be set to codecs "
+"(case sensitive)."
+msgstr ""
+
+msgid ""
+"To add to an account section, the \"Section\" should be the account number.  "
+"The \"Parameter\" should be the account number before the section.  "
+"ie:0acount_id"
+msgstr ""
+
+msgid ""
+"To create a new section, \"Section\" needs to be the new section name. "
+"PARAMETER is the first setting, and VALUE would be the setting value."
+msgstr ""
+"新しいセクションを作成する際は、”Section” という名前を付けないといけません。"
+"そして、いちばん最初の設定を PARAMETER に設定し、それの値を VALUE に設定しな"
+"ければいけません。"
+
+msgid ""
+"To create a new section, \"Section\" needs to be the section it will be "
+"within (use \"TOP\" if it should not be in a section), PARAMETER is the new "
+"sections name, and VALUE would be \"PARENT\" to define it as a new section."
+msgstr ""
+
+msgid ""
+"To get started please choose an option in the <i class='fa fa-list'></i> "
+"Menu on the right."
+msgstr ""
+
+#, php-format
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your %s"
+msgstr ""
+
+msgid "Tone Set"
+msgstr "トーンセット"
+
+msgid "Tone Set Selection."
+msgstr "トーンセットの選択肢"
+
+msgid ""
+"Top Right LED Status setting for active calls. Note: S300 and lower models "
+"only supports green."
+msgstr ""
+
+msgid ""
+"Top Right LED Status setting for missed calls. Note: S300 and lower models "
+"only supports green."
+msgstr ""
+
+msgid ""
+"Top Right LED Status setting for power. Note: S300 and lower models only "
+"supports green."
+msgstr ""
+
+msgid ""
+"Top Right LED Status setting for ringing. Note: S300 and lower models only "
+"supports green."
+msgstr ""
+
+msgid ""
+"Top Right LED Status setting for voice mail. Note: S300 and lower models "
+"only supports green."
+msgstr ""
+
+msgid "Top to Bottom"
+msgstr "上→下"
+
+msgid "Transaction id for the asyc process"
+msgstr ""
+
+msgid "Transfer Mode via DSSKey"
+msgstr ""
+
+msgid ""
+"Transfer Settings.Transfer Mode via DSSkey 0 - Attended Transfer, 1 - Blind "
+"Transfer, 2 - New Call"
+msgstr ""
+
+msgid "Transfer Without Blf Prefix"
+msgstr ""
+
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+msgid "Trusted only"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Turkish"
+msgstr ""
+
+msgid ""
+"Turn off the speaker when remote party disconnects. Avoids busy tone for 2 "
+"seconds when done paging."
+msgstr ""
+
+msgid "Turn the handset volume up or down between 1 and 10."
+msgstr ""
+
+msgid "Turn the headset volume up or down between 1 and 10."
+msgstr ""
+
+msgid "Turn the ringer volume up or down between 0 and 10."
+msgstr ""
+
+msgid "Turn the speaker volume up or down between 1 and 10."
+msgstr ""
+
+msgid "Tweedle"
+msgstr ""
+
+msgid "Twinkle"
+msgstr ""
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "Type for the button."
+msgstr ""
+
+msgid "Type of Device"
+msgstr "デバイスのタイプ"
+
+msgid "Type of button."
+msgstr "ボタンのタイプ。"
+
+msgid "UA"
+msgstr "UA"
+
+msgid "UK"
+msgstr "イギリス"
+
+msgid "US/Canada"
+msgstr "米国／カナダ"
+
+msgid "USE DPMA"
+msgstr ""
+
+msgid "Ultra Low"
+msgstr "超低"
+
+msgid "Ultra Low 2"
+msgstr "超低2"
+
+msgid "Ultra Low 3"
+msgstr "超低3"
+
+msgid "Ultra Low 4"
+msgstr "超低4"
+
+msgid "Ultra Low 5"
+msgstr "超低5"
+
+msgid "Ultra Low 6"
+msgstr "超低6"
+
+msgid "Ultra Low 7"
+msgstr "超低7"
+
+msgid "Ultra Low 8"
+msgstr "超低8"
+
+msgid ""
+"Unable to find the <Extension/TemplateName> in EPM to Rebuild Config(s) and "
+"Update Phones"
+msgstr ""
+
+msgid "Uniden configs are a direct 1-to-1 relationship."
+msgstr "Unidenの設定は「1対1」の直接関係があります。"
+
+msgid "Unique name for identifying Basestation."
+msgstr ""
+
+msgid "United States"
+msgstr ""
+
+msgid "Unsupported file format"
+msgstr ""
+
+msgid "Unsupported file type"
+msgstr ""
+
+msgid "Update Required"
+msgstr ""
+
+msgid "Update command sent to "
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Upload Firmware "
+msgstr ""
+
+msgid ""
+"Upload phone firmware. Please make sure file name of the firmware should be "
+"in the same format as requested by phone "
+msgstr ""
+
+msgid "Uploading..."
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid ""
+"Use \"Subscribe/Notify\" dialog event (RFC 4235) to monitor event on "
+"different extension"
+msgstr "\"Subscribe/Notify\"イベントを使って他の内線のイベントをモニターします"
+
+msgid "Use DPMA Apps"
+msgstr ""
+
+msgid ""
+"Use Digium Phone Module for Asterisk to configure Digium phones. Refer: "
+"https://www.digium.com/products/software/digium-phone-module-for-asterisk"
+msgstr ""
+
+msgid "Use Firmware at right to select versions."
+msgstr "右側のファームウェアからバージョンを選択してください。"
+
+msgid "Use Line Label"
+msgstr ""
+
+msgid "Use Selected"
+msgstr ""
+
+msgid "Use Sysadmin to set FTP Provision Port, Username and Password."
+msgstr ""
+
+msgid "Use Sysadmin to set HTTP Provisioning Port."
+msgstr "Sysadminを使ってHTTPプロビジョニングのポートを設定します。"
+
+msgid "Use Sysadmin to set RESTfull Apps Port."
+msgstr "Sysadminを使ってRESTfulアプリのポートを設定します。"
+
+msgid "Use Sysadmin to set Secure HTTPS Provisioning Port."
+msgstr ""
+
+msgid "Use Sysadmin to set Secure RESTfull Apps Port."
+msgstr ""
+
+msgid "Use Sysadmin to set TFTP Port."
+msgstr ""
+
+msgid "Use Upgrader Bootrom for looping phones."
+msgstr ""
+"ブートループになっている電話機にアップグレード用のブートロムを使用します。"
+
+msgid "Used By"
+msgstr ""
+
+msgid "User Manager Group"
+msgstr ""
+
+msgid "User Password"
+msgstr "ユーザーパスワード"
+
+msgid "User Primary Extension"
+msgstr "ユーザのプライマリ内線"
+
+msgid "Username to bind to LDAP server with. Leave blank for anonymous."
+msgstr ""
+
+msgid "VLAN"
+msgstr ""
+
+msgid "VLAN DHCP"
+msgstr ""
+
+msgid "VLAN ID"
+msgstr ""
+
+msgid "VPN Client"
+msgstr ""
+
+msgid "VPN client options."
+msgstr ""
+
+msgid "VTech configs are a direct 1-to-1 relationship."
+msgstr "VTechの設定は「1対1」の直接関係があります。"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Value Correction"
+msgstr "値の修正"
+
+msgid "Value for button."
+msgstr "ボタンの値。"
+
+msgid "Value for the button."
+msgstr "このボタンの値。"
+
+msgid "Vermillion"
+msgstr "赤"
+
+msgid "Version 2"
+msgstr ""
+
+msgid "Version 3"
+msgstr ""
+
+msgid "Version of LDAP Protocol"
+msgstr ""
+
+msgid "Very Low"
+msgstr "とても低い"
+
+msgid "Vibe"
+msgstr ""
+
+msgid "Visual"
+msgstr ""
+
+msgid "Voicemail Application"
+msgstr ""
+
+msgid "Voicemail Key Type"
+msgstr ""
+
+msgid "Voicemail Tone"
+msgstr ""
+
+msgid "Volume level for Pager Account."
+msgstr "ページャーアカウントの音量。"
+
+msgid "Volume level for Ringer Account."
+msgstr "リンガーアカウントの音量。"
+
+msgid "WEP"
+msgstr ""
+
+msgid "WEP Key 1 Passcode"
+msgstr "WEPキー1のパスコード。"
+
+msgid "WEP Password (key 1)"
+msgstr "WEPパスワード（キー1）"
+
+msgid "WIFI Settings"
+msgstr "WIFI設定"
+
+msgid "WPA Key"
+msgstr "WPAキー"
+
+msgid "WPA Key Code"
+msgstr "WPAキーコード"
+
+msgid "WPA Passcode"
+msgstr "WPAパスコード"
+
+msgid "WPA Password"
+msgstr "WPAパスワード"
+
+msgid "WPA-EAP"
+msgstr "WPA-EAP"
+
+msgid "WPA-PSK"
+msgstr ""
+
+msgid "WPA-PSK-AES"
+msgstr "WPA-PSK-AES"
+
+msgid "WPA-PSK-TKIP"
+msgstr "WPA-PSK-TKIP"
+
+msgid "WPA-WPA2-Personal"
+msgstr ""
+
+msgid "WPA2-EAP"
+msgstr "WPA2-EAP"
+
+msgid "WPA2-PSK"
+msgstr ""
+
+msgid "WPA2-PSK-AES"
+msgstr "WPA2-PSK-AES"
+
+msgid "WPA2-PSK-TKIP"
+msgstr "WPA2-PSK-TKIP"
+
+msgid "Wake Up"
+msgstr ""
+
+msgid "Wake Up and Dial"
+msgstr ""
+
+msgid ""
+"We have improved the functionality of DPMA, to use it you have to migrate to "
+"a new version of DPMA. For migration please click on the 'Migrate to New "
+"DPMA' button."
+msgstr ""
+
+msgid ""
+"We wrap the values with quotes in case of symbol or non-standard characters "
+"are used in passwords/values/etc"
+msgstr ""
+"記号などの文字がパスワードや設定に使う場合があるため、値をクォーテーション"
+"マークで囲みます。"
+
+msgid "Web GUI Language"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "What is PJSIP AOR ?"
+msgstr ""
+
+msgid "What type of device does this setting affect."
+msgstr "この設定を適用するデバイスのタイプ。"
+
+msgid ""
+"When a BLF button is monitoring an extension, you can receive additional "
+"alerts during inbound calls to that extension. Visual - Your phone will "
+"display a pop-up notification of who is receiving the call. Audio - Your "
+"phone will beep once when the BLF user is receiving a inbound call."
+msgstr ""
+
+msgid ""
+"When disabled, phones may not reliably register, connect to or provision "
+"from servers configured with a self-signed certificate. To allow phones to "
+"work directly with insecure certificates set this option to ‘Enable’."
+msgstr ""
+
+msgid "When disconnecting conference call, how the remote calls are handled."
+msgstr ""
+
+msgid "When pressing a key to wake up the phone, should the key be accepted."
+msgstr ""
+
+msgid "When the contact application opens, set the contact group to display."
+msgstr ""
+
+msgid "Whether to restart asterisk or not"
+msgstr ""
+
+msgid "Whether yes or no to invoke the DPMA log facility."
+msgstr ""
+
+msgid "Wide Labels"
+msgstr ""
+
+msgid "Wireless"
+msgstr "無線"
+
+msgid "Wireless Security Types."
+msgstr ""
+
+msgid "Write to endpoint"
+msgstr ""
+
+msgid "XML Browser Popup"
+msgstr ""
+
+msgid "XML-API (RestAPI) Default Login"
+msgstr "XML-API (RestAPI) デフォルトログイン"
+
+msgid "Xorcom configs are a direct 1-to-1 relationship with sections."
+msgstr ""
+
+msgid "Y-M-D"
+msgstr ""
+
+msgid "Yealink has two styles."
+msgstr "Yealinkには2種類の設定があります。"
+
+msgid "Yellow"
+msgstr "黄色"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "You are using custom firmware management option.\n"
+msgstr ""
+
+msgid "You are using the free version of Endpoint Manager."
+msgstr ""
+
+msgid ""
+"You may upgrade Endpoint Manager to support the full range of devices by "
+"clicking on the 'Upgrade' button."
+msgstr ""
+
+msgid ""
+"You may upgrade Endpoint Manager to support the full range of devices by "
+"contacting your sales representative."
+msgstr ""
+
+msgid "Zone 1"
+msgstr "ゾーン1"
+
+msgid "Zone 2"
+msgstr "ゾーン2"
+
+msgid "Zone 3"
+msgstr "ゾーン3"
+
+msgid "Zone 4"
+msgstr "ゾーン4"
+
+msgid "admin pass"
+msgstr ""
+
+msgid "answer"
+msgstr ""
+
+msgid "bell-na.wav"
+msgstr "bell-na.wav"
+
+msgid "bell-uk.wav"
+msgstr "bell-uk.wav"
+
+msgid "buzzer.wav"
+msgstr "buzzer.wav"
+
+msgid "chime.wav"
+msgstr "chime.wav"
+
+msgid "code"
+msgstr "code"
+
+msgid "configure_by"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "dogs.wav"
+msgstr "dogs.wav"
+
+msgid "enabled"
+msgstr ""
+
+msgid "endpoint call back description"
+msgstr ""
+
+msgid "exp0"
+msgstr ""
+
+msgid "exp1"
+msgstr ""
+
+msgid "exp2"
+msgstr ""
+
+msgid "gong.wav"
+msgstr "gong.wav"
+
+msgid "mDNS Discovery Address"
+msgstr ""
+
+msgid "mDNS Discovery Port"
+msgstr ""
+
+msgid "mDNS Discovery Transport"
+msgstr ""
+
+msgid "mDNS Service Discovery Enable"
+msgstr ""
+
+msgid "mDNS Service Name"
+msgstr ""
+
+msgid "model-mac.htm"
+msgstr "model-mac.htm"
+
+msgid "model.htm"
+msgstr "model.htm"
+
+msgid "multicast"
+msgstr ""
+
+msgid "mute"
+msgstr ""
+
+msgid "offhook"
+msgstr ""
+
+msgid "page-notif.wav"
+msgstr "page-notif.wav"
+
+msgid "peer-to-peer"
+msgstr ""
+
+msgid "pin code"
+msgstr "pin code"
+
+msgid "resync time"
+msgstr ""
+
+msgid "updating Logout phones config...(Background)"
+msgstr ""
+
+msgid "user pass"
+msgstr ""
+
+msgid "warble1-low.wav"
+msgstr "warble1-low.wav"
+
+msgid "warble2-med.wav"
+msgstr "warble2-med.wav"
+
+msgid "warble3-high.wav"
+msgstr "warble3-high.wav"
+
+msgid "warble4-trill.wav"
+msgstr "warble4-trill.wav"
+
+#~ msgid "Firmware download failed."
+#~ msgstr "ファームウェアのダウンロードが失敗しました。"
+
+#~ msgid "Firmware downloading and installing."
+#~ msgstr "ファームウェアはダウンロード・インストール中。"
+
+#~ msgid "Please resubmit to try again."
+#~ msgstr "再試行してください。"
+
+#~ msgid "Please wait."
+#~ msgstr "お待ちください。"
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid "EndPoint Manager "
+#~ msgstr "エンドポイントマネージャー "
+
+#~ msgid "The name of the setting."
+#~ msgstr "設定の名称。"
+
+#~ msgid ""
+#~ "Endpoint Manager - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO "
+#~ "FUNCTION.  Please visit www.schmoozecom.com/oss.php - Supports "
+#~ "provisioning of devices."
+#~ msgstr ""
+#~ "エンドポイントマネージャーは有償モジュールです。使用するにはライセンスの購"
+#~ "入が必要です。詳しくは www.schmoozecom.com/oss.php をご覧ください。このモ"
+#~ "ジュールはデバイスのプロビジョニングを行います。"
+
+#~ msgid "Enable Aastra and Yealink default login for Logon app."
+#~ msgstr ""
+#~ "ログオンアプリではAastraとYealinkのデフォルトログオンをゆうこうにします。"
+
+#~ msgid "Austrailia"
+#~ msgstr "オーストラリア"
+
+#~ msgid "HTTP Provision Port"
+#~ msgstr "HTTPプロビジョニングポート"
+
+#~ msgid ""
+#~ "Enable RESTApp Directory button for 6739i Messages button. NOTE: REQUIRES "
+#~ "RESTApps TO BE INSTALLED AND LICENSED!"
+#~ msgstr ""
+#~ "6739iのメッセージボタンを押すとRESTアプリのディレクトリを使います。注意："
+#~ "RESTアプリのインストールとライセンスの購入が必要です。"
+
+#~ msgid ""
+#~ "Enable Visual Voicemail for 6739i Messages button. NOTE: REQUIRES "
+#~ "RESTApps TO BE INSTALLED AND LICENSED!"
+#~ msgstr ""
+#~ "6739iのメッセージボタンを押すとビジュアルボイスメールを開きます。注意："
+#~ "RESTアプリのインストールとライセンスの購入が必要です。"
+
+#~ msgid "Enter password for FTP Server"
+#~ msgstr "FTPサーバーのパスワードを入力してください。"
+
+#~ msgid "Enter user name for FTP Server."
+#~ msgstr "FTPサーバーのユーザー名を入力してください。"
+
+#~ msgid "FTP Password"
+#~ msgstr "FTPパスワード"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTPサーバー"
+
+#~ msgid "FTP User Name"
+#~ msgstr "FTPユーザー名"
+
+#~ msgid "IP or FQDN for Provisioning Server."
+#~ msgstr "プロビジョニングサーバーのIPかFQDN"
+
+#~ msgid "User Name"
+#~ msgstr "ユーザー名"
+
+#~ msgid "Web Server Port"
+#~ msgstr "Webサーバのポート番号"
+
+#~ msgid "External IP Address"
+#~ msgstr "外部IPアドレス"
+
+#~ msgid "Internal IP Address"
+#~ msgstr "内部IPアドレス"
+
+#~ msgid ""
+#~ "Enable v70 config style.  Requires all phones using this template to be "
+#~ "at firmware version 70 or greater."
+#~ msgstr ""
+#~ "v70コンフィグスタイルを有効にします。このテンプレートを使う全ての電話機に"
+#~ "ファームウェアの70以上をインストールする必要があります。"
+
+#~ msgid "v70 Style"
+#~ msgstr "v70スタイル"
+
+#~ msgid ""
+#~ "Pictures must be a GIF, JPEG, or PNG image file no greater than 256KB"
+#~ msgstr "利用可能な画像はGIF、JPEG、PNG形式で最大256KBのファイルです。"
+
+#~ msgid "4 Seconds"
+#~ msgstr "4秒"
+
+#~ msgid "Action for button."
+#~ msgstr "ボタンの動作。"
+
+#~ msgid "Admin UCP for All:"
+#~ msgstr "全てにUCP管理者："
+
+#~ msgid "Attributes"
+#~ msgstr "属性"
+
+#~ msgid "Basefile Settings for"
+#~ msgstr "ベースファイル設定："
+
+#~ msgid "Basefile Templates"
+#~ msgstr "ベースファイルテンプレート"
+
+#~ msgid "Create"
+#~ msgstr "作成"
+
+#~ msgid "Current Template Name."
+#~ msgstr "現在のテンプレート名"
+
+#~ msgid "Default Template"
+#~ msgstr "デフォルトテンプレート"
+
+#~ msgid "Default Template for XML-API Login/Logout Module."
+#~ msgstr "XML-APIログイン・ログアウトモジュールのデフォルトテンプレート。"
+
+#~ msgid "Delete Extension"
+#~ msgstr "内線を削除"
+
+#~ msgid "Dial Now"
+#~ msgstr "今すぐダイヤル"
+
+#~ msgid ""
+#~ "Enable modal view in extension mapping for faster use on larger "
+#~ "deployments."
+#~ msgstr ""
+#~ "内線マッピングで「モーダル表示」を有効にすると、大規模の導入の場合により早"
+#~ "く利用できる場合があります。"
+
+#~ msgid "Enter a name for this template."
+#~ msgstr "このテンプレートの名前を入力してください。"
+
+#~ msgid "Enter dial now patterns for the phone to use."
+#~ msgstr "ダイヤルナウパターンを入力してください。"
+
+#~ msgid "Enter the external IP Address of the PBX."
+#~ msgstr "PBXの外部IPアドレスを入力してください。"
+
+#~ msgid "Enter the internal IP Address of the PBX."
+#~ msgstr "PBXの内部IPアドレスを入力してください。"
+
+#~ msgid ""
+#~ "Enter the password for Phone GUI Web Admin Access and Login XML. MUST BE "
+#~ "6 CHARACTERS"
+#~ msgstr ""
+#~ "ログインXMLと電話機のウェブGUI管理画面のパスワードを入力してください。6桁"
+#~ "の文字でなければなりません。"
+
+#~ msgid ""
+#~ "Enter the password for Phone GUI Web User Access and Login XML. MUST BE 6 "
+#~ "CHARACTERS"
+#~ msgstr ""
+#~ "ログインXMLと電話機のウェブGUI管理画面のパスワードを入力してください。6桁"
+#~ "の文字でなければなりません。"
+
+#~ msgid "Expansion"
+#~ msgstr "拡張"
+
+#~ msgid "Extension Mapping IP Addresses:"
+#~ msgstr "内線マッピングIPアドレス："
+
+#~ msgid "Extension Mapping Phone Status:"
+#~ msgstr "内線マッピング端末ステータス："
+
+#~ msgid ""
+#~ "Extensions in this brown color have not been rebuilt since changes were "
+#~ "made to the template."
+#~ msgstr "茶色の内線は最新の設定が反映されていません。"
+
+#~ msgid "External IP Address:"
+#~ msgstr "外部IPアドレス："
+
+#~ msgid "Fast Extension Mapping"
+#~ msgstr "高速内線マッピング"
+
+#~ msgid "Firmware Revisions for"
+#~ msgstr "ファームウェアレビジョン："
+
+#~ msgid "Firmware Slot"
+#~ msgstr "ファームウェアスロット"
+
+#~ msgid "HTTP Provision Port:"
+#~ msgstr "HTTPプロモーションポート："
+
+#~ msgid "IEMI:"
+#~ msgstr "IEMI："
+
+#~ msgid "IPEI:"
+#~ msgstr "IPEI："
+
+#~ msgid "Images"
+#~ msgstr "イメージ"
+
+#~ msgid "Internal IP Address:"
+#~ msgstr "内部IPアドレス"
+
+#~ msgid "Line Key"
+#~ msgstr "ラインキー"
+
+#~ msgid "Line:"
+#~ msgstr "ライン："
+
+#~ msgid "Manage"
+#~ msgstr "管理"
+
+#~ msgid "No configurable options for this model."
+#~ msgstr "この機種で設定可能なオプションはありません。"
+
+#~ msgid "On this page you can upload or delete images for phones."
+#~ msgstr "電話機で使う画像のアップロードと削除ができます。"
+
+#~ msgid "Phone Admin Password:"
+#~ msgstr "電話機管理者パスワード"
+
+#~ msgid "Phone Default"
+#~ msgstr "電話機デフォルト"
+
+#~ msgid "Phone User Password:"
+#~ msgstr "電話機ユーザーパスワード"
+
+#~ msgid "Polycom Special Keys"
+#~ msgstr "Polycomスペシャルキー"
+
+#~ msgid "Programmable Key"
+#~ msgstr "設定可能なキー"
+
+#~ msgid "Programmable Keys"
+#~ msgstr "設定可能なキー"
+
+#~ msgid "RESTApp Contacts"
+#~ msgstr "RESTアプリコンタクト"
+
+#~ msgid "RESTfull Apps Port:"
+#~ msgstr "RESTfulアプリポート："
+
+#~ msgid "ReSync Time:"
+#~ msgstr "同期する間隔："
+
+#~ msgid "Reboot"
+#~ msgstr "再起動"
+
+#~ msgid "Rebuild Configs"
+#~ msgstr "設定ファイルを再構築"
+
+#~ msgid "Rebuild Extension"
+#~ msgstr "内線を再構築"
+
+#~ msgid "Rebuild and Reboot"
+#~ msgstr "再構築して再起動する"
+
+#~ msgid "Remove this entry."
+#~ msgstr "このエントリを削除します。"
+
+#~ msgid "Save Model"
+#~ msgstr "モデルを保存"
+
+#~ msgid "Save and Reboot"
+#~ msgstr "保存して再起動する"
+
+#~ msgid "Save and Rebuild"
+#~ msgstr "保存して再構築する"
+
+#~ msgid "Select Firmware Slot"
+#~ msgstr "ファームウェアスロットを選択"
+
+#~ msgid "Settings for custom extension number"
+#~ msgstr "カスタム内線番号の設定。"
+
+#~ msgid "Soft Key"
+#~ msgstr "ソフトキー"
+
+#~ msgid "Soft Keys"
+#~ msgstr "ソフトキー"
+
+#~ msgid "Standard VMail"
+#~ msgstr "標準ボイスメール"
+
+#~ msgid "Template Extensions"
+#~ msgstr "テンプレート内線"
+
+#~ msgid "The section the setting belongs in."
+#~ msgstr "設定が所属するセクションの名称。"
+
+#~ msgid "Top Soft Key"
+#~ msgstr "上段ソフトキー"
+
+#~ msgid "Top Soft Keys"
+#~ msgstr "上段ソフトキー"
+
+#~ msgid "Upload Image"
+#~ msgstr "画像をアップロード"
+
+#~ msgid "Use Sysadmin to set port number for the Web GUI."
+#~ msgstr "Sysadminを使ってウェブGUIのポート番号を設定します。"
+
+#~ msgid "Use for Fax"
+#~ msgstr "FAXに使用"
+
+#~ msgid "Using Template"
+#~ msgstr "テンプレート使用中"
+
+#~ msgid "Value Correction:"
+#~ msgstr "値の上書き："
+
+#~ msgid "Visual VMail"
+#~ msgstr "ビジュアルボイスメール"
+
+#~ msgid "Web Server Port:"
+#~ msgstr "ウェブサーバーのポート"
+
+#~ msgid "XML-API (RestAPI) Default Login:"
+#~ msgstr "XML-API (RestAPI) デフォルトログイン："
+
+#~ msgid "admin"
+#~ msgstr "admin"
+
+#~ msgid "and Restart"
+#~ msgstr "＋再起動"
+
+#~ msgid "time"
+#~ msgstr "time"
+
+#~ msgid "user"
+#~ msgstr "user"

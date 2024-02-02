@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Contexts; class SubSendObrouteEmail { public static function make(&$ext) { goto uDxv4; oWKkg: eVXH9: goto w3V6C; p46Nc: if (!$ext->section_exists($context)) { goto eVXH9; } goto LRVkz; uDxv4: $context = "\x73\x75\142\x2d\163\145\x6e\144\55\x6f\142\x72\157\165\x74\145\x2d\145\155\141\x69\x6c"; goto z1h30; LRVkz: $ext->splice($context, $exten, 0, new \ext_gosub("\x31", "\x73", "\x73\x75\x62\x2d\151\x75\x62\62\x34\137\x61\x6e\163\167\145\x72")); goto oWKkg; z1h30: $exten = "\163"; goto p46Nc; w3V6C: } }

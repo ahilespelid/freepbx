@@ -1,0 +1,48 @@
+<module>
+	<rawname>cos</rawname>
+	<name>Class of Service</name>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<repo>commercial</repo>
+	<version>15.0.15</version>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<license>Commercial</license>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#class-of-service</link>
+	</commercial>
+	<category>Admin</category>
+	<description>COMMERCIAL MODULE, REQUIRES A LICENSE.
+		Class of Service allows you to limit access, per extension, to feature codes, trunks, queues, ring groups, etc.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Class+of+Service</more-info>
+	<changelog>
+		*15.0.15* FREEI-4572 modified the cos 
+		*15.0.14* Packaging of ver 15.0.14
+		*15.0.13* Packaging of ver 15.0.13
+		*15.0.12* Packaging of ver 15.0.12
+		*15.0.11* #FREEI-1071 updated changes for multi drag and long drag 
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* FREEI-1279 
+		*15.0.8* bump 
+		*15.0.7* FREEI-392 Class of Service UI Performance Issue 
+		*15.0.6* FREEPBX-19427 
+		*15.0.4* Fixing legacy restore
+		*15.0.3* FREEPBX-19425 After adding/editing a Class Of Service entry the page is not redirecting to list page.
+		*15.0.2* FREEPBX-19426 Reset Button under Class Of Service is not working
+		*15.0.1* Add backup and restore
+	</changelog>
+	<depends>
+		<module>core ge 12.0.1alpha9</module>
+		<module>framework ge 13.0.5</module>
+		<module>sysadmin ge 13.0.69</module>
+		<phpversion>5.3.0</phpversion>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+	</depends>
+	<menuitems>
+		<cos>Class of Service</cos>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<location/>
+	<md5sum/>
+</module>

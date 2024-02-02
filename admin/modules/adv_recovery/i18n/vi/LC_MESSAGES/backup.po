@@ -1,0 +1,2664 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for backup
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-24 18:46+0530\n"
+"PO-Revision-Date: 2017-06-20 13:27+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
+"backup/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: RestoreBase.php:257
+#, php-format
+msgid " %s found no database definitions in module.xml"
+msgstr ""
+
+#: views/backup/form.php:17
+#, php-format
+msgid "%s Backup %s"
+msgstr ""
+
+#: views/backup/form.php:363 views/backup/form.php:366
+#: views/backup/form.php:369 views/backup/form.php:372
+#, php-format
+msgid "%s Days"
+msgstr ""
+
+#: views/backup/form.php:375 views/backup/form.php:378
+#: views/backup/form.php:381 views/backup/form.php:384
+#: views/backup/form.php:387
+#, php-format
+msgid "%s Days (%s Months)"
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:17
+#, php-format
+msgid "%s does not exist"
+msgstr ""
+
+#: RestoreBase.php:191 RestoreBase.php:373
+#, php-format
+msgid "%s does not implement KVStore"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:130
+#, php-format
+msgid "%s is now loaded into memory"
+msgstr ""
+
+#: views/backup/form.php:52
+msgid "A name used to identify your backups"
+msgstr ""
+
+#: views/backup/warmspare.php:268
+msgid "Access Token URL"
+msgstr ""
+
+#: views/backup/warmspare.php:280
+msgid "Access Token URL of Warm Spare server."
+msgstr ""
+
+#: views/backup/grid.php:26 views/restore/landing.php:74
+#: views/restore/landing.php:119
+msgid "Actions"
+msgstr "Các thao tác"
+
+#: views/backup/form.php:17
+msgid "Add"
+msgstr ""
+
+#: views/backup/grid.php:5 views/rnav.php:3
+msgid "Add Backup"
+msgstr ""
+
+#: views/backup/form.php:76
+msgid "Add a description for your backup"
+msgstr ""
+
+#: Handlers/Backup/Common.php:120
+#, php-format
+msgid "Adding directory to tar: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:134
+#, php-format
+msgid "Adding file to tar: %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:131
+#, php-format
+msgid "Adding module %s to queue because %s depends on it"
+msgstr ""
+
+#: Handlers/Backup/Common.php:140
+#, php-format
+msgid "Adding module manifest for %s"
+msgstr ""
+
+#: views/restore/processRestore.php:28
+msgid "After the restore you might reload with the apply config button"
+msgstr ""
+
+#: Handlers/Restore/Common.php:177
+msgid ""
+"Apache will Restart now... And your GUI may die if the ports are changed !!!!"
+msgstr ""
+
+#: views/backup/warmspare.php:176
+msgid "Apply Configs"
+msgstr "Áp dụng các cấu hình"
+
+#: assets/js/backup.js:204 assets/js/backup.js:241
+msgid "Are you sure you wish to delete this file? This cannot be undone"
+msgstr ""
+
+#: Backup.class.php:1323
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+#: functions.inc/class.backup.php:411 functions.inc/class.backup.php:414
+msgid "BACKUP NOT ATTACHED"
+msgstr "SAO LƯU KHÔNG ĐƯỢC ĐÍNH KÈM"
+
+#: functions.inc/class.backup.php:405 views/landing.php:13
+msgid "Backup"
+msgstr "Sao lưu"
+
+#: Backup.class.php:1068
+#, php-format
+msgid "Backup %s"
+msgstr ""
+
+#: Monolog/Swift.php:73
+#, php-format
+msgid "Backup %s failed for %s"
+msgstr ""
+
+#: Monolog/Swift.php:71
+#, php-format
+msgid "Backup %s success for %s"
+msgstr ""
+
+#: views/landing.php:5
+msgid "Backup & Restore"
+msgstr "Sao lưu và khôi phục"
+
+#: views/restore/landing.php:72 views/restore/landing.php:116
+msgid "Backup Date"
+msgstr ""
+
+#: Backup.class.php:299
+msgid "Backup Deleted"
+msgstr ""
+
+#: views/backup/form.php:64
+msgid "Backup Description"
+msgstr "Sao lưu Mô tả"
+
+#: functions.inc/class.backup.php:410
+msgid "Backup ERROR (exceeded SMTP limits)"
+msgstr "Sao lưu LỖI ( Vượt quá giới hạn SMTP)"
+
+#: functions.inc/class.backup.php:413
+msgid "Backup ERROR (exceeded soft limit)"
+msgstr "Sao lưu LỖI ( Vượt quá giới hạn mềm)"
+
+#: views/restore/landing.php:16
+msgid "Backup File"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:57
+#, php-format
+msgid "Backup File Name: %s"
+msgstr ""
+
+#: views/restore/processRestore.php:11
+msgid "Backup Info"
+msgstr ""
+
+#: views/restore/landing.php:118
+msgid "Backup Instance"
+msgstr ""
+
+#: views/backup/form.php:88
+msgid "Backup Items"
+msgstr "Sao lưu các mục tin"
+
+#: backup.i18n.php:6
+msgid "Backup Module"
+msgstr "Sao lưu Mô đun"
+
+#: views/backup/form.php:40 views/restore/landing.php:71
+#: views/restore/landing.php:115
+msgid "Backup Name"
+msgstr "Sao lưu Tên"
+
+#: views/restore/landing.php:117
+msgid "Backup Type"
+msgstr ""
+
+#: views/backup/grid.php:6
+msgid "Backup Wizard"
+msgstr "Sao lưu Wizard"
+
+#: Console/Backup.class.php:113 Console/Backup.class.php:200
+msgid "Backup completed successfully"
+msgstr ""
+
+#: functions.inc/class.backup.php:296
+#, php-format
+msgid ""
+"Backup failed dumping SQL database [%s] to file [%s], you have a corrupted "
+"backup from server [%s]."
+msgstr ""
+"Sao lưu không thành công đang phá hủy cơ sở dữ liệu SQL [%s] đến tệp [%s], "
+"bạn đã sao lưu thất bại từ máy chủ  [%s]."
+
+#: functions.inc/class.backup.php:499
+msgid "Backup file uploaded to the remote server"
+msgstr "Sao lưu tệp đã được tải đến máy chủ từ xa"
+
+#: Backup.class.php:449
+msgid "Backup running"
+msgstr ""
+
+#: views/backup/form.php:30
+msgid "Basic Information"
+msgstr "Thông tin cơ bản"
+
+#: views/backup/form.php:201
+msgid "Both"
+msgstr ""
+
+#: Handlers/Restore/Common.php:87
+#, php-format
+msgid "Can't find the module data for %s"
+msgstr ""
+
+#: assets/js/backup.js:205 assets/js/backup.js:242
+msgid "Cancel"
+msgstr ""
+
+#: Handlers/Backup/Single.php:53
+msgid "Cleaning up"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:175
+#, php-format
+msgid "Cleaning up data generated by %s"
+msgstr ""
+
+#: Backup.class.php:113
+msgid "Cleaning up old data"
+msgstr ""
+
+#: views/restore/landing.php:21
+msgid "Click to upload a backup file."
+msgstr ""
+
+#: views/backup/warmspare.php:364
+msgid "Client Access Token"
+msgstr ""
+
+#: views/backup/warmspare.php:292
+msgid "Client ID"
+msgstr ""
+
+#: views/backup/warmspare.php:316
+msgid "Client Secret"
+msgstr ""
+
+#: views/backup/warmspare.php:328
+msgid "Client Secret of the Warm Spare server."
+msgstr ""
+
+#: views/backup/warmspare.php:304
+msgid "ClientID of the Warm Spare server."
+msgstr ""
+
+#: views/backup/form.php:467 views/runModal.php:12
+msgid "Close"
+msgstr ""
+
+#: RestoreBase.php:533
+#, php-format
+msgid "Column '%s' does not exist in %s, skipping"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:118
+#, php-format
+msgid ""
+"Could not backup module %s because it depends on %s which is not enabled. "
+"Please enable %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:82
+#, php-format
+msgid "Could not backup module %s because it is not enabled"
+msgstr ""
+
+#: functions.inc/class.backup.php:841
+#, php-format
+msgid "Could not find %s on the remote system"
+msgstr "Không thể tìm thấy  %s trên hệ thống từ xa"
+
+#: Backup.class.php:408 Backup.class.php:416
+msgid "Could not find a file for the id supplied"
+msgstr ""
+
+#: Handlers/Restore/Common.php:164
+msgid "Could not locate the manifest for this file"
+msgstr ""
+
+#: Backup.class.php:703 Backup.class.php:771
+msgid "Couldn't find your file, please try submitting your file again."
+msgstr ""
+
+#: functions.inc/class.backup.php:398
+msgid "Created"
+msgstr "Đã tạo"
+
+#: functions.inc/class.backup.php:477
+#, php-format
+msgid "Creating directory '%s'"
+msgstr "Đang tạo chỉ dẫn '%s'"
+
+#: Backup.class.php:200 views/restore/landing.php:49
+#: views/restore/landing.php:93 assets/js/backup.js:205 assets/js/backup.js:242
+msgid "Delete"
+msgstr "Xóa"
+
+#: views/backup/form.php:353
+msgid "Delete After Days"
+msgstr ""
+
+#: views/backup/form.php:329
+msgid "Delete After Runs"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:107
+#, php-format
+msgid "Depend field was blank for %s. Skipping because not sure what to do"
+msgstr ""
+
+#: views/backup/grid.php:25 views/restore/processRestore.php:15
+#: views/rnav.php:9
+msgid "Description"
+msgstr "Mô tả"
+
+#: Handlers/Restore/Legacy.php:78
+#, php-format
+msgid "Detected file %s as the PBX (Asterisk) database. Attempting restore"
+msgstr ""
+
+#: Console/Backup.class.php:258
+msgid "Determining backup file type..."
+msgstr ""
+
+#: functions.inc/class.backup.php:481
+#, php-format
+msgid "Directory '%s' did not exist and we could not create it"
+msgstr "Thư mục '%s' không tồn tại và chúng tôi không thể tạo nó"
+
+#: views/backup/warmspare.php:50
+msgid "Disable Remote Trunks"
+msgstr ""
+
+#: Console/Backup.class.php:244 Handlers/Restore/Common.php:122
+#: Handlers/Restore/Legacy.php:231
+msgid "Done"
+msgstr ""
+
+#: views/backup/transfer.php:31
+msgid "Donor"
+msgstr ""
+
+#: views/backup/form.php:17
+msgid "Edit"
+msgstr ""
+
+#: backup.i18n.php:4
+msgid "Email "
+msgstr "Thư điện tử "
+
+#: views/backup/form.php:181
+msgid "Email Type"
+msgstr ""
+
+#: views/backup/form.php:134
+msgid ""
+"Email address to send notifications, Multiple email addresses need to be "
+"separated by comma"
+msgstr ""
+
+#: views/backup/warmspare.php:19
+msgid "Enable"
+msgstr ""
+
+#: views/backup/form.php:285
+msgid "Enable scheduled backups"
+msgstr ""
+
+#: Backup.class.php:1229 views/backup/form.php:264
+msgid "Enabled"
+msgstr ""
+
+#: views/backup/warmspare.php:195
+msgid ""
+"Equivalence of clicking the red button, will happen automatically after a "
+"restore on a Standby system"
+msgstr ""
+"Sự tương đương của việc nhấp vào nút màu đỏ, sẽ xảy ra tự động sau khi khôi "
+"phục trên một hệ thống dự phòng"
+
+#: assets/js/backup.js:359 assets/js/backup.js:378 assets/js/backup.js:397
+#: assets/js/backup.js:489
+msgid "Error"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:181
+#, php-format
+msgid "Error Removing %s, %s"
+msgstr ""
+
+#: functions.inc/class.backup.php:471
+msgid "Error creating the FTP object"
+msgstr "Lỗi khi đang tạo đối tượng FTP"
+
+#: functions.inc/class.backup.php:848
+#, php-format
+msgid "Error deleting %s"
+msgstr "Lỗi khi đang xóa  %s"
+
+#: Handlers/FreePBXModule.php:29
+#, php-format
+msgid "Error installing %s reason(s): %s"
+msgstr ""
+
+#: Handlers/FreePBXModule.php:41
+#, php-format
+msgid "Error uninstalling %s reason(s): %s"
+msgstr ""
+
+#: views/backup/warmspare.php:112
+msgid "Exclude Bind Address"
+msgstr ""
+
+#: views/backup/warmspare.php:145
+msgid "Exclude DNS"
+msgstr ""
+
+#: views/backup/warmspare.php:81
+msgid "Exclude NAT settings"
+msgstr "Ngoại trừ các cài đặt NAT"
+
+#: views/backup/warmspare.php:133
+msgid ""
+"Explicitly exclude any machine-specific Bindaddres. This allows you to have "
+"a warm-spare machine with a different IP address."
+msgstr ""
+"Loại trừ dứt khoát bất kỳ Địa chỉ IP để gán theo máy. Điều này cho phép bạn "
+"có một máy dự phòng nóng với một địa chỉ IP khác."
+
+#: views/backup/warmspare.php:164
+msgid ""
+"Explicitly exclude any machine-specific DNS. This allows you to have a warm-"
+"spare machine with a different DNS."
+msgstr ""
+
+#: views/backup/warmspare.php:100
+msgid ""
+"Explicitly exclude any machine-specific IP settings. This allows you to have "
+"a warm-spare machine with a different IP address."
+msgstr ""
+"Loại trừ dứt khoát bất cứ các cài đặt IP theo máy. Điều này cho phép bạn có "
+"một máy dự phòng nóng với một địa chỉ IP khác."
+
+#: BackupBase.php:53
+#, php-format
+msgid "Exporting Advanced settings from %s"
+msgstr ""
+
+#: BackupBase.php:125
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+#: BackupBase.php:67
+#, php-format
+msgid "Exporting Feature Codes from %s"
+msgstr ""
+
+#: BackupBase.php:156
+#, php-format
+msgid "Exporting KVStore based on ids  %s"
+msgstr ""
+
+#: BackupBase.php:154
+#, php-format
+msgid "Exporting KVStore from %s"
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:20
+msgid "Extracting Backup"
+msgstr ""
+
+#: Handlers/Restore/Common.php:142
+msgid "Extracting backup..."
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:120
+#, php-format
+msgid "Extracting supplied database file %s"
+msgstr ""
+
+#: views/backup/form.php:196
+msgid "Failure"
+msgstr ""
+
+#: Backup.class.php:308
+msgid "File Deleted"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:72
+#, php-format
+msgid "File named: %s"
+msgstr ""
+
+#: Backup.class.php:336
+msgid "File reached the server but could not be processed"
+msgstr ""
+
+#: functions.inc/class.backup.php:399
+msgid "Files"
+msgstr "Các tệp"
+
+#: Handlers/Restore/Legacy.php:277 Handlers/Restore/Multiple.php:81
+#: Handlers/Restore/Single.php:34
+msgid "Finished"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:186 Handlers/Backup/Single.php:58
+msgid "Finished Cleaning up"
+msgstr ""
+
+#: Console/Backup.class.php:187
+msgid "Finished Local Maintenance"
+msgstr ""
+
+#: Console/Backup.class.php:190
+msgid "Finished Remote Maintenance"
+msgstr ""
+
+#: Handlers/Storage.php:60
+msgid "Finished Saving to selected Filestore locations"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:188 Handlers/Backup/Single.php:63
+#, php-format
+msgid "Finished created backup file: %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:59
+#, php-format
+msgid "Found %s database files in the backup."
+msgstr ""
+
+#: views/restore/landing.php:73
+msgid "Framework"
+msgstr ""
+
+#: Handlers/Backup/Email.php:50
+#, php-format
+msgid "Generated Backup process result email to %s. Status: Failure"
+msgstr ""
+
+#: Handlers/Backup/Email.php:54
+#, php-format
+msgid "Generated Backup process result email to %s. Status: Success"
+msgstr ""
+
+#: views/backup/rsa.php:1
+msgid "Generating Key Pair please standby"
+msgstr ""
+
+#: views/backup/warmspare.php:378
+msgid "Get OAUTH2 Token for the Warm Spare server API."
+msgstr ""
+
+#: views/backup/warmspare.php:10
+msgid "Get Warm Spare Token"
+msgstr ""
+
+#: views/landing.php:23
+msgid "Global Settings"
+msgstr ""
+
+#: views/backup/warmspare.php:340
+msgid "GraphQL URL"
+msgstr ""
+
+#: views/backup/warmspare.php:352
+msgid "GraphQL URL of the Warm Spare server."
+msgstr ""
+
+#: views/backup/form.php:396
+msgid ""
+"How long to maintain backups. Example 30 will delete anything older than 30 "
+"days."
+msgstr ""
+
+#: views/backup/form.php:341
+msgid ""
+"How many updates to keep. If this number is 3, the last 3 will be kept. 0 is "
+"unlimited"
+msgstr ""
+
+#: Backup.class.php:1308
+msgid "I don't know who I should be running Backup as."
+msgstr ""
+
+#: Backup.class.php:1314
+#, php-format
+msgid ""
+"I tried to find out about %s, but the system doesn't think that user exists"
+msgstr ""
+
+#: views/backup/transfer.php:16
+msgid "ID From the donor machine"
+msgstr ""
+
+#: RestoreBase.php:83 RestoreBase.php:348
+#, php-format
+msgid "Importing Advanced Settings from %s"
+msgstr ""
+
+#: RestoreBase.php:157
+#, php-format
+msgid "Importing AstDB family %s from %s"
+msgstr ""
+
+#: RestoreBase.php:152
+#, php-format
+msgid "Importing AstDB family %s/%s  : %s"
+msgstr ""
+
+#: RestoreBase.php:280
+#, php-format
+msgid "Importing Databases from %s"
+msgstr ""
+
+#: RestoreBase.php:106
+#, php-format
+msgid "Importing Feature Codes from %s"
+msgstr ""
+
+#: RestoreBase.php:194
+#, php-format
+msgid "Importing KVStore from %s"
+msgstr ""
+
+#: RestoreBase.php:175
+#, php-format
+msgid "Importing Table %s from %s"
+msgstr ""
+
+#: RestoreBase.php:287
+#, php-format
+msgid "Importing table '%s' from legacy %s"
+msgstr ""
+
+#: Handlers/Backup/Single.php:40 Handlers/Restore/Single.php:26
+msgid "In single restores mode dependencies are NOT processed"
+msgstr ""
+
+#: views/backup/form.php:146
+msgid "Inline Logs"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:174 Handlers/Restore/Legacy.php:186
+#, php-format
+msgid "Installing  %s"
+msgstr ""
+
+#: Backup.class.php:633
+msgid "Invalid Backup ID"
+msgstr ""
+
+#: Backup.class.php:266 Backup.class.php:314
+msgid "Invalid ID Provided"
+msgstr ""
+
+#: Handlers/Backup/Maintenance.php:88 Handlers/Storage.php:39
+msgid "Invalid filestore location"
+msgstr ""
+
+#: views/backup/transfer.php:39
+msgid "Is this the donor machine or the recipient"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:66
+#, php-format
+msgid ""
+"Legacy CDR Restore Opted. we are processing , It may take long time to "
+"process %s "
+msgstr ""
+
+#: Models/BackupSplFileInfo.php:66
+msgid "Legacy Restore"
+msgstr ""
+
+#: RestoreBase.php:41
+#, php-format
+msgid "Legacy Restore in %s is not implemented"
+msgstr ""
+
+#: RestoreBase.php:38
+#, php-format
+msgid "Legacy Restore in %s is not implemented, using default fallback"
+msgstr ""
+
+#: views/rnav.php:2
+msgid "List Backups"
+msgstr ""
+
+#: assets/js/backup.js:414
+msgid "Loading Please Wait"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:34
+msgid "Loading astdb to memory"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:30
+msgid "Loading manifest to memory"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:128
+#, php-format
+msgid "Loading supplied database file %s"
+msgstr ""
+
+#: Backup.class.php:522
+msgid "Log file is missing but process is still running!"
+msgstr ""
+
+#: views/backup/form.php:319
+msgid "Maintinence"
+msgstr ""
+
+#: Backup.class.php:104
+msgid "Migrating legacy backupjobs"
+msgstr ""
+
+#: Backup.class.php:109
+msgid "Migrating legacy backups to the new backup"
+msgstr ""
+
+#: Backup.class.php:509
+msgid "Missing id or transaction or pid"
+msgstr ""
+
+#: views/backup/form.php:456 views/restore/processRestore.php:48
+msgid "Module"
+msgstr ""
+
+#: views/backup/form.php:94
+msgid "Modules"
+msgstr ""
+
+#: assets/js/backup.js:6 assets/js/backup.js:309
+msgid "Modules ("
+msgstr ""
+
+#: views/restore/processRestore.php:35
+msgid "Modules in this backup"
+msgstr ""
+
+#: views/backup/form.php:431
+msgid "Modules to Backup"
+msgstr ""
+
+#: Backup.class.php:105
+msgid "Moving servers to filestore"
+msgstr ""
+
+#: functions.inc/class.backup.php:400
+msgid "Mysql Db's"
+msgstr "Các dữ liệu Mysql"
+
+#: Handlers/Restore/Common.php:116
+#, php-format
+msgid "NOT Resetting %s module data"
+msgstr ""
+
+#: functions.inc/class.backup.php:397 views/backup/grid.php:24
+#: views/restore/processRestore.php:14 views/rnav.php:8
+msgid "Name"
+msgstr "Tên"
+
+#: views/backup/form.php:161 views/backup/form.php:277
+#: views/backup/warmspare.php:30 views/backup/warmspare.php:61
+#: views/backup/warmspare.php:92 views/backup/warmspare.php:125
+#: views/backup/warmspare.php:156 views/backup/warmspare.php:187
+msgid "No"
+msgstr "Không"
+
+#: assets/js/backup.js:282
+msgid "No Storage Locations"
+msgstr ""
+
+#: Backup.class.php:433
+msgid "No backup id provided"
+msgstr ""
+
+#: Backup.class.php:333
+msgid "No file provided"
+msgstr ""
+
+#: Backup.class.php:692
+msgid "No id was specified to process. Please try submitting your file again."
+msgstr ""
+
+#: assets/js/backup.js:305
+msgid ""
+"No module is selected for Backup. Please ensure you are selecting atleast "
+"one module for Backup"
+msgstr ""
+
+#: assets/js/backup.js:330 assets/js/backup.js:337
+msgid ""
+"No storage location selected for Backup. Please select atleast one storage "
+"location to save the backup"
+msgstr ""
+
+#: views/backup/form.php:122
+msgid "Notification Email"
+msgstr ""
+
+#: views/backup/form.php:112
+msgid "Notifications"
+msgstr "Các thông báo"
+
+#: Handlers/Restore/Legacy.php:248 Handlers/Restore/Multiple.php:43
+#, php-format
+msgid "Only Restoring %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:45
+msgid ""
+"Parsing out SQL tables. This may take a moment depending on backup size."
+msgstr ""
+
+#: functions.inc/class.backup.php:837 functions.inc/class.backup.php:838
+#, php-format
+msgid "Path: %s"
+msgstr ""
+
+#: Console/Backup.class.php:185
+msgid "Performing Local Maintenance"
+msgstr ""
+
+#: Console/Backup.class.php:188
+msgid "Performing Remote Maintenance"
+msgstr ""
+
+#: Backup.class.php:524
+msgid "Process is no longer running"
+msgstr ""
+
+#: Handlers/Backup/Single.php:36 Handlers/Restore/Legacy.php:257
+#: Handlers/Restore/Multiple.php:50
+#, php-format
+msgid "Processing %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:153
+#, php-format
+msgid "Processing processLegacyCdr ' %s ' Command is Running now "
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:160
+#, php-format
+msgid "Processing processLegacyCdr SQL Done....  %s  "
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:162
+#, php-format
+msgid "Processing processLegacyCdr SQL Error....  %s %s %s  "
+msgstr ""
+
+#: assets/js/backup.js:30
+msgid "Processing..."
+msgstr ""
+
+#: views/backup/settings.php:6
+msgid "Public Key"
+msgstr ""
+
+#: views/backup/settings.php:16
+msgid "Public SSH key to allow other servers to connect"
+msgstr ""
+
+#: RestoreBase.php:261
+#, php-format
+msgid "Reading Databases Table infromation using module name %s"
+msgstr ""
+
+#: views/backup/transfer.php:33
+msgid "Recipient"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:273 Handlers/Restore/Multiple.php:74
+msgid "Reloading...... DONE"
+msgstr ""
+
+#: views/backup/warmspare.php:391
+msgid "Remote IP"
+msgstr ""
+
+#: views/backup/warmspare.php:416
+msgid "Remote User"
+msgstr ""
+
+#: Handlers/Backup/Maintenance.php:129 Handlers/Backup/Maintenance.php:148
+#: Handlers/Backup/Multiple.php:177 Handlers/Backup/Single.php:55
+#, php-format
+msgid "Removing %s"
+msgstr ""
+
+#: Backup.class.php:125
+#, php-format
+msgid "Removing table %s."
+msgstr ""
+
+#: Backup.class.php:185 views/backup/form.php:464
+msgid "Reset"
+msgstr "Cài đặt lại"
+
+#: Handlers/Restore/Legacy.php:227
+#, php-format
+msgid "Resetting %s"
+msgstr ""
+
+#: Handlers/Restore/Common.php:112
+#, php-format
+msgid "Resetting %s module data"
+msgstr ""
+
+#: Console/Backup.class.php:229
+msgid "Response from Warmspare backup Server API"
+msgstr ""
+
+#: views/landing.php:18
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: views/restore/processRestore.php:23
+msgid "Restore Information"
+msgstr ""
+
+#: Console/Backup.class.php:140 Console/Backup.class.php:291
+msgid "Restore completed successfully"
+msgstr ""
+
+#: views/restore/landing.php:44
+msgid "Restore from local cache"
+msgstr ""
+
+#: views/restore/landing.php:82
+msgid "Restore from the cloud"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:269 Handlers/Restore/Multiple.php:63
+msgid "Restore processing for modules are finished successfully"
+msgstr ""
+
+#: Backup.class.php:430
+msgid "Restore running"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:176 Handlers/Restore/Legacy.php:188
+#, php-format
+msgid "Restored module %s [%s]"
+msgstr ""
+
+#: views/restore/processRestore.php:2
+#, php-format
+msgid "Restoring %s"
+msgstr ""
+
+#: Handlers/Restore/Common.php:120 Handlers/Restore/Legacy.php:229
+#, php-format
+msgid "Restoring from %s [%s]"
+msgstr ""
+
+#: Console/Backup.class.php:241
+#, php-format
+msgid "Retrieving %s from %s:%s..."
+msgstr ""
+
+#: views/restore/processRestore.php:16
+msgid "Run Date"
+msgstr ""
+
+#: Backup.class.php:171
+msgid "Run Restore"
+msgstr ""
+
+#: Backup.class.php:176
+msgid "Run Restore & Legacy CDR "
+msgstr ""
+
+#: assets/js/backup.js:556
+msgid "Run the following in the CLI"
+msgstr ""
+
+#: BackupBase.php:23
+#, php-format
+msgid "RunBackup method is not implemented in %s"
+msgstr ""
+
+#: BackupBase.php:20
+#, php-format
+msgid "RunBackup method is not implemented in %s, using default fallback"
+msgstr ""
+
+#: RestoreBase.php:18
+#, php-format
+msgid ""
+"RunRestore method is not implemented in %s, but was backed up using default "
+"backup fallback, using default fallback"
+msgstr ""
+
+#: RestoreBase.php:21
+#, php-format
+msgid ""
+"RunRestore method is not implemented in %s, however there is default falback "
+"data, nothing to do"
+msgstr ""
+
+#: RestoreBase.php:23
+#, php-format
+msgid "RunRestore method is not implemented in %s, nothing to do"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:48
+#, php-format
+msgid "Running Backup ID: %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:276 Handlers/Restore/Multiple.php:80
+msgid "Running Post Restore Hooks DONE"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:274 Handlers/Restore/Multiple.php:78
+msgid ""
+"Running Post Restore Hooks.. Please note that hook will restart httpd "
+"service so please refresh your page (using new ports) "
+msgstr ""
+
+#: views/restore/processRestore.php:26
+msgid "Running a restore will overwrite current data. This cannot be undone!"
+msgstr ""
+
+#: functions.inc/class.backup.php:500
+msgid "Running maintenance.."
+msgstr "Đang chạy bảo dưỡng..."
+
+#: Backup.class.php:190
+msgid "Save"
+msgstr "Lưu"
+
+#: views/backup/form.php:470
+msgid "Save Changes"
+msgstr ""
+
+#: Backup.class.php:195
+msgid "Save and Run"
+msgstr "Lưu và chạy"
+
+#: functions.inc/class.backup.php:488
+msgid "Saving file to remote ftp"
+msgstr "Đang lưu tệp tới ftp từ xa"
+
+#: Handlers/Storage.php:30
+msgid "Saving to selected Filestore locations"
+msgstr ""
+
+#: Handlers/Storage.php:50
+#, php-format
+msgid "Saving to: %s:'%s' instance ,File location: %s/%s "
+msgstr ""
+
+#: views/backup/form.php:254
+msgid "Schedule and Maintinence"
+msgstr ""
+
+#: views/backup/form.php:297
+msgid "Scheduling"
+msgstr ""
+
+#: Monolog/Swift.php:149
+msgid "See attachment"
+msgstr ""
+
+#: views/backup/warmspare.php:246
+msgid "Select Warm Spare server"
+msgstr ""
+
+#: views/backup/form.php:102
+msgid "Select items to backup"
+msgstr ""
+
+#: views/backup/form.php:244
+msgid ""
+"Select one or more storage locations. Storage locations can be added/"
+"configured with the Filestore module"
+msgstr ""
+
+#: views/backup/form.php:453
+msgid "Selected"
+msgstr ""
+
+#: views/backup/transfer.php:26
+msgid "Server Mode"
+msgstr ""
+
+#: views/backup/warmspare.php:69
+msgid "Should the remote trunks be Disabled"
+msgstr ""
+
+#: views/backup/warmspare.php:38
+msgid "Should the warm spare feature be enabled"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:112
+#, php-format
+msgid ""
+"Skpping %s which depends on framework because framework is a system "
+"requirement. Framework should be removed as a dependency"
+msgstr ""
+
+#: Backup.class.php:285 Backup.class.php:310
+msgid "Something failed, The file may need to be removed manually."
+msgstr ""
+
+#: Backup.class.php:301
+msgid "Something failed."
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:172
+msgid "Starting Cleaning up"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:51
+#, php-format
+msgid "Starting backup %s"
+msgstr ""
+
+#: views/restore/processRestore.php:50
+msgid "Status"
+msgstr ""
+
+#: views/backup/form.php:220
+msgid "Storage"
+msgstr ""
+
+#: views/backup/form.php:230
+msgid "Storage Location"
+msgstr ""
+
+#: views/backup/form.php:191
+msgid "Success"
+msgstr ""
+
+#: Backup.class.php:685
+msgid "System Transfer"
+msgstr ""
+
+#: Handlers/Backup/Common.php:75
+#, php-format
+msgid "System is not Activated,Skipping %s module"
+msgstr ""
+
+#: RestoreBase.php:293
+#, php-format
+msgid "Table '%s' does not exist in legacy %s, skipping"
+msgstr ""
+
+#: RestoreBase.php:290
+#, php-format
+msgid "Table '%s' is empty from legacy %s, skipping"
+msgstr ""
+
+#: assets/js/backup.js:96
+#, perl-format
+msgid "The Backup job name %s is already in used, please use a different name."
+msgstr ""
+
+#: backup.i18n.php:8
+msgid "The From: field for emails when using the backup email feature."
+msgstr ""
+"The From: Trường cho các thư điện tử khi sử dụng đặc tính sao lưu Thư điện "
+"tử."
+
+#: views/backup/warmspare.php:403
+msgid "The address of the remote server."
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:216
+#, php-format
+msgid "The backup %s did not set a status and may have had an error"
+msgstr ""
+
+#: functions.inc/class.backup.php:411
+msgid ""
+"The backup file exceeded the maximum SMTP limits of 25MB. It was not "
+"attempted to be sent. Please shrink your backup, or use a different method "
+"of transferring your backup."
+msgstr ""
+"Tệp sao lưu vượt quá giới hạn SMTP cho phép là 25MB.  Nó đã không thể được "
+"gửi đi . Vui lòng nén sao lưu của bạn, hoặc sử dụng cách để truyền sao lưu."
+
+#: functions.inc/class.backup.php:414
+#, php-format
+msgid ""
+"The backup file exceeded the soft limit set in SMTP configuration (%s "
+"bytes). It was not attempted to be sent. Please shrink your backup, or use a "
+"different method of transferring your backup."
+msgstr ""
+"Tệp sao lưu vượt quá giới hạn mềm được cài đặt trong cấu hình SMTP (%s "
+"bytes). Nó đã không thể được gửi đi . Vui lòng nén sao lưu của bạn, hoặc sử "
+"dụng cách để truyền sao lưu."
+
+#: Handlers/Restore/Common.php:103
+#, php-format
+msgid "The module %s does not seem to support restores."
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:209
+#, php-format
+msgid "The module %s does not support restores"
+msgstr ""
+
+#: Handlers/Backup/Common.php:88
+#, php-format
+msgid "The module %s doesn't seem to support Backup"
+msgstr ""
+
+#: Handlers/Backup/Common.php:109
+#, php-format
+msgid "The module %s returned no data, No backup created"
+msgstr ""
+
+#: Handlers/Backup/Single.php:60
+msgid "There was nothing to cleanup"
+msgstr ""
+
+#: Console/Backup.class.php:117 Console/Backup.class.php:205
+msgid "There were errors during the backup process"
+msgstr ""
+
+#: Console/Backup.class.php:143 Console/Backup.class.php:294
+msgid "There were errors during the restore process"
+msgstr ""
+
+#: Console/Backup.class.php:123 Console/Backup.class.php:211
+msgid "There were warnings during the backup process"
+msgstr ""
+
+#: Console/Backup.class.php:149 Console/Backup.class.php:300
+msgid "There were warnings during the restore process"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:56
+msgid ""
+"This backup will be stored locally and is subject to maintenance settings"
+msgstr ""
+
+#: views/restore/landing.php:86
+msgid ""
+"This feature requires filestore be setup and may not be availible on a clean "
+"install"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:156
+msgid ""
+"This process may take long time based on the CDR SQL file size, setting time "
+"out to MAX 1 hour"
+msgstr ""
+
+#: views/restore/processRestore.php:27
+msgid "This restore will only affect the modules listed below"
+msgstr ""
+
+#: views/restore/processRestore.php:36
+msgid "This table will be empty on backups created prior to version 15"
+msgstr ""
+
+#: Console/Backup.class.php:96
+#, php-format
+msgid "Transaction ID is: %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:49
+#, php-format
+msgid "Transaction: %s"
+msgstr ""
+
+#: views/backup/transfer.php:6
+msgid "Transfer Id"
+msgstr ""
+
+#: functions.inc/class.backup.php:493
+#, php-format
+msgid "Trying to upload %s to %s"
+msgstr "Đang cố gắng tải lên %s đến %s"
+
+#: Migration/Servers.php:86
+#, php-format
+msgid "Unable to map '%s' of type '%s"
+msgstr ""
+
+#: RestoreBase.php:276
+#, php-format
+msgid ""
+"Unable to run restoreLegacyDatabase on %s because NO Database information "
+"provided"
+msgstr ""
+
+#: RestoreBase.php:252
+#, php-format
+msgid ""
+"Unable to run restoreLegacyDatabase on %s because module.xml was not found"
+msgstr ""
+
+#: Monolog/Swift.php:82
+msgid "Unable to send backup email!"
+msgstr ""
+
+#: functions.inc/class.backup.php:491
+msgid "Unable to upload file to the remote server"
+msgstr "Không thể tải tệp đến máy chủ từ xa"
+
+#: Backup.class.php:1229
+msgid "Uninstalled or Disabled"
+msgstr ""
+
+#: Handlers/Backup/Single.php:25
+#, php-format
+msgid "Unknown module %s"
+msgstr ""
+
+#: views/backup/form.php:360
+msgid "Unlimited"
+msgstr ""
+
+#: views/restore/landing.php:34
+msgid "Upload a valid backup.tar.gz"
+msgstr ""
+
+#: views/restore/landing.php:8
+msgid "Upload your restore files"
+msgstr ""
+
+#: assets/js/backup.js:20
+msgid "Uploading..."
+msgstr ""
+
+#: views/backup/warmspare.php:428
+msgid "User on remote system with proper permissions, usually root."
+msgstr ""
+
+#: Handlers/Backup/Common.php:94
+msgid "Using default backup strategy"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:213
+msgid "Using default restore strategy"
+msgstr ""
+
+#: Handlers/Restore/Common.php:107
+msgid "Using fallback restore strategy"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:294
+#, php-format
+msgid "Utilizing cached based sqlite at %s. The data might be stale!"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:298
+#, php-format
+msgid "Utilizing file based sqlite at %s, This is SLOW"
+msgstr ""
+
+#: views/restore/processRestore.php:49
+msgid "Version in Backup"
+msgstr ""
+
+#: assets/js/backup.js:192
+msgid "View backup log"
+msgstr ""
+
+#: assets/js/backup.js:51
+msgid "View running restore"
+msgstr ""
+
+#: views/backup/warmspare.php:4
+msgid "Warm Spare"
+msgstr ""
+
+#: views/backup/warmspare.php:240
+msgid "Warm Spare Server"
+msgstr ""
+
+#: views/backup/warmspare.php:257
+msgid ""
+"Warm Spare server needs to add to filestore, And it should be a FreePBX 15 "
+"and Above"
+msgstr ""
+
+#: Console/Backup.class.php:223
+msgid "Warmspare enabled for this backup"
+msgstr ""
+
+#: Console/Backup.class.php:226
+msgid "We Have triggered an API to restore the backup on Spare Server"
+msgstr ""
+
+#: Backup.class.php:273 Backup.class.php:323
+msgid "We can't seem to delete the chosen file"
+msgstr ""
+
+#: Backup.class.php:270 Backup.class.php:318
+msgid "We don't have permissions to this file"
+msgstr ""
+
+#: views/backup/form.php:170
+msgid ""
+"When set to Yes logs will be added to the body of the email, when set to No "
+"logs will be added as an attachment"
+msgstr ""
+
+#: views/backup/form.php:309
+msgid "When should this backup run"
+msgstr ""
+
+#: views/backup/form.php:210
+msgid "When to email"
+msgstr ""
+
+#: Handlers/Backup/Common.php:71
+#, php-format
+msgid "Working with %s module"
+msgstr ""
+
+#: views/backup/form.php:156 views/backup/form.php:272
+#: views/backup/warmspare.php:26 views/backup/warmspare.php:57
+#: views/backup/warmspare.php:88 views/backup/warmspare.php:120
+#: views/backup/warmspare.php:152 views/backup/warmspare.php:183
+msgid "Yes"
+msgstr "Có"
+
+#: assets/js/backup.js:72
+msgid "You must enter a valid Warm Spare Access Token URL"
+msgstr ""
+
+#: assets/js/backup.js:77
+msgid "You must enter a valid Warm Spare Server API Client ID"
+msgstr ""
+
+#: assets/js/backup.js:82
+msgid "You must enter a valid Warm Spare Server API Client Secret"
+msgstr ""
+
+#: assets/js/backup.js:87
+msgid "You must enter a valid Warm Spare Server API GraphQL URL"
+msgstr ""
+
+#: assets/js/backup.js:67
+msgid "You must select a valid Warm Spare Server"
+msgstr ""
+
+#: assets/js/backup.js:59
+msgid "You must set a valid job name for this backup"
+msgstr ""
+
+#: functions.inc/class.backup.php:401
+msgid "astDb's"
+msgstr "Các dữ liệu Asterisk (astDb's)"
+
+#: Monolog/Swift.php:53
+msgid "success"
+msgstr ""
+
+#: Console/Backup.class.php:263
+#, php-format
+msgid "type is %s"
+msgstr ""
+
+#~ msgid "Admin"
+#~ msgstr "Quản trị viên"
+
+#~ msgid "Backup & Restore - Restore"
+#~ msgstr "Sao lưu và Khôi phục- Khôi phục"
+
+#~ msgid "Backup & Restore for your FreePBX environment"
+#~ msgstr "Sao lưu & Khôi phục cho môi trường FreePBX của bạn"
+
+#~ msgid "Backup & Restore - Servers"
+#~ msgstr "Sao lưu & Khôi phục- Các máy chủ"
+
+#~ msgid "Backup & Restore - Templates"
+#~ msgstr "Sao lưu & Khôi phục- Các mẫu"
+
+#~ msgid "AWS Access Key"
+#~ msgstr "Khóa truy nhập AWS (  Các dịch vụ Web Amazon)"
+
+#~ msgid "AWS Secret"
+#~ msgstr "Bảo mật AWS ( Các dịch vụ Web Amazon)"
+
+#~ msgid "Amazon S3&trade; Server"
+#~ msgstr "Amazon S3&trade; Máy chủ"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "Bucket Name"
+#~ msgstr "Tên bộ chứa"
+
+#~ msgid "DB Name"
+#~ msgstr "Tên cơ sở dữ liệu"
+
+#~ msgid "Description or notes for this server"
+#~ msgstr "Mô tả hoặc các lưu ý cho máy chủ này"
+
+#~ msgid "Email Address"
+#~ msgstr "Địa chỉ Thư điện tử"
+
+#~ msgid "Email Server"
+#~ msgstr "Máy chủ Thư điện tử"
+
+#~ msgid "Email address where backups should be emailed to"
+#~ msgstr "Địa chỉ Thư điện tử nơi các sao lưu nên được gửi qua email tới"
+
+#~ msgid "FTP Password"
+#~ msgstr "Mật khẩu của Giao thức truyền tập tin"
+
+#~ msgid "FTP Username"
+#~ msgstr "Tên người dùng Giao thức truyền tập tin"
+
+#~ msgid "Hostname"
+#~ msgstr "Tên host"
+
+#~ msgid "IP address or FQDN of remote SSH server"
+#~ msgstr "Địa chỉ IP của FQDN của máy chủ SSH từ xa"
+
+#~ msgid "IP address or FQDN of remote mysql host"
+#~ msgstr "Địa chỉ IP hoặc FQDN của host mysql từ xa"
+
+#~ msgid "KB"
+#~ msgstr "Kilobyte"
+
+#~ msgid "Key"
+#~ msgstr "Khóa"
+
+#~ msgid "Local Server"
+#~ msgstr "Máy chủ tại chỗ"
+
+#~ msgid "Location of ssh private key to be used when connecting to a host"
+#~ msgstr "Vị trí của khóa cá nhân ssh được sử dụng khi kết nối với một host"
+
+#~ msgid "MB"
+#~ msgstr "Megabyte"
+
+#~ msgid "Max Email Size"
+#~ msgstr "Kich cỡ Thư điện tử lớn nhất"
+
+#~ msgid "MySQL Server"
+#~ msgstr "Máy chủ MySQL"
+
+#~ msgid "Name this Server"
+#~ msgstr "Tên máy chủ này"
+
+#~ msgid "Password"
+#~ msgstr "Mật khẩu"
+
+#~ msgid "Path"
+#~ msgstr "Đường dẫn"
+
+#~ msgid "Path on remote server"
+#~ msgstr "Đường dẫn trên máy chủ từ xa"
+
+#~ msgid "Port"
+#~ msgstr "Cổng giao tiếp"
+
+#~ msgid "Provide the name for this server"
+#~ msgstr "Cung cấp tên cho máy chủ này"
+
+#~ msgid "Remote Database Name"
+#~ msgstr "Tên cơ sở dữ liệu từ xa"
+
+#~ msgid "Remote MySQL Port"
+#~ msgstr "Cổng giao tiếp MySQL từ xa"
+
+#~ msgid "Remote SSH Port"
+#~ msgstr "Cổng giao tiếp SSH từ xa"
+
+#~ msgid "SSH Server"
+#~ msgstr "Máy chủ SSH"
+
+#~ msgid "SSH Username"
+#~ msgstr "Tên người dùng SSH"
+
+#~ msgid "Server Name"
+#~ msgstr "Tên máy chủ"
+
+#~ msgid "Supply a server name"
+#~ msgstr "Cung cấp một tên máy chủ"
+
+#~ msgid ""
+#~ "The maximum size a backup can be and still be emailed. Some email servers "
+#~ "limit the size of email attachments, this will make sure that files "
+#~ "larger than the max size are not sent."
+#~ msgstr ""
+#~ "Kích cỡ tối đã của một sao lưu có thể vẫn được gửi qua thư điện tử. Một "
+#~ "số máy chủ thư điện tử giới hạn kích cỡ của các tệp đính kèm, điều này "
+#~ "nhằm đảm bảo các tệp có kích cỡ lớn hơn kích cỡ tối đa sẽ không được gửi "
+#~ "đi."
+
+#~ msgid "This has a maximum size of 25MB."
+#~ msgstr "Cái này có kích cỡ tối đa là 25MB."
+
+#~ msgid "User Name"
+#~ msgstr "Tên người dùng"
+
+#~ msgid "Username"
+#~ msgstr "Tên người dùng"
+
+#~ msgid "What's this?"
+#~ msgstr "Đây là cái gì?"
+
+#~ msgid "Download"
+#~ msgstr "Tải về"
+
+#~ msgid "%s Backup Wizard"
+#~ msgstr "%s Sao lưu Wizard"
+
+#~ msgid "/path/to/dir"
+#~ msgstr "/path/to/dir"
+
+#~ msgid "/path/to/file"
+#~ msgstr "/path/to/file"
+
+#~ msgid ""
+#~ "A full backup of core settings and web files, doesn't include system "
+#~ "sounds or recordings."
+#~ msgstr ""
+#~ "Một sao lưu đầy đủ của các cài đặt và các tệp web, không bao gồm hệ thống "
+#~ "các âm thanh và các bản ghi."
+
+#~ msgid "A script to be run AFTER a backup is completed."
+#~ msgstr "Một kịch bản sẽ được chạy sau khi một sao lưu hoàn thành."
+
+#~ msgid "A script to be run AFTER a backup is restored."
+#~ msgstr "Một kịch bản sẽ được chạy sau khi một sao lưu được khôi phục."
+
+#~ msgid "A script to be run BEFORE a backup is restored."
+#~ msgstr "Một kịch bản sẽ được chạy trước khi một sao lưu được khôi phục."
+
+#~ msgid "A script to be run BEFORE a backup is started."
+#~ msgstr "Một kịch bản sẽ được chạy trước khi một sao lưu được khởi động."
+
+#~ msgid "AT"
+#~ msgstr "AT"
+
+#~ msgid "AWS S3 Server "
+#~ msgstr "Máy chủ AWS S3 "
+
+#~ msgid "Active"
+#~ msgstr "Hoạt động"
+
+#~ msgid "Add Server"
+#~ msgstr "Thêm máy chủ"
+
+#~ msgid "Adding items..."
+#~ msgstr "Đang thêm các hạng mục...."
+
+#~ msgid ""
+#~ "After a restore, disable any trunks that use registration. This is "
+#~ "helpful to prevent the Primary and Standby systems from \"fighting\" for "
+#~ "the registration, resulting in some calls routed to the Standby system."
+#~ msgstr ""
+#~ "Sau khi khôi phục, vô hiệu tất cả các trung kế có sử dụng đăng ký. Điều "
+#~ "này nhằm giúp ngăn chặn các hệ thống sơ cấp và dự phòng khỏi \"xung đột\" "
+#~ "cho việc đăng ký, gây nên một số cuộc gọi bị chuyển đến hệ thống dự phòng."
+
+#~ msgid ""
+#~ "All PBX Configuration files and any Custom Sound Prompts are included in "
+#~ "the base backup"
+#~ msgstr ""
+#~ "Tất cả các tệp cấu hình PBX  và các dấu nhắc âm thanh tùy chỉnh được bao "
+#~ "gồm trong sao lưu cơ sở"
+
+#~ msgid ""
+#~ "All system audio - including IVR prompts and Music On Hold. DOES NOT "
+#~ "BACKUP VOICEMAIL"
+#~ msgstr ""
+#~ "Tất cả các hệ thống âm thanh- bao gồm các dấu nhắc IVR và Nhạc chờ. KHÔNG "
+#~ "SAO LƯU THƯ THOẠI"
+
+#~ msgid "Amazon S3 Server "
+#~ msgstr "Máy chủ Amazon S3 "
+
+#~ msgid "Annually"
+#~ msgstr "Hằng năm"
+
+#~ msgid "April"
+#~ msgstr "Tháng tư"
+
+#~ msgid "AstDB's"
+#~ msgstr "Các tập tin AstDB's"
+
+#~ msgid "Asterisk DB"
+#~ msgstr "Cơ sở dữ liễu Asterisk ( Asterisk Database)"
+
+#~ msgid "August"
+#~ msgstr "Tháng tám"
+
+#~ msgid "Auto"
+#~ msgstr "Tự động"
+
+#~ msgid "Available Servers"
+#~ msgstr "Các máy chủ khả dụng"
+
+#~ msgid "BACKUP LOG ATTACHED"
+#~ msgstr "SAO LƯU NHẬT KÝ ĐÍNH KÈM"
+
+#~ msgid "Backup CDR and call record data?"
+#~ msgstr "Sao lưu CDR và ghi dữ liệu?"
+
+#~ msgid "Backup Frequency"
+#~ msgstr "Sao lưu Tần số"
+
+#~ msgid "Backup Lock acquired!"
+#~ msgstr "Sao lưu Lock thu được!"
+
+#~ msgid "Backup Log:"
+#~ msgstr "Sao lưu Nhật ký:"
+
+#~ msgid "Backup Schedule"
+#~ msgstr "Sao lưu lịch trình"
+
+#~ msgid "Backup Server"
+#~ msgstr "Sao lưu máy chủ"
+
+#~ msgid "Backup Server not found!"
+#~ msgstr "Không tìm thấy sao lưu máy chủ!"
+
+#~ msgid "Backup Template"
+#~ msgstr "Sao lưu Mẫu"
+
+#~ msgid "Backup and Restore"
+#~ msgstr "Sao lưu & Khôi phục"
+
+#~ msgid "Backup completed with errors!"
+#~ msgstr "Sao lưu hoàn thành nhưng bị các lỗi!"
+
+#~ msgid "Backup file not found! Aborting."
+#~ msgstr "Không tìm thấy sao lưu tệp! Hủy bỏ."
+
+#~ msgid "Backup module not found or is disabled. Aborting!"
+#~ msgstr "Sao lưu mô đun không tìm thấy hoặc đã bị vô hiệu. Hủy bỏ!"
+
+#~ msgid "Backup successfully completed!"
+#~ msgstr "Sao lưu thành công!"
+
+#~ msgid "Backups"
+#~ msgstr "Các sao lưu"
+
+#~ msgid "Basic Backup Information"
+#~ msgstr "Thông tin sao lưu cơ bản"
+
+#~ msgid "Browse"
+#~ msgstr "Trình duyệt"
+
+#~ msgid "Browser reconnected realtime updates are unavailable."
+#~ msgstr "Các cập nhật thời gian thực ngắt kết nối không khả dụng."
+
+#~ msgid "Building manifest..."
+#~ msgstr "Đang xây dựng kê khai..."
+
+#~ msgid "CDR and Call Log Data"
+#~ msgstr "CDR và dữ liệu nhật ký cuộc gọi"
+
+#~ msgid "CDR server, generally a local database server"
+#~ msgstr "Máy chủ CDR, thông thường là một máy chủ cơ sở dữ liệu tại chỗ"
+
+#~ msgid "CDR's"
+#~ msgstr "Các tập tin CDR"
+
+#~ msgid "Call Detail Records"
+#~ msgstr "Bản ghi chi tiết cuộc gọi"
+
+#~ msgid "Call Recordings"
+#~ msgstr "Các ghi âm cuộc gọi"
+
+#~ msgid "Can not create backup tables"
+#~ msgstr "Không thể tạo ra các bảng sao lưu"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Đang dọn sạch..."
+
+#~ msgid "Click 'Next' to continue."
+#~ msgstr "Kích chọn \"Tiếp theo\" để tiếp tục."
+
+#~ msgid "Configurations only"
+#~ msgstr "Chỉ các cấu hình"
+
+#~ msgid "Connecting to remote server..."
+#~ msgstr "Đang kết nối tới máy chủ từ xa..."
+
+#~ msgid "Creating backup..."
+#~ msgstr "Đang tạo sao lưu..."
+
+#~ msgid "Custom"
+#~ msgstr "Tùy chỉnh"
+
+#~ msgid "Daily"
+#~ msgstr "Hằng ngày"
+
+#~ msgid "Day each month"
+#~ msgstr "Ngày mỗi tháng"
+
+#~ msgid "Day of Week"
+#~ msgstr "Ngày trong tuần"
+
+#~ msgid "Days"
+#~ msgstr "Các ngày"
+
+#~ msgid "Days of Month"
+#~ msgstr "Các ngày trong tháng"
+
+#~ msgid "Days of month to run"
+#~ msgstr "Các ngày trong tháng để chạy"
+
+#~ msgid "December"
+#~ msgstr "Tháng 12"
+
+#~ msgid "Default"
+#~ msgstr "Mặc định"
+
+#~ msgid "Default backup; automatically installed"
+#~ msgstr "Mặc định sao lưu; cài đặt tự động"
+
+#~ msgid "Delete After"
+#~ msgstr "Xóa Sau khi"
+
+#~ msgid ""
+#~ "Delete this backup after X amount of minutes/hours/days/weeks/months/"
+#~ "years. Please note that deletes aren't time based and will only happen "
+#~ "after a backup was run. Setting the value to 0 will disable any deleting"
+#~ msgstr ""
+#~ "Xóa sao lưu này sau khi X phút/ giờ/ ngày/ tuần/ tháng/ năm. Vui lòng lưu "
+#~ "ý rằng những gì đã xóa không phải là dựa trên thời gian và sẽ chỉ xảy ra "
+#~ "sau khi một sao lưu được chạy. Cài đặt giá trị trở về 0 sẽ vô hiệu bất kỳ "
+#~ "thao tác xóa nào"
+
+#~ msgid ""
+#~ "Delete this backup after X amount of runs. Setting the value to 0 will "
+#~ "disable any deleting"
+#~ msgstr ""
+#~ "Xóa bản sao lưu này sau khi đã chạy x lần. Cài đặt giá trị về 0 sẽ vô "
+#~ "hiệu thao tác xóa"
+
+#~ msgid "Delete this entry. Don't forget to click Submit to save changes!"
+#~ msgstr "Xóa mục nhập này. Đừng quên kích Gửi đi để lưu các thay đổi!"
+
+#~ msgid "Description or notes for this backup"
+#~ msgstr "Mô tả hoặc các lưu ý cho sao lưu này"
+
+#~ msgid "Destination"
+#~ msgstr "Điểm đến"
+
+#~ msgid "Directory"
+#~ msgstr "Thư mục"
+
+#~ msgid "Disable Registered Trunks"
+#~ msgstr "Vô hiệu các trung kế đã đăng ký"
+
+#~ msgid "Done!"
+#~ msgstr "Đã xong!"
+
+#~ msgid ""
+#~ "Drag servers from the Available Servers list to add them as Storage "
+#~ "Servers"
+#~ msgstr ""
+#~ "Kéo các máy chủ từ danh sách các máy chủ khả dụng  để thêm chúng như các "
+#~ "máy chủ lưu trữ"
+
+#~ msgid ""
+#~ "Drag templates and drop them in the items table to add the templates "
+#~ "items to the table"
+#~ msgstr "Kéo và thả các mẫu vào bản mục lục để thêm các thư mục mẫu vào bảng"
+
+#~ msgid "Drop Here"
+#~ msgstr "Thả tại đây"
+
+#~ msgid "Email Notifications"
+#~ msgstr "Các thông báo Thư điện tử"
+
+#~ msgid "Email Server "
+#~ msgstr "Máy chủ thư điện tử "
+
+#~ msgid "Email notifications are set to Yes but no email provided"
+#~ msgstr ""
+#~ "Các thông báo Thư điện tử được thiết lập Có nhưng không Thư điện tử nào "
+#~ "được cung cấp"
+
+#~ msgid "Email to send status messages to when this task is run"
+#~ msgstr "Gửi email để thông báo trạng thái đến khi tác vụ này được chạy"
+
+#~ msgid "Error uploading file!"
+#~ msgstr "Lỗi khi đang tải tệp lên!"
+
+#~ msgid "Error verifying uploaded file!"
+#~ msgstr "Lỗi khi đang xác nhận tệp đã tải lên!"
+
+#~ msgid "Exclude"
+#~ msgstr "Ngoại trừ"
+
+#~ msgid "Exclude BIND address"
+#~ msgstr "Loại trừ địa chỉ Địa chỉ IP để gán vào"
+
+#~ msgid ""
+#~ "Exclude Backup's settings so that they dont get restored, useful for a "
+#~ "remote restore"
+#~ msgstr ""
+#~ "Ngoại trừ các cài đặt của các sao lưu để chúng không bị khôi phục, giúp "
+#~ "ích cho việc khôi phục từ xa"
+
+#~ msgid "Explicitly skipping host-specific NAT settings"
+#~ msgstr "Dứt khoát bỏ qua các cài đặt NAT theo host"
+
+#~ msgid "FTP"
+#~ msgstr "Giao thức truyền tập tin- File Transfer Protocol"
+
+#~ msgid "FTP Server"
+#~ msgstr "Máy chủ Giao thức truyền tập tin"
+
+#~ msgid "FTP Server "
+#~ msgstr "Máy chủ giao thức truyền tập tin "
+
+#~ msgid "FTP Transfer type"
+#~ msgstr "Kiểu truyền của Giao thức truyền tập tin"
+
+#~ msgid ""
+#~ "Failed converting asterisk.sql to proper format, renaming to mysql-db.sql "
+#~ "in current state"
+#~ msgstr ""
+#~ "Chuyển đổi asterisk.sql thành định dạng phù hợp không thành công, đổi tên "
+#~ "thành mysql-db.sql trong trạng thái hiện tại"
+
+#~ msgid ""
+#~ "Failed converting asteriskcdr.sql to proper format, renaming to mysql-cdr."
+#~ "sql in current state"
+#~ msgstr ""
+#~ "Chuyển đổi asteriskcdr.sql thành định dạng phù hợp không thành công, đổi "
+#~ "tên thành mysql-cdr.sql trong trạng thái hiện tại"
+
+#~ msgid "Failed to retrieve file from server!"
+#~ msgstr "Truy xuất tệp từ máy chủ không thành công!"
+
+#~ msgid "Family, one per line"
+#~ msgstr "Dãy, một trên mỗi dòng"
+
+#~ msgid "February"
+#~ msgstr "Tháng hai"
+
+#~ msgid "File"
+#~ msgstr "Tệp"
+
+#~ msgid "File not found! "
+#~ msgstr "Không tìm thấy tệp! "
+
+#~ msgid "File restore complete!"
+#~ msgstr "Khôi phục tệp thành công!"
+
+#~ msgid "File verification failed. "
+#~ msgstr "Xác nhận tệp không thành công. "
+
+#~ msgid "Filesystem Type"
+#~ msgstr "Kiểu của Hệ thống tệp tin"
+
+#~ msgid "FreePBX"
+#~ msgstr "Giao diện FreePBX"
+
+#~ msgid "Friday"
+#~ msgstr "Thứ sáu"
+
+#~ msgid "Getting CDR size..."
+#~ msgstr "Đang nhận kích cỡ CDR..."
+
+#~ msgid "Give the server a descriptive name"
+#~ msgstr "Đặt cho máy chủ một tên mô tả"
+
+#~ msgid "Give your backup a description"
+#~ msgstr "Tạo một mô tả cho sao lưu của bạn"
+
+#~ msgid "Give your backup a friendly name"
+#~ msgstr "Đặt cho sao lưu của bạn một cái tên thân thiện"
+
+#~ msgid "Go!"
+#~ msgstr "Đi!"
+
+#~ msgid ""
+#~ "Here are the first few lines of the file as sent by the remote server:"
+#~ msgstr "Đây là vài dòng đầu tiên của tệp tin đã được gửi bởi máy chủ từ xa:"
+
+#~ msgid "Hooks"
+#~ msgstr "Các điểm neo"
+
+#~ msgid "Hourly"
+#~ msgstr "Hằng giờ"
+
+#~ msgid "Hours"
+#~ msgstr "Giờ"
+
+#~ msgid "How often should we backup?"
+#~ msgstr "Chúng ta nên thường xuyên sao lưu bao lâu một lần?"
+
+#~ msgid "IP Address or FQDN of your server"
+#~ msgstr "Địa chỉ IP hoặc FQDN của máy chủ của bạn"
+
+#~ msgid "IP address or FQDN of remote ftp host"
+#~ msgstr "Địa chỉ IP hoặc FQDN của host ftp từ xa"
+
+#~ msgid ""
+#~ "If Randomize is selected, a similar frequency will be followed, only the "
+#~ "exact times will be randomized (avoiding peak business hours, when "
+#~ "possible). Please note: randomized schedules will be rescheduled "
+#~ "(randomly) every time ANY backup is saved"
+#~ msgstr ""
+#~ "Nếu chọn Randomize , một tần số tương tự sẽ được theo sau, chỉ những lần "
+#~ "chính xác sẽ được ngẫu nhiên hóa (tránh những giờ làm việc cao điểm, khi "
+#~ "có thể). Xin lưu ý:Các lịch trình ngẫu nhiên sẽ được sắp xếp lại (một "
+#~ "cách ngẫu nhiên) khi mỗi lần sao lưu bất kỳ được lưu"
+
+#~ msgid ""
+#~ "If a custom schedule is selected, any section not specified will be "
+#~ "considered to be \"any\" (aka: wildcard).\n"
+#~ "\t\t\t\t\tI.e. if Day of Month is set to 12 and Day of Week is not set, "
+#~ "the Backup will be run on ANY 12th of\n"
+#~ "\t\t\t\t\tthe month - regardless of the day of the week. If Day of Week "
+#~ "is set to, say, Monday, the Backup will run ONLY\n"
+#~ "\t\t\t\t\t on a Monday, and ONLY if it's the 12th of the month."
+#~ msgstr ""
+#~ "Nếu một lịch trình tùy chỉnh được chọn, bất kỳ phần nào không được chỉ "
+#~ "định sẽ được coi là \"bất kỳ\" (aka: ký tự đại diện).\n"
+#~ "Ví dụ, nếu ngày của tháng cài đặt là 12 và ngày của tuần không được cài "
+#~ "đặt, Sao lưu sẽ được chạy vào ngày 12 của tháng\n"
+#~ " - không quan tâm đến ngày trong tuần. Nếu Ngày trong tuần được cài đặt "
+#~ "là Thứ Hai, Sao lưu sẽ chỉ chạy vào Thứ hai, và CHỈ nếu đó là ngày mười "
+#~ "hai của tháng."
+
+#~ msgid "Import"
+#~ msgstr "Nhập vào"
+
+#~ msgid "Initializing Backup"
+#~ msgstr "Đang khởi tạo sao lưu"
+
+#~ msgid "Initializing Restore..."
+#~ msgstr "Đang khởi tạo Khôi phục..."
+
+#~ msgid "Introduction"
+#~ msgstr "Giới thiệu"
+
+#~ msgid "Invalid Backup Name"
+#~ msgstr "Tên Sao lưu không khả dụng"
+
+#~ msgid "Invalid backup for or undefined error"
+#~ msgstr "Sao lưu không khả dụng cho hoặc lỗi không xác định"
+
+#~ msgid "Item"
+#~ msgstr "Thư mục"
+
+#~ msgid "Items"
+#~ msgstr "Các thư mục"
+
+#~ msgid "January"
+#~ msgstr "Tháng một"
+
+#~ msgid "July"
+#~ msgstr "Tháng bảy"
+
+#~ msgid "June"
+#~ msgstr "Tháng sáu"
+
+#~ msgid "Local Server "
+#~ msgstr "Máy chủ tại chỗ "
+
+#~ msgid "Maintenance"
+#~ msgstr "Bảo dưỡng"
+
+#~ msgid "March"
+#~ msgstr "Tháng ba"
+
+#~ msgid "May"
+#~ msgstr "Tháng năm"
+
+#~ msgid "Minutes"
+#~ msgstr "Phút"
+
+#~ msgid "Monday"
+#~ msgstr "Thứ Hai"
+
+#~ msgid "Monthly"
+#~ msgstr "Hằng tháng"
+
+#~ msgid "Months"
+#~ msgstr "Tháng"
+
+#~ msgid "Mysql"
+#~ msgstr "Hệ quản trị dữ liệu Mysql"
+
+#~ msgid "Mysql DB's"
+#~ msgstr "Các dữ liệu Mysql"
+
+#~ msgid "Mysql Server "
+#~ msgstr "Máy chủ Mysql "
+
+#~ msgid "Name this backup"
+#~ msgstr "Tên sao lưu này"
+
+#~ msgid "Never"
+#~ msgstr "Không bao giờ"
+
+#~ msgid "Never will never run the backup automatically"
+#~ msgstr "Never sẽ không bao giờ cho phép chạy sao lưu tự động"
+
+#~ msgid "New Amazon S3 server"
+#~ msgstr "Máy chủ Amzon S3 mới"
+
+#~ msgid "New Backup"
+#~ msgstr "Sao lưu mới"
+
+#~ msgid "New Email server"
+#~ msgstr "Máy chủ thư điện tử mới"
+
+#~ msgid "New FTP server"
+#~ msgstr "Máy chủ FTP mới"
+
+#~ msgid "New Local server"
+#~ msgstr "Máy chủ tại chỗ mới"
+
+#~ msgid "New MySQL server"
+#~ msgstr "Máy chủ MySQL mới"
+
+#~ msgid "New SSH server"
+#~ msgstr "Máy chủ SSH mới"
+
+#~ msgid "New Template"
+#~ msgstr "Mẫu mới"
+
+#~ msgid "Nightly"
+#~ msgstr "Hằng đêm"
+
+#~ msgid "No items in backup set. Aborting."
+#~ msgstr "Không có thư mục nào trong cài đặt sao lưu. Hủy bỏ."
+
+#~ msgid "No storage servers found! Aborting."
+#~ msgstr "Không có máy chủ lưu trư nào được tìm thấy. Hủy bỏ."
+
+#~ msgid "Nothing to restore!"
+#~ msgstr "Không có gì để khôi phục!"
+
+#~ msgid "November"
+#~ msgstr "Tháng mười một"
+
+#~ msgid "ON"
+#~ msgstr "BẬT"
+
+#~ msgid "October"
+#~ msgstr "Tháng mười"
+
+#~ msgid "On Failure Only"
+#~ msgstr "Chỉ khi có sự cố"
+
+#~ msgid "On the"
+#~ msgstr "Trên"
+
+#~ msgid "Only send an email on failure"
+#~ msgstr "Chỉ gửi một Thư điện tử khi sự cố"
+
+#~ msgid "Optional description or notes for this backup temnplate."
+#~ msgstr "Mô tả lựa chọn hoắc ghi chú cho mẫu sao lưu này."
+
+#~ msgid "PATTERNs, one per line"
+#~ msgstr "Chuỗi mẫu, 1 chuỗi trên 1 dòng"
+
+#~ msgid "PBX Settings"
+#~ msgstr "Các cài đặt PBX"
+
+#~ msgid "PBX config server, generally a local database server"
+#~ msgstr "Máy chủ cấu hình PBX, thông thường là máy chủ cơ sở dữ liệu tại chỗ"
+
+#~ msgid "Passive"
+#~ msgstr "Bị động"
+
+#~ msgid ""
+#~ "Path on remote server. This must be a COMPLETE PATH, starting with a / - "
+#~ "for example, <tt>/home/backups/freepbx</tt>. A path without a leading "
+#~ "slash will not work, and will behave in unexpected ways."
+#~ msgstr ""
+#~ "Đường dẫn trên máy chủ từ xa. Đây phải là một đường dẫn đầy đủ, bắt đầu "
+#~ "với một dấu gạch chéo \"/\"- ví dụ, <tt>/home/backups/freepbx</tt>. Một "
+#~ "đường dẫn không hoạt động mà không bắt đầu bằng dấu gạch chéo, và sẽ "
+#~ "không hoạt động như mong muốn."
+
+#~ msgid "Path to ssh key, example /home/asterisk/.ssh/id_rsa"
+#~ msgstr "Đường dẫn đến khóa ssh, ví dụ /home/asterisk/.ssh/id_rsa"
+
+#~ msgid "Path/DB"
+#~ msgstr "Đường dẫn/DB"
+
+#~ msgid "Please wait"
+#~ msgstr "Vui lòng đợi"
+
+#~ msgid "Please wait, loading..."
+#~ msgstr "Vui lòng đơi, đang tải..."
+
+#~ msgid "Post-Backup Hook"
+#~ msgstr "Hook sau sao lưu"
+
+#~ msgid "Post-Restore Hook"
+#~ msgstr "Hook sau khôi phục"
+
+#~ msgid "Pre-Backup Hook"
+#~ msgstr "Hook trước sao lưu"
+
+#~ msgid "Pre-Restore Hook"
+#~ msgstr "Hool trước Khôi phục"
+
+#~ msgid "Preserving local Bind address"
+#~ msgstr "Bảo lưu Địa chỉ IP để gán tại chỗ"
+
+#~ msgid "Preserving local NAT settings"
+#~ msgstr "Bảo lưu các cài đặt NAT tại chỗ"
+
+#~ msgid "Processed %s%% of CDRs (%s of %s lines)"
+#~ msgstr "Đã xử lý %s%% của CDRs (%s của %s dòng)"
+
+#~ msgid "Processed %s%% of Settings (%s of %s lines)"
+#~ msgstr "Đã xử lý %s%% của các cài đặt (%s của %s dòng)"
+
+#~ msgid "Processing received file..."
+#~ msgstr "Đang xử lý tệp đã nhận..."
+
+#~ msgid "Randomize"
+#~ msgstr "Ngẫu nhiên hóa"
+
+#~ msgid "Reboot"
+#~ msgstr "Khởi động lại"
+
+#~ msgid "Reloading..."
+#~ msgstr "Đang tải lại..."
+
+#~ msgid "Remote Path"
+#~ msgstr "Đường dẫn từ xa"
+
+#~ msgid "Remote Save"
+#~ msgstr "Lưu từ xa"
+
+#~ msgid "Remote Server Settings?"
+#~ msgstr "Các cài đặt máy chủ từ xa?"
+
+#~ msgid "Remote Server Type"
+#~ msgstr "Loại máy chủ từ xa"
+
+#~ msgid "Remote Server type"
+#~ msgstr "Kiểu máy chủ từ xa"
+
+#~ msgid "Remote save options"
+#~ msgstr "Các lự chọn lưu từ xa"
+
+#~ msgid "Remote save path, blank for default"
+#~ msgstr "Đường dẫn lưu từ xa, để trống mặc định"
+
+#~ msgid "Restore CDR records stored in this backup"
+#~ msgstr "Khôi phục các bản ghi CDR đã lưu trong sao lưu này"
+
+#~ msgid "Restore Here"
+#~ msgstr "Khôi phục tại đây"
+
+#~ msgid "Restore all setting stored in the database"
+#~ msgstr "Khôi phục tất cả các cài đặt đã lưu trong cơ sở dữ liệu"
+
+#~ msgid "Restore backup to this server after the backup is complete"
+#~ msgstr "Khôi phục sao lưu tới máy chủ sau khi sao lưu hoàn thành"
+
+#~ msgid "Restore complete!"
+#~ msgstr "Khôi phục hoàn thành!"
+
+#~ msgid "Restored Database"
+#~ msgstr "Các dữ liệu đã khôi phục"
+
+#~ msgid "Restoring Bindaddres Settings"
+#~ msgstr "Khôi phục các cài đặt Địa chỉ IP để gán vào"
+
+#~ msgid "Restoring CDRs complete"
+#~ msgstr "Đang hoàn thành khôi phục CDRs"
+
+#~ msgid "Restoring CDRs..."
+#~ msgstr "Đang khôi phục CDRs..."
+
+#~ msgid "Restoring Database..."
+#~ msgstr "Đang khôi phục cơ sở dữ liệu..."
+
+#~ msgid "Restoring NAT settings"
+#~ msgstr "Đang khôi phục các cài đặt NAT"
+
+#~ msgid "Restoring Settings complete"
+#~ msgstr "Đang hoàn thành khôi phục các cài đặt"
+
+#~ msgid "Restoring all files (this may take some time)..."
+#~ msgstr ""
+#~ "Đang khôi phục tất cả các tệp ( Điều này có thể tốn chút thời gian)..."
+
+#~ msgid "Restoring astDB..."
+#~ msgstr "Đang khôi phục astDB ( Dữ liệu Asterisk)..."
+
+#~ msgid "Restoring backup..."
+#~ msgstr "Đang khôi phục sao lưu..."
+
+#~ msgid "Restoring files (this may take some time)..."
+#~ msgstr "Đang khôi phục các tệp ( Việc này có thể tốn chút thời gian)..."
+
+#~ msgid "Run Automatically"
+#~ msgstr "Chạy tự đông"
+
+#~ msgid ""
+#~ "Run at startup of the server OR of the cron deamon (i.e. after every "
+#~ "<code>service cron restart</code>)"
+#~ msgstr ""
+#~ "Chạy khi  máy chủ HOẶC cron deamon khởi động ( Ví dụ Sau mỗi <code>khởi "
+#~ "động lại dịch vụ cron</code>)"
+
+#~ msgid "Run now"
+#~ msgstr "Chạy ngay bây giờ"
+
+#~ msgid "Run once a day, at midnight"
+#~ msgstr "Chạy 1 lần 1 ngày, vào nửa đêm"
+
+#~ msgid "Run once a month, midnight, first of month"
+#~ msgstr "Chạy 1 lần 1 tháng, vào nửa đêm, ngày đầu tiên của tháng"
+
+#~ msgid "Run once a week, midnight on Sun"
+#~ msgstr "Chạy một lần 1 tuần/ vào nửa đêm ngày Chủ nhật"
+
+#~ msgid "Run once a year, midnight, Jan. 1"
+#~ msgstr "Chạy 1 lần 1 năm/ vào nửa đêm ngày 1 tháng 1"
+
+#~ msgid "Run once an hour, beginning of hour"
+#~ msgstr "Chạy 1 lần 1 giờ, vào lúc bắt đầu của giờ đó"
+
+#~ msgid "Running post restore script..."
+#~ msgstr "Đang chạy kịch bản sau khôi phục..."
+
+#~ msgid "Running post-backup hooks..."
+#~ msgstr "Đang chạt Hooks sau sao lưu..."
+
+#~ msgid "Running post-restore hooks, if any..."
+#~ msgstr "Đang chạy hooks sau khôi phục, nếu có..."
+
+#~ msgid "Running pre-backup hooks..."
+#~ msgstr "Đang chạy hooks trước sao lưu..."
+
+#~ msgid "Running pre-restore hooks, if any..."
+#~ msgstr "Đang chạy hooks trước khôi phục, nếu có..."
+
+#~ msgid "Running pre-restore scripts..."
+#~ msgstr "Đang chạy các kịch bản trước khôi phục..."
+
+#~ msgid "Runs"
+#~ msgstr "Chạy"
+
+#~ msgid "SSH"
+#~ msgstr "SSH"
+
+#~ msgid "SSH Key Path"
+#~ msgstr "Đường dẫn khóa SSH"
+
+#~ msgid "SSH Server "
+#~ msgstr "Máy chủ SSH "
+
+#~ msgid "Saturday"
+#~ msgstr "Thứ Bảy"
+
+#~ msgid "Schedule Help"
+#~ msgstr "Lịch trình giúp đỡ"
+
+#~ msgid "Select a file and click go"
+#~ msgstr "Chọn một tệp và kích chọn Đi"
+
+#~ msgid ""
+#~ "Select how often to run this backup. The following schedule will be "
+#~ "followed for all but custom."
+#~ msgstr ""
+#~ "Chọn Tần suất chạy sao lưu này. Các lịch trình sau sẽ được theo dõi đối "
+#~ "với tất cả trừ  việc tùy chỉnh."
+
+#~ msgid ""
+#~ "Select the server to be backed up (this server, or any other SSH server)"
+#~ msgstr ""
+#~ "Chọn máy chủ đã được sao lưu ( máy chủ này , hoặc bất kỳ máy chủ SSH khác)"
+
+#~ msgid "September"
+#~ msgstr "Tháng chín"
+
+#~ msgid "Server"
+#~ msgstr "Máy chủ"
+
+#~ msgid "Server Address"
+#~ msgstr "Địa chỉ máy chủ"
+
+#~ msgid "Server Name can not be blank"
+#~ msgstr "Tê máy chủ không được để trống"
+
+#~ msgid "Server Port"
+#~ msgstr "Cổng giao tiếp máy chủ"
+
+#~ msgid "Server Port, leave blank for default"
+#~ msgstr "Công giao tiếp máy chủ, để trống mặc định"
+
+#~ msgid "Server Username"
+#~ msgstr "Tên người dùng máy chủ"
+
+#~ msgid "Server address can not be blank"
+#~ msgstr "Địa chỉ máy chủ không được để trống"
+
+#~ msgid "Servers"
+#~ msgstr "Các máy chủ"
+
+#~ msgid "Skip Bindaddrss is Enabled... "
+#~ msgstr "Bỏ qua Địa chỉ IP để gán đã kích hoạt "
+
+#~ msgid "Skipping host-specific Bind address"
+#~ msgstr "Bỏ qua Địa chỉ IP để gán theo host"
+
+#~ msgid "Something went wrong when connecting to remote server. Aborting!"
+#~ msgstr "Xuất hiện lỗi khi kết nối với máy chủ từ xa. Hủy bỏ!"
+
+#~ msgid "Status Email"
+#~ msgstr "Trạng thái Thư điện tử"
+
+#~ msgid "Step 1"
+#~ msgstr "Bước 1"
+
+#~ msgid "Step 2"
+#~ msgstr "Bước 2"
+
+#~ msgid "Step 3"
+#~ msgstr "Bước 3"
+
+#~ msgid "Step 4"
+#~ msgstr "Bước 4"
+
+#~ msgid "Step 5"
+#~ msgstr "Bước 5"
+
+#~ msgid "Storage Servers"
+#~ msgstr "Các máy chủ lưu trữ"
+
+#~ msgid "Storage location for backups"
+#~ msgstr "Vị trí lưu trữ cho các sao lưu"
+
+#~ msgid "Storing backup..."
+#~ msgstr "Đang lưu trữ sao lưu..."
+
+#~ msgid "Sunday"
+#~ msgstr "Chủ nhật"
+
+#~ msgid "Template Name"
+#~ msgstr "Tên mẫu"
+
+#~ msgid "Templates"
+#~ msgstr "Các mẫu"
+
+#~ msgid ""
+#~ "The FTP Server's file system type. If you are unsure set this to Auto"
+#~ msgstr ""
+#~ "Kiểu hệ thống tệp của máy chủ FTP. Nếu bạn không chắc chắn hãy cài đặt về "
+#~ "Tự động"
+
+#~ msgid "The Restore script Finished You can close this window"
+#~ msgstr "Việc khôi phục kịch bản đã hoàn thành, bạn có thể đóng cửa sổ này"
+
+#~ msgid "The Restore script is still running"
+#~ msgstr "Việc khôi phục kịch bản vẫn đang chạy"
+
+#~ msgid ""
+#~ "This defaults to 'Passive'. If your FTP server is behind a seperate NAT "
+#~ "or Firewall to this VoIP server, you should select 'Active'. In 'Active' "
+#~ "mode, the FTP server establishes a connection back to the VoIP server to "
+#~ "receive the data. In 'Passive' mode, the VoIP server connects to the FTP "
+#~ "Server to send data."
+#~ msgstr ""
+#~ "Điều này mặc địch là \"Bị động\". Nếu máy chủ FTP đứng sau một NAT riêng "
+#~ "biệt hoặc Tường lửa đến máy chủ VoIp, bạn nên chọn \" Chủ động\". Trong "
+#~ "chế độ \" Chủ động\" máy chủ FTP sẽ thiết lập một kết nối trở lại máy chủ "
+#~ "VoLP để nhận dữ liệu. Ở chế độ \" Bị động\", máy chủ VoIP kết nối với máy "
+#~ "chủ FTP để gửi dữ liệu."
+
+#~ msgid "This server"
+#~ msgstr "Máy chủ này"
+
+#~ msgid ""
+#~ "This wizard can be used to add a basic backup task for your %s system"
+#~ msgstr ""
+#~ "Wizard này có thể được sử dụng để thêm vào một tác vụ sao lưu cho hệ "
+#~ "thống  %s của bạn"
+
+#~ msgid "Thursday"
+#~ msgstr "Thứ Năm"
+
+#~ msgid "Transfer Mode"
+#~ msgstr "Chế độ truyền"
+
+#~ msgid "Transfer Type"
+#~ msgstr "Kiểu truyền"
+
+#~ msgid "Tuesday"
+#~ msgstr "Thứ Ba"
+
+#~ msgid "Type"
+#~ msgstr "Kiểu"
+
+#~ msgid "Unix/Linux"
+#~ msgstr "Hệ điều hành Unix/Linux"
+
+#~ msgid "Updated Job %s with new custom sounds directory"
+#~ msgstr "Cập nhật công việc  %s với thư mục âm thanh tùy chỉnh mới"
+
+#~ msgid "Updated System Recordings template"
+#~ msgstr "Cập nhật hệ thống các mẫu ghi âm"
+
+#~ msgid "Upload File"
+#~ msgstr "Tải tệp lên"
+
+#~ msgid "Verifying received file..."
+#~ msgstr "Đang xác nhận tệp đã nhận..."
+
+#~ msgid "Voice Mail Storage"
+#~ msgstr "Lưu trữ thư thoại"
+
+#~ msgid "Voicemails"
+#~ msgstr "Các thư thoại"
+
+#~ msgid "WARNING!"
+#~ msgstr "CẢNH BÁO!"
+
+#~ msgid "Web Root restore not detected, not restoring module table"
+#~ msgstr ""
+#~ "Việc khôi phục Web Root không được phát hiện, không khôi phục bảng mô đun"
+
+#~ msgid "Wednesday"
+#~ msgstr "Thứ Tư"
+
+#~ msgid "Week Days"
+#~ msgstr "Các ngày trong tuần"
+
+#~ msgid "Weekly"
+#~ msgstr "Hằng tuần"
+
+#~ msgid "Weeks"
+#~ msgstr "Tuần"
+
+#~ msgid "Welcome to the Backup Wizard"
+#~ msgstr "Chào mừng đến với Backup Wizard"
+
+#~ msgid "What should we backup?"
+#~ msgstr "Chúng ta nên sao lưu những gì?"
+
+#~ msgid "Where should status emails for this job be sent?"
+#~ msgstr "Các trạng thái thư điện tử cho công việc này nên được gửi đến đâu?"
+
+#~ msgid "Which Days of the week to run"
+#~ msgstr "Chạy vào những ngày nào trong tuần"
+
+#~ msgid "Which Hours to run."
+#~ msgstr "Chạy vào những giờ nào."
+
+#~ msgid "Which Months to run"
+#~ msgstr "Chạy vào các tháng nào"
+
+#~ msgid "Which minutes to run"
+#~ msgstr "Chạy vào những phút nào"
+
+#~ msgid "Windows"
+#~ msgstr "Các cửa sổ"
+
+#~ msgid "Wizard"
+#~ msgstr "Thuật sĩ Wizard"
+
+#~ msgid "Would you like an email when this job runs?"
+#~ msgstr "Bạn có muốn nhận một email khi công việc này khởi chạy?"
+
+#~ msgid "Would you like notifications?"
+#~ msgstr "Bạn có muốn thông bao?"
+
+#~ msgid "Would you like to backup recordings?"
+#~ msgstr "Bạn có muôn sao lưu các ghi âm?"
+
+#~ msgid "Would you like voicemails backded up."
+#~ msgstr "Bạn có muốn các thư thoại được sao lưu."
+
+#~ msgid "Years"
+#~ msgstr "Năm"
+
+#~ msgid "You should run \"%s\" to ensure system integrity"
+#~ msgstr "Bạn nên chạy \"%s\"để đảm bảo tính toàn vẹn của hệ thống"
+
+#~ msgid "Your backup will be saved locally to /var/spool/asterisk/backup"
+#~ msgstr "Sao lưu của bạn sẽ được lưu tại chỗ đến /var/spool/asterisk/backup"
+
+#~ msgid "added default backup servers"
+#~ msgstr "Các máy chủ sao lưu mặc định đã thêm"
+
+#~ msgid "added default backup templates"
+#~ msgstr "Các mẫu sao lưu mặc định đã thêm"
+
+#~ msgid "chose"
+#~ msgstr "chọn"
+
+#~ msgid "error/not found!"
+#~ msgstr "Lỗi/ Không tìm thấy!"
+
+#~ msgid "manifest not found"
+#~ msgstr "Không tìm thấy kê khai"
+
+#~ msgid "table names, one per line"
+#~ msgstr "Tên bảng, một trên một dòng"
+
+#~ msgid "waiting for lock..."
+#~ msgstr "Đang đợi để khóa..."
+
+#~ msgid "{no servers available}"
+#~ msgstr "{không có máy chủ nào khả dụng}"

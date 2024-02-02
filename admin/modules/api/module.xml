@@ -1,0 +1,115 @@
+<module>
+	<rawname>api</rawname>
+	<repo>standard</repo>
+	<name>PBX API</name>
+	<version>15.0.11</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Connectivity</category>
+	<menuitems>
+		<api>API</api>
+	</menuitems>
+	<changelog>
+		*15.0.11* FREEI-65 sanitizing the host parameter 
+		*15.0.10* FREEI-65 
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEPBX-23338 
+		*15.0.7* FREEI-3539 fixe the issue with creation 
+		*15.0.6* FREEPBX-23336 Can't browse GraphQL documentation when logged in via https 
+		*15.0.5* Packaging of ver 15.0.5
+		*15.0.4*    FREEPBX-23272 
+		*15.0.3.22* FREEI-2891 Created new rest api base class to create rest api unit test cases 
+		*15.0.3.21* FREEPBX-23136 URL get two ports within URL when we change the admin GUI port by default. 
+		*15.0.3.20* FREEI-4012 modified fwconsole-commands hook file to display complete error message 
+		*15.0.3.19* FREEI-3890 added error log for gql apis 
+		*15.0.3.18* FREEI-3890 added error log for gql apis 
+		*15.0.3.17* Feature/FREEI-3539 add new api port to urls to client credentials summary 
+		*15.0.3.16* FREEI-3562 removed code which was running chown and reload commands 
+		*15.0.3.15* FREEI-3461 sending complete response 
+		*15.0.3.14* FREEI-3462 added fwconsole chown and fwconsole r command to execute after upgrading all modules 
+		*15.0.3.13* FREEI-3071 blob fix 
+		*15.0.3.12* FREEI-2948 gql upgrade all bug fix 
+		*15.0.3.11* FREEI-2690 doreload and needreload api for both rest and gql 
+		*15.0.3.10* FREEI-2659 adding fwconsole command to generate gql credentials 
+		*15.0.3.9* Packaging of ver 15.0.3.9
+		*15.0.3.8* Packaging of ver 15.0.3.8
+		*15.0.3.7* FREEI-890 Fix XSS Bootstrap Datatable Issues 
+		*15.0.3.6* FREEI-813 Properly scope tokens
+		*15.0.3.5* Skip "hidden" files that begin with a "dot" 
+		*15.0.3.4* FREEPBX-20346 
+		*15.0.3.3* FREEPBX-20282 Whoops error when using GraphQL Documentation tab of API module 
+		*15.0.3.2* FREEPBX-19914 
+		*15.0.3.1* FREEPBX-18907
+		*15.0.3* Depend on PM2
+		*15.0.2.1* Fix authorize screen
+		*15.0.2* Add freepbx to rest container
+		*15.0.1alpha4* Allow defining scope restrictions on application creation
+	</changelog>
+	<description>The API module allows administrators to configure and manage FreePBX remotely through automated. As an administrator you can use other languages to control your PBX systems.</description>
+    <more-info>https://wiki.freepbx.org/display/FPG/API</more-info>
+	<depends>
+		<module>pm2 ge 15.0.10</module>
+	</depends>
+	<hooks>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Api" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="api_applications">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="owner" type="integer" notnull="false"/>
+			<field name="name" type="string" length="50" default=""/>
+			<field name="description" type="text" notnull="false"/>
+			<field name="grant_type" type="string" length="20" default=""/>
+			<field name="client_id" type="string" length="128" default=""/>
+			<field name="client_secret" type="string" length="64" notnull="false"/>
+			<field name="redirect_uri" type="string" length="150" notnull="false"/>
+			<field name="website" type="string" length="150" notnull="false"/>
+			<field name="algo" type="string" length="10" notnull="false"/>
+			<field name="allowed_scopes" type="text" notnull="false"/>
+			<key name="client_id" type="unique">
+				<column name="client_id"/>
+			</key>
+		</table>
+		<table name="api_access_tokens">
+			<field name="token" type="string" length="80" default="" primarykey="true"/>
+			<field name="aid" type="integer" unsigned="true"/>
+			<field name="expiry" type="integer"/>
+			<field name="scopes" type="blob"/>
+			<field name="uid" type="integer" notnull="false"/>
+			<field name="ip_address" type="string" length="80" default=""/>
+			<field name="last_accessed" type="integer"/>
+		</table>
+		<table name="api_auth_codes">
+			<field name="code" type="string" length="80" default="" primarykey="true"/>
+			<field name="aid" type="integer" unsigned="true"/>
+			<field name="expiry" type="integer"/>
+			<field name="scopes" type="blob"/>
+			<field name="uid" type="integer" notnull="false"/>
+			<field name="ip_address" type="string" length="80" default=""/>
+			<field name="last_accessed" type="integer"/>
+		</table>
+		<table name="api_refresh_tokens">
+			<field name="token" type="string" length="80" default="" primarykey="true"/>
+			<field name="access_token" type="string" length="80" default=""/>
+			<field name="expiry" type="integer"/>
+			<field name="ip_address" type="string" length="80" default=""/>
+			<field name="last_accessed" type="integer"/>
+		</table>
+		<table name="api_asynchronous_transaction_history">
+			<field name="txn_id" type="integer" unsigned="true" autoincrement="true" primarykey="true"/>
+			<field name="module_name" type="string" length="80" default=""/>
+			<field name="event_name" type="string" length="80" default=""/>
+			<field name="event_status" type="string" length="10" default="Processing"/>
+			<field name="failure_reason" type="string" length="255" default=""/>
+			<field name="process_start_time" type="integer"/>
+			<field name="process_end_time" type="integer" notnull="false"/>
+			<field name="event_output" type="string" length="255" default=""/>
+		</table>
+	</database>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

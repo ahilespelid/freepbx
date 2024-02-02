@@ -1,0 +1,4433 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for pms
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-16 04:13+0000\n"
+"PO-Revision-Date: 2020-02-19 13:00+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/pms/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+msgid " Error! Check the URL for each field. Bad format."
+msgstr " Fehler! Prüfen Sie die URL für jedes Feld. Falsches Format."
+
+msgid " call(s) done."
+msgstr " Anruf(e) abgeschlossen."
+
+msgid " to "
+msgstr " an "
+
+msgid " to add a group."
+msgstr " um eine Gruppe hinzuzufügen."
+
+msgid " to add a service."
+msgstr " um einen Service hinzuzufügen."
+
+msgid " to immediately delete the service."
+msgstr " um unverzüglich einen Service zu löschen."
+
+msgid " to: "
+msgstr ""
+
+#, php-format
+msgid "%d user rebuilded."
+msgstr ""
+
+#, php-format
+msgid "%d users rebuilded."
+msgstr ""
+
+#, php-format
+msgid "%s = %s"
+msgstr "%s = %s"
+
+msgid "(No license)"
+msgstr "(Keine Lizenz)"
+
+msgid ""
+"(The device used here as an example: TCW181B - Ethernet Relay Unit, 8 "
+"Relays, 1 Digital Input)"
+msgstr ""
+"(Das hier als Beispiel verwendete Gerät: TCW181B - Ethernet-Relaiseinheit, 8 "
+"Relais, 1 Digitaleingang)"
+
+msgid ") can not be changed."
+msgstr ") kann nicht geändert werden."
+
+msgid "* Updating digit: "
+msgstr "* Aktualisierungsziffer: "
+
+msgid "A PHP extension stopped the file upload"
+msgstr "Eine PHP-Erweiterung hat den Datei-Upload gestoppt"
+
+msgid "A product needs to be entered for the digit "
+msgstr "Für die Ziffer muss ein Produkt eingegeben werden "
+
+msgid ""
+"A ticket can be printed for the customer with information about the room and "
+"the hotel. (See config settings in the general menu)."
+msgstr ""
+"Für den Kunden kann ein Ticket mit Informationen über das Zimmer und das "
+"Hotel ausgedruckt werden. (Siehe Konfigurationseinstellungen im allgemeinen "
+"Menü)."
+
+msgid ""
+"A ticket can be printed for the customer with some information about the "
+"room and the hotel. (See config settings in the general menu)."
+msgstr ""
+"Ein Ticket mit Informationen über das Zimmer und das Hotel kann für den "
+"Kunden ausgedruckt werden. (Siehe Konfigurationseinstellungen im allgemeinen "
+"Menü)."
+
+msgid "ALERT! Room"
+msgstr "ACHTUNG! Zimmer"
+
+msgid ""
+"About Group, you can select a group to use for the departure. Any rooms "
+"associated with this group will appear in the room list."
+msgstr ""
+"Über Gruppe können Sie eine Gruppe auswählen, die für den Abflug verwendet "
+"werden soll. Alle dieser Gruppe zugeordneten Räume werden in der Raumliste "
+"angezeigt."
+
+msgid "About features: "
+msgstr "Über Funktionen: "
+
+msgid "Accounting"
+msgstr "Buchhaltung"
+
+msgid "Action"
+msgstr "Aktion"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+msgid "Add Room"
+msgstr "Zimmer hinzufügen"
+
+msgid "Add Room Help"
+msgstr "Zimmer Hilfe hinzufügen"
+
+msgid "Add a product from mini-bar for a room."
+msgstr "Ein Produkt aus der Minibar für ein Zimmer hinzufügen."
+
+msgid "Add room is called."
+msgstr "Zimmer hinzufügen wird aufgerufen."
+
+msgid "Adding Rates: "
+msgstr "Preise hinzufügen: "
+
+msgid "Adding Rates:  "
+msgstr "Preise hinzufügen:  "
+
+msgid "Adding model: "
+msgstr "Modell hinzufügen: "
+
+msgid "Adding product:"
+msgstr "Produkt hinzufügen:"
+
+msgid "Adding room : "
+msgstr "Zimmer hinzufügen: "
+
+msgid "Adding serive: "
+msgstr "Service hinzufügen: "
+
+msgid "Additional Guests"
+msgstr "Weitere Gäste"
+
+msgid "Additional guest"
+msgstr "Weiterer Gast"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Alarm Clock"
+msgstr "Wecker"
+
+msgid "Alarm clock scheduled"
+msgstr "Wecker ist gestellt"
+
+msgid "Alert"
+msgstr "Alarm"
+
+msgid "Alert!"
+msgstr "ACHTUNG!"
+
+msgid "All is ok to make a ticket."
+msgstr "Alles ist in Ordnung und ein Ticket kann erstellt werden."
+
+msgid ""
+"Allow this user to be able to read and change their room status, and send "
+"messages to the receptionist"
+msgstr ""
+"Ermöglichen Sie diesem Benutzer das Lesen und Ändern seines Raumstatus sowie "
+"das Senden von Nachrichten an die Rezeption"
+
+msgid "Amount"
+msgstr "Betrag"
+
+msgid "Amount Due to be paid:"
+msgstr "Zu zahlender Betrag:"
+
+msgid "Amount Prepaid:"
+msgstr "Vorauszahlungsbetrag:"
+
+msgid "Amount Prepaid: <br>"
+msgstr "Vorauszahlungsbetrag: <br>"
+
+msgid "Amount due to be paid: "
+msgstr "Zu zahlender Betrag: "
+
+msgid "An Ajax error is occured!! Please, check console logs."
+msgstr ""
+
+msgid "An error has occurred! : "
+msgstr ""
+
+msgid "An error has occurred."
+msgstr ""
+
+msgid "An error occurred during save, Please try again."
+msgstr ""
+
+msgid ""
+"And finally, enter the number of last digits which need to be hidden in your "
+"invoice."
+msgstr ""
+"Geben Sie schließlich die Anzahl der letzten Ziffern an, die auf Ihrer "
+"Rechnung verborgen sein müssen."
+
+msgid "Applications"
+msgstr "Anwendungen"
+
+msgid "Apply Config"
+msgstr "Konfiguration anwenden"
+
+msgid ""
+"Are you sure you want to delete? You cannot undo a deletion after clicking "
+"on Delete."
+msgstr ""
+"Sind Sie sicher, dass Sie löschen möchten? Sie können eine Löschung nicht "
+"rückgängig machen, nachdem Sie auf Löschen geklickt haben."
+
+msgid "Arguments available [start] or [stop] (see --help)"
+msgstr "Argumente verfügbar [Start] oder [Stopp] (siehe --Hilfe)"
+
+msgid "Arr."
+msgstr "Ank."
+
+msgid "Arrival"
+msgstr "Ankunft"
+
+msgid "Arrival - Show the arrival date"
+msgstr "Ankunft - Zeige das Ankunftsdatum an"
+
+msgid "Arrivals & Departures"
+msgstr "Ankünfte & Abreisen"
+
+msgid "Audio File"
+msgstr "Audiodatei"
+
+msgid "Available"
+msgstr "Verfügbar"
+
+msgid "Bad URL format"
+msgstr "Falsches URL-Format"
+
+msgid "Bad format for country location!! eg: en_US, en_GB, fr_FR."
+msgstr ""
+
+msgid "Bank Check"
+msgstr "Bankprüfung"
+
+msgid "Bank Transf"
+msgstr "Banküberweisung"
+
+msgid "Bank check"
+msgstr "Bankprüfung"
+
+msgid "Bank transfer"
+msgstr "Banküberweisung"
+
+msgid "Bar"
+msgstr "Bar"
+
+msgid ""
+"Below the name of the guest, a message may appear if a customer has sent a "
+"message to the receptionist. Click on the trash icon to delete it."
+msgstr ""
+"Unter dem Namen des Gastes wird möglicherweise eine Nachricht angezeigt, "
+"wenn ein Kunde eine Nachricht an die Rezeption gesendet hat. Klicken Sie auf "
+"das Papierkorbsymbol, um es zu löschen."
+
+msgid ""
+"Below the name of the guest, a message may appear when a customer has sent a "
+"message to the receptionist. Click on the trash icon to delete it."
+msgstr ""
+"Unter dem Namen des Gastes wird möglicherweise eine Nachricht angezeigt, "
+"wenn ein Kunde eine Nachricht an die Rezeption gesendet hat. Klicken Sie auf "
+"das Papierkorbsymbol, um es zu löschen."
+
+msgid "Billing"
+msgstr "Abrechnung"
+
+msgid "Billing Duration"
+msgstr "Rechnungsdauer"
+
+msgid "Billing Increment"
+msgstr "Rechnungserhöhung"
+
+msgid "Billing Rate"
+msgstr "Rechnungspreis"
+
+msgid "Billing Rate Help"
+msgstr "Rechnungspreis Hilfe"
+
+msgid "Billing Rates"
+msgstr "Rechnungspreise"
+
+msgid "Billing Rates is called."
+msgstr "Rechnungspreise wird aufgerufen."
+
+msgid "Billing Report"
+msgstr "Rechnungsbericht"
+
+msgid "Billing Report Help"
+msgstr "Rechnungsbericht Hilfe"
+
+#, php-format
+msgid "Billing details for %s (reservation number: %s)."
+msgstr "Rechnungsdetails für %s (Reservierungsnummer: %s)."
+
+msgid ""
+"Billing rate is not fully completed. Please enter all rates before "
+"performing a check-out."
+msgstr ""
+"Abrechnungssatz ist nicht vollständig ausgefüllt. Bitte geben Sie alle "
+"Preise ein, bevor Sie einen Check-out durchführen."
+
+msgid "Billing report is called."
+msgstr "Rechnungsbericht wird aufgerufen."
+
+msgid "Billings"
+msgstr "Rechnungen"
+
+msgid "Body"
+msgstr "Körper"
+
+msgid "Body: The body of the email as you would like it to appear."
+msgstr "Textkörper: Der Textkörper der E-Mail, wie er angezeigt werden soll."
+
+msgid "Booking"
+msgstr "Buchung"
+
+msgid "Booking - Canceled"
+msgstr "Buchung - Storniert"
+
+msgid "Booking - Confirmed"
+msgstr "Buchung - Bestätigt"
+
+msgid "Booking - To Do"
+msgstr "Buchung - Zu erledigen"
+
+msgid "Booking List"
+msgstr "Buchungsliste"
+
+msgid "Booking List Help"
+msgstr "Buchungsliste Hilfe"
+
+msgid "Booking List is called."
+msgstr "Buchungsliste wird aufgerufen."
+
+msgid "Booking Number"
+msgstr "Buchungsnummer"
+
+msgid "Booking Status"
+msgstr "Buchungsstatus"
+
+msgid "Booking Status Help"
+msgstr "Buchungsstatus Hilfe"
+
+msgid "Booking done for booking number: "
+msgstr "Buchung erfolgt für Buchungsnummer: "
+
+msgid "Booking done for number: "
+msgstr "Buchung fertig für Nummer: "
+
+msgid "Booking filter between :"
+msgstr "Buchungsfilter zwischen:"
+
+msgid "Booking filter between:"
+msgstr "Buchungsfilter zwischen:"
+
+msgid "Booking is called."
+msgstr "Buchung wird aufgerufen."
+
+msgid "Broken!!"
+msgstr "Kaputt!!"
+
+msgid "Busy"
+msgstr "Besetzt"
+
+msgid "Call Between Rooms."
+msgstr "Anruf zwischen Räumen."
+
+msgid ""
+"Call Between Rooms: A room extension is able to call another room extension. "
+msgstr ""
+"Zwischen Räumen anrufen: Eine Raumnebenstelle kann eine andere "
+"Raumnebenstelle anrufen. "
+
+msgid ""
+"Call Between Rooms: An room extension is able to call another room "
+"extension. "
+msgstr ""
+"Zwischen Räumen anrufen: Eine Raumerweiterung kann eine andere "
+"Raumerweiterung anrufen. "
+
+msgid "Call Details"
+msgstr "Anrufdetails"
+
+msgid "Call Restriction"
+msgstr "Anrufbeschränkung"
+
+msgid "Call Summary"
+msgstr "Anrufzusammenfassung"
+
+msgid "Calling receptionist:"
+msgstr "Anrufen der Rezeption:"
+
+msgid "Calls"
+msgstr "Anrufe"
+
+msgid "Calls - Details"
+msgstr "Anrufe - Details"
+
+msgid "Can Not Find Uploaded Files"
+msgstr "Kann keine hochgeladenen Dateien finden"
+
+msgid "Canceled"
+msgstr "Abgebrochen"
+
+msgid "Canceled at:"
+msgstr "Storniert um:"
+
+#, php-format
+msgid ""
+"Cannot schedule the call the scheduled time is in the past. [Time now: %s] "
+"[Wakeup Time: %s]"
+msgstr ""
+"Kann Anruf nicht planen, der geplante Zeitpunkt liegt in der Vergangenheit. "
+"[Aktuelle Zeit: %s] [Weckzeit: %s]"
+
+msgid "Cannot schedule the call, due to insufficient data"
+msgstr "Kann den Anruf aufgrund unzureichender Daten nicht planen"
+
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr "Kann kein temporäres Verzeichnis erstellen: %s"
+
+msgid "Cant find uploaded file"
+msgstr "Kann hochgeladene Datei nicht finden"
+
+msgid "Cash"
+msgstr "Bar"
+
+msgid "Change Call Restriction"
+msgstr "Anrufbeschränkung ändern"
+
+msgid "Change invoice not-paid to paid status"
+msgstr ""
+"Ändern Sie den Status der nicht bezahlten Rechnung in den Status der "
+"bezahlten Rechnung"
+
+msgid "Change status to clean for a room."
+msgstr "Reinigungsstatus eines Zimmers ändern."
+
+msgid "Charge"
+msgstr "Gebühr"
+
+msgid "Charge already used."
+msgstr "Ladung bereits verwendet."
+
+msgid "Charges"
+msgstr "Gebühren"
+
+msgid "Check In"
+msgstr "Check-in"
+
+msgid "Check In Help"
+msgstr "Check-in Hilfe"
+
+msgid "Check Out"
+msgstr "Check-out"
+
+msgid "Check Wakeup Alert"
+msgstr "Weckalarmzeit prüfen"
+
+msgid "Check for performing cancellation"
+msgstr "Prüfung zur Durchführung einer Stornierung"
+
+msgid "Check for performing check-in"
+msgstr "Prüfung zur Durchführung eines Check-ins"
+
+msgid "Check for performing confirm"
+msgstr "Prüfung für die Durchführung einer Bestätigung"
+
+msgid "Check out is called."
+msgstr "Check-out wird aufgerufen."
+
+#, fuzzy
+msgid "Check-in"
+msgstr "Check-in"
+
+msgid "Check-in date must be after today."
+msgstr ""
+
+msgid "Check-in date must be longer than today."
+msgstr "Das Check-in-Datum muss hinter dem heutigen Datum liegen."
+
+msgid "Check-in date should not be after today."
+msgstr ""
+
+msgid "Check-in date should not be longer than today."
+msgstr "Das Check-in-Datum darf nicht hinter dem heutigen Datum liegen."
+
+msgid "Check-in done for: "
+msgstr "Check-in fertig für: "
+
+msgid "Check-in is called."
+msgstr "Check-in wird aufgerufen."
+
+msgid "Check-out"
+msgstr "Check-out"
+
+msgid "Check-out "
+msgstr "Auschecken "
+
+msgid "Checked In"
+msgstr "Eingecheckt"
+
+msgid "Checkin Help"
+msgstr "Check-in Hilfe"
+
+msgid "Checking wakeup alert."
+msgstr "Weckalarmzeit wird überprüft."
+
+msgid "Checkout"
+msgstr "Check-out"
+
+msgid "Checkout Help"
+msgstr "Check-Out Hilfe"
+
+msgid "Checkout done for:"
+msgstr "Check-out fertig für:"
+
+msgid ""
+"Checkout done. Please apply the configuration by clicking the Apply Config "
+"button"
+msgstr ""
+
+msgid "Checkout done. Submit to apply."
+msgstr ""
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Class of Service has been changed."
+msgstr ""
+
+msgid "Class of Service used by default for Check-In"
+msgstr "Serviceklasse, die standardmäßig für Check-ins verwendet wird"
+
+msgid ""
+"Class of Service used by default for Check-In: Set the context name used by "
+"class of services when a room is check in. (from-pms by default)"
+msgstr ""
+"Standardmäßig für das Einchecken verwendete Serviceklasse: Legen Sie den "
+"Kontextnamen fest, der von der Serviceklasse beim Einchecken eines Zimmers "
+"verwendet wird. (standardmäßig von-pms/from-pms)"
+
+msgid "Class of Service used by default for Check-Out"
+msgstr "Serviceklasse, die standardmäßig für Check-outs verwendet wird"
+
+msgid ""
+"Class of Service used by default for Check-Out: Set the context name used by "
+"class of services when a room is check-out. (from-pms by default)"
+msgstr ""
+"Standardmäßig für das Auschecken verwendete Serviceklasse: Legen Sie den "
+"Kontextnamen fest, der von der Serviceklasse beim Auschecken eines Zimmers "
+"verwendet wird. (standardmäßig von-pms/from-pms)"
+
+msgid "Class of Services"
+msgstr "Serviceklassen"
+
+msgid "Clean"
+msgstr "Reinigen"
+
+msgid "Clean Status : "
+msgstr "Reinigungsstatus: "
+
+msgid "Clear"
+msgstr "Löschen"
+
+msgid "Clear All"
+msgstr "Alle löschen"
+
+msgid "Click on"
+msgstr "Klicken Sie auf"
+
+msgid "Click on Add Product to display the fields."
+msgstr "Klicken Sie auf \"Produkt hinzufügen\", um Felder anzuzeigen."
+
+msgid "Click on Submit button to save your rate."
+msgstr "Klicken Sie auf die Senden-Schaltfläche, um Ihren Preis zu speichern."
+
+msgid "Click on Submit to apply your changes. "
+msgstr "Klicken Sie auf Senden, um Ihre Änderungen zu übernehmen. "
+
+msgid "Click on Submit to save the changes."
+msgstr "Klicken Sie auf Senden, um die Änderungen zu speichern."
+
+msgid "Click on Submit to save."
+msgstr "Klicken Sie zum Speichern auf \"Senden\"."
+
+msgid "Click on submit for applying your changes."
+msgstr "Klicken Sie auf \"Senden\", um Änderungen anzuwenden."
+
+msgid "Click on submit to save the changes."
+msgstr "Klicken Sie auf \"Senden\", um Änderungen zu speichern."
+
+msgid "Click on the More button to display/hide additional fields."
+msgstr ""
+"Klicken Sie auf die Schaltfläche Mehr, um zusätzliche Felder anzuzeigen / "
+"auszublenden."
+
+msgid "Click on the line below the graph to hide or show each item."
+msgstr ""
+"Klicken Sie auf die Linie unter dem Diagramm, um die einzelnen Elemente "
+"auszublenden oder anzuzeigen."
+
+msgid "Click on the line below the graph to hide or show the item."
+msgstr ""
+"Klicken Sie auf die Linie unter dem Diagramm, um den Artikel zu verbergen "
+"oder anzuzeigen."
+
+msgid ""
+"Click the 'More' button to set more information like address, city, etc."
+msgstr ""
+"Klicken Sie auf die Schaltfläche \"Mehr\", um weitere Informationen wie "
+"Adresse, Stadt usw. festzulegen."
+
+msgid ""
+"Click the Confirmed button to delete the booking or check-in the guests."
+msgstr ""
+"Klicken Sie auf die \"Bestätigt\"-Schaltfläche, um die Buchung zu löschen "
+"oder die Gäste einzuchecken."
+
+msgid "Click the Submit button to save group."
+msgstr ""
+"Klicken Sie auf die \"Senden\"-Schaltfläche, um die Gruppe zu speichern."
+
+msgid "Click the Submit button to save the group."
+msgstr "Klicken Sie auf die Schaltfläche Senden, um die Gruppe zu speichern."
+
+msgid "Click the button 'Checkout' to perfom a check-out"
+msgstr ""
+"Klicken Sie auf die \"Check-out\"-Schaltfläche, um einen Check-out "
+"durchzuführen"
+
+msgid ""
+"Click the button 'Preview' to see a preview of the invoice and charges. And "
+"next, Checkout button will be displayed."
+msgstr ""
+"Klicken Sie auf die \"Vorschau\"-Schaltfläche, um eine Vorschau der Rechnung "
+"und Gebühren zu sehen. Als nächstes wird die \"Check-out\"-Schaltfläche "
+"angezeigt."
+
+msgid "Close"
+msgstr "Schließen"
+
+#, fuzzy
+msgid "CoS"
+msgstr "CoS"
+
+msgid "Comapny Report"
+msgstr "Firmenbericht"
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "Comments :"
+msgstr "Kommentare:"
+
+msgid "Comments:"
+msgstr "Bemerkungen:"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Company Location"
+msgstr "Firmenstandort"
+
+msgid "Company Location: Set the address of your hotel."
+msgstr "Firmensitz: Geben Sie die Adresse Ihres Hotels ein."
+
+msgid "Company Report"
+msgstr "Firmenbericht"
+
+msgid "Company Report Help"
+msgstr "Firmenbericht Hilfe"
+
+msgid "Company Report is called."
+msgstr "Firmenbericht wird aufgerufen."
+
+msgid "Company: "
+msgstr "Firma: "
+
+msgid "Config"
+msgstr "Konfig"
+
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+msgid "Confirmed at:"
+msgstr "Bestätigt um:"
+
+msgid "Connection Charge"
+msgstr "Verbindungsgebühr"
+
+msgid "Context used by default for Check-In"
+msgstr "Standardmäßig verwendeter Kontext für Check-ins"
+
+msgid "Context used by default for Check-Out"
+msgstr "Standardmäßig verwendeter Kontext für Check-Outs"
+
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid ""
+"Currency : Set your Country Code Language List like : en_US or fr_FR ...etc"
+msgstr ""
+"Währung: Stellen Sie Ihre Ländercode-Sprachliste wie folgt ein: en_US oder "
+"fr_FR ... etc"
+
+msgid "Currency value"
+msgstr ""
+
+msgid ""
+"Currency: Set your country like this: en_US, fr_FR, which provides the "
+"appropriate currency format."
+msgstr ""
+"Währung: Legen Sie Ihr Land wie folgt fest: en_US, fr_FR, das das "
+"entsprechende Währungsformat bereitstellt."
+
+#, php-format
+msgid "Current Property Management Directory id: %s"
+msgstr ""
+
+#, php-format
+msgid "Current Property Management Directory id: %s."
+msgstr ""
+
+msgid "Customer Edit"
+msgstr "Kundenbearbeitung"
+
+msgid "Customer List"
+msgstr "Kundenliste"
+
+msgid "Customer List Help"
+msgstr "Kundenliste Hilfe"
+
+msgid "Customer List is called."
+msgstr "Kundenliste wird aufgerufen."
+
+msgid "Customer Summary"
+msgstr "Kundenübersicht"
+
+msgid "Customer Ticket"
+msgstr "Kundenticket"
+
+msgid "Customer edit is called."
+msgstr "Kundenbearbeitung wird aufgerufen."
+
+msgid "Customer ticket: "
+msgstr "Kundenticket: "
+
+msgid "Customers"
+msgstr "Kunden"
+
+msgid "DATE"
+msgstr "DATUM"
+
+msgid "DND"
+msgstr "DND"
+
+msgid "DND : "
+msgstr "DND: "
+
+msgid "Danger"
+msgstr ""
+
+msgid "Data corrupted!"
+msgstr ""
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Date / Time"
+msgstr "Datum / Zeit"
+
+msgid "Date Start"
+msgstr "Datum Start"
+
+msgid "Date from: "
+msgstr ""
+
+msgid "Date of Arrival"
+msgstr "Ankunftsdatum"
+
+msgid "Date of Departure"
+msgstr "Abreisedatum"
+
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+msgid "Days remaining"
+msgstr "Verbleibende Tage"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Define a label (name) for your service."
+msgstr "Definieren Sie eine Bezeichnung (einen Namen) für Ihren Dienst."
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete URL RACI and RACO."
+msgstr "URL RACI und RACO löschen."
+
+msgid "Delete event for discounting: "
+msgstr "Termin für Rabattierung löschen: "
+
+msgid "Delete event for room type : "
+msgstr "Ereignis für Zimmertyp löschen: "
+
+msgid "Deleteing guest done for guest id: "
+msgstr "Gast löschen erledigt für Gast ID: "
+
+msgid "Deleting file: "
+msgstr ""
+
+msgid "Deleting model : "
+msgstr "Modell wird gelöscht: "
+
+msgid "Deleting product in banner"
+msgstr "Produkt im Banner wird gelöscht"
+
+msgid "Deleting product in restaurant:"
+msgstr "Produkt im Restaurant löschen:"
+
+msgid "Deleting product:"
+msgstr "Produkt löschen:"
+
+msgid "Deleting rate: "
+msgstr "Preis wird gelöscht: "
+
+msgid "Deleting room : "
+msgstr "Raum löschen: "
+
+msgid "Deleting room service."
+msgstr "Zimmerservice wird gelöscht."
+
+msgid "Deleting service: "
+msgstr "Service wird gelöscht: "
+
+msgid "Deleting tax:"
+msgstr "Steuer löschen:"
+
+msgid "Deleting wakeup : "
+msgstr "Wecker wird gelöscht: "
+
+msgid "Deleting wakeup: "
+msgstr ""
+
+msgid "Delivered at : "
+msgstr ""
+
+msgid "Delivered at:"
+msgstr "Geliefert bei:"
+
+msgid "Delivered at: "
+msgstr ""
+
+msgid "Dep."
+msgstr "Abt."
+
+msgid "Departure"
+msgstr "Abreise"
+
+msgid "Departure - Show departure date"
+msgstr "Abreise - Zeigt das Abreisedatum an"
+
+msgid "Departure - Show the departure date"
+msgstr "Abreise - Zeigt das Abreisedatum an"
+
+msgid "Depature"
+msgstr "Abreise"
+
+msgid "Deposit"
+msgstr "Anzahlung"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Destination"
+msgstr "Zielort"
+
+msgid "Details"
+msgstr "Details"
+
+msgid ""
+"Dial *44 (by default) and listen to the prompt, or dial *44 + your service "
+"number (e.g. *4401), and listen to the prompt."
+msgstr ""
+"Wählen Sie *44 (standardmäßig) und hören Sie auf die Aufforderung, oder "
+"wählen Sie *44 + Ihre Dienstnummer (z. B. *4401) und hören Sie auf die "
+"Aufforderung."
+
+msgid "Dialplan"
+msgstr "Wählplan"
+
+msgid "Digits"
+msgstr "Ziffern"
+
+msgid "Dirty"
+msgstr "Schmutzig"
+
+msgid "Discount"
+msgstr "Rabatt"
+
+msgid "Discount %"
+msgstr "Rabatt %"
+
+msgid "Discount: "
+msgstr "Rabatt: "
+
+msgid "Discount: Set the discount in percent for the entire room."
+msgstr "Rabatt: Legen Sie den Rabatt in Prozent für den gesamten Raum fest."
+
+msgid "Discounting"
+msgstr "Diskontierung"
+
+msgid "Done"
+msgstr "Erledigt"
+
+msgid "Download"
+msgstr "Herunterladen"
+
+msgid "Download CSV file"
+msgstr ""
+
+msgid "Download text file"
+msgstr "Textdatei herunterladen"
+
+msgid "Downloading invoice in progress: "
+msgstr "Rechnung wird heruntergeladen: "
+
+msgid "Downloading report in progress: "
+msgstr "Bericht wird heruntergeladen: "
+
+msgid "Duration"
+msgstr "Dauer"
+
+msgid ""
+"E.g.: If a customer originally books a room with one person, and adds an "
+"additional person later, you can increase the price with this feature."
+msgstr ""
+"Beispiel: Wenn ein Kunde ursprünglich ein Zimmer mit einer Person bucht und "
+"später eine weitere Person hinzufügt, können Sie den Preis mit dieser "
+"Funktion erhöhen."
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit Customer"
+msgstr "Kunde bearbeiten"
+
+msgid "Edit model: "
+msgstr ""
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Email Settings"
+msgstr "E-Mail-Einstellungen"
+
+msgid "Email Settings: "
+msgstr "E-Mail-Einstellungen: "
+
+msgid ""
+"Email: Set the email address of your hotel. This is used by the Property "
+"Manager module when it needs to send email."
+msgstr ""
+"E-Mail: Geben Sie die E-Mail-Adresse Ihres Hotels ein. Dies wird vom "
+"Property Manager-Modul verwendet, wenn E-Mails gesendet werden müssen."
+
+msgid "Emeregency"
+msgstr "Notfall"
+
+msgid "Emergency"
+msgstr "Notfall"
+
+msgid "Emergency Number is called."
+msgstr "Notrufnummer wird angerufen."
+
+msgid "Emergency Route"
+msgstr "Rettungsweg"
+
+msgid "Emergency Route: Select an emergency route."
+msgstr "Notfallroute: Wählen Sie eine Notfallroute aus."
+
+msgid "Emergency, Deleteing flag: "
+msgstr "Notfall, Markierung wird gelöscht: "
+
+msgid "Empty"
+msgstr "Leer"
+
+msgid "Enable Property Manager"
+msgstr "Property Manager aktivieren"
+
+msgid "End Date"
+msgstr "Enddatum"
+
+msgid "Enter a group name"
+msgstr "Geben Sie einen Gruppennamen ein"
+
+msgid "Enter a name for the group"
+msgstr "Geben Sie einen Namen für die Gruppe ein"
+
+msgid "Enter a service number between 01 and 14 (This must be two digits)."
+msgstr ""
+"Geben Sie eine Servicenummer zwischen 01 und 14 ein (dies muss zweistellig "
+"sein)."
+
+msgid "Enter the URLs for check-in and checkout like this:"
+msgstr "Geben Sie URLs für Check-in und Check-out wie folgt ein:"
+
+msgid ""
+"Enter the billing duration in seconds. Eg.: 60 (for 1 min). Zero is not "
+"permitted."
+msgstr ""
+"Geben Sie die Abrechnungsdauer in Sekunden ein. ZB: 60 (für 1 min). Null ist "
+"nicht erlaubt."
+
+msgid ""
+"Enter the price for this prefix based on the duration. Eg.: 0.10 (for 60 "
+"seconds)."
+msgstr ""
+"Geben Sie den Preis für diese Vorwahl ein, basierend auf der Dauer. z. B. "
+"0,10 (für 60 Sekunden)."
+
+msgid ""
+"Enter the rate offset in currency. Eg.: 0.5 if your currency is $, the value "
+"of this offset will be $0.50 per call."
+msgstr ""
+"Geben Sie den Kursoffset in ihrer Währung ein. Beispiel: 0,5 Wenn Ihre "
+"Währung $ ist, beträgt der Wert dieses Offsets 0,50 $ pro Anruf."
+
+msgid "Error"
+msgstr ""
+
+msgid "Error! A tax can not be reused in its own formula."
+msgstr ""
+
+#, php-format
+msgid "Error: Billing Rates charge %s%% not found!"
+msgstr ""
+
+#, php-format
+msgid "Error: The route %s is not present within Billing Rate!"
+msgstr ""
+
+msgid "Every "
+msgstr "Alle "
+
+msgid "Example:"
+msgstr "Beispiel:"
+
+msgid "Ext."
+msgstr "Nst."
+
+msgid "Exten"
+msgstr "Nebenst."
+
+msgid "Extension"
+msgstr "Nebenstelle"
+
+msgid "Extension Type"
+msgstr "Nebenstellentyp"
+
+msgid "Extension number"
+msgstr "Nebenstellennummer"
+
+msgid ""
+"Failed to upload the file due to unsupported file format. Only files with "
+"the following extensions are allowed: png, gif, jpeg, jpg"
+msgstr ""
+
+msgid "Failed to write file to disk"
+msgstr "Konnte Datei nicht auf Disk schreiben"
+
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Features"
+msgstr "Funktionen"
+
+msgid "File"
+msgstr "Datei"
+
+#, php-format
+msgid "File Restored %s"
+msgstr ""
+
+msgid "Fill in this part please."
+msgstr ""
+
+msgid ""
+"Fill the first character in the field Product list or put a % to display all."
+msgstr ""
+"Füllen Sie das erste Zeichen im Feld Produktliste aus oder setzen Sie % ein, "
+"um alle anzuzeigen."
+
+msgid "Finacial Report"
+msgstr "Finanzbericht"
+
+msgid "Financial Report"
+msgstr "Finanzbericht"
+
+msgid "Financial report."
+msgstr "Finanzbericht."
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "First name"
+msgstr "Vorname"
+
+msgid "Footer"
+msgstr "Fußzeile"
+
+msgid "For "
+msgstr "Für "
+
+msgid ""
+"For Group, you can select a group that will be used for the departure. Any "
+"rooms associated with this group will appear in the room list."
+msgstr ""
+"Für Gruppe können Sie eine Gruppe auswählen, die für den Abflug verwendet "
+"wird. Alle dieser Gruppe zugeordneten Räume werden in der Raumliste "
+"angezeigt."
+
+msgid ""
+"For additional guests, enter the price for any additional guests in this "
+"room."
+msgstr ""
+"Geben Sie für zusätzliche Gäste den Preis für zusätzliche Gäste in diesem "
+"Zimmer ein."
+
+msgid "For call details, please click 'Details'"
+msgstr "Klicken Sie auf 'Details', um Anrufdetails zu sehen"
+
+msgid ""
+"For deleting RAC requests, leave the fields blank and click on the Submit "
+"button to save your changes."
+msgstr ""
+"Lassen Sie zum Löschen von RAC-Anforderungen die Felder leer und klicken Sie "
+"auf die Schaltfläche Senden, um Ihre Änderungen zu speichern."
+
+msgid "Force this room to become available now?"
+msgstr ""
+
+msgid "Formula"
+msgstr "Formel"
+
+msgid "Free"
+msgstr "Kostenlos"
+
+msgid "From Name"
+msgstr "Von Name"
+
+msgid "From Name: eg. Hotel name"
+msgstr ""
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "General Help"
+msgstr "Allgemeine Hilfe"
+
+msgid "General config is called."
+msgstr "Allgemeine Konfiguration wird aufgerufen."
+
+msgid "Generating invoice: "
+msgstr "Rechnung wird erstellt: "
+
+msgid ""
+"Gives the group name for a given privilege and displays the number of users "
+"within this group."
+msgstr ""
+"Gibt den Gruppennamen für ein bestimmtes Privileg an und zeigt die Anzahl "
+"der Benutzer in dieser Gruppe an."
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Group List"
+msgstr "Gruppenliste"
+
+msgid "Group List Help"
+msgstr "Gruppenliste Hilfe"
+
+msgid "Group List is called."
+msgstr "Gruppenliste wird aufgerufen."
+
+msgid "Group:"
+msgstr ""
+
+msgid "Groups"
+msgstr "Gruppen"
+
+msgid "Grp"
+msgstr "Gruppe"
+
+msgid "Guest"
+msgstr "Gast"
+
+msgid "Guest +"
+msgstr "Gast +"
+
+msgid "Guest Deleted"
+msgstr ""
+
+msgid "Guest Deleted."
+msgstr ""
+
+msgid "Guest updated."
+msgstr "Gast aktualisiert."
+
+msgid "Header"
+msgstr "Kopfzeile"
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Hide All"
+msgstr ""
+
+msgid "Home"
+msgstr "Startseite"
+
+msgid "Home Page"
+msgstr "Startseite"
+
+msgid "Home Page Help"
+msgstr "Startseite Hilfe"
+
+msgid "Home page"
+msgstr "Startseite"
+
+msgid "Home page Help"
+msgstr "Startseite Hilfe"
+
+msgid "Home page is called."
+msgstr "Startseite wird aufgerufen."
+
+msgid "Hotel"
+msgstr "Hotel"
+
+msgid "Hotel Activity"
+msgstr ""
+
+msgid "Hotel Occupancy Rates"
+msgstr ""
+
+msgid "Hotel guests"
+msgstr "Hotelgäste"
+
+msgid "Hotel mode allows all features embedded into FreePBX."
+msgstr "Der Hotelmodus ermöglicht alle in FreePBX eingebetteten Funktionen."
+
+msgid "Hotel mode or Slave mode (Oracle protocol)."
+msgstr "Hotelmodus oder Slave-Modus (Oracle-Protokoll)."
+
+msgid "Hotel mode or another type of connector into the list."
+msgstr "Hotelmodus oder eine andere Art von Anschluss in die Liste."
+
+msgid "Hotel occupancy rates is called."
+msgstr "Hotelauslastung wird aufgerufen."
+
+msgid ""
+"Housekeeping Service (Default: *44). Dial *44 and follow the comments. You "
+"can dial dirrectly the number of service like this: *4400, *4401..14. <br> "
+"Consult the list of services available for more informations."
+msgstr ""
+"Reinigungsservice (Standardeinstellung: *44). Wählen Sie *44 und folgen Sie "
+"den Kommentaren. Sie können die Nummer des Dienstes wie folgt direkt wählen: "
+"*4400, *4401..14. <br> Weitere Informationen finden Sie in der Liste der "
+"verfügbaren Dienste."
+
+msgid "Housekeeping Service Help"
+msgstr "Housekeeping Service Hilfe"
+
+msgid "Housekeeping Services"
+msgstr ""
+
+msgid "How it works?"
+msgstr "Wie funktioniert es?"
+
+msgid "How to use it?"
+msgstr "Wie wird es verwendet?"
+
+msgid "ID"
+msgstr "ID"
+
+msgid ""
+"ID field is for an official ID number, e.g. passport, driver's license, etc."
+msgstr ""
+"Das ID-Feld steht für eine offizielle ID-Nummer, z. Reisepass, Führerschein "
+"usw."
+
+msgid ""
+"ID field is used for customer ID number, e.g. passport, drivers license, etc."
+msgstr ""
+"Das ID-Feld wird für die Kunden-ID-Nummer verwendet, z. Reisepass, "
+"Führerschein usw."
+
+msgid "INVOICE"
+msgstr "RECHNUNG"
+
+msgid "ITEM"
+msgstr "ARTIKEL"
+
+msgid ""
+"If TTS is selected, then the content of the label will be interpreted with a "
+"Text To Speech service. If File is selected, then select an audio file from "
+"the list box."
+msgstr ""
+"Wenn TTS ausgewählt ist, wird der Inhalt des Etiketts mit einem Text-zu-"
+"Sprache-Dienst interpretiert. Wenn Datei ausgewählt ist, wählen Sie eine "
+"Audiodatei aus dem Listenfeld aus."
+
+msgid ""
+"If the customer would like to receive an invoice by email, check 'Send by "
+"email'"
+msgstr ""
+"Wenn der Kunde eine Rechnung per E-Mail erhalten möchte, aktivieren Sie das "
+"Kontrollkästchen \"Per E-Mail senden\""
+
+msgid "If the invoice is paid, check 'Paid'"
+msgstr "Wenn die Rechnung bezahlt wurde, wählen Sie 'Bezahlt' aus"
+
+msgid ""
+"If this module is licensed, you can use the Class of Service features or the "
+"context from-pms only."
+msgstr ""
+"Wenn dieses Modul lizenziert ist, können Sie die Serviceklassenfunktionen "
+"oder nur den Kontext 'von-pms' nutzen."
+
+msgid ""
+"If this module is not licensed, you would use the context from-pms by "
+"default."
+msgstr ""
+"Wenn dieses Modul nicht lizenziert ist, verwenden Sie standardmäßig den "
+"Kontext 'von-pms'."
+
+msgid "If you need to create a new booking, just click on 'Booking'."
+msgstr ""
+"Wenn Sie eine neue Buchung erstellen müssen, klicken Sie einfach auf "
+"\"Buchung\"."
+
+msgid "If you need to make a new booking, just click on 'Booking'."
+msgstr ""
+"Wenn Sie eine neue Buchung vornehmen müssen, klicken Sie einfach auf "
+"\"Buchung\"."
+
+msgid ""
+"If you want to add a product to the banner, select Menu, and add the product "
+"in the list. The product will appear in the banner for the customer-facing "
+"url."
+msgstr ""
+"Wenn Sie dem Banner ein Produkt hinzufügen möchten, wählen Sie Menü und "
+"fügen Sie das Produkt in die Liste ein. Das Produkt wird im Banner für die "
+"Kunden-URL angezeigt."
+
+msgid ""
+"If you want to add products to the banner, select Menu, and add the product "
+"to the list. These products will appear in the banner for the customer-"
+"facing URL."
+msgstr ""
+"Wenn Sie dem Banner Produkte hinzufügen möchten, wählen Sie Menü und fügen "
+"Sie das Produkt der Liste hinzu. Diese Produkte werden im Banner für die "
+"Kunden-URL angezeigt."
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "In Slave mode, some menus will be disabled."
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Inherit"
+msgstr "Übernehmen"
+
+msgid "Insert product: "
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr "Rechnungsnummer"
+
+msgid "Invoice number"
+msgstr "Rechnungsnummer"
+
+msgid "Invoice:"
+msgstr ""
+
+msgid "Label"
+msgstr "Kennzeichnung"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Last name"
+msgstr "Nachname"
+
+msgid "Leave your mouse below the items underlined to see more informations."
+msgstr ""
+"Halten Sie die Maus unter die unterstrichenen Artikel, um weitere "
+"Informationen zu sehen."
+
+msgid "Leaving the mouse on the timeline gives additional details."
+msgstr ""
+"Wenn Sie die Maus auf der Timeline lassen, erhalten Sie zusätzliche Details."
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Lock Room During Checkout."
+msgstr "Zimmer während der Kasse sperren."
+
+msgid "Locked"
+msgstr "Gesperrt"
+
+msgid ""
+"Locked Room During Checkout: When a room is checked out, it becomes locked."
+msgstr ""
+"Gesperrter Raum während der Kasse: Wenn ein Raum ausgecheckt wird, wird er "
+"gesperrt."
+
+msgid "Log File"
+msgstr "Protokolldatei"
+
+msgid "Log file is called."
+msgstr "Protokolldatei wird aufgerufen."
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Logo: Click on Browse and select a logo in jpg, png or gif format."
+msgstr ""
+"Logo: Klicken Sie auf Durchsuchen und wählen Sie ein Logo im JPG-, PNG- oder "
+"GIF-Format aus."
+
+msgid "Maid Services"
+msgstr "Reinigungsservices"
+
+msgid "Maid Services is called."
+msgstr "Reinigungsservice wird aufgerufen."
+
+msgid "Main"
+msgstr "Haupt"
+
+msgid "Make rooms dirty."
+msgstr "Schmutzige Zimmer reinigen."
+
+msgid "Make the rooms dirty."
+msgstr "Die schmutzigen Zimmer reinigen."
+
+msgid "Mask"
+msgstr "Maske"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Menu / Order"
+msgstr "Menü / Bestellung"
+
+msgid "Menu / Orders"
+msgstr "Menü/ Bestellungen"
+
+msgid "Menu / Orders Help"
+msgstr "Menü / Bestellungen Hilfe"
+
+#, php-format
+msgid "Message %s - %s"
+msgstr ""
+
+#, php-format
+msgid "Message for %s (Reservation number %s)"
+msgstr "Nachricht für %s (Reservierungsnummer %s)"
+
+msgid "Messages"
+msgstr "Meldungen"
+
+msgid "Messages From Front Desk"
+msgstr "Nachrichten von der Rezeption"
+
+msgid "Mini Bar"
+msgstr "Minibar"
+
+msgid "Mini Bar."
+msgstr "Minibar."
+
+msgid "Mini-Bar"
+msgstr "Minibar"
+
+msgid "Mini-Bar Products"
+msgstr "Minibarartikel"
+
+msgid "Mini-bar"
+msgstr "Minibar"
+
+msgid ""
+"Mini-bar (Default: *37), is able to add some drinks to the room, which will "
+"be used during the billing.<br>When housekeeping staff leans the room, they "
+"can check the mini-bar and enter all drinks used by the guest.<br>Eg: Dial "
+"*37 and when you hear the prompt dial 1 2 2 followed by * (* to save your "
+"order )<br>(1 could be a Coca, and 2 could be a Whiskey). So 1 Coca and 2 "
+"Whiskey, total 3 drinks."
+msgstr ""
+"Die Minibar (Standard: * 37) kann dem Zimmer einige Getränke hinzufügen, die "
+"während der Abrechnung verwendet werden. <br> Wenn das Reinigungspersonal "
+"das Zimmer reinigt, kann es die Minibar überprüfen und alle vom Gast "
+"verwendeten Getränke eingeben. <br> ZB: Wählen Sie * 37, und wenn Sie die "
+"Eingabeaufforderung hören, wählen Sie 1 2 2, gefolgt von * (*, um Ihre "
+"Bestellung zu speichern) <br> (1 könnte ein Coca und 2 könnte ein Whisky "
+"sein). Also 1 Coca und 2 Whisky, insgesamt 3 Getränke."
+
+msgid "Mini-bar Help"
+msgstr "Minibar Hilfe"
+
+msgid "Mini-bar is called."
+msgstr "Minibar wird aufgerufen."
+
+msgid "Missing a temporary folder"
+msgstr "Temporärer Ordner fehlt"
+
+msgid ""
+"Missing argument. Plese enter a valid ID for Property Management Directory!!"
+msgstr ""
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Mobile Number"
+msgstr "Handynummer"
+
+msgid "Model"
+msgstr "Modell"
+
+msgid "Models is called."
+msgstr "Modelle werden aufgerufen."
+
+msgid "Monay advance:"
+msgstr "Geldvorschuss:"
+
+msgid "Money Advance"
+msgstr "Geldvorschuss"
+
+msgid "More"
+msgstr "Mehr"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name / Status"
+msgstr "Name / Status"
+
+msgid "Name :"
+msgstr "Name:"
+
+msgid "Name:"
+msgstr "Name:"
+
+msgid "New Call Restriction"
+msgstr "Neue Anrufbeschränkung"
+
+msgid "New Classs of Service for"
+msgstr "Neue Serviceklasse für"
+
+msgid "New Price"
+msgstr "Neuer Preis"
+
+#, php-format
+msgid "New Property Management Directory id: %s"
+msgstr ""
+
+msgid "New Rate"
+msgstr "Neuer Tarif"
+
+msgid "New logo is changed:"
+msgstr "Neues Logo wurde geändert:"
+
+msgid "Next, just click on each product to display it."
+msgstr "Klicken Sie als nächstes auf jedes Produkt, um es anzuzeigen."
+
+msgid "No"
+msgstr "Nein"
+
+msgid "No Transfer"
+msgstr "Keine Übertragung"
+
+msgid ""
+"No email for customer - an email address must be added to the customer's "
+"record!"
+msgstr ""
+"Keine E-Mail für den Kunden - eine E-Mail-Adresse muss zum Kundendatensatz "
+"hinzugefügt werden!"
+
+msgid "No expense..."
+msgstr "Keine Kosten ..."
+
+msgid "No file was uploaded"
+msgstr "Es wurde keine Datei hochgeladen"
+
+msgid ""
+"No more room available for check in!! You have been switched in Booking mode "
+"right now."
+msgstr ""
+"Es ist kein Zimmer mehr zum Einchecken verfügbar! Sie wurden jetzt in den "
+"Buchungsmodus geschaltet."
+
+msgid ""
+"No more rooms available for check in! You have been switched to Booking mode."
+msgstr ""
+
+msgid "No outbound route found! Please check."
+msgstr ""
+
+msgid "No rooms available for check out."
+msgstr ""
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Not attributed."
+msgstr "Nicht zugeschrieben."
+
+msgid ""
+"Nota. You will lose some features selecting another addon. These features "
+"must be managed through the other application such as restaurant management, "
+"minibar management, booking management"
+msgstr ""
+"Kein. Sie werden einige Funktionen verlieren, wenn Sie ein anderes Addon "
+"auswählen. Diese Funktionen müssen über die andere Anwendung verwaltet "
+"werden, z. B. die Restaurantverwaltung, die Minibarverwaltung und die "
+"Buchungsverwaltung"
+
+msgid "Now"
+msgstr "Jetzt"
+
+#, fuzzy
+msgid "Now - Departing now"
+msgstr "Jetzt - Ab sofort"
+
+msgid "Number of Rooms"
+msgstr ""
+
+msgid "Number of people"
+msgstr "Personenanzahl"
+
+msgid "Number of people: "
+msgstr "Anzahl der Personen: "
+
+msgid "Number of users for accounting: "
+msgstr "Anzahl der Benutzer für die Buchhaltung: "
+
+msgid "Number of users for customers: "
+msgstr ""
+
+msgid "Number of users for receptionist: "
+msgstr ""
+
+msgid "Number of users for restaurant: "
+msgstr ""
+
+msgid "Numbers"
+msgstr "Anzahl"
+
+msgid "Occupied"
+msgstr "belegt"
+
+msgid "On top: the mandatory information like the name, room, dates, etc."
+msgstr "Oben: die obligatorischen Informationen wie Name, Zimmer, Daten usw."
+
+msgid "Operating mode"
+msgstr "Betriebsmodus"
+
+msgid "Optional parameter"
+msgstr "Optionaler Parameter"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Other"
+msgstr "Andere"
+
+msgid "Other Date"
+msgstr ""
+
+msgid "Other Date - Departing on a different date"
+msgstr "Anderes Datum - Abreise an einem anderen Datum"
+
+msgid "Other Date - Departing on an unspecified date"
+msgstr "Anderes Datum - Abreise an einem nicht festgelegten Datum"
+
+msgid "Other date"
+msgstr "Anderes Datum"
+
+msgid "Other mode"
+msgstr "Anderer Modus"
+
+msgid "Outbound Route"
+msgstr "Outbound-Route"
+
+msgid "Overnight stays for the room number"
+msgstr "Übernachtungen für die Zimmernummer"
+
+msgid "PAID"
+msgstr "BEZAHLT"
+
+msgid "PMS Functions"
+msgstr "PMS-Funktionen"
+
+msgid "PMS dialplan: "
+msgstr "PMS-Wählplan: "
+
+msgid "Paid"
+msgstr "Bezahlt"
+
+msgid "Panel is called."
+msgstr "Bedienfeld wird aufgerufen."
+
+msgid "Password for User Access"
+msgstr "Passwort für den Benutzerzugang"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "Payment Complete"
+msgstr ""
+
+msgid "Payment Complete."
+msgstr ""
+
+msgid "Payment method"
+msgstr "Zahlungsart"
+
+msgid "Payment mode:"
+msgstr "Zahlungsart:"
+
+msgid "Pending Departure"
+msgstr "Bevorstehende Abreise"
+
+msgid "Period from"
+msgstr "Zeitraum von"
+
+msgid "Period from :"
+msgstr "Zeitraum von:"
+
+msgid "Period from:"
+msgstr "Zeitraum von:"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone :"
+msgstr "Telefon:"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Phone:"
+msgstr "Telefon:"
+
+msgid "Please Select an event"
+msgstr "Bitte wählen Sie ein Ereignis aus"
+
+msgid "Please check this room as it is not checked out yet."
+msgstr ""
+
+msgid "Please enter a product in Search field."
+msgstr "Bitte geben Sie ein Produkt in das Suchfeld ein."
+
+msgid "Please enter a product in the Search field."
+msgstr "Bitte geben Sie ein Produkt in das Suchfeld ein."
+
+msgid "Please enter a valid Number."
+msgstr "Bitte geben Sie eine gültige Nummer ein."
+
+msgid "Please enter a valid number for: Billing Duration"
+msgstr ""
+
+msgid "Please enter a valid number for: Connection Charge "
+msgstr ""
+
+msgid "Please enter a valid number for: Mask"
+msgstr ""
+
+msgid "Please enter a valid number for: Price"
+msgstr ""
+
+msgid "Please enter a valid number."
+msgstr ""
+
+msgid "Please enter a valid price."
+msgstr ""
+
+msgid "Please enter a valid room type."
+msgstr ""
+
+msgid "Please enter a valid taxe. It should not be empty."
+msgstr ""
+
+msgid "Please enter a value greater than zero."
+msgstr ""
+
+msgid "Please enter your product in Search field."
+msgstr "Bitte geben Sie Ihr Produkt in das Suchfeld ein."
+
+msgid "Please enter your product in the search field."
+msgstr "Bitte geben Sie Ihr Produkt in die Suchzeile ein."
+
+msgid "Please fill in the Label field"
+msgstr ""
+
+msgid "Please fill in the Ref field"
+msgstr ""
+
+msgid "Please fill in the Service Number field"
+msgstr ""
+
+msgid "Please fill in the Type field."
+msgstr ""
+
+msgid "Please fill in the price field."
+msgstr ""
+
+msgid "Please fill the label field."
+msgstr ""
+
+msgid "Please select the destination room for this guest: <p></p>"
+msgstr "Bitte wählen Sie das Zielzimmer für diesen Gast aus: <p></p>"
+
+msgid "Please verify this room, as it is not checked out yet."
+msgstr ""
+
+msgid "Please, select the room destination for this guest : <p></p>"
+msgstr "Geben Sie bitte den Zimmerzielort für diesen Gast ein: <p></p>"
+
+msgid "Pms"
+msgstr "PMS"
+
+msgid "Point your mouse below the underlined items to see more informations."
+msgstr ""
+"Zeigen Sie mit der Maus unter die unterstrichenen Elemente, um weitere "
+"Informationen anzuzeigen."
+
+msgid "Pointing the mouse on the timeline gives additional details."
+msgstr ""
+"Wenn Sie mit der Maus auf die Timeline zeigen, werden zusätzliche Details "
+"angezeigt."
+
+msgid "Postal/Zip Code"
+msgstr ""
+
+msgid "Pre-Payment"
+msgstr ""
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Preview Ticket for customer is called."
+msgstr "Das Vorschauticket für den Kunden wird aufgerufen."
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Price with"
+msgstr "Preis mit"
+
+msgid "Prices"
+msgstr "Preise"
+
+msgid "Print"
+msgstr "Drucken"
+
+msgid "Priority Level"
+msgstr "Prioritätsebene"
+
+msgid "Privileges"
+msgstr "Privilegien"
+
+msgid "Privileges Help"
+msgstr ""
+
+msgid "Privileges is called."
+msgstr "Privilegien wird aufgerufen."
+
+msgid "Privileges is changed for accounting: "
+msgstr "Die Berechtigungen für die Buchhaltung wurden geändert: "
+
+msgid "Privileges is changed for customers: "
+msgstr "Die Berechtigungen für Kunden wurden geändert: "
+
+msgid "Privileges is changed for receptionist: "
+msgstr "Berechtigungen für Empfangsmitarbeiter geändert: "
+
+msgid "Privileges is changed for restaurant : "
+msgstr "Privilegien wird für das Restaurant geändert: "
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Products"
+msgstr "Produkte"
+
+msgid "Products List"
+msgstr "Produktliste"
+
+msgid "Products available."
+msgstr "Produkte verfügbar."
+
+msgid "Property Management"
+msgstr "Objektverwaltung"
+
+msgid "Property Manager Log"
+msgstr "Objektmanager-Protokoll"
+
+msgid "Property Manager dialplan: "
+msgstr "Objektmanager-Wählplan: "
+
+msgid "Propery Manager dialplan"
+msgstr "Objektmanager-Wählplan"
+
+msgid "Provides some commands for pms."
+msgstr "Bietet einige Befehle für pms."
+
+msgid "QT"
+msgstr "QT"
+
+msgid "Qty"
+msgstr "Qty"
+
+msgid "Qty."
+msgstr "Qty."
+
+msgid "R.A.C Help"
+msgstr "R.A.C. Hilfe"
+
+msgid "Rate Recorded"
+msgstr "Aufgezeichneter Tarif"
+
+msgid "Receptionist"
+msgstr "Rezeption"
+
+msgid ""
+"Receptionist: Define an extension number for the receptionist or front desk."
+msgstr ""
+"Empfangsmitarbeiter: Definieren Sie eine Nebenstellennummer für den "
+"Empfangsmitarbeiter oder die Rezeption."
+
+msgid "Receptionist: Define an extension number for the receptionist."
+msgstr ""
+"Empfangsmitarbeiter: Definieren Sie eine Nebenstellennummer für den "
+"Empfangsmitarbeiter."
+
+msgid "Ref"
+msgstr "Ref"
+
+msgid "Reference"
+msgstr "Referenz"
+
+msgid "Release a room from a job."
+msgstr "Geben Sie ein Zimmer aus einem Auftrag frei."
+
+msgid "Release the room "
+msgstr "Geben Sie das Zimmer frei "
+
+msgid ""
+"Remember that this content is used by Text To Speech, so you have to be "
+"clear with your text."
+msgstr ""
+"Denken Sie daran, dass dieser Inhalt von der Text-to-Speech-Funktion genutzt "
+"wird, und dass dieser Text daher deutlich sein muss."
+
+msgid "Remote Action Control"
+msgstr "Fernbedienung"
+
+msgid "Remote Action Control (RAC)"
+msgstr "Remote Action Control (RAC)"
+
+msgid "Remote action control is called."
+msgstr "Fernbedienung wird aufgerufen."
+
+msgid ""
+"Repair Property Management Directory ID. E.g: fwconsole pms dir_repair 3"
+msgstr ""
+
+msgid "Repeat this action for all routes to be used."
+msgstr "Wiederholen Sie diese Aktion für alle zu verwendenden Routen."
+
+msgid "Reports"
+msgstr "Berichte"
+
+msgid "Required"
+msgstr "Erforderlich"
+
+msgid "Required field"
+msgstr "Erforderliches Feld"
+
+msgid "Reserv. Number"
+msgstr ""
+
+msgid "Reservation Canceled"
+msgstr "Reservierung storniert"
+
+msgid "Reservation Confirmed"
+msgstr "Reservierung bestätigt"
+
+msgid "Reservation number"
+msgstr "Reservierungsnummer"
+
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#, fuzzy
+msgid "Restaurant - Bar"
+msgstr "Restaurant - Bar"
+
+msgid "Restaurant Settings"
+msgstr "Restauranteinstellungen"
+
+msgid "Restaurant Settings Help"
+msgstr "Restauranteinstellungen Hilfe"
+
+msgid "Restaurant Settings is called."
+msgstr "Restauranteinstellungen wird aufgerufen."
+
+msgid "Restaurant User is called."
+msgstr "Restaurantbenutzer wird aufgerufen."
+
+msgid "Restaurant changes in progress."
+msgstr "Restaurantänderungen werden bearbeitet."
+
+#, fuzzy
+msgid "Restaurant: "
+msgstr "Restaurant: "
+
+msgid "Revenue Amount"
+msgstr ""
+
+msgid "Room"
+msgstr "Zimmer"
+
+msgid "Room "
+msgstr "Zimmer "
+
+#, php-format
+msgid "Room %s corruped. It will be removed."
+msgstr ""
+
+#, php-format
+msgid "Room %s corrupted. It will be removed."
+msgstr ""
+
+#, php-format
+msgid "Room %s removed and available again."
+msgstr ""
+
+msgid "Room Calendar"
+msgstr "Raumkalender"
+
+msgid ""
+"Room Clean prefix (Default: *36) will be used when the room gets cleaned by "
+"the housekeeping staff."
+msgstr ""
+"Das Präfix Room Clean (Standard: * 36) wird verwendet, wenn der Raum vom "
+"Reinigungspersonal gereinigt wird."
+
+msgid "Room List"
+msgstr "Zimmerliste"
+
+msgid "Room List Help"
+msgstr "Zimmerliste Hilfe"
+
+msgid "Room List is called."
+msgstr "Zimmerliste wird aufgerufen."
+
+msgid "Room Needs Cleaning."
+msgstr "Zimmer muss gereinigt werden."
+
+msgid "Room Needs Cleaning: Rooms must be cleaned before check in."
+msgstr "Zimmerreinigung: Die Zimmer müssen vor dem Check-in gereinigt werden."
+
+msgid "Room Service present!"
+msgstr "Zimmerservice anwesend!"
+
+msgid "Room Service:"
+msgstr "Zimmerservice:"
+
+msgid "Room Type"
+msgstr "Zimmertyp"
+
+msgid "Room Type Help"
+msgstr "Zimmertyp Hilfe"
+
+msgid "Room group"
+msgstr "Zimmergruppe"
+
+msgid "Room is"
+msgstr "Zimmer ist"
+
+msgid "Room name"
+msgstr "Zimmername"
+
+msgid "Room number"
+msgstr "Zimmernummer"
+
+msgid "Room phone"
+msgstr "Zimmertelefon"
+
+msgid "Room status"
+msgstr "Zimmerstatus"
+
+msgid "Room type"
+msgstr "Zimmertyp"
+
+msgid "Room:"
+msgstr "Zimmer:"
+
+msgid "Rooms"
+msgstr "Zimmer"
+
+msgid "Rooms "
+msgstr ""
+
+msgid "Rooms Available"
+msgstr "Zimmer verfügbar"
+
+msgid "Rooms Occupied"
+msgstr "Zimmer belegt"
+
+msgid "Rounded"
+msgstr "Aufgerundet"
+
+msgid "Rounded : Calculate the upper value of a call."
+msgstr "Aufgerundet: Berechnen Sie den oberen Wert eines Anrufes."
+
+msgid "Rounded: Calculate the upper value of a call."
+msgstr "Gerundet: Berechnen Sie den oberen Wert eines Anrufs."
+
+msgid "SMS"
+msgstr "SMS"
+
+msgid "SPM"
+msgstr "SPM"
+
+msgid "Sales and Billing Reporting"
+msgstr ""
+
+msgid "Sales and Billing reporting"
+msgstr ""
+
+#, php-format
+msgid "Same file exists  %s"
+msgstr ""
+
+msgid "Sangoma Property Management"
+msgstr "Sangoma Objektverwaltung"
+
+msgid ""
+"Sangoma Property Manager is a Property Management System designed "
+"specifically for FreePBX and PBXact phone systems. It is utilized via a "
+"customized dashboard, provided by the existing User Control Panel (UCP) of "
+"FreePBX and PBXact."
+msgstr ""
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Save changes for:"
+msgstr "Änderungen speichern für:"
+
+msgid "Saving tax:"
+msgstr "Steuer sparen:"
+
+msgid "Scheduled"
+msgstr "Geplant"
+
+msgid "Scheduled - Departing on a scheduled departure date"
+msgstr "Geplant - Abfahrt an einem geplanten Abreisetag"
+
+msgid "Scheduled - Departing on the scheduled departure date"
+msgstr "Geplant - Abreise am geplanten Abreisedatum"
+
+msgid "Scheduling type"
+msgstr "Planungstyp"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid ""
+"Select a room or, by holding down the shift key, you can select several "
+"rooms."
+msgstr ""
+"Wählen Sie einen Raum aus, oder halten Sie die Umschalttaste gedrückt, um "
+"mehrere Räume auszuwählen."
+
+msgid "Select a room, or press and hold the Shift key to select several rooms."
+msgstr ""
+"Wählen Sie einen Raum aus, oder halten Sie die Umschalttaste gedrückt, um "
+"mehrere Räume auszuwählen."
+
+msgid "Select an Outbound Route."
+msgstr "Wählen Sie eine Outbound-Route aus."
+
+msgid "Select payment method"
+msgstr "Wählen Sie eine Zahlungsart aus"
+
+msgid "Select the Tax for whole mini-bar."
+msgstr "Wählen Sie die Gebühren für die gesamte Minibar aus."
+
+msgid "Select the priority level for this service."
+msgstr "Wählen Sie die Prioritätsebene für diesen Service aus."
+
+msgid ""
+"Select your scheduling type. Select the value and click on Submit to apply "
+"the changes."
+msgstr ""
+"Wählen Sie Ihren Terminierungstyp. Wählen Sie den Wert aus und klicken Sie "
+"auf Senden, um die Änderungen zu übernehmen."
+
+msgid "Send"
+msgstr "Senden"
+
+msgid "Send Message Text"
+msgstr "Nachrichtentext senden"
+
+msgid "Send a message number to the receptionist."
+msgstr "Senden Sie eine Meldungsnummer an die Rezeption."
+
+msgid "Send by email"
+msgstr "Per E-Mail senden"
+
+msgid "Sending invoice: "
+msgstr "Rechnung senden: "
+
+msgid "Server Name (Host name)."
+msgstr "Servername (Hostname)."
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Service Number"
+msgstr "Servicenummer"
+
+msgid "Services"
+msgstr "Dienste"
+
+msgid "Settings Conform."
+msgstr ""
+
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+msgid "Show if an additional guest is needed"
+msgstr "Anzeigen, ob ein weiterer Gast erforderlich ist"
+
+msgid "Show the booking number"
+msgstr "Buchungsnummer anzeigen"
+
+msgid "Show the deposit for the booking"
+msgstr "Anzahlung für die Buchung anzeigen"
+
+msgid "Show the guest name"
+msgstr "Gastname anzeigen"
+
+msgid "Show the payment method for the booking"
+msgstr "Zahlungsart für die Buchung anzeigen"
+
+msgid "Show the room name"
+msgstr "Zimmername anzeigen"
+
+msgid ""
+"Slave mode disables all embedded PBX features to become only slave of remote "
+"PMS using FIAS protocol (Oracle)"
+msgstr ""
+"Der Slave-Modus deaktiviert alle eingebetteten PBX-Funktionen, um nur Slave "
+"des Remote-PMS zu werden, das das FIAS-Protokoll (Oracle) verwendet"
+
+msgid "Some comments can be added about the customer."
+msgstr "Einige Kommentare können über den Kunden hinzugefügt werden."
+
+msgid "Some fields must be filled out. Check please and try again."
+msgstr ""
+"Einige Felder müssen ausgefüllt werden. Bitte prüfen und erneut versuchen."
+
+msgid "Some fields need to be filled out. Please check and try again."
+msgstr ""
+
+msgid "Some required fields are missing information. Please try again."
+msgstr ""
+
+msgid "Start Date"
+msgstr "Startdatum"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Subject"
+msgstr "Betreff"
+
+msgid "Subject: eg. Your invoice."
+msgstr "Betreff: zB. Ihre Rechnung."
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Submit Completed"
+msgstr ""
+
+msgid "Success"
+msgstr "Erfolgreich"
+
+msgid "Sum"
+msgstr "Summe"
+
+msgid "TIME"
+msgstr "ZEIT"
+
+msgid "TIN"
+msgstr "TIN"
+
+msgid "TIN field is for the Tax ID for businesses."
+msgstr "Das TIN-Feld ist für die Steuer-ID für Unternehmen."
+
+msgid "TIN field is tax ID number for businesses."
+msgstr "Das TIN-Feld ist die Steuernummer für Unternehmen."
+
+msgid "TOTAL"
+msgstr "INSGESAMT"
+
+msgid "TOTAL ="
+msgstr "INSGESAMT ="
+
+msgid "TTS"
+msgstr "TTS"
+
+#, fuzzy
+msgid "Tax"
+msgstr "MwSt"
+
+msgid "Tax Inc"
+msgstr ""
+
+#, fuzzy
+msgid "Tax:"
+msgstr "MwSt:"
+
+msgid "Taxes"
+msgstr "Gebühren"
+
+msgid "Taxes available"
+msgstr "Gebühren verfügbar"
+
+msgid "Taxes incl."
+msgstr "Gebühren inkl."
+
+msgid "Taxes to be used"
+msgstr "Gebühren, die verwendet werden sollen"
+
+msgid "Taxes: "
+msgstr "Gebühren: "
+
+msgid ""
+"The Package 'at' is missing, so please run 'yum install at -y' and try again."
+msgstr ""
+
+msgid ""
+"The User Management group mapped to Hotel Guests in Privileges appears to be "
+"corrupt! Please fix it by browsing to Config, Privileges, check the Hotel "
+"Guests group and submit the page."
+msgstr ""
+
+msgid "The check-out date must be after than the check-in date."
+msgstr ""
+
+msgid "The check-out date must be after the check-in date."
+msgstr ""
+
+msgid "The check-out date must be longer than the check-in date."
+msgstr "Das Check-out-Datum muss hinter dem Check-in-Datum liegen."
+
+msgid "The email address needs to be set in customer record!"
+msgstr "Die E-Mail-Adresse muss im Kundeneintrag eingegeben werden!"
+
+msgid "The end date must be after the start date"
+msgstr ""
+
+msgid "The end date must be after the start date."
+msgstr ""
+
+msgid "The end date must be after the the start date"
+msgstr ""
+
+msgid "The fields accept some simple HTML tags."
+msgstr "Das Feld akzeptiert nur einfache HTML-Tags."
+
+msgid "The following route has been modified :"
+msgstr "Die folgende Route wurde geändert:"
+
+msgid "The following route has been modified : "
+msgstr "Die folgende Route wurde geändert: "
+
+msgid ""
+"The general section provides Property Manager settings that apply for the "
+"entire Property."
+msgstr ""
+"Der allgemeine Abschnitt enthält Eigenschaftenmanagereinstellungen, die für "
+"die gesamte Eigenschaft gelten."
+
+msgid ""
+"The general section provides the Property Manager settings that apply for "
+"the entire system."
+msgstr ""
+"Der allgemeine Abschnitt enthält die Property Manager-Einstellungen, die für "
+"das gesamte System gelten."
+
+msgid ""
+"The graph gives an overview of your property at a glance, showing room "
+"availability and occupancy."
+msgstr ""
+"Die Grafik gibt einen Überblick über Ihre Immobilie auf einen Blick und "
+"zeigt die Verfügbarkeit und Belegung der Zimmer."
+
+msgid ""
+"The graph provides an overview of your property at a glance, showing room "
+"availability and occupancy."
+msgstr ""
+"Die Grafik bietet auf einen Blick einen Überblick über Ihre Immobilie und "
+"zeigt die Verfügbarkeit und Belegung der Zimmer."
+
+msgid ""
+"The group relating Hotel Guests seems to be corrupted! Please fix check it, "
+"submit and try again."
+msgstr ""
+"Die Gruppe der Hotelgäste scheint beschädigt zu sein! Bitte überprüfen Sie "
+"es, senden Sie es und versuchen Sie es erneut."
+
+msgid ""
+"The image should have 50 characters max. Please rename the image and try "
+"again."
+msgstr ""
+
+msgid ""
+"The number of people are used to calculate the value of the tourist tax."
+msgstr ""
+"Die Anzahl der Personen wird verwendet, um die Touristensteuer zu berechnen."
+
+msgid ""
+"The package 'at' is missing. Please upgrade the PBX, run 'yum update -y' and "
+"try again."
+msgstr ""
+"Das Paket 'at' fehlt. Bitte aktualisieren Sie die TK-Anlage, führen Sie 'yum "
+"update -y' aus und versuchen Sie es erneut."
+
+msgid "The receiptionist extension ("
+msgstr ""
+
+msgid ""
+"The receptionist can set a wake up call for room extensions only. (The "
+"others types of extensions are not available here)."
+msgstr ""
+"Die Rezeption kann einen Weckruf nur für Nebenstellen einrichten. (Die "
+"anderen Arten von Nebenstellen sind hier nicht verfügbar)."
+
+msgid ""
+"The receptionist can set an alarm clock for any room only. (The others type "
+"of extensions is not available here)."
+msgstr ""
+"Nur die Rezeption kann einen Wecker für jedes Zimmer einstellen. (Die "
+"anderen Nebenstellentypen sind hier nicht verfügbar)."
+
+msgid "The response will be added below your comments in body."
+msgstr "Die Antwort wird unter Ihren Kommentaren im Body eingefügt."
+
+msgid "The room will be available after this"
+msgstr ""
+
+msgid ""
+"The route name has been changed. Please update Billing Rates settings and "
+"try again."
+msgstr ""
+
+msgid "The schedule is based on the day, month and year."
+msgstr "Der Plan basiert auf Tag, Monat und Jahr."
+
+msgid ""
+"The service number already exists. Please delete the existing and try again."
+msgstr ""
+"Die Servicenummer existiert bereits. Bitte löschen Sie den bestehenden "
+"Eintrag und versuchen Sie es erneut."
+
+msgid ""
+"The service number already exists. Please delete the existing entry and try "
+"again."
+msgstr ""
+"Die Servicenummer existiert bereits. Bitte löschen Sie den bestehenden "
+"Eintrag und versuchen Sie es erneut."
+
+msgid "The size for the image is not correct. It should be 1024x512 max."
+msgstr ""
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Die hochgeladene Datei überschreitet die Richtlinie für die "
+"MAX_DATEIGROESSE, die im HTML-Formular angegeben ist"
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"Die hochgeladene Datei überschreitet die Richtlinie der "
+"_max_Upload_Dateigroesse_ laut php.ini"
+
+msgid "The uploaded file was only partially uploaded"
+msgstr "Die hochgeladene Datei wurde nur zum Teil hochgeladen"
+
+#, php-format
+msgid "The user %s has been rebuilded."
+msgstr ""
+
+msgid "The value must be greater than zero."
+msgstr "Der Wert muss größer sein als null."
+
+#, php-format
+msgid ""
+"The voicemail of room %s has been reconstructed. Please click on apply and "
+"try again."
+msgstr ""
+"Die Voicemail von Raum %s wurde rekonstruiert. Bitte klicken Sie auf "
+"Übernehmen und versuchen Sie es erneut."
+
+#, php-format
+msgid ""
+"The voicemail of the room %s has been reconstructed. Please click on apply "
+"and try again."
+msgstr ""
+"Die Voicemail für Zimmer %s wurde neu erstellt. Klicken Sie auf Anwenden und "
+"versuchen Sie es erneut."
+
+msgid "Then add some users in each group."
+msgstr "Fügen Sie dann einige Benutzer in jeder Gruppe hinzu."
+
+msgid ""
+"There are no configured group privileges, please finish configuration before "
+"proceeding."
+msgstr ""
+"Es sind keine konfigurierten Gruppenprivilegien vorhanden, bitte beenden Sie "
+"die Konfiguration, bevor Sie fortfahren."
+
+msgid ""
+"There are no extensions on your PBX. You must create at least two extensions "
+"(one for the receptionist, one for a room) to continue!"
+msgstr ""
+"Auf Ihrer PBX sind keine Nebenstellen vorhanden. Sie müssen mindestens zwei "
+"Nebenstellen erstellen (eine für die Rezeption, eine für ein Zimmer), um "
+"fortzufahren!"
+
+msgid ""
+"There are no more rooms available for check-in! You have been switched to "
+"Booking Mode."
+msgstr ""
+
+msgid ""
+"There are no room types set up for your property. You must create at least "
+"one room type to continue!"
+msgstr ""
+"Für Ihre Unterkunft sind keine Zimmertypen eingerichtet. Sie müssen "
+"mindestens einen Raumtyp erstellen, um fortzufahren!"
+
+msgid ""
+"There are no rooms available to accommodate this arrival! You have been "
+"switched to Booking Mode."
+msgstr ""
+
+msgid ""
+"There are no rooms available to accomodate this arrival! You have been "
+"switched to Booking mode."
+msgstr ""
+
+msgid "There are no rooms available to set a wake up call for."
+msgstr ""
+"Es sind keine Zimmer verfügbar, für die ein Weckruf eingerichtet werden kann."
+
+msgid ""
+"There are no rooms configured at this time to be able to set a wake up call "
+"for."
+msgstr ""
+"Zur Zeit sind keine Zimmer konfiguriert, für die ein Wecker eingestellt "
+"werden kann."
+
+#, php-format
+msgid ""
+"There is no group in the %s directory. Create groups: Receptionist, "
+"Accounting, Hotel customers and Restaurant."
+msgstr ""
+"Es gibt keine Gruppe im Verzeichnis %s. Erstellen Sie Gruppen: Rezeptionist, "
+"Buchhaltung, Hotelkunden und Restaurant."
+
+msgid "There's a booking which needs to be done today."
+msgstr "Es ist eine Buchung vorhanden, die heute durchgeführt werden muss."
+
+msgid "There's no room to check out."
+msgstr ""
+
+msgid "There's price of room to change. Type:"
+msgstr "Der Preis eines Zimmers muss geändert werden. Typ:"
+
+msgid "There's rate of discount to change. Discount rate:"
+msgstr "Es gibt eine Rabattrate, die geändert werden muss. Diskontsatz:"
+
+msgid "These changes are applied nightly."
+msgstr "Diese Änderungen werden nachts angewandt."
+
+msgid "This page allows you to edit billing rates."
+msgstr "Auf dieser Seite können Sie Fakturierungssätze bearbeiten."
+
+msgid ""
+"This page gives a list of Housekeeping services. From here you can add or "
+"delete services."
+msgstr ""
+"Diese Seite enthält eine Liste der Housekeeping-Services. Hier können Sie "
+"Dienste hinzufügen oder löschen."
+
+msgid "This page gives a list of bookings"
+msgstr "Auf dieser Seite können Sie eine Buchungsliste einsehen"
+
+msgid "This page gives a list of bookings (reservations)"
+msgstr "Diese Seite enthält eine Liste der Buchungen (Reservierungen)"
+
+msgid "This page gives a list of customers which can be modified or deleted."
+msgstr ""
+"Diese Seite enthält eine Liste der Kunden, die geändert oder gelöscht werden "
+"können."
+
+msgid "This page gives a list of privileges."
+msgstr "Auf dieser Seite befindet sich eine Privilegienliste."
+
+msgid ""
+"This page gives a list of products used by the Bar and/or Restaurant, and "
+"the Mini-Bar."
+msgstr ""
+"Diese Seite enthält eine Liste der von der Bar und / oder dem Restaurant "
+"sowie der Minibar verwendeten Produkte."
+
+msgid ""
+"This page gives a list of products used for Bar and/or Restaurant, and Mini-"
+"Bar."
+msgstr ""
+"Auf dieser Seite befindet sich eine Liste mit Produkten für die Bar und/oder "
+"das Restaurant und die Minibar."
+
+msgid "This page gives a list of room types which can be modified and deleted."
+msgstr ""
+"Auf dieser Seite befindet sich eine Liste mit Zimmertypen, die geändert oder "
+"gelöscht werden kann."
+
+msgid "This page gives a list of rooms by group."
+msgstr "Auf dieser Seite befindet sich eine Liste mit Zimmern nach Gruppen."
+
+msgid ""
+"This page gives a list of rooms. You can change an extension type, to be an "
+"administrative extension or a room extension."
+msgstr ""
+"Diese Seite enthält eine Liste der Zimmer. Sie können einen Nebenstellentyp "
+"ändern, um eine administrative Nebenstelle oder eine Raumnebenstelle zu sein."
+
+msgid ""
+"This page gives list of products for use with the mini-bar. Only one product "
+"can be associated with a single digit."
+msgstr ""
+"Diese Seite enthält eine Liste der Produkte, die mit der Minibar verwendet "
+"werden können. Einer einzelnen Ziffer kann nur ein Produkt zugeordnet werden."
+
+msgid "This page gives some information for each booking."
+msgstr "Auf dieser Seite finden Sie Informationen zu jeder Buchung."
+
+msgid ""
+"This page gives you a list of invoices after a customer checks out. "
+"Additionally, a pdf file is generated during check-out."
+msgstr ""
+"Auf dieser Seite finden Sie eine Liste mit Rechnungen nach Kunden-Check-"
+"outs. Während des Check-outs wird zudem eine PDF-Datei erstellt."
+
+msgid ""
+"This page graphs the number of arrivals and departures, calls, rooms, and "
+"mini-bar charges between two dates"
+msgstr ""
+"Auf dieser Seite ist die Anzahl der Ankünfte und Abreisen, Anrufe, Zimmer "
+"und Minibargebühren zwischen zwei Daten grafisch dargestellt"
+
+msgid ""
+"This page is for checking people out of their rooms during their departure."
+msgstr ""
+"Diese Seite dient dazu, Gäste während der Abreise aus ihrem Zimmer "
+"auszuchecken."
+
+msgid "This page is for managing bookings (reservations) and arrivals."
+msgstr ""
+"Diese Seite dient zum Verwalten von Buchungen (Reservierungen) und Ankünften."
+
+msgid ""
+"This page lists a log of the events recorded by the Property Management "
+"system."
+msgstr ""
+"Auf dieser Seite wird ein Protokoll der vom Property Management-System "
+"aufgezeichneten Ereignisse aufgeführt."
+
+msgid ""
+"This page lists the Remote Action Control (RAC) functions. When a room is "
+"checked-in, the url is used to send any simple requests to a specific "
+"device, for example an IP relay, via the URL."
+msgstr ""
+"Diese Seite listet die RAC-Funktionen (Remote Action Control) auf. Wenn ein "
+"Raum eingecheckt ist, wird die URL verwendet, um einfache Anfragen über die "
+"URL an ein bestimmtes Gerät, z. B. ein IP-Relay, zu senden."
+
+msgid "This page lists the rooms by group."
+msgstr "Diese Seite listet die Räume nach Gruppen auf."
+
+#, fuzzy
+msgid "This page provides information about your property"
+msgstr "Diese Seite enthält Informationen zu Ihrer Immobilie"
+
+#, fuzzy
+msgid "This page shows some information about your property"
+msgstr "Diese Seite zeigt einige Informationen zu Ihrer Immobilie"
+
+msgid "This room has been corrupted. Please refresh the table."
+msgstr ""
+
+msgid "Time"
+msgstr "Zeit"
+
+msgid "To :"
+msgstr "An:"
+
+msgid "To Do"
+msgstr "Zu erledigen"
+
+msgid ""
+"To combine taxes, in Add, create a new label and select two or more taxes "
+"already present from the list. Next, fill the value and Save"
+msgstr ""
+"Um Steuern zu kombinieren, erstellen Sie unter Hinzufügen ein neues Label "
+"und wählen Sie zwei oder mehr bereits vorhandene Steuern aus der Liste aus. "
+"Als nächstes füllen Sie den Wert und Speichern"
+
+msgid ""
+"To combine taxes, in Add, create a new label and select two or more taxes "
+"already present from the list. Next, fill the value and save"
+msgstr ""
+"Um Gebühren zu kombinieren, erstellen Sie in \"Hinzufügen\" eine neue "
+"Kennzeichnung und wählen Sie zwei oder mehrere bereits vorhandene Gebühren "
+"aus der Liste aus. Geben Sie als nächstes den Wert ein und speichern Sie"
+
+msgid ""
+"To customize the customer ticket, you can insert a tag from the list below:"
+msgstr ""
+"Um das Kundenticket anzupassen, können Sie eine Markierung aus der folgenden "
+"Liste einfügen:"
+
+msgid "To delete a product, remove the digit associated with it."
+msgstr "Um ein Produkt zu löschen, entfernen Sie die ihm zugeordnete Ziffer."
+
+msgid "To delete an event, just click on the trash icon."
+msgstr "Um ein Ereignis zu löschen, klicken Sie auf den Papierkorb."
+
+msgid "To:"
+msgstr ""
+
+msgid "Total"
+msgstr "Insgesamt"
+
+msgid "Total - Canceled"
+msgstr "Insgesamt - Storniert"
+
+msgid "Total - Confirmed"
+msgstr "Insgesamt - Bestätigt"
+
+msgid "Total - To Do"
+msgstr "Insgesamt - Zu erledigen"
+
+msgid "Total Bar"
+msgstr "Bar insgesamt"
+
+msgid "Total Billings"
+msgstr "Rechnungen insgesamt"
+
+msgid "Total Calls"
+msgstr "Anrufe insgesamt"
+
+msgid "Total Restaurant"
+msgstr "Restaurant insgesamt"
+
+msgid "Total Rooms"
+msgstr "Zimmer insgesamt"
+
+msgid "Total calls from this room."
+msgstr "Alle Anrufe von diesem Zimmer aus."
+
+msgid "Total:"
+msgstr ""
+
+msgid "Total: "
+msgstr ""
+
+#, fuzzy
+msgid "Tourist Tax:"
+msgstr "Kurtaxe:"
+
+#, fuzzy
+msgid "Tourist Tax: "
+msgstr "Kurtaxe: "
+
+#, fuzzy
+msgid "Tourist Tax: Set the required tax for hotel rooms."
+msgstr "Kurtaxe: Legen Sie die erforderliche Steuer für Hotelzimmer fest."
+
+msgid "Tourist tax"
+msgstr "Touristensteuer"
+
+msgid "Tourist tax %"
+msgstr "Touristensteuer %"
+
+msgid "Transfer"
+msgstr "Übertragung"
+
+msgid "Transfer room done."
+msgstr ""
+
+msgid "Transfer room in progress from:"
+msgstr ""
+
+msgid "Transfer room not done!"
+msgstr ""
+
+msgid "Try to sort the products by type e.g.: Drink, Snack, Main Course..."
+msgstr ""
+"Versuchen Sie, die Produkte nach Typ zu sortieren, z. B .: Getränk, Snack, "
+"Hauptgericht ..."
+
+msgid "Two areas are available."
+msgstr "Zwei Bereiche sind verfügbar."
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Type of report"
+msgstr "Berichtstyp"
+
+msgid "Type of report."
+msgstr "Berichtstyp."
+
+msgid "Type of room currently used. Unable to delete."
+msgstr "Art des aktuell genutzten Raumes. Löschen nicht möglich."
+
+msgid "Types"
+msgstr "Typen"
+
+msgid "U.P"
+msgstr "U.P"
+
+msgid "UCP password"
+msgstr ""
+
+msgid "UCP password:"
+msgstr ""
+
+msgid "UM password :"
+msgstr "UM-Passwort:"
+
+msgid "URL for Check-In"
+msgstr "URL für Check-in"
+
+msgid "URL for User Access"
+msgstr "URL für Benutzerzugang"
+
+msgid "Unable to delete - this guest is still in the room! ID: "
+msgstr "Löschen nicht möglich - dieser Gast ist noch im Zimmer! ID: "
+
+msgid "Unable to delete this guest!"
+msgstr ""
+
+msgid "Unable to save. The number must be between 01 and 14"
+msgstr "Kann nicht speichern. Diese Nummer muss zwischen 01 und 14 liegen"
+
+msgid "Unable to save. The number of available services has been exceeded."
+msgstr ""
+"Speichern nicht möglich. Die Anzahl der verfügbaren Dienste wurde "
+"überschritten."
+
+msgid "Unit Pr"
+msgstr ""
+
+msgid "Unit Price"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlocked"
+msgstr "Entsperrt"
+
+msgid "Unsupported file format"
+msgstr "Nicht unterstütztes Dateiformat"
+
+msgid "Update URL RACI and RACO."
+msgstr "URL RACI und RACO aktualisieren."
+
+msgid "Updating Group for: "
+msgstr "Gruppe wird aktualisiert für: "
+
+msgid "Updating digit: "
+msgstr ""
+
+msgid "Updating model: "
+msgstr ""
+
+msgid "Updating product: "
+msgstr ""
+
+msgid "Updating room : "
+msgstr "Zimmer wird aktualisert: "
+
+msgid "Updating room:"
+msgstr ""
+
+msgid "Updating tax:"
+msgstr ""
+
+msgid "Uploading file: "
+msgstr ""
+
+msgid "Username for User Access"
+msgstr "Benutzername für Benutzerzugang"
+
+msgid "VM password :"
+msgstr "VM-Passwort:"
+
+msgid "VM password:"
+msgstr ""
+
+msgid "Valid"
+msgstr "Gültig"
+
+msgid "Valid Commands:"
+msgstr "Gültige Befehle:"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Version: "
+msgstr "Version: "
+
+msgid "Voicemail Password"
+msgstr "Voicemail-Passwort"
+
+msgid "Voicemail Prefix"
+msgstr "Voicemail-Vorwahl"
+
+msgid "Voicemail password"
+msgstr ""
+
+msgid "Wake Up"
+msgstr "Wecker"
+
+msgid "Wakeup"
+msgstr "Wecker"
+
+msgid "Wakeup Help"
+msgstr "Wecker Hilfe"
+
+msgid "Wakeup call is called."
+msgstr "Weckanruf wird aufgerufen."
+
+msgid "Wakeup scheduled"
+msgstr "Wecker geplant"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "Warning!"
+msgstr "Warnung!"
+
+msgid ""
+"Warning! Are you sure you want to delete? There is no way to undo a deletion."
+msgstr ""
+"Warnung! Sind Sie sicher, dass Sie löschen möchten? Es gibt keine "
+"Möglichkeit, eine Löschung rückgängig zu machen."
+
+msgid "Warning! The property is full right now."
+msgstr "Warnung! Die Unterkunft ist jetzt voll belegt."
+
+msgid "Warning! There are no rooms available to perform this check-in."
+msgstr "Warnung! Für diesen Check-in stehen keine Zimmer zur Verfügung."
+
+msgid "Warning! This room is not available for this period."
+msgstr "Warnung! Dieses Zimmer ist für diesen Zeitraum nicht verfügbar."
+
+msgid ""
+"Warning! This room is occupied for the selected date, please choose a "
+"different room"
+msgstr ""
+"Warnung! Dieses Zimmer ist für das ausgewählte Datum belegt. Bitte wählen "
+"Sie ein anderes Zimmer aus"
+
+msgid ""
+"Warning! Your property is not configured. Please configure your property to "
+"continue."
+msgstr ""
+"Warnung! Ihre Unterkunft wurde nicht konfiguriert. Bitte konfigurieren Sie "
+"Ihre Unterkunft, um fortzufahren."
+
+msgid "Warning!!"
+msgstr ""
+
+msgid "Warning!! "
+msgstr "Warnung! "
+
+msgid "Welcome"
+msgstr "Willkommen"
+
+msgid "When :"
+msgstr "Wenn:"
+
+msgid ""
+"When check-in and checkout is done, these URL are sent without any control"
+msgstr ""
+"Wenn Check-in und Check-out durchgeführt werden, werden diese URL ungeprüft "
+"gesendet"
+
+msgid ""
+"When clicking on 'More', two fields will appear: Payment Mode, and Pre-"
+"Payment."
+msgstr ""
+"Wenn Sie auf \"Mehr\" klicken, werden zwei Felder angezeigt: \"Zahlungsmodus"
+"\" und \"Vorauszahlung\"."
+
+msgid ""
+"When clicking on 'More', two fields will appear: Payment Mode, and Prepaid "
+"Amount."
+msgstr ""
+"Wenn Sie auf \"Mehr\" klicken, werden zwei Felder angezeigt: Zahlungsmodus "
+"und Vorauszahlungsbetrag."
+
+msgid ""
+"When clicking the 'More' button: you can add more information such as "
+"address, city, etc."
+msgstr ""
+"Wenn Sie auf die Schaltfläche \"Mehr\" klicken, können Sie weitere "
+"Informationen wie Adresse, Stadt usw. hinzufügen."
+
+msgid ""
+"When there is a booking on the certain day, a windows appears below the "
+"Property Manager menu with a link to the list of bookings."
+msgstr ""
+"Wenn an einem bestimmten Tag eine Buchung vorliegt, wird unter dem Menü "
+"Property Manager ein Fenster mit einem Link zur Buchungsliste angezeigt."
+
+msgid ""
+"When there's a booking for the day, a window appears below the Property "
+"Manager menu with a link to the list of bookings."
+msgstr ""
+
+msgid "When:"
+msgstr ""
+
+msgid "Who"
+msgstr "Wer"
+
+msgid "Within the search field, you can sort the list by keywords."
+msgstr "Im Suchfeld können Sie die Liste nach Stichwörtern sortieren."
+
+msgid "Within the search field, you can sort the list by some keywords."
+msgstr "Im Suchfeld könnnen Sie die Liste nach Suchbegriffen sortieren."
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid ""
+"You are currently using the free version of Property Manager which has a "
+"limit of 10 rooms. For more rooms, visit our website and purchase a license"
+msgstr ""
+"Sie verwenden derzeit die kostenlose Version von Property Manager, für die "
+"maximal 10 Zimmer zur Verfügung stehen. Besuchen Sie für weitere Räume "
+"unsere Website und erwerben Sie eine Lizenz"
+
+msgid ""
+"You are currently using the free version of Property Manager which has a "
+"limit of 10 rooms. For more rooms, visit our website and purchase a license."
+msgstr ""
+"Sie verwenden derzeit die kostenlose Version von Property Manager, für die "
+"maximal 10 Zimmer zur Verfügung stehen. Besuchen Sie für weitere Räume "
+"unsere Website und erwerben Sie eine Lizenz."
+
+msgid ""
+"You are currently using the free version which has a limit of 10 rooms. For "
+"more rooms, visit our website and purchase a license."
+msgstr ""
+"Sie nutzen derzeit die kostenlose Version, die auf 10 Zimmer begrenzt ist. "
+"Besuchen Sie unsere Website und erwerben Sie eine Lizenz, wenn Sie mehr "
+"Zimmer benötigen."
+
+msgid ""
+"You can add products with or without images. The image will be used in the "
+"banner in the customer-facing url."
+msgstr ""
+"Sie können Produkte mit oder ohne Bilder hinzufügen. Das Bild wird im Banner "
+"der Kunden-URL verwendet."
+
+msgid "You can add some comments specific for the customer."
+msgstr "Sie können einige für den Kunden spezifische Kommentare hinzufügen."
+
+msgid ""
+"You can check your room status, mini bar status, send a message to the "
+"receptionist, or check your phone usage."
+msgstr ""
+"Sie können den Status Ihres Zimmers und der Minibar überprüfen, eine "
+"Nachricht an die Rezeption senden oder die Nutzung Ihres Telefons überprüfen."
+
+msgid ""
+"You can click on the the filters above to see all confirmed, checked-in, and "
+"canceled bookings."
+msgstr ""
+"Sie können auf die Filter oben klicken, um alle bestätigten, eingecheckten "
+"und stornierten Buchungen anzuzeigen."
+
+msgid ""
+"You can click on the the filters above to see all confirmed, checked-in, and "
+"cancelled bookings."
+msgstr ""
+"Sie können auf die Filter oben klicken, um alle bestätigten, eingecheckten "
+"und stornierten Buchungen zu sehen."
+
+msgid ""
+"You can create several different type of taxes, as well as combine them. "
+msgstr ""
+"Sie können verschiedene Gebührenarten erstellen und diese auch kombinieren. "
+
+msgid ""
+"You can create several different types of taxes, as well as combine them. "
+msgstr "Sie können verschiedene Arten von Steuern erstellen und kombinieren. "
+
+msgid ""
+"You can create several scheduled discounts or scheduled prices during a "
+"period for a given room."
+msgstr ""
+"Sie können verschiedene geplante Diskontierungen oder geplante Preise "
+"während eines Zeitraums für ein bestimmtes Zimmer erstellen."
+
+msgid ""
+"You can select a type of departure (field 'When') : Now, Scheduled, or Other "
+"Date"
+msgstr ""
+"Sie können eine Abfahrtsart auswählen (Feld 'Wann'): Jetzt, Geplant oder "
+"Anderes Datum"
+
+msgid ""
+"You can select a type of departure (field 'When'): Now, Scheduled, or Other "
+"date"
+msgstr ""
+"Sie können eine Abfahrtsart auswählen (Feld 'Wann'): Jetzt, Geplant oder "
+"Anderes Datum"
+
+msgid "You can use the features below."
+msgstr ""
+
+msgid ""
+"You can use the search field to find what you need (invoice number, date, "
+"name ...)."
+msgstr ""
+"Sie können die Suchleiste nutzen, um Dinge zu finden (Rechnungsnummern, "
+"Datum, Name ...)."
+
+msgid ""
+"You can use your own custom context. Just replace this context name used by "
+"class of services when a room is check-out. (from-pms by default)"
+msgstr ""
+
+msgid "You don't have access to this module!!"
+msgstr ""
+
+msgid "You may offer a discount by changing the discount value"
+msgstr ""
+"Sie können eine Diskontierung anbieten, indem Sie den Diskontierungswert "
+"ändern"
+
+msgid "You may provide a discount by changing the discount value"
+msgstr "Sie können einen Rabatt gewähren, indem Sie den Rabattwert ändern"
+
+msgid "You must fill all three parts of the ticket."
+msgstr "Sie müssen alle drei Teile des Tickets ausfüllen."
+
+msgid "You save : "
+msgstr "Sie speichern: "
+
+msgid "You save: "
+msgstr ""
+
+msgid "Your Personal Dashboard."
+msgstr "Ihr persönliches Dashboard."
+
+msgid "Your Room"
+msgstr "Ihr Zimmer"
+
+msgid "Your Room."
+msgstr "Ihr Zimmer."
+
+msgid "Your phone number is : [exten]."
+msgstr ""
+
+msgid "Your ticket"
+msgstr ""
+
+msgid "appears when a wake up call is scheduled for this room."
+msgstr "wird angezeigt, wenn für diesen Raum ein Weckruf geplant ist."
+
+msgid "appears when a wake-up call is scheduled for this room."
+msgstr "wird angezeigt, wenn für diesen Raum ein Weckruf geplant ist."
+
+msgid "appears when at least one product has been consumed from the mini-bar."
+msgstr ""
+"wird angezeigt, wenn mindestens ein Produkt aus der Minibar verbraucht wurde."
+
+msgid "appears when at least one product is consumed from the mini-bar."
+msgstr ""
+"erscheint, wenn mindestens ein Artikel aus der Minibar konsumiert wurde."
+
+msgid "at"
+msgstr "bei"
+
+msgid "called an emergency number"
+msgstr "hat den Notruf gewählt"
+
+msgid "called an emergency number!"
+msgstr ""
+
+msgid "called the Emergency number"
+msgstr ""
+
+msgid "characters."
+msgstr ""
+
+msgid "customer email"
+msgstr ""
+
+msgid "customer name"
+msgstr "Kundenname"
+
+msgid "date for arrival"
+msgstr ""
+
+msgid "date for departure"
+msgstr ""
+
+msgid "discount"
+msgstr "Rabatt"
+
+msgid ""
+"eg.: free, busy, dirty, guest name, type name, any word in a messgae or even "
+"the level of the alert (***)."
+msgstr ""
+"z. B.: frei, belegt, schmutzig, Gastname, Typname, ein Wort in einer Meldung "
+"oder die Ebene eines Alarms (***)."
+
+msgid "for extension:"
+msgstr ""
+
+msgid "for performing a wake up call."
+msgstr "für die Durchführung eines Weckanrufes."
+
+msgid "http://your_remote_device/status.xml?a=admin:admin&r1=0 (for checkout)"
+msgstr ""
+"http://your_remote_device/status.xml?a=admin:admin&r1=0 (für Check-outs)"
+
+msgid "http://your_remote_device/status.xml?a=admin:admin&r1=1 (for check-ing)"
+msgstr ""
+
+msgid "icon is an administrative extension."
+msgstr "Symbol ist eine Verwaltungsnebenstelle."
+
+msgid ""
+"if the customer made a payment. (If customer is paying later, 'Paid' should "
+"not be checked during check-out)."
+msgstr ""
+"wenn der Kunde eine Zahlung geleistet hat. (Wenn der Kunde später bezahlt, "
+"sollte \"Bezahlt\" beim Auschecken nicht gewählt werden)."
+
+msgid ""
+"if the customer made a payment. (If customer is paying later, Paid should "
+"not be checked during check-out)."
+msgstr ""
+"wenn der Kunde eine Zahlung getätigt hat. (Wenn der Kunde später zahlt, "
+"sollte beim Check-out nicht \"Gezahlt\" ausgewählt werden)."
+
+msgid "in 'DND' column to change its status."
+msgstr "in der 'DND'-Spalte, um den Status zu ändern."
+
+msgid "in the 'Alarm Clock' to delete this alert."
+msgstr "im 'Wecker', um diesen Alarm zu löschen."
+
+msgid "in the 'Clean' to change its status."
+msgstr "in 'Reinigen', um den Status zu ändern."
+
+msgid "in the 'CoS' to change the Class of Service."
+msgstr "in 'CoS', um die Serviceklasse zu ändern."
+
+msgid "inside"
+msgstr "innen"
+
+msgid "invoice doesn't exist."
+msgstr "Rechnung existiert nicht."
+
+msgid "is currently here : "
+msgstr "befindet sich derzeit hier: "
+
+msgid "is currently here: "
+msgstr ""
+
+msgid "mk_dirty - Make the rooms dirty (only rooms that are not available)."
+msgstr "mk_dirty - Schmutzige Zimmer reinigen (nur nicht verfügbare Zimmer)."
+
+msgid "mode is selected."
+msgstr "Modus ist ausgewählt."
+
+msgid "model"
+msgstr "Modell"
+
+msgid "nb of users"
+msgstr "Benutzeranzahl"
+
+msgid "no email"
+msgstr "Anzahl der E-Mails"
+
+msgid "or"
+msgstr "oder"
+
+msgid "pms [start] [stop] [wu_alert] [mk_dirty] or [rel_room]"
+msgstr "pms [start] [stop] [wu_alert] [mk_dirty] oder [rel_room]"
+
+msgid "rel_room [room id] - Release a room from a job."
+msgstr "rel_room [room id] - Ein Zimmer aus einem Auftrag entfernen."
+
+msgid "to"
+msgstr "an"
+
+msgid "to add a rate."
+msgstr "um einen Tarif hinzuzufügen."
+
+msgid "to be entered"
+msgstr "muss eingegeben werden"
+
+msgid ""
+"to change the extension type to a room extension. Apply the changes by "
+"clicking the button on top. Change the model of the room and submit the "
+"changes."
+msgstr ""
+
+msgid ""
+"to change the type of extension to an administrative extension. Click on "
+"Apply button on top of page and click on submit button to save the changes."
+msgstr ""
+"um den Typ der Nebenstelle in eine administrative Nebenstelle zu ändern. "
+"Klicken Sie oben auf der Seite auf Übernehmen und dann auf Senden, um die "
+"Änderungen zu speichern."
+
+msgid "to delete a record. "
+msgstr "um einen Eintrag zu löschen. "
+
+msgid "to delete model."
+msgstr "um das Modell zu löschen."
+
+msgid "to delete the rate immediately."
+msgstr "um den Tarif sofort zu löschen."
+
+msgid "to do a room transfer."
+msgstr ""
+
+msgid "to download an invoice."
+msgstr "um eine Rechnung herunterzuladen."
+
+msgid "to edit a R.A.C url. The room name will appear beside room name label."
+msgstr ""
+"um eine R.C.A.-URL zu bearbeiten. Der Zimmername erscheint neben der "
+"Zimmernamenkennzeichnung."
+
+msgid "to edit a customer, or click on"
+msgstr "um einen Kunden zu bearbeiten, klicken Sie auf"
+
+msgid "to edit model."
+msgstr "um ein Modell zu bearbeiten."
+
+msgid "to edit the rate."
+msgstr "um den Tarif zu bearbeiten."
+
+msgid "to get more details about this guest."
+msgstr "um mehr Details über einen Gast zu erhalten."
+
+msgid "to perform a room transfer."
+msgstr "um einen Raumtransfer durchzuführen."
+
+msgid "to perform a wake up call."
+msgstr ""
+
+msgid "to send a message."
+msgstr "um eine Nachricht zu senden."
+
+msgid "type"
+msgstr "Typ"
+
+#, fuzzy
+msgid "under 'Alarm Clock' to delete this alert."
+msgstr ""
+"Klicken Sie unter \"Wecker\" auf \"Löschen\", um diesen Alarm zu löschen."
+
+msgid "under 'Clean' to change its status."
+msgstr ""
+
+#, fuzzy
+msgid "under 'CoS' to change the Class of Service."
+msgstr "unter \"CoS\", um die Serviceklasse zu ändern."
+
+msgid "under 'DND' to change its status."
+msgstr ""
+
+msgid "value"
+msgstr "Wert"
+
+msgid "warning"
+msgstr ""
+
+#~ msgid "Filters"
+#~ msgstr "Filter"
+
+#~ msgid "In Slave mode, the some menus will be disabled."
+#~ msgstr "Im Slave-Modus sind einige Menüs deaktiviert."
+
+#~ msgid "Please enter your product in the Search field."
+#~ msgstr "Bitte geben Sie Ihr Produkt in das Suchfeld ein."
+
+#~ msgid "Pre-Filters "
+#~ msgstr "Vorfilter "
+
+#~ msgid "Prigileges Help"
+#~ msgstr "Privilegien Hilfe"
+
+#~ msgid ""
+#~ "When there's a booking for the day, a windows appears below the Property "
+#~ "Manager menu with a link to the list of bookings."
+#~ msgstr ""
+#~ "Wenn für diesen Tag eine Buchung vorliegt, wird unter dem Menü Property "
+#~ "Manager ein Fenster mit einem Link zur Buchungsliste angezeigt."
+
+#~ msgid ""
+#~ "You can use your hown custom context. Just replace this context name used "
+#~ "by class of services when a room is check-out. (from-pms by default)"
+#~ msgstr ""
+#~ "Sie können Ihren eigenen Text verwenden. Ersetzen Sie den von der "
+#~ "Serviceklasse verwendeten Kontextnamen einfach, wenn aus einem Zimmer "
+#~ "ausgecheckt wird. (standardmäßig von-pms)"
+
+#~ msgid ""
+#~ "http://your_remote_device/status.xml?a=admin:admin&r1=1 (for checking)"
+#~ msgstr ""
+#~ "http://your_remote_device/status.xml?a=admin:admin&r1=1 (zum Prüfen)"
+
+#~ msgid ""
+#~ "to change the extension type to a room extension. Apply the changes "
+#~ "clicking the button on top. Change the model of the room and submit the "
+#~ "changes."
+#~ msgstr ""
+#~ "um den Nebenstellentyp in eine Raumnebenstelle zu ändern. Übernehmen Sie "
+#~ "die Änderungen, indem Sie auf die Schaltfläche oben klicken. Ändern Sie "
+#~ "das Modell des Raums und senden Sie die Änderungen."
+
+#~ msgid "The size for the image is not correct. It should be 1024x768 max."
+#~ msgstr ""
+#~ "Die Größe für das Bild ist nicht korrekt. Es sollte maximal 1024x768 sein."
+
+#~ msgid "This Module manages Properties"
+#~ msgstr "Dieses Modul verwaltet Objekte"
+
+#~ msgid ""
+#~ "Package 'at' missing!!!! You need to upgrade sangoma-pbx, run 'yum update "
+#~ "-y'. "
+#~ msgstr ""
+#~ "Paket 'at' fehlt !!!! Sie müssen Sangoma-pbx aktualisieren und 'yum "
+#~ "update -y' ausführen. "
+
+#~ msgid ""
+#~ "The package 'at' is missing. Please, upgrade sangoma-pbx, run 'yum update "
+#~ "-y' and try again."
+#~ msgstr ""
+#~ "Das Paket 'at' fehlt. Bitte aktualisieren Sie Sangoma-PBX, führen Sie "
+#~ "'yum update -y' aus und versuchen Sie es erneut."
+
+#~ msgid "Call Between Rooms"
+#~ msgstr "Anruf zwischen Zimmern"
+
+#~ msgid "Lock Room During Checkout"
+#~ msgstr "Zimmer während des Check-outs sperren"
+
+#~ msgid "Room Needs Cleaning"
+#~ msgstr "Zimmer muss gereinigt werden"
+
+#~ msgid "Alarmclock"
+#~ msgstr "Wecker"
+
+#~ msgid "A message is played in the extension."
+#~ msgstr "Eine Meldung wird an der Nebenstelle abgespielt."
+
+#~ msgid "Oracle gateway."
+#~ msgstr "Oracle-Gateway."
+
+#~ msgid ""
+#~ "Start - Surveying any wake up and calls for each room if no ACK is "
+#~ "returned."
+#~ msgstr ""
+#~ "Start - Überwacht alle Wecker und Anrufe für jedes Zimmer, wenn keine "
+#~ "Bestätigung zurückgegeben wird."
+
+#~ msgid "Starting Oracle Gateway."
+#~ msgstr "Oracle-Gateway wird gestartet."
+
+#~ msgid "Starting wakeup_survey."
+#~ msgstr "Weckerüberwachung wird gestartet."
+
+#~ msgid "Stop - Stopping wake up survey."
+#~ msgstr "Stopp - Weckerüberwachung wird gestoppt."
+
+#~ msgid "Stopping Oracle Gateway."
+#~ msgstr "Oracle-Gateway wird gestoppt."
+
+#~ msgid "Stopping wakeup_survey."
+#~ msgstr "Weckerüberwachung wird gestoppt."
+
+#~ msgid "Then the receptionist is called."
+#~ msgstr "Dann wird die Rezeption angerufen."
+
+#~ msgid "oracle start / stop - start or stop Oracle gateway process."
+#~ msgstr "Oracle Start / Stop - Oracle-Gateway-Prozess starten oder stoppen."
+
+#~ msgid "Bad IP adress format! Please enter a good ip address."
+#~ msgstr ""
+#~ "Falsches IP-Adressenformat! Bitte geben Sie eine gültige IP-Adresse an."
+
+#~ msgid "Class of Service - Barred/hotel internal only"
+#~ msgstr "Serviceklasse - Gesperrt/nur hotelintern"
+
+#~ msgid "Class of Service - Local"
+#~ msgstr "Serviceklasse - Lokal"
+
+#~ msgid "Class of Service - National"
+#~ msgstr "Serviceklasse - National"
+
+#~ msgid "Class of Service - No restrictions"
+#~ msgstr "Serviceklasse - Keine Einschränkungen"
+
+#~ msgid "Context used by default - Barred/hotel internal only"
+#~ msgstr "Standardmäßig verwendeter Kontext - Gesperrt/nur hotelintern"
+
+#~ msgid "Context used by default - Local"
+#~ msgstr "Standardmäßig verwendeter Kontext - Lokal"
+
+#~ msgid "Context used by default - National"
+#~ msgstr "Standardmäßig verwendeter Kontext - National"
+
+#~ msgid "Context used by default - No restrictions"
+#~ msgstr "Standardmäßig verwendeter Kontext - Keine Einschränkungen"
+
+#~ msgid "Currency : Set your currency symbol."
+#~ msgstr "Währung: Geben Sie Ihr Währungssymbol ein."
+
+#~ msgid "Gateway Status"
+#~ msgstr "Gateway-Status"
+
+#~ msgid "Hotel mode or Slave mode (Oracle protocol)"
+#~ msgstr "Hotelmodus oder Slave-Modus (Oracle-Protokoll)"
+
+#~ msgid "Panel"
+#~ msgstr "Bedienfeld"
+
+#~ msgid "Panel page Help"
+#~ msgstr "Bedienfeldseite Hilfe"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Property Manager Server"
+#~ msgstr "Objektmanager-Server"
+
+#~ msgid "Restart"
+#~ msgstr "Neustart"
+
+#~ msgid "Restaurant Staff"
+#~ msgstr "Restaurantmitarbeiter"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "Stop"
+#~ msgstr "Stopp"
+
+#~ msgid "This page shows all rooms"
+#~ msgstr "Diese Seite zeigt alle Zimmer an"
+
+#~ msgid "Unreachable"
+#~ msgstr "Nicht erreichbar"
+
+#~ msgid "Voicemail"
+#~ msgstr "Voicemail"
+
+#~ msgid "is running."
+#~ msgstr "läuft."
+
+#~ msgid "is stopped."
+#~ msgstr "ist gestoppt."
+
+#~ msgid ""
+#~ "Maid Service (Default: *44). Dial *44 and follow the comments. You can "
+#~ "dial dirrectly the number of service like this: *4400, *4401..14. <br> "
+#~ "Consult the list of services available for more informations."
+#~ msgstr ""
+#~ "Zimmerreinigung (Standardmäßig: *44). Wählen Sie *44 und folgen Sie den "
+#~ "Anweisungen. Sie können, falls gewünscht, die direkte Nummer dieses "
+#~ "Services wählen: *4400, *4401..14. <br> Weitere Informationen entnehmen "
+#~ "Sie bitte der Serviceliste."
+
+#~ msgid ""
+#~ "There is no group in the HPMS directory. Create groups: Receptionist, "
+#~ "Accounting and Restaurant."
+#~ msgstr ""
+#~ "Im HPMS-Verzeichnis befindet sich keine Gruppe. Erstellen Sie Gruppen: "
+#~ "Rezeption, Buchhaltung und Restaurant."
+
+#~ msgid " to : "
+#~ msgstr " an: "
+
+#~ msgid ""
+#~ "(The device used here as example: TCW181B - Ethernet Relay Unit, 8 "
+#~ "Relays,1 Digital Input)"
+#~ msgstr ""
+#~ "(Das hier als Beispiel verwendete Gerät: TCW181B - Ethernet-"
+#~ "Relaiseinheit, 8 Relais, 1 digitaler Eingang)"
+
+#~ msgid ""
+#~ "About Group, you can select what group will be selected for the "
+#~ "departure. Any rooms associated with this group will appear in the room "
+#~ "list."
+#~ msgstr ""
+#~ "Über die Gruppe können Sie auswählen, welche Gruppe für die Abfahrt "
+#~ "ausgewählt wird. Zu dieser Gruppe gehörende Zimmer werden in der "
+#~ "Zimmerliste aufgeführt."
+
+#~ msgid ""
+#~ "About additional guests, enter the prices for a additional guests in this "
+#~ "room."
+#~ msgstr ""
+#~ "Über weitere Gäste: Geben Sie die Preise für weitere Gäste in diesem "
+#~ "Zimmer ein."
+
+#~ msgid ""
+#~ "Allow this user to be able to read, change their room status, and send "
+#~ "messages to receptionist"
+#~ msgstr ""
+#~ "Diesem Benutzer erlauben, den Zimmerstatus einzusehen, zu ändern und der "
+#~ "Rezeption Meldungen zu senden"
+
+#~ msgid "Arrival - Show what's the date for arrival"
+#~ msgstr "Ankunft - Zeigt das Ankunftsdatum an"
+
+#~ msgid ""
+#~ "Below the name of the guest, a message may appear when a customer has "
+#~ "sent a message to the receptionist. Click on the trash can to delete it."
+#~ msgstr ""
+#~ "Unter dem Namen des Gastes kann eine Meldung erscheinen, wenn der Kunde "
+#~ "der Rezeption eine Nachricht geschicht hat. Klicken Sie auf den "
+#~ "Papierkorb, um diese zu löschen."
+
+#~ msgid "Body : The body of the email as you would like it to appear."
+#~ msgstr "Körper: Der Körper der E-Mail, der angezeigt werden soll."
+
+#~ msgid ""
+#~ "Call Between Rooms : An extension is able to call another room extension. "
+#~ msgstr ""
+#~ "Anruf zwischen Zimmern: Eine Erweiterung kann eine andere "
+#~ "Zimmererweiterung anrufen. "
+
+#~ msgid ""
+#~ "Calls Between Rooms : An extension is able to call another room's "
+#~ "extension. "
+#~ msgstr ""
+#~ "Anrufe zwischen Zimmern: Eine Nebenstelle kann die Nebenstelle eines "
+#~ "anderen Zimmers anrufen. "
+
+#~ msgid ""
+#~ "Class of Service used by default for Check-In : Set the context name used "
+#~ "by class of services when a room is check in. (from-pms by default)"
+#~ msgstr ""
+#~ "Serviceklasse, die standardmäßig für Check-ins verwendet wird: Geben Sie "
+#~ "den Kontextnamen ein, der von der Serviceklasse verwendet wird, wenn in "
+#~ "ein Zimmer eingecheckt wird. (standardmäßig from-pms)"
+
+#~ msgid ""
+#~ "Class of Service used by default for Check-Out : Set the context name "
+#~ "used by class of services when a room is check-out. (from-pms by default)"
+#~ msgstr ""
+#~ "Serviceklasse, die standardmäßig für Check-outs verwendet wird: Geben Sie "
+#~ "den Kontextnamen ein, der von der Serviceklasse verwendet wird, wenn aus "
+#~ "einem Zimmer ausgecheckt wird. (standardmäßig from-pms)"
+
+#~ msgid ""
+#~ "Click on Booking button for passing on Booking mode. Click on Check-in "
+#~ "button to return on Check-in mode."
+#~ msgstr ""
+#~ "Klicken Sie auf die Buchungsschaltfläche, um zum Buchungsmodus zu "
+#~ "gelangen. Klicken Sie auf die Check-in-Schaltfläche, um zum Check-in-"
+#~ "Modus zurückzukehren."
+
+#~ msgid "Click on submit for applying your changes. "
+#~ msgstr "Klicken Sie auf \"Senden\", um Änderungen anzuwenden. "
+
+#~ msgid "Click on the More button to display/hiden additional fields."
+#~ msgstr ""
+#~ "Klicken Sie auf die \"Mehr\"-Schaltfläche, um weitere Felder anzuzeigen/"
+#~ "zu verbergen."
+
+#~ msgid "Company Location : Set the address of your hotel."
+#~ msgstr "Firmenstandort: Geben Sie die Adresse Ihres Hotels ein."
+
+#~ msgid "Customers List"
+#~ msgstr "Kundenliste"
+
+#~ msgid "Date from : "
+#~ msgstr "Datum ab: "
+
+#~ msgid "Day remaining"
+#~ msgstr "Verbleibender Tag"
+
+#~ msgid "Define a label for your service."
+#~ msgstr "Geben Sie eine Kennzeichnung für Ihren Service ein."
+
+#~ msgid "Departure - Show what's the date for departure"
+#~ msgstr "Abreise - Zeigt das Abreisedatum an"
+
+#~ msgid ""
+#~ "Dial *44 (by default) and listen to the prompt, or dial *44 + your "
+#~ "service number. Eg.: *4401, and listen to the prompt."
+#~ msgstr ""
+#~ "Wählen Sie *44 (standardmäßig) und hören Sie sich Aufforderung an oder "
+#~ "wählen Sie *44 + Ihre Servicenummer. z. B.: *4401 und hören Sie sich die "
+#~ "Aufforderung an."
+
+#~ msgid "Discount : Set the discount in percent for the entire room."
+#~ msgstr "Rabatt: Geben Sie den Rabatt in Prozent für das gesamte Zimmer ein."
+
+#~ msgid "Download csv"
+#~ msgstr "CSV herunterladen"
+
+#~ msgid "Download txt"
+#~ msgstr "TXT herunterladen"
+
+#~ msgid ""
+#~ "Email : Set the email address of your hotel. This is used by the Property "
+#~ "Manager module when it needs to send email."
+#~ msgstr ""
+#~ "E-Mail: Geben Sie die E-Mail-Adresse Ihres Hotels an. Diese wird vom "
+#~ "Property-Manager-Modul verwendet, wenn eine E-Mail gesendet werden muss."
+
+#~ msgid "Emergency Route : Select an emergency route."
+#~ msgstr "Rettungsweg: Wählen Sie einen Rettungsweg aus."
+
+#~ msgid ""
+#~ "Enter a service number between 01 and 14 (This needs to be two digits)."
+#~ msgstr ""
+#~ "Geben Sie eine Servicenummer zwischen 01 und 14 ein (Diese muss aus zwei "
+#~ "Ziffern bestehen)."
+
+#~ msgid ""
+#~ "Enter the billing duration in seconds. Eg.: 60 (for 1mn). Zero is not "
+#~ "permit"
+#~ msgstr ""
+#~ "Geben Sie die Rechnungsdauer in Sekunden ein. z. B. 60 (für 1 Min.). Null "
+#~ "ist nicht erlaubt"
+
+#~ msgid ""
+#~ "Enter the rate offset in currency. Eg.: 0.5 if your currency is $, the "
+#~ "value of this offset will be $0.5 per call."
+#~ msgstr ""
+#~ "Geben Sie den Preis-Offset in der Währung ein. Z. B.: 0,5 wenn Ihre "
+#~ "Währung $ ist, der Wert dieses Offsets ist 0,5 $ pro Anruf."
+
+#~ msgid ""
+#~ "Fill the first charactere in the field Product list or put a % to display "
+#~ "all."
+#~ msgstr ""
+#~ "Geben Sie den ersten Buchstaben im Feld \"Produktliste\" ein oder geben "
+#~ "Sie % ein, um alle anzuzeigen."
+
+#~ msgid ""
+#~ "For deleting R.A.C requests, leave the fields blank and click on the "
+#~ "Submit button to save your changes."
+#~ msgstr ""
+#~ "Um R.A.C.-Anfragen zu löschen, lassen Sie diese Felder leer und klicken "
+#~ "Sie auf die \"Senden\"-Schaltfläche, um Änderungen zu speichern."
+
+#~ msgid "From Name : eg. The receptionist"
+#~ msgstr "Von Name: z. B. Rezeption"
+
+#~ msgid ""
+#~ "Gives the group name for a a given privilege and displays the number of "
+#~ "users within this group."
+#~ msgstr ""
+#~ "Erstellt den Gruppennamen für ein bestimmtes Privileg und zeigt die "
+#~ "Anzahl von Benutzern innerhalb dieser Gruppe an."
+
+#~ msgid "Group :"
+#~ msgstr "Gruppe:"
+
+#~ msgid "Groups List"
+#~ msgstr "Gruppenliste"
+
+#~ msgid "Hotel mode allowing all features embedded into Freepbx."
+#~ msgstr "Hotelmodus, der alle Funktionen in Freepbx ermöglicht."
+
+#~ msgid "ID field is used for any official document number. ID, Passport...."
+#~ msgstr ""
+#~ "Das ID-Feld wird für die Nummer eines offiziellen Dokuments verwendet, "
+#~ "wie z. B. Ausweis, Reisepass ..."
+
+#~ msgid ""
+#~ "If TTS is selected, then the content of the label will be interpreted "
+#~ "with Text To Speech. If File is selected, then select an audio file from "
+#~ "list box."
+#~ msgstr ""
+#~ "Falls TTS ausgewählt wird, wird der Inhalt des Labels mittels Text-to-"
+#~ "Speech interpretiert. Falls Datei ausgewählt wird, wählen Sie eine "
+#~ "Audiodatei aus der Liste aus."
+
+#~ msgid ""
+#~ "If the customer would like to receive an invoice by email, check 'send by "
+#~ "email'"
+#~ msgstr ""
+#~ "Wenn der Kunde eine Rechnung per E-Mail erhalten möchten, wählen Sie "
+#~ "\"Per E-Mail senden\" aus"
+
+#~ msgid "If you need to make a new booking, just click on 'booking'."
+#~ msgstr ""
+#~ "Wenn Sie eine neue Buchung machen möchten, klicken Sie einfach auf "
+#~ "'Buchung'."
+
+#~ msgid ""
+#~ "If you want to add any product in the banner, select Menu, and add the "
+#~ "product in the list. These product will appear in the banner for the "
+#~ "customer facing url."
+#~ msgstr ""
+#~ "Wenn Sie dem Banner ein Produkt hinzufügen möchten, wählen Sie das Menü "
+#~ "aus und fügen Sie der Liste das Produkt hinzu. Dieses Produkt erscheint "
+#~ "im Banner für die URL, die der Kunde zu sehen bekommt."
+
+#~ msgid "In slave mode, the some menu will be disabled."
+#~ msgstr "Im Slave-Modus werden einige Menüs deaktiviert."
+
+#~ msgid "Leaving the mouse on the timeline, gives additional details."
+#~ msgstr ""
+#~ "Halten Sie die Maus auf der Zeitleiste, um weitere Details zu sehen."
+
+#~ msgid ""
+#~ "Lock Room During Checkout : When any room is checked out, the room is "
+#~ "locked."
+#~ msgstr ""
+#~ "Zimmer während des Check-outs sperren: Wenn ein Zimmer ausgecheckt ist, "
+#~ "ist das Zimmer gesperrt."
+
+#~ msgid ""
+#~ "Locked Room During Checkout : When any room is checked out, the room is "
+#~ "locked."
+#~ msgstr ""
+#~ "Zimmer während des Check-outs sperren: Wenn ein Zimmer ausgecheckt ist, "
+#~ "ist das Zimmer gesperrt."
+
+#~ msgid "Logo : Click on Browse and select a logo in jpg, png or gif format."
+#~ msgstr ""
+#~ "Logo: Klicken Sie auf 'Durchsuchen' und wählen Sie ein Logo im jpg-, png- "
+#~ "oder gif-Format aus."
+
+#~ msgid "Maid Service Help"
+#~ msgstr "Zimmerreinigung Hilfe"
+
+#~ msgid "Maid-Service"
+#~ msgstr "Reinigungsservice"
+
+#~ msgid "Money advance"
+#~ msgstr "Geldvorschuss"
+
+#~ msgid "Now - Departure now"
+#~ msgstr "Jetzt - Abreise jetzt"
+
+#~ msgid "Number of people : "
+#~ msgstr "Personenanzahl: "
+
+#~ msgid "On top : the mandatory informations like the name, room, dates, ..."
+#~ msgstr "Oben: Pflichtdaten, wie Name, Zimmer, Daten ..."
+
+#~ msgid "Other Date - Departing on a unscheduled date"
+#~ msgstr "Anderes Datum - Abreise an einem ungeplanten Datum"
+
+#~ msgid "Payment mode :"
+#~ msgstr "Zahlungsart:"
+
+#~ msgid "Please. Fill your product in Search field."
+#~ msgstr "Bitte geben Sie Ihr Produkt in die Suchzeile ein."
+
+#~ msgid "Postal Code"
+#~ msgstr "Postleitzahl"
+
+#, fuzzy
+#~ msgid "R.A.C"
+#~ msgstr "R.A.C"
+
+#~ msgid "Receptionist : Define an extension number for the receptionist."
+#~ msgstr ""
+#~ "Rezeption: Legen Sie eine Nebenstellennummer für die Rezeption fest."
+
+#~ msgid "Repeat this action until all route gonna be used."
+#~ msgstr "Wiederholen Sie diese Aktion, bis die gesamte Route genutzt wird."
+
+#~ msgid "Room :"
+#~ msgstr "Zimmer:"
+
+#~ msgid ""
+#~ "Room Clean prefix (Default: *36) will be used when the room gets cleaned "
+#~ "by the chambermaid."
+#~ msgstr ""
+#~ "Zimmerreinigung Vorwahl (Standardmäßig *36) wird verwendet,wenn die "
+#~ "Zimmer von einer Reinigungskraft gereinigt werden."
+
+#~ msgid "Room Needs Cleaning : Rooms bust be clean for check in."
+#~ msgstr "Zimmer muss gereinigt werden: Zimmer muss bei Check-in sauber sein."
+
+#~ msgid "Room Needs Cleaning : Rooms must be clean before check-in."
+#~ msgstr "Zimmer muss gereinigt werden: Zimmer muss vor Check-in sauber sein."
+
+#~ msgid "Room model"
+#~ msgstr "Zimmermodell"
+
+#~ msgid "Room's Calendar"
+#~ msgstr "Zimmerkalender"
+
+#~ msgid "Rooms List"
+#~ msgstr "Zimmerliste"
+
+#~ msgid ""
+#~ "Select a room or, holding down the shift key, you should be able to "
+#~ "select several rooms."
+#~ msgstr ""
+#~ "Wählen Sie ein Zimmer aus oder halten Sie die Shift-Taste gedrückt, um "
+#~ "mehrere Zimmer auszuwählen."
+
+#~ msgid ""
+#~ "Select your scheduling type. Select the value and click on submit to "
+#~ "apply the changes."
+#~ msgstr ""
+#~ "Wählen Sie Ihren Planungstypen aus. Wählen Sie den Wert aus und klicken "
+#~ "Sie auf \"Senden\", um die Änderungen zu speichern."
+
+#~ msgid ""
+#~ "Slave mode disabling all features embedded to become only slave of remote "
+#~ "PMS using FIAS protocol (Oracle)"
+#~ msgstr ""
+#~ "Slave-Modus deaktiviert alle integrierten Funktionen, um nur Slave des "
+#~ "Fernüberwachungssystem PMS unter Verwendung eines FIAS-Protokolls "
+#~ "(Oracle) zu werden"
+
+#~ msgid "Some comments can be filled, this one is attached at the customer."
+#~ msgstr ""
+#~ "Einige Kommentare können ausgefüllt werden, dieser ist dem Kunden "
+#~ "zugeordnet."
+
+#~ msgid "Subject : eg. Your invoice."
+#~ msgstr "Betreff: z. B. Ihre Rechnung."
+
+#~ msgid "TIN field is present for Europe only."
+#~ msgstr "TIN-Feld ist nur für Europa vorhanden."
+
+#~ msgid "Taxe"
+#~ msgstr "Gebühr"
+
+#~ msgid ""
+#~ "The general section provides all the Property Manager settings that you "
+#~ "need."
+#~ msgstr ""
+#~ "Der allgemeine Abschnitt enthält alle Einstellungen des Property Manager, "
+#~ "die Sie benötigen."
+
+#~ msgid ""
+#~ "The graph gives an overview of your property at a glane showing room "
+#~ "availability and occupancy."
+#~ msgstr ""
+#~ "Das Diagramm bietet eine Übersicht Ihrer Unterkunft, auf der Sie auf "
+#~ "einen Blick die Zimmerverfügbarkeit und Belegung sehen können."
+
+#~ msgid "The receiptionists extension ("
+#~ msgstr "Die Rezeptionsnebenstelle ("
+
+#~ msgid "This page gives a list of customer which can be modified or deleted."
+#~ msgstr "Auf dieser Seite können Sie eine Kundenliste ändern oder löschen."
+
+#~ msgid ""
+#~ "This page gives a list of maid services. From here you can add or delete "
+#~ "services."
+#~ msgstr ""
+#~ "Auf dieser Seite können Sie eine Liste mit Reinigungsservices einsehen "
+#~ "und Services hinzufügen oder löschen."
+
+#~ msgid ""
+#~ "This page gives a list of rooms. You can change the use of the extension, "
+#~ "to be an administrative room or a room extension."
+#~ msgstr ""
+#~ "Auf dieser Seite befindet sich eine Liste mit Zimmern. Sie können die "
+#~ "Verwendung der Nebenstelle ändern, entweder in eine "
+#~ "Verwaltungsnebenstelle oder eine Zimmernebenstelle."
+
+#~ msgid ""
+#~ "This page gives a remote action control list. When a room is checked-in, "
+#~ "the url is used to send any simple requests to a specific device like for "
+#~ "example some IP relay through the URL."
+#~ msgstr ""
+#~ "Auf dieser Seite befindet sich eine Fernbedienungsliste. Wenn in ein "
+#~ "Zimmer eingecheckt wird, wird die URL verwendet, um einfache Anfragen an "
+#~ "ein einfaches Gerät zu senden, zum Beispiel ein IP-Relais über die URL."
+
+#~ msgid ""
+#~ "This page gives list of products for use with the mini-bar. Only one "
+#~ "production can be associated with a single digit."
+#~ msgstr ""
+#~ "Auf dieser Seite befindet sich eine Liste mit Produkten für die "
+#~ "Verwendung in der Minibar. Einem Produkt kann jeweils nur eine Ziffer "
+#~ "zugeordnet werden."
+
+#~ msgid "This page gives some information about your property"
+#~ msgstr ""
+#~ "Auf dieser Seite finden Sie weitere Informationen über Ihre Unterkunft"
+
+#~ msgid "This page gives you a log of the events."
+#~ msgstr "Auf dieser Seite finden Sie ein Ereignisprotokoll."
+
+#~ msgid "This page is for managing bookings and arrivals."
+#~ msgstr "Diese Seite dient zur Verwaltung von Buchungen und Ankünften."
+
+#~ msgid "Tourist Tax : Write whatever about this content."
+#~ msgstr "Touristensteuer: Schreiben Sie einen Inhalt nach Wunsch."
+
+#~ msgid "Try to sort the product by Type e.g: Bar, Starter, ..."
+#~ msgstr ""
+#~ "Versuchen Sie, das Produkt nach Typ zu sortieren, z. B. Bar, Starter ..."
+
+#~ msgid ""
+#~ "Warning!!! There is no way to undo a deletion after clicking on delete."
+#~ msgstr ""
+#~ "Warnung! Eine Löschung kann nicht rückgängig gemacht werden, nachdem Sie "
+#~ "auf \"Löschen\" gedrückt haben."
+
+#~ msgid ""
+#~ "When clicking on 'More', two fields will appear: Payment Mode, and Money "
+#~ "Advance."
+#~ msgstr ""
+#~ "Wenn Sie auf 'Mehr' klicken, erscheinen zwei Felder: Zahlungsart und "
+#~ "Anzahlung."
+
+#~ msgid ""
+#~ "When clicking the 'More' button: you can set more informations like "
+#~ "address, city ..."
+#~ msgstr ""
+#~ "Wenn Sie auf die Schaltfläche 'Mehr' klicken, können Sie weitere "
+#~ "Informationen, wie Adresse, Stadt usw. eingeben"
+
+#~ msgid ""
+#~ "When there's a booking of the day, a windows appears below of the "
+#~ "Property Manager menu giving a link to the list of bookings."
+#~ msgstr ""
+#~ "Wenn eine Buchung des Tages vorhanden ist, erscheint unter dem Property-"
+#~ "Manager-Menü ein Fenster mit einem Link zur Buchungsliste."
+
+#~ msgid ""
+#~ "You can add some products with or without images. This image will be used "
+#~ "in the banner in the customer facing url."
+#~ msgstr ""
+#~ "Sie können einige Produkte mit oder oder Bildern hinzufügen. Dieses Bild "
+#~ "wird im Banner verwendet, das der Kunde zu sehen bekommt."
+
+#~ msgid ""
+#~ "You can read your own room status, mini bar, send a message to the "
+#~ "receptionist, or check your phone consumptions."
+#~ msgstr ""
+#~ "Sie können Ihren eigenen Zimmerstatus und die Minibar einsehen, der "
+#~ "Rezeption eine Meldung senden oder Ihren Telefonverbrauch einsehen."
+
+#~ msgid ""
+#~ "You can select a type of departure (field 'When') : Now, Scheduled, or "
+#~ "Other date"
+#~ msgstr ""
+#~ "Sie können einen Abreisetyp auswählen (Feld 'Wann'): Jetzt, geplant oder "
+#~ "Anderes Datum"
+
+#~ msgid ""
+#~ "appears until an wake up call scheduled for this room become completed."
+#~ msgstr ""
+#~ "erscheint, bis ein für dieses Zimmer geplanter Weckanruf beendet ist."
+
+#~ msgid ""
+#~ "eg.: If a customer originally books a single bed room and adds an "
+#~ "additional person later, you can increase the price with this feature."
+#~ msgstr ""
+#~ "z. B.: Wenn ein Kunde ursprünglich ein Einzelzimmer gebucht hat und "
+#~ "später eine weitere Person hinzufügt, können Sie den Preis mithilfe "
+#~ "dieser Funktion erhöhen."
+
+#~ msgid "for performing a room transfer."
+#~ msgstr "für die Durchführung einer Zimmerübertragung."
+
+#~ msgid ""
+#~ "to change the use of the extension as administrative extension. Click on "
+#~ "Apply button on top of page and click on submit button to save the "
+#~ "changes."
+#~ msgstr ""
+#~ "um die Verwendung der Nebenstelle als Verwaltungsnebenstelle zu ändern. "
+#~ "Klicken Sie auf die Schaltfläche \"Anwenden\" oben auf der Seite und "
+#~ "klicken Sie auf die Schaltfläche \"Senden\", um die Änderungen zu "
+#~ "speichern."
+
+#~ msgid ""
+#~ "to change the use of the extension as room extension. Apply the changes "
+#~ "clicking the button on top. Change the model of the room and submit the "
+#~ "changes."
+#~ msgstr ""
+#~ "um die Verwendung der Nebenstelle als Zimmernebenstellung zu ändern. "
+#~ "Wenden Sie die Änderungen an, indem Sie auf die Schaltfläche oben "
+#~ "klicken. Ändern Sie das Modell des Zimmers und übermitteln Sie die "
+#~ "Änderungen."
+
+#~ msgid "* Updating digit : "
+#~ msgstr "* Ziffer wird aktualisiert: "
+
+#~ msgid "Adding model : "
+#~ msgstr "Modell hinzufügen: "
+
+#~ msgid "Adding product :"
+#~ msgstr "Produkt hinzufügen:"
+
+#~ msgid ""
+#~ "Billing rate is not fully completed. Please enter all rate before "
+#~ "performing any check-out."
+#~ msgstr ""
+#~ "Rechnungspreis ist nicht vollständig. Bitte geben Sie alle Preise an, "
+#~ "bevor Sie auschecken."
+
+#~ msgid "Calling receptionist :"
+#~ msgstr "Rezeption wird angerufen:"
+
+#~ msgid "Change invoice not paid in to paid status"
+#~ msgstr "Rechnung von nicht gezahltem Status in gezahlten Status ändern"
+
+#~ msgid "Delete event for discounting : "
+#~ msgstr "Ereignis für Diskontierung löschen: "
+
+#~ msgid "Deleteing guest done for guest id : "
+#~ msgstr "Gast löschen abgeschlossen für Gast-ID: "
+
+#~ msgid "Deleteinging room : "
+#~ msgstr "Zimmer wird gelöscht: "
+
+#~ msgid "Deleting file : "
+#~ msgstr "Datei wird gelöscht: "
+
+#~ msgid "Deleting product :"
+#~ msgstr "Produkt wird gelöscht:"
+
+#~ msgid "Deleting product in restaurant :"
+#~ msgstr "Produkt im Restaurant wird gelöscht:"
+
+#~ msgid "Deleting taxe :"
+#~ msgstr "Gebühr wird gelöscht:"
+
+#~ msgid "Downloading invoice in progress : "
+#~ msgstr "Rechnung in Bearbeitung herunterladen: "
+
+#~ msgid "Downloading report in progress : "
+#~ msgstr "Bericht in Bearbeitung herunterladen: "
+
+#~ msgid "Edit model : "
+#~ msgstr "Modell bearbeiten: "
+
+#~ msgid "Emergency is called."
+#~ msgstr "Notfall wird aufgerufen."
+
+#~ msgid "Fill this part please."
+#~ msgstr "Füllen Sie diesen Teil aus."
+
+#~ msgid "Insert product : "
+#~ msgstr "Produkt einfügen: "
+
+#~ msgid "Invoice :"
+#~ msgstr "Rechnung:"
+
+#~ msgid ""
+#~ "Mini-bar (Default: *37), is able to add some drinks to the room, which "
+#~ "will be used during the billing.<br>When the chambermaid cleans the room, "
+#~ "she could check the mini-bar and enter all drinks used by the guest."
+#~ "<br>Eg: Dial *37 and when you hear the prompt dial 1 2 2 followed by * (* "
+#~ "to save your order )<br>(1 could be a Coca, and 2 could be a Whiskey). So "
+#~ "1 Coca and 2 Whiskey, total 3 drinks."
+#~ msgstr ""
+#~ "Minibar (Standard: *37) kann Getränke auf das Zimmer buchen, die in der "
+#~ "Rechnungslegung berücksichtigt werden.<br>Wenn das Zimmermädchen das "
+#~ "Zimmer reinigt, könnte sie die Minibar prüfen und alle durch den Gast "
+#~ "verbrauchten Getränke eingeben.<br>Zum Beispiel: Wählen Sie *37 und nach "
+#~ "dem Ton anschließend 1 2 2 sowie * (* um Ihre Bestellung zu "
+#~ "speichern)<br>(1 könnte Cola, 2 könnte Whiskey bedeuten). Also 1 Cola und "
+#~ "2 Whiskey, insgesamt 3 Getränke."
+
+#~ msgid "Money advance :"
+#~ msgstr "Geldvorschuss:"
+
+#~ msgid "Money advance : <br>"
+#~ msgstr "Geldvorschuss: <br>"
+
+#~ msgid "Next add some users in each group."
+#~ msgstr "Fügen Sie als nächstes jeder Gruppe einige Benutzer hinzu."
+
+#~ msgid "Number of users for accountings : "
+#~ msgstr "Anzahl der Benutzer für die Buchhaltung: "
+
+#~ msgid "Number of users for customers : "
+#~ msgstr "Anzahl der Benutzer für Kunden: "
+
+#~ msgid "Number of users for receptionist : "
+#~ msgstr "Anzahl der Benutzer für die Rezeption: "
+
+#~ msgid "Number of users for restaurant : "
+#~ msgstr "Anzahl der Benutzer für das Restaurant: "
+
+#~ msgid "Privileges is changed for accountings : "
+#~ msgstr "Privilegien wird für die Buchhaltung geändert: "
+
+#~ msgid "Privileges is changed for customers : "
+#~ msgstr "Privilegien wird für Kunden geändert: "
+
+#~ msgid "Privileges is changed for receptionist : "
+#~ msgstr "Privilegien wird für die Rezeption geändert: "
+
+#, fuzzy
+#~ msgid "Q.T"
+#~ msgstr "Q.T"
+
+#~ msgid "Q.T."
+#~ msgstr "Menge"
+
+#~ msgid "Remains to be paid :"
+#~ msgstr "Noch zu zahlen:"
+
+#~ msgid "Remains to be paid : "
+#~ msgstr "Noch zu zahlen: "
+
+#~ msgid "Saving taxe :"
+#~ msgstr "Gebühren speichern:"
+
+#~ msgid "Taxe :"
+#~ msgstr "Gebühr:"
+
+#~ msgid "Taxe Inc"
+#~ msgstr "Gebühr inkl"
+
+#~ msgid "Taxes : "
+#~ msgstr "Gebühren: "
+
+#~ msgid "The product need to be entered for the digit "
+#~ msgstr "Der Artikel muss für die Zahl eingegeben werden "
+
+#~ msgid ""
+#~ "There is no room types setup for your property. You must create at least "
+#~ "one to continue!"
+#~ msgstr ""
+#~ "Es sind keine Zimmertypeinstellungen für Ihre Unterkunft vorhanden. Sie "
+#~ "müssen mindestens eine erstellen, um fortzufahren!"
+
+#~ msgid "There's rate of discount to change. Discount rate :"
+#~ msgstr "Ein Diskontsatz muss geändert werden. Diskontsatz:"
+
+#~ msgid "Total :"
+#~ msgstr "Insgesamt:"
+
+#~ msgid "Total : "
+#~ msgstr "Insgesamt: "
+
+#~ msgid "Tourist Tax :"
+#~ msgstr "Touristensteuer:"
+
+#~ msgid "Tourist Tax : "
+#~ msgstr "Touristensteuer: "
+
+#~ msgid "Transfert room done!"
+#~ msgstr "Zimmerübertragung fertig!"
+
+#~ msgid "Transfert room done."
+#~ msgstr "Zimmerübertragung fertig."
+
+#~ msgid "Transfert room in progress from :"
+#~ msgstr "Zimmer wird übertragen von:"
+
+#~ msgid "U.P."
+#~ msgstr "U.P."
+
+#~ msgid "UCP password :"
+#~ msgstr "UCP-Passwort:"
+
+#~ msgid "Unable to delete cause, this guest is still in his room! ID : "
+#~ msgstr ""
+#~ "Kann Ursache nicht löschen, dieser Gast befindet sich noch immer in "
+#~ "seinem Zimmer! ID: "
+
+#~ msgid "Unable to save. The number of available  services has been exceeded."
+#~ msgstr ""
+#~ "Kann nicht speichern. Die Anzahl der verfügbaren Services wurde "
+#~ "überschritten."
+
+#~ msgid "Updating digit : "
+#~ msgstr "Zahl wird aktualisiert: "
+
+#~ msgid "Updating model : "
+#~ msgstr "Modell wird aktualisiert: "
+
+#~ msgid "Updating product : "
+#~ msgstr "Produkt wird aktualisiert: "
+
+#~ msgid "Updating room :"
+#~ msgstr "Zimmer wird aktualisiert:"
+
+#~ msgid "Updating taxe :"
+#~ msgstr "Gebühr wird aktualisiert:"
+
+#~ msgid "Uploading file : "
+#~ msgstr "Datei wird hochgeladen: "
+
+#~ msgid "Warning ! There are no rooms available to perform this check-in."
+#~ msgstr ""
+#~ "Warnung! Es sind keine Zimmer verfügbar, um diesen Check-in durchzuführen."
+
+#~ msgid "Warning ! This room is not available for this period."
+#~ msgstr "Warnung! Dieses Zimmer in diesem Zeitraum nicht verfügbar."
+
+#~ msgid ""
+#~ "Warning ! This room is occupied for the selected date, please choose a "
+#~ "different room"
+#~ msgstr ""
+#~ "Warnung! Dieses Zimmer ist am ausgewählten Datum belegt, bitte wählen Sie "
+#~ "ein anderes Zimmer aus"
+
+#~ msgid ""
+#~ "You are currently using the free version which has a limit of 10 rooms. "
+#~ "For more rooms, visit our website and purchase a license"
+#~ msgstr ""
+#~ "Sie nutzen derzeit die kostenlose Version, die auf 10 Zimmer begrenzt "
+#~ "ist. Besuchen Sie unsere Website und erwerben Sie eine Lizenz, wenn Sie "
+#~ "mehr Zimmer benötigen"
+
+#~ msgid "discounting"
+#~ msgstr "wird diskontiert"
+
+#~ msgid "for extension :"
+#~ msgstr "für Nebenstelle:"
+
+#, fuzzy
+#~ msgid "FrontDesk HPMS"
+#~ msgstr "FrontDesk HPMS"
+
+#~ msgid "You don't have any acces for using this module!!"
+#~ msgstr "Sie sind nicht berechtigt, dieses Modul zu verwenden!"
+
+#~ msgid ""
+#~ "Mini-bar (Default: *37), is able to add some drinks to the room, which "
+#~ "will be used during the billing.<br>When the chambermaid cleans the room, "
+#~ "she could check the mini-bar and enter all drinks used by the guest."
+#~ "<br>Eg: *37122#<br>(1 could be a Coca, and 2 could be a Whiskey). So 1 "
+#~ "Coca and 2 Whiskey, total 3 drinks."
+#~ msgstr ""
+#~ "Minibar (Standardmäßig: *37) kann dem Zimmer einige Getränke hinzufügen, "
+#~ "die auf der Rechnung aufgeführt werden.<br>Wenn die Reinigungskraft das "
+#~ "Zimmer reinigt, könnte sie die Minibar überprüfen und alle vom Gast "
+#~ "genutzten Getränke eingeben.<br>z. B.: *37122#<br>(1 könnte Cola sein, 2 "
+#~ "könnte Whiskey sein). Also 1 Cola und 2 Whiskey, insgesamt 3 Getränke."
+
+#~ msgid "ro"
+#~ msgstr "Zi"

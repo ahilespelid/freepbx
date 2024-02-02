@@ -1,0 +1,1220 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sangomaconnect
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-16 13:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"    );\n"
+"  });\n"
+"\n"
+"Cookie.prototype.inspect = function inspect() {\n"
+"  var now = Date.now();\n"
+"  return "
+msgstr ""
+
+msgid ""
+" to find the RPM corresponds to your running version of asterisk and install "
+"the package and then execute 'asterisk -rx \"core restart now\" command to "
+"load the configuration."
+msgstr ""
+
+msgid ""
+"\"()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i,\"uri-template\":c,url:u,email:/^[a-z0-9!#"
+"$%&"
+msgstr ""
+
+msgid ""
+"\"()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i;\n"
+"// uri-template: https://tools.ietf.org/html/rfc6570\n"
+"var URITEMPLATE = /^(?:(?:[^\\x00-\\x20\""
+msgstr ""
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+msgid "()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i,c=/^(?:(?:[^\\x00-\\x20\""
+msgstr ""
+
+msgid ""
+"()*+,;=:@/?]|%[0-9a-f]{2})*)?$/i;\n"
+"var URIREF = /^(?:[a-z][a-z0-9+\\-.]*:)?(?:\\/?\\/(?:(?:[a-z0-9\\-._~!$&"
+msgstr ""
+
+msgid ""
+"()*+,;=:]+)\\]|(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(?:25[0-5]|"
+"2[0-4]\\d|[01]?\\d\\d?)|(?:[a-z0-9\\-._~!$&"
+msgstr ""
+
+msgid ""
+")\n"
+"    {\n"
+"      this[prop] = options[prop];\n"
+"    }\n"
+"  }, this);\n"
+"\n"
+"  this.creation = this.creation || new Date();\n"
+"\n"
+"  // used to break creation ties in cookieCompare():\n"
+"  Object.defineProperty(this, "
+msgstr ""
+
+msgid ""
+"), key, id]).then(function (results) {\n"
+"\t\t\t\t\t\t\tif (results.length) {\n"
+"\t\t\t\t\t\t\t\treturn _this3.deleteBlob(results[0].val);\n"
+"\t\t\t\t\t\t\t} else {\n"
+"\t\t\t\t\t\t\t\treturn _bluebird.Promise.resolve(null);\n"
+"\t\t\t\t\t\t\t}\n"
+"\t\t\t\t\t\t}).then(function (result) {\n"
+"\t\t\t\t\t\t\tif (result) {\n"
+"\t\t\t\t\t\t\t\treturn _this3.query("
+msgstr ""
+
+msgid ""
+"), key, id]).then(function (results) {\n"
+"\t\t\t\t\t\tif (results.length > 1) {\n"
+"\t\t\t\t\t\t\treturn _this8.deleteBlob(results[0].val);\n"
+"\t\t\t\t\t\t} else {\n"
+"\t\t\t\t\t\t\treturn _bluebird.Promise.resolve(null);\n"
+"\t\t\t\t\t\t}\n"
+"\t\t\t\t\t}).then(function (result) {\n"
+"\t\t\t\t\t\treturn _this8.query("
+msgstr ""
+
+msgid ""
+"), key, id]);\n"
+"\t\t\t\t\t\t\t} else {\n"
+"\t\t\t\t\t\t\t\treturn _bluebird.Promise.resolve(null);\n"
+"\t\t\t\t\t\t\t}\n"
+"\t\t\t\t\t\t}).then(function (result) {\n"
+"\t\t\t\t\t\t\treturn _this3.insertBlob(value, type);\n"
+"\t\t\t\t\t\t}).then(function (uid) {\n"
+"\t\t\t\t\t\t\treturn _this3.query("
+msgstr ""
+
+msgid ""
+"), key, id]);\n"
+"\t\t\t\t\t}).then(function (res) {\n"
+"\t\t\t\t\t\tresolve(true);\n"
+"\t\t\t\t\t}).catch(function (error) {\n"
+"\t\t\t\t\t\treject(error);\n"
+"\t\t\t\t\t});\n"
+"\t\t\t\t} else {\n"
+"\t\t\t\t\t_this8.query("
+msgstr ""
+
+msgid "), key, uid, "
+msgstr ""
+
+msgid ""
+"), key, value, type, id]).then(function (results) {\n"
+"\t\t\t\t\t\t\tresolve(results.affectedRows);\n"
+"\t\t\t\t\t\t}).catch(function (error) {\n"
+"\t\t\t\t\t\t\treject(error);\n"
+"\t\t\t\t\t\t});\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t} else {\n"
+"\t\t\t\t\t_this3.query("
+msgstr ""
+
+msgid ""
+"A mandatory rpm package ('asteriskXX.X-freepbx_asterisk_modules' - XX.X "
+"stands for your asterisk version) is missing is missing. Please visit the "
+msgstr ""
+
+msgid ""
+"A mandatory rpm package ('asteriskXX.X-freepbx_asterisk_modules' - XX.X "
+"stands for your asterisk version) is missing. Please visit the "
+msgstr ""
+
+msgid "Access"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Emergency Number"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address to bind to"
+msgstr ""
+
+msgid "Address to use in Contact and Via SIP headers"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Advanced mobile app network settings"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+msgid "Authentication Status"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Boostrap Toggle Example"
+msgstr ""
+
+msgid "Bootstrap Select"
+msgstr ""
+
+msgid "Bootstrap Select Example"
+msgstr ""
+
+msgid "Bootstrap Table"
+msgstr ""
+
+msgid "Bootstrap Table Example"
+msgstr ""
+
+msgid "Bootstrap Toggle"
+msgstr ""
+
+msgid "Build"
+msgstr ""
+
+msgid "Bulk Enable Users"
+msgstr ""
+
+msgid "CPU"
+msgstr ""
+
+msgid ""
+"Changes to settings on this tab may require Sangoma Connect clients to be re-"
+"provisioned."
+msgstr ""
+
+msgid "Changing Websocket Mode to PJSIP"
+msgstr ""
+
+msgid "Checking module cloud activation status"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Cloud not find sms interaction user"
+msgstr ""
+
+msgid "CloudConnect Agent Status:"
+msgstr ""
+
+msgid ""
+"CloudConnect Agent will securely connect SangomaConnect server running on "
+"the PBX to the Sangoma Cloud, in order to facilitate remote user control."
+msgstr ""
+
+msgid ""
+"CloudConnect, enables ability to provision SangomaConnect mobile apps "
+"without requiring to open a public port within the corporate firewall."
+msgstr ""
+
+msgid "Command to run (see --help)"
+msgstr ""
+
+msgid "Configuration Information"
+msgstr ""
+
+msgid "DID "
+msgstr ""
+
+#, php-format
+msgid "Date/Time: %s"
+msgstr ""
+
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+msgid "Default Extension"
+msgstr ""
+
+msgid ""
+"Default certificate not available. Please select a default certificate under "
+"certman module."
+msgstr ""
+
+msgid "Default transport"
+msgstr ""
+
+#, php-format
+msgid "Deployment id: %s"
+msgstr ""
+
+#, php-format
+msgid "Deployment registration API response message: %s"
+msgstr ""
+
+#, php-format
+msgid "Deployment ssl API response message: %s"
+msgstr ""
+
+msgid "Desktop Users"
+msgstr ""
+
+msgid "Device"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Disable SangomaConnect"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid ""
+"Disabling Sangoma Connect Mobile will disable Sangoma Phone desktop clients "
+"as well. Do you want to continue?"
+msgstr ""
+
+msgid "Disconnecting all client sessions"
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+#, php-format
+msgid "Domain not configured, please generate your SSL certificates"
+msgstr ""
+
+#, php-format
+msgid "Domain: %s"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "Emergency Calls Handling"
+msgstr ""
+
+msgid "Emergency Numbers"
+msgstr ""
+
+msgid "Empty data array."
+msgstr ""
+
+msgid "Enable Advanced mobile app network settings"
+msgstr ""
+
+msgid "Enable EndCallTone for this user"
+msgstr ""
+
+msgid "Enable SMS"
+msgstr ""
+
+msgid "Enable SMS for this user in SangomaConnect"
+msgstr ""
+
+msgid "Enable Sangoma Phone Login"
+msgstr ""
+
+msgid "Enable SangomaConnect"
+msgstr ""
+
+msgid "Enable SangomaConnect for this user"
+msgstr ""
+
+msgid "Enable SangomaConnect tab"
+msgstr ""
+
+msgid "Enable Sangomaconnect service"
+msgstr ""
+
+msgid "Enable Users"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enabled EndCallTone"
+msgstr ""
+
+msgid "Enabling this is required for users to use Sangoma Phone Desktop Client"
+msgstr ""
+
+msgid "Enabling..."
+msgstr ""
+
+msgid "External"
+msgstr ""
+
+msgid ""
+"External SIP NAT address not configured, please configure your External SIP "
+"IP in the Advanced SIP settings"
+msgstr ""
+
+#, php-format
+msgid "Failed to get organization token and information for deployment %s"
+msgstr ""
+
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr ""
+
+msgid "Failed updating libraries!"
+msgstr ""
+
+msgid "Failed!"
+msgstr ""
+
+msgid "Finished updating libraries!"
+msgstr ""
+
+msgid "Firewall rules for Sangomaconnect were added succesfully"
+msgstr ""
+
+msgid "Firewall rules for Sangomaconnect were removed succesfully"
+msgstr ""
+
+msgid "Follow Me"
+msgstr ""
+
+msgid ""
+"For extensions that have Transport set to \"Auto\", this setting will "
+"determine the default transport used for Sangoma Connect client signaling. "
+"For extensions that do not have Transport set to \"Auto\", this setting is "
+"ignored."
+msgstr ""
+
+msgid "For more information about this issue please see: "
+msgstr ""
+
+msgid "Forced Contact"
+msgstr ""
+
+msgid "Generate Password"
+msgstr ""
+
+msgid "HELLO UCP"
+msgstr ""
+
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+msgid "Hello World Settings"
+msgstr ""
+
+#, perl-format
+msgid "Hello World has been loaded at %s"
+msgstr ""
+
+msgid "Hello World!"
+msgstr ""
+
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr ""
+
+msgid "ICE"
+msgstr ""
+
+msgid ""
+"IP address or FQDN for Sangoma Connect registration. If using TLS signaling, "
+"this must be the FQDN associated with the PJSIP TLS/SSL certificate"
+msgstr ""
+
+msgid ""
+"If set, it will not check for symmetric NAT and will use the public IP if "
+"instructed so even when on symmetric NAT"
+msgstr ""
+
+msgid ""
+"If the user has multiple SMS DIDs, this is the DID that is used as caller ID "
+"when the user sends a new text message. If the user receives a text message "
+"that was sent to another of their DIDs, their response will include caller "
+"ID of that DID, not the DID indicated here."
+msgstr ""
+
+msgid "Ignore Symmetric NAT"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Initializing node dependencies"
+msgstr ""
+
+#, php-format
+msgid "Installing CloudConnect Agent version to %s"
+msgstr ""
+
+msgid "Internal"
+msgstr ""
+
+msgid "Invalid SangomaConnect Service bind port setting"
+msgstr ""
+
+msgid "Invalid credentials"
+msgstr ""
+
+msgid "Invalid parameters"
+msgstr ""
+
+msgid "Invite"
+msgstr ""
+
+msgid "Invite Users"
+msgstr ""
+
+msgid "Inviting..."
+msgstr ""
+
+msgid "Link URL"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Locale"
+msgstr ""
+
+#, php-format
+msgid "Locale: %s"
+msgstr ""
+
+msgid "Mobile Users"
+msgstr ""
+
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Nat Traversal"
+msgstr ""
+
+#, php-format
+msgid ""
+"Nat traversal mode to use. This setting controls which addresses will be put "
+"into SDP. More info on: %s"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No DID assigned to user"
+msgstr ""
+
+#, php-format
+msgid "No PBXID file found, not registering module to cloud."
+msgstr ""
+
+msgid "Node Package Manager is not installed"
+msgstr ""
+
+msgid "Node is not installed"
+msgstr ""
+
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Not Installed"
+msgstr ""
+
+msgid "Not Running"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password for STUN/TURN server."
+msgstr ""
+
+msgid "Perform CloudConnect Agent Action"
+msgstr ""
+
+msgid "Perform Domain Operation"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Platform Version"
+msgstr ""
+
+msgid "Please set a default directory in User Manager"
+msgstr ""
+
+msgid "Poll"
+msgstr ""
+
+msgid "Poll Example"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Port to bind to. Default is 8443"
+msgstr ""
+
+msgid "Process"
+msgstr ""
+
+msgid "Registering deployment to cloud"
+msgstr ""
+
+msgid "Registration Address"
+msgstr ""
+
+msgid "Remove Users"
+msgstr ""
+
+msgid "Removing..."
+msgstr ""
+
+#, php-format
+msgid ""
+"RestApps HTTPS port is not enabled. You can enable the port on the %s Port "
+"Management Page %s"
+msgstr ""
+
+#, php-format
+msgid "Restarting CloudConnect Agent"
+msgstr ""
+
+msgid "Run CloudConnect Agent action"
+msgstr ""
+
+msgid "Run Domain Action"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr ""
+
+msgid "STUN Server to use"
+msgstr ""
+
+msgid "Sangoma Connect Mobile App"
+msgstr ""
+
+msgid "Sangoma Phone Desktop Client"
+msgstr ""
+
+msgid "Sangoma Phone Desktop Client Host Address"
+msgstr ""
+
+msgid "Sangoma Phone Desktop Client Port"
+msgstr ""
+
+msgid "Sangoma Phone Desktop Client Service"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client Service is disabled in Sysadmin Port Management"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client Service is not available or licensed to use. "
+"Please make sure the sangomaconnect module is installed and enabled."
+msgstr ""
+
+#, php-format
+msgid ""
+"Sangoma Phone Desktop Client Service port is not enabled. You can enable the "
+"port on the %s Port Management Page %s"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client requires PJSIP WebSocket mode.\n"
+"    (Advanced Settings-> Asterisk Builtin mini-HTTP server->Force WebSocket "
+"Mode.\n"
+"\t )"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client requires PJSIP WebSocket mode. (Advanced "
+"Settings-> Asterisk Builtin mini-HTTP server->Force WebSocket Mode.)"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client requires Sangoma Realtime API module. Please "
+"install/enable it."
+msgstr ""
+
+#, php-format
+msgid ""
+"Sangoma Phone Desktop Client requires WS to be enabled. You can enable it on "
+"the %s SIP Settings Page %s"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client requires res_pjsip_transport_websocket.so "
+"module to be running:\n"
+"    (this is included in freepbx, but first TLS for the mini-http server "
+"must be Enabled from Advanced Settings-> Asterisk Builtin mini-HTTP server-"
+">Enable TLS for the mini-HTTP Server.)"
+msgstr ""
+
+msgid ""
+"Sangoma Phone Desktop Client requires res_pjsip_transport_websocket.so "
+"module to be running: (this is included in freepbx, but first TLS for the "
+"mini-http server must be Enabled from Advanced Settings-> Asterisk Builtin "
+"mini-HTTP server->Enable TLS for the mini-HTTP Server.)"
+msgstr ""
+
+msgid "SangomaConnect"
+msgstr ""
+
+msgid "SangomaConnect Not licensed"
+msgstr ""
+
+msgid "SangomaConnect Server Daemon"
+msgstr ""
+
+#, php-format
+msgid "SangomaConnect Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "SangomaConnect Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "SangomaConnect Server info"
+msgstr ""
+
+msgid "SangomaConnect Server is not running"
+msgstr ""
+
+msgid "SangomaConnect functions"
+msgstr ""
+
+#, php-format
+msgid "SangomaConnect module installed but disabled"
+msgstr ""
+
+#, php-format
+msgid ""
+"SangomaConnect module installed but not activated. Please buy a license and "
+"activate the module"
+msgstr ""
+
+#, php-format
+msgid "SangomaConnect module is registered to the cloud for deployment %s"
+msgstr ""
+
+msgid "SangomaConnect not licensed for this system"
+msgstr ""
+
+msgid "SangomaConnect provides a mobile client application support for FreePBX"
+msgstr ""
+
+msgid "SangomaConnect server is not running"
+msgstr ""
+
+msgid "SangomaConnect:"
+msgstr ""
+
+msgid "Sangomaconnect"
+msgstr ""
+
+msgid "Sangomaconnect Cloud Token"
+msgstr ""
+
+msgid "Sangomaconnect Command Token"
+msgstr ""
+
+msgid "Sangomaconnect License Info"
+msgstr ""
+
+msgid "Sangomaconnect domain"
+msgstr ""
+
+msgid "Sangomaconnect server Bind Address"
+msgstr ""
+
+msgid "Sangomaconnect server Bind Port"
+msgstr ""
+
+msgid "Sangomaconnect server TLS Certificate Location"
+msgstr ""
+
+msgid "Sangomaconnect server TLS Private Key Location"
+msgstr ""
+
+msgid "Sangomaconnect server domain"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Send SangomaConnect Mobile App Invitation Email"
+msgstr ""
+
+msgid ""
+"Send an invitation e-mail to the current user, this e-mail will be sent from "
+"the Sangoma Cloud e-mail infrastructure."
+msgstr ""
+
+msgid "Server error"
+msgstr ""
+
+msgid "Set Country Code For SMS/MMS"
+msgstr ""
+
+msgid "Set deployment display name."
+msgstr ""
+
+msgid ""
+"Set the country code for SMS/MMS, this code will add as a prefix with the "
+"number while sending the SMS/MMS"
+msgstr ""
+
+msgid ""
+"Set the preferred way for app to dial the emergency numbers, this option is "
+"applicable for emergency numbers which you have added in the \"Emergency "
+"Numbers\" option</br><b>SangomaConnect Client:-</b>Dial the emergency "
+"numbers from sangoma connect.</br><b>Phone Cellular Dialer:-</b>Dial the "
+"emergency numbers from phone native dialer."
+msgstr ""
+
+msgid ""
+"Set this value to a hostname (preferred), or IP that Sangoma Phone desktop "
+"client users can reach the PBX with. For example: freepbx.domain.com Users "
+"will need to use this address (with the Sangoma Phone Desktop Client Service "
+"secure port) when logging in to Sangoma Phone desktop clients. If users are "
+"both local and remote to the PBX, setting this to a FQDN is recommended. It "
+"is also recommended that your HTTPS SSL certificate's common name is based "
+"on the value set here."
+msgstr ""
+
+msgid "Sets the path to the HTTPS private key"
+msgstr ""
+
+msgid "Sets the path to the HTTPS server certificate"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show BLF on Favorite Contacts"
+msgstr ""
+
+msgid "Show Presence Status Icons on Favorite Contacts"
+msgstr ""
+
+msgid "Show SangomaConnect tab with download link?"
+msgstr ""
+
+msgid "Some commands will require to use this field"
+msgstr ""
+
+msgid ""
+"Specifies which address to use in Contact and Via SIP headers: internal will "
+"use local/private, external will try to determine the public address using "
+"STUN ping, OPTIONS packet or STUN server, static will use the address "
+"specified in Forced Contact."
+msgstr ""
+
+#, php-format
+msgid "Started SangomaConnect Server. PID is %s"
+msgstr ""
+
+#, php-format
+msgid "Started with PID %s!"
+msgstr ""
+
+msgid "Starting SangomaConnect Server..."
+msgstr ""
+
+msgid "Starting SangomaConnect server Process..."
+msgstr ""
+
+msgid "Starting SangomaConnect services"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Stopped SangomaConnect Server"
+msgstr ""
+
+msgid "Stopping SangomaConnect Server"
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid "Stopping running SangomaConnect servers..."
+msgstr ""
+
+msgid "Stun Only"
+msgstr ""
+
+msgid "Stun Password"
+msgstr ""
+
+msgid "Stun Server"
+msgstr ""
+
+msgid "Stun Username"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "System not activated, cannot perform cloud activation"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "Temporary Password Generation"
+msgstr ""
+
+msgid ""
+"The SangomaConnect Server is disabled. Please Enable it from the module UI"
+msgstr ""
+
+msgid "The configured extension for this user is not PJSIP"
+msgstr ""
+
+msgid "The e-mail of this user is already used on the user: "
+msgstr ""
+
+msgid "The following error(s) were detected"
+msgstr ""
+
+msgid "The information about SangomaConnect license"
+msgstr ""
+
+msgid ""
+"The res_pjsip_transport_websocket.so module required for PJSIP websocket is "
+"not running. Please execute the command 'fwconsole restart' from the CLI to "
+"restart the asterisk to load this module."
+msgstr ""
+
+msgid "The token used by the smart office server cloud user"
+msgstr ""
+
+msgid ""
+"The token used to connect to the bind port. This is randomized per install"
+msgstr ""
+
+#, perl-format
+msgid "The window state is '%s'"
+msgstr ""
+
+msgid ""
+"There was an error adding the Sangomaconnect Network IPS to the cloud, "
+"please check firewall module is enabled"
+msgstr ""
+
+msgid ""
+"There was an error removing the Sangomaconnect Network IPS to the cloud, "
+"please check firewall module is enabled"
+msgstr ""
+
+msgid ""
+"This IP address will be used in Contact and Via headers in case the address "
+"to use is set to static"
+msgstr ""
+
+msgid "This authentication driver does not allow importing"
+msgstr ""
+
+#, php-format
+msgid ""
+"This port is used by the Sangoma Phone desktop client to communicate with "
+"the PBX. You can configure this port on the %s Port Management Page %s"
+msgstr ""
+
+msgid ""
+"This port provides access to services used by Sangoma Phone desktop clients "
+msgstr ""
+
+msgid "This product is not licensed"
+msgstr ""
+
+msgid "This user does not have an extension assigned"
+msgstr ""
+
+msgid ""
+"This user/extension has an Extension Mapping in Endpoint Manager (EPM) AND "
+"you are running an old version of EPM. You must either upgrade Endpoint "
+"Manager to current OR remove the Extension Mapping entry for this user/"
+"extension and re-add it after Sangoma Connect has been enabled"
+msgstr ""
+
+msgid ""
+"This will disconnect all SangomaConnect users and reset the SangomaConnect "
+"service. Are you sure?"
+msgstr ""
+
+msgid ""
+"This will disconnect all SangomaConnect users and stop the SangomaConnect "
+"service. Are you sure?"
+msgstr ""
+
+msgid ""
+"This will force a logout to the user that is associated to the requested e-"
+"mail address."
+msgstr ""
+
+#, perl-format
+msgid "Time since you started this session: %s"
+msgstr ""
+
+#, php-format
+msgid "Time: %s"
+msgstr ""
+
+#, php-format
+msgid "Timezone: %s"
+msgstr ""
+
+msgid "Toggle"
+msgstr ""
+
+#, php-format
+msgid "Token request API response message: %s"
+msgstr ""
+
+msgid "Turn always"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Use DNS SRV Record"
+msgstr ""
+
+msgid ""
+"Use DNS SRV Record. If it's set to yes then the system default port will not "
+"add with registration address. Registration address will remain same as you "
+"entered."
+msgstr ""
+
+msgid "User Settings go here"
+msgstr ""
+
+msgid "User Temporary Login Link"
+msgstr ""
+
+msgid "User doesn't exists"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid ""
+"Username for STUN/TURN server if filled in, we will consider the STUN server "
+"TURN-capable"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Valid Commands:\n"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Warning!!"
+msgstr ""
+
+msgid "What is SangomaConnect"
+msgstr ""
+
+msgid "What is SangomaConnect CloudConnect Agent?"
+msgstr ""
+
+msgid ""
+"When enabled Presence Status icons will show next to user extensions in the "
+"Favorite Contacts list. 'Enable Favorite Contacts' in Advanced Settings -> "
+"Contact Manager Module should be enabled inorder to modify this settings. "
+"The users need to reload the Sangoma Phone or login again to see this change "
+"in effect. Note: Users may need to set their Presence Status to a value(ex. "
+"Available) if it was never set before."
+msgstr ""
+
+msgid ""
+"When enabled, user extensions included in Favorite Contacts will show a Busy "
+"Lamp Field indicator when the favorite contact is on a call. 'Enable "
+"Favorite Contacts' in Advanced Settings -> Contact Manager Module should be "
+"enabled inorder to modify this settings. The users need to reload the "
+"Sangoma Phone or login again to see this change in effect."
+msgstr ""
+
+msgid "Whether to enable the backend server for Sangoma Smart Office"
+msgstr ""
+
+msgid "Whilly Module"
+msgstr ""
+
+msgid "Whilma  the Widget"
+msgstr ""
+
+msgid "Whilma Module"
+msgstr ""
+
+msgid "Whilma dreamed of being a widget all of her life"
+msgstr ""
+
+msgid "Whilma the Widget"
+msgstr ""
+
+msgid ""
+"Will add or remove the necessary IPS that we need in order to connect from "
+"the cloud to this PBX."
+msgstr ""
+
+msgid "Willy Module"
+msgstr ""
+
+msgid "Willy dreamed of being a widget all of his life"
+msgstr ""
+
+msgid "Willy the Widget"
+msgstr ""
+
+msgid ""
+"With CloudConnect agent running, a permanent secure websocket connection to "
+"Sangoma Cloud and will allow remote users, with specific permissions to "
+"access SangomConnect service."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, php-format
+msgid "You are currently using %s of %s  users"
+msgstr ""
+
+#, php-format
+msgid "You are currently using %s of %s users."
+msgstr ""
+
+msgid "You must add an e-mail to this user prior to enabling SangomaConnect"
+msgstr ""
+
+msgid ""
+"You must indicate what type of action you wanna do, if create or remove the "
+"firewall rules"
+msgstr ""
+
+msgid "You must type the user e-mail address"
+msgstr ""
+
+msgid ""
+"You will not be able to add new  users until you remove old ones or purchase "
+"another license bundle"
+msgstr ""
+
+msgid ""
+"You will not be able to add new users until you remove old ones or purchase "
+"another license bundle"
+msgstr ""
+
+msgid ""
+"You will not be able to add new users until you remove old ones or purchase "
+"another user license pack"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment date format is %s"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment date/time format is %s"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment time format is %s"
+msgstr ""
+
+#, perl-format
+msgid "Your Timezone is %s"
+msgstr ""
+
+msgid "default_extension is required."
+msgstr ""
+
+msgid "generate certificates"
+msgstr ""
+
+msgid "register domain"
+msgstr ""
+
+msgid "remove certificates"
+msgstr ""
+
+msgid "remove domain"
+msgstr ""
+
+msgid "update certificates"
+msgstr ""
+
+msgid ""
+"use_desc_as_sip_user file exists in temp dir(/var/spool/asterisk/tmp). We "
+"will use extension display name as SIP user for provisioning"
+msgstr ""
+
+msgid "user not found"
+msgstr ""
+
+msgid "username is required."
+msgstr ""

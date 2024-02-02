@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\UpgradeModule; use Informunity\Log; class Upgrade implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\165\164\x68\145\156\164\x69\x63\141\x74\145" => true, "\141\154\x6c\157\x77\162\x65\x6d\x6f\x74\145" => false); return true; } public function ajaxHandler($config, $data) { $upgrade = new UpgradeModule($config); return array("\155\x65\x73\163\141\147\x65" => $upgrade->upgrade()); } }

@@ -1,0 +1,116 @@
+<module>
+	<rawname>vmnotify</rawname>
+	<name>Voicemail Notifications</name>
+	<version>15.0.20</version>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. You can configure a new Voicemail Notification to
+		monitor a mailbox for new messages. When a new message is left in that mailbox the system will call the recipients
+		listed below until one of them accepts responsibility for
+		the message. All numbers in the first priority will be called simultaneously, then if nobody has accepted the message
+		it will continue to call all recipients in the next
+		higher priority until it runs out of priorities to call. It will then retry the entire list if configured to do so.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Voicemail+Notify</more-info>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<category>Applications</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#vm-notify</link>
+	</commercial>
+	<changelog>
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* Packaging of ver 15.0.19
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* Packaging of ver 15.0.17
+		*15.0.16* FREEI-200 VMNotify pilling up notified voicemails 
+		*15.0.15* FREEI-4788 
+		*15.0.14* FREEI-4723 
+		*15.0.13* FREEI-3605 Added hidden input field 'view' to hide action bar when 'view' value is 'grid' 
+		*15.0.12* Packaging of ver 15.0.12
+		*15.0.11* FREEI-1579 Updates to licensing 
+		*15.0.9* bump 
+		*15.0.8* FREEPBX-20380 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system is not restoring Voicemail Notifications entries. 
+		*15.0.7* FREEPBX-20380 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system is not restoring Voicemail Notifications entries. 
+		*15.0.6* FREEI-501 Single user report of VM notifiy not sending email notices 
+		*15.0.5* FREEPBX-19866
+		*15.0.4.2* fixing legacy restore
+		*15.0.4.1* Fix backup
+		*15.0.4* REEPBX-18976 Voicemail Notifications Module Help Information change
+		*15.0.3* FREEPBX-18870 Deleting a vmnotify entry is not redirecting to list vmnotify page
+		*15.0.1* Backup 15.0
+	</changelog>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<version>13.0.6</version>
+		<module>voicemail ge 15.0.18</module>
+	</depends>
+	<menuitems>
+		<vmnotify>Voicemail Notifications</vmnotify>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<database>
+		<table name="vmnotify">
+			<field name="mailbox" type="string" length="20" primarykey="true"/>
+			<field name="recipients" type="text"/>
+			<field name="outcid" type="string" length="56" default=""/>
+			<field name="outcidname" type="string" length="56" default=""/>
+			<field name="cidtype" type="string" length="24" default="default"/>
+			<field name="deletemsg" type="string" length="5" default="yes"/>
+			<field name="getname" type="boolean" default="0" unsigned="true"/>
+			<field name="retrycount" type="smallint" default="3" unsigned="true"/>
+			<field name="retrydelay" type="smallint" default="300" unsigned="true"/>
+			<field name="prioritydelay" type="smallint" default="120" unsigned="true"/>
+			<field name="emailsuccess" type="text"/>
+			<field name="emailfail" type="text"/>
+			<field name="emailfrom" type="string" length="256" default=""/>
+			<field name="emailsubject" type="string" length="256" default=""/>
+			<field name="emailbody" type="text"/>
+			<field name="emailattach" type="boolean" default="1"/>
+			<field name="enabled" type="boolean" default="1"/>
+			<field name="greetingid" type="integer" default="0" unsigned="true"/>
+			<field name="instructionsid" type="integer" default="0" unsigned="true"/>
+		</table>
+		<table name="vmnotify_notifications">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="mailbox" type="string" length="20" default=""/>
+			<field name="status" type="boolean" default="0"/>
+			<field name="retry" type="integer" default="0"/>
+			<field name="priority" type="integer" default="0"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="callerid" type="string" length="64" default=""/>
+			<field name="length" type="integer" default="0" unsigned="true"/>
+		</table>
+		<table name="vmnotify_events">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="notification_id" type="integer" default="0" unsigned="true"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="number" type="string" length="32" default=""/>
+			<field name="priority" type="integer" default="0"/>
+			<field name="status" type="boolean" default="0"/>
+		</table>
+	</database>
+	<hooks>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Vmnotify" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Vmnotify" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Vmnotify" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Vmnotify" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Vmnotify" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Vmnotify" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Vmnotify" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+		<userman class="Voicemail" namespace="FreePBX\modules">
+			<method callingMethod="hookExtNotify" class="Vmnotify" namespace="FreePBX\modules">extNotify</method>
+		</userman>
+	</hooks>
+	<console>
+		<command>
+			<name>vmnotify</name>
+		</command>
+	</console>
+</module>

@@ -1,0 +1,5 @@
+#License for all code of this FreePBX module can be found in the license file inside the FreePBX sysadmin module directory
+#Copyright 2020 Sangoma Technologies.
+bindir=`dirname $0`
+bindir="$bindir/../bin"
+php $bindir/packetcapture.php $1 &

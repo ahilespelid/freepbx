@@ -1,0 +1,160 @@
+<module>
+	<rawname>callaccounting</rawname>
+	<repo>commercial</repo>
+	<name>Call Accounting</name>
+	<version>15.0.28</version>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/call-accounting/</link>
+	</commercial>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial+</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<category>Admin</category>
+	<description>This module is used to allocate cost to outbound trunks/routes </description>
+	<menuitems>
+		<callaccounting needsenginedb="yes">Call Accounting </callaccounting>
+	</menuitems>
+	<changelog>
+		*15.0.28* Packaging of ver 15.0.28
+		*15.0.27* FREEI-5191 outcid column added and alignment fixed 
+		*15.0.26* FREEI-4957 Call accounting module issue during backup 
+		*15.0.25* FREEI-4679 Call accounting adding CID 
+		*15.0.24* FREEI-2527 callaccounting timecondition allday all time matching with latest timecondition release 
+		*15.0.23* FREEI-2477 misc destination show muliple  enties in cdr 
+		*15.0.22* FREEI-2295 bulk handler export issue 
+		*15.0.21* FREEI-2295 FREEI-2304 Callaccounting issues 
+		*15.0.20* bump 
+		*15.0.19* FREEI-1726 Updates to licensing
+		*15.0.18* bump 
+		*15.0.17* FREEI-1646 FREEI-1647 Call Accounting module billing not happening for incoming calls even when the match pattern is available 
+		*15.0.16* FREEI-1640 Call accounting Inbound calls billing based on DID number 
+		*15.0.15* FREEI-1640 FREEI-1612 FREEI-1612  Billsec issue on callaccounting module 
+		*15.0.14* FREEI-1505 
+		*15.0.13* bump 
+		*15.0.12* Call Accounting module release 
+		*15.0.11* Fixing FREEI-1483 Improving help text 
+		*15.0.10* bump
+		*15.0.9* bump 
+		*15.0.8* FREEI-1263: give proper error when trying to bulkimport an entry that includes an existing dial pattern 
+		*15.0.7* Fixing FREEI-1380 Improving wordings of what is call accounting module. 
+		*15.0.6* FREEI-1276 If timeconditions module is not installed or is disabled then getting whoops error while trying to add or edit rate pattern in Call accounting. 
+		*15.0.5* FREEI-1265 Detailed CDR Report issue when the dial time is out of timegroup selected. 
+		*15.0.4* FREEI-1271 Using fastagi breaks Call Accounting CDR 
+		*15.0.3* FREEI-1256 
+		*15.0.2* FREEPBX-20101  call accounting backup restore 
+		*15.0.1* 15.0 initial release
+	</changelog>
+	<depends>
+		<version>15.0.16.53</version>
+		<module>bulkhandler ge 13.0.19</module>
+		<module>core ge 15.0.12.8</module>
+		<module>userman ge 15.0.28</module>
+		<module>backup ge 15.0.22</module>
+	</depends>
+	<hooks>
+	  	<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+		       <method callingMethod="getModuleLicenseInformation" class="Callaccounting" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+               </sysadmin>
+
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerGetHeaders</method>
+			<method callingMethod="getTypes" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerGetTypes</method>
+			<method callingMethod="getCustomField" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerGetCustomField</method>
+			<method callingMethod="import" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerImport</method>
+			<method callingMethod="export" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerExport</method>
+			<method callingMethod="direct_import" namespace="FreePBX\modules" class="Callaccounting">bulkhandlerDirectImport</method>
+		</bulkhandler>
+		 <userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="myShowPage" class="Callaccounting" namespace="FreePBX\modules">usermanShowPage</method>
+			<method callingMethod="delGroup" class="Callaccounting" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Callaccounting" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Callaccounting" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="delUser" class="Callaccounting" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Callaccounting" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Callaccounting" namespace="FreePBX\modules">usermanUpdateUser</method>
+		 </userman>
+		<framework class="Reload" namespace="FreePBX">
+			<method callingMethod="postReload" class="Callaccounting" namespace="FreePBX\Modules">postReloadFreepbx</method>
+		</framework>
+	</hooks>
+	<methods>
+		<get_config pri="755">callaccounting_get_config</get_config>
+	</methods>
+	<database>
+		<table name="callaccounting_ratedeck">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="30" notnull="true"/>
+			<key name="index1" type="unique">
+				<column name="name"/>
+			</key>
+		</table>
+
+		<table name="callaccounting_rate_patterns">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="rate_deck_id" type="integer" length="11" notnull="true"/>
+			<field name="dial_pattern" type="string" length="32" notnull="true"/>
+			<field name="initial_cost" type="decimal" precision="5" scale="2"/>
+			<field name="initial_time" type="string" length="5" notnull="true" default="0"/>
+			<field name="cost_per_increment" type="decimal" precision="5" scale="2"/>
+			<field name="increment_time" type="string" length="5" notnull="true" default="60"/>
+			<field name="tagname" type="string" length="50" notnull="false"/>
+			<field name="timegroup" type="integer" lenght="11" notnull="false"/>
+			<field name="call_direction" type="string" lenght="10" default="Outbound" notnull="false"/>
+			<field name="add_time" type="datetime" notnull="true"/>
+			<field name="update_time" type="datetime" notnull="true"/>
+			<key name="index" type="index">
+				<column name="rate_deck_id"/>
+				<column name="dial_pattern"/>
+				<column name="timegroup"/>
+			</key>
+			<key name="index1" type="unique">
+				<column name="rate_deck_id"/>
+				<column name="dial_pattern"/>
+				<column name="timegroup"/>
+			</key>
+		</table>
+
+		<table name="callaccounting_decks_trunks">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="rate_deck_id" type="integer"/>
+			<field name="trunk_id" type="integer"/>
+			<key name="index" type="unique">
+				<column name="rate_deck_id"/>
+				<column name="trunk_id"/>
+			</key>
+		</table>
+
+		<table name="callaccounting_cdr">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="calldate" type="datetime"/>
+			<field name="uniqueid" type="string" length="30"/>
+			<field name="groupname" type="string" length="30"/>
+			<field name="username" type="string" length="30"/>
+			<field name="rate_deck_id" type="string" length="20"/>
+			<field name="rate_pattern_id" type="string" length="20"/>
+			<field name="destination" type="string" length="20"/>
+			<field name="source" type="string" length="20"/>
+			<field name="duration" type="string" length="10"/>
+			<field name="billsec" type="string" length="10"/>
+			<field name="cost" type="decimal" precision="5" scale="2" default="0.00"/>
+			<field name="call_direction" type="string" length="15"/>
+			<field name="tagname" type="string" length="20"/>
+			<field name="comments" type="string" length="100"/>
+			<field name="outcid" type="string" length="100"/>
+			<key name="index1" type="index">
+				<column name="username"/>
+				<column name="uniqueid"/>
+				<column name="calldate"/>
+				<column name="rate_deck_id"/>
+				<column name="groupname"/>
+				<column name="source"/>
+				<column name="destination"/>
+			</key>
+		</table>
+	</database>
+
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

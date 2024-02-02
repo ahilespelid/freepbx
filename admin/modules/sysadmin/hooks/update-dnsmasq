@@ -1,0 +1,28 @@
+#!/bin/bash
+
+CONF=/etc/asterisk/dnsmasq.conf
+# If we're not including /etc/asterisk/fpbx-dnsmasq.conf, add it
+GREP=$(grep "^conf-file=$CONF" /etc/dnsmasq.conf)
+if [ "$GREP" = "" ]; then
+	echo conf-file=$CONF >> /etc/dnsmasq.conf
+fi
+
+# Make sure the file exists, is writable by asterisk, and then restart dnsmasq
+if [ ! -e $CONF ]; then
+	touch $CONF
+fi
+
+chown asterisk.asterisk $CONF
+chmod 644 $CONF
+
+# Make sure that forwarding is enabled
+sed -ri 's/^(#)?net.ipv4.ip_forward.+/net.ipv4.ip_forward = 1/' /etc/sysctl.conf
+FWD=$(grep '^net.ipv4.ip_forward' /etc/sysctl.conf)
+if [ "$FWD" = "" ]; then
+	echo net.ipv4.ip_forward = 1 >> /etc/sysctl.conf
+fi
+
+sysctl -f /etc/sysctl.conf > /dev/null 2>&1
+
+service dnsmasq restart
+

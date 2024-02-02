@@ -1,0 +1,74 @@
+<module>
+  <rawname>filestore</rawname>
+  <name>Filestore</name>
+  <repo>standard</repo>
+  <version>15.0.9</version>
+  <publisher>Sangoma Technologies</publisher>
+  <license>AGPLv3</license>
+  <licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+  <changelog>
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* Packaging of ver 15.0.8
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* FREEI-4949 
+		*15.0.5* FREEPBX-23808 
+		*15.0.4* bump 
+		*15.0.3.32* Packaging of ver 15.0.3.32
+		*15.0.3.31* FREEPBX-23559 removing white spaces at ends for input fields 
+		*15.0.3.30* FREEPBX-23252 
+		*15.0.3.29* Bugfix/FREEPBX-23252 restore does not display ftp backups created with a subdirectory
+		*15.0.3.28* FREEPBX-23323 S3 Region Updates 
+		*15.0.3.27* feat(filestore): Add support for default credential provider chain on S3. 
+		*15.0.3.26* FREEPBX-22083 add ability to set custom endpoint 
+		*15.0.3.25* FREEPBX-22759 Removed 'The given id seems invalid' exception because this exception is not required 
+		*15.0.3.24* FREEI-3770 Added condition to throw error if invalid Id is given and removed base64 encoding on filestore id while returning filestore id 
+		*15.0.3.23* FREEPBX-22683 Add the functionality to implement the ssl flag in filestore ftp 
+		*15.0.3.22* FREEI-3538 Removed id field type from gql api 
+		*15.0.3.21* FREEI-3538 Changed id field type from STRING to ID in gql api 
+		*15.0.3.20* FREEI-3560 changed FTP default port from 22 to 21 while creating FTP instance from GQL API 
+		*15.0.3.19* FREEI-3442 afteappending x FTP_ to id was update the id field toFTP_ 
+		*15.0.3.18* Fixes location combined key format 
+		*15.0.3.17* FREEI-3434 GQL api's for update and delete ftp instance along with unit tests 
+		*15.0.3.16* Modified fetchAllFilestores gql to return combined key of filestore type and id 
+		*15.0.3.15* FREEI-3392 Created GQL API to fetchAllFilestores and Unit tests 
+		*15.0.3.14* FREEI-3296 GQL API lo list filestore location with unit test 
+		*15.0.3.13*  
+		*15.0.3.12* FREEI-2062  Restore to 15 from a 13/14 backup not restoring POMPS backup settings 
+		*15.0.3.11* Packaging of ver 15.0.3.11
+		*15.0.3.10* Packaging of ver 15.0.3.10
+		*15.0.3.9* Fixing FREEI-1715 Adding FTP timeout default value 
+		*15.0.3.8* FREEPBX-21378 Backups failing due to timeout 
+		*15.0.3.7* FREEI-996 Local backup not saved if the backup path is mentioned with quotes. 
+		*15.0.3.6* FREEPBX-20737 SSH backup failed after FreePBX 14 -&amp;gt; 15 upgrade 
+		*15.0.3.5* FREEI-833 File Store: help text for Local Directory items could be better 
+		*15.0.3.4* Bugfix/FREEPBX-20571 getting listcontents method is not implemented 
+		*15.0.3.3* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.3.2* FREEPBX-20065 Backup to Email Fails Due To Alleged File Size Excess 
+	*15.0.3.1* Fixing FREEPBX-20011 Editing a Filestore -Email entry is creating the duplicate entry
+	*15.0.2.4* FREEPBX-19655 Fix S3 naming conventions
+	*15.0.2.3* Dont remove old filestores when upgrading
+    	*15.0.2.2* Fix ability to add S3
+	*15.0.2.1* FREEPBX-18248
+	*15.0.2* Update functionality
+	*15.0.1.10* fixing legacy restore
+	*15.0.1.9* FREEPBX-18729 Fix S3 action and general consistency
+	*15.0.1.8* FREEPBX-18248 Fix delete parameter in edit forms
+	*15.0.1.7* Fixing FREEPBX-18651
+	*15.0.1.6* FREEPBX-18652 Fix logic on region to match the actual setting
+	*15.0.1.5* FREEPBX-18249 Fix s3 grid delete link
+	*15.0.1.4* Formatting
+	*15.0.1.3* FREEPBX-18244 Add the SFTP library back.
+	*15.0.1.2* FREEPBX-18224 Fix local add button
+	*15.0.1* Stable Release
+	*15.0.1alpha1* Initial release
+	</changelog>
+  <category>Settings</category>
+  <description>Filesystem abstraction for your PBX</description>
+  <more-info>https://wiki.freepbx.org/display/FPG/Filestore+Module</more-info>
+  <menuitems>
+    <filestore>Filestore</filestore>
+  </menuitems>
+  <supported>
+    <version>15.0</version>
+  </supported>
+</module>

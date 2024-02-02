@@ -1,0 +1,13 @@
+---
+env:
+  mocha: true
+rules:
+  # catches use of .only
+  mocha/no-exclusive-tests: error
+  # catches some infinite blocking tests
+  mocha/handle-done-callback: error
+  mocha/no-identical-title: error
+  mocha/no-nested-tests: error
+globals:
+  server: true
+plugins: [mocha]

@@ -1,0 +1,47 @@
+tr.zebra1 {
+	background: #ffffff;	
+}
+
+tr.zebra2 {
+	background: #000000;
+}
+
+#recordingReport {
+	float: left;
+	width: 100%;
+}
+
+#recordingReportContent {
+	float: left;
+	width: 60%;
+}
+
+#clear {
+ clear:both;
+}
+
+#dateSelect {
+	float: right;
+	width: 10%;
+}
+
+#rnav {
+	float: right;
+	width: 20%;
+}
+
+.text-success{
+	color:green;
+}
+
+.text-danger{
+	color:red;
+}
+
+.fpbx-container .display{
+	margin-right: auto !important;
+}
+
+.width-50 {
+	width: 50% !important;
+}

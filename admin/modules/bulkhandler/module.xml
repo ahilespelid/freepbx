@@ -1,0 +1,36 @@
+<module>
+	<rawname>bulkhandler</rawname>
+	<repo>standard</repo>
+	<name>Bulk Handler</name>
+	<version>15.0.4</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Admin</category>
+	<menuitems>
+		<bulkhandler needsenginedb="yes">Bulk Handler</bulkhandler>
+	</menuitems>
+	<description>
+      Bulk Handler manages the bulk export or import of extensions, DIDs, user manager users, user manager groups, and contacts. You can export any of these as a CSV file. You can also upload a CSV file to save time versus having to enter each item individually. The module provides required/recommended headers for your CSV files.
+  	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Bulk+Handler</more-info>
+	<depends>
+		<version>15.0</version>
+	</depends>
+	<info/>
+	<changelog>
+		*15.0.4* FREEI-5222 trimming both ends of csv columns 
+		*15.0.3* SCD-113 when contact is bulk imported, scd contact reload is triggering for each group 
+		*15.0.2* SCD-113 Need to handle SCD bulk import 
+		*15.0.1*  15.0 release
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>bulkimport</name>
+			<alias>bi</alias>
+		</command>
+	</console>
+</module>

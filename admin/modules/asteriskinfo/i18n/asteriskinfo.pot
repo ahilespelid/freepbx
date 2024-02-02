@@ -1,0 +1,89 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asteriskinfo
+# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-21 08:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Asteriskinfo.class.php:52
+msgid "All"
+msgstr ""
+
+#: asteriskinfo.i18n.php:4
+#: asteriskinfo.i18n.php:10
+#: page.asteriskinfo.php:13
+msgid "Asterisk Info"
+msgstr ""
+
+#: Modules/Conferences.php:11
+msgid ""
+"Can't connect to Asterisk. Is Asterisk running and started by the correct "
+"user?"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Channel Count"
+msgstr ""
+
+#: page.asteriskinfo.php:16
+msgid "Current Asterisk Version:"
+msgstr ""
+
+#: Modules/Dahdi.php:12
+msgid "Dahdi Channels"
+msgstr ""
+
+#: Modules/Dahdi.php:13
+msgid "Dahdi PRI Spans"
+msgstr ""
+
+#: asteriskinfo.i18n.php:8
+msgid "Provides a snapshot of the current Asterisk configuration"
+msgstr ""
+
+#: asteriskinfo.i18n.php:6
+msgid "Reports"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Resource"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Status"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Tech"
+msgstr ""
+
+#: Modules/Channels.php:19
+msgid "The Asterisk REST Interface Module is not loaded in asterisk"
+msgstr ""
+
+#: Modules/Channels.php:24
+msgid "The Asterisk REST Interface is Currently Disabled."
+msgstr ""
+
+#: Modules/Channels.php:32
+msgid ""
+"The Asterisk REST Interface is not able to connect please check "
+"configuration in advanced settings."
+msgstr ""
+
+#: page.asteriskinfo.php:15
+msgid "This page supplies various information about Asterisk"
+msgstr ""

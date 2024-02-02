@@ -1,0 +1,61 @@
+<module>
+	<rawname>recordings</rawname>
+	<repo>standard</repo>
+	<name>Recordings</name>
+	<version>15.0.6</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<canuninstall>no</canuninstall>
+	<category>Admin</category>
+	<description>Creates and manages system recordings, used by many other modules (eg, IVR).</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/System+Recordings+Module</more-info>
+	<changelog>
+		*15.0.6* FREEPBX-24363 
+		*15.0.5* FREEI-5631 
+		*15.0.4*    FREEI-5218 
+		*15.0.3.19* FREEI-5256 Recording module restore issue fixing 
+		*15.0.3.18* Packaging of ver 15.0.3.18
+		*15.0.3.17* FREEPBX-23621 new Gql APIs for system recording module 
+		*15.0.3.16* FREEPBX-23166 Latin Spanish prompts are not accessible in System Recordings 
+		*15.0.3.15* Packaging of ver 15.0.3.15
+		*15.0.3.14* Packaging of ver 15.0.3.14
+		*15.0.3.13* FREEI-1009  Legacy restore and warm spare restores ignore custom sounds 
+		*15.0.3.12* bump 
+		*15.0.3.11* FREEPBX-20990 Custom Recording can't be restored 
+		*15.0.3.10* FREEI-924 Fix XSS Bootstrap Datatable Issues 
+		*15.0.3.9* Related to FREEPBX-20414: removed $restoreid from runRestore() 
+		*15.0.3.8* FREEPBX-20100 Restoring the Recordings module gives exception error 
+		*15.0.3.7* FREEPBX-20084 Backup fails when trying to include the contents 
+		*15.0.3.6* FREEPBX-20053 Backup fails to include the contents of Cutom files 
+		*15.0.3.5* Fixing FREEPBX-20053 Backup issue
+		*15.0.3.4* FREEPBX-19040  System recording feature code works only with english language 
+		*15.0.3.1* Backup and Restore
+		*15.0.3* FREEPBX-18213 Validate files prior to adding them.
+		*15.0.2* Packaging of ver 15.0.2
+		*13.0.31.12* Fork for 15, implement backup.
+	</changelog>
+	<menuitems>
+		<recordings>System Recordings</recordings>
+	</menuitems>
+	<database>
+		<table name="recordings">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="displayname" type="string" length="50" notnull="false"/>
+			<field name="filename" type="blob" notnull="false"/>
+			<field name="description" type="string" length="254" notnull="false"/>
+			<field name="fcode" type="boolean" default="0" notnull="false"/>
+			<field name="fcode_pass" type="string" length="20" notnull="false"/>
+			<field name="fcode_lang" type="string" length="20" notnull="false"/>
+		</table>
+	</database>
+	<depends>
+		<module>framework ge 13.0.72</module>
+		<module>soundlang ge 13.0.23.4</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<location>release/2.11/recordings-3.3.11.9.tgz</location>
+	<md5sum>9e52d36bf0e8e680c7c112bd3ba4edde</md5sum>
+</module>

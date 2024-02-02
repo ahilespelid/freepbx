@@ -1,0 +1,11 @@
+tr.zebra1 {
+	background: #ffffff;	
+}
+
+tr.zebra2 {
+	background: #000000;
+}
+
+.play_sound {
+	cursor: pointer;
+}

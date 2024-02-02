@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Addon; use Informunity\Log; use Informunity\Rest\App\CheckRegistration; class AddonRemove implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\164\x68\145\x6e\164\x69\x63\141\x74\145" => true, "\141\x6c\x6c\157\167\162\145\x6d\157\x74\145" => false); return true; } public function ajaxHandler($config, $data) { unset($data); return Addon::load($config)->uninstall(); } }

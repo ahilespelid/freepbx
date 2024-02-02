@@ -1,0 +1,86 @@
+<module>
+	<rawname>fax</rawname>
+	<repo>standard</repo>
+	<name>Fax Configuration</name>
+	<version>15.0.22</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Settings</category>
+	<menuitems>
+		<fax>Fax Configuration</fax>
+	</menuitems>
+	<description>Adds configurations, options and GUI for inbound faxing</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Fax+Configuration</more-info>
+	<changelog>
+		*15.0.22* FREEPBX-22932 Update tool tip for fax detect 
+		*15.0.21* Packaging of ver 15.0.21
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* FREEPBX-21004: remove deprecated each() 
+		*15.0.18* FREEI-763 Restoring FreePBX 15 Backup is giving bad destination error if you set the destination as Fax Recepient. 
+		*15.0.17* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.16* FREEPBX-20103 Fax Pro module configurations flushed on backup restore. 
+		*15.0.15* FREEPBX-20037 Faxes not sending to final destination 
+		*15.0.14* FREEPBX-15426 Remove NVFax detection from fax detect options
+		*15.0.13.1* FREEPBX-19875
+		*15.0.13* FREEI-442
+		*15.0.12* multiple module restores fail
+		*15.0.10* fixing legacy restore
+		*15.0.9* backup and restore
+		*15.0.8* Add localstationid as channel variabel
+		*15.0.7* FREEPBX-17993 Increase footer text size on cover sheet
+		*15.0.6* Rest Api
+		*15.0.5* FREEPBX-16943 Option to not attach PDF or TIFF on eFax Notification Emails
+		*15.0.4* Packaging of ver 15.0.4
+		*15.0.3* Backup 15.0
+		*15.0.2* FREEPBX-16943 Option to not attach PDF or TIFF on eFax Notification Emails
+		*15.0.1* Branched from 14.0.2.2
+	</changelog>
+	<depends>
+		<version>12.0.1rc16</version>
+		<module>userman ge 13.0</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<core class="Core" namespace="FreePBX\modules">
+			<method callingMethod="hookTabs" class="Fax">coreDIDHook</method>
+		</core>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Fax">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Fax">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Fax">usermanUpdateGroup</method>
+			<method callingMethod="myShowPage" class="Fax">usermanShowPage</method>
+			<method callingMethod="delUser" class="Fax">usermanDelUser</method>
+			<method callingMethod="addUser" class="Fax">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Fax">usermanUpdateUser</method>
+		</userman>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Fax">bulkhandlerGetHeaders</method>
+			<method callingMethod="export" class="Fax">bulkhandlerExport</method>
+			<method callingMethod="import" class="Fax">bulkhandlerImport</method>
+		</bulkhandler>
+		<framework namespace="FreePBX\Console\Command" class="Chown">
+			<method class="Fax" callingMethod="fwcChownFiles">chownFreepbx</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="fax_details">
+			<field name="key" type="string" length="50" notnull="false"/>
+			<field name="value" type="string" length="710" notnull="false"/>
+			<key name="key" type="unique">
+				<column name="key"/>
+			</key>
+		</table>
+		<table name="fax_incoming">
+			<field name="cidnum" type="string" length="20" notnull="false"/>
+			<field name="extension" type="string" length="50" notnull="false"/>
+			<field name="detection" type="string" length="20" notnull="false"/>
+			<field name="detectionwait" type="string" length="5" notnull="false"/>
+			<field name="destination" type="string" length="50" notnull="false"/>
+			<field name="legacy_email" type="string" length="50" notnull="false"/>
+			<field name="ring" type="integer" default="0" notnull="false"/>
+		</table>
+	</database>
+</module>

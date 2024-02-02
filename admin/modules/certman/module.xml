@@ -1,0 +1,135 @@
+<module>
+	<rawname>certman</rawname>
+	<name>Certificate Manager</name>
+	<repo>standard</repo>
+	<version>15.0.49</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<menuitems>
+		<certman>Certificate Management</certman>
+	</menuitems>
+	<description>
+		Certificate Manager for Asterisk. Used for TLS, DTLS connection (think WebRTC and secure traffic)
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Certificate+Management+Module</more-info>
+	<changelog>
+		*15.0.49* Fixing FREEPBX-23248 
+		*15.0.48* Add option to remove DST Root CA X3 from LE certificate bundle 
+		*15.0.47* FREEPBX-22849 Fix for Let'\''s encrypt root CA 
+		*15.0.46* FREEI-3758 Created new GQL API to update certificate to default 
+		*15.0.45* Adding an option to mark uploaded ssl certificate as default 
+		*15.0.44* FREEPBX-22660 Changed array key name cid to certificate while restoring dtls options 
+		*15.0.43* FREEPBX-20610 added logic to write out proper fullchain file 
+		*15.0.42* FREEPBX-21681 
+		*15.0.41* FREEI-3086 updated delete csr from query to mutation and a new api for deleting the certificate 
+		*15.0.40* FREEI-2774 Adding GQL APIs for csr and ssl certificates 
+		*15.0.39* FREEI-2599 New extension created with multiple entries for media_encryption 
+		*15.0.38* FREEPBX-22123 / add config hints when cert request fails 
+		*15.0.37* FREEPBX-22106-format-letsencrypt-output-display-error-messages 
+		*15.0.36* fix saving --san info for cli generation 
+		*15.0.35* Bugfix/FREEPBX-21964 add SAN support add details fix cli le generation ownership fix 
+		*15.0.34* Packaging of ver 15.0.34
+		*15.0.33* Packaging of ver 15.0.33
+		*15.0.32* Packaging of ver 15.0.32
+		*15.0.31* Packaging of ver 15.0.31
+		*15.0.30* FREEI-2109 added option to do force update 
+		*15.0.29* Packaging of ver 15.0.29
+		*15.0.28* Forceupdatebranch 
+		*15.0.27* Packaging of ver 15.0.27
+		*15.0.26* FREEI-1975 Require composer libraries only once
+		*15.0.25.4* FREEPBX-21683 fwconsole certificate update error silently shuts down firewall module 
+		*15.0.25.3* FREEPBX-21600 fixing -SRTP selection was Enabling DTLS 
+		*15.0.25.2* FREEPBX-21597 Certman LE Gui frozen 
+		*15.0.25.1* FREEPBX-21581 Call to a member function setConfig() on null 
+		*15.0.25* bump 
+		*15.0.24* FREEI-1428 change feature for LetsEncrypt button 
+		*15.0.23* Bugfix/FREEI-1464 
+		*15.0.22* FREEPBX-21282 
+		*15.0.21.1* FREEI-1167
+		*15.0.21* Fixed a migraiton issue related to DTLS autogenerate cert
+		*15.0.20* Add support for DTLS autogenerate cert 
+		*15.0.19* FREEPBX-20882 Error on Import Locally 
+		*15.0.18* FREEI-974 certificates not included in freepbx 15 legacy restore 
+		*15.0.17* FREEI-1044-unit-tests-and-stuff: Unit tests for DTLS support
+		*15.0.16* FREEI-713 Add: Validity period of the certificate (in days) in Advanced Settings 
+		*15.0.15* FREEPBX-20719 Let's Encrypt ACMEv1 no longer working as of NOV 8 2019 - Breaking LE Cert Creation and Renewal 
+		*15.0.14* FREEPBX-20493 Legacy restore message to show in Warning 
+		*15.0.13* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.12* FREEPBX-20493 Legacy backup restoring Certificates. 
+		*15.0.11* Use lazy loading console commands
+		*15.0.10* Fix issue with chgrp
+		*15.0.9* FREEI-405 whoops error issue fix
+		*15.0.8* fixing legacy restore
+		*15.0.7* Fix more backup issues in 15
+		*15.0.6* Fixing problems in Backup 15
+		*15.0.5* Add backup / restore
+		*15.0.4* FREEPBX-18181 fwconsole ce --list fails with undefined helper
+		*15.0.3* FREEPBX-18110 do not try to create new log class
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Fork from 14.0.2.1, Add Backup;
+	</changelog>
+	<category>Admin</category>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Certman" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="certman_mapping">
+			<field name="id" type="string" length="20" primaryKey="true"/>
+			<field name="cid" type="integer" notnull="false"/>
+			<field name="verify" type="string" length="255" notnull="false"/>
+			<field name="setup" type="string" length="45" notnull="false"/>
+			<field name="rekey" type="integer" notnull="false"/>
+			<field name="auto_generate_cert" type="boolean" default="0"/>
+		</table>
+		<table name="certman_csrs">
+			<field name="cid" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="basename" type="string" length="190"/>
+			<key name="basename" type="unique">
+				<column name="basename"/>
+			</key>
+		</table>
+		<table name="certman_certs">
+			<field name="cid" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="caid" type="integer" notnull="false"/>
+			<field name="basename" type="string" length="190"/>
+			<field name="description" type="string" length="255" notnull="false"/>
+			<field name="type" type="string" length="2" default="ss"/>
+			<field name="default" type="boolean" default="0"/>
+			<field name="additional" type="blob" notnull="false"/>
+			<key name="basename_UNIQUE" type="unique">
+				<column name="basename"/>
+			</key>
+			<key name="basename" type="unique">
+				<column name="basename"/>
+			</key>
+		</table>
+		<table name="certman_cas">
+			<field name="uid" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="basename" type="string" length="190"/>
+			<field name="cn" type="string" length="255"/>
+			<field name="on" type="string" length="255"/>
+			<field name="passphrase" type="string" length="255" notnull="false"/>
+			<field name="salt" type="string" length="255" notnull="false"/>
+			<key name="basename" type="unique">
+				<column name="basename"/>
+			</key>
+		</table>
+	</database>
+	<depends>
+		<phpversion>5.6.0</phpversion>
+		<module>core ge 15.0.9.61</module>
+		<version>14.0.3</version>
+	</depends>
+	<console>
+		<command>
+			<name>certificates</name>
+			<class>Certman</class>
+		</command>
+	</console>
+</module>

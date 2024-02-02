@@ -1,0 +1,157 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for calllimit
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:22+0000\n"
+"PO-Revision-Date: 2015-07-13 12:10+0200\n"
+"Last-Translator: Kevin <kevin@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/calllimit/"
+"ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid "A Maximum of"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Call Limit"
+msgstr "発信制限を追加"
+
+msgid "Add Outbound Call Limit"
+msgstr "アウトバウンド発信の制限を追加"
+
+msgid ""
+"An Outbound Call limit allows you to restrict the number of calls people "
+"make that match particular outbound routes."
+msgstr ""
+"アウトバウンド発信の制限を設定すると、特定のアウトバウンドルートに一致する通"
+"話の数を制限できます。"
+
+msgid "Call Limit"
+msgstr "発信数制限"
+
+msgid ""
+"Call limit limits the number of calls that can be made using this route. "
+"These settings will be ignored if you set the Route type as Emergency or "
+"Intra-Company."
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Edit: "
+msgstr "編集: "
+
+msgid ""
+"Enter the name of your outbound call limit rule to make it easier to select "
+"in your outbound route."
+msgstr ""
+"アウトバウンドルートで分かりやすくするために、アウトバウンド発信制限のルール"
+"に名前を付けます。"
+
+msgid "Hours"
+msgstr ""
+
+msgid "Limit Reached Message"
+msgstr ""
+
+msgid "List Call Limits"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Name"
+msgstr "名前"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Note that this will match against <strong>all fields</strong>."
+msgstr ""
+
+msgid "Outbound Call Limit"
+msgstr "アウトバウンド発信制限"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Select the maximum number of calls that can be made in a single period."
+msgstr ""
+
+msgid ""
+"Select the recording to be played to the caller when they have hit this "
+"limit and are unable to complete their outbound call."
+msgstr "制限に達した場合に、ユーザーに再生するアナウンスを選択してください。"
+
+msgid "Submit"
+msgstr "送信"
+
+#, perl-format
+msgid "The Name %s already used, please use a different name."
+msgstr ""
+
+msgid ""
+"The recordings module seems to be disabled or not installed. The default "
+"message will be played to callers when their call limit is reached"
+msgstr ""
+
+msgid ""
+"This means, for example, if you have a maximum of '10' in a 5 hour period, "
+"but a maximum of '5' per day, it will block calls after 5, because it will "
+"match on the 'per day' field."
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "You must set a valid name for this call limit"
+msgstr ""
+
+msgid "calls per"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Please visit www."
+#~ "schmoozecom.com/oss.php - Restrict Outbound Calls at an outbound route "
+#~ "level"
+#~ msgstr ""
+#~ "有償モジュール。ご利用するにはライセンスの購入が必要です。詳しくは www."
+#~ "schmoozecom.com/oss.php をご覧ください。アウトバウンド発信を、アウトバウン"
+#~ "ドルートにおいて制限します。"
+
+#~ msgid "Connectivity"
+#~ msgstr "接続"
+
+#~ msgid ""
+#~ "Call limit limits the number of calls that can be made using this route."
+#~ msgstr ""
+#~ "このルートを経由する発信の数を制限するには、発信数制限を設定します。"
+
+#~ msgid "Edit Call Limit"
+#~ msgstr "発信数制限を編集"
+
+#~ msgid "Recording"
+#~ msgstr "アナウンス"

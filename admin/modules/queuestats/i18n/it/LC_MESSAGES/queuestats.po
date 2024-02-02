@@ -1,0 +1,702 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for queuestats
+# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 03:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%s (%s) - %s Members"
+msgstr ""
+
+#, php-format
+msgid "%s (on %s) (%s)"
+msgstr ""
+
+#, php-format
+msgid "%s - %s. Member of %s Queue(s)"
+msgstr ""
+
+#, php-format
+msgid "%s Seconds Ago"
+msgstr ""
+
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+msgid "'Alert above' field its not numeric or not empty string."
+msgstr ""
+
+#, php-format
+msgid "(%s) Calls have been Abandoned"
+msgstr ""
+
+msgid "1 day"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "10 min"
+msgstr ""
+
+msgid "100%"
+msgstr ""
+
+msgid "12 Hour"
+msgstr ""
+
+msgid "15 min"
+msgstr ""
+
+msgid "24 Hour"
+msgstr ""
+
+msgid "40%"
+msgstr ""
+
+msgid "5 min"
+msgstr ""
+
+msgid "50%"
+msgstr ""
+
+msgid "60%"
+msgstr ""
+
+msgid "70%"
+msgstr ""
+
+msgid "75%"
+msgstr ""
+
+msgid "80%"
+msgstr ""
+
+msgid "90%"
+msgstr ""
+
+msgid "95%"
+msgstr ""
+
+msgid "99%"
+msgstr ""
+
+msgid "A Month"
+msgstr ""
+
+msgid "A Week"
+msgstr ""
+
+msgid "AVG Wait Time"
+msgstr ""
+
+#, php-format
+msgid "Abandonded Calls for Queue %s"
+msgstr ""
+
+msgid "Abandoned Calls (Queue)"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Active Calls (Queue)"
+msgstr ""
+
+#, php-format
+msgid "Active Calls for Queue %s"
+msgstr ""
+
+msgid "Add Server"
+msgstr ""
+
+#, php-format
+msgid "Agent %s (Unknown)"
+msgstr ""
+
+msgid "Agent Name"
+msgstr ""
+
+msgid "Agent State"
+msgstr ""
+
+msgid "Agent Status for Agent __HINT__ (__USER__)"
+msgstr ""
+
+msgid "Agent Summary"
+msgstr ""
+
+#, php-format
+msgid "Agent Summary for Agent %s (%s)"
+msgstr ""
+
+msgid "Agent Summary for Agent __HINT__ (__USER__)"
+msgstr ""
+
+#, php-format
+msgid "Agent(s) %s"
+msgstr ""
+
+msgid "Alert Level"
+msgstr ""
+
+msgid "Alert in minutes or leave text in blank for 'no Notifications'."
+msgstr ""
+
+#, php-format
+msgid "Alert when Queue %s climbs above %s minute(s)."
+msgstr ""
+
+#, php-format
+msgid "Alert when Queue %s falls below %s%%"
+msgstr ""
+
+msgid "Allowed Queue Wallboard Widgets"
+msgstr ""
+
+msgid "Allows you to display the time in various timezones."
+msgstr ""
+
+msgid "Allows you to monitor the state of a selection of agents"
+msgstr ""
+
+msgid "Amount of data to consider for syncing. Recommended value is 1 week."
+msgstr ""
+
+msgid ""
+"Amount of days to retain data in the log tables. Setting this to 30 is ideal."
+msgstr ""
+
+#, perl-format
+msgid "Are you sure you wish to delete these: %s?"
+msgstr ""
+
+msgid "Asterisk Manager Password"
+msgstr ""
+
+msgid "Asterisk Manager User"
+msgstr ""
+
+msgid "Averaging Period"
+msgstr ""
+
+msgid "Avg Wait Time of a Queue"
+msgstr ""
+
+msgid "CDR Database"
+msgstr ""
+
+msgid "Caller Outcome Summary (Queue)"
+msgstr ""
+
+#, php-format
+msgid "Caller Outcome for Queue %s"
+msgstr ""
+
+msgid "Can not connect to CDRDB!"
+msgstr ""
+
+#, php-format
+msgid "Can't find queue %s"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot create widget: "
+msgstr ""
+
+msgid "Clock"
+msgstr ""
+
+msgid "Clock Type"
+msgstr ""
+
+msgid "Connection Name"
+msgstr ""
+
+msgid "Connection Type"
+msgstr ""
+
+msgid "Create Widget"
+msgstr ""
+
+msgid "Current status:"
+msgstr ""
+
+msgid "DND"
+msgstr ""
+
+msgid "Data Retention"
+msgstr ""
+
+msgid "Data sync cutoff time"
+msgstr ""
+
+#, php-format
+msgid "Date and Time in <strong>%s</strong>"
+msgstr ""
+
+msgid "Delete Selected"
+msgstr ""
+
+msgid "Descriptive Name for this Connection"
+msgstr ""
+
+msgid "Descriptive Name for this widget"
+msgstr ""
+
+msgid "Displays a brief summary of Caller Outcome in the Queue"
+msgstr ""
+
+msgid "Displays a brief summary on a single Queue"
+msgstr ""
+
+msgid "Displays a summary of the last 24 hours of a single queue."
+msgstr ""
+
+msgid "Displays a summary of the last week of a single queue."
+msgstr ""
+
+msgid "Displays the Hold time on a single Queue"
+msgstr ""
+
+msgid "Displays the Top 5 longest wait time of a single queue."
+msgstr ""
+
+msgid "Displays the abandonned calls on a single Queue"
+msgstr ""
+
+msgid ""
+"Displays the average wait time over a determinated period of time of a "
+"single queue."
+msgstr ""
+
+msgid "Displays the current active calls on a single Queue"
+msgstr ""
+
+msgid "Displays the received calls on a single Queue"
+msgstr ""
+
+msgid ""
+"Displays whatever the user wants as long as the content is HTML or plain "
+"text."
+msgstr ""
+
+msgid "Edit Widget"
+msgstr ""
+
+msgid "Enable Queue Wallboard Access"
+msgstr ""
+
+msgid "Enable the Queue Wallboard Access in UCP for this user"
+msgstr ""
+
+msgid "Force resyncronization"
+msgstr ""
+
+msgid "Generic HTML/Text Section"
+msgstr ""
+
+#, php-format
+msgid "HOLD TIME for Queue %s since last reset / Notification above: %s"
+msgstr ""
+
+msgid "HTML or Text to insert"
+msgstr ""
+
+msgid "Hold Time in (Queue)"
+msgstr ""
+
+#, php-format
+msgid "Hold time is %s for Queue %s"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Host i.e: 192.168.0.1 or pbx.mydomain.com"
+msgstr ""
+
+msgid "Idle"
+msgstr ""
+
+msgid "In Non-Queue Call"
+msgstr ""
+
+#, php-format
+msgid "In Queue (%s)"
+msgstr ""
+
+msgid "In Queue Call"
+msgstr ""
+
+msgid "Incoming"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+#, php-format
+msgid "Last 24 hours of Call Info for Queue %s"
+msgstr ""
+
+msgid "Last 24hrs of a Queue"
+msgstr ""
+
+#, php-format
+msgid "Last Call: %s"
+msgstr ""
+
+msgid "Last Call: __LASTCALLNICE__"
+msgstr ""
+
+#, php-format
+msgid "Last Week Call Info for Queue %s"
+msgstr ""
+
+msgid "Last Week of a Queue"
+msgstr ""
+
+msgid "List servers"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Local"
+msgstr ""
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged in UCP User (If a member of queue)"
+msgstr ""
+
+#, php-format
+msgid "Member of %s Queue(s)"
+msgstr ""
+
+msgid "Member of __QUEUECOUNT__ Queue(s)"
+msgstr ""
+
+msgid ""
+"Monitors the SLA of a single Queue. By default this will alert when the SLA "
+"falls below 95%."
+msgstr ""
+
+msgid "Multiple Agent Summary"
+msgstr ""
+
+msgid "MySQL Database"
+msgstr ""
+
+msgid "MySQL Password"
+msgstr ""
+
+msgid "MySQL User"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Agents"
+msgstr ""
+
+msgid "No Calls"
+msgstr ""
+
+msgid "No Calls Abandoned"
+msgstr ""
+
+msgid "No Longest Wait Times on Record"
+msgstr ""
+
+#, perl-format
+msgid "On %s at %s caller '%s' waited for %s"
+msgstr ""
+
+msgid "One Day"
+msgstr ""
+
+msgid "One Hour"
+msgstr ""
+
+msgid "Optional text"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "Paused"
+msgstr ""
+
+msgid "Please, first create a queue and return to this module."
+msgstr ""
+
+msgid "Please, first create them and then return tu this module."
+msgstr ""
+
+msgid "Please, select another queue with assignated agents."
+msgstr ""
+
+msgid "Please, write a valid number without any special characters or letters"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+#, php-format
+msgid "Queue %s"
+msgstr ""
+
+#, php-format
+msgid "Queue %s (No Hold time Alerting)"
+msgstr ""
+
+#, php-format
+msgid "Queue %s (No SLA Alerting)"
+msgstr ""
+
+#, php-format
+msgid "Queue %s has received %s calls %s."
+msgstr ""
+
+#, php-format
+msgid "Queue %s has received No Calls %s"
+msgstr ""
+
+#, php-format
+msgid "Queue %s, %s"
+msgstr ""
+
+msgid "Queue Statistics"
+msgstr ""
+
+msgid "Queue Summary (Queue)"
+msgstr ""
+
+#, php-format
+msgid "Queue Summary for Queue %s"
+msgstr ""
+
+msgid "Queue Wallboard"
+msgstr ""
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the CDR database"
+msgstr ""
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the database"
+msgstr ""
+
+msgid "Received Calls (Queue)"
+msgstr ""
+
+#, php-format
+msgid "Received Calls for Queue %s"
+msgstr ""
+
+msgid "Remote"
+msgstr ""
+
+msgid "Remote Servers"
+msgstr ""
+
+msgid "Remove Data older than retention days"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Restoing Legacy backup from Queuestats"
+msgstr ""
+
+msgid "Restoing Only Widgets and Servers from Queuestats kvstore"
+msgstr ""
+
+msgid "Ringing"
+msgstr ""
+
+#, php-format
+msgid "Ringing (%s)"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Service Level Agreements"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Six Hours"
+msgstr ""
+
+msgid "Syncronize a single server by id (obtained from --list)"
+msgstr ""
+
+msgid "Syncronize all servers"
+msgstr ""
+
+msgid "The Hold time in the queue __QUEUE__ is about __HOLDTIMENICE__."
+msgstr ""
+
+msgid ""
+"The Queue Wallboard module allows you to easily view real-time information "
+"related to queues in the UCP module of FreePBX or PBXact."
+msgstr ""
+
+msgid "The top 5 longest wait time in the queue __QUEUE__ __RANGE__"
+msgstr ""
+
+msgid "There are no agents configured"
+msgstr ""
+
+msgid "There are no agents in this queue"
+msgstr ""
+
+msgid "There are no queues and agents configured."
+msgstr ""
+
+msgid "There are no queues configured"
+msgstr ""
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+
+msgid "This widget displays live information about a single agent."
+msgstr ""
+
+msgid "This widget displays the current state of an agent in a specific queue."
+msgstr ""
+
+msgid "This will be help text."
+msgstr ""
+
+msgid "Time Range"
+msgstr ""
+
+msgid "Timezone"
+msgstr ""
+
+#, php-format
+msgid "Timezone '%s'"
+msgstr ""
+
+msgid "Top Longest Wait Time"
+msgstr ""
+
+msgid "Twelve Hours"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "UCP Widgets"
+msgstr ""
+
+msgid "Unable to connect to the remote asterisk manager"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unset"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "User Primary Extension"
+msgstr ""
+
+msgid "Waiting"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Widget Type"
+msgstr ""
+
+#, php-format
+msgid "With Agent (%s)"
+msgstr ""
+
+msgid "Wrapping Up"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, php-format
+msgid ""
+"You have not enabled the 'Log Queues' in %s Asterisk Log File Settings. %s "
+"This will affect Queue wallboard data display"
+msgstr ""
+
+msgid ""
+"You have not enabled the 'Log Queues' in Asterisk Log File Settings. This "
+"will affect Queue wallboard data display"
+msgstr ""
+
+msgid "__SLAPERCENT__ of calls have been answered within __SECONDSNICE__"
+msgstr ""
+
+msgid "minute(s)."
+msgstr ""
+
+msgid "over the last day(24 hours)"
+msgstr ""
+
+msgid "over the last hour"
+msgstr ""
+
+msgid "over the last month"
+msgstr ""
+
+msgid "over the last six hours"
+msgstr ""
+
+msgid "over the last twelve hours"
+msgstr ""
+
+msgid "over the last week"
+msgstr ""
+
+msgid "since the begining of time"
+msgstr ""

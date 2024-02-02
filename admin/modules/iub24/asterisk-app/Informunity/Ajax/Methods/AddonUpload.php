@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Addon; class AddonUpload implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\x68\145\156\164\x69\x63\141\x74\145" => true, "\x61\154\154\x6f\167\162\145\155\x6f\164\x65" => false); return true; } public function ajaxHandler($config, $data) { unset($data); return Addon::load($config)->install($_FILES); } }

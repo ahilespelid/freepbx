@@ -1,0 +1,191 @@
+<module>
+    <repo>informunity</repo>
+    <rawname>iub24</rawname>
+    <name>InformUnity Bitrix24</name>
+    <version>15.0.1.20</version>
+    <addon>15.0.1.6</addon>
+    <info>http://informunity.ru/marketplace/asterisk</info>
+    <publisher>InformUnity</publisher>
+    <license>Commercial</license>
+    <licenselink>https://informunity.ru/freepbx-modules-agreement.php</licenselink>
+    <description>Integration with Bitrix24 portal</description>
+    <category>Inform Unity</category>
+    <menuitems>
+        <iub24>InformUnity Bitrix24</iub24>
+    </menuitems>
+    <depends>
+        <engine>asterisk 13</engine>
+        <version>13</version>
+        <module>core</module>
+        <module>ivr</module>
+        <module>queues</module>
+        <module>recordings</module>
+        <module>logfiles</module>
+    </depends>
+    <requirements>
+        <module>core</module>
+    </requirements>
+    <location>https://informunity.b24.link/asterisk/iub24v2.tar.gz</location>
+    <updateurl>https://informunity.b24.link/asterisk/iub24v2.json</updateurl>
+    <console>
+        <command>
+            <name>iub24</name>
+        </command>
+    </console>
+    <hooks>
+        <framework class="Start" namespace="FreePBX\Console\Command">
+            <method callingMethod="postAsteriskHooks" class="Iub24" namespace="FreePBX\modules">startFreepbx</method>
+        </framework>
+        <framework class="Stop" namespace="FreePBX\Console\Command">
+            <method callingMethod="preAsteriskHooks" class="Iub24" namespace="FreePBX\modules">stopFreepbx</method>
+        </framework>
+    </hooks>
+    <changelog>
+        15.0.1.20
+        -Fix: Deprecated way to add Console commands
+        -Fix: context "macro-dial-one" on FreePBX less then 14
+        -Fix: С2С trunks order if route has several trunks on answer
+        -Fix: trunks order if route has several trunks on answer
+        15.0.1.18
+        -Fix: Responsible route if priority not default
+        15.0.1.17
+        -Fix: Interface tables fixes
+        15.0.1.16
+        -Fix: find user ID on show|hide
+        -Fix: trunks order if route has several trunks
+        15.0.1.15
+        -Fix: no call finish if route has several trunks
+        15.0.1.14
+        -Fix: Test call Registration
+        -Fix: Call finish on failed Click to Call
+        15.0.1.13
+        -New: Entity selection on change owner
+        -Fix: Exceptions on inbound
+        15.0.1.12
+        -Fix: card hiding on several PJSIP contacts with followme
+        -Fix: no call finish if route has several trunks
+        15.0.1.11
+        -Fix: Addons
+        15.0.1.10
+        -Fix: instant finish on switch to next trunk
+        -Fix: old ffprobe compatability
+        15.0.1.9
+        -Fix: exceptions on outbound call
+        15.0.1.8
+        -Fix: card hiding on several PJSIP contacts
+        15.0.1.7
+        -New: Add To Chat on Outbound calls
+        15.0.1.6
+        -Fix: Offline calls registration
+        -New: Addon compatability option
+        15.0.1.5
+        -Fix: Changed license server URL
+        15.0.1.4
+        -New: Added new option into "Assign to Unanswered Call"
+        15.0.1.3
+        -Fix: Clear cache not remove astDB ca
+        -Fix: Finish on missed outbound call to assigned manager
+        15.0.1.2
+        -Fix: OfflineCalls processing
+        15.0.1.1
+        -New: update CDR
+        15.0.1.0
+        -New: dialplan simplified
+        -New: transfer fixes
+        -New: Line number as a MASK
+        -New: Parse SIP headers for updating just created lead
+        -New: Improvements fore Add-ons
+        -New: unregister module by adding #unregister in module url
+        15.0.0.34
+        -Fix: Module Backup
+        -Fix: Recordings WAV format
+        15.0.0.33
+        -Fix: compatability with analytics
+        -Fix: Identify the region for Russia
+        -Fix: Module Backup
+        15.0.0.32
+        -Fix: Call finish on empty recording file
+        15.0.0.31
+        -Fix: Set user on outbound call
+        15.0.0.30
+        -Fix: Double call finish on ClickToCall
+        -Fix: Regions list urls
+        -Fix: Prefixes on route determination
+        15.0.0.29
+        -Fix: sending recordings to Bitrix24 restored
+        15.0.0.28
+        -Fix: Voting on inbound route, after transfer
+        -Fix: Routing points "From" field fixed, now it shows all inbound routes
+        -Fix: User definition on cancel outbound call
+        15.0.0.27
+        -Fix: Set user on outbound call
+        -Fix: Creating lead on if disabled
+        15.0.0.26
+        -Fix: Use for IVR
+        15.0.0.25
+        -Fix: mp3 set to 192k
+        15.0.0.24
+        -Fix: !audio conversion now uses only Ffmpeg
+        15.0.0.23
+        -Fix: Stereo on outbound
+        15.0.0.22
+        -Fix: Links to records fore voicemail
+        15.0.0.21
+        -Fix: Attaching wrong audio after asterisk crashes
+        -Fix: Links to records
+        15.0.0.20
+        -Fix: Change owner in attended transfer
+        -Fix: Now, all recording file names are stored in mysql, till the end of the call.
+        15.0.0.19
+        -Fix: Task name fixed
+        -New: Disable logging option in db
+        15.0.0.18
+        -Fix: Links to records
+        15.0.0.17
+        -Fix: call finish if operator were redirected to self phone
+        15.0.0.16
+        -Fix: improved stability
+        15.0.0.15
+        -Fix: adding accomplices and observers on task creation
+        -New: disable logging
+        15.0.0.14
+        -Fix: removed all functions CHANNELS from dialplan
+        -Fix: wrong responsible on call finish
+        15.0.0.13
+        -Fix: Hiding a card, on call answer with pjsip contacts more then one
+        15.0.0.12
+        -Fix: Prefixes on C2C
+        15.0.0.11
+        -Add: Added table search
+        -Fix: Check in route usage, on cyclical routes
+        -Fix: License date
+        -Fix: C2C and Callback with "+" and prefix, now "+" will be removed
+        15.0.0.10
+        -Fix: Sow License expired state
+        -Fix: Recordings with multiple audio files
+        -Add: url hash option 'curl_proxy', to modify this option
+        -Add: url hash opttion 'addon', to upload module extensions
+        15.0.0.9
+        -Fix: Issue with last slash in bitrix domain name
+        15.0.0.8
+        -Fix: cyrillic symbols in line number
+        15.0.0.7
+        -Fix: showing card when it disabled in routing point
+        -Fix: Adding links to several records simultaneously
+        15.0.0.6
+        -Fix: display Lines
+        15.0.0.5
+        -Fix: Redirection
+        -Fix: Outbound routes status changing
+        15.0.0.4
+        -Fix: Destinations detection
+        -Fix: "Customer Relationship Management Link" compatability check
+        -Fix: PHP 5.3 compatability
+        15.0.0.3
+        -Fix: Access to curl
+        -Fix: Determinate regions update
+        15.0.0.2
+        -Fix: Error message on Routing points
+        -Fix: Some visuals
+    </changelog>
+</module>

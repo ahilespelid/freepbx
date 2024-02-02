@@ -1,0 +1,14 @@
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus{
+	background: #4C9471;
+	color: white;
+}
+
+div.help-content {
+	margin-left: 10px;
+}
+.full,
+.btn-lg{
+    width: 100% !important;
+}

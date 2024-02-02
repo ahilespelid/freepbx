@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Lines; class updateLine implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\165\164\x68\x65\x6e\x74\151\x63\x61\164\x65" => true, "\141\x6c\154\x6f\x77\162\x65\155\x6f\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return Lines::load()->updateLine($config, $data); } }

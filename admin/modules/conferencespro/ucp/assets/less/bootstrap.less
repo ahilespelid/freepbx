@@ -1,0 +1,110 @@
+.grid-stack-item[data-rawname=conferencespro] {
+	.conference-data {
+		padding: 0px 14px;
+		.statuses {
+			margin-bottom: 2px;
+			div {
+				display: inline-block;
+			}
+			.lock {
+				i.fa:not(.fa-minus) {
+					cursor: pointer;
+				}
+				i:hover:not(.fa-minus)  {
+					color: #77777e;
+				}
+				i:hover.fa-unlock:before {
+					content: "\f023";
+				}
+				i:hover.fa-lock:before {
+					content: "\f09c";
+				}
+				i:active:not(.fa-minus)  {
+					color: black;
+				}
+			}
+		}
+		.room {
+			min-height: 30px;
+		}
+		.conference-room {
+			background-color: rgb(255, 255, 255);
+			border-radius: 2px;
+			border: 1px solid #2f4050;
+			margin-bottom: 2px;
+			.user-list {
+				.user {
+					i.admin {
+						color: lightcoral;
+					}
+					i.muted {
+						color: orange;
+					}
+					i.wmarked {
+						color: lime;
+					}
+					i.marked {
+						color: orchid;
+					}
+				}
+				.talking {
+					i {
+						left: -14px;
+						top: -6px;
+						font-size: 81%;
+						position: relative;
+					}
+				}
+				.fa-stack {
+					font-size: 120%;
+				}
+				i.mute {
+					opacity: 0;
+					color: red;
+					cursor: pointer;
+				}
+				.mute:hover {
+					opacity: 100;
+				}
+				i.muted {
+					opacity: 100;
+				}
+				i.kick {
+					cursor: pointer;
+				}
+				.kick:hover {
+					color: red;
+				}
+			}
+		}
+		.legend {
+			margin-bottom: 5px;
+			span.outter{
+				border: 1px solid lightgrey;
+				border-radius: 3px;
+				padding-right: 1px;
+				margin-right: 5px;
+				margin-bottom: 2px;
+				white-space: normal;
+				span.inner {
+					white-space: nowrap;
+				}
+				i {
+					padding: 2px;
+				}
+				i.admin {
+					color: lightcoral;
+				}
+				i.muted {
+					color: orange;
+				}
+				i.wmarked {
+					color: lime;
+				}
+				i.marked {
+					color: orchid;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+<module>
+    <rawname>setcid</rawname>
+    <repo>standard</repo>
+    <name>Set CallerID</name>
+    <version>15.0.9</version>
+    <category>Applications</category>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <description>
+        Adds the ability to change the CallerID within a call flow.
+    </description>
+    <more-info>https://wiki.freepbx.org/display/FPG/Set+CallerID+Module</more-info>
+    <menuitems>
+        <setcid needsenginedb="yes">Set CallerID</setcid>
+    </menuitems>
+    <database>
+        <table name="setcid">
+            <field name="cid_id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="cid_name" type="string" length="150" notnull="false"/>
+            <field name="cid_num" type="string" length="150" notnull="false"/>
+            <field name="description" type="string" length="50" notnull="false"/>
+            <field name="dest" type="string" length="255" notnull="false"/>
+        </table>
+    </database>
+    <changelog>
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEPBX-20567 Restoring FreePBX 15 Backup is not restoring CallerID Name and CallerID Number values of Set CallerID entries. 
+		*15.0.7* Related to FREEPBX-20414: removed $jobid from runRestore() 
+        	*15.0.6* FREEPBX-20046
+        	*15.0.4* FREEPBX-19418
+		*15.0.5* FREEPBX-19840 Set CallerID module allows to create duplicate entries with same Description. 
+		*15.0.4* Fixing FREEPBX-17867 
+        	*15.0.3* FREEPBX-19418
+		*15.0.2.2* fixing legacy restore
+		*15.0.2* Packaging of ver 15.0.2
+	        *15.0.1* Backup 15
+	</changelog>
+    <depends>
+        <version>13.0.191.12</version>
+    </depends>
+    <supported>
+        <version>15.0</version>
+    </supported>
+</module>

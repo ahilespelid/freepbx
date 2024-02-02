@@ -1,0 +1,32 @@
+table.report{
+border-spacing: 0px 0px;
+border: 1px solid #89BF81;
+border-collapse: collapse;
+margin: 0px 0px 16px;
+width: 900px;
+}
+table.report th{
+background-color: #9DD29C;
+border-color: #89BF81;
+border-style: solid;
+border-width: 1px 1px 2px;
+color: #404040;
+font-family: Verdana;
+font-size: 0.7em;
+font-weight: bold;
+text-align: center;
+}
+table.report td{
+background-color: white;
+border: 1px solid #89BF81;
+color: #404040;
+font-family: Verdana, sans-serif, Arial;
+font-size: 0.7em;
+font-weight: normal;
+padding: 3px;
+text-align: center;
+}
+
+table.summery {
+	width: 300px;
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm -Rf /etc/openvpn/deploymentvpn
+rm -f /etc/openvpn/sysadmin_support.conf
+
+/sbin/route del 10.4.2.6 > /dev/null 2>&1
+
+if [ -x /usr/bin/systemctl ]; then
+	systemctl stop openvpn@sysadmin_support
+else
+	service openvpn restart
+fi

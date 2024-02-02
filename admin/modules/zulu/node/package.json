@@ -1,0 +1,43 @@
+{
+  "name": "zuluserver",
+  "version": "3.2.0",
+  "description": "Zulu Server",
+  "main": "index.js",
+  "author": "",
+  "license": "Commercial",
+  "private": true,
+  "bin": {
+    "zulu": "./index.js"
+  },
+  "scripts": {
+    "migrate": "node ./scripts/etl_xmpp_zulu.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "ari-client": "0.6.0",
+    "async": "1.5.0",
+    "auto-bind": "0.1.0",
+    "babel-polyfill": "6.26.0",
+    "bluebird": "3.5.0",
+    "chokidar": "^3.0.2",
+    "clone": "2.1.2",
+    "express": "4.15.5",
+    "freepbx": "3.0.0",
+    "got": "8.3.2",
+    "http-proxy": "1.16.2",
+    "linkifyjs": "2.1.7",
+    "locutus": "2.0.9",
+    "lodash": "4.17.11",
+    "ltx": "2.8.1",
+    "md5": "2.2.1",
+    "mediasoup": "1.2.8",
+    "metascraper": "3.12.1",
+    "mongodb": "2.2.33",
+    "request": "2.88.0",
+    "universal-analytics": "^0.4.20",
+    "unix-timestamp": "0.2.0",
+    "uuid": "3.1.0",
+    "websocket": "1.0.28",
+    "winston": "2.4.4"
+  }
+}

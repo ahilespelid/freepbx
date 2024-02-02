@@ -1,0 +1,250 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asteriskinfo
+# Copyright (C) 2008-2016 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-29 05:11+0000\n"
+"PO-Revision-Date: 2017-07-10 19:53+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
+"asteriskinfo/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: Asteriskinfo.class.php:52
+msgid "All"
+msgstr ""
+
+#: asteriskinfo.i18n.php:4 asteriskinfo.i18n.php:10 page.asteriskinfo.php:13
+msgid "Asterisk Info"
+msgstr "Thông tin Asterisk"
+
+#: Modules/Conferences.php:11
+msgid ""
+"Can't connect to Asterisk. Is Asterisk running and started by the correct "
+"user?"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Channel Count"
+msgstr ""
+
+#: page.asteriskinfo.php:16
+msgid "Current Asterisk Version:"
+msgstr "Phiên bản Asterisk hiện tại:"
+
+#: Modules/Dahdi.php:12
+msgid "Dahdi Channels"
+msgstr ""
+
+#: Modules/Dahdi.php:13
+msgid "Dahdi PRI Spans"
+msgstr "Các khẩu độ Dahdi PRI"
+
+#: asteriskinfo.i18n.php:8
+msgid "Provides a snapshot of the current Asterisk configuration"
+msgstr "Cung cấp một ảnh chụp của cấu hành Asterisk hiện tại"
+
+#: asteriskinfo.i18n.php:6
+msgid "Reports"
+msgstr "Các báo cáo"
+
+#: Modules/Channels.php:40
+msgid "Resource"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Status"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Tech"
+msgstr ""
+
+#: Modules/Channels.php:19
+msgid "The Asterisk REST Interface Module is not loaded in asterisk"
+msgstr ""
+
+#: Modules/Channels.php:24
+msgid "The Asterisk REST Interface is Currently Disabled."
+msgstr ""
+
+#: Modules/Channels.php:32
+msgid ""
+"The Asterisk REST Interface is not able to connect please check "
+"configuration in advanced settings."
+msgstr ""
+
+#: page.asteriskinfo.php:15
+msgid "This page supplies various information about Asterisk"
+msgstr "Trang này cung cấp những thông tin đa dạng về Asterisk"
+
+#~ msgid "Active Channel(s)"
+#~ msgstr "Các kênh hoạt động"
+
+#~ msgid "Active IAX2 Channel(s): "
+#~ msgstr "Các kênh IAX2 hoạt động "
+
+#~ msgid "Active PJSIP Channel(s): "
+#~ msgstr "Các kênh PJSIP hoạt động: "
+
+#~ msgid "Active SIP Channel(s): "
+#~ msgstr "Các kênh SIP ( giao thức khởi tạo phiên) hoạt động: "
+
+#~ msgid "Available: "
+#~ msgstr "Khả dụng: "
+
+#~ msgid "Chan_PJSip Channel(s)"
+#~ msgstr "Các kênh Chan_PJSip"
+
+#~ msgid "Chan_PJSip Endpoints"
+#~ msgstr "Các điểm cuối Chan_PJSip"
+
+#~ msgid "Chan_PJSip Info"
+#~ msgstr "Thông tin Chan_PJSip"
+
+#~ msgid "Chan_PJSip Registrations"
+#~ msgstr "Các đăng ký Chan_PJSip"
+
+#~ msgid "Chan_PJSip Transports"
+#~ msgstr "Chuyển tải Chan_PJSip"
+
+#~ msgid "Chan_Sip Channel(s)"
+#~ msgstr "Các kênh Chan_Sip"
+
+#~ msgid "Chan_Sip Info"
+#~ msgstr "Thông tin Chan_Sip"
+
+#~ msgid "Chan_Sip Peers"
+#~ msgstr "Các đồng đẳng Chan_Sip"
+
+#~ msgid "Chan_Sip Registry"
+#~ msgstr "Đăng ký Chan_Sip"
+
+#~ msgid "Channels"
+#~ msgstr "Các kênh"
+
+#~ msgid "Conference Bridge Info"
+#~ msgstr "Thông tin Conference Bridge (cầu hội nghị)"
+
+#~ msgid "Conferences"
+#~ msgstr "Các hội nghị"
+
+#~ msgid "DAHDi Channels"
+#~ msgstr "Các kênh DAHDi"
+
+#~ msgid "Dahdi"
+#~ msgstr "Giao thức Dahdi"
+
+#~ msgid "Full Report"
+#~ msgstr "Báo cáo đầy đủ"
+
+#~ msgid "Google Talk Channels"
+#~ msgstr "Các kênh nói chuyện Google"
+
+#~ msgid "IAX Info"
+#~ msgstr "Thông tin IAX ( giao thức trao đổi liên Asterisk)"
+
+#~ msgid "IAX2 Channel(s)"
+#~ msgstr "Các kênh IAX2"
+
+#~ msgid "IAX2 Peers"
+#~ msgstr "Các đồng đẳng IAX2"
+
+#~ msgid "IAX2 Peers: "
+#~ msgstr "Các đồng đẳng IAX2 "
+
+#~ msgid "IAX2 Registry"
+#~ msgstr "Đăng ký IAX2"
+
+#~ msgid "IAX2 Registry: "
+#~ msgstr "Đăng ký IAX2: "
+
+#~ msgid "Jabber Connections"
+#~ msgstr "Các kết nối Jabber"
+
+#~ msgid "MeetMe Conference Info"
+#~ msgstr "Thông tin hội nghị MeetMe"
+
+#~ msgid "Motif Connections"
+#~ msgstr "Các kết nối Motif"
+
+#~ msgid "Offline-Unmonitored: "
+#~ msgstr "Không trực tuyến- Không được điều khiển: "
+
+#~ msgid "Offline: "
+#~ msgstr "Không trực tuyến: "
+
+#~ msgid "Online-Unmonitored: "
+#~ msgstr "Trực tuyến- Không được giám sát: "
+
+#~ msgid "Online: "
+#~ msgstr "Trực tuyến: "
+
+#~ msgid "PJSip Endpoints: "
+#~ msgstr "Các điểm cuối: PJSip "
+
+#~ msgid "PJSip Registrations: "
+#~ msgstr "Các đăng ký PJSip: "
+
+#~ msgid "Peers"
+#~ msgstr "Các đồng đẳng"
+
+#~ msgid "Queues"
+#~ msgstr "Hàng đợi"
+
+#~ msgid "Queues Info"
+#~ msgstr "Thông tin các hàng đợi"
+
+#~ msgid "Registries"
+#~ msgstr "Những nơi đăng ký"
+
+#~ msgid "Sip Peers: "
+#~ msgstr "Các đòng đẳng Sip "
+
+#~ msgid "Sip Registry: "
+#~ msgstr "Nơi đăng ký Sip "
+
+#~ msgid "Subscribe/Notify"
+#~ msgstr "Theo dõi/ Thông báo"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Các thuê bao"
+
+#~ msgid "Summary"
+#~ msgstr "Tóm tắt"
+
+#~ msgid ""
+#~ "The module was unable to connect to the Asterisk manager.<br>Make sure "
+#~ "Asterisk is running and your manager.conf settings are proper.<br><br>"
+#~ msgstr ""
+#~ "Các mô đun không thể kết nối với trình quản lý Asterisk. <br> Hãy đảm bảo "
+#~ "rằng Asterisk đang chạy và các thiết lập manager.conf của bạn hợp lý. <br>"
+
+#~ msgid "Unavailable: "
+#~ msgstr "Không khả dụng: "
+
+#~ msgid "Unknown: "
+#~ msgstr "Không biết được: "
+
+#~ msgid "Unmonitored: "
+#~ msgstr "Không được giám sát: "
+
+#~ msgid "Uptime"
+#~ msgstr "Thời gian thao tác"
+
+#~ msgid "Uptime: "
+#~ msgstr "Thời gian thao tác: "
+
+#~ msgid "Voicemail Users"
+#~ msgstr "Người dùng hộ thư thoại"

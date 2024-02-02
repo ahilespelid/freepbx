@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Astman; use Informunity\Classes\CustomClassName; class Custom { public static function GetCustomData($data, $className) { goto jUImd; nbz3v: if (!class_exists($customClassName)) { goto z2RwP; } goto P5OGg; JVsuj: z2RwP: goto e4gAF; P5OGg: return new $customClassName($data); goto JVsuj; e4gAF: return new $className($data); goto PXnA6; jUImd: $customClassName = CustomClassName::Get($className); goto nbz3v; PXnA6: } }

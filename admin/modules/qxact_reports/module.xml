@@ -1,0 +1,220 @@
+<module>
+	<rawname>qxact_reports</rawname>
+	<name>Queue Reports</name>
+	<version>15.0.20</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<type>tool</type>
+	<category>Reports</category>
+	<description>(Formerly QXact Reports) COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. If you use ACD/Queues you need Queue Reports to help you make
+	the most of your time! Queue Reports is an advanced reporting module that lets administrators keep an eye on every aspect of there queues. With Queue Reports you are given insight into each
+	and every one of your queues. Queue Reports gives you full control over what data is displayed for each type of report and allows you to build custom templates for quick reporting.
+	Each report type such as "All Call Distribution by Queue" has a list of columns that can be checked and unchecked for on the fly view customization.
+
+	Queue Reports is broken up into two sections. Templates and Reports. Templates allows you to build the specific information that you would like to view in the report and then save it. Reports
+	allows you to run your template against any or all of your Agents and Queues.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Q+Xact+Queue+Reporting</more-info>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#queue-reports</link>
+	</commercial>
+	<changelog>
+		*15.0.20* FREEI-256 fixed bugs in aggregate calculations 
+		*15.0.19* FREEI-219 queue report is not getting attached with mail 
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEI-5774 
+		*15.0.16* Packaging of ver 15.0.16
+		*15.0.15* FREEI-5553 and FREEI-5529 
+		*15.0.14* Packaging of ver 15.0.14
+		*15.0.13* FREEI-5325 
+		*15.0.12* FREEPBX-23702 pecentage and time values format change 
+		*15.0.11* FREEI-5201 agent availability report issue fix 
+		*15.0.10* FREEI-5148 FREEI-5107 qxact reimport issue fix
+		*15.0.9.1* FREEI-5107 qxact resolved report issue 
+		*15.0.9* FREEI-5122 Ans call distribution by agent report issue fix 
+		*15.0.8* FREEI-5010, FREEI-5012, FREEI-5013 and FREEI-5018
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* FREEI-4963  qxact report memory issue 
+		*15.0.5* FREEI-4647-report-not-filtering-by-agent 
+		*15.0.4*    Allow lazy loading for fwconsole commands
+		*15.0.3.40* FREEI-4240 Display QXact report times as seconds instead of minutes-seconds 
+		*15.0.3.39* FREEI-4121 D Series Queue Phone App 
+		*15.0.3.38* FREEI-4091 bugfix for unanswered calls not listing in call detail list 
+		*15.0.3.37* FREEI-4121 D Series Queue Phone App 
+		*15.0.3.36* FREEI-4088 fix bug of foreach on null and updated report name to action insted of agent 
+		*15.0.3.35* FREEI-3852 updated to show reason for pause state 
+		*15.0.3.34* FREEI-2988 Qxact remote Database with different table name 
+		*15.0.3.33* FREEI-3101 D-phone native app "Queue" overview data shows wrong 
+		*15.0.3.32* FREEI-3100 D-phone native app "Queue" members on call status shows wrong. 
+		*15.0.3.31* FREEI-3101 
+		*15.0.3.30* FREEI-2939 Added method for dphoneAPI 
+		*15.0.3.29* Packaging of ver 15.0.3.29
+		*15.0.3.28* FREEI-2505 FREEI-2685 
+		*15.0.3.27* FREEI-2336 Adding Report Scheduler feature 
+		*15.0.3.26* Packaging of ver 15.0.3.26
+		*15.0.3.25* Packaging of ver 15.0.3.25
+		*15.0.3.24* FREEI-1950 Qxact report not accurate 
+		*15.0.3.23* FREEI-1804 Qxact Legacy restore php Memory out issue 
+		*15.0.3.22* FREEI-1575 Updates to licensing
+		*15.0.3.21* FREEI-1605 Backup issue related to qxact_reports data 
+		*15.0.3.20* FREEPBX-21157: corrected the unexpected display in Agent Missed Call totals 
+		*15.0.3.19* FREEI-1218 QXACT Reports randomnly missing DID 
+		*15.0.3.18* FREEI-924 Fix XSS Bootstrap Datatable Issues 
+		*15.0.3.17* bump 
+		*15.0.3.16* FREEPBX-20397 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system 
+		*15.0.3.15* FREEPBX-20138 Whoops\Exception\ErrorException Illegal string offset 't1_type' error while fetching the queue report in FreePBX 15. 
+		*15.0.3.14* Fixing FREEPBX-20146 
+		*15.0.3.13* FREEI-586 - move cron to freepbx job scheduler 
+		*15.0.3.12* \ 
+		*15.0.3.11* FREEI-393 QXact Reports export issue fix 
+		*15.0.3.10* fixing legacy restore 
+		*15.0.3.9* FREEI-393 QXact Reports DID and UniqueID fields disappear when report finishes loading 
+		*15.0.3.8* FREEPBX-18349 After adding/editing a Queue Report Template entry the page is not redirecting to list page 
+		*15.0.3.7* FREEPBX-15686 List Queue Report Templates and Add Queue Report Templates option 
+		*15.0.3.6* FREEPBX-15686 List Queue Report Templates and Add Queue Report Templates option 
+		*15.0.3.5* FREEPBX-18595 - add a fallback in case we do not have a cdr db set 
+		*15.0.3.4* FREEPBX-18616 - fix typo 
+		*15.0.3.1* FREEPBX-18361
+		*15.0.2* FREEPBX-18448 QXact inconsistencies with Agent column on Availability Detail report 
+		*15.0.1* Branch 15.0
+	</changelog>
+	<database>
+		<table name="qxact_calls">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="uniqueid" type="string" length="32" default=""/>
+			<field name="queuename" type="string" length="32" default=""/>
+			<field name="agent" type="string" length="32" default=""/>
+			<field name="event" type="string" length="32" default=""/>
+			<field name="callerid" type="string" length="32" default=""/>
+			<field name="waittime" type="smallint" default="0" unsigned="true"/>
+			<field name="calltime" type="integer" default="0" unsigned="true"/>
+			<field name="origpos" type="smallint" default="0" unsigned="true"/>
+			<field name="position" type="integer" default="0" unsigned="true"/>
+			<field name="did" type="string" length="32" default=""/>
+			<field name="key" type="boolean" default="-1"/>
+			<key name="uniqueid_index" type="index">
+				<column name="uniqueid"/>
+			</key>
+			<key name="queuename_index" type="index">
+				<column name="queuename"/>
+			</key>
+			<key name="agent_index" type="index">
+				<column name="agent"/>
+			</key>
+			<key name="event_index" type="index">
+				<column name="event"/>
+			</key>
+			<key name="waittime_index" type="index">
+				<column name="waittime"/>
+			</key>
+			<key name="calltime_index" type="index">
+				<column name="calltime"/>
+			</key>
+			<key name="time_index" type="index">
+				<column name="time"/>
+			</key>
+		</table>
+		<table name="qxact_agent_calls">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="uniqueid" type="string" length="32" default=""/>
+			<field name="queuename" type="string" length="32" default=""/>
+			<field name="agent" type="string" length="32" default=""/>
+			<field name="event" type="string" length="32" default=""/>
+			<field name="ringtime" type="smallint" default="0" unsigned="true" notnull="false"/>
+			<key name="time_index" type="index">
+                <column name="time"/>
+                        </key>
+			<key name="uniqueid_index" type="index">
+                <column name="uniqueid"/>
+            </key>
+            <key name="queuename_index" type="index">
+                <column name="queuename"/>
+            </key>
+            <key name="agent_index" type="index">
+                <column name="agent"/>
+            </key>
+            <key name="event_index" type="index">
+                <column name="event"/>
+            </key>
+		</table>
+		<table name="qxact_agent_actions">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="uniqueid" type="string" length="32" default=""/>
+			<field name="queuename" type="string" length="32" default=""/>
+			<field name="agent" type="string" length="32" default=""/>
+			<field name="event" type="string" length="32" default=""/>
+			<field name="channel" type="string" length="32" default=""/>
+			<field name="extension" type="string" length="64" default=""/>
+			<field name="logintime" type="integer" default="0" unsigned="true"/>
+			<field name="reason" type="string" length="32" default=""/>
+			<key name="time_index" type="index">
+				<column name="time"/>
+			</key>
+			<key name="agent_index" type="index">
+				<column name="agent"/>
+			</key>
+			<key name="queuename_index" type="index">
+                <column name="queuename"/>
+            </key>
+			<key name="event_index" type="index">
+                <column name="event"/>
+            </key>
+		</table>
+		<table name="qxact_system_events">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="time" type="integer" unsigned="true" notnull="false"/>
+			<field name="queuename" type="string" length="32" default=""/>
+			<field name="event" type="string" length="32" default=""/>
+			<key name="time_index" type="index">
+                <column name="time"/>
+                        </key>
+			<key name="queuename_index" type="index">
+                <column name="queuename"/>
+            </key>
+            <key name="event_index" type="index">
+                <column name="event"/>
+            </key>
+		</table>
+		<table name="qxact_reports">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="256" default="UNNAMED REPORT"/>
+			<field name="data" type="text" notnull="false"/>
+		</table>
+		<table name="qxact_reports_scheduler">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="256" default="UNNAMED REPORT"/>
+			<field name="data" type="text" notnull="true"/>
+		</table>
+	</database>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>backup ge 15.0.22</module>
+		<version>13.0.6</version>
+	</depends>
+	<hooks>
+		<framework namespace="FreePBX\Console\Command" class="Chown">
+			<method namespace="FreePBX\modules" class="Qxact_reports" callingMethod="fwcChownFiles">chownFreepbx</method>
+		</framework>
+	</hooks>
+	<menuitems>
+		<qxact_reports>Queue Reports</qxact_reports>
+		<qxact_admin>Queue Report Templates</qxact_admin>
+		<qxact_scheduler>Queue Report Scheduler </qxact_scheduler>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>qxactreports</name>
+			<class>Qxact_reports</class>
+		</command>
+	</console>
+</module>

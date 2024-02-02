@@ -1,0 +1,208 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for voicemail_report
+# Copyright (C) 2008-2016 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:04+0000\n"
+"PO-Revision-Date: 2017-03-12 20:19+0200\n"
+"Last-Translator: Nicolas <freepbx@riendeau.org>\n"
+"Language-Team: French <http://weblate.freepbx.org/projects/fpbxc/"
+"voicemail_report/fr_FR/>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "Attach"
+msgstr "Attacher"
+
+msgid ""
+"Attach -- Email will be sent to the address shown in this column when a "
+"voicemail is left.<br>"
+msgstr ""
+"Attacher -- Une email sera envoyé à l'adresse mentionnée dans la colonne "
+"lorsqu'un message vocal est déposé.<br>"
+
+msgid "Busy"
+msgstr "Occupé"
+
+msgid "Busy -- This recording is played if the callee is busy.<br>"
+msgstr "Occupé -- Cet enregistrement est diffusé si l'appelé est occupé.<br>"
+
+msgid "Caller ID"
+msgstr "Numéro de l'appelant"
+
+msgid "Caller ID -- The person who left the message.<br>"
+msgstr "Numéro de l'appelant -- La personne qui a laissé un message.<br>"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Date -- The date this message was left.<br>"
+msgstr "Date -- Date du dépot du message.<br>"
+
+msgid "Default"
+msgstr "Défaut"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid ""
+"Delete -- If this column reads \"Yes\" then voicemail will be deleted from "
+"the mailbox when it is emailed.<br>"
+msgstr ""
+"Effacer -- Si \"oui\" est sélectionné dans cette colonne, alors le message "
+"vocal sera effacé de la boîte vocale lors de son envoi par email.<br>"
+
+msgid "Displays various information related to the voicemail system."
+msgstr ""
+"Présente les différentes informations sur le système de messagerie vocale."
+
+msgid "Duration"
+msgstr "Durée"
+
+msgid "Duration -- The length of the message in seconds.<br>"
+msgstr "Durée -- la durée du message en secondes.<br>"
+
+msgid "File does not exist"
+msgstr "Le fichier n'existe pas"
+
+msgid "Folder"
+msgstr "Dossier"
+
+msgid "Folder -- The folder this message currently resides in.<br>"
+msgstr "Dossier -- Dossier dans lequel est stocké le message actuel.<br>"
+
+msgid "Greetings & Settings"
+msgstr "Invitations et paramètres"
+
+msgid "Greetings and Settings"
+msgstr "Invitations et paramètres"
+
+msgid "Listen"
+msgstr "Ecouter"
+
+msgid "Listen -- Click the blue icon to listen to this recording.<br>"
+msgstr ""
+"Ecouter -- Cliquer sur l'icone bleu pour écouter cet enregistrement.<br>"
+
+msgid "Mailbox"
+msgstr "Boite mail"
+
+msgid "Mailbox -- The mailbox that all of the following options apply to.<br>"
+msgstr ""
+"Boîte mail -- Boîte mail pour laquelle toutes les options s'appliquent.<br>"
+
+msgid "Mailbox -- The mailbox this message belongs to.<br>"
+msgstr "Boîte mail -- Boîte mail à qui appartient ce message.<br>"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid ""
+"Name\t-- This recording is played when someone enters the name directory or "
+"when a caller first reaches their mailbox.<br>"
+msgstr ""
+"Nom\t-- Cet enregistrement est diffusé lorsque une personne entre le nom du "
+"répertoire ou lorsque un appelant essaye de joindre la boîte vocal pour la "
+"première fois.<br>"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Password -- The password for the mailbox.<br>"
+msgstr "Mot de Passe -- Mot de passe pour la boîte vocale.<br>"
+
+msgid "Reports"
+msgstr "Rapports"
+
+msgid "Temporary"
+msgstr "Temporaire"
+
+msgid ""
+"Temporary -- This recording is played if someone has recorded an out of the "
+"office message.<br>"
+msgstr ""
+"Temporaire -- Cet enregistrement est diffusé si une personne a enregistré un "
+"message d'absence du bureau.<br>"
+
+msgid ""
+"This page allows you to review all the voicemail messages currently residing "
+"on the system."
+msgstr ""
+"Cette page permet de visualiser l'ensemble des messages dans le système."
+
+msgid ""
+"This page is designed to give you further insight into your voicemail "
+"system. You can quickly tell who needs to record greetings in order to make "
+"things like the name directory not spell out names. You can also easily see "
+"who is setup to receive voicemail to email."
+msgstr ""
+"Cette page permet de visualiser un aperçu du système de boîte vocale. Vous "
+"pouvez rapidement voir qui a besoin d'enregistrer ses messages d'accueil. "
+"Vous pouvez facilement visualiser qui a réalisé sa configuration pour "
+"recevoir ses messages vocaux par email."
+
+msgid "Unavailable"
+msgstr "Indisponible"
+
+msgid ""
+"Unavailable -- This recording is played if the callee is unavailable.<br>"
+msgstr ""
+"Indisponible -- Ce message est diffusé si l'appelé est indisponible.<br>"
+
+msgid "View Voicemails"
+msgstr "Voir message vocaux"
+
+msgid "Voicemail Reports"
+msgstr "Rapports des messages vocaux"
+
+msgid "Yes"
+msgstr "Oui"
+
+#, fuzzy
+#~ msgid "),longDateFormat:{LT:"
+#~ msgstr "),longDateFormat:{LT:"
+
+#, fuzzy
+#~ msgid "),monthsShort:"
+#~ msgstr "),monthsShort:"
+
+#, fuzzy
+#~ msgid "),standalone:"
+#~ msgstr "),standalone:"
+
+#, fuzzy
+#~ msgid "),weekdays:"
+#~ msgstr "),weekdays:"
+
+#, fuzzy
+#~ msgid "),weekdays:Pd,weekdaysShort:"
+#~ msgstr "),weekdays:Pd,weekdaysShort:"
+
+#, fuzzy
+#~ msgid "),weekdaysMin:"
+#~ msgstr "),weekdaysMin:"
+
+#, fuzzy
+#~ msgid "),weekdaysShort:"
+#~ msgstr "),weekdaysShort:"
+
+#, fuzzy
+#~ msgid ")},monthsShort:"
+#~ msgstr ")},monthsShort:"
+
+#, fuzzy
+#~ msgid ".split("
+#~ msgstr ".split("

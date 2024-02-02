@@ -1,0 +1,263 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/sangomartapi/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/sangomartapi/node/package.json: d842d1bed3ea9a10498e9fa1f52a8f18
+[npm-cache] [INFO] [npm] running [npm install]...
+npm WARN deprecated connect@2.30.2: connect 2.x series is deprecated
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+
+> mariasql@0.2.6 install /var/www/html/admin/modules/sangomartapi/node/node_modules/mariasql
+> node-gyp rebuild
+
+make: Entering directory `/var/www/html/admin/modules/sangomartapi/node/node_modules/mariasql/build'
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aes.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aestables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/algebra.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/arc4.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/asn.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/bftables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/coding.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/des.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dh.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dsa.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/file.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hash.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hc128.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/integer.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md2.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md4.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md5.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/misc.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rabbit.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/random.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/ripemd.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rsa.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/sha.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/tftables.o
+  CXX(target) Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.o
+  AR(target) Release/obj.target/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.a
+  COPY Release/taocrypt.a
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/buffer.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/cert_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/crypto_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/handshake.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/lock.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/log.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/socket_wrapper.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/ssl.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/timer.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_error.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_imp.o
+  CXX(target) Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_int.o
+  AR(target) Release/obj.target/deps/libmariadbclient/extra/yassl/yassl.a
+  COPY Release/yassl.a
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client_plugin.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/mysql_async.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/my_time.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql-common/pack.o
+  CXX(target) Release/obj.target/clientlib/deps/libmariadbclient/sql/net_serv.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/sql/password.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/libmysql/errmsg.o
+  CC(target) Release/obj.target/clientlib/deps/libmariadbclient/libmysql/libmysql.o
+  AR(target) Release/obj.target/deps/libmariadbclient/libmysql/clientlib.a
+  COPY Release/clientlib.a
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/array.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/charset-def.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/charset.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/errors.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/hash.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/list.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_arr_appstr.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_dirname.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_fn_ext.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_format.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_loadpath.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_pack.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_path.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_qsort.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_unixpath.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_wcomp.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/mulalloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_access.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_alloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_compress.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_context.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_default.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_div.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_error.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fopen.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fstream.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getsystime.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getwd.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_init.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_lib.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_malloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_mess.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_once.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_open.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_pthread.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_read.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_seek.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_static.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_symlink.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_thr_init.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_write.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/safemalloc.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/string.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/thr_mutex.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/typelib.o
+  CC(target) Release/obj.target/mysys/deps/libmariadbclient/mysys/my_sync.o
+  AR(target) Release/obj.target/deps/libmariadbclient/mysys/mysys.a
+  COPY Release/mysys.a
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_aes.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_md5.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_rnd.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha1.o
+  CXX(target) Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha2.o
+  AR(target) Release/obj.target/deps/libmariadbclient/mysys_ssl/mysys_ssl.a
+  COPY Release/mysys_ssl.a
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/bchange.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/bmove_upp.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-big5.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-bin.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-cp932.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-czech.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-eucjpms.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-euc_kr.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-extra.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gb2312.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gbk.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-latin1.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-mb.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-simple.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-sjis.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-tis620.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-uca.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ucs2.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ujis.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-utf8.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype-win1250ch.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/ctype.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/dtoa.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/int2str.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/is_prefix.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/llstr.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/longlong2str.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/my_strtoll10.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/my_vsnprintf.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/str2int.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strcend.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strcont.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strend.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strfill.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmake.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strmov_overlapp.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strnmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strxmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strxnmov.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/str_alloc.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/xml.o
+  CC(target) Release/obj.target/strings/deps/libmariadbclient/strings/strnlen.o
+  AR(target) Release/obj.target/deps/libmariadbclient/strings/strings.a
+  COPY Release/strings.a
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/vio.o
+../deps/libmariadbclient/vio/vio.c: In function 'vio_end':
+../deps/libmariadbclient/vio/vio.c:389:3: warning: implicit declaration of function 'yaSSL_CleanUp' [-Wimplicit-function-declaration]
+   yaSSL_CleanUp();
+   ^
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viopipe.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/vioshm.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viosocket.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viossl.o
+  CC(target) Release/obj.target/vio/deps/libmariadbclient/vio/viosslfactories.o
+  AR(target) Release/obj.target/deps/libmariadbclient/vio/vio.a
+  COPY Release/vio.a
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/adler32.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/compress.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/crc32.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/deflate.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzclose.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzlib.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzread.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/gzwrite.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/infback.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inffast.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inflate.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/inftrees.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/trees.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/uncompr.o
+  CC(target) Release/obj.target/zlib/deps/libmariadbclient/zlib/zutil.o
+  AR(target) Release/obj.target/deps/libmariadbclient/zlib/zlib.a
+  COPY Release/zlib.a
+  CXX(target) Release/obj.target/sqlclient/src/binding.o
+../src/binding.cc: In static member function 'static void Client::cb_close(uv_handle_t*)':
+../src/binding.cc:975:68: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       obj->onclose->Call(Nan::New<Object>(obj->context), 0, nullptr);
+                                                                    ^
+../src/binding.cc: In member function 'void Client::on_connect()':
+../src/binding.cc:1007:60: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onconnect->Call(Nan::New<Object>(context), 0, nullptr);
+                                                            ^
+../src/binding.cc: In member function 'void Client::on_error(bool, unsigned int, const char*)':
+../src/binding.cc:1040:55: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onerror->Call(Nan::New<Object>(context), 1, argv);
+                                                       ^
+../src/binding.cc: In member function 'void Client::on_row()':
+../src/binding.cc:1087:53: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onrow->Call(Nan::New<Object>(context), 1, argv);
+                                                     ^
+../src/binding.cc: In member function 'void Client::on_rows()':
+../src/binding.cc:1148:53: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onrow->Call(Nan::New<Object>(context), 1, argv);
+                                                     ^
+../src/binding.cc: In member function 'void Client::on_resultinfo(MYSQL_FIELD*, unsigned int)':
+../src/binding.cc:1207:70: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+         onresultinfo->Call(Nan::New<Object>(context), 2, resinfo_argv);
+                                                                      ^
+../src/binding.cc: In member function 'void Client::on_resultend()':
+../src/binding.cc:1240:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (r <= 0 || r >= sizeof(u64_buf))
+                                        ^
+../src/binding.cc:1249:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (r <= 0 || r >= sizeof(u64_buf))
+                                          ^
+../src/binding.cc:1256:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (r <= 0 || r >= sizeof(u64_buf))
+                                        ^
+../src/binding.cc:1261:59: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onresultend->Call(Nan::New<Object>(context), 3, argv);
+                                                           ^
+../src/binding.cc: In member function 'void Client::on_ping()':
+../src/binding.cc:1268:57: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onping->Call(Nan::New<Object>(context), 0, nullptr);
+                                                         ^
+../src/binding.cc: In member function 'void Client::on_idle()':
+../src/binding.cc:1275:57: warning: 'v8::Local<v8::Value> Nan::Callback::Call(v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const' is deprecated (declared at ../../nan/nan.h:1726) [-Wdeprecated-declarations]
+       onidle->Call(Nan::New<Object>(context), 0, nullptr);
+                                                         ^
+../src/binding.cc: In static member function 'static Nan::NAN_METHOD_RETURN_TYPE Client::LastInsertId(Nan::NAN_METHOD_ARGS_TYPE)':
+../src/binding.cc:1561:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (r <= 0 || r >= sizeof(u64_buf))
+                                        ^
+  SOLINK_MODULE(target) Release/obj.target/sqlclient.node
+  COPY Release/sqlclient.node
+make: Leaving directory `/var/www/html/admin/modules/sangomartapi/node/node_modules/mariasql/build'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN any-db-mysql@2.3.0 requires a peer of any-db@~2.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN http-proxy-middleware@2.0.6 requires a peer of @types/express@^4.17.13 but none is installed. You must install peer dependencies yourself.
+npm WARN node-fetch@2.7.0 requires a peer of encoding@^0.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ws@7.4.6 requires a peer of bufferutil@^4.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN ws@7.4.6 requires a peer of utf-8-validate@^5.0.2 but none is installed. You must install peer dependencies yourself.
+
+added 278 packages from 203 contributors and audited 278 packages in 45.779s
+found 49 vulnerabilities (28 moderate, 20 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+[npm-cache] [INFO] [npm] installed npm dependencies, now archiving
+[npm-cache] [INFO] [npm] archiving dependencies from /var/www/html/admin/modules/sangomartapi/node/node_modules
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/sangomartapi/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] installed and archived dependencies
+[npm-cache] [INFO] successfully installed all dependencies

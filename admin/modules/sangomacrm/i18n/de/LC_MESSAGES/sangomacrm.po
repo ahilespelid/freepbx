@@ -1,0 +1,665 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sangomacrm
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-21 03:41+0000\n"
+"PO-Revision-Date: 2020-02-04 10:00+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/sangomacrm/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "A Recording has been uploaded for this record and may be seen at %s/%s"
+msgstr ""
+
+#, php-format
+msgid "A Voicemail related to this user has been added to %s"
+msgstr ""
+
+msgid ""
+"A call recording exist for this user on the PBX, Remote storage is disabled"
+msgstr ""
+"Für diesen Benutzer ist an der TK-Anlage eine Gesprächsaufzeichnung "
+"vorhanden, die Remotespeicherung ist deaktiviert"
+
+#, php-format
+msgid "A call recording related to this user has been added to %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"A custom url %s is set in advanced settings which will override any other "
+"server settings"
+msgstr ""
+
+msgid "A voicemail exist for this user on the PBX, Remote storage is disabled"
+msgstr ""
+
+msgid "API Cache expiration"
+msgstr ""
+
+msgid "API Connected"
+msgstr ""
+
+msgid "API Enabled"
+msgstr ""
+
+msgid "API Info"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "API Secret"
+msgstr ""
+
+msgid "API Status"
+msgstr ""
+
+msgid "API Timezone"
+msgstr ""
+
+msgid "API Token"
+msgstr ""
+
+msgid "API Version"
+msgstr ""
+
+msgid "API not yet initialised"
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Activity Type"
+msgstr ""
+
+msgid "Already Migrated"
+msgstr "Bereits migriert"
+
+msgid "Attempting to update your curl version"
+msgstr ""
+
+msgid "Australia 1"
+msgstr ""
+
+msgid "Australia 2"
+msgstr ""
+
+msgid "Auth Token"
+msgstr ""
+
+msgid "Authorize with Zoho"
+msgstr ""
+
+msgid "Base URL to call to access the RestAPI for CRM"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Links your PBX to "
+"your CRM"
+msgstr ""
+
+msgid "CRM"
+msgstr ""
+
+msgid "CRM API Settings"
+msgstr ""
+
+msgid "CRM Configured"
+msgstr ""
+
+msgid "CRM Password"
+msgstr ""
+
+msgid "CRM Settings"
+msgstr ""
+
+msgid "CRM Setup"
+msgstr ""
+
+msgid "CRM Type"
+msgstr ""
+
+msgid "CRM URL"
+msgstr ""
+
+msgid "CRM URL Can't be empty"
+msgstr ""
+
+msgid "CRM URL does not contain the protocol"
+msgstr ""
+
+msgid "CRM Username"
+msgstr ""
+
+msgid "CRM version"
+msgstr ""
+
+msgid "CURL Outdated"
+msgstr ""
+
+#, php-format
+msgid "Call Duration %s"
+msgstr ""
+
+msgid "Call Popup Redirect URL"
+msgstr ""
+
+msgid "Call Popup Redirect URL. Default value is https://crm.zoho.com"
+msgstr ""
+
+msgid "Call Recording"
+msgstr ""
+
+#, php-format
+msgid "Call Recording: %s"
+msgstr ""
+
+msgid "CallRecording"
+msgstr ""
+
+msgid ""
+"Cannot resolve the provided host for CRM URL. Check your entry or your "
+"server's DNS settings"
+msgstr ""
+"Der angegebene Host für die CRM-URL kann nicht aufgelöst werden. Überprüfen "
+"Sie Ihren Eintrag oder die DNS-Einstellungen Ihres Servers"
+
+msgid "Changing CRM type might reset all of your settings. Is that okay?"
+msgstr ""
+
+msgid "Check user permissions"
+msgstr ""
+
+msgid ""
+"Check your file storage quota. Your availible storage space may be limited."
+msgstr ""
+"Überprüfen Sie Ihr Dateispeicherkontingent. Ihr verfügbarer Speicherplatz "
+"ist möglicherweise begrenzt."
+
+msgid "Check your key/secret"
+msgstr ""
+
+msgid "Choose Activity Type"
+msgstr ""
+
+msgid "Client Id"
+msgstr ""
+
+msgid ""
+"Client Id ,It is a unique identifier which is required for API integrations."
+msgstr ""
+
+msgid "Client Id Type"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Company used on connectwise login"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Consumer Key For Salesforce"
+msgstr ""
+
+msgid "Contact Relationship Management"
+msgstr ""
+
+msgid "Contacts"
+msgstr ""
+
+msgid "Copy Voicemails"
+msgstr ""
+
+msgid "Custom CRM url"
+msgstr ""
+
+msgid "Customer Relationship Management Link"
+msgstr ""
+
+msgid "Customer's Client Id"
+msgstr ""
+
+msgid "Default User"
+msgstr ""
+
+msgid "Disabled Types"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download link for CRM tarball"
+msgstr ""
+
+msgid "Enabled Types"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+#, php-format
+msgid "Enter your authtoken see: %s"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error Not Connected"
+msgstr ""
+
+msgid "Errors while loading"
+msgstr ""
+
+msgid "Europe"
+msgstr ""
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "Files must be less than 20MB in size. This size is limited by the CRM."
+msgstr ""
+
+msgid "Generate new Private/Public key pair"
+msgstr ""
+
+msgid "Generating..."
+msgstr ""
+
+msgid "Get OAUTH2 Token for the Salesforce API"
+msgstr ""
+
+msgid "Get Salesforce Token"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid ""
+"If set this will over ride the URL settings in the CRM. This is experimental "
+"and may break things."
+msgstr ""
+
+msgid ""
+"If set to yes calls on extensions NOT assigned to users will not be logged."
+msgstr ""
+
+msgid "Ignore Unassigned"
+msgstr ""
+
+#, php-format
+msgid "Inbound call from %s"
+msgstr ""
+
+msgid "Instance"
+msgstr ""
+
+msgid "Leads"
+msgstr ""
+
+msgid "Link this User to a CRM User"
+msgstr ""
+
+msgid "Link to CRM Record"
+msgstr ""
+
+msgid "Link to CRM User"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Login URL for Salesforce"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Recording File"
+msgstr ""
+
+msgid "No URL provided"
+msgstr ""
+
+msgid "No owner, skipping per settings"
+msgstr ""
+
+msgid "No user found"
+msgstr ""
+
+msgid "No users cached"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "North America"
+msgstr ""
+
+msgid "Not Connected"
+msgstr ""
+
+msgid "Not Set"
+msgstr ""
+
+msgid "Oauth data found. If you are upgrading this is OK"
+msgstr ""
+
+#, php-format
+msgid "Outbound call to %s"
+msgstr ""
+
+msgid "PBX"
+msgstr ""
+
+msgid "PBX URL"
+msgstr ""
+
+msgid "Please Insert Client Id"
+msgstr ""
+
+msgid "Please enter an inbound DID"
+msgstr ""
+
+msgid "Please select a valid CRM Type"
+msgstr ""
+
+msgid ""
+"Please test the SSH connection by hitting 'Test Connection' before "
+"submitting this page"
+msgstr ""
+
+msgid "Private Key"
+msgstr ""
+
+msgid "Private key provided on setup"
+msgstr ""
+
+msgid "Public Key"
+msgstr ""
+
+msgid "Public Key provided in API setup"
+msgstr ""
+
+msgid "Re-authorize with Zoho"
+msgstr ""
+
+msgid "Read more about the installation process by clicking here"
+msgstr ""
+
+msgid "Recording"
+msgstr ""
+
+msgid "Recording Storage"
+msgstr ""
+
+msgid "Regular Expression Digit Match"
+msgstr ""
+
+msgid "Regular Expression Number Match"
+msgstr ""
+
+msgid ""
+"Regular expression used PER digit for Accounts/Numbers/Leads lookups. %digit"
+"% is replaced with each digit of the inbound number. This expression is "
+"repeated for every digit of the DID. This expression helps to match numbers "
+"that are in the CRM for relationship matching in various formats such as '+1 "
+"(444) 123-4567'"
+msgstr ""
+
+msgid ""
+"Regular expression used to match and cleanup numbers coming from the PBX "
+"before being sent to the CRM for relationship matching. This helps to match "
+"DIDs that come into the PBX such as '19991234567' and turns them into "
+"'9991234567'"
+msgstr ""
+
+msgid "Remote Storage Path"
+msgstr ""
+
+msgid "Remove Salesforce Token"
+msgstr ""
+
+msgid "Removing old Auth data"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset Key"
+msgstr ""
+
+msgid "RestAPI Base URL"
+msgstr ""
+
+msgid "SSH Username"
+msgstr ""
+
+msgid "Salesforce Auth URL"
+msgstr ""
+
+msgid "Salesforce Token"
+msgstr ""
+
+msgid "Sangoma Auth URL"
+msgstr ""
+
+msgid "Sangoma CRM"
+msgstr ""
+
+msgid "Sangoma Crm Internal"
+msgstr ""
+
+msgid "Sangoma auth endpoint"
+msgstr ""
+
+#, php-format
+msgid "SangomaCRM: %s"
+msgstr ""
+
+msgid "Select a CRM engine"
+msgstr ""
+
+msgid "Select the CRM server type"
+msgstr ""
+
+msgid ""
+"Select the Client Id Type, Which you want to use. <br><b> Customer's Client "
+"Id : </b>Customer can use his own Client Id, For generate your own Client "
+"Id, Please follow this guide: https://help-desk-migration.com/help/how-to-"
+"generate-connectwise-client-id <br><b>Sangoma Crm Internal :</b> It's a "
+"sangoma crm internal client id, If you select that option then there is no "
+"need to insert your client id. "
+msgstr ""
+
+msgid ""
+"Select the activity type to be used for calle. This tries to default to Call"
+msgstr ""
+
+msgid "Send WebHooks"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid ""
+"Set to CRM to copy call recordings to the remote CRM. Set to PBX to keep "
+"call recordings on the local PBX (You will still be able to listen to the "
+"recordings on the CRM as long as you open up access to the PBX admin "
+"interface for your users)"
+msgstr ""
+
+msgid ""
+"Set to Yes if you want to copy voicemails to the remote CRM for listening"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Should API access be enabled"
+msgstr ""
+
+msgid "Should we store a copy of the voicemail on the CRM"
+msgstr ""
+
+msgid "Skip Logging"
+msgstr ""
+
+msgid "South Africa"
+msgstr ""
+
+msgid "Staging"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start and End"
+msgstr ""
+
+msgid "Store Call Recording on CRM"
+msgstr ""
+
+msgid "Store Voicemail On CRM"
+msgstr ""
+
+msgid "Store a copy of the call recording on the CRM"
+msgstr ""
+
+msgid "Strip leading +"
+msgstr ""
+
+msgid "Strip the leading + from phone numbers"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "SugarCRM"
+msgstr ""
+
+msgid "SugarCRM Module Download"
+msgstr ""
+
+msgid "SugarCRM/SuiteCRM Module Download"
+msgstr ""
+
+msgid "SuiteCRM"
+msgstr ""
+
+msgid "SuiteCRM Module Download"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Test Connection"
+msgstr ""
+
+msgid "Testing..."
+msgstr ""
+
+msgid "The CRM URL"
+msgstr ""
+
+msgid "The CRM Username"
+msgstr ""
+
+msgid "The CRM Version"
+msgstr ""
+
+msgid "The Password of the CRM User"
+msgstr ""
+
+#, php-format
+msgid ""
+"The REST API settings have moved <a href='%s'>HERE</a> and can now be use in "
+"conjunction with other drivers."
+msgstr ""
+
+msgid "The URL you'd like to use in the CRM for linkbacks"
+msgstr ""
+
+msgid "The time in seconds that remote API's should cache user data"
+msgstr ""
+
+msgid "Type of CRM Configured"
+msgstr ""
+
+msgid "Unable to match based on pattern"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Use this token in the Token header when making requests"
+msgstr ""
+
+msgid ""
+"User to assign calls to if a user cannot be found or has not yet been "
+"assigned"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Validating credentials"
+msgstr ""
+
+msgid "Voicemail"
+msgstr ""
+
+msgid ""
+"What type of call popup would you like. If an item is not found an add page "
+"will be launched, this will default to account."
+msgstr ""
+
+msgid "When to send webhooks, In the beginning, in the end or both"
+msgstr ""
+
+msgid ""
+"Which server to use for the api. Choosing the wrong server may cause an "
+"empty response from the server and NOT an error. If your users are not "
+"populating try a different server."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, php-format
+msgid ""
+"You are missing support for playback in this browser. To fully support HTML5 "
+"browser playback you will need to install programs that can not be "
+"distributed with the PBX. If you'd like to install the binaries needed for "
+"these conversions click <a href='%s'>here</a>"
+msgstr ""
+
+msgid "Your version of curl is out of date. Please contact your reseller"
+msgstr ""
+
+msgid ""
+"Your version of curl is out of date. Please run 'yum update curl' from an "
+"SSH terminal."
+msgstr ""
+
+msgid "Zulu Callpop"
+msgstr ""
+
+msgid "helptext"
+msgstr ""

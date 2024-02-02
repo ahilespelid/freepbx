@@ -1,0 +1,55 @@
+<module>
+    <rawname>pinsets</rawname>
+    <repo>standard</repo>
+    <name>PIN Sets</name>
+    <version>15.0.1.15</version>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <category>Settings</category>
+    <description>Allow creation of lists of PINs (numbers for passwords) that can be used by other modules (eg, trunks).</description>
+    <more-info>https://wiki.freepbx.org/display/FPG/Pin+Sets</more-info>
+    <changelog>
+		*15.0.1.15* FREEPBX-22118 
+		*15.0.1.14* FREEPBX-22108 Add API REST to control Pinsets 
+		*15.0.1.13* Packaging of ver 15.0.1.13
+		*15.0.1.12* FREEI-2059  Legacy backup restore on FreePBX 15 not restoring the outbound route settings properly 
+		*15.0.1.11* Packaging of ver 15.0.1.11
+		*15.0.1.10*  FREEI-1358 Errors when doing restore in 15
+		*15.0.1.9* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.1.8* FREEPBX-20387 FreePBX 15 system is not restoring the PINSets data properly 
+		*15.0.1.7* FREEPBX-20068 Restoring the PINSets module gives illegal offset 
+		*15.0.1.6* FREEPBX-18367 pinset page is not redirecting to list page 
+		*15.0.1.5* fixing legacy restore 
+		*15.0.1.4* FREEPBX-18346 PIN sets module allows to create duplicate entries with same PIN Set Description. 
+		*15.0.1.3* FREEPBX-16314 
+		*15.0.1.2* FREEPBX-18127 Bring astman in to the the scope of the calling function 
+        *15.0.1* Backup 15
+	</changelog>
+    <menuitems>
+        <pinsets>PIN Sets</pinsets>
+    </menuitems>
+    <database>
+        <table name="pinsets">
+            <field name="pinsets_id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="passwords" type="text" notnull="false"/>
+            <field name="description" type="string" length="50" notnull="false"/>
+            <field name="addtocdr" type="boolean" notnull="false"/>
+            <field name="deptname" type="string" length="50" notnull="false"/>
+        </table>
+        <table name="pinset_usage">
+            <field name="pinsets_id" type="integer"/>
+            <field name="dispname" type="string" length="30" default="" primarykey="true"/>
+            <field name="foreign_id" type="string" length="30" default="" primarykey="true"/>
+        </table>
+    </database>
+    <supported>
+        <version>15.0</version>
+    </supported>
+    <depends>
+        <module>core</module>
+    </depends>
+    <methods>
+        <get_config pri="481">pinsets_get_config</get_config>
+    </methods>
+</module>

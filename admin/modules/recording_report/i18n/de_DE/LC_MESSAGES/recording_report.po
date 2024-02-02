@@ -1,0 +1,429 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for recording_report
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-30 12:29+0000\n"
+"PO-Revision-Date: 2018-01-09 16:39+0200\n"
+"Last-Translator: Nils <Nils@heckenkamp.info>\n"
+"Language-Team: German <http://weblate.freepbx.org/projects/fpbxc/"
+"recording_report/de_DE/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+#, php-format
+msgid "%d files moved to %s."
+msgstr ""
+
+#, php-format
+msgid "%s Files Restored"
+msgstr ""
+
+#, php-format
+msgid "%s created on %s is %s seconds long"
+msgstr ""
+
+#, php-format
+msgid "%s created on %s is 0 seconds long, removing file"
+msgstr ""
+
+#, php-format
+msgid "%s is currently being recording to"
+msgstr ""
+
+#, php-format
+msgid "%s still exists on system. Nothing to do"
+msgstr ""
+
+msgid "+E:"
+msgstr ""
+
+msgid "<br />Archives are created on the 1st of every month."
+msgstr ""
+
+msgid ""
+"<br />Only three archives are stored in the system.  As archives are "
+"created, the oldest archive is deleted."
+msgstr ""
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Actively Recording"
+msgstr ""
+
+msgid "All Days"
+msgstr ""
+
+msgid "Archive Enabled"
+msgstr ""
+
+msgid "Archive Enabled is set to no."
+msgstr ""
+
+msgid ""
+"Archive Enabled(Default is yes). Set to no if you do not want to generate "
+"the archives of call recording files."
+msgstr ""
+
+msgid "Archive Frequency and Limit"
+msgstr ""
+
+msgid "Archive all recordings older than X weeks/months"
+msgstr ""
+
+msgid "Archive operation failed due to insufficient disk space."
+msgstr ""
+
+msgid "Archiving Done."
+msgstr ""
+
+#, php-format
+msgid "Archiving all recordings older than %s %s"
+msgstr ""
+
+msgid "Archiving start...."
+msgstr ""
+
+#, php-format
+msgid "Backup Name: %s"
+msgstr ""
+
+msgid ""
+"By default backup file does not includes the call recordings so if you want "
+"to add recordings please add the path under custom directory option"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Displays various "
+"information related to the voicemail system. This is a non standard module "
+"and requies a license for it to work"
+msgstr ""
+
+msgid "Call Recording Archive failed"
+msgstr ""
+
+msgid "Call Recording Report"
+msgstr ""
+
+msgid "Call Recording Reports"
+msgstr ""
+
+msgid "Call Recording Reports Commands"
+msgstr ""
+
+msgid "Call Recording report is not licensed."
+msgstr ""
+
+msgid "Call Recordings"
+msgstr ""
+
+msgid "Call Recordings backed up."
+msgstr ""
+
+msgid "Choose a Month"
+msgstr ""
+
+msgid "Choose a Year"
+msgstr ""
+
+#, php-format
+msgid "Clean up %s ...."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Conference"
+msgstr ""
+
+msgid "Created / Uploaded Date"
+msgstr ""
+
+msgid "Date - Time"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, php-format
+msgid "Deleted  %d file(s)"
+msgstr ""
+
+#, php-format
+msgid "Deleting Zero duration files finished in %d seconds"
+msgstr ""
+
+msgid "Deleting of zero length files enabled"
+msgstr ""
+
+msgid "Destination"
+msgstr "Ziel"
+
+msgid "Direct"
+msgstr ""
+
+msgid ""
+"Dry Run enabled. Won't delete files if they are zero length and won't update "
+"last sync time"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid ""
+"Email address reminders are sent from. (*Note: Updates SysAdmin from "
+"address.)"
+msgstr ""
+
+msgid "Email address to send reminders to."
+msgstr ""
+
+msgid "Enter 0 to backup the all recordings from the previous (week/month)"
+msgstr ""
+
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+msgid "File Name"
+msgstr ""
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "Filestore upload status"
+msgstr ""
+
+msgid "From Email"
+msgstr ""
+
+msgid ""
+"If you wish to save your call recordings, please log in and download your "
+"call recording archives."
+msgstr ""
+
+msgid "Inbound"
+msgstr ""
+
+msgid "Invalid confirmation text. Please enter DELETE to confirm"
+msgstr ""
+
+#, php-format
+msgid "Last sync time was %s"
+msgstr ""
+
+msgid "Latest Records"
+msgstr ""
+
+msgid "Local archive storage"
+msgstr ""
+
+msgid "Local storage location for the recordings archievs."
+msgstr ""
+
+msgid ""
+"Location where all the archives will be uploaded. By default all the "
+"archives will be stored in local storage. Storage locations can be added/"
+"configured with the Filestore module"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+#, php-format
+msgid "Moving recording files to %s ...."
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Archives available"
+msgstr ""
+
+msgid "No Storage Locations"
+msgstr ""
+
+msgid "No files found to process..."
+msgstr ""
+
+msgid "No files found..."
+msgstr ""
+
+msgid "Optional Filestore archive upload"
+msgstr ""
+
+msgid "Outbound"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+#, php-format
+msgid "Please check %s log for more details"
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+msgid "Recording Archives"
+msgstr ""
+
+msgid "Reminder Email"
+msgstr ""
+
+msgid ""
+"Remove files with zero duration. Also, this option won't display zero "
+"duration files anymore. Once this option is selected, all files are deleted "
+"from the disk. No recovery possible!"
+msgstr ""
+
+msgid "Remove zero duration files"
+msgstr ""
+
+#, php-format
+msgid "Removing %s from database as it no longer exists on system"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+#, php-format
+msgid "Saving to: %s:'%s' instance ,File location: %s.\n"
+msgstr ""
+
+msgid "Scanning all files "
+msgstr ""
+
+msgid ""
+"Select 'Months' to run the archive scheduler on the first day of every month"
+msgstr ""
+
+msgid ""
+"Select 'Weeks' to run the archive scheduler on the first day of every week"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#, php-format
+msgid "Storage Location: %s"
+msgstr ""
+
+#, php-format
+msgid "Synchronization was done in %d seconds"
+msgstr ""
+
+#, php-format
+msgid ""
+"Synchronizing %s files since %s (use --force to ignore date or --time to set "
+"starting date) with database [searching %s]"
+msgstr ""
+
+#, php-format
+msgid "Synchronizing %s files with database [searching %s]"
+msgstr ""
+
+#, php-format
+msgid "Synchronizing database with %s files"
+msgstr ""
+
+msgid ""
+"The archives on this page can be downloaded and opened using a common tool "
+"like Winzip, or 7-Zip."
+msgstr ""
+
+msgid "The command is already running in another process."
+msgstr ""
+
+#, php-format
+msgid ""
+"The disk space of the server is %s, and the size of the backup file will be "
+"less than or equal to %s. Server can accommodate? %s"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type DELETE to confirm"
+msgstr ""
+
+#, php-format
+msgid "Unable to determine duration of %s created on %s"
+msgstr ""
+
+#, php-format
+msgid "Uploading backup%d.tar to selected storage locations."
+msgstr ""
+
+#, php-format
+msgid "Uploading backup%d.tgz to selected storage locations."
+msgstr ""
+
+msgid "Uploading backup1.tar to selected storage locations."
+msgstr ""
+
+msgid "Uploading backup1.tgz to selected storage locations."
+msgstr ""
+
+#, php-format
+msgid "We have just performed a %s backup of your call recordings."
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, perl-format
+msgid ""
+"You are missing support for playback in this browser. To fully support HTML5 "
+"browser playback you will need to install programs that can not be "
+"distributed with the PBX. If you'd like to install the binaries needed for "
+"these conversions click <a href='%s'>here</a>"
+msgstr ""
+
+msgid ""
+"Your Server does not have enough disk space to accommodate the generated TGZ "
+"file"
+msgstr ""
+
+msgid "backup1.tar renamed to backup2.tar."
+msgstr ""
+
+msgid "backup1.tgz renamed to backup2.tgz."
+msgstr ""
+
+msgid "backup2.tar renamed to backup3.tar."
+msgstr ""
+
+msgid "backup2.tgz renamed to backup3.tgz."
+msgstr ""
+
+msgid "backup3.tar removed."
+msgstr ""
+
+msgid "backup3.tgz removed."
+msgstr ""

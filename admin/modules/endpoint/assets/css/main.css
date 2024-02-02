@@ -1,0 +1,53 @@
+table tr td.word-wrap {
+        word-wrap: break-word;
+        width: 100%;
+        min-width: 150px;
+        max-width: 150px;
+}
+
+.dpmaAppNotification {
+        background-color: #fff3cd;
+        color:#856404;
+        padding:10px;
+        border-color: #ffeeba;
+}
+
+.static {
+        pointer-events:none;
+        opacity: 0.5;
+}
+
+
+.ui-sortable .static li {
+        cursor: not-allowed !important;
+}
+
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+#mftable td{
+        text-align: center;
+        width: 23%;
+}
+
+#lftable td{
+        text-align: center;
+        width: 19%;
+}
+
+#mftable .input-group,  #lftable .input-group{
+        margin: auto;
+        margin-top: 8px;
+}
+
+#mftable select,  #lftable select{
+        margin-top: 8px;
+        width: 40%;
+}
+
+#mftable .actions, #lftable .actions{
+        margin-top: 14px;
+}

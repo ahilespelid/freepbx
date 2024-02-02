@@ -1,0 +1,18 @@
+#!/bin/bash
+
+cat <<- EOF > /etc/logrotate.d/sangomartapi
+/var/log/asterisk/sangomartapi/*.log {
+    daily
+    rotate 7
+    dateext
+    missingok
+    notifempty
+    sharedscripts
+    copytruncate
+    create 0664 asterisk asterisk
+    su asterisk asterisk
+    postrotate
+    /usr/sbin/fwconsole pm2 --reload-logs -q
+    endscript
+}
+EOF

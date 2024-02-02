@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity; class ModuleStaticConfig { protected $config; private function __construct() { try { $this->config = (include dirname(__FILE__) . "\x2f\x2e\56\x2f\x2e\x2e\x2f\x63\x6f\156\146\151\x67\x2e\160\150\160"); } catch (\Exception $e) { throw new \Exception($e->getMessage()); } return $this; } public static function load() { return new ModuleStaticConfig(); } public function get() { return $this->config; } }

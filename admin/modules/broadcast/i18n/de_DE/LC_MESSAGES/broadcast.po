@@ -1,0 +1,795 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for broadcast
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-24 02:40+0000\n"
+"PO-Revision-Date: 2019-02-20 09:35+0000\n"
+"Last-Translator: hammer125 <auswertung@mariner.at>\n"
+"Language-Team: German <http://*/projects/fpbxc/broadcast/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Activate Campaign"
+msgstr ""
+
+msgid "Add Campaign"
+msgstr "Kampagne hinzufügen"
+
+msgid "Add Group"
+msgstr "Gruppe hinzufügen"
+
+msgid "Add a Call Group"
+msgstr "Eine Anrufgruppe hinzufügen"
+
+msgid "Add a Campaign"
+msgstr "Eine Kampagne hinzufügen"
+
+msgid "Add/Edit Callee"
+msgstr "Hinzufügen/Bearbeiten Kontakt"
+
+msgid "After Campaign Completes"
+msgstr "Nach Abschluss der Kampagne"
+
+msgid "An id used to identify Campaign"
+msgstr ""
+
+msgid "Answering Machine Detection is configured"
+msgstr "Die Anrufbeantwortererkennung ist konfiguriert"
+
+msgid "Applications"
+msgstr "Anwendungen"
+
+msgid "Are you sure you want to delete this entry ?"
+msgstr "Möchten Sie diesen Eintrag wirklich löschen?"
+
+msgid "Attached is the current report of calls made."
+msgstr "Beigefügt ist der aktuelle Bericht der getätigten Anrufe."
+
+msgid "Attached is the report of all calls made."
+msgstr "Anbei der Bericht aller getätigten Anrufe."
+
+msgid "Broadcast"
+msgstr "Broadcast / Rundruf"
+
+#, php-format
+msgid "Broadcast Campaign %s (%s) Complete!"
+msgstr "Rundruf Kampagne %s (%s) Fertig!"
+
+#, php-format
+msgid "Broadcast Campaign %s (%s) has Started"
+msgstr "Rundruf-Kampagne %s (%s) hat gestartet"
+
+msgid "Broadcast Campaigns"
+msgstr "Rundruf Kampagne"
+
+#, php-format
+msgid "Broadcast Error for %s (%s)"
+msgstr "Übertragungsfehler bei %s (%s)"
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"activateCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"addCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"deActivateCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"deleteCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"fetchAllCampaigns"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"startCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"stopCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"updateCampaign"
+msgstr ""
+
+msgid "Broadcast-"
+msgstr "Rundruf-"
+
+msgid "Browse"
+msgstr "Durchsuchen"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  The Broadcast "
+"module for FreePBX allows you to broadcast messages\tto your custoemrs or "
+"clients.  You can create campaings and set start and end times.  From their "
+"you can direct where you want the call to be directed to based on if a humna "
+"being\tor a answering machine answer the call.  Upload your CDS list of "
+"names and numbers and start your campaign.  You can also choose to get "
+"reports on your campaign daily or after the\tcampaign completes."
+msgstr ""
+
+msgid "Call Group Name"
+msgstr "Anruf Gruppenname"
+
+msgid "Call Group URI Source"
+msgstr "Anruf Gruppe URI Quelle"
+
+msgid "Call Groups"
+msgstr "Anruf Gruppen"
+
+msgid "Caller id used for the campaign"
+msgstr ""
+
+msgid "Calls"
+msgstr "Anrufe"
+
+msgid "Campaign"
+msgstr "Kampagne"
+
+#, php-format
+msgid "Campaign %s (%s) deactivated"
+msgstr "Kampagne %s (%s) deaktiviert"
+
+msgid "Campaign Active"
+msgstr "Kampagne aktiv"
+
+msgid "Campaign Caller ID"
+msgstr "Kampagnen Anrufer-ID"
+
+msgid "Campaign Completed"
+msgstr ""
+
+msgid "Campaign Deactivated successfully"
+msgstr ""
+
+msgid "Campaign Name"
+msgstr "Kampagne Name"
+
+msgid "Campaign Name Already Exist"
+msgstr ""
+
+msgid "Campaign activated successfully"
+msgstr ""
+
+msgid "Campaign active status"
+msgstr ""
+
+msgid "Campaign created Successfully"
+msgstr ""
+
+msgid "Campaign deleted Successfully"
+msgstr ""
+
+msgid "Campaign started"
+msgstr ""
+
+msgid "Campaign updated Successfully"
+msgstr ""
+
+msgid "Campaigns"
+msgstr "Kampagnen"
+
+msgid ""
+"Choose Daily After End Time to have a report emailed each day after the End "
+"Time is reached (see below) and also after the campaign is completed.  "
+"Choose After Campaign Completes to receive an email only after the campaign "
+"is completed."
+msgstr ""
+"Wählen Sie täglich eine Ablaufzeit aus, um nach dem Ende der Endzeit (siehe "
+"unten) und auch nach Abschluss der Kampagne einen Bericht per E-Mail zu "
+"erhalten. Wählen Sie Nach Abschluss der Kampagne aus, um erst nach Abschluss "
+"der Kampagne eine E-Mail zu erhalten."
+
+msgid "Complete"
+msgstr "Abgeschlossen"
+
+msgid "Complete Campaigns"
+msgstr "Abgeschlossene Kampagnen"
+
+msgid "Completed status of the campaign"
+msgstr ""
+
+msgid "Concurrent Calls"
+msgstr "Gleichzeitige Anrufe"
+
+msgid "Current Campaigns"
+msgstr "Gleichzeitige Kampagnen"
+
+msgid "Daily After End Time"
+msgstr "Täglich nach der Endzeit"
+
+msgid "Date/Time Options for this campaign"
+msgstr "Datum/Uhrzeit Optionen für diese Kampagne"
+
+msgid "Deactivate Campaign"
+msgstr ""
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete Campaign"
+msgstr ""
+
+msgid "Delete after Retrieving"
+msgstr "Nach dem Abrufen löschen"
+
+msgid "Destination - Answering Machine / Voicemail Answered"
+msgstr "Ziel - Anrufbeantworter/Voicemail angenommen"
+
+msgid "Destination - Live Person Answered"
+msgstr "Ziel - real(Person) angenommene Anrufe"
+
+msgid "Dial Prefix"
+msgstr "Vorwahl wählen"
+
+#, php-format
+msgid "Don't know what type %s is."
+msgstr "Ich weiß nicht, welcher Typ %s ist."
+
+msgid "Duplicate Campaign"
+msgstr "Dupliziere Kampagne"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Email Reports"
+msgstr "Email Berichte"
+
+msgid "Email Reports to"
+msgstr "Email Berichte zu"
+
+msgid "Email address to which the reports has to be sent"
+msgstr ""
+
+msgid "Email setting when to send emails"
+msgstr ""
+
+msgid "End Date"
+msgstr "Enddatum"
+
+msgid "End Time"
+msgstr "Endzeit"
+
+msgid "End date for Campaign"
+msgstr ""
+
+#, php-format
+msgid "End of Period - Campaign %s (%s)"
+msgstr "Ende der Dauer - Kampagne %s (%s)"
+
+msgid "End time for Campaign"
+msgstr ""
+
+msgid "End week for Campaign"
+msgstr ""
+
+msgid "Enter the caller id you would like to use for this campaign"
+msgstr ""
+"Geben Sie die Anrufer-ID ein, die Sie für diese Kampagne verwenden möchten"
+
+msgid "Enter the email address you wish this report to be emailed to"
+msgstr ""
+"Geben Sie die E-Mail-Adresse ein, an die dieser Bericht per E-Mail gesendet "
+"werden soll"
+
+msgid "Enter the maximum number of retries on failed calls."
+msgstr ""
+"Geben Sie die maximale Anzahl von Wiederholungen bei fehlgeschlagenen "
+"Anrufen ein."
+
+msgid "Enter the name for this call group"
+msgstr "Geben Sie den Namen für diese Anrufgruppe ein"
+
+msgid "Enter the name for this campaign"
+msgstr "Geben Sie den Namen für diese Kampagne ein"
+
+msgid "Enter the name of the callee"
+msgstr "Geben Sie den Namen des Angerufenen ein"
+
+msgid "Enter the number of the callee"
+msgstr "Geben Sie die Nummer des Angerufenen ein"
+
+msgid ""
+"Enter the total number of concurrent calls to be active at any given time.  "
+"This should be less than the total number of channels available on the "
+"system to still allow calls to be made and received."
+msgstr ""
+"Geben Sie die Gesamtanzahl gleichzeitiger Anrufe ein, die zu einem "
+"bestimmten Zeitpunkt aktiv sein sollen. Dies sollte weniger als die "
+"Gesamtzahl der verfügbaren Kanäle auf dem System sein, damit Anrufe immer "
+"noch getätigt und empfangen werden können."
+
+msgid ""
+"FTP ONLY. Will attempt to delete the file after downloading. If it is unable "
+"to delete the file, for whatever reason, the import WILL NOT proceed."
+msgstr ""
+"NUR FTP. Wird versuchen, die Datei nach dem Herunterladen zu löschen. Wenn "
+"die Datei aus irgendeinem Grund nicht gelöscht werden kann, wird der Import "
+"NICHT fortgesetzt."
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Group Name Already Exist"
+msgstr "Gruppenname existiert bereits"
+
+msgid "Group Options"
+msgstr "Gruppen Optionen"
+
+msgid "Groups"
+msgstr "Gruppen"
+
+msgid "Groups to include in calls from this campaign."
+msgstr "Gruppen, die in Anrufe von dieser Kampagne einbezogen werden sollen."
+
+msgid "How many seconds between URI updates"
+msgstr "Wie viele Sekunden zwischen URI-Aktualisierungen"
+
+msgid "Id of the Campaign"
+msgstr ""
+
+msgid ""
+"If you would like to customize the from email address that reports appear to "
+"come from, enter the email address here."
+msgstr ""
+"Wenn Sie die E-Mail-Adresse anpassen möchten, von der die Berichte zu kommen "
+"scheinen, geben Sie die E-Mail-Adresse hier ein."
+
+msgid ""
+"Import a CSV File formatted as follows:<br/>Name,Number,command<br />  "
+"Fields separated by ',' <br /><br /> Command is either 'add' or 'remove', is "
+"optional, and defaults to 'add'. Example:<br/>John Doe,12345678,add<br/>John "
+"Doe,12345687,remove"
+msgstr ""
+"Importieren Sie eine CSV-Datei wie folgt formatiert: <br/> Name, Nummer, "
+"Befehl <br /> Felder getrennt durch ',' <br /> <br /> Befehl ist entweder "
+"'hinzufügen' oder 'entfernen', ist optional, und Standardmäßig wird "
+"\"Hinzufügen\" verwendet. Beispiel: <br/> John Doe, 12345678, hinzufügen <br/"
+"> John Doe, 12345687, entfernen"
+
+msgid "Important Notice"
+msgstr "Wichtiger Hinweis"
+
+msgid "List of campaigns"
+msgstr ""
+
+msgid "Maximum Retries"
+msgstr "Maximale Wiederholungen"
+
+msgid "Maximum concurrent calls that this campaign can use"
+msgstr ""
+"Maximale Anzahl gleichzeitiger Aufrufe, die diese Kampagne verwenden kann"
+
+msgid ""
+"Maximum concurrent calls that this campaign can use,Should be less than the "
+"Concurrent Calls available in the general settings"
+msgstr ""
+"Wie viele gleichzeitige Anrufe diese Kampagne gleichzeitig nutzen darf. Der "
+"Wert sollte geringer sein als die Anzahl der gleichzeitigen Anrufe in den "
+"allgemeinen Einstellungen"
+
+msgid "Message for the request"
+msgstr ""
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name of the Call Group"
+msgstr ""
+
+msgid "Name of the Campaign"
+msgstr ""
+
+msgid "Never"
+msgstr "Niemals"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Number"
+msgstr "Nummer"
+
+msgid "Number of times retried"
+msgstr ""
+
+msgid "Numbers to Call"
+msgstr "Rufnummern"
+
+msgid "Only Call Between"
+msgstr "Nur Anruf zwischen"
+
+msgid "Optional"
+msgstr "wahlweise"
+
+msgid "Overview"
+msgstr "Übersicht"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "Please enter a valid Campaign Name"
+msgstr "Bitte geben Sie einen gültigen Kampagnennamen ein"
+
+msgid "Please enter a valid Group Name"
+msgstr "Bitte geben Sie einen gültigen Gruppennamen ein"
+
+msgid "Please enter a valid Name"
+msgstr "Bitte geben Sie einen gültigen Namen ein"
+
+msgid "Please enter a valid Number"
+msgstr "Bitte geben Sie eine gültige Nummer ein"
+
+msgid "Please provide a name for the campaign"
+msgstr ""
+
+msgid "Please provide a valid id"
+msgstr ""
+
+msgid "Please provide atleast one call group"
+msgstr ""
+
+msgid "Please select a destination for Answering Machine/Voicemail Answered."
+msgstr ""
+"Bitte wählen Sie ein Ziel für angenommene Anrufbeantworter / Voicemail "
+"Anrufe."
+
+msgid "Please select a destination for Live Person Answered."
+msgstr "Bitte wählen Sie ein Ziel für beantwortete real (Live-Person) Anrufe."
+
+msgid "Please select at least one call group."
+msgstr "Bitte wählen Sie mindestens eine Anrufgruppe aus."
+
+msgid "Prefix to be appended to every number before dialed"
+msgstr ""
+
+msgid ""
+"Prefix to be appended to every number before dialed - useful to force calles "
+"out a specific Outbound Route"
+msgstr ""
+"Vorwahl, die vor dem Wählen an jede Nummer hinzugefügt wird - nützlich, um "
+"eine bestimmte Outbound-Route zu erzwingen"
+
+msgid "Previous Campaigns"
+msgstr "Vorherige Kampagnen"
+
+msgid "Remaining"
+msgstr "Verbleibend"
+
+msgid "Report"
+msgstr "Bericht"
+
+msgid "Report 'From' Address"
+msgstr "Bericht 'Von' Adresse"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Restart"
+msgstr "Neustart"
+
+#, php-format
+msgid "Resuming Campaign %s (%s)"
+msgstr "Fortsetzen der Kampagne %s (%s)"
+
+msgid "Retry time"
+msgstr ""
+
+msgid "Retry time in Seconds"
+msgstr ""
+
+msgid "Running"
+msgstr "Läuft"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Schedule"
+msgstr "Zeitplan"
+
+msgid "Seconds"
+msgstr "Sekunden"
+
+msgid ""
+"Select Yes to activate campaign upon addition/modification.  Note, you still "
+"need to click the Start button on the Settings page to initiate the "
+"broadcast application "
+msgstr ""
+"Wählen Sie Ja, um die Kampagne nach dem Hinzufügen/Ändern zu aktivieren. "
+"Hinweis: Sie müssen immer noch auf der Seite Einstellungen auf die "
+"Schaltfläche Start klicken, um die (Rundruf) Broadcast-Anwendung zu starten. "
+
+msgid "Service Status"
+msgstr "Service Status"
+
+msgid "Service is currently:"
+msgstr "Der Service ist derzeit:"
+
+msgid "Sorry, unable to find any campaign"
+msgstr ""
+
+msgid "Sorry, unable to process your create request"
+msgstr ""
+
+msgid "Sorry, unable to process your update request"
+msgstr ""
+
+msgid ""
+"Specify a URI to import the Call Group from. Currently supports FTP and HTTP "
+"in CSV format"
+msgstr ""
+"Geben Sie einen URI an, aus dem die Anrufgruppe importiert werden soll. "
+"Unterstützt derzeit FTP und HTTP im CSV-Format"
+
+msgid "Start Campaign"
+msgstr ""
+
+msgid "Start Date"
+msgstr "Startdatum"
+
+msgid "Start Time"
+msgstr "Startzeit"
+
+msgid "Start date for Campaign"
+msgstr ""
+
+msgid "Start time for campaign"
+msgstr ""
+
+msgid "Start week for Campaign"
+msgstr ""
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status for the request"
+msgstr ""
+
+msgid "Stop Campaign"
+msgstr ""
+
+msgid "Stopped"
+msgstr "Angehalten"
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid ""
+"The Broadcast doesn't stop automatically after completing a campaign.\n"
+"    It will keep running and checking for newly active campaigns, or added "
+"numbers to call."
+msgstr ""
+"Der Rundruf endet nicht automatisch nach Beendigung einer Kampagne.\n"
+"Er läuft weiter und prüft dabei neu aktivierte Kampagnen oder hinzugefügte "
+"Nummern, die angerufen werden sollen."
+
+#, php-format
+msgid ""
+"The campaign %s has beed deactivated. You will not recieve any further "
+"information until it is re-activated and started."
+msgstr ""
+"Die Kampagne%s wurde deaktiviert. Sie erhalten keine weiteren Informationen, "
+"bis sie wieder aktiviert und gestartet werden."
+
+#, php-format
+msgid "The campaign %s has completed."
+msgstr "Die Kampagne %s wurde abgeschlossen."
+
+#, php-format
+msgid ""
+"The campaign %s has not completed, but has finished for the current period."
+msgstr ""
+"Die Kampagne %s wurde nicht abgeschlossen, ist jedoch für den aktuellen "
+"Zeitraum abgeschlossen."
+
+#, php-format
+msgid "The campaign %s has resumed after new contacts have been added."
+msgstr ""
+"Die Kampagne %s wurde fortgesetzt, nachdem neue Kontakte hinzugefügt wurden."
+
+#, php-format
+msgid "The campaign %s has started for the current period."
+msgstr "Die Kampagne %s hat für den aktuellen Zeitraum begonnen."
+
+#, php-format
+msgid "The group name/s %s are not valid"
+msgstr ""
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "URI to import the Call Group from"
+msgstr ""
+
+msgid "Unable to delete campaign"
+msgstr ""
+
+msgid "Unique ID"
+msgstr ""
+
+msgid "Update Campaign"
+msgstr ""
+
+msgid "Update From CSV"
+msgstr "Update von CSV"
+
+msgid "Update Period"
+msgstr "Aktualisierungszeitraum"
+
+msgid "Use to get all the campaigns"
+msgstr ""
+
+msgid "Used to set campaign values"
+msgstr ""
+
+msgid "Wait time"
+msgstr ""
+
+msgid "Wait time in Seconds"
+msgstr ""
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "Where to send Answering Machine calls"
+msgstr "Wohin kann Anrubeantworter Anrufe weiterleiten"
+
+msgid "Where to send calls answered by a live person"
+msgstr ""
+
+msgid "Where to send calls answered by a live person."
+msgstr "Wohin kann ich beantwortete real Anrufe (Person) weiterleiten."
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid ""
+"You can choose to dublicate an existing campaign.  Select the campaign you "
+"wish to duplicate, then click Save.  This allows you to run the same "
+"campaign after it is completed while keeping previous campaign reports "
+"intact."
+msgstr ""
+"Sie können eine vorhandene Kampagne duplizieren. Wählen Sie die Kampagne, "
+"die Sie duplizieren möchten, und klicken Sie auf Speichern. Auf diese Weise "
+"können Sie dieselbe Kampagne nach Abschluss der Kampagne ausführen, ohne "
+"vorherige Kampagnenberichte zu beeinträchtigen."
+
+msgid "You need to add a call group before you can add a campaign."
+msgstr ""
+"Sie müssen eine Anrufgruppe hinzufügen, bevor Sie eine Kampagne hinzufügen "
+"können."
+
+msgid "activateCampaign"
+msgstr ""
+
+msgid "addCampaign"
+msgstr ""
+
+msgid "campaign groups"
+msgstr ""
+
+msgid "deActivateCampaign"
+msgstr ""
+
+msgid "deleteCampaign"
+msgstr ""
+
+msgid "dupes"
+msgstr ""
+
+msgid "id of the campaign to edit"
+msgstr ""
+
+msgid "inputs are validated"
+msgstr ""
+
+msgid "startCampaign"
+msgstr ""
+
+msgid "startStopCampaign"
+msgstr ""
+
+msgid "unable to activate campaign"
+msgstr ""
+
+msgid "unable to deactivate campaign"
+msgstr ""
+
+msgid "unable to start the campaign"
+msgstr ""
+
+msgid "unable to stop the campaign"
+msgstr ""
+
+msgid "updateCampaign"
+msgstr ""
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php  The Broadcast module for FreePBX allows you "
+#~ "to broadcast messages\tto your custoemrs or clients.  You can create "
+#~ "campaings and set start and end times.  From their you can direct where "
+#~ "you want the call to be directed to based on if a humna being\tor a "
+#~ "answering machine answer the call.  Upload your CDS list of names and "
+#~ "numbers and start your campaign.  You can also choose to get reports on "
+#~ "your campaign daily or after the\tcampaign completes."
+#~ msgstr ""
+#~ "KOMMERZIELLES MODUL BENÖTIGT EINE LIZENZ, DAMIT ES FUNKTIONERT. Bitte "
+#~ "besuchen Sie www.schmoozecom.com/oss.php  Das Rundruf-Modul für FreePBX "
+#~ "erlaubt es Ihnen, Nachrichten per Rundruf an Ihre Kunden oder Klienten zu "
+#~ "senden. Sie können Kampagnen anlegen und Start- und Endzeiten festlegen. "
+#~ "Sie können außerdem festlegen, wie der Anruf, abhängig davon, ob ein "
+#~ "Mensch oder ein Anrufbeantworter den Anruf annimmt, umgeleitet werden "
+#~ "soll. Laden Sie Ihre Rundrufliste mit Namen und Nummern der anzurufenden "
+#~ "hoch und stoßen Sie Ihre Kampagne an. Außerdem können Sie sich täglich "
+#~ "oder am Ende der Kampagne Berichte erzeugen lassen."
+
+#~ msgid ""
+#~ "Answering Machine Detection is configured in the file /etc/asterisk/amd."
+#~ "conf."
+#~ msgstr ""
+#~ "Die Anrufbeantwortererkennung ist in der Datei /etc/asterisk/amd.conf "
+#~ "konfiguriert."
+
+#~ msgid ""
+#~ "The Broadcast service NO LONGER STOPS AUTOMATICALLY after completing a "
+#~ "campaign.\n"
+#~ "    It will keep running and checking for newly active campaigns, or "
+#~ "added numbers to call. This is a significant change\n"
+#~ "    from previous usage, and it's important you are aware of this."
+#~ msgstr ""
+#~ "Der (Rundruf)Broadcast-Dienst STOPPT NICHT AUTOMATISCH nach Abschluss "
+#~ "einer Kampagne.\n"
+#~ "     Es wird weiter ausgeführt und nach neu aktiven Kampagnen gesucht "
+#~ "oder Nummern zum Anrufen hinzugefügt. Dies ist eine signifikante "
+#~ "Änderung\n"
+#~ "     aus der vorherigen Verwendung, und es ist wichtig, dass Sie sich "
+#~ "dessen bewusst sind."

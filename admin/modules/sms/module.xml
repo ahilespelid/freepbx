@@ -1,0 +1,110 @@
+<module>
+	<rawname>sms</rawname>
+	<name>SMS</name>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>standard</repo>
+	<category>Connectivity</category>
+	<version>15.0.37</version>
+	<description>
+		This module is used to configure and manage SMS chat interfaces inside of the new UCP.
+	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/SMS+-+UCP</more-info>
+	<changelog>
+		*15.0.37* Packaging of ver 15.0.37
+		*15.0.36* SCD-305 
+		*15.0.35* SCD-305 removed user agent since it is not useful when a single did can 
+		*15.0.34* Packaging of ver 15.0.34
+		*15.0.33* SCD-291 added an event to be triggered when a conversation is deleted from UCP 
+		*15.0.32* Packaging of ver 15.0.32
+		*15.0.31* Packaging of ver 15.0.31
+		*15.0.30* FREEI-4968 
+		*15.0.29* FREEI-4944: the astman User Event was being generated too soon, so let adaptor to generate the event
+		*15.0.28* Packaging of ver 15.0.28
+		*15.0.27* FREEI-4350 Added backend validation for validating file format
+		*15.0.26* FREEI-4357 
+		*15.0.25* FREEI-4426 Removed Space in the url before validating it 
+		*15.0.24* FREEI-4391 Added condition to check web hook is enable or not disabled while sending data to webhook 
+		*15.0.23* FREEI-4394 Refactored updateWebhook function 
+		*15.0.22* FREEI-4371 Added GQL API's for adding, deleting, updating, fetching sms web hook data with unit test cases 
+		*15.0.21* FREEI-2891 Implemented new feature to send SMS data which is being received by / sent from the FreePBX system to the web hooks URLs. Created GUI to get these webhook url details. 
+		*15.0.20* SMOBILE-389 SCM - Some SMSs are not shown on the app 
+		*15.0.19* FREEI-4003 Outbound SMS fail to some DIDs 
+		*15.0.18* https://issues.freepbx.org/browse/FREEI-3105 
+		*15.0.17* don't delete all user routing 
+		*15.0.16* let use our adaptor when adding Routings 
+		*15.0.15* Bugfix/FREEI-2186 ucp sms module issues with messages identified as received 
+		*15.0.14* FREEI-2160 UCP SMS are removed after upgrading to freepbx15 from freepbx13 restore 
+		*15.0.13* Fixing FREE-2063 
+		*15.0.12* FREEI-1979 Add UCP Browser desktop notification for incoming SMS 
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* FREEPBX-21602  error mysqldump 
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEPBX-21602 error mysqldump 
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* FREEI-1539 SMS Module throwing memory error while restoring Freepbx-15 Backup. 
+		*15.0.5* FREEPBX-21425 Error restoring sms module 
+		*15.0.4* bump 
+		*15.0.3* fixing legacy restore 
+		*15.0.2* Backup and restore for 15.0 
+		*15.0.1* Branch to 15
+	</changelog>
+	<menuitems>
+		<sms>SMS Webhook</sms>
+	</menuitems>
+	<database>
+		<table name="sms_messages">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="from" type="string" length="20"/>
+			<field name="to" type="string" length="20"/>
+			<field name="cnam" type="string" length="40" notnull="false"/>
+			<field name="direction" type="string" length="3"/>
+			<field name="tx_rx_datetime" type="datetime"/>
+			<field name="body" type="string" length="1600"/>
+			<field name="delivered" type="boolean" default="0"/>
+			<field name="read" type="boolean" default="0"/>
+			<field name="adaptor" type="string" length="45" notnull="false"/>
+			<field name="emid" type="string" length="255" notnull="false"/>
+			<field name="threadid" type="string" length="50"/>
+			<field name="didid" type="integer"/>
+			<field name="timestamp" type="integer"/>
+		</table>
+		<table name="sms_dids">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="did" type="string" length="45"/>
+			<key name="did" type="unique">
+				<column name="did"/>
+			</key>
+		</table>
+		<table name="sms_routing">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="did" type="string" length="45"/>
+			<field name="uid" type="integer"/>
+			<field name="accepter" type="string" length="45" notnull="false"/>
+			<field name="adaptor" type="string" length="45" notnull="false"/>
+			<field name="didid" type="integer"/>
+		</table>
+		<table name="sms_media">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="mid" type="integer"/>
+			<field name="name" type="string" length="255"/>
+			<field name="raw" type="blob"/>
+		</table>
+		<table name="sms_webhooks">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="webhookUrl" type="string" length="255"/>
+			<field name="enablewebHook" type="boolean" default="0"/>
+			<field name="dataToBeSentOn" type="string" length="10"/>
+		</table>
+	</database>
+	<depends>
+		<engine>asterisk 11</engine>
+		<module>ucp ge 13.0.34</module>
+		<module>backup ge 15.0.22</module>
+		<version>14.0.1.25</version>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

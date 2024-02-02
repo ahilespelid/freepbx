@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Dids; class removeDid implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\165\x74\x68\x65\156\x74\151\x63\x61\x74\x65" => true, "\141\x6c\154\x6f\x77\x72\x65\155\157\x74\145" => false); return true; } public function ajaxHandler($config, $data) { return Dids::load()->removeDid($config, $data); } }

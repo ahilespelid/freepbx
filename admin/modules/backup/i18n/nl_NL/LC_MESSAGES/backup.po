@@ -1,0 +1,2844 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for backup
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-30 12:17+0000\n"
+"PO-Revision-Date: 2015-03-19 19:56+0200\n"
+"Last-Translator: Jan Peter <jpveldhuizen@gmail.com>\n"
+"Language-Team: Dutch <http://weblate.freepbx.org/projects/freepbx/backup/"
+"nl_NL/>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#: RestoreBase.php:259
+#, php-format
+msgid " %s found no database definitions in module.xml"
+msgstr ""
+
+#: views/backup/form.php:25
+#, php-format
+msgid "%s Backup %s"
+msgstr ""
+
+#: views/backup/form.php:433 views/backup/form.php:436
+#: views/backup/form.php:439 views/backup/form.php:442
+#, php-format
+msgid "%s Days"
+msgstr ""
+
+#: views/backup/form.php:445 views/backup/form.php:448
+#: views/backup/form.php:451 views/backup/form.php:454
+#: views/backup/form.php:457
+#, php-format
+msgid "%s Days (%s Months)"
+msgstr ""
+
+#: Handlers/Backup/Common.php:171 Handlers/Restore/Multiple.php:17
+#, php-format
+msgid "%s does not exist"
+msgstr ""
+
+#: RestoreBase.php:193 RestoreBase.php:390
+#, php-format
+msgid "%s does not implement KVStore"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:137
+#, php-format
+msgid "%s is now loaded into memory"
+msgstr ""
+
+#: BackupBase.php:249
+#, php-format
+msgid "%s table Backup Error %s "
+msgstr ""
+
+#: RestoreBase.php:632
+#, php-format
+msgid "%s table Restore Error %s "
+msgstr ""
+
+#: Backup.class.php:1504
+msgid "/path/to/dir"
+msgstr "/pad/naar/map"
+
+#: Backup.class.php:1492
+msgid "/path/to/file"
+msgstr "/pad/naar/bestand"
+
+#: Api/Gql/Backup.php:95 Api/Gql/Backup.php:373
+msgid "A id used to identify your backups"
+msgstr ""
+
+#: Api/Gql/Backup.php:310 Api/Gql/Backup.php:377 views/backup/form.php:60
+msgid "A name used to identify your backups"
+msgstr ""
+
+#: views/backup/form.php:518
+msgid "A script to be run AFTER a backup is completed."
+msgstr "Een script dat wordt uitgevoerd NADAT een reservekopie is voltooid."
+
+#: views/backup/form.php:566
+msgid "A script to be run AFTER a backup is restored."
+msgstr ""
+"Een script dat wordt uitgevoerd NADAT een reservekopie wordt teruggezet."
+
+#: views/backup/form.php:542
+msgid "A script to be run BEFORE a backup is restored."
+msgstr ""
+"Een script dat wordt uitgevoerd VOORDAT een reservekopie wordt teruggezet."
+
+#: views/backup/form.php:494
+msgid "A script to be run BEFORE a backup is started."
+msgstr ""
+"Een script dat wordt uitgevoerd VOORDAT een reservekopie wordt gemaakt."
+
+#: views/backup/warmspare.php:277
+msgid "API"
+msgstr ""
+
+#: views/backup/warmspare.php:328
+msgid "Access Token URL"
+msgstr ""
+
+#: views/backup/warmspare.php:340
+msgid "Access Token URL of Warm Spare server."
+msgstr ""
+
+#: views/backup/grid.php:26 views/restore/landing.php:74
+#: views/restore/landing.php:119
+msgid "Actions"
+msgstr ""
+
+#: views/backup/form.php:25
+msgid "Add"
+msgstr ""
+
+#: views/backup/grid.php:5 views/rnav.php:3
+msgid "Add Backup"
+msgstr ""
+
+#: Api/Gql/Backup.php:314 Api/Gql/Backup.php:381 views/backup/form.php:84
+msgid "Add a description for your backup"
+msgstr ""
+
+#: views/backup/form.php:140
+msgid "Add custom files in backup"
+msgstr ""
+
+#: Handlers/Backup/Common.php:210
+#, php-format
+msgid "Adding custom directory to tar: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:169
+#, php-format
+msgid "Adding custom file to tar: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:127
+#, php-format
+msgid "Adding directory to tar: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:142
+#, php-format
+msgid "Adding file to tar: %s"
+msgstr ""
+
+#: bin/backup.php:75
+msgid "Adding items..."
+msgstr "Onderdelen toevoegen..."
+
+#: Handlers/Backup/Multiple.php:139
+#, php-format
+msgid "Adding module %s to queue because %s depends on it"
+msgstr ""
+
+#: Handlers/Backup/Common.php:149
+#, php-format
+msgid "Adding module manifest for %s"
+msgstr ""
+
+#: backup.i18n.php:6
+msgid "Admin"
+msgstr "Beheer"
+
+#: views/restore/processRestore.php:28
+msgid "After the restore you might reload with the apply config button"
+msgstr ""
+
+#: Handlers/Restore/Common.php:185
+msgid ""
+"Apache will Restart now... And your GUI may die if the ports are changed !!!!"
+msgstr ""
+
+#: views/backup/form.php:292
+msgid "Append Backup Name as a directory to the Storage path"
+msgstr ""
+
+#: views/backup/warmspare.php:208
+msgid "Apply Configs"
+msgstr "Configuraties toepassen"
+
+#: assets/js/backup.js:210 assets/js/backup.js:249
+msgid "Are you sure you wish to delete this file? This cannot be undone"
+msgstr ""
+
+#: assets/js/backup.js:235 assets/js/backup.js:276
+msgid "Are you sure, you want to restore this backup?"
+msgstr ""
+
+#: Backup.class.php:1463
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+#: functions.inc/class.backup.php:411 functions.inc/class.backup.php:414
+msgid "BACKUP NOT ATTACHED"
+msgstr ""
+
+#: functions.inc/backup.php:81 functions.inc/class.backup.php:405
+#: views/landing.php:13
+msgid "Backup"
+msgstr "Reservekopie"
+
+#: Backup.class.php:1132
+#, php-format
+msgid "Backup %s"
+msgstr ""
+
+#: Monolog/Swift.php:75
+#, php-format
+msgid "Backup %s failed for %s"
+msgstr ""
+
+#: Monolog/Swift.php:73
+#, php-format
+msgid "Backup %s success for %s"
+msgstr ""
+
+#: backup.i18n.php:4 backup.i18n.php:10 views/landing.php:5
+msgid "Backup & Restore"
+msgstr "Reservekopie & Terugzetten"
+
+#: backup.i18n.php:12
+msgid "Backup & Restore - Restore"
+msgstr "Reservekopie & Terugzetten - Terugzetten"
+
+#: backup.i18n.php:8
+msgid "Backup & Restore for your FreePBX environment"
+msgstr "Reservekopie & Terugzetten voor uw FreePBX omgeving"
+
+#: views/restore/landing.php:72 views/restore/landing.php:116
+msgid "Backup Date"
+msgstr ""
+
+#: Backup.class.php:308
+msgid "Backup Deleted"
+msgstr ""
+
+#: views/backup/form.php:72
+msgid "Backup Description"
+msgstr ""
+
+#: functions.inc/class.backup.php:410
+msgid "Backup ERROR (exceeded SMTP limits)"
+msgstr ""
+
+#: functions.inc/class.backup.php:413
+msgid "Backup ERROR (exceeded soft limit)"
+msgstr ""
+
+#: views/restore/landing.php:16
+msgid "Backup File"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:60
+#, php-format
+msgid "Backup File Name: %s"
+msgstr ""
+
+#: views/restore/processRestore.php:11
+msgid "Backup Info"
+msgstr ""
+
+#: views/restore/landing.php:118
+msgid "Backup Instance"
+msgstr ""
+
+#: views/backup/form.php:96
+msgid "Backup Items"
+msgstr "Reservekopie onderdelen"
+
+#: bin/backup.php:70
+msgid "Backup Lock acquired!"
+msgstr "Reservekopie vergrendeling verkregen!"
+
+#: views/backup/form.php:48 views/restore/landing.php:71
+#: views/restore/landing.php:115
+msgid "Backup Name"
+msgstr "Reservekopie naam"
+
+#: Backup.class.php:657
+msgid "Backup Restored Successfully"
+msgstr ""
+
+#: Api/Gql/Backup.php:664
+msgid "Backup Storage Location Required"
+msgstr ""
+
+#: views/restore/landing.php:117
+msgid "Backup Type"
+msgstr ""
+
+#: views/backup/grid.php:6
+msgid "Backup Wizard"
+msgstr ""
+
+#: Console/Backup.class.php:129 Console/Backup.class.php:223
+msgid "Backup completed successfully"
+msgstr ""
+
+#: bin/backup.php:177 bin/backup.php:233
+msgid "Backup completed with errors!"
+msgstr "Reservekopie voltooid met fouten!"
+
+#: Api/Gql/Backup.php:176
+msgid "Backup deleted successfully"
+msgstr ""
+
+#: Api/Gql/Backup.php:178 Api/Gql/Backup.php:184
+msgid "Backup does not exists"
+msgstr ""
+
+#: Api/Gql/Backup.php:698
+msgid "Backup does not found"
+msgstr ""
+
+#: functions.inc/class.backup.php:296
+#, php-format
+msgid ""
+"Backup failed dumping SQL database [%s] to file [%s], you have a corrupted "
+"backup from server [%s]."
+msgstr ""
+"Reservekopie mislukt tijdens het dumpen van SQL database [%s] naar bestand "
+"[%s]. U heeft een corrupte reservekopie van server [%s]."
+
+#: functions.inc/class.backup.php:499
+msgid "Backup file uploaded to the remote server"
+msgstr ""
+
+#: Api/Gql/Backup.php:594
+msgid "Backup has been performed/schedules"
+msgstr ""
+
+#: Api/Gql/Backup.php:693
+msgid "Backup has been updated"
+msgstr ""
+
+#: bin/backup.php:12
+msgid "Backup module not found or is disabled. Aborting!"
+msgstr "Reservekopie module niet gevonden of uitgeschakeld. Afgebroken!"
+
+#: Api/Gql/Backup.php:120
+msgid ""
+"Backup process has been initiated. Kindly check the fetchApiStatus api with "
+"the transaction id."
+msgstr ""
+
+#: Backup.class.php:458
+msgid "Backup running"
+msgstr ""
+
+#: bin/backup.php:179 bin/backup.php:235
+msgid "Backup successfully completed!"
+msgstr "Reservekopie geslaagd!"
+
+#: Handlers/Restore/Common.php:125
+#, php-format
+msgid "Based on Module settings We are NOT Resetting %s module data"
+msgstr ""
+
+#: views/backup/form.php:38
+msgid "Basic Information"
+msgstr ""
+
+#: views/backup/form.php:238
+msgid "Both"
+msgstr ""
+
+#: bin/backup.php:78
+msgid "Building manifest..."
+msgstr ""
+
+#: Handlers/Restore/Common.php:87
+#, php-format
+msgid "Can't find the module data for %s"
+msgstr ""
+
+#: assets/js/backup.js:211 assets/js/backup.js:250
+msgid "Cancel"
+msgstr ""
+
+#: Handlers/Backup/Single.php:55
+msgid "Cleaning up"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:204
+#, php-format
+msgid "Cleaning up data generated by %s"
+msgstr ""
+
+#: Backup.class.php:122
+msgid "Cleaning up old data"
+msgstr ""
+
+#: views/restore/landing.php:21
+msgid "Click to upload a backup file."
+msgstr ""
+
+#: views/backup/warmspare.php:424
+msgid "Client Access Token"
+msgstr ""
+
+#: views/backup/warmspare.php:352
+msgid "Client ID"
+msgstr ""
+
+#: views/backup/warmspare.php:376
+msgid "Client Secret"
+msgstr ""
+
+#: views/backup/warmspare.php:388
+msgid "Client Secret of the Warm Spare server."
+msgstr ""
+
+#: views/backup/warmspare.php:364
+msgid "ClientID of the Warm Spare server."
+msgstr ""
+
+#: views/backup/form.php:637 views/runModal.php:12
+msgid "Close"
+msgstr ""
+
+#: RestoreBase.php:552
+#, php-format
+msgid "Column '%s' does not exist in %s, skipping"
+msgstr ""
+
+#: views/backup/item_table.php:8
+msgid "Complete Path"
+msgstr ""
+
+#: BackupBase.php:256
+#, php-format
+msgid "Completed mysql dumps of : %s"
+msgstr ""
+
+#: RestoreBase.php:636
+#, php-format
+msgid "Completed restoring mysql dumps of : %s"
+msgstr ""
+
+#: views/backup/warmspare.php:270
+msgid "Connect Warm Spare Server Over"
+msgstr ""
+
+#: bin/backup.php:100
+#, fuzzy
+msgid "Connecting to remote server..."
+msgstr "Verbinden met andere server..."
+
+#: Handlers/Backup/Multiple.php:126
+#, php-format
+msgid ""
+"Could not backup module %s because it depends on %s which is not enabled. "
+"Please enable %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:89
+#, php-format
+msgid "Could not backup module %s because it is not enabled"
+msgstr ""
+
+#: functions.inc/class.backup.php:845
+#, php-format
+msgid "Could not find %s on the remote system"
+msgstr ""
+
+#: Backup.class.php:417 Backup.class.php:425
+msgid "Could not find a file for the id supplied"
+msgstr ""
+
+#: Handlers/Restore/Common.php:172
+msgid "Could not locate the manifest for this file"
+msgstr ""
+
+#: Backup.class.php:757 Backup.class.php:825
+msgid "Couldn't find your file, please try submitting your file again."
+msgstr ""
+
+#: functions.inc/class.backup.php:398
+msgid "Created"
+msgstr "Gemaakt"
+
+#: bin/backup.php:83
+msgid "Creating backup..."
+msgstr "Aanmaken reservekopie..."
+
+#: functions.inc/class.backup.php:477
+#, php-format
+msgid "Creating directory '%s'"
+msgstr ""
+
+#: views/backup/form.php:121
+msgid "Custom Files"
+msgstr ""
+
+#: Handlers/Backup/Common.php:220
+#, php-format
+msgid "Custom directory not exists: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:176
+#, php-format
+msgid "Custom file not exists: %s"
+msgstr ""
+
+#: Backup.class.php:209 views/backup/item_table.php:14
+#: views/restore/landing.php:49 views/restore/landing.php:93
+#: assets/js/backup.js:211 assets/js/backup.js:250
+msgid "Delete"
+msgstr "Verwijder"
+
+#: views/backup/form.php:423
+msgid "Delete After Days"
+msgstr ""
+
+#: views/backup/form.php:399
+msgid "Delete After Runs"
+msgstr ""
+
+#: Backup.class.php:1517
+msgid "Delete this entry. Don't forget to click Submit to save changes!"
+msgstr ""
+"Verwijder deze invoer. Vergeet niet om op Verzenden te klikken om op te "
+"slaan!"
+
+#: Handlers/Backup/Multiple.php:115
+#, php-format
+msgid "Depend field was blank for %s. Skipping because not sure what to do"
+msgstr ""
+
+#: views/backup/grid.php:25 views/restore/processRestore.php:15
+#: views/rnav.php:9
+msgid "Description"
+msgstr "Omschrijving"
+
+#: Handlers/Restore/Legacy.php:85
+#, php-format
+msgid "Detected file %s as the PBX (Asterisk) database. Attempting restore"
+msgstr ""
+
+#: Console/Backup.class.php:295
+msgid "Determining backup file type..."
+msgstr ""
+
+#: Backup.class.php:1499
+msgid "Directory"
+msgstr "Map"
+
+#: functions.inc/class.backup.php:481
+#, php-format
+msgid "Directory '%s' did not exist and we could not create it"
+msgstr ""
+
+#: views/backup/warmspare.php:50
+msgid "Disable Remote Trunks"
+msgstr ""
+
+#: bin/backup.php:213
+msgid "Disabling registered trunks... "
+msgstr ""
+
+#: Console/Backup.class.php:281 Handlers/Restore/Common.php:130
+#: Handlers/Restore/Legacy.php:247
+msgid "Done"
+msgstr ""
+
+#: views/backup/transfer.php:31
+msgid "Donor"
+msgstr ""
+
+#: views/backup/form.php:25
+msgid "Edit"
+msgstr ""
+
+#: views/backup/form.php:218
+msgid "Email Type"
+msgstr ""
+
+#: Api/Gql/Backup.php:322 Api/Gql/Backup.php:389 views/backup/form.php:171
+msgid ""
+"Email address to send notifications, Multiple email addresses need to be "
+"separated by comma"
+msgstr ""
+
+#: views/backup/warmspare.php:19
+msgid "Enable"
+msgstr ""
+
+#: views/backup/form.php:355
+msgid "Enable scheduled backups"
+msgstr ""
+
+#: Api/Gql/Backup.php:342 Api/Gql/Backup.php:409
+msgid "Enable scheduled backups, default false"
+msgstr ""
+
+#: Backup.class.php:1369 views/backup/form.php:334
+msgid "Enabled"
+msgstr ""
+
+#: views/backup/warmspare.php:227
+msgid ""
+"Equivalence of clicking the red button, will happen automatically after a "
+"restore on a Standby system"
+msgstr ""
+
+#: assets/js/backup.js:370 assets/js/backup.js:389 assets/js/backup.js:408
+#: assets/js/backup.js:500
+msgid "Error"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:210
+#, php-format
+msgid "Error Removing %s, %s"
+msgstr ""
+
+#: functions.inc/class.backup.php:471
+msgid "Error creating the FTP object"
+msgstr ""
+
+#: functions.inc/class.backup.php:852
+#, php-format
+msgid "Error deleting %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:169
+#, php-format
+msgid "Error in processing legacy cdr sql restore process....  %s %s %s  "
+msgstr ""
+
+#: Handlers/FreePBXModule.php:29
+#, php-format
+msgid "Error installing %s reason(s): %s"
+msgstr ""
+
+#: Backup.class.php:659
+msgid "Error running Restore on Spare Server"
+msgstr ""
+
+#: Handlers/FreePBXModule.php:41
+#, php-format
+msgid "Error uninstalling %s reason(s): %s"
+msgstr ""
+
+#: views/backup/item_table.php:11
+msgid "Exclude"
+msgstr "Uitsluiten"
+
+#: views/backup/warmspare.php:144
+msgid "Exclude Bind Address"
+msgstr ""
+
+#: views/backup/warmspare.php:81
+msgid "Exclude CERTIFICATE settings"
+msgstr ""
+
+#: views/backup/warmspare.php:177
+msgid "Exclude DNS"
+msgstr ""
+
+#: views/backup/warmspare.php:113
+msgid "Exclude NAT settings"
+msgstr "Exclusief NAT instellingen"
+
+#: views/backup/warmspare.php:239
+msgid "Exclude Trunks"
+msgstr ""
+
+#: views/backup/warmspare.php:165
+msgid ""
+"Explicitly exclude any machine-specific Bindaddres. This allows you to have "
+"a warm-spare machine with a different IP address."
+msgstr ""
+
+#: views/backup/warmspare.php:196
+msgid ""
+"Explicitly exclude any machine-specific DNS. This allows you to have a warm-"
+"spare machine with a different DNS."
+msgstr ""
+
+#: views/backup/warmspare.php:132
+msgid ""
+"Explicitly exclude any machine-specific IP settings. This allows you to have "
+"a warm-spare machine with a different IP address."
+msgstr ""
+
+#: BackupBase.php:57
+#, php-format
+msgid "Exporting Advanced settings from %s"
+msgstr ""
+
+#: BackupBase.php:132
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+#: BackupBase.php:71
+#, php-format
+msgid "Exporting Feature Codes from %s"
+msgstr ""
+
+#: BackupBase.php:168
+#, php-format
+msgid "Exporting KVStore based on ids  %s"
+msgstr ""
+
+#: BackupBase.php:166
+#, php-format
+msgid "Exporting KVStore from %s"
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:20
+msgid "Extracting Backup"
+msgstr ""
+
+#: Handlers/Restore/Common.php:150
+msgid "Extracting backup..."
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:127
+#, php-format
+msgid "Extracting supplied database file %s"
+msgstr ""
+
+#: views/backup/form.php:233
+msgid "Failure"
+msgstr ""
+
+#: Backup.class.php:1487
+msgid "File"
+msgstr "Bestand"
+
+#: Backup.class.php:317
+msgid "File Deleted"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:79
+#, php-format
+msgid "File named: %s"
+msgstr ""
+
+#: Backup.class.php:345
+msgid "File reached the server but could not be processed"
+msgstr ""
+
+#: bin/backup.php:150
+msgid "File verification failed. "
+msgstr "Bestandsverificatie mislukt. "
+
+#: functions.inc/class.backup.php:399
+msgid "Files"
+msgstr "Bestanden"
+
+#: Handlers/Restore/Legacy.php:302 Handlers/Restore/Multiple.php:110
+#: Handlers/Restore/Single.php:34
+msgid "Finished"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:215 Handlers/Backup/Single.php:60
+msgid "Finished Cleaning up"
+msgstr ""
+
+#: Console/Backup.class.php:210
+msgid "Finished Local Maintenance"
+msgstr ""
+
+#: Console/Backup.class.php:213
+msgid "Finished Remote Maintenance"
+msgstr ""
+
+#: Handlers/Storage.php:84
+msgid "Finished Saving to selected Filestore locations"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:217 Handlers/Backup/Single.php:65
+#, php-format
+msgid "Finished created backup file: %s"
+msgstr ""
+
+#: Handlers/Backup/Common.php:214
+#, php-format
+msgid "Folder %s does not exist"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:66
+#, php-format
+msgid "Found %s database files in the backup."
+msgstr ""
+
+#: views/restore/landing.php:73
+msgid "Framework"
+msgstr ""
+
+#: Handlers/Backup/Email.php:50
+#, php-format
+msgid "Generated Backup process result email to %s. Status: Failure"
+msgstr ""
+
+#: Handlers/Backup/Email.php:54
+#, php-format
+msgid "Generated Backup process result email to %s. Status: Success"
+msgstr ""
+
+#: views/backup/rsa.php:1
+msgid "Generating Key Pair please standby"
+msgstr ""
+
+#: views/backup/warmspare.php:438
+msgid "Get OAUTH2 Token for the Warm Spare server API."
+msgstr ""
+
+#: views/backup/warmspare.php:10
+msgid "Get Warm Spare Token"
+msgstr ""
+
+#: views/landing.php:23
+msgid "Global Settings"
+msgstr ""
+
+#: views/backup/warmspare.php:400
+msgid "GraphQL URL"
+msgstr ""
+
+#: views/backup/warmspare.php:412
+msgid "GraphQL URL of the Warm Spare server."
+msgstr ""
+
+#: bin/backup.php:151
+msgid "Here are the first few lines of the file as sent by the remote server:"
+msgstr ""
+"Dit zijn de eerste paar regels van het bestand zoals verzonden vanaf de "
+"andere server:"
+
+#: views/backup/form.php:473
+#, fuzzy
+msgid "Hooks"
+msgstr "Haken"
+
+#: Api/Gql/Backup.php:354 Api/Gql/Backup.php:421 views/backup/form.php:466
+msgid ""
+"How long to maintain backups. Example 30 will delete anything older than 30 "
+"days."
+msgstr ""
+
+#: Api/Gql/Backup.php:350 Api/Gql/Backup.php:417 views/backup/form.php:411
+msgid ""
+"How many updates to keep. If this number is 3, the last 3 will be kept. 0 is "
+"unlimited"
+msgstr ""
+
+#: Backup.class.php:1448
+msgid "I don't know who I should be running Backup as."
+msgstr ""
+
+#: Backup.class.php:1454
+#, php-format
+msgid ""
+"I tried to find out about %s, but the system doesn't think that user exists"
+msgstr ""
+
+#: views/backup/transfer.php:16
+msgid "ID From the donor machine"
+msgstr ""
+
+#: views/backup/warmspare.php:100
+msgid ""
+"If this option is set to yes then certificate will not be restored which "
+"require HTTPS config to be rebuild manually with spare server certificate."
+msgstr ""
+
+#: RestoreBase.php:85 RestoreBase.php:365
+#, php-format
+msgid "Importing Advanced Settings from %s"
+msgstr ""
+
+#: RestoreBase.php:159
+#, php-format
+msgid "Importing AstDB family %s from %s"
+msgstr ""
+
+#: RestoreBase.php:154
+#, php-format
+msgid "Importing AstDB family %s/%s  : %s"
+msgstr ""
+
+#: RestoreBase.php:282
+#, php-format
+msgid "Importing Databases from %s"
+msgstr ""
+
+#: RestoreBase.php:108
+#, php-format
+msgid "Importing Feature Codes from %s"
+msgstr ""
+
+#: RestoreBase.php:196
+#, php-format
+msgid "Importing KVStore from %s"
+msgstr ""
+
+#: RestoreBase.php:177
+#, php-format
+msgid "Importing Table %s from %s"
+msgstr ""
+
+#: RestoreBase.php:292
+#, php-format
+msgid "Importing table '%s' from legacy %s"
+msgstr ""
+
+#: Handlers/Backup/Single.php:42 Handlers/Restore/Single.php:26
+msgid "In single restores mode dependencies are NOT processed"
+msgstr ""
+
+#: bin/backup.php:60
+msgid "Initializing Backup"
+msgstr ""
+
+#: views/backup/form.php:183
+msgid "Inline Logs"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:181 Handlers/Restore/Legacy.php:193
+#, php-format
+msgid "Installing  %s"
+msgstr ""
+
+#: Backup.class.php:673
+msgid "Invalid Backup ID"
+msgstr ""
+
+#: Api/Gql/Backup.php:106
+msgid "Invalid Backup id"
+msgstr ""
+
+#: Backup.class.php:275 Backup.class.php:323
+msgid "Invalid ID Provided"
+msgstr ""
+
+#: Handlers/Backup/Maintenance.php:98 Handlers/Storage.php:53
+msgid "Invalid filestore location"
+msgstr ""
+
+#: views/backup/transfer.php:39
+msgid "Is this the donor machine or the recipient"
+msgstr ""
+
+#: views/backup/form.php:128
+msgid "Items"
+msgstr "Onderdelen"
+
+#: Handlers/Restore/Legacy.php:73
+#, php-format
+msgid ""
+"Legacy CDR Restore Opted. we are processing , It may take long time to "
+"process %s "
+msgstr ""
+
+#: Models/BackupSplFileInfo.php:66
+msgid "Legacy Restore"
+msgstr ""
+
+#: RestoreBase.php:43
+#, php-format
+msgid "Legacy Restore in %s is not implemented"
+msgstr ""
+
+#: RestoreBase.php:40
+#, php-format
+msgid "Legacy Restore in %s is not implemented, using default fallback"
+msgstr ""
+
+#: views/rnav.php:2
+msgid "List Backups"
+msgstr ""
+
+#: Api/Gql/Backup.php:156
+msgid "List of backup configurations"
+msgstr ""
+
+#: Api/Gql/Backup.php:145
+msgid "List of backup files"
+msgstr ""
+
+#: Api/Gql/Backup.php:263 Api/Gql/Backup.php:273
+msgid "List of bakup files"
+msgstr ""
+
+#: assets/js/backup.js:425
+msgid "Loading Please Wait"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:41
+msgid "Loading astdb to memory"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:33
+msgid "Loading manifest to memory"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:135
+#, php-format
+msgid "Loading supplied database file %s"
+msgstr ""
+
+#: Backup.class.php:531
+msgid "Log file is missing but process is still running!"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:275 Handlers/Restore/Multiple.php:64
+#, php-format
+msgid "MODULE SKIPED %s"
+msgstr ""
+
+#: views/backup/form.php:389
+msgid "Maintinence"
+msgstr ""
+
+#: Api/Gql/Backup.php:217 Api/Gql/Backup.php:255
+msgid "Message for the request"
+msgstr ""
+
+#: Backup.class.php:113
+msgid "Migrating legacy backupjobs"
+msgstr ""
+
+#: Backup.class.php:118
+msgid "Migrating legacy backups to the new backup"
+msgstr ""
+
+#: Backup.class.php:518
+msgid "Missing id or transaction or pid"
+msgstr ""
+
+#: views/backup/form.php:626 views/restore/processRestore.php:48
+msgid "Module"
+msgstr ""
+
+#: views/backup/form.php:102
+msgid "Modules"
+msgstr ""
+
+#: assets/js/backup.js:6 assets/js/backup.js:319
+msgid "Modules ("
+msgstr ""
+
+#: views/restore/processRestore.php:35
+msgid "Modules in this backup"
+msgstr ""
+
+#: views/backup/form.php:601
+msgid "Modules to Backup"
+msgstr ""
+
+#: Api/Gql/Backup.php:318 Api/Gql/Backup.php:385
+msgid "Modules to backup"
+msgstr ""
+
+#: Backup.class.php:114
+msgid "Moving servers to filestore"
+msgstr ""
+
+#: functions.inc/class.backup.php:400
+msgid "Mysql Db's"
+msgstr "MySQL DB's"
+
+#: Handlers/Restore/Common.php:119
+#, php-format
+msgid "NOT Resetting %s module data"
+msgstr ""
+
+#: functions.inc/class.backup.php:397 views/backup/grid.php:24
+#: views/restore/processRestore.php:14 views/rnav.php:8
+msgid "Name"
+msgstr "Naam"
+
+#: Api/Gql/Backup.php:57 Api/Gql/Backup.php:74
+msgid "Name contains whitespaces/special characters use - instead"
+msgstr ""
+
+#: Api/Gql/Backup.php:439
+msgid "Name of the Restore input file"
+msgstr ""
+
+#: views/backup/form.php:198 views/backup/form.php:305
+#: views/backup/form.php:347 views/backup/warmspare.php:30
+#: views/backup/warmspare.php:61 views/backup/warmspare.php:92
+#: views/backup/warmspare.php:124 views/backup/warmspare.php:157
+#: views/backup/warmspare.php:188 views/backup/warmspare.php:219
+#: views/backup/warmspare.php:250
+msgid "No"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:98
+msgid "No Module or Custom files selected for this backup"
+msgstr ""
+
+#: assets/js/backup.js:292
+msgid "No Storage Locations"
+msgstr ""
+
+#: Api/Gql/Backup.php:101 Backup.class.php:442
+msgid "No backup id provided"
+msgstr ""
+
+#: Backup.class.php:342
+msgid "No file provided"
+msgstr ""
+
+#: Backup.class.php:746
+msgid "No id was specified to process. Please try submitting your file again."
+msgstr ""
+
+#: bin/backup.php:95
+msgid "No items in backup set. Aborting."
+msgstr "Geen onderdelen in reservekopie-set. Afgebroken."
+
+#: assets/js/backup.js:92 assets/js/backup.js:315
+msgid ""
+"No module has selected for this Backup. Please ensure you are selecting "
+"atleast Custom files"
+msgstr ""
+
+#: assets/js/backup.js:341 assets/js/backup.js:348
+msgid ""
+"No storage location selected for Backup. Please select atleast one storage "
+"location to save the backup"
+msgstr ""
+
+#: bin/backup.php:55
+msgid "No storage servers found! Aborting."
+msgstr "Geen opslagservers gevonden! Afgebroken."
+
+#: Handlers/Restore/Legacy.php:240
+#, php-format
+msgid "Not Resetting %s"
+msgstr ""
+
+#: views/backup/form.php:159
+msgid "Notification Email"
+msgstr ""
+
+#: views/backup/form.php:149
+msgid "Notifications"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:264 Handlers/Restore/Multiple.php:50
+#, php-format
+msgid "Only Restoring %s"
+msgstr ""
+
+#: Backup.class.php:1512
+msgid "PATTERNs, one per line"
+msgstr "PATROON, één per regel"
+
+#: Handlers/Restore/Legacy.php:52
+msgid ""
+"Parsing out SQL tables. This may take a moment depending on backup size."
+msgstr ""
+
+#: functions.inc/class.backup.php:841 functions.inc/class.backup.php:842
+#, php-format
+msgid "Path: %s"
+msgstr ""
+
+#: Console/Backup.class.php:208
+msgid "Performing Local Maintenance"
+msgstr ""
+
+#: Console/Backup.class.php:211
+msgid "Performing Remote Maintenance"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:163
+msgid ""
+"Please note that, legacy cdr sql restoration process may take a long time "
+"depends on cdr sql file size "
+msgstr ""
+
+#: views/backup/form.php:506
+msgid "Post-Backup Hook"
+msgstr ""
+
+#: views/backup/form.php:554
+msgid "Post-Restore Hook"
+msgstr ""
+
+#: views/backup/form.php:482
+msgid "Pre-Backup Hook"
+msgstr ""
+
+#: views/backup/form.php:530
+msgid "Pre-Restore Hook"
+msgstr ""
+
+#: Backup.class.php:533
+msgid "Process is no longer running"
+msgstr ""
+
+#: Handlers/Backup/Single.php:38 Handlers/Restore/Legacy.php:280
+#: Handlers/Restore/Multiple.php:68
+#, php-format
+msgid "Processing %s"
+msgstr ""
+
+#: bin/backup.php:164
+msgid "Processing received file..."
+msgstr "Ontvangen bestand verwerken..."
+
+#: assets/js/backup.js:30
+msgid "Processing..."
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:35
+msgid ""
+"Provided backup file does not contain multiple modules. May be this is a "
+"single module backup file so please re-try with '--restoresingle' option to "
+"restore the backup from the CLI "
+msgstr ""
+
+#: views/backup/settings.php:6
+msgid "Public Key"
+msgstr ""
+
+#: views/backup/settings.php:16
+msgid "Public SSH key to allow other servers to connect"
+msgstr ""
+
+#: RestoreBase.php:263
+#, php-format
+msgid "Reading Databases Table infromation using module name %s"
+msgstr ""
+
+#: views/backup/transfer.php:33
+msgid "Recipient"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:298 Handlers/Restore/Multiple.php:98
+msgid "Reloading...... DONE"
+msgstr ""
+
+#: Handlers/Backup/Maintenance.php:140 Handlers/Backup/Maintenance.php:161
+#: Handlers/Backup/Multiple.php:206 Handlers/Backup/Single.php:57
+#, php-format
+msgid "Removing %s"
+msgstr ""
+
+#: Backup.class.php:134
+#, php-format
+msgid "Removing table %s."
+msgstr ""
+
+#: Backup.class.php:194 views/backup/form.php:634
+msgid "Reset"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:242
+#, php-format
+msgid "Resetting %s"
+msgstr ""
+
+#: Handlers/Restore/Common.php:122
+#, php-format
+msgid "Resetting %s module data"
+msgstr ""
+
+#: Console/Backup.class.php:266
+msgid "Response from Warmspare Server "
+msgstr ""
+
+#: Console/Backup.class.php:258
+msgid "Response from Warmspare backup Server API"
+msgstr ""
+
+#: views/landing.php:18
+msgid "Restore"
+msgstr "Terugzetten"
+
+#: Api/Gql/Backup.php:82
+msgid "Restore Backup"
+msgstr ""
+
+#: views/restore/processRestore.php:23
+msgid "Restore Information"
+msgstr ""
+
+#: Console/Backup.class.php:156 Console/Backup.class.php:344
+msgid "Restore completed successfully"
+msgstr ""
+
+#: views/restore/landing.php:44
+msgid "Restore from local cache"
+msgstr ""
+
+#: views/restore/landing.php:82
+msgid "Restore from the cloud"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:167
+#, php-format
+msgid "Restore of legacy cdr sql process done....  %s  "
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:36
+msgid ""
+"Restore process failed due to corrupted manifest file present in provided "
+"backup file. Please ensure your backup file is proper or regenerate the new "
+"backup file to proceed further."
+msgstr ""
+
+#: Api/Gql/Backup.php:611
+msgid ""
+"Restore process has been initiated. Kindly check the fetchApiStatus api with "
+"the transaction id."
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:292 Handlers/Restore/Multiple.php:82
+msgid "Restore processing for modules are finished successfully"
+msgstr ""
+
+#: Backup.class.php:439
+msgid "Restore running"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:183 Handlers/Restore/Legacy.php:195
+#, php-format
+msgid "Restored module %s [%s]"
+msgstr ""
+
+#: views/restore/processRestore.php:2
+#, php-format
+msgid "Restoring %s"
+msgstr ""
+
+#: bin/backup.php:199
+msgid "Restoring backup..."
+msgstr "Terugzetten reservekopie..."
+
+#: Handlers/Restore/Common.php:280
+#, php-format
+msgid "Restoring custom directory to %s"
+msgstr ""
+
+#: Handlers/Restore/Common.php:269 Handlers/Restore/Common.php:288
+#: Handlers/Restore/Common.php:314 Handlers/Restore/Common.php:351
+#, php-format
+msgid "Restoring custom file to %s"
+msgstr ""
+
+#: Handlers/Restore/Common.php:128 Handlers/Restore/Legacy.php:244
+#, php-format
+msgid "Restoring from %s [%s]"
+msgstr ""
+
+#: Console/Backup.class.php:278
+#, php-format
+msgid "Retrieving %s from %s:%s..."
+msgstr ""
+
+#: Api/Gql/Backup.php:237
+msgid "Return backup description"
+msgstr ""
+
+#: Api/Gql/Backup.php:225
+msgid "Return backup file name"
+msgstr ""
+
+#: Api/Gql/Backup.php:229
+msgid "Return backup framework"
+msgstr ""
+
+#: Api/Gql/Backup.php:241
+msgid "Return backup instancename"
+msgstr ""
+
+#: Api/Gql/Backup.php:209
+msgid "Return backup name"
+msgstr ""
+
+#: Api/Gql/Backup.php:233
+msgid "Return backup timestamp"
+msgstr ""
+
+#: Api/Gql/Backup.php:205
+msgid "Returns backup id"
+msgstr ""
+
+#: Api/Gql/Backup.php:221
+msgid "Returns backup type"
+msgstr ""
+
+#: Api/Gql/Backup.php:91
+msgid "Run Backup"
+msgstr ""
+
+#: views/restore/processRestore.php:16
+msgid "Run Date"
+msgstr ""
+
+#: Backup.class.php:180
+msgid "Run Restore"
+msgstr ""
+
+#: Backup.class.php:185
+msgid "Run Restore & Legacy CDR "
+msgstr ""
+
+#: assets/js/backup.js:568
+msgid "Run the following in the CLI"
+msgstr ""
+
+#: BackupBase.php:27
+#, php-format
+msgid "RunBackup method is not implemented in %s"
+msgstr ""
+
+#: BackupBase.php:24
+#, php-format
+msgid "RunBackup method is not implemented in %s, using default fallback"
+msgstr ""
+
+#: RestoreBase.php:20
+#, php-format
+msgid ""
+"RunRestore method is not implemented in %s, but was backed up using default "
+"backup fallback, using default fallback"
+msgstr ""
+
+#: RestoreBase.php:23
+#, php-format
+msgid ""
+"RunRestore method is not implemented in %s, however there is default falback "
+"data, nothing to do"
+msgstr ""
+
+#: RestoreBase.php:25
+#, php-format
+msgid "RunRestore method is not implemented in %s, nothing to do"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:51
+#, php-format
+msgid "Running Backup ID: %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:301 Handlers/Restore/Multiple.php:109
+msgid "Running Post Restore Hooks DONE"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:299 Handlers/Restore/Multiple.php:104
+msgid ""
+"Running Post Restore Hooks.. Please note that hook will restart httpd "
+"service so please refresh your page (using new ports) "
+msgstr ""
+
+#: views/restore/processRestore.php:26
+msgid "Running a restore will overwrite current data. This cannot be undone!"
+msgstr ""
+
+#: functions.inc/class.backup.php:500
+msgid "Running maintenance.."
+msgstr ""
+
+#: bin/backup.php:172 bin/backup.php:229
+msgid "Running post-backup hooks..."
+msgstr "Uitvoeren Voor-reservekopie taken..."
+
+#: bin/backup.php:72
+msgid "Running pre-backup hooks..."
+msgstr "Uitvoeren Voor-reservekopie taken..."
+
+#: views/backup/warmspare.php:281
+msgid "SSH"
+msgstr ""
+
+#: Backup.class.php:199
+msgid "Save"
+msgstr "Opslaan"
+
+#: views/backup/form.php:640
+msgid "Save Changes"
+msgstr ""
+
+#: Backup.class.php:204
+msgid "Save and Run"
+msgstr ""
+
+#: functions.inc/class.backup.php:488
+msgid "Saving file to remote ftp"
+msgstr ""
+
+#: Handlers/Storage.php:43
+msgid "Saving to selected Filestore locations"
+msgstr ""
+
+#: Handlers/Storage.php:74
+#, php-format
+msgid "Saving to: %s:'%s' instance ,File location: %s%s "
+msgstr ""
+
+#: views/backup/form.php:324
+msgid "Schedule and Maintinence"
+msgstr ""
+
+#: views/backup/form.php:367
+msgid "Scheduling"
+msgstr ""
+
+#: Monolog/Swift.php:142
+msgid "See attachment"
+msgstr ""
+
+#: views/backup/warmspare.php:306 views/backup/warmspare.php:457
+msgid "Select Warm Spare server"
+msgstr ""
+
+#: views/backup/form.php:110
+msgid "Select items to backup"
+msgstr ""
+
+#: Api/Gql/Backup.php:334 Api/Gql/Backup.php:401 views/backup/form.php:281
+msgid ""
+"Select one or more storage locations. Storage locations can be added/"
+"configured with the Filestore module"
+msgstr ""
+
+#: views/backup/form.php:623
+msgid "Selected"
+msgstr ""
+
+#: views/backup/transfer.php:26
+msgid "Server Mode"
+msgstr ""
+
+#: Api/Gql/Backup.php:51
+msgid "Set Backup Configurations"
+msgstr ""
+
+#: views/backup/warmspare.php:69
+msgid "Should the remote trunks be Disabled"
+msgstr ""
+
+#: views/backup/warmspare.php:258
+msgid "Should the trunks be Excluded"
+msgstr ""
+
+#: views/backup/warmspare.php:38
+msgid "Should the warm spare feature be enabled"
+msgstr ""
+
+#: Api/Gql/Backup.php:358 Api/Gql/Backup.php:425
+msgid "Should the warm spare feature be enabled, default false"
+msgstr ""
+
+#: bin/backup.php:207
+msgid "Skip Bindaddrss is Enabled... "
+msgstr ""
+
+#: bin/backup.php:219
+msgid "Skip DNS is Enabled... "
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:107
+msgid "Skipped Post Restore Hooks.."
+msgstr ""
+
+#: Handlers/Restore/Multiple.php:58
+msgid "Skipping CertMan module Restore , Warmspare skip Certificate enabled"
+msgstr ""
+
+#: Handlers/Restore/Common.php:342
+#, php-format
+msgid "Skipping directory %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:120
+#, php-format
+msgid ""
+"Skpping %s which depends on framework because framework is a system "
+"requirement. Framework should be removed as a dependency"
+msgstr ""
+
+#: Backup.class.php:294 Backup.class.php:319
+msgid "Something failed, The file may need to be removed manually."
+msgstr ""
+
+#: Backup.class.php:310
+msgid "Something failed."
+msgstr ""
+
+#: bin/backup.php:128
+msgid "Something went wrong when connecting to remote server. Aborting!"
+msgstr ""
+"Iets ging er niet goed tijdens de verbinding met de andere server. "
+"Afgebroken!"
+
+#: Api/Gql/Backup.php:550
+msgid "Sorry Module name "
+msgstr ""
+
+#: Api/Gql/Backup.php:122
+msgid "Sorry failed to perform backup"
+msgstr ""
+
+#: Api/Gql/Backup.php:613
+msgid "Sorry failed to perform restore"
+msgstr ""
+
+#: Api/Gql/Backup.php:567 Api/Gql/Backup.php:679
+msgid "Sorry location "
+msgstr ""
+
+#: Api/Gql/Backup.php:650
+msgid "Sorry module name "
+msgstr ""
+
+#: Api/Gql/Backup.php:158
+msgid "Sorry unable to find the backup configurations"
+msgstr ""
+
+#: Api/Gql/Backup.php:147
+msgid "Sorry unable to find the backup files"
+msgstr ""
+
+#: RestoreBase.php:624
+#, php-format
+msgid "Started restoring mysql dumps of : %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:201
+msgid "Starting Cleaning up"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:54
+#, php-format
+msgid "Starting backup %s"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:160
+msgid "Starting legacy cdr sql restore process"
+msgstr ""
+
+#: BackupBase.php:241
+#, php-format
+msgid "Starting mysql dumps of : %s"
+msgstr ""
+
+#: views/restore/processRestore.php:50
+msgid "Status"
+msgstr ""
+
+#: Api/Gql/Backup.php:259
+msgid "Status for the request"
+msgstr ""
+
+#: Api/Gql/Backup.php:213
+msgid "Status of the request"
+msgstr ""
+
+#: views/backup/form.php:257
+msgid "Storage"
+msgstr ""
+
+#: views/backup/form.php:267
+msgid "Storage Location"
+msgstr ""
+
+#: bin/backup.php:169
+msgid "Storing backup..."
+msgstr "Reservekopie opslaan..."
+
+#: views/backup/form.php:228
+msgid "Success"
+msgstr ""
+
+#: Backup.class.php:739
+msgid "System Transfer"
+msgstr ""
+
+#: Handlers/Backup/Common.php:76
+#, php-format
+msgid "System is not Activated,Skipping %s module"
+msgstr ""
+
+#: RestoreBase.php:298
+#, php-format
+msgid "Table '%s' does not exist in legacy %s, skipping"
+msgstr ""
+
+#: RestoreBase.php:295
+#, php-format
+msgid "Table '%s' is empty from legacy %s, skipping"
+msgstr ""
+
+#: Api/Gql/Backup.php:167
+msgid "The Backup Id to delete"
+msgstr ""
+
+#: assets/js/backup.js:101
+#, perl-format
+msgid "The Backup job name %s is already in used, please use a different name."
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:245
+#, php-format
+msgid "The backup %s did not set a status and may have had an error"
+msgstr ""
+
+#: functions.inc/class.backup.php:411
+msgid ""
+"The backup file exceeded the maximum SMTP limits of 25MB. It was not "
+"attempted to be sent. Please shrink your backup, or use a different method "
+"of transferring your backup."
+msgstr ""
+
+#: functions.inc/class.backup.php:414
+#, php-format
+msgid ""
+"The backup file exceeded the soft limit set in SMTP configuration (%s "
+"bytes). It was not attempted to be sent. Please shrink your backup, or use a "
+"different method of transferring your backup."
+msgstr ""
+
+#: Handlers/Restore/Common.php:104
+#, php-format
+msgid ""
+"The module %s does not seem to support restore or is not installed on this "
+"system."
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:216
+#, php-format
+msgid ""
+"The module %s does not support restore or is not installed on this system"
+msgstr ""
+
+#: Handlers/Backup/Common.php:89
+#, php-format
+msgid "The module %s doesn't seem to support Backup"
+msgstr ""
+
+#: Handlers/Backup/Common.php:116
+#, php-format
+msgid "The module %s returned no data, No backup created"
+msgstr ""
+
+#: assets/js/backup.js:500
+#, perl-format
+msgid "There was an error during %s"
+msgstr ""
+
+#: Handlers/Backup/Single.php:62
+msgid "There was nothing to cleanup"
+msgstr ""
+
+#: Console/Backup.class.php:133 Console/Backup.class.php:228
+msgid "There were errors during the backup process"
+msgstr ""
+
+#: Console/Backup.class.php:159 Console/Backup.class.php:347
+msgid "There were errors during the restore process"
+msgstr ""
+
+#: Console/Backup.class.php:139 Console/Backup.class.php:234
+msgid "There were warnings during the backup process"
+msgstr ""
+
+#: Console/Backup.class.php:165 Console/Backup.class.php:353
+msgid "There were warnings during the restore process"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:59
+msgid ""
+"This backup will be stored locally and is subject to maintenance settings"
+msgstr ""
+
+#: views/restore/landing.php:86
+msgid ""
+"This feature requires filestore be setup and may not be availible on a clean "
+"install"
+msgstr ""
+
+#: views/backup/warmspare.php:62
+msgid ""
+"This option has moved to Backup Items -> Core (Disable Trunks on Restore?) "
+msgstr ""
+
+#: views/restore/processRestore.php:27
+msgid "This restore will only affect the modules listed below"
+msgstr ""
+
+#: views/restore/processRestore.php:36
+msgid "This table will be empty on backups created prior to version 15"
+msgstr ""
+
+#: Console/Backup.class.php:112
+#, php-format
+msgid "Transaction ID is: %s"
+msgstr ""
+
+#: Handlers/Backup/Multiple.php:52
+#, php-format
+msgid "Transaction: %s"
+msgstr ""
+
+#: views/backup/transfer.php:6
+msgid "Transfer Id"
+msgstr ""
+
+#: functions.inc/class.backup.php:493
+#, php-format
+msgid "Trying to upload %s to %s"
+msgstr ""
+
+#: views/backup/item_table.php:5
+msgid "Type"
+msgstr "Type"
+
+#: Migration/Servers.php:87
+#, php-format
+msgid "Unable to map '%s' of type '%s"
+msgstr ""
+
+#: Api/Gql/Backup.php:596
+msgid "Unable to perform backup"
+msgstr ""
+
+#: RestoreBase.php:278
+#, php-format
+msgid ""
+"Unable to run restoreLegacyDatabase on %s because NO Database information "
+"provided"
+msgstr ""
+
+#: RestoreBase.php:254
+#, php-format
+msgid ""
+"Unable to run restoreLegacyDatabase on %s because module.xml was not found"
+msgstr ""
+
+#: Monolog/Swift.php:84
+msgid "Unable to send backup email!"
+msgstr ""
+
+#: Api/Gql/Backup.php:695
+msgid "Unable to update backup"
+msgstr ""
+
+#: functions.inc/class.backup.php:491
+msgid "Unable to upload file to the remote server"
+msgstr ""
+
+#: Backup.class.php:1369
+msgid "Uninstalled or Disabled"
+msgstr ""
+
+#: Handlers/Backup/Single.php:27
+#, php-format
+msgid "Unknown module %s"
+msgstr ""
+
+#: views/backup/form.php:430
+msgid "Unlimited"
+msgstr ""
+
+#: Api/Gql/Backup.php:67
+msgid "Update Backup Configurations"
+msgstr ""
+
+#: views/restore/landing.php:34
+msgid "Upload a valid backup.tar.gz"
+msgstr ""
+
+#: views/restore/landing.php:8
+msgid "Upload your restore files"
+msgstr ""
+
+#: assets/js/backup.js:20
+msgid "Uploading..."
+msgstr ""
+
+#: Handlers/Backup/Common.php:95
+msgid "Using default backup strategy"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:220
+msgid "Using default restore strategy"
+msgstr ""
+
+#: Handlers/Restore/Common.php:108
+msgid "Using fallback restore strategy"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:319
+#, php-format
+msgid "Utilizing cached based sqlite at %s. The data might be stale!"
+msgstr ""
+
+#: Handlers/Restore/Legacy.php:323
+#, php-format
+msgid "Utilizing file based sqlite at %s, This is SLOW"
+msgstr ""
+
+#: bin/backup.php:135
+msgid "Verifying received file..."
+msgstr "Controleren ontvangen bestand..."
+
+#: views/restore/processRestore.php:49
+msgid "Version in Backup"
+msgstr ""
+
+#: assets/js/backup.js:198
+msgid "View backup log"
+msgstr ""
+
+#: assets/js/backup.js:51
+msgid "View running restore"
+msgstr ""
+
+#: views/backup/warmspare.php:4
+msgid "Warm Spare"
+msgstr ""
+
+#: views/backup/warmspare.php:300 views/backup/warmspare.php:451
+msgid "Warm Spare Server"
+msgstr ""
+
+#: views/backup/warmspare.php:317 views/backup/warmspare.php:468
+msgid ""
+"Warm Spare server needs to add to filestore, And it should be a FreePBX 15 "
+"and Above"
+msgstr ""
+
+#: Console/Backup.class.php:252 Console/Backup.class.php:263
+msgid "Warmspare enabled for this backup"
+msgstr ""
+
+#: views/backup/warmspare.php:289
+msgid "Way to Connect Warm spare Server"
+msgstr ""
+
+#: Console/Backup.class.php:255
+msgid "We Have triggered an API to restore the backup on Spare Server"
+msgstr ""
+
+#: Console/Backup.class.php:264
+msgid "We are running Restore command on Spare Server"
+msgstr ""
+
+#: Backup.class.php:282 Backup.class.php:332
+msgid "We can't seem to delete the chosen file"
+msgstr ""
+
+#: Backup.class.php:279 Backup.class.php:327
+msgid "We don't have permissions to this file"
+msgstr ""
+
+#: views/backup/form.php:314
+msgid ""
+"When set to Yes , Backp files will store like 'filestore-path/backup-job-"
+"name/backup-file' and if set to NO then backup file will store into "
+"'filestore-path/backup-file'"
+msgstr ""
+
+#: Api/Gql/Backup.php:405
+msgid ""
+"When set to Yes , Backp files will store like filestore-path/backup-job-name/"
+"backup-file and if set to NO then backup file will store into filestore-path/"
+"backup-file,default false"
+msgstr ""
+
+#: views/backup/form.php:207
+msgid ""
+"When set to Yes logs will be added to the body of the email, when set to No "
+"logs will be added as an attachment"
+msgstr ""
+
+#: Api/Gql/Backup.php:393
+msgid ""
+"When set to Yes logs will be added to the body of the email, when set to No "
+"logs will be added as an attachment, default no"
+msgstr ""
+
+#: Api/Gql/Backup.php:338
+msgid ""
+"When set to true , Backp files will store like filestore-path/backup-job-"
+"name/backup-file and if set to false then backup file will store into "
+"filestore-path/backup-file,default false"
+msgstr ""
+
+#: Api/Gql/Backup.php:326
+msgid ""
+"When set to true logs will be added to the body of the email, when set to "
+"false logs will be added as an attachment, default false"
+msgstr ""
+
+#: Api/Gql/Backup.php:346 Api/Gql/Backup.php:413 views/backup/form.php:379
+msgid "When should this backup run"
+msgstr ""
+
+#: views/backup/form.php:247
+msgid "When to email"
+msgstr ""
+
+#: Api/Gql/Backup.php:330 Api/Gql/Backup.php:397
+msgid "When to email default both"
+msgstr ""
+
+#: Handlers/Backup/Common.php:72
+#, php-format
+msgid "Working with %s module"
+msgstr ""
+
+#: views/backup/form.php:193 views/backup/form.php:301
+#: views/backup/form.php:342 views/backup/warmspare.php:26
+#: views/backup/warmspare.php:57 views/backup/warmspare.php:88
+#: views/backup/warmspare.php:120 views/backup/warmspare.php:152
+#: views/backup/warmspare.php:184 views/backup/warmspare.php:215
+#: views/backup/warmspare.php:246
+msgid "Yes"
+msgstr ""
+
+#: Api/Gql/Backup.php:60 Api/Gql/Backup.php:689
+msgid "You have enabled enableBackupSchedule so please add scheduleBackup"
+msgstr ""
+
+#: assets/js/backup.js:72
+msgid "You must enter a valid Warm Spare Access Token URL"
+msgstr ""
+
+#: assets/js/backup.js:77
+msgid "You must enter a valid Warm Spare Server API Client ID"
+msgstr ""
+
+#: assets/js/backup.js:82
+msgid "You must enter a valid Warm Spare Server API Client Secret"
+msgstr ""
+
+#: assets/js/backup.js:87
+msgid "You must enter a valid Warm Spare Server API GraphQL URL"
+msgstr ""
+
+#: assets/js/backup.js:67
+msgid "You must select a valid Warm Spare Server"
+msgstr ""
+
+#: assets/js/backup.js:59
+msgid "You must set a valid job name for this backup"
+msgstr ""
+
+#: assets/js/backup.js:497
+#, perl-format
+msgid "Your %s has finished"
+msgstr ""
+
+#: Api/Gql/Backup.php:50
+msgid "addBackup"
+msgstr ""
+
+#: functions.inc/class.backup.php:401
+msgid "astDb's"
+msgstr "astDB's"
+
+#: views/backup/item_table.php:40
+msgid "choose"
+msgstr ""
+
+#: Api/Gql/Backup.php:81
+msgid "restoreBackup"
+msgstr ""
+
+#: Api/Gql/Backup.php:90
+msgid "runBackup"
+msgstr ""
+
+#: Monolog/Swift.php:55
+msgid "success"
+msgstr ""
+
+#: Console/Backup.class.php:300
+#, php-format
+msgid "type is %s"
+msgstr ""
+
+#: Api/Gql/Backup.php:66
+msgid "updateBackup"
+msgstr ""
+
+#: bin/backup.php:67
+msgid "waiting for lock..."
+msgstr "wachten op vergrendeling..."
+
+#~ msgid "Backup Module"
+#~ msgstr "Reservekopie module"
+
+#~ msgid "Email "
+#~ msgstr "e-mail: "
+
+#~ msgid "The From: field for emails when using the backup email feature."
+#~ msgstr ""
+#~ "Het Van: veld voor e-mails wanneer gebruik wordt gemaakt van de "
+#~ "reservekopie e-mail functie."
+
+#~ msgid "chose"
+#~ msgstr "kies"
+
+#~ msgid "Backup & Restore - Servers"
+#~ msgstr "Reservekopie & Terugzetten - Servers"
+
+#~ msgid "Backup & Restore - Templates"
+#~ msgstr "Reservekopie & Terugzetten - Sjablonen"
+
+#~ msgid "DB Name"
+#~ msgstr "DB naam"
+
+#~ msgid "Description or notes for this server"
+#~ msgstr "Omschrijving of notities voor deze server"
+
+#~ msgid "Email Address"
+#~ msgstr "e-mail adres"
+
+#~ msgid "Email address where backups should be emailed to"
+#~ msgstr "e-mail adres waar reservekopieën naar toegestuurd moeten worden"
+
+#~ msgid "Hostname"
+#~ msgstr "Servernaam"
+
+#~ msgid "IP address or FQDN of remote mysql host"
+#~ msgstr "IP-adres of volledige naam (FQDN) van andere MySQL server"
+
+#~ msgid "Key"
+#~ msgstr "Sleutel"
+
+#~ msgid "Location of ssh private key to be used when connecting to a host"
+#~ msgstr ""
+#~ "Locatie van SSH privé-sleutel welke gebruikt wordt om te verbinden met "
+#~ "een server"
+
+#~ msgid "Max Email Size"
+#~ msgstr "Max. e-mail grootte"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid "Path"
+#~ msgstr "Pad"
+
+#~ msgid "Port"
+#~ msgstr "Poort"
+
+#~ msgid "Server Name"
+#~ msgstr "Server naam"
+
+#~ msgid ""
+#~ "The maximum size a backup can be and still be emailed. Some email servers "
+#~ "limit the size of email attachments, this will make sure that files "
+#~ "larger than the max size are not sent."
+#~ msgstr ""
+#~ "De maximum grootte van een reservekopie welke verstuurd kan worden. "
+#~ "Sommige e-mail servers hebben een limiet voor e-mail grootte, deze "
+#~ "instelling zorgt dat bestanden groter dan deze instelling niet verzonden "
+#~ "worden."
+
+#~ msgid "User Name"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid ""
+#~ "A full backup of core settings and web files, doesn't include system "
+#~ "sounds or recordings."
+#~ msgstr ""
+#~ "Een volledige reservekopie van algemene instellingen en "
+#~ "internetbestanden, exclusief systeemgeluiden en opnames."
+
+#~ msgid ""
+#~ "All system audio - including IVR prompts and Music On Hold. DOES NOT "
+#~ "BACKUP VOICEMAIL"
+#~ msgstr ""
+#~ "Alle systeemgeluiden, inclusief IVR meldingen en wachtmuziek. EXCLUSIEF "
+#~ "VOICEMAIL"
+
+#~ msgid "Annually"
+#~ msgstr "Jaarlijks"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "AstDB's"
+#~ msgstr "AstDB's"
+
+#~ msgid "Asterisk DB"
+#~ msgstr "Asterisk DB"
+
+#~ msgid "August"
+#~ msgstr "Augustus"
+
+#~ msgid "Available Servers"
+#~ msgstr "Beschikbare servers"
+
+#~ msgid "BACKUP LOG ATTACHED"
+#~ msgstr "RESERVEKOPIE LOG TOEGEVOEGD"
+
+#~ msgid "Backup Log:"
+#~ msgstr "Reservekopie log:"
+
+#~ msgid "Backup Schedule"
+#~ msgstr "Reservekopie rooster"
+
+#~ msgid "Backup Server"
+#~ msgstr "Reservekopie server"
+
+#~ msgid "Backup Server not found!"
+#~ msgstr "Reservekopie server niet gevonden!"
+
+#~ msgid "Backup file not found! Aborting."
+#~ msgstr "Reservekopie bestand niet gevonden! Afgebroken."
+
+#~ msgid "Backups"
+#~ msgstr "Reservekopieën"
+
+#~ msgid "CDR server, generally a local database server"
+#~ msgstr "CDR server, meestal een lokale databaseserver"
+
+#~ msgid "CDR's"
+#~ msgstr "CDR's"
+
+#~ msgid "Call Detail Records"
+#~ msgstr "Gespreksdetailregels (CDR)"
+
+#~ msgid "Can not create backup tables"
+#~ msgstr "Kan de reservekopietabellen niet aanmaken"
+
+#~ msgid "Cleaning up..."
+#~ msgstr "Opruimen..."
+
+#~ msgid "Configurations only"
+#~ msgstr "Alleen configuraties"
+
+#~ msgid "Custom"
+#~ msgstr "Aangepast"
+
+#~ msgid "Daily"
+#~ msgstr "Dagelijks"
+
+#~ msgid "Day of Week"
+#~ msgstr "Dag van de week"
+
+#~ msgid "Days"
+#~ msgstr "Dagen"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Default backup; automatically installed"
+#~ msgstr "Standaard reservekopie; automatisch geïnstalleerd"
+
+#~ msgid ""
+#~ "Delete this backup after X amount of minutes/hours/days/weeks/months/"
+#~ "years. Please note that deletes aren't time based and will only happen "
+#~ "after a backup was run. Setting the value to 0 will disable any deleting"
+#~ msgstr ""
+#~ "Verwijder deze reservekopie na X minuten/uren/dagen/weken/maanden/jaren. "
+#~ "Let op dat verwijderingen niet op tijd gebaseerd zijn, maar alleen "
+#~ "gebeuren nadat een reservekopie is uitgevoerd. Als u 0 kiest wordt "
+#~ "automatische verwijding uitgeschakeld"
+
+#~ msgid ""
+#~ "Delete this backup after X amount of runs. Setting the value to 0 will "
+#~ "disable any deleting"
+#~ msgstr ""
+#~ "Verwijder deze reservekopie na X keer uitvoeren. Als u 0 kiest wordt "
+#~ "automatische verwijding uitgeschakeld"
+
+#~ msgid "Description or notes for this backup"
+#~ msgstr "Omschrijving of notities van deze reservekopie"
+
+#~ msgid "Disable Registered Trunks"
+#~ msgstr "Schakel geregistreerde Trunks uit"
+
+#~ msgid "Done!"
+#~ msgstr "Klaar!"
+
+#~ msgid ""
+#~ "Drag templates and drop them in the items table to add the templates "
+#~ "items to the table"
+#~ msgstr ""
+#~ "Sleep sjablonen naar de onderdelen tabel om het sjabloon aan de tabel toe "
+#~ "te voegen"
+
+#~ msgid "Email Server "
+#~ msgstr "e-mail server "
+
+#~ msgid "Email to send status messages to when this task is run"
+#~ msgstr ""
+#~ "e-mail adres waar statusmeldingen naar toegezonden moeten worden als deze "
+#~ "taak is uitgevoerd"
+
+#~ msgid "Error uploading file!"
+#~ msgstr "Fout bij het uploaden van bestand!"
+
+#~ msgid "Error verifying uploaded file!"
+#~ msgstr "Fout bij het verifiëren van het bestand!"
+
+#~ msgid "Explicitly skipping host-specific NAT settings"
+#~ msgstr "Uitdrukkelijk overslaan van de server-specifieke NAT instellingen"
+
+#~ msgid "FTP Server "
+#~ msgstr "FTP server "
+
+#~ msgid ""
+#~ "Failed converting asterisk.sql to proper format, renaming to mysql-db.sql "
+#~ "in current state"
+#~ msgstr ""
+#~ "Converteren van asterisk.sql in juist formaat mislukt. Hernoemen naar "
+#~ "mysql-db.sql in huidige staat"
+
+#~ msgid ""
+#~ "Failed converting asteriskcdr.sql to proper format, renaming to mysql-cdr."
+#~ "sql in current state"
+#~ msgstr ""
+#~ "Converteren van asteriskcdr.sql in juist formaat mislukt. Hernoemen naar "
+#~ "mysql-cdr.sql in huidige staat"
+
+#~ msgid "Failed to retrieve file from server!"
+#~ msgstr "Bestand ontvangen van server mislukt!"
+
+#, fuzzy
+#~ msgid "Family, one per line"
+#~ msgstr "Families, één per regel"
+
+#~ msgid "February"
+#~ msgstr "Februari"
+
+#~ msgid "File not found! "
+#~ msgstr "Bestand niet gevonden! "
+
+#~ msgid "File restore complete!"
+#~ msgstr "Bestand terugzetten uitgevoerd!"
+
+#~ msgid "Friday"
+#~ msgstr "Vrijdag"
+
+#~ msgid "Getting CDR size..."
+#~ msgstr "Opvragen CDR grootte..."
+
+#~ msgid "Go!"
+#~ msgstr "Uitvoeren!"
+
+#~ msgid "Hourly"
+#~ msgstr "Elk uur"
+
+#~ msgid "Hours"
+#~ msgstr "Uren"
+
+#~ msgid "IP address or FQDN of remote ftp host"
+#~ msgstr "IP-adres of volledige naam (FQDN) van andere FTP server"
+
+#~ msgid "Invalid backup for or undefined error"
+#~ msgstr "Ongeldige reservekopie of ongedefinieerde fout"
+
+#~ msgid "January"
+#~ msgstr "Januari"
+
+#~ msgid "July"
+#~ msgstr "Juli"
+
+#~ msgid "June"
+#~ msgstr "Juni"
+
+#~ msgid "Local Server "
+#~ msgstr "Lokale server "
+
+#~ msgid "Maintenance"
+#~ msgstr "Onderhoud"
+
+#~ msgid "March"
+#~ msgstr "Maart"
+
+#~ msgid "May"
+#~ msgstr "Mei"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuten"
+
+#~ msgid "Monday"
+#~ msgstr "Maandag"
+
+#~ msgid "Monthly"
+#~ msgstr "Maandelijks"
+
+#~ msgid "Months"
+#~ msgstr "Maanden"
+
+#~ msgid "Mysql"
+#~ msgstr "MySQL"
+
+#~ msgid "Mysql DB's"
+#~ msgstr "MySQL DB's"
+
+#~ msgid "Mysql Server "
+#~ msgstr "MySQL server "
+
+#~ msgid "Never"
+#~ msgstr "Nooit"
+
+#~ msgid "New Backup"
+#~ msgstr "Nieuwe reservekopie"
+
+#~ msgid "New Email server"
+#~ msgstr "Nieuwe e-mail server"
+
+#~ msgid "New FTP server"
+#~ msgstr "Nieuwe FTP server"
+
+#~ msgid "New Local server"
+#~ msgstr "Nieuwe lokale server"
+
+#~ msgid "New SSH server"
+#~ msgstr "Nieuwe SSH server"
+
+#~ msgid "New Template"
+#~ msgstr "Nieuw sjabloon"
+
+#~ msgid "Nothing to restore!"
+#~ msgstr "Niets terug te zetten!"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "October"
+#~ msgstr "Oktober"
+
+#~ msgid "PBX Settings"
+#~ msgstr "PBX instellingen"
+
+#~ msgid "PBX config server, generally a local database server"
+#~ msgstr "PBX configuratieserver, meestal een lokale database server"
+
+#~ msgid "Path/DB"
+#~ msgstr "Pad/DB"
+
+#~ msgid "Preserving local NAT settings"
+#~ msgstr "Lokale NAT instellingen bewaren"
+
+#~ msgid "Randomize"
+#~ msgstr "Willekeurig"
+
+#~ msgid "Reboot"
+#~ msgstr "Herstart"
+
+#~ msgid "Reloading..."
+#~ msgstr "Herladen..."
+
+#~ msgid "Restore CDR records stored in this backup"
+#~ msgstr "Zet CDR regels terug uit deze reservekopie"
+
+#~ msgid "Restore Here"
+#~ msgstr "Hier terugzetten"
+
+#~ msgid "Restore all setting stored in the database"
+#~ msgstr "Zet alle instellingen terug opgeslagen in de database"
+
+#~ msgid "Restore complete!"
+#~ msgstr "Terugzetten voltooid!"
+
+#~ msgid "Restored Database"
+#~ msgstr "Database teruggezet"
+
+#~ msgid "Restoring CDRs complete"
+#~ msgstr "Terugzetten CDR's voltooid"
+
+#~ msgid "Restoring CDRs..."
+#~ msgstr "Terugzetten CDR's..."
+
+#~ msgid "Restoring Database..."
+#~ msgstr "Terugzetten database..."
+
+#~ msgid "Restoring NAT settings"
+#~ msgstr "Terugzetten NAT instellingen"
+
+#~ msgid "Restoring Settings complete"
+#~ msgstr "Terugzetten instellingen voltooid"
+
+#~ msgid "Restoring all files (this may take some time)..."
+#~ msgstr "Terugzetten alle bestanden (dit kan enige tijd duren)..."
+
+#~ msgid "Restoring astDB..."
+#~ msgstr "Terugzetten astDB..."
+
+#~ msgid "Restoring files (this may take some time)..."
+#~ msgstr "Terugzetten bestanden (dit kan enige tijd duren)..."
+
+#~ msgid "Run Automatically"
+#~ msgstr "Automatisch uitvoeren"
+
+#~ msgid "Run now"
+#~ msgstr "Nu uitvoeren"
+
+#~ msgid "Running post restore script..."
+#~ msgstr "Uitvoeren Na-terugzetten script..."
+
+#~ msgid "Running post-restore hooks, if any..."
+#~ msgstr "Uitvoeren Voor-terugzetten taken, als bestaan..."
+
+#~ msgid "Running pre-restore hooks, if any..."
+#~ msgstr "Uitvoeren Voor-terugzetten taken, als bestaan..."
+
+#~ msgid "Running pre-restore scripts..."
+#~ msgstr "Uitvoeren Voor-terugzetten scripts..."
+
+#~ msgid "SSH Server "
+#~ msgstr "SSH server "
+
+#~ msgid "Saturday"
+#~ msgstr "Zaterdag"
+
+#~ msgid "Select a file and click go"
+#~ msgstr "Kies en bestand en klik Uitvoeren"
+
+#~ msgid ""
+#~ "Select the server to be backed up (this server, or any other SSH server)"
+#~ msgstr ""
+#~ "Selecteer een server om een reservekopie van te maken (deze server, of "
+#~ "elke andere SSH server)"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "Servers"
+#~ msgstr "Servers"
+
+#~ msgid "Status Email"
+#~ msgstr "Status e-mail"
+
+#~ msgid "Storage Servers"
+#~ msgstr "Opslagservers"
+
+#~ msgid "Storage location for backups"
+#~ msgstr "Opslaglocatie voor reservekopieën"
+
+#~ msgid "Sunday"
+#~ msgstr "Zondag"
+
+#~ msgid "Template Name"
+#~ msgstr "Sjabloon naam"
+
+#~ msgid "Templates"
+#~ msgstr "Sjablonen"
+
+#~ msgid "This server"
+#~ msgstr "Deze server"
+
+#~ msgid "Thursday"
+#~ msgstr "Donderdag"
+
+#~ msgid "Transfer Mode"
+#~ msgstr "Verzend type"
+
+#~ msgid "Tuesday"
+#~ msgstr "Dinsdag"
+
+#~ msgid "Voice Mail Storage"
+#~ msgstr "Voicemail opslag"
+
+#~ msgid "WARNING!"
+#~ msgstr "WAARSCHUWING!"
+
+#, fuzzy
+#~ msgid "Web Root restore not detected, not restoring module table"
+#~ msgstr ""
+#~ "Internet hoofdmap terugzetten niet gevonden, moduletabel wordt niet "
+#~ "teruggezet"
+
+#~ msgid "Wednesday"
+#~ msgstr "Woensdag"
+
+#~ msgid "Weekly"
+#~ msgstr "Wekelijks"
+
+#~ msgid "Weeks"
+#~ msgstr "Weken"
+
+#~ msgid "Years"
+#~ msgstr "Jaren"
+
+#~ msgid "added default backup servers"
+#~ msgstr "Standaard reservekopie servers toegevoegd"
+
+#~ msgid "added default backup templates"
+#~ msgstr "Standaard reservekopie sjablonen toegevoegd"
+
+#~ msgid "error/not found!"
+#~ msgstr "fout/niet gevonden!"
+
+#~ msgid "table names, one per line"
+#~ msgstr "tabel namen, één per regel"
+
+#~ msgid "{no servers available}"
+#~ msgstr "{geen servers beschikbaar}"
+
+#~ msgid "Error connecting to the FTP Server..."
+#~ msgstr "Fout bij het verbinden met de FTP server..."
+
+#~ msgid "FTP Connection error!"
+#~ msgstr "FTP connectie fout!"
+
+#, fuzzy
+#~ msgid "Bulding manifest..."
+#~ msgstr "Verklaring opbouwen..."
+
+#~ msgid "Backup migration completed"
+#~ msgstr "Reservekopie migratie uitgevoerd"
+
+#~ msgid "Can not migrate Backup table"
+#~ msgstr "Kan de reservekopietabel niet migreren"
+
+#~ msgid "Can't check for Backup table"
+#~ msgstr "Kan niet controleren op reservekopietabel"
+
+#~ msgid "Creating backups directory.."
+#~ msgstr "Aanmaken reservekopie map.."
+
+#~ msgid "ERROR: Failed to remove old \"Backup\" table. You should uninstall"
+#~ msgstr ""
+#~ "FOUT: Verwijderen van de oude Reservekopietabel mislukt. U wordt "
+#~ "geadviseerd om te deïnstalleren"
+
+#~ msgid ""
+#~ "ERROR: failed to migrate from old \"Backup\" table to new \"backup\" table"
+#~ msgstr "FOUT: Migratie van oude reservekopietabel naar nieuwe tabel mislukt"
+
+#, fuzzy
+#~ msgid ""
+#~ "Exclude Backup's settings so that they dont get restored, usefull for a "
+#~ "remote restore"
+#~ msgstr ""
+#~ "Sluit reservekopie instellingen uit zodat deze niet teruggezet worden. "
+#~ "Nuttig voor het terugzetten vanaf afstand"
+
+#~ msgid "Failure Message:"
+#~ msgstr "Foutmelding:"
+
+#~ msgid "Location of backups pre 2.10"
+#~ msgstr "Locatie van reservekopieën van voor v.2.10"
+
+#~ msgid "MIGRATED"
+#~ msgstr "GEMIGREERD"
+
+#~ msgid "Migrated EMAIL server for backup "
+#~ msgstr "Gemigreerde e-mail server voor reservekopie "
+
+#~ msgid "Migrated FTP server for backup "
+#~ msgstr "Gemigreerde FTP server voor reservekopie "
+
+#~ msgid "Migrated SSH server for backup "
+#~ msgstr "Gemigreerde SSH server voor reservekopie "
+
+#~ msgid "Migrated remote SSH server for backup "
+#~ msgstr "Gemigreerde andere SSH server voor reservekopie "
+
+#~ msgid "Migrating backup table..."
+#~ msgstr "Reservekopietabel migreren..."
+
+#~ msgid "Nothing to migrate"
+#~ msgstr "Niets te migreren"
+
+#~ msgid "Old Backup table removed"
+#~ msgstr "Oude reservekopietabel verwijderd"
+
+#~ msgid "Replacing ampbackup.pl in db.."
+#~ msgstr "Vervangen van ampbackup.pl in database..."
+
+#~ msgid "Successfully migrated backup table!"
+#~ msgstr "Migratie reservekopietabel gelukt!"
+
+#~ msgid "This error can result from a previous incomplete/failed install of"
+#~ msgstr ""
+#~ "Deze foutmelding kan het resultaat zijn van een vorige incomplete/"
+#~ "gefaalde installatie van"
+
+#~ msgid "WARNING: backup table not migrated"
+#~ msgstr "WAARSCHUWING: Reservekopietabel niet gemigreerd"
+
+#~ msgid "WARNING: failed to create backup directory: %s"
+#~ msgstr "WAARSCHUWING Reservekopie map kan niet aangemaakt worden: %s"
+
+#~ msgid "an error has occurred, update not done"
+#~ msgstr "Er is een fout opgetreden, update niet uitgevoerd"
+
+#~ msgid "and then re-install this module. Settings will be lost but old"
+#~ msgstr ""
+#~ "en dan deze module her-installeren. Instellingen gaan verloren, maar oude"
+
+#~ msgid "backup data will be preserved."
+#~ msgstr "reservekopie gegevens worden bewaard."
+
+#~ msgid "backup data will be retained."
+#~ msgstr "reservekopie gegevens worden behouden."
+
+#~ msgid ""
+#~ "doing so will result in a loss of all your backup settings though previous"
+#~ msgstr ""
+#~ "dit zal resulteren in het verlies van de reservekopie instellingen, maar "
+#~ "vorige"
+
+#~ msgid "failed"
+#~ msgstr "gefaald"
+
+#~ msgid "migrated backup"
+#~ msgstr "gemigreerde reservekopie"
+
+#~ msgid "ok"
+#~ msgstr "ok"
+
+#~ msgid "removed"
+#~ msgstr "verwijderd"
+
+#~ msgid "removing retrieve_backup_cron_from_mysql.pl.."
+#~ msgstr "verwijderen retrieve_backup_cron_from_mysql.pl.."
+
+#~ msgid "this module. You should probably uninstall and reinstall this module"
+#~ msgstr ""
+#~ "deze module. U zult deze module moeten deïnstalleren en her-installeren"
+
+#~ msgid "Intializing Backup"
+#~ msgstr "Reservekopie initialiseren"
+
+#~ msgid "Intializing Restore..."
+#~ msgstr "Terugzetten initialiseren..."
+
+#~ msgid "Select files and databases to restore:"
+#~ msgstr "Selecteer bestanden en databases om terug te zetten:"
+
+#~ msgid "drop here"
+#~ msgstr "hier loslaten"
+
+#~ msgid ""
+#~ "You should run \"amportal a ma updateall\" to ensure system integrity"
+#~ msgstr ""
+#~ "U moet het commando \"amportal a ma updateall\" uitvoeren om de "
+#~ "integriteit van het systeem te waarborgen"
+
+#~ msgid " runs"
+#~ msgstr " uitvoeringen"
+
+#~ msgid "Database name"
+#~ msgstr "Database naam"
+
+#~ msgid "Day of Month"
+#~ msgstr "Dag van de maand"
+
+#~ msgid "Delete after"
+#~ msgstr "Verwijder na"
+
+#~ msgid ""
+#~ "Drag templates and drop them in the Backup Items table. Add as many "
+#~ "templates as you need"
+#~ msgstr ""
+#~ "Sleep sjablonen naar de reservekopie onderdelen tabel. Voeg zoveel "
+#~ "sjablonen toe als u nodig heeft"
+
+#~ msgid "Hour"
+#~ msgstr "Uur"
+
+#~ msgid "IP address or FQDN of remote ssh host"
+#~ msgstr "IP-adres of volledige naam (FQDN) van andere SSH server"
+
+#~ msgid "Month"
+#~ msgstr "Maand"
+
+#~ msgid "New Mysql server"
+#~ msgstr "Nieuwe MySQL server"
+
+#~ msgid "Path on server where files are stored"
+#~ msgstr "Pad op de server waar de bestanden zijn opgeslagen"
+
+#~ msgid "Path where files are stored"
+#~ msgstr "Pad waar de bestanden zijn opgeslagen"
+
+#~ msgid "Post-backup Hook"
+#~ msgstr "Na-reservekopie taak"
+
+#~ msgid "Post-restore Hook"
+#~ msgstr "Na-terugzet taak"
+
+#~ msgid "Pre-backup Hook"
+#~ msgstr "Voor-reservekopie taak"
+
+#~ msgid "Pre-restore Hook"
+#~ msgstr "Voor-terugzet taak"
+
+#~ msgid "Processed "
+#~ msgstr "Verwerkt "
+
+#~ msgid "Restored all CDRs."
+#~ msgstr "Alle CDR's teruggezet."
+
+#~ msgid "Storage Locations"
+#~ msgstr "Opslaglocaties"
+
+#~ msgid ""
+#~ "Upload a backup file to restore from it. Or, pick a saved backup by "
+#~ "selecting a server from the list on the right."
+#~ msgstr ""
+#~ "Upload een reservekopiebestand om het terug te zetten. Of kies een "
+#~ "reservekopie door een server te selecteren van de lijst aan de "
+#~ "rechterkant."
+
+#~ msgid "and Run"
+#~ msgstr "en uitvoeren"
+
+#~ msgid ""
+#~ "drag servers from the Available Servers list to add them as Storage "
+#~ "Servers"
+#~ msgstr ""
+#~ "sleep servers van de Beschikbare servers-lijst om deze toe te voegen als "
+#~ "opslagservers"
+
+#~ msgid "remote ftp port"
+#~ msgstr "andere server FTP poort"
+
+#~ msgid "remote mysql port"
+#~ msgstr "andere server MySQL poort"
+
+#~ msgid "remote ssh port"
+#~ msgstr "andere server SSH poort"

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Create a pem file from files in /etc/httpd/pki
+
+OUTDIR=/etc/asterisk/keys/integration
+
+# Start with a clean slate
+rm -rf $OUTDIR
+mkdir -p $OUTDIR
+
+# This is the pem file
+OUTPUT=$OUTDIR/certificate.pem
+
+# These are the files we're using to create them.
+FILES="/etc/httpd/pki/webserver.key /etc/httpd/pki/webserver.crt /etc/httpd/pki/ca-bundle.crt"
+
+# Check that /etc/httpd/pki is owned by root
+if [ "$(stat -c %U /etc/httpd/pki)" != "root" ]; then
+	echo "/etc/httpd/pki not owned by root, unable to continue"
+	exit -1
+fi
+
+# Make sure that the files we're reading aren't links, and, that they are owned by root.
+# If they are, add them to output.
+for f in $FILES; do
+	if [ ! -e $f ]; then
+		echo "Warning - $f doesn't exist"
+		continue
+	fi
+
+	if [ -h $f ]; then
+		echo "$f is a symbolic link, unable to continue"
+		rm -f $OUTPUT
+		exit -1
+	fi
+
+	if [ "$(stat -c %U $f)" != "root" ]; then
+		echo "$f is not owned by root, unable to continue"
+		rm -f $OUTPUT
+		exit -1
+	fi
+	# Remove cruft that may be in this file, such as trailing ^Ms,
+	# and CRLs (eg, startssl adds it to their ca chain)
+	sed 's/\r//' $f | sed '/-----BEGIN X509 CRL-----/,/-----END X509 CRL-----/d' >> $OUTPUT
+	# Add a blank line to be sure they're in spec.
+	echo >> $OUTPUT
+	# Copy the raw file across for anything else that needs it
+	cp $f $OUTDIR
+done
+
+# Fix the permissions so it's readable by asterisk
+chown -R asterisk.asterisk /etc/asterisk/keys/integration
+

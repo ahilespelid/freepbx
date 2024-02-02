@@ -1,0 +1,125 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for extensionroutes
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-13 08:40+0000\n"
+"PO-Revision-Date: 2015-06-30 06:58+0200\n"
+"Last-Translator: Kevin <kevin@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
+"extensionroutes/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid "Allowed Extensions"
+msgstr "許可する内線"
+
+msgid "Allowed Routes"
+msgstr "許可するルート"
+
+msgid "Blocked Extensions"
+msgstr "ブロックする内線"
+
+msgid ""
+"By checking this box it will select all extension routes, unchecking this "
+"box will uncheck all extension routes."
+msgstr ""
+"チェックを入れると全ての内線ルートを選択します。外すと、選択を外します。"
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\t\t\tAllows the explicit exclusion/"
+"inclusion of extensions for each route, including calls forwarded or "
+"followme-ed from the extension"
+msgstr ""
+
+msgid "Check/Uncheck All Routes"
+msgstr "全てのルートを選択／非選択"
+
+msgid "Class Of Service is enabled"
+msgstr "サービスクラスが有効です"
+
+msgid "Connectivity"
+msgstr "接続"
+
+msgid "Creating default Extension Routes.."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Extension Routes"
+msgstr "内線ルート"
+
+msgid "Extension Routing"
+msgstr "内線ルート"
+
+#, php-format
+msgid "Failed inserting %s to %s"
+msgstr ""
+
+msgid "If checked this route is accessible to this user/extension"
+msgstr ""
+"チェックを入れると、このユーザー・内線はこのルートが使えるようになります。"
+
+msgid "Note: Extension Routes is not registered"
+msgstr "注意: 内線ルートは登録されていません"
+
+msgid "Optional: Select extensions that are able to use this route."
+msgstr "任意: このルートの使用を許可する内線を選択します。"
+
+msgid "Please use CoS to manage your routes."
+msgstr "サービスクラスからルートの管理を行ってください。"
+
+msgid "WARNING: Cannot connect to Asterisk Manager, fields will remain stale"
+msgstr ""
+"警告: Asterisk Managerに接続できません。フィールドの情報は反映されません。"
+
+msgid "done"
+msgstr "完了"
+
+msgid "removing AMPUSER outroute field.."
+msgstr "AMPUSER outrouteフィールドを削除中.."
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE, REQUIRES A LICENSE.        Allows the explicit "
+#~ "exclusion/inclusion of extensions for each route, including calls "
+#~ "forwarded or followme-ed from the extension"
+#~ msgstr ""
+#~ "有償モジュール。ご利用するにはライセンスの購入が必要です。\t全てのルートに"
+#~ "おいて、そのルートが使える内線を設定できます。内線のフォローミーや通常転送"
+#~ "した通話も対象となります。"
+
+#~ msgid "creating extensionroutes.."
+#~ msgstr "extensionroutesを作成中.."
+
+#~ msgid "dropping table extensionroutes.."
+#~ msgstr "extensionroutesテーブルをドロップ中.."
+
+#~ msgid "extensionroutes table already exists, exiting"
+#~ msgstr "extensionroutesテーブルが既に存在するため終了します"
+
+#~ msgid "ok"
+#~ msgstr "OK"
+
+#~ msgid "Class of Service not enabled"
+#~ msgstr "サービスクラスが無効です"
+
+#~ msgid ""
+#~ "Drag extension from the Blocked Extensions list to allow them to use this "
+#~ "route"
+#~ msgstr ""
+#~ "このルートを許可するには、ブロックする内線の一覧から許可したい内線をドラッ"
+#~ "グします。"
+
+#~ msgid "Standard mode."
+#~ msgstr "標準モード。"

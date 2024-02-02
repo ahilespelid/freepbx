@@ -1,0 +1,108 @@
+<module>
+	<rawname>oracle_connector</rawname>
+	<repo>commercial</repo>
+	<name>Oracle Connector</name>
+	<version>15.0.14</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<license>Commercial</license>
+	<changelog>
+		*15.0.14* FREEI-4965 Add some cmd line options for support 
+		*15.0.13* FREEI-4256 Need to manage non-compliant extensions 
+		*15.0.12* FREEI-4048 Fixe room status issue after check in. 
+		*15.0.11* FREEI-4057 No message in log when billing rate is failed. 
+		*15.0.10* FREEI-3855 Add feature to enable or not Automatic Room Status Change 
+		*15.0.9* FREEI-3534 Populate Taxes and Route Rates Automatically 
+		*15.0.8* FREEI-3520 Fixe issue with Oracle Connector and non PMS CoS which is not cleaned. 
+		*15.0.7* FREEI-3182 bug fixed for undefined constant 
+		*15.0.6* FREEI-3141 MySQL server has gone away in file 
+		*15.0.5* FREEI-3141 O.C - Prevent any breaks coming from wrong Billing rate and routes settings. 
+		*15.0.4* FREEI-3047 Improve the code if Asterisk is down 
+		*15.0.3*  
+		*15.0.2* FREEI-1845 Updates to licensing to support IonCube [oracle_connector] 
+		*15.0.1*   15.0 Release
+	</changelog>
+	<category>Applications</category>
+	<description>Oracle connector for PMS module</description>
+	<menuitems>
+		<oracle_connector>Oracle Connector</oracle_connector>
+	</menuitems>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<module>pms ge 15.0.2.50</module>
+		<module>cos ge 15.0.9</module>
+		<phpversion>5.6.0</phpversion>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>oracle</name>
+			<class>Oracle_connector</class>
+		</command>
+	</console>
+	<hooks>
+		<framework namespace="FreePBX\Console\Command" class="Stop">
+				<method namespace="FreePBX\modules" class="Oracle_connector" callingMethod="postAsteriskHooks">stopOracle</method>
+		</framework>
+		<framework namespace="FreePBX\Console\Command" class="Start">
+				<method namespace="FreePBX\modules" class="Oracle_connector" callingMethod="preAsteriskHooks">startOracle</method>
+		</framework>
+		<framework namespace="FreePBX\Console\Command" class="Chown">
+			<method namespace="FreePBX\modules" class="Oracle_connector" callingMethod="fwcChownFiles">chownFreepbx</method>
+		</framework>
+		<pms namespace="FreePBX\modules" class="Pms">
+			<method namespace="FreePBX\Modules" class="Oracle_connector" callingMethod="loadConnectors">AddonConnector</method>
+		</pms>
+		<restapps namespace="FreePBX\modules" class="Restapps">
+			<method namespace="FreePBX\Modules" class="Oracle_connector" callingMethod="loadConnectors">Restappsconnector</method>
+		</restapps>
+	</hooks>
+	<database>
+		<table name="oracle_connector_settings">
+			<field name="key_word" type="string" length="30" primarykey="true"/>
+			<field name="value" type="string" length="2048"/>
+		</table>
+		<table name="pms_connectors">
+			<field name="id" type="integer" length="30" primarykey="true" autoincrement="true"/>
+			<field name="module" type="string" length="128"/>
+			<field name="name" type="string" length="128"/>
+	    </table>
+		<table name="oracle_wakeup_notify">
+			<field name="key_word" type="string" length="128" primaryKey="true"/>
+			<field name="value" type="string" length="30"/>
+			<field name="owner" type="string" length="1" default="P"/>
+		</table>
+	    <table name="oracle_billing">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="RN" type="string" length="20" notnull="false"/>
+			<field name="GN" type="integer" notnull="false"/>
+			<field name="BD" type="string" length="300" notnull="false"/>
+			<field name="BI" type="decimal" precision="20" scale="2"/>
+			<field name="BA" type="decimal" precision="20" scale="2"/>
+			<field name="FD" type="string" length="1" default="N"/>
+			<field name="AS" type="string" length="2" notnull="false"/>
+			<field name="FO" type="integer" length="2" notnull="false"/>
+			<field name="DA" type="string" length="6"/>
+			<field name="TI" type="string" length="6"/>
+		</table>
+		<table name="oracle_register">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="res_num" type="integer" length="10"/>
+			<field name="room_num" type="integer" length="30"/>
+			<field name="room_status" type="integer" length="1"/>
+			<field name="guest_name" type="string" length="200"/>
+			<field name="guest_email" type="string" length="200" notnull="false"/>
+			<field name="messages" type="blob"/>
+			<field name="guest_share" type="string" length="1" default="N" notnull="false"/>
+			<field name="status" type="string" length="40" notnull="false"/>
+			<field name="date" type="string" length="13" notnull="false"/>
+		</table>
+		<table name="oracle_cdr_temp">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="timestamp" type="integer"/>
+			<field name="name" type="string" length="255"/>
+		</table>
+	</database>
+</module>

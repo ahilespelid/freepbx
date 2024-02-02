@@ -1,0 +1,278 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for manager
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 09:45+0000\n"
+"PO-Revision-Date: 2017-07-10 19:50+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
+"manager/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: views/grid.php:13
+msgid "Actions"
+msgstr "Các thao tác"
+
+#: page.manager.php:38 views/form.php:12 views/grid.php:5
+msgid "Add Manager"
+msgstr "Thêm trình quản lý"
+
+#: manager.i18n.php:4
+msgid "Asterisk API"
+msgstr ""
+
+#: page.manager.php:25
+msgid "Asterisk Manager"
+msgstr "Trình quản lý Asterisk"
+
+#: manager.i18n.php:10
+msgid "Asterisk Manager Users"
+msgstr ""
+
+#: functions.inc.php:367
+msgid "Choose Manager:"
+msgstr "Chọn trình quản lý:"
+
+#: functions.inc.php:367
+msgid "Choose the user that PHPAGI will use to connect the Asterisk API."
+msgstr "Chon người dùng mà PHPAGI sẽ sử dụng để kết nối tới Asterisk API."
+
+#: Manager.class.php:78
+msgid "Delete"
+msgstr "Xóa"
+
+#: views/form.php:119 views/grid.php:11
+msgid "Deny"
+msgstr "Từ chối"
+
+#: views/form.php:190
+msgid ""
+"For information on individual permissions please see the Asterisk Manager "
+"Documentation"
+msgstr ""
+"Để biết thêm thông tin về các quyền cá nhân vui lòng tham khảo tài liệu "
+"Asterisk Manager - trình quản lý Asterisk"
+
+#: views/form.php:56
+msgid "General"
+msgstr "Chung"
+
+#: views/form.php:131
+msgid ""
+"If you want to deny many hosts or networks, use & char as separator.<br/><br/"
+">Example: 192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+msgstr ""
+"Nếu bạn muốn từ chối nhiều host hay mạng, sử dụng ký tự & để ngăn cách.<br/"
+"><br/>Ví dụ: 192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+
+#: views/form.php:155
+msgid ""
+"If you want to permit many hosts or networks, use & char as separator. Look "
+"at deny example."
+msgstr ""
+"Nếu bạn muốn cho phép nhiều máy chủ và mạng sử dụng ký tự & để ngăn cách. "
+"Xem ví dụ giống như từ chối."
+
+#: page.manager.php:37
+msgid "List Managers"
+msgstr "Danh sách trình quản lý"
+
+#: views/form.php:5
+msgid "Manager"
+msgstr "Trình quản lý"
+
+#: views/form.php:68
+msgid "Manager name"
+msgstr "Tên của trình quản lý"
+
+#: views/form.php:319
+msgid "Manager password must match regex rules like this: [a-zA-Z0-9*?+-.,!_]"
+msgstr ""
+
+#: views/form.php:92
+msgid "Manager secret"
+msgstr "Bảo mật của trình quản lý"
+
+#: views/grid.php:10
+msgid "Name"
+msgstr "tên"
+
+#: views/form.php:80
+msgid ""
+"Name of the manager without spaces and special characters except _ and -. "
+"Limit upto 15 characters only."
+msgstr ""
+
+#: views/form.php:212 views/form.php:220 views/form.php:233 views/form.php:241
+msgid "No"
+msgstr "Không"
+
+#: views/form.php:107
+msgid "Password for the manager."
+msgstr "Mật khẩu cho trình quản lý."
+
+#: views/form.php:57
+msgid "Permissions"
+msgstr "Các quyền"
+
+#: views/form.php:143 views/grid.php:12
+msgid "Permit"
+msgstr "Cho phép"
+
+#: Manager.class.php:83
+msgid "Reset"
+msgstr "Cài đặt lại"
+
+#: views/form.php:182
+msgid ""
+"Sets the timeout used by Asterisk when writing data to the AMI connection "
+"for this user"
+msgstr ""
+"Cài đặt thời gian chờ sử dụng bởi Asterisk khi ghi dữ liệu đến kết nối AMI "
+"cho người dùng này"
+
+#: manager.i18n.php:6
+msgid "Settings"
+msgstr ""
+
+#: Manager.class.php:88
+msgid "Submit"
+msgstr "Gửi đi"
+
+#: views/form.php:320
+msgid "The manager deny is not well formatted."
+msgstr "Tính năng từ chối của trình quản lý không được định dạng tốt."
+
+#: views/form.php:316
+msgid "The manager name cannot be empty or may not have any space in it."
+msgstr ""
+"Tên của trình quản lý không được để trống hoặc không được chứa dấu cách."
+
+#: views/form.php:317
+msgid "The manager name will not accept any special characters except _ and -."
+msgstr ""
+
+#: views/form.php:321
+msgid "The manager permit is not well formatted."
+msgstr "Cho phép của trình quản lý không được định dạng tốt."
+
+#: views/form.php:322
+msgid "The manager read field is not well formatted."
+msgstr "Trường đọc của trình quản lý không được định dạng tốt."
+
+#: views/form.php:318
+msgid "The manager secret cannot be empty."
+msgstr "Bảo mật của trình quản lý không thể để trống."
+
+#: views/form.php:323
+msgid "The manager write field is not well formatted."
+msgstr "Trường ghi trình quản lý không được định dạng tốt."
+
+#: functions.inc.php:327 functions.inc.php:333
+msgid "This manager already exists"
+msgstr "Trình quản lý này đã tồn tại"
+
+#: manager.i18n.php:8
+msgid "This module is used to add AMI Users"
+msgstr ""
+
+#: views/form.php:227
+msgid "Toggle All"
+msgstr "Chuyển đổi tất cả"
+
+#: views/form.php:167
+msgid "Write Timeout"
+msgstr "Ghi thời gian chờ"
+
+#: views/form.php:210 views/form.php:218 views/form.php:231 views/form.php:239
+msgid "Yes"
+msgstr "Có"
+
+#: views/form.php:27
+msgid "agent"
+msgstr "Hỗ trợ viên"
+
+#: views/form.php:23
+msgid "call"
+msgstr "cuộc gọi"
+
+#: views/form.php:32
+msgid "cdr"
+msgstr "tập tin cdr"
+
+#: views/form.php:26
+msgid "command"
+msgstr "lệnh"
+
+#: views/form.php:29
+msgid "config"
+msgstr "cấu hình"
+
+#: views/form.php:33
+msgid "dialplan"
+msgstr "kế hoạch quay số"
+
+#: views/form.php:30
+msgid "dtmf"
+msgstr "dtmf - ( Dual Tone Multi Frequency- Âm kép đa tần)"
+
+#: views/form.php:24
+msgid "log"
+msgstr "log"
+
+#: views/form.php:173
+msgid "milliseconds"
+msgstr "mi li giây"
+
+#: views/form.php:34
+msgid "originate"
+msgstr "có nguồn gốc"
+
+#: views/form.php:31
+msgid "reporting"
+msgstr "Đang báo cáo"
+
+#: views/form.php:22
+msgid "system"
+msgstr "hệ thống"
+
+#: views/form.php:28
+msgid "user"
+msgstr "người dùng"
+
+#: views/form.php:25
+msgid "verbose"
+msgstr "rườm rà"
+
+#~ msgid "Name of the manager without spaces."
+#~ msgstr "Tên của trình quản lý sẽ không chứa dấu cách."
+
+#~ msgid "Adding write timeout.."
+#~ msgstr "Đang thêm ghi thời gian chờ.."
+
+#~ msgid "Column present"
+#~ msgstr "Cột hiển thị"
+
+#~ msgid "Increasing read field size if needed.."
+#~ msgstr "Đang tăng kích cỡ trường đọc (read) nếu cần thiết.."
+
+#~ msgid "Increasing write field size if needed.."
+#~ msgstr "Đang tăng kích cỡ trường ghi ( write) nếu cần thiết.."
+
+#~ msgid "error encountered, not altered"
+#~ msgstr "Gặp lỗi, không bị chuyển đổi"
+
+#~ msgid "ok"
+#~ msgstr "ok"

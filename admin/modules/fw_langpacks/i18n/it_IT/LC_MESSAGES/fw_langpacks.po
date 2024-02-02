@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 08:48+0000\n"
+"PO-Revision-Date: 2008-11-10 14:36+0100\n"
+"Last-Translator: Francesco Romano <francesco.romano@alteclab.it>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
+msgstr ""
+
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
+#: install.php:50 install.php:95
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr ""
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
+
+#: install.php:75 install.php:120
+#, php-format
+msgid "Updated %s"
+msgstr "Aggiornato %s"
+
+#: install.php:87 install.php:132
+msgid "an error occured removing the packaged files"
+msgstr ""
+
+#: install.php:89 install.php:134
+msgid "files removed successfully"
+msgstr ""
+
+#: install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr ""
+
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr ""
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr ""
+
+#~ msgid "Preparing to copy %s to %s"
+#~ msgstr "Preparazione della copia di %s su %s"
+
+#~ msgid "No destination directory %s to copy %s to"
+#~ msgstr "Nessuna directory di destinazione %s per copiarci %s"

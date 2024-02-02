@@ -1,0 +1,118 @@
+<module>
+	<rawname>backup</rawname>
+	<repo>standard</repo>
+	<name>Backup &amp; Restore</name>
+	<version>15.0.25</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Admin</category>
+	<description>Backup &amp; Restore for your FreePBX environment</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Backup+and+Restore+Module</more-info>
+	<menuitems>
+		<backup needsenginedb="yes">Backup &amp; Restore</backup>
+		<backup_restore hidden="true" needsenginedb="yes">Backup &amp; Restore - Restore</backup_restore>
+	</menuitems>
+	<depends>
+		<module>filestore ge 15.0.4</module>
+		<version>15.0.23</version>
+	</depends>
+	<changelog>
+		*15.0.25* FREEPBX-24178 
+		*15.0.24* FREEPBX-24115 
+		*15.0.23* Packaging of ver 15.0.23
+		*15.0.22* bump 
+		*15.0.21.6* Packaging of ver 15.0.21.6
+		*15.0.21.5* Packaging of ver 15.0.21.5
+		*15.0.21.4* FREEPBX-23678 
+		*15.0.21.3* FREEI-5224 runBackup Gql api status update 
+		*15.0.21.2* FREEI-5224 
+		*15.0.21.1* FREEI-5145 restorebackup api fixed
+		*15.0.21* FREEI-5103 force backup to run asynchronous 
+		*15.0.20* FREEI-5103 
+		*15.0.19* bump 
+		*15.0.18* FREEPBX-23559 
+		*15.0.17* FREEPBX-23552 
+		*15.0.16* FREEI-4830 skip restoring trunks and routes 
+		*15.0.15* FREEI-4878 Restoring backup not updating the timezone in sysadmin module 
+		*15.0.14* FREEPBX-23431 Backup with only custom items fixed 
+		*15.0.13* FREEI-4436 - Restore - Ability to select modules to ignore 
+		*15.0.12* FREEPBX-23356 
+		*15.0.11* bump 
+		*15.0.10.70* FREEI-4610 Restore from UCC1 to UCC2 fails 
+		*15.0.10.69* Packaging of ver 15.0.10.69
+		*15.0.10.68* FREEPBX-22977 replaced asort function flag from SORT_NUMERIC to SORT_STRING 
+		*15.0.10.67* FREEI-4119 Issue restoring sms_messages table 
+		*15.0.10.66* FREEI-4077 Modified removeAll function parameter 
+		*15.0.10.65* FREEPBX-22783 Exception The given id seems invalid 
+		*15.0.10.64* FREEI-3830 PBXact 16 - Extension license count is not showing properly
+		*15.0.10.63* FREEI-3770 Added new test cases and removed base64 encoding on id while returning id 
+		*15.0.10.62* FREEI-3538 Changed id field type from STRING to ID in gql api 
+		*15.0.10.61* FREEI-3477 backup restore issue 
+		*15.0.10.60* FREEI-3436 Added validation and written unit test cases to check invalidStorage location 
+		*15.0.10.59* FREEI-3452 Refactored updateBackup function 
+		*15.0.10.58* FREEI-3441 Changed inlineLogs field type from string to boolean in addBackup and updateBackup GQL API 
+		*15.0.10.57* FREEI-3435 created updateBackup and deleteBackup GQL API and done with unit test cases 
+		*15.0.10.56* FREEI-3432 changing fetch fileDetails to backupConfigurations in fetchAllBackupConfigurations API 
+		*15.0.10.55* FREEI-3392 Created GQL API to fetchAllBackups and Unit tests 
+		*15.0.10.54* FREEI-3089 bug fixes for all moduele and validation on invalid module name 
+		*15.0.10.53* FREEPBX-22335 
+		*15.0.10.52* FREEI-3089 updated utest 
+		*15.0.10.51*  
+		*15.0.10.50* FREEI-3072-backup-modules-issue 
+		*15.0.10.49* FREEI-3039 
+		*15.0.10.48* FREEPBX-22218 asterisk older version syntax was causing the issue 
+		*15.0.10.47* FREEPBX-22218 Can't restore v12 backup on v15 
+		*15.0.10.46* Packaging of ver 15.0.10.46
+		*15.0.10.45* FREEI-2667 Backup fails with PHP Fatal error: Allowed memory size 
+		*15.0.10.44* Packaging of ver 15.0.10.44
+		*15.0.10.43* Packaging of ver 15.0.10.43
+		*15.0.10.42* Packaging of ver 15.0.10.42
+		*15.0.10.41* FREEPBX-22030 Restoring Queue fails if callconfirm_id, agentannounce_id or joinannounce_id is not set 
+		*15.0.10.40* FREEPBX-21932 Restore fails when no custom files selected 
+		*15.0.10.39* FREEPBX-21959 Legacy Restore Error 
+		*15.0.10.38* Packaging of ver 15.0.10.38
+		*15.0.10.37* Packaging of ver 15.0.10.37
+		*15.0.10.36* Packaging of ver 15.0.10.36
+		*15.0.10.35* FREEI-2062 Restore to 15 from a 13/14 backup not restoring POMPS backup settings 
+		*15.0.10.34* Packaging of ver 15.0.10.34
+		*15.0.10.33* FREEI-2076 15 Backup Erroring with SoundLang 
+		*15.0.10.32* FREEI-2066  added option to skip post restore hooks 
+		*15.0.10.31* FREEPBX-21755 Backup maintenance issue : deleting file if backupname appended as directory 
+		*15.0.10.30* FREEI-2036 Ticket#956628 - PBXact 15 - Warm Spare Restore Failing 
+		*15.0.10.29* Packaging of ver 15.0.10.29
+		*15.0.10.28* FREEI-1939 Legacy backup restore on FreePBX 15 not restoring the firewall module's trusted networks 
+		*15.0.10.27* FREEI-1927 Backup file not getting saved if the local path is set to "/var/spool/asterisk/backup" 
+		*15.0.10.26* FREEPBX-21664 Warm Spare backup removes executable permission on AGI scripts 
+		*15.0.10.25* FREEPBX-21660 FreePBX Backup Custom files/directories 
+		*15.0.10.24* FREEI-1905 default taking file based operation during restore 
+		*15.0.10.23* Avoid restore errors when modules use foreign key constraints. 
+		*15.0.10.22* Fixing FREEI-1896 
+		*15.0.10.21* FREEI-1882 Control inmemory true false option via fwconsole backup command 
+		*15.0.10.20* Packaging of ver 15.0.10.20
+		*15.0.10.19* FREEI-1764 
+		*15.0.10.18* FREEI-1764 show the hook file name 
+		*15.0.10.17* FREEI-1858 FREEI-1857 
+		*15.0.10.16* FREEI-1764 Add back support for pre and post restore hooks in backup 15 
+		*15.0.10.15* FREEI-1836 Throwing error if restore process is not able to load the manifest file of backup 
+		*15.0.10.14* FREEI-1838  time out issue 
+		*15.0.10.13* FREEI-1838 Cdr restore timeout  issue 
+		*15.0.10.12* Fixing FREEI-1780 Improving code to 
+		*15.0.10.11* FREEI-1791 Issue restoring a backup to FPBX15 
+		*15.0.10.10* FREEI-1771 Adding by default /etc/asterisk directory while creating backup 
+		*15.0.10.9* FREEI-1717 Backup module not sending the failure mail when the backup got failed due to asterisk not running. 
+		*15.0.10.8* FREEI-1765 typo error 
+		*15.0.10.7* Added custom files functionality code 
+		*15.0.10.6* Fixing FREEI-1710 Increasing legacy cdr restore timeout to 5 hours 
+		*15.0.10.5* FREEI-1567 logs created by new freepbxc 15 backup appear to be unmanaged 
+		*15.0.10.4* FREEI-1551 https setup not replicating to warm spare 
+		*15.0.10.3* Fixing FREEPBX-21456 Adding backup file under "backup job name" directory 
+		*15.0.10.2*  FREEI-1644 added set reset option
+		*15.0.10.1* FREEPBX-21399 Firewall broken after restore from legacy backup onto FreePBX 15 
+		*15.0.10* FREEI-1532 Need to clear the backup files generated by advanced recovery 
+		*15.0.9*    FREEI-1526 Add backup module hooks to update the restore status
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

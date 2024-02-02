@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Exceptions; class getExceptions implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\150\145\156\x74\x69\x63\141\x74\145" => true, "\x61\154\x6c\157\x77\162\145\155\157\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return Exceptions::load()->getExceptions(isset($data["\x69\x74\x65\x6d\x73"]) && $data["\151\164\x65\155\163"]); } }

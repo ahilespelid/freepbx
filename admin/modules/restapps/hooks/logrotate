@@ -1,0 +1,39 @@
+#!/bin/bash
+
+cat <<- EOF > /etc/logrotate.d/freepbx-restapps
+/var/log/asterisk/restapps_*.log{
+	size 50M
+	missingok
+	rotate 5
+	notifempty
+	sharedscripts
+	dateext
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+	postrotate
+		/usr/sbin/fwconsole pm2 --reload-logs -q
+	endscript
+}
+/var/log/asterisk/dpmaapps.log{
+	size 100M
+	missingok
+	rotate 7
+	dateext
+	notifempty
+	sharedscripts
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+}
+/var/log/asterisk/update-contact-hook.log  {
+	daily
+	missingok
+	notifempty
+	dateext
+	sharedscripts
+	dateformat -%d%m%Y
+	rotate 10
+	size 50M
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+}
+EOF

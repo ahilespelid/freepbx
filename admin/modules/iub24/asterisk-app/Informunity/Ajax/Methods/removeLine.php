@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Lines; class removeLine implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\150\x65\x6e\164\x69\143\141\164\145" => true, "\141\154\154\x6f\167\162\x65\155\157\x74\145" => false); return true; } public function ajaxHandler($config, $data) { return Lines::load()->removeLine($config, $data); } }

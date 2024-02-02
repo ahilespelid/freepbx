@@ -1,0 +1,732 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for queuestats
+# Copyright (C) 2008-2018 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 03:55+0000\n"
+"PO-Revision-Date: 2021-01-19 05:54+0000\n"
+"Last-Translator: Kapil Gupta <kgupta+freepbx@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/queuestats/"
+"es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%s (%s) - %s Members"
+msgstr "%s (%s) - %s Agentes"
+
+#, php-format
+msgid "%s (on %s) (%s)"
+msgstr "%s (en %s) (%s)"
+
+#, php-format
+msgid "%s - %s. Member of %s Queue(s)"
+msgstr "%s - %s. Agente de %s Cola(s)"
+
+#, php-format
+msgid "%s Seconds Ago"
+msgstr "Hace %s segundos"
+
+#, php-format
+msgid "%s seconds"
+msgstr "%s segundos"
+
+msgid "'Alert above' field its not numeric or not empty string."
+msgstr "El campo 'Alerta por encima de' no es numérico o no está vacío."
+
+#, php-format
+msgid "(%s) Calls have been Abandoned"
+msgstr "(%s) Llamadas han sido Abandonadas"
+
+msgid "1 day"
+msgstr "1 día"
+
+msgid "1 hour"
+msgstr "1 hora"
+
+msgid "10 min"
+msgstr "10 mins"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "12 Hour"
+msgstr "12 Horas"
+
+msgid "15 min"
+msgstr "15 mins"
+
+msgid "24 Hour"
+msgstr "24 Horas"
+
+msgid "40%"
+msgstr "40%"
+
+msgid "5 min"
+msgstr "5 mins"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "60%"
+msgstr "60%"
+
+msgid "70%"
+msgstr "70%"
+
+msgid "75%"
+msgstr "75%"
+
+msgid "80%"
+msgstr "80%"
+
+msgid "90%"
+msgstr "90%"
+
+msgid "95%"
+msgstr "95%"
+
+msgid "99%"
+msgstr "99%"
+
+msgid "A Month"
+msgstr "Por Mes"
+
+msgid "A Week"
+msgstr "Por Semana"
+
+msgid "AVG Wait Time"
+msgstr "Tiempo de Espera Promedio"
+
+#, php-format
+msgid "Abandonded Calls for Queue %s"
+msgstr "Llamadas Abandonadas para la Cola %s"
+
+msgid "Abandoned Calls (Queue)"
+msgstr "Llamadas Abandonadas (Cola)"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Active Calls (Queue)"
+msgstr "Llamadas Activas (Cola)"
+
+#, php-format
+msgid "Active Calls for Queue %s"
+msgstr "Llamadas Activas para la Cola %s"
+
+msgid "Add Server"
+msgstr "Agregar Servidor"
+
+#, php-format
+msgid "Agent %s (Unknown)"
+msgstr "Agente %s (Desconocido)"
+
+msgid "Agent Name"
+msgstr "Nombre de Agente"
+
+msgid "Agent State"
+msgstr "Estado de Agente"
+
+msgid "Agent Status for Agent __HINT__ (__USER__)"
+msgstr "Estado de Agente para el Agente __HINT__ (__USER__)"
+
+msgid "Agent Summary"
+msgstr "Resumen de Agente"
+
+#, php-format
+msgid "Agent Summary for Agent %s (%s)"
+msgstr "Resumen de Agente para el Agente %s (%s)"
+
+msgid "Agent Summary for Agent __HINT__ (__USER__)"
+msgstr "Resumen de Agente para el Agente __HINT__ (__USER__)"
+
+#, php-format
+msgid "Agent(s) %s"
+msgstr "Agente(s) %s"
+
+msgid "Alert Level"
+msgstr "Nivel de Alerta"
+
+msgid "Alert in minutes or leave text in blank for 'no Notifications'."
+msgstr ""
+"Alerta en minutos o deje el texto en blanco para 'notificaciones "
+"deshabilitadas'."
+
+#, php-format
+msgid "Alert when Queue %s climbs above %s minute(s)."
+msgstr "Alerta cuando la Cola %s sube por encima de %s minuto(s)."
+
+#, php-format
+msgid "Alert when Queue %s falls below %s%%"
+msgstr "Alerta cuando la Cola %s cae por debajo de %s%%"
+
+msgid "Allowed Queue Wallboard Widgets"
+msgstr "Widgets de Queue Wallboard Permitidos"
+
+msgid "Allows you to display the time in various timezones."
+msgstr "Permite mostrar la hora en varias zonas horarias."
+
+msgid "Allows you to monitor the state of a selection of agents"
+msgstr "Permite controlar el estado de una selección de agentes"
+
+msgid "Amount of data to consider for syncing. Recommended value is 1 week."
+msgstr ""
+
+msgid ""
+"Amount of days to retain data in the log tables. Setting this to 30 is ideal."
+msgstr ""
+"Cantidad de días para retener datos en las tablas de registro. Establecer "
+"esto en 30 es lo ideal."
+
+#, perl-format
+msgid "Are you sure you wish to delete these: %s?"
+msgstr "¿Estás seguro de que deseas eliminar estos: %s?"
+
+msgid "Asterisk Manager Password"
+msgstr "Contraseña de Asterisk Manager"
+
+msgid "Asterisk Manager User"
+msgstr "Usuario de Asterisk Manager"
+
+msgid "Averaging Period"
+msgstr "Periodo de Promediación"
+
+msgid "Avg Wait Time of a Queue"
+msgstr "Tiempo de espera promedio en una Cola"
+
+msgid "CDR Database"
+msgstr "Base de Datos CDR"
+
+msgid "Caller Outcome Summary (Queue)"
+msgstr "Resumen del resultado del llamante (Cola)"
+
+#, php-format
+msgid "Caller Outcome for Queue %s"
+msgstr "Resultado del llamante para la Cola %s"
+
+msgid "Can not connect to CDRDB!"
+msgstr "¡No es posible la conexión con el CDRDB!"
+
+#, php-format
+msgid "Can't find queue %s"
+msgstr "No se encuentra la cola %s"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Cannot create widget: "
+msgstr "No se puede crear el widget: "
+
+msgid "Clock"
+msgstr "Reloj"
+
+msgid "Clock Type"
+msgstr "Tipo de Reloj"
+
+msgid "Connection Name"
+msgstr "Nombre de la Conexión"
+
+msgid "Connection Type"
+msgstr "Tipo de Conexión"
+
+msgid "Create Widget"
+msgstr "Crear Widget"
+
+msgid "Current status:"
+msgstr "Estado actual:"
+
+msgid "DND"
+msgstr "No Molestar"
+
+msgid "Data Retention"
+msgstr "Retención de Data"
+
+msgid "Data sync cutoff time"
+msgstr ""
+
+#, php-format
+msgid "Date and Time in <strong>%s</strong>"
+msgstr "Fecha y Hora en <strong>%s</strong>"
+
+msgid "Delete Selected"
+msgstr "Fecha Seleccionada"
+
+msgid "Descriptive Name for this Connection"
+msgstr "Nombre Descriptivo para esta Conexión"
+
+msgid "Descriptive Name for this widget"
+msgstr "Nombre Descriptivo para este widget"
+
+msgid "Displays a brief summary of Caller Outcome in the Queue"
+msgstr "Muestra un resumen breve del Resultado del Llamante en la Cola"
+
+msgid "Displays a brief summary on a single Queue"
+msgstr "Muestra un resumen breve de una Cola"
+
+msgid "Displays a summary of the last 24 hours of a single queue."
+msgstr "Muestra un resumen de las últimas 24 horas de una Cola."
+
+msgid "Displays a summary of the last week of a single queue."
+msgstr "Muestra un resumen de la última semana de una Cola."
+
+msgid "Displays the Hold time on a single Queue"
+msgstr "Muestra el Tiempo de Espera en una Cola"
+
+msgid "Displays the Top 5 longest wait time of a single queue."
+msgstr "Muestra el Top 5 de los Tiempos de Espera más largos de una Cola."
+
+msgid "Displays the abandonned calls on a single Queue"
+msgstr "Muestra las llamadas abandonadas en una Cola"
+
+msgid ""
+"Displays the average wait time over a determinated period of time of a "
+"single queue."
+msgstr ""
+"Muestra el tiempo de espera promedio durante un período determinado de una "
+"Cola."
+
+msgid "Displays the current active calls on a single Queue"
+msgstr "Muestra las llamadas activas actuales en una Cola"
+
+msgid "Displays the received calls on a single Queue"
+msgstr "Muestra las llamadas recibidas en una Cola"
+
+msgid ""
+"Displays whatever the user wants as long as the content is HTML or plain "
+"text."
+msgstr ""
+"Muestra lo que quiera el usuario siempre que el contenido sea HTML o texto "
+"sin formato."
+
+msgid "Edit Widget"
+msgstr "Editar el Widget"
+
+msgid "Enable Queue Wallboard Access"
+msgstr "Habilitar el Acceso a Queue Wallboard"
+
+msgid "Enable the Queue Wallboard Access in UCP for this user"
+msgstr "Habilitar el Acceso a Queue Wallboard en el UCP para este usuario"
+
+msgid "Force resyncronization"
+msgstr "Forzar la resincronización"
+
+msgid "Generic HTML/Text Section"
+msgstr "Sección de HTML/Texto Genérico"
+
+#, php-format
+msgid "HOLD TIME for Queue %s since last reset / Notification above: %s"
+msgstr ""
+"TIEMPO DE ESPERA para la Cola %s desde el último reinicio / Notificación "
+"sobre: %s"
+
+msgid "HTML or Text to insert"
+msgstr "HTML o Texto a insertar"
+
+msgid "Hold Time in (Queue)"
+msgstr "Tiempo de Espera en (Cola)"
+
+#, php-format
+msgid "Hold time is %s for Queue %s"
+msgstr "El Tiempo de Espera es %s para la Cola %s"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Host i.e: 192.168.0.1 or pbx.mydomain.com"
+msgstr "Host ej: 192.168.0.1 o pbx.midominio.com"
+
+msgid "Idle"
+msgstr "Sin Actividad"
+
+msgid "In Non-Queue Call"
+msgstr "En llamada no-de-Cola"
+
+#, php-format
+msgid "In Queue (%s)"
+msgstr "En Cola (%s)"
+
+msgid "In Queue Call"
+msgstr "En llamada de Cola"
+
+msgid "Incoming"
+msgstr "Entrante"
+
+msgid "Inherit"
+msgstr "Heredar"
+
+#, php-format
+msgid "Last 24 hours of Call Info for Queue %s"
+msgstr "Últimas 24 horas de información de llamadas para la Cola %s"
+
+msgid "Last 24hrs of a Queue"
+msgstr "Últimas 24 horas de una Cola"
+
+#, php-format
+msgid "Last Call: %s"
+msgstr "Última Llamada: %s"
+
+msgid "Last Call: __LASTCALLNICE__"
+msgstr "Última Llamada: __LASTCALLNICE__"
+
+#, php-format
+msgid "Last Week Call Info for Queue %s"
+msgstr "Información de llamadas en la última semana para la Cola %s"
+
+msgid "Last Week of a Queue"
+msgstr "Última Semana de una Cola"
+
+msgid "List servers"
+msgstr "Listar servidores"
+
+msgid "Loading"
+msgstr "Cargando"
+
+msgid "Loading..."
+msgstr "Cargando..."
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged in UCP User (If a member of queue)"
+msgstr "Usuario UCP conectado (si es miembro de una Cola)"
+
+#, php-format
+msgid "Member of %s Queue(s)"
+msgstr "Miembro de %s Cola(s)"
+
+msgid "Member of __QUEUECOUNT__ Queue(s)"
+msgstr "Miembro de __QUEUECOUNT__ Cola(s)"
+
+msgid ""
+"Monitors the SLA of a single Queue. By default this will alert when the SLA "
+"falls below 95%."
+msgstr ""
+"Supervisa el SLA de una Cola. Por defecto, esto alertará cuando el SLA caiga "
+"por debajo del 95%."
+
+msgid "Multiple Agent Summary"
+msgstr "Resumen de Múltiples Agentes"
+
+msgid "MySQL Database"
+msgstr "Base de Datos MySQL"
+
+msgid "MySQL Password"
+msgstr "Contraseña MySQL"
+
+msgid "MySQL User"
+msgstr "Usuario MySQL"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "No"
+msgstr "No"
+
+msgid "No Agents"
+msgstr "No hay Agentes"
+
+msgid "No Calls"
+msgstr "No hay Llamadas"
+
+msgid "No Calls Abandoned"
+msgstr "No hay Llamadas Abandonadas"
+
+msgid "No Longest Wait Times on Record"
+msgstr "No hay Tiempos de Espera más Largos registrados"
+
+#, perl-format
+msgid "On %s at %s caller '%s' waited for %s"
+msgstr "En %s a las %s el llamante '%s' esperó por %s"
+
+msgid "One Day"
+msgstr "Un Día"
+
+msgid "One Hour"
+msgstr "Una Hora"
+
+msgid "Optional text"
+msgstr "Texto Opcional"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Paused"
+msgstr "Pausado"
+
+msgid "Please, first create a queue and return to this module."
+msgstr "Por favor, primero cree una Cola y luego regrese a este módulo."
+
+msgid "Please, first create them and then return tu this module."
+msgstr "Por favor, primero creelas y luego regrese a este módulo."
+
+msgid "Please, select another queue with assignated agents."
+msgstr "Por favor, seleccione otra Cola con agentes asignados."
+
+msgid "Please, write a valid number without any special characters or letters"
+msgstr "Por favor, ingrese un número sin caracteres especiales ni letras"
+
+msgid "Queue"
+msgstr "Cola"
+
+#, php-format
+msgid "Queue %s"
+msgstr "Cola %s"
+
+#, php-format
+msgid "Queue %s (No Hold time Alerting)"
+msgstr "Cola %s (Sin Alertas por Tiempo de Espera)"
+
+#, php-format
+msgid "Queue %s (No SLA Alerting)"
+msgstr "Cola %s (Sin Alertas por SLA)"
+
+#, php-format
+msgid "Queue %s has received %s calls %s."
+msgstr "La Cola %s ha recivido %s llamadas %s."
+
+#, php-format
+msgid "Queue %s has received No Calls %s"
+msgstr "La Cola %s no ha recivido llamadas %s"
+
+#, php-format
+msgid "Queue %s, %s"
+msgstr "Cola %s, %s"
+
+msgid "Queue Statistics"
+msgstr "Estadísticas de Cola"
+
+msgid "Queue Summary (Queue)"
+msgstr "Resumen de la Cola (Cola)"
+
+#, php-format
+msgid "Queue Summary for Queue %s"
+msgstr "Resumen de Cola para la Cola %s"
+
+msgid "Queue Wallboard"
+msgstr "Queue Wallboard"
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the CDR database"
+msgstr ""
+"Queue Wallboard no está configurado correctamente en el servidor remoto, no "
+"es posible agregar debido a falta de conexión con la base de datos CDR"
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the database"
+msgstr ""
+"Queue Wallboard no está configurado correctamente en el servidor remoto, no "
+"es posible agregar debido a falta de conexión con la base de datos"
+
+msgid "Received Calls (Queue)"
+msgstr "Llamadas Recibidas (Cola)"
+
+#, php-format
+msgid "Received Calls for Queue %s"
+msgstr "Llamadas Recibidas para la Cola %s"
+
+msgid "Remote"
+msgstr "Remoto"
+
+msgid "Remote Servers"
+msgstr "Servidores Remotos"
+
+msgid "Remove Data older than retention days"
+msgstr ""
+
+msgid "Reports"
+msgstr "Reportes"
+
+msgid "Restoing Legacy backup from Queuestats"
+msgstr ""
+
+msgid "Restoing Only Widgets and Servers from Queuestats kvstore"
+msgstr ""
+
+msgid "Ringing"
+msgstr "Timbrando"
+
+#, php-format
+msgid "Ringing (%s)"
+msgstr "Timbrando (%s)"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Server"
+msgstr "Servidor"
+
+msgid "Service Level Agreements"
+msgstr "Acuerdos de Nivel de Servicio (SLA)"
+
+msgid "Settings"
+msgstr "Configuraciones"
+
+msgid "Six Hours"
+msgstr "Seis Horas"
+
+msgid "Syncronize a single server by id (obtained from --list)"
+msgstr "Sincronizar un servidor por id (obtenido de --list)"
+
+msgid "Syncronize all servers"
+msgstr "Sincronizar todos los servidores"
+
+msgid "The Hold time in the queue __QUEUE__ is about __HOLDTIMENICE__."
+msgstr ""
+"El Tiempo de Espera en la Cola __QUEUE__ es aproximadamente _ HOLDTIMENICE _."
+
+msgid ""
+"The Queue Wallboard module allows you to easily view real-time information "
+"related to queues in the UCP module of FreePBX or PBXact."
+msgstr ""
+"El módulo Tablero de colas le permite ver fácilmente información en tiempo "
+"real relacionada con las colas en el módulo UCP de FreePBX o PBXact."
+
+msgid "The top 5 longest wait time in the queue __QUEUE__ __RANGE__"
+msgstr ""
+"El top 5 de los Tiempos de Espera más largos en la Cola __QUEUE__ __RANGE__"
+
+msgid "There are no agents configured"
+msgstr "No hay agentes configurados"
+
+msgid "There are no agents in this queue"
+msgstr "No hay agentes en esta Cola"
+
+msgid "There are no queues and agents configured."
+msgstr "No hay Colas ni Agentes configurados."
+
+msgid "There are no queues configured"
+msgstr "No hay Colas configuradas"
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+"Estas son las extensiones asignadas y activas que aparecerán para que este "
+"usuario controle y edite en su UCP"
+
+msgid "This widget displays live information about a single agent."
+msgstr "Este widget muestra información en vivo sobre un agente."
+
+msgid "This widget displays the current state of an agent in a specific queue."
+msgstr ""
+"Este widget muestra el estado actual de un Agente en una Cola específica."
+
+msgid "This will be help text."
+msgstr "Esto será texto de ayuda."
+
+msgid "Time Range"
+msgstr "Rango de Tiempo"
+
+msgid "Timezone"
+msgstr "Zona Horaria"
+
+#, php-format
+msgid "Timezone '%s'"
+msgstr "Zona Horaria '%s'"
+
+msgid "Top Longest Wait Time"
+msgstr "Tiempo de Espera más largo"
+
+msgid "Twelve Hours"
+msgstr "Doce Horas"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "UCP Widgets"
+msgstr "Widgets UCP"
+
+msgid "Unable to connect to the remote asterisk manager"
+msgstr "No se puede conectar con el asterisk manager remoto"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Unset"
+msgstr "No configurado"
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "User Primary Extension"
+msgstr "Extensión Primaria del Usuario"
+
+msgid "Waiting"
+msgstr "Esperando"
+
+msgid "Warning"
+msgstr ""
+
+msgid "Widget Type"
+msgstr "Tipo de Widget"
+
+#, php-format
+msgid "With Agent (%s)"
+msgstr "Con Agente (%s)"
+
+msgid "Wrapping Up"
+msgstr "Terminando"
+
+msgid "Yes"
+msgstr "Sí"
+
+#, php-format
+msgid ""
+"You have not enabled the 'Log Queues' in %s Asterisk Log File Settings. %s "
+"This will affect Queue wallboard data display"
+msgstr ""
+
+msgid ""
+"You have not enabled the 'Log Queues' in Asterisk Log File Settings. This "
+"will affect Queue wallboard data display"
+msgstr ""
+
+msgid "__SLAPERCENT__ of calls have been answered within __SECONDSNICE__"
+msgstr ""
+"__SLAPERCENT__ de las llamadas han sido contestadas dentro de __SECONDSNICE__"
+
+msgid "minute(s)."
+msgstr "minuto(s)."
+
+msgid "over the last day(24 hours)"
+msgstr "durante el último día (24 horas)"
+
+msgid "over the last hour"
+msgstr "durante la última hora"
+
+msgid "over the last month"
+msgstr "durante el último mes"
+
+msgid "over the last six hours"
+msgstr "durante las últimas seis horas"
+
+msgid "over the last twelve hours"
+msgstr "durante las últimas doce horas"
+
+msgid "over the last week"
+msgstr "durante la última semana"
+
+msgid "since the begining of time"
+msgstr "desde el inicio de los tiempos"
+
+#~ msgid "Queue Wallboard Description"
+#~ msgstr "Descripción de Queue Wallboard"

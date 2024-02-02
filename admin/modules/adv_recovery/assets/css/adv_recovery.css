@@ -1,0 +1,101 @@
+#overlay{	
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height:100%;
+	display: none;
+	background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+.spinner {
+	width: 40px;
+	height: 40px;
+	border: 4px #ddd solid;
+	border-top: 4px #2e93e6 solid;
+	border-radius: 50%;
+	animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+	100% { 
+		transform: rotate(360deg); 
+		}
+}
+.is-hide{
+	display:none;
+}
+.ar-quick-add .stepContainer {
+	margin: 0 8px;
+	min-height: 400px;
+    overflow-y: auto;
+}
+.ar-switch-back .stepContainer {
+	margin: 0 8px;
+	min-height: 300px;
+    overflow-y: auto;
+}
+.ar-quick-add .swMain .stepContainer .StepTitle, .ar-switch-back .swMain .stepContainer .StepTitle {
+	width: 100%;
+}
+.ar-quick-add .swMain .stepContainer .display, .ar-switch-back .swMain .stepContainer .display {
+	width: 100%;
+}
+.ar-quick-add .swMain .stepContainer > div, .ar-switch-back .swMain .stepContainer > div {
+	padding: 5px;
+}
+.ar-quick-add .swMain ul.anchor, .ar-switch-back .swMain ul.anchor {
+	margin: 10px 10px;
+}
+.ar-quick-add .swMain ul.anchor li a {
+	width: 210px;
+}
+.ar-switch-back .swMain ul.anchor li a {
+	width: 220px;
+}
+.ar-top-border {
+	border-top: 1px solid rgba(94,156,125,0.9);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ar-quick-add .swMain ul.anchor li a.selected, .ar-switch-back .swMain ul.anchor li a.selected {
+	margin: 3px 0 0 0;
+}
+.ar-quick-add .swMain .actionBar {
+	margin-right: 8px;
+}
+.ar-switch-back #upgrader {
+	border: 1px solid rgba(94,156,125,0.9);
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+.ar-switch-back #upgrader .body {
+	overflow-y: scroll;
+    max-height: 175px;
+}
+.ar-switch-back #step-3 #module {
+	padding: 6px 15px;
+}
+#runlogModel #popup {
+	padding: 15px;
+}
+#runlogModel #popup .body {
+	overflow-y: scroll;
+    max-height: 340px;
+}
+.adv-recovery-info {
+	padding-left: 10px;
+    padding-right: 4px;
+}
+.adv-rec-label {
+	padding-bottom: 7px;
+}
+.ar-switch-back .alert {
+	margin-bottom: 0px;
+}

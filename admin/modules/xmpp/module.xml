@@ -1,0 +1,77 @@
+<module>
+	<rawname>xmpp</rawname>
+	<repo>standard</repo>
+	<name>XMPP</name>
+	<version>15.0.6.12</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3</license>
+	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<category>Admin</category>
+	<description>Manage and configure a XMPP Server Prosody and requires the Prosody RPM from your PBX be installed.</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/XMPP+Chat+Management</more-info>
+	<menuitems>
+		<xmpp needsenginedb="yes">XMPP</xmpp>
+	</menuitems>
+	<depends>
+		<phpversion>5.3.0</phpversion>
+		<module>userman ge 13.0.0</module>
+		<module>pm2 ge 13.0.3.8</module>
+	</depends>
+	<changelog>
+		*15.0.6.12* FREEI-3897 added one more condition to check menu field is null 
+		*15.0.6.11* FREEI-3804 PBXact wizard broken "Undefined index: xmpp_enable 
+		*15.0.6.10* FREEPBX-22734 XMPP chat not honoring the Userman settings 
+		*15.0.6.9* Packaging of ver 15.0.6.9
+		*15.0.6.8* Packaging of ver 15.0.6.8
+		*15.0.6.7* Packaging of ver 15.0.6.7
+		*15.0.6.6* Packaging of ver 15.0.6.6
+		*15.0.6.5* Packaging of ver 15.0.6.5
+		*15.0.6.4* bump 
+		*15.0.6.3* FREEPBX-20314 Getting SQL error while creating Group with Some users selected. 
+		*15.0.6.2* fixing legacy restore 
+		*15.0.5* FREEPBX-18283 remove prosody table defs 
+		*15.0.4* FREEPBX-18077 User/Grp perms for XMPP not working correctly in userman
+		*15.0.3* FREEPBX-18076 XMPP login fails silently if userman email address is not unique
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1.6* branch from 15, add backup
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<database>
+		<table name="xmpp_users">
+			<field name="user" type="string" length="50" default="" primarykey="true"/>
+			<field name="username" type="string" length="50" notnull="false"/>
+			<field name="password" type="string" length="50" notnull="false"/>
+		</table>
+		<table name="xmpp_options">
+			<field name="keyword" type="string" length="75" default="" primarykey="true"/>
+			<field name="value" type="text" notnull="false"/>
+		</table>
+
+	</database>
+	<hooks>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Xmpp" namespace="FreePBX\Modules">dashboardService</method>
+		</dashboard>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Xmpp" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Xmpp" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Xmpp" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="getExtraContactInfo" class="Xmpp" namespace="FreePBX\modules">usermanAddContactInfo</method>
+			<method callingMethod="delUser" class="Xmpp" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Xmpp" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Xmpp" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method callingMethod="myShowPage" class="Xmpp" namespace="FreePBX\modules">usermanShowPage</method>
+		</userman>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Xmpp" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Xmpp" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Xmpp" namespace="FreePBX\modules">stopFreepbx</method>
+		</framework>
+	</hooks>
+</module>

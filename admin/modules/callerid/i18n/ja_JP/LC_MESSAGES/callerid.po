@@ -1,0 +1,113 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callerid
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:07+0000\n"
+"PO-Revision-Date: 2016-09-02 14:03+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/callerid/"
+"ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Entry"
+msgstr ""
+
+msgid "Applications"
+msgstr "アプリケーション"
+
+msgid "Are you sure you wish to delete these caller id mappings?"
+msgstr ""
+
+msgid "Attention: Extension"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.The CallerID "
+"Management module is a unique way to\tmodify the caller ID that is outpulsed "
+"on the fly. By dialing a simple feature code you can change the Caller ID "
+"for the next call on your extension. Optionally you\tcan also specify the "
+"Persistent field, If this is checked the CID is permanently changed for all "
+"future calls for your extension until another feature code is\tentered to "
+"change it"
+msgstr ""
+
+msgid "Caller ID Management"
+msgstr ""
+
+msgid "CallerID Management"
+msgstr ""
+
+#, php-format
+msgid "CallerID Management: %s %s"
+msgstr ""
+
+msgid "CallerID Managment"
+msgstr ""
+
+msgid "CallerID Name"
+msgstr ""
+
+msgid "CallerID Num"
+msgstr ""
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Extension discarded!"
+msgstr ""
+
+msgid "INUSE"
+msgstr ""
+
+msgid "Name"
+msgstr "名前"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Persistent"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid ""
+"The CallerID Management module allows you to change the outbound Caller ID "
+"on an extension basis by utilizing a call prefix code."
+msgstr ""
+
+#, php-format
+msgid ""
+"The prefix you are trying to use is already being used by cidnum[%s]. \n"
+"Please choose another prefix."
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "conflicts with"
+msgstr ""
+
+#~ msgid "Reset"
+#~ msgstr "リセット"
+
+#~ msgid "Submit"
+#~ msgstr "送信"

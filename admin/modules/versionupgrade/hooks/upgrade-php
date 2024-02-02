@@ -1,0 +1,15 @@
+#!/usr/bin/php -q
+<?php
+error_reporting(E_ALL);
+   require '/usr/lib/sysadmin/includes.php';
+
+   /* this code is part of the GraphQL API, an update of long running tasks */
+   if(isset($argv[1]) && !empty($argv[1])){
+	   $txn_id = $argv[1]; 
+   }else{
+      $txn_id = 0;
+   }
+
+   $path = \Sysadmin\FreePBX::Config()->get('AMPWEBROOT')."/admin/modules/versionupgrade/hooks";
+   shell_exec($path.'/phpupdate.sh --quiet '.$txn_id);
+?>

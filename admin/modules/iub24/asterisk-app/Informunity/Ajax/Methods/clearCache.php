@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; class clearCache implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\164\x68\145\156\x74\151\x63\x61\164\145" => false, "\x61\x6c\x6c\157\x77\x72\x65\155\157\164\145" => true); return true; } public function ajaxHandler($config, $data) { \Informunity\Classes\clearCache::Load()->Run($config); } }

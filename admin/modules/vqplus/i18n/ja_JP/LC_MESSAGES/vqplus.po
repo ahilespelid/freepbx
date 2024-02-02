@@ -1,0 +1,913 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for vqplus
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-09 05:41+0000\n"
+"PO-Revision-Date: 2015-07-30 13:31+0200\n"
+"Last-Translator: Kevin <kevin@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/vqplus/"
+"ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid " (Virtual)"
+msgstr ""
+
+msgid " already used, please use a different name."
+msgstr ""
+
+msgid "&lt;Same Queue&gt;"
+msgstr ""
+
+msgid ""
+"(Formerly Virtual Queue Plus) MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. "
+"Queue Pro adds additional advanced features to Queues module."
+msgstr ""
+
+msgid "Accept Prompt"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add New Queue Pause Codes"
+msgstr ""
+
+msgid "Add Pause code"
+msgstr ""
+
+msgid "Add Rule Set"
+msgstr ""
+
+msgid "Agent Announcement"
+msgstr "エージェントアナウンス"
+
+msgid "Agent Post Hangup Destination"
+msgstr ""
+
+msgid "Alert Info"
+msgstr ""
+
+msgid ""
+"Alert Info to add to SIP header when sent to the agent that is commonly used "
+"to create some form of distinctive ring to the agent."
+msgstr ""
+
+msgid "Allow caller to record callback Message"
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue and proceeds to the fail over destination."
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue with QUEUESTATUS: FULL."
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue with QUEUESTATUS: JOINEMPTY."
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue with QUEUESTATUS: JOINUNAVAIL."
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue with QUEUESTATUS: LEAVEEMPTY."
+msgstr ""
+
+msgid ""
+"Alternative destination to that defined in the hosting queue if the call "
+"exits the queue with QUEUESTATUS: LEAVEUNAVAIL."
+msgstr ""
+
+msgid "Amount of days to retain data callback Deamon logs. MAX is 30 days."
+msgstr ""
+
+msgid ""
+"Annoucement to be played remote agents when answering a queue call to "
+"confirm they want to answer the call. This will override the queue setting "
+"as well as any follow-me announcement they have set."
+msgstr ""
+
+msgid "Announcement"
+msgstr ""
+
+msgid ""
+"Announcement to play to agent upon answering a queue call prior to bridging "
+"the caller."
+msgstr ""
+
+msgid "Announcement to play to callers upon joining the queue."
+msgstr ""
+
+msgid "Applications"
+msgstr "アプリケーション"
+
+msgid "Auto-Unpause If Life"
+msgstr ""
+
+msgid "CID Name Prefix"
+msgstr ""
+
+msgid ""
+"CID prefix to prepend to the callers name, commonly used to help the agent "
+"know what queue the call came in to."
+msgstr ""
+
+msgid "Call Confirm Announcement"
+msgstr ""
+
+msgid ""
+"Call back will dial the number between this given timings based on THEIR "
+"Timezone."
+msgstr ""
+
+msgid "CallBack Daemon Data Retention"
+msgstr ""
+
+msgid "Callback Number"
+msgstr ""
+
+msgid "Callback Prompt"
+msgstr ""
+
+msgid "Callback Queue"
+msgstr ""
+
+msgid "Callback Timings"
+msgstr ""
+
+msgid "Callbacks"
+msgstr ""
+
+msgid "Caller ID"
+msgstr ""
+
+msgid ""
+"Caller ID to use when calling the destination number.  Example: Sales "
+"Callback <8000>"
+msgstr ""
+
+msgid "Caller Message Prompt"
+msgstr ""
+
+msgid "Caller Post Hangup Destination"
+msgstr ""
+
+msgid ""
+"Check to see if the number of calls in the callback queue are greater the "
+"specified notification levels"
+msgstr ""
+
+msgid "Clear Failed"
+msgstr ""
+
+msgid "Clear Success"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Confirmed Prompt"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Default Country"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid ""
+"Destination to link this virtual queue setup instance, usually points to an "
+"actual queue."
+msgstr ""
+
+msgid "Destination to send the agent to upon the caller hanging up the call."
+msgstr ""
+
+msgid ""
+"Destination to send the agent to upon the caller hanging up the call. This "
+"functionality requires the agent to be a normal extension and the Agent "
+"Restrictions to be set to either \"Extensions Only\" or \"No Follow-Me or "
+"Call Forward\"."
+msgstr ""
+
+msgid ""
+"Destination to send the caller to upon the agen hanging up the call, often "
+"used to send a caller to take a post call survey. This functionality "
+"requires the agent to be a normal extension and the Agent Restrictions to be "
+"set to either \"Extensions Only\" or \"No Follow-Me or Call Forward\"."
+msgstr ""
+
+msgid ""
+"Destination to send the caller to upon the agent hanging up the call, often "
+"used to send a caller to take a post call survey."
+msgstr ""
+
+msgid "Dial Matches"
+msgstr ""
+
+msgid "Digits to prepend to the destination number"
+msgstr ""
+
+msgid "Do you want to clear the Failed callback logs"
+msgstr ""
+
+msgid "Do you want to clear the successful callback logs"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid ""
+"Duration in seconds prior to making the perscribed rule change. The duration "
+"is since entering the ruleset or since the previous rule, it is not the "
+"abosolute time as is used in queuerules.conf."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable Callback Timings"
+msgstr ""
+
+msgid "End Time (24 hours format)"
+msgstr ""
+
+msgid "Enter number patterns the user can dial, one per line"
+msgstr ""
+
+msgid "Failed Callbacks"
+msgstr ""
+
+msgid "Failed to start Queue Callback Event Server"
+msgstr ""
+
+msgid "Failed to start Queue Callback Server"
+msgstr ""
+
+msgid "Failed to start vqplus because dependable Pm2 is not installed/enabled."
+msgstr ""
+
+msgid "Failed to stop vqplus because dependable Pm2 is not installed/enabled"
+msgstr ""
+
+msgid "Failed updating libraries!"
+msgstr ""
+
+msgid "Failed! : Queue Callback daemon is "
+msgstr ""
+
+msgid "Finished updating libraries!"
+msgstr ""
+
+msgid "Force CID"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Handle Queue Announcements"
+msgstr ""
+
+msgid ""
+"If the call is sent to a destnation thats a queue, then queue needs to be "
+"configured correctly to work all the options given here"
+msgstr ""
+
+msgid ""
+"If you enable this option then callback daemon will be handling the "
+"following announcements caller position, holdtime and periodic announcements."
+"(Note: Announcements timings may vary from 0 to 10 seconds). If the option "
+"is disabled then  all announcements will be from Queue. Note : Queue will be "
+"announcing the position based on the active calls in the queue (Not included "
+"of callback opted calls)"
+msgstr ""
+
+msgid "Initial Max Penalty"
+msgstr ""
+
+msgid "Initial Max Penalty is required!"
+msgstr ""
+
+msgid "Initial Max Penalty must greater than Initial Min Penalty!"
+msgstr ""
+
+msgid "Initial Min Penalty"
+msgstr ""
+
+msgid "Initial Min Penalty is required!"
+msgstr ""
+
+msgid "Initial Raise Penalty"
+msgstr ""
+
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr ""
+
+msgid "Items"
+msgstr ""
+
+msgid "Join Announcement"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid ""
+"Language code to set the channel. This is used in conjunction with the "
+"language sound files if other languages are installed on the system. This "
+"requires setup outside of FreePBX and will default to the installed english "
+"sound files if none are present for this language."
+msgstr ""
+
+msgid "Lazy Members"
+msgstr ""
+
+msgid "List Queue Callbacks"
+msgstr ""
+
+msgid "List Queue Pause Codes"
+msgstr ""
+
+msgid "List Rule Sets"
+msgstr ""
+
+msgid "List Virtual Queues"
+msgstr ""
+
+msgid "Max Penalty Change"
+msgstr ""
+
+msgid "Max Wait Time"
+msgstr ""
+
+msgid ""
+"Maximum wait time for a caller after which the call will exit the queue and "
+"be sent to the failover destination."
+msgstr ""
+
+msgid "Message, example: Lunch"
+msgstr ""
+
+msgid "Min Penalty Change"
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Modify Rule Set"
+msgstr ""
+
+msgid ""
+"Most installations should keep this DISABLED. When enabled in conjunction "
+"with Join/Leave When Empty being set to Yes will automatically un-pause all "
+"agents in a queue upon a new caller entering the queue where there is any "
+"current agent showing a 'sign of life' in the form of INUSE, RINGINUSE, "
+"ONHOLD, etc."
+msgstr ""
+
+msgid ""
+"Music class to play to callers while wating for an agent if different then "
+"the primary queue"
+msgstr ""
+
+msgid "Music on Hold Class"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid ""
+"New QUEUE_MAX_PENALTY value, can either be an absolute penalty, or relative "
+"change to the current penalty value by prepending \"+\" or \"-\" before it."
+msgstr ""
+
+msgid ""
+"New QUEUE_MIN_PENALTY value, can either be an absolute penalty, or relative "
+"change to the current penalty value by prepending \"+\" or \"-\" before it."
+msgstr ""
+
+msgid "New Queue Callback"
+msgstr ""
+
+msgid "New Rule Set"
+msgstr ""
+
+msgid ""
+"New UEUE_RAISE_PENALTY value,absolute or relative change to "
+"QUEUE_RAISE_PENALTY. If QUEUE_RAISE_PENALTY is set, agents with a lower "
+"penalty will be treated as having a penalty = QUEUE_RAISE_PENALTY."
+msgstr ""
+
+msgid "New Virtual Queue"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Number Prepend"
+msgstr ""
+
+msgid "Number Prompt"
+msgstr ""
+
+msgid ""
+"Number of seconds to wait between retry attempts.  This should usually be at "
+"least as long as timeout."
+msgstr ""
+
+msgid ""
+"Number of seconds to wait for answer/confirmation when calling the "
+"destination number."
+msgstr ""
+
+msgid ""
+"Number of times to retry calling the destination number before giving up on "
+"them."
+msgstr ""
+
+msgid ""
+"Optional destination to the normal failover destiantion when the call exits "
+"the queue with QUEUESTATUS: FULL."
+msgstr ""
+
+msgid ""
+"Optional destination to the normal failover destiantion when the call exits "
+"the queue with QUEUESTATUS: JOINEMPTY."
+msgstr ""
+
+msgid ""
+"Optional destination to the normal failover destiantion when the call exits "
+"the queue with QUEUESTATUS: JOINUNAVAIL."
+msgstr ""
+
+msgid ""
+"Optional destination to the normal failover destiantion when the call exits "
+"the queue with QUEUESTATUS: LEAVEEMPTY."
+msgstr ""
+
+msgid ""
+"Optional destination to the normal failover destiantion when the call exits "
+"the queue with QUEUESTATUS: LEAVEUNAVAIL."
+msgstr ""
+
+msgid "Pause Code"
+msgstr ""
+
+msgid "Pause Code.Please enter a number for pause code."
+msgstr ""
+
+msgid "Pause code"
+msgstr ""
+
+msgid "Pause code already used by feature code"
+msgstr ""
+
+msgid "Pending Callbacks"
+msgstr ""
+
+msgid "Please enter a valid Initial Max Penalty."
+msgstr ""
+
+msgid "Please enter a valid Initial Min Penalty."
+msgstr ""
+
+msgid "Please enter a valid Initial Raise Penalty."
+msgstr ""
+
+msgid "Please enter a valid Name"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Prompt to play to caller after confirming callback number/name."
+msgstr ""
+
+msgid "Prompt to play to caller to accept the call."
+msgstr ""
+
+msgid ""
+"Prompt to play to caller when calling the destination number.  Number (or "
+"name) will be played back after this prompt."
+msgstr ""
+
+msgid "Prompt to play to caller when requesting callback number."
+msgstr ""
+
+msgid ""
+"Prompt to play to the caller requesting them to record a callback message "
+"(Allow Caller to record callback message needs to be enabled)"
+msgstr ""
+
+msgid "Provide a descriptive name for this queue callback."
+msgstr ""
+
+msgid "Provide a descriptive name for this rule set."
+msgstr ""
+
+msgid "Provide a descriptive name for this virtual queue."
+msgstr ""
+
+msgid "Queue"
+msgstr ""
+
+#, php-format
+msgid "Queue %s : %s"
+msgstr ""
+
+msgid "Queue Callback"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback (%s) : %s"
+msgstr ""
+
+msgid "Queue Callback Daemon"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback Event Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback Event Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "Queue Callback Event Server is not running"
+msgstr ""
+
+msgid "Queue Callback Name require a valid name"
+msgstr ""
+
+msgid "Queue Callback Report"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "Queue Callback Server is not running"
+msgstr ""
+
+#, php-format
+msgid "Queue Callback Server is running on PID %s for %s"
+msgstr ""
+
+msgid "Queue Callback daemon stopped"
+msgstr ""
+
+msgid "Queue Callback daemon was not running"
+msgstr ""
+
+msgid "Queue Callback name already exist"
+msgstr ""
+
+msgid "Queue Callback service is not running"
+msgstr ""
+
+msgid ""
+"Queue Callback service is not running because dependable Pm2 is not "
+"installed/enabled"
+msgstr ""
+
+msgid "Queue Default Fail Over Destination"
+msgstr ""
+
+msgid "Queue Entry time"
+msgstr ""
+
+msgid "Queue Fail Over on FULL Destination"
+msgstr ""
+
+msgid "Queue Fail Over on JOINEMPTY Destination"
+msgstr ""
+
+msgid "Queue Fail Over on JOINUNAVAIL Destination"
+msgstr ""
+
+msgid "Queue Fail Over on LEAVEEMPTY Destination"
+msgstr ""
+
+msgid "Queue Fail Over on LEAVEUNAVAIL Destination"
+msgstr ""
+
+msgid "Queue Pause Codes"
+msgstr ""
+
+msgid "Queue Penalty Rules"
+msgstr ""
+
+msgid "Queue Plus Options"
+msgstr ""
+
+msgid "Queue Position"
+msgstr ""
+
+msgid "Queue Priority"
+msgstr ""
+
+msgid ""
+"Queue Priority to use for this virtual queue, a normal queue has 0 priority "
+"and larger numbers have higher priority."
+msgstr ""
+
+msgid "Queue Raise Penalty"
+msgstr ""
+
+msgid "Queue Rule Name require a valid name"
+msgstr ""
+
+msgid "Queue Rule name already exist"
+msgstr ""
+
+msgid "Queue Rules Table"
+msgstr ""
+
+msgid "Queue pause code already exist"
+msgstr ""
+
+msgid ""
+"Queue penalty rules, part of the generated queuerules.conf, allow the "
+"QUEUE_MIN_PENALTY and QUEUE_MAX_PENALTY to change as a caller ages in a "
+"queue. Make sure to set the Initial min and max penalties above when using "
+"rules."
+msgstr ""
+
+msgid ""
+"Queue penalty rules, part of the generated queuerules.conf, allow the "
+"QUEUE_MIN_PENALTY. and QUEUE_MAX_PENALTY to change as a caller ages in a "
+"queue. Make sure to set the Initial min and max penalties above when using "
+"rules."
+msgstr ""
+
+msgid "Queue to place caller into after calling back."
+msgstr ""
+
+msgid "Queues Pro"
+msgstr ""
+
+msgid "Queues Pro is not licensed."
+msgstr ""
+
+msgid "Reason"
+msgstr "理由"
+
+msgid ""
+"Recording to play to caller periodically while in the queue.  This should be "
+"a single prompt file, as queues cannot play aggregate recordings.  This will "
+"only be used if Queue Callback used directly by the queue, without an IVR as "
+"an intermediary."
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Retries"
+msgstr "リトライ数"
+
+msgid "Retry Delay"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "Run a monitoring check"
+msgstr ""
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Start Time (24 hour format)"
+msgstr ""
+
+#, php-format
+msgid "Started Queue Callback Event Server. PID is %s"
+msgstr ""
+
+#, php-format
+msgid "Started Queue Callback Server. PID is %s"
+msgstr ""
+
+msgid "Starting Queue Callback Event Server..."
+msgstr ""
+
+msgid "Starting Queue Callback Server..."
+msgstr ""
+
+msgid "Starting new Queue Callback Processes..."
+msgstr ""
+
+msgid "Stopped Qcallback monitor"
+msgstr ""
+
+msgid "Stopped Queue Callback Event Server"
+msgstr ""
+
+msgid "Stopped Queue Callback Server"
+msgstr ""
+
+msgid "Stopping Queue Callback Event Server"
+msgstr ""
+
+msgid "Stopping Queue Callback Server"
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Successful Callbacks"
+msgstr ""
+
+msgid "Table help"
+msgstr ""
+
+msgid "Target Queue Destinations"
+msgstr ""
+
+msgid ""
+"Temporarily ignore an agent who has previously not picked up the active call "
+"(this is done on a per call basis)."
+msgstr ""
+
+msgid ""
+"The maximum penalty an agent must have to be included in this queue. This "
+"penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"The maximum penalty an agent must have to be included in this virtual queue. "
+"This penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"The minimum penalty an agent must have to be included in this queue. This "
+"penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"The minimum penalty an agent must have to be included in this virtual queue. "
+"This penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"The raise penalty an agent must have to be included in this queue. This "
+"penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"The raise penalty an agent must have to be included in this virtual queue. "
+"This penalty can change dynamically if a queue rule is also applied."
+msgstr ""
+
+msgid ""
+"This message will be played back to the caller when they are called back."
+msgstr ""
+
+msgid ""
+"This will Check the Callback timings before dialing the Queue callbacks. If "
+"you are not receving country code along with incoming number, DO NOT USE "
+"this feature."
+msgstr ""
+
+msgid ""
+"This will Force the callback to use same callerid. (Note: Enabling this will "
+"NOT ask for an alternative number to callback.)"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+msgid "Trace a callback call `optional param --uniqueid=XXXX`"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown monitoring check. Available checks are:"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "Use Fail Over Destination"
+msgstr ""
+
+msgid "Used for inbound number parsing, Default Country is 'US'"
+msgstr ""
+
+msgid "VQPlus functions"
+msgstr ""
+
+#, php-format
+msgid "Virtual Queue (%s) : %s"
+msgstr ""
+
+#, php-format
+msgid "Virtual Queue (%s): %s"
+msgstr ""
+
+#, php-format
+msgid "Virtual Queue: %s"
+msgstr ""
+
+msgid "Virtual Queues"
+msgstr ""
+
+msgid "Waiting for dependencies to download and install .."
+msgstr ""
+
+msgid ""
+"When set queue will attempt to insert this caller into the designated "
+"positon within the queue"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "[+-]NN See Tooltip Above"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+#, php-format
+msgid "dropping table %s if needed"
+msgstr ""
+
+msgid "field is required."
+msgstr ""
+
+msgid "inherit"
+msgstr ""
+
+msgid "list Callbacks `optional param --queue=XXXX`"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "unchanged"
+msgstr ""
+
+msgid "unlimited"
+msgstr "無制限"
+
+#~ msgid "already exists"
+#~ msgstr "すでに存在します"
+
+#~ msgid "Admin"
+#~ msgstr "アドミン"
+
+#~ msgid "Running"
+#~ msgstr "実行中"

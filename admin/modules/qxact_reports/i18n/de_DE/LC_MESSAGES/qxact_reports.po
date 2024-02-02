@@ -1,0 +1,542 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for qxact_reports
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-16 05:35+0000\n"
+"PO-Revision-Date: 2020-02-25 21:04+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/qxact_reports/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%s Legacy Restore : Restoring only Templates "
+msgstr ""
+
+msgid ""
+"(Formerly QXact Reports) COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO "
+"FUNCTION. If you use ACD/Queues you need Queue Reports to help you make\tthe "
+"most of your time! Queue Reports is an advanced reporting module that lets "
+"administrators keep an eye on every aspect of there queues. With Queue "
+"Reports you are given insight into each\tand every one of your queues. Queue "
+"Reports gives you full control over what data is displayed for each type of "
+"report and allows you to build custom templates for quick reporting.\tEach "
+"report type such as "
+msgstr ""
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add Scheduler"
+msgstr ""
+
+msgid "Add Template"
+msgstr "Vorlage hinzufügen"
+
+msgid "Agent Availability Detail"
+msgstr "Details zur Agentenverfügbarkeit"
+
+msgid "Agent Missed Calls Detail"
+msgstr "Detail für verpasste Anrufe des Agenten"
+
+msgid "Agents"
+msgstr "Agenten"
+
+msgid "All Call Distribution by Day"
+msgstr "Alle Anrufverteilung nach Tag"
+
+msgid "All Call Distribution by Day of Week"
+msgstr "Alle Anrufverteilung nach Wochentag"
+
+msgid "All Call Distribution by Hour"
+msgstr "Alle Anrufverteilung nach Stunde"
+
+msgid "All Call Distribution by Queue"
+msgstr "Alle Anrufverteilung nach Warteschlange"
+
+msgid "All Service Level"
+msgstr "Alle Service Level"
+
+msgid ""
+"Amount of days to retain data. Setting this above 90 could cause performance "
+"issues."
+msgstr ""
+"Anzahl der Tage, in denen Daten aufbewahrt werden sollen. Wenn Sie diesen "
+"Wert auf über 90 einstellen, können Leistungsprobleme auftreten."
+
+msgid ""
+"Amount of days to retain queue log data. Setting this to 0 will not delete "
+"any queuelogs"
+msgstr ""
+
+#, php-format
+msgid "An error occurred: %s"
+msgstr ""
+
+msgid "Ans. Call Distribution by Agent"
+msgstr "Anrufverteilung (beantwortet) durch Agent"
+
+msgid "Ans. Call Distribution by Queue"
+msgstr "Anrufverteilung (beantwortet) nach Warteschlange"
+
+msgid "Answered Call Detail"
+msgstr "Anrufdetail (beantwortet)"
+
+msgid "Answered Service Level"
+msgstr "Beantworteter Service Level"
+
+msgid "Call Detail List"
+msgstr "Liste der Anrufdetails"
+
+msgid "Call Disconnection Cause"
+msgstr ""
+
+msgid "Call duration type"
+msgstr ""
+
+msgid "Chose a date range for the report."
+msgstr "Wählen Sie einen Datumsbereich für den Bericht."
+
+msgid "Columns:"
+msgstr ""
+
+msgid "Create Scheduled Report"
+msgstr ""
+
+msgid "Custom - ACD by Day"
+msgstr ""
+
+msgid "Custom - ACD by Queue"
+msgstr ""
+
+msgid "Data Retention"
+msgstr "Vorratsdatenspeicherung"
+
+msgid "Date Range"
+msgstr "Datumsbereich"
+
+msgid "Date/Time minus (x)"
+msgstr ""
+
+msgid "Day of the month"
+msgstr ""
+
+msgid "Day to Run Report"
+msgstr ""
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delivery Email"
+msgstr ""
+
+msgid "Dont execute any SQL statements"
+msgstr "Führen Sie keine SQL-Anweisungen aus"
+
+msgid "Download CSV"
+msgstr ""
+
+msgid "Duration Format. E.g: 1 minutes 38 seconds"
+msgstr ""
+
+msgid "Duration Format. E.g: 98 seconds"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Enter an email where the report will be sent."
+msgstr ""
+
+msgid "Enter scheduled report ID"
+msgstr ""
+
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+msgid ""
+"Files to import separate by comma, must have --sync option along with --"
+"import"
+msgstr ""
+
+msgid ""
+"Files to reimport separate by comma, must have --sync option along with --"
+"reimport"
+msgstr ""
+
+msgid "Force Type: database or file"
+msgstr "Force-Typ: Datenbank oder Datei"
+
+msgid "From the Date"
+msgstr ""
+
+msgid "From the beginning of the"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Get Q-Xact Report"
+msgstr ""
+
+msgid "H:m:s"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+#, php-format
+msgid "Importing table '%s' from legacy %s"
+msgstr ""
+
+msgid "List Scheduler"
+msgstr ""
+
+msgid "List Template"
+msgstr ""
+
+msgid "Minutes Seconds"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name can not be blank!"
+msgstr ""
+
+msgid "Not all required fields were provided"
+msgstr ""
+
+msgid "Note :"
+msgstr ""
+
+msgid ""
+"Note: The \"Combined\" options below are for cascading queues and only apply "
+"if you have cascading queues\n"
+"        configured (for example, a primary queue where callers go first that "
+"then times out to another queue).  Selecting\n"
+"        this option for a report unnecessarily will only cause the report to "
+"take longer to process but will not change\n"
+"        the output data."
+msgstr ""
+
+msgid "Occurance Type"
+msgstr ""
+
+msgid "Only run on the following days"
+msgstr ""
+
+msgid "Please Enter Week(s) for Weekly Occurence Type."
+msgstr ""
+
+msgid "Please Enter no of hours to run in Hourly Occurence Type."
+msgstr ""
+
+msgid "Please Enter number in Daily Occurence Type."
+msgstr ""
+
+msgid "Please Select multiple days from Daily Occurence Type."
+msgstr ""
+
+msgid "Please Select the month's from Monthly Occurence Type."
+msgstr ""
+
+msgid "Please choose report generation frequency."
+msgstr ""
+
+msgid "Please enter your Email Id!"
+msgstr ""
+
+msgid "Please select Date/Time minus(x)"
+msgstr ""
+
+msgid "Please select From the Date"
+msgstr ""
+
+msgid "Please select Occurence Type."
+msgstr ""
+
+msgid "Please select the Agents"
+msgstr ""
+
+msgid "Please select the Queues"
+msgstr ""
+
+msgid "Please select the Template"
+msgstr ""
+
+msgid ""
+"Please use Download CSV in case of large data and wait for sometime untill "
+"CSV is downloaded."
+msgstr ""
+
+msgid "Provide a descriptive name for this template"
+msgstr "Geben Sie einen beschreibenden Namen für diese Vorlage an"
+
+msgid "QXact Report Templates"
+msgstr ""
+
+msgid "QXact Report listing and scheduling"
+msgstr ""
+
+msgid "QXact Reports"
+msgstr ""
+
+msgid "QXact Reports Scheduler"
+msgstr ""
+
+msgid "Queue Report Scheduler "
+msgstr ""
+
+msgid "Queue Report Templates"
+msgstr "Vorlagen für Warteschlangenberichte"
+
+msgid "Queue Reports"
+msgstr "Warteschlangenberichte"
+
+msgid "Queue log Data Retention"
+msgstr ""
+
+msgid "Queues"
+msgstr "Warteschlangen"
+
+#, php-format
+msgid "Qxact Scheduled Report \"%s\" from your %s Phone System "
+msgstr ""
+
+msgid "Remove Table"
+msgstr "Tabelle entfernen"
+
+msgid "Report Name"
+msgstr ""
+
+msgid "Report Name "
+msgstr ""
+
+msgid "Report Name , will be used as subject in the email."
+msgstr ""
+
+msgid "Report Summary"
+msgstr "Berichtszusammenfassung"
+
+msgid "Report Template"
+msgstr ""
+
+msgid "Report Type:"
+msgstr "Berichtstyp:"
+
+msgid "Reports"
+msgstr "Berichte"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Run Forever, No End Date"
+msgstr ""
+
+msgid "Run all day"
+msgstr ""
+
+msgid "Run every x day(s) of the month "
+msgstr ""
+
+msgid "Run every x hour(s)"
+msgstr ""
+
+msgid "Run every x week(s)"
+msgstr ""
+
+msgid "Run on a conditional day"
+msgstr ""
+
+msgid "Run on a daily interval"
+msgstr ""
+
+msgid "Run on specific date of each selected month"
+msgstr ""
+
+msgid "Run on the selected months"
+msgstr ""
+
+msgid "Schedule Information"
+msgstr ""
+
+msgid "Schedule Report Occurrence"
+msgstr ""
+
+msgid "Schedule Time Frame"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Select Agents"
+msgstr "Wählen Sie Agenten"
+
+msgid "Select Agents for this report"
+msgstr "Wählen Sie Agenten für diesen Bericht aus"
+
+msgid "Select Queues"
+msgstr "Wählen Sie Warteschlangen"
+
+msgid "Select a Template"
+msgstr "Wählen Sie eine Vorlage aus"
+
+msgid "Select a qxact report template to use."
+msgstr ""
+
+msgid "Select a temlate to use."
+msgstr "Wählen Sie eine Vorlage aus."
+
+msgid "Select queues for this report"
+msgstr "Wählen Sie Warteschlangen für diesen Bericht aus"
+
+msgid "Select the End Date."
+msgstr ""
+
+msgid "Select the date from options for report"
+msgstr ""
+
+msgid "Select the date range for the report"
+msgstr ""
+
+msgid ""
+"Some lines were skipped because they were earlier than the last recorded "
+"date. If you wish to import these please use --reimport instead of --import"
+msgstr ""
+"Einige Zeilen wurden übersprungen, weil sie vor dem letzten Aufnahmedatum "
+"lagen. Wenn Sie diese importieren möchten, verwenden Sie bitte --reimport "
+"anstelle von --import"
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Start Date for Each Scheduled Report"
+msgstr ""
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Syncronize"
+msgstr "Synchronisieren"
+
+#, php-format
+msgid "Table %s"
+msgstr ""
+
+#, php-format
+msgid "Table '%s' does not exist in legacy %s, skipping"
+msgstr ""
+
+#, php-format
+msgid "Table '%s' is empty from legacy %s, skipping"
+msgstr ""
+
+msgid "Template"
+msgstr "Template"
+
+msgid "Template Name"
+msgstr "Vorlagenname"
+
+msgid "Title:"
+msgstr ""
+
+msgid "Unans. Call Distribution by Queue"
+msgstr ""
+
+msgid "Unanswered Call Detail"
+msgstr ""
+
+msgid "Unanswered Service Level"
+msgstr ""
+
+msgid ""
+"When set to Yes, it will enabled the End Date. If No, it will disabled the "
+"End Date"
+msgstr ""
+
+msgid "timetype"
+msgstr ""
+
+msgid "until"
+msgstr "bis"
+
+#~ msgid "Totals:"
+#~ msgstr "Gesamt:"
+
+#~ msgid "Files to import separate by comma"
+#~ msgstr "Dateien, die getrennt durch Komma importiert werden sollen"
+
+#~ msgid "Files to reimport separate by comma"
+#~ msgstr "Dateien, die durch Komma getrennt wieder importiert werden sollen"
+
+#~ msgid ""
+#~ "<p>Note: The \"Combined\" options below are for cascading queues and only "
+#~ "apply if you have cascading queues\n"
+#~ "  configured (for example, a primary queue where callers go first that "
+#~ "then times out to another queue).  Selecting\n"
+#~ "  this option for a report unnecessarily will only cause the report to "
+#~ "take longer to process but will not change\n"
+#~ "  the output data.</p>"
+#~ msgstr ""
+#~ "<p> Hinweis: Die folgenden \"Kombinierten\" Optionen gelten für "
+#~ "kaskadierende Warteschlangen und gelten nur, wenn Sie kaskadierende "
+#~ "Warteschlangen konfiguriert haben (z. B. eine primäre Warteschlange, in "
+#~ "der Anrufer zuerst anrufen und dann in eine andere Warteschlange "
+#~ "wechseln). Wenn Sie diese Option für einen Bericht unnötigerweise "
+#~ "auswählen, dauert die Verarbeitung des Berichts länger, die Ausgabedaten "
+#~ "werden jedoch nicht geändert. </p>"
+
+#~ msgid "Columns: "
+#~ msgstr "Spalten: "
+
+#~ msgid "Table"
+#~ msgstr "Tabelle"
+
+#~ msgid "Title: "
+#~ msgstr "Titel: "
+
+#~ msgid ""
+#~ "(Formerly QXact Reports) COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO "
+#~ "FUNCTION.  Please visit www.schmoozecom.com/oss.php. If you use ACD/"
+#~ "Queues you need Queue Reports to help you make\tthe most of your time! "
+#~ "Queue Reports is an advanced reporting module that lets administrators "
+#~ "keep an eye on every aspect of there queues. With Queue Reports you are "
+#~ "given insight into each\tand every one of your queues. Queue Reports "
+#~ "gives you full control over what data is displayed for each type of "
+#~ "report and allows you to build custom templates for quick reporting."
+#~ "\tEach report type such as "
+#~ msgstr ""
+#~ "(Früher QXact Reports) COMMERCIAL MODULE ERFORDERN EINE LIZENZ FÜR IHRE "
+#~ "FUNKTION. Bitte besuchen Sie www.schmoozecom.com/oss.php. Wenn Sie ACD / "
+#~ "Queues verwenden, benötigen Sie Queue Reports, damit Sie Ihre Zeit "
+#~ "optimal nutzen können! Warteschlangenberichte sind ein erweitertes "
+#~ "Berichtsmodul, mit dem Administratoren jeden Aspekt der Warteschlangen im "
+#~ "Auge behalten können. Mit Warteschlangenberichten erhalten Sie Einblick "
+#~ "in jede einzelne Ihrer Warteschlangen. Mit Warteschlangenberichten haben "
+#~ "Sie die volle Kontrolle darüber, welche Daten für die einzelnen "
+#~ "Berichtstypen angezeigt werden, und können benutzerdefinierte Vorlagen "
+#~ "für schnelle Berichte erstellen. Jeder Berichtstyp wie "
+
+#~ msgid "Export as:"
+#~ msgstr "Exportieren als:"
+
+#~ msgid ""
+#~ "ERROR: An instance of this script is already running on this system.\n"
+#~ msgstr ""
+#~ "FEHLER: Eine Instanz dieses Skripts läuft bereits auf diesem System.\n"

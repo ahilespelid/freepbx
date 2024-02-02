@@ -1,0 +1,227 @@
+<module>
+	<rawname>contactmanager</rawname>
+	<repo>standard</repo>
+	<name>Contact Manager</name>
+	<version>15.0.12</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<changelog>
+		*15.0.12* FREEPBX-24364 
+		*15.0.11* FREEI-5803 
+		*15.0.10*  FREEI-5625 
+		*15.0.9.13* FREEI-5515 
+		*15.0.9.12* FREEI-5019 
+		*15.0.9.11* FREEI-1261 
+		*15.0.9.10* Packaging of ver 15.0.9.10
+		*15.0.9.9* Packaging of ver 15.0.9.9
+		*15.0.9.8* Packaging of ver 15.0.9.8
+		*15.0.9.7* Fixing FREEPBX-23533-not display the User Manager Group records 
+		*15.0.9.6* FREEI-4657 
+		*15.0.9.5* Packaging of ver 15.0.9.5
+		*15.0.9.4* FREEI-616 Contact manager does not ask for confirmation before deleting 
+		*15.0.9.3* SCD-227 fixed favorite contacts resize issue in contacts widget in UCP 
+		*15.0.9.2* SCD-227 
+		*15.0.9.1* FREEPBX-23229  and FREEI-4572
+ 		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8.58* Packaging of ver 15.0.8.58
+		*15.0.8.57* Packaging of ver 15.0.8.57
+		*15.0.8.56* Packaging of ver 15.0.8.56
+		*15.0.8.55* SCD-186 favorite contact changes 
+		*15.0.8.54* SCD-104 Add fav contacts 
+		*15.0.8.53* FREEI-4498 fixed the issue of unable to remove a selected contact from contact manager 
+		*15.0.8.52* Packaging of ver 15.0.8.52
+		*15.0.8.51* FREEPBX-23205 
+		*15.0.8.50* FREEPBX-23203: Trying to access array offset on value of type bool 
+		*15.0.8.49* FREEI-4342 Moved update contact hook function inside foreach loop because the scope of the group variable is inside loop 
+		*15.0.8.48* SCD-119 Recent changes for updating contacts is crashing the mysql with "Too many mysql connections" error in larger system while updating the userman group. 
+		*15.0.8.47* Packaging of ver 15.0.8.47
+		*15.0.8.46* SCD-116 corrected server_uuid value in scd contact file 
+		*15.0.8.45* SCD-97 when a group with multiple contacts is deleted, multiple reload event is triggered 
+		*15.0.8.44* SCD-97 modified code to regenerate SCD contact file upon contact update 
+		*15.0.8.43* SCD-101 
+		*15.0.8.42*  
+		*15.0.8.41* SCD-74 removed all other protocol configurations from contact file url except for https 
+		*15.0.8.40* SCD-31 change fetching internal IP, show display name as first name if both first and last name are empty 
+		*15.0.8.39* SCD-31 changed the contents of the contact file generated 
+		*15.0.8.38* SCD-20 added validation for case in which key 'PRIVATE_CONTACTS_UPDATED' is not set 
+		*15.0.8.37* SCD-3 added method to generate user contact file and return the access URL 
+		*15.0.8.36* FREEI-3834 restore issue 
+		*15.0.8.35* FREEI-3745 Can we remove the 'template creator' user from contacts 
+		*15.0.8.34* bugfix/FREEPBX-22581-restore-fails-when-no-values-in-contact-manager 
+		*15.0.8.33* FREEI-3238 Contact manager not restoring internal contacts 
+		*15.0.8.32* Packaging of ver 15.0.8.32
+		*15.0.8.31* FREEI-2676-bulk-delete-feature-contactmanager 
+		*15.0.8.30* Packaging of ver 15.0.8.30
+		*15.0.8.29* FREEPBX-21227 Remove Contact Mgr Speeddial as destination 
+		*15.0.8.28* Fixing FREEI-2470 and FREEI-2374
+		*15.0.8.27* Packaging of ver 15.0.8.27
+		*15.0.8.26* Packaging of ver 15.0.8.26
+		*15.0.8.25* Packaging of ver 15.0.8.25
+		*15.0.8.24* Packaging of ver 15.0.8.24
+		*15.0.8.23* FREEI-736 Undefined variable in contactmanager 
+		*15.0.8.22* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.8.21* FREEPBX-20437 XSS vulnerability in contactmanager module 
+		*15.0.8.20* FREEPBX-20206 fix for PHP7.3, FREEPBX-20215
+		*15.0.8.19* bump 
+		*15.0.8.17* FREEPBX-19917 Adding, Editing or deleting the Contact Image to the private contact from UCP is not working. 
+		*15.0.8.16* Bump
+		*15.0.8.15* Fixing FREEI-605 adding replaceExisting bulk handler logic while importing contacts 
+		*15.0.8.14* FREEI-544 Getting below error when we double click contact in UCP 
+		*15.0.8.13* FREEI-545 User speeddial option missing on UCP 
+		*15.0.8.12* FREEI-511 contactmanager not installing issue fix 
+		*15.0.8.11* FREEI-498 Contact manager module doesn't display all groups 
+		*15.0.8.10* Use lazy loading console commands
+		*15.0.8.9* fixing FREEI-439 bulk import of contacts strips intl and defaults to USA numbers
+		*15.0.8.8* Bump
+		*15.0.8.7* FREEPBX-19580
+		*15.0.8.6* Add feature codes to backup
+		*15.0.8.5* fixing legacy restore
+		*15.0.8.4* fixing legacy restore
+		*15.0.8.3* fixing legacy restore
+		*15.0.8.2* FREEPBX-18912 Unable to remove the XMPP, Email and Website details under contact manager once the details is filled and submitted
+		*15.0.8.1* FREEPBX-18963
+		*15.0.8* Support hooks for contact images
+		*15.0.7* Fixing FREEPBX-18843 Bulkhandler contact import fields issue
+		*15.0.6* FREEPBX-18427 Speed dials for external contacts disappear when contact manager is updated
+		*15.0.5* FREEPBX-17601
+		*15.0.4* Rest Api
+		*15.0.3* Packaging of ver 15.0.3
+		*15.0.2* FREEPBX-17663 Import contacts not showing in contact manager
+		*15.0.1* Impliment 15 backup
+	</changelog>
+	<category>Admin</category>
+	<description>
+		The Contact Manager module lets you add contacts to groups.
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Contact+Manager+Module</more-info>
+	<menuitems>
+		<contactmanager needsenginedb="yes">Contact Manager</contactmanager>
+	</menuitems>
+	<depends>
+		<version>15.0.6.18</version>
+		<module>userman ge 13.0.70</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Contactmanager" namespace="FreePBX\modules">bulkhandlerGetHeaders</method>
+			<method callingMethod="getTypes" class="Contactmanager" namespace="FreePBX\modules">bulkhandlerGetTypes</method>
+			<method callingMethod="import" class="Contactmanager" namespace="FreePBX\modules">bulkhandlerImport</method>
+			<method callingMethod="export" class="Contactmanager" namespace="FreePBX\modules">bulkhandlerExport</method>
+		</bulkhandler>
+	<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Contactmanager" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Contactmanager" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Contactmanager" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="delUser" class="Contactmanager" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Contactmanager" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Contactmanager" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method callingMethod="myShowPage" class="Contactmanager" namespace="FreePBX\modules">usermanShowPage</method>
+			<method callingMethod="getExtraUserDetailsDisplay" class="Contactmanager" namespace="FreePBX\modules">usermanUserDetails</method>
+			<method callingMethod="getExtraContactInfo" class="Contactmanager" namespace="FreePBX\modules">usermanAddContactInfo</method>
+		</userman>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Contactmanager" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Contactmanager" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Contactmanager" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Contactmanager" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Contactmanager" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Contactmanager" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Contactmanager" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+	</hooks>
+	<database>
+		<table name="contactmanager_groups">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="owner" type="integer"/>
+			<field name="name" type="string" length="80"/>
+			<field name="type" type="string" length="25"/>
+		</table>
+		<table name="contactmanager_group_entries">
+            <field name="id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="groupid" type="integer"/>
+            <field name="user" type="integer"/>
+            <field name="displayname" type="string" length="100" default=""/>
+            <field name="fname" type="string" length="100" default=""/>
+            <field name="lname" type="string" length="100" default=""/>
+            <field name="title" type="string" length="100" default=""/>
+            <field name="company" type="string" length="100" default=""/>
+            <field name="address" type="string" length="200" default=""/>
+            <field name="uuid" type="string" length="36" notnull="false"/>
+            <key name="uuid_index" type="unique">
+            <column name="uuid"/>
+            </key>
+	    </table>
+		<table name="contactmanager_entry_speeddials">
+			<field name="id" type="string" length="5" primaryKey="true"/>
+			<field name="entryid" type="integer"/>
+			<field name="numberid" type="integer"/>
+			<key name="index2" type="index">
+				<column name="numberid"/>
+			</key>
+		</table>
+		<table name="contactmanager_entry_numbers">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+            <field name="entryid" type="integer"/>
+            <field name="number" type="string" length="100" notnull="false"/>
+            <field name="extension" type="string" length="100" notnull="false"/>
+            <field name="countrycode" type="string" length="4" notnull="false"/>
+            <field name="nationalnumber" type="string" length="100" notnull="false"/>
+            <field name="regioncode" type="string" length="2" notnull="false"/>
+			<field name="locale" type="string" length="2" notnull="false"/>
+			<field name="stripped" type="string" length="100" notnull="false"/>
+    	    <field name="type" type="string" length="100" notnull="false"/>
+	        <field name="flags" type="string" length="100" notnull="false"/>
+	        <field name="E164" type="string" length="100" notnull="false"/>
+			<field name="possibleshort" type="boolean" notnull="false"/>
+
+			<key name="index" type="index">
+				<column name="entryid"/>
+			</key>
+		</table>
+		<table name="contactmanager_entry_images">
+			<field name="entryid" type="integer" primaryKey="true"/>
+			<field name="image" type="blob" notnull="false"/>
+			<field name="format" type="string" length="45"/>
+			<field name="gravatar" type="boolean" default="0"/>
+		</table>
+		<table name="contactmanager_entry_userman_images">
+			<field name="uid" type="integer" primaryKey="true"/>
+			<field name="image" type="blob" notnull="false"/>
+			<field name="format" type="string" length="45"/>
+			<field name="gravatar" type="boolean" default="0"/>
+		</table>
+		<table name="contactmanager_entry_xmpps">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="entryid" type="integer"/>
+			<field name="xmpp" type="string" length="100" notnull="false"/>
+		</table>
+		<table name="contactmanager_entry_emails">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="entryid" type="integer"/>
+			<field name="email" type="string" length="100" notnull="false"/>
+		</table>
+		<table name="contactmanager_entry_websites">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="entryid" type="integer"/>
+			<field name="website" type="string" length="100" notnull="false"/>
+		</table>
+		<table name="contactmanager_general_favorites">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="list_name" type="string" length="100" notnull="true"/>
+			<field name="contact_ids" type="blob"/>
+		</table>
+		<table name="contactmanager_user_favorites">
+			<field name="uid" type="integer"/>
+			<field name="contact_ids" type="blob"/>
+		</table>
+	</database>
+	<console>
+		<command>
+			<name>contactmanager</name>
+		</command>
+	</console>
+</module>

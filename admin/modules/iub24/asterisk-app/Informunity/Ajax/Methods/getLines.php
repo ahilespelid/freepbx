@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Lines; class getLines implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\165\x74\150\145\156\164\151\x63\141\x74\x65" => true, "\141\154\x6c\157\167\x72\145\155\x6f\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return Lines::load()->getLines($config, isset($data["\x69\164\145\155\163"]) && $data["\x69\x74\x65\x6d\x73"]); } }

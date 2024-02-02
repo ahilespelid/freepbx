@@ -1,0 +1,229 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for webcallback
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:57+0000\n"
+"PO-Revision-Date: 2017-11-18 01:33+0200\n"
+"Last-Translator: Eduardo <eabad@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/"
+"webcallback/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid " already used, please use a different Name."
+msgstr ""
+
+msgid "A name to describe this Webcallback."
+msgstr "Un nombre para describir esta devolución de llamada WEB."
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Add Web Callback"
+msgstr "Agregar Web Callback"
+
+msgid "CID Prepend"
+msgstr "Anteponer CID"
+
+msgid "CID Prepend:"
+msgstr "Anteponer CID:"
+
+msgid "Callback Name"
+msgstr "Nombre Callback"
+
+msgid "Caller will be connected to this destination when they are called"
+msgstr "El llamante puede ser conectado a este destino cuando es llamado"
+
+msgid "Cid Prepend"
+msgstr "Anteponer Cid"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Destination"
+msgstr "Destino"
+
+msgid "Destination:"
+msgstr "Destino:"
+
+msgid "Dial Matches"
+msgstr "Coincide marcación"
+
+msgid "Dial Matches:"
+msgstr "Coincide marcación:"
+
+msgid "Digits to prepend to the destinatination number"
+msgstr "Anteponer dígitos al número de destino"
+
+#, php-format
+msgid ""
+"Enter number patterns the user can dial, one per line. For pattern "
+"information see %s"
+msgstr ""
+"Intoduzca patrones de números que el usuario puede marcar, uno por línea. "
+"Para información de patrones vea %s"
+
+msgid "Error Message"
+msgstr "Mensaje de error"
+
+msgid "Error Msg:"
+msgstr "Mensaje de error:"
+
+msgid "HTML Code"
+msgstr "Código HTML"
+
+msgid "HTML Code:"
+msgstr "Código HTML:"
+
+msgid "Icon"
+msgstr "Ícono"
+
+msgid "Icon:"
+msgstr "Ícono:"
+
+msgid "Invalid Message"
+msgstr "Mensaje inválido"
+
+msgid "Invalid Msg:"
+msgstr "Mensaje inválido:"
+
+msgid "List Web Callbacks"
+msgstr ""
+
+msgid "List Webcallbacks"
+msgstr "Lista Webcallbacks"
+
+msgid "Message to be show to caller when a invalid number has been entered"
+msgstr ""
+"Mensaje que se muestra a la persona que llama cuando un número no válido ha "
+"sido ingresado"
+
+msgid "Message to be show to caller when a valid number has been entered"
+msgstr ""
+"Mensaje que se muestra a la persona cuando un número es inválido ha sido "
+"ingresado"
+
+msgid "Message to be shown if something goes wrong"
+msgstr "Mensaje que se mostrará si algo va mal"
+
+msgid "Message to be shown to caller when a invalid number has been entered"
+msgstr ""
+"Mensaje que se mostrará cuando la persona que llama ingresa un número "
+"inválido"
+
+msgid "Message to be shown to caller when a valid number has been entered"
+msgstr ""
+"Mensaje que se mostrará cuando la persona que llama ingresa un número "
+"inválido"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Name:"
+msgstr "Nombre:"
+
+msgid "Num Prepend"
+msgstr "Anteponer número"
+
+msgid "Number Prepend"
+msgstr "Anteponer número"
+
+msgid "Number Prepend:"
+msgstr "Anteponer número:"
+
+msgid "Oops, something went wrong!"
+msgstr "Huy! Algo salió mal!"
+
+msgid "Pick from the following icons that will be shown on your website"
+msgstr "Elige uno de los siguientes iconos que se mostrarán en su página web"
+
+msgid "Please enter a valid Name."
+msgstr ""
+
+msgid "Please hold while we call you back."
+msgstr "Por favor espere mientras nosotros le llamamos."
+
+msgid "Please save this Web Callback to generate the HTML code."
+msgstr "Por favor guarde este Web Callback para generar el código HTML."
+
+msgid "Please save to see the generated code"
+msgstr "Por favor guarde la vista para generar el código"
+
+msgid "Please select an item in the list."
+msgstr ""
+
+msgid "Reset"
+msgstr "Reinicializar"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "That number is invalid as a callback number"
+msgstr "Ese número no es válido como  número para devolución de llamada"
+
+msgid "Use this code to add the current web callback to your website"
+msgstr ""
+"Utilice este código para agregar el actual web callback en su sitio web"
+
+msgid "Valid Message"
+msgstr "Mensaje válido"
+
+msgid "Valid Msg:"
+msgstr "Mensaje válido:"
+
+msgid "Web Callback"
+msgstr "WebCallback"
+
+msgid ""
+"You can optionally prefix the CallerID name. ie: If you prefix with \"Sales:"
+"\", a call from John Doe would display as \"Sales:John Doe\" on the "
+"extensions that ring."
+msgstr ""
+"Usted puede prefijar opcionalmente el nombre de identificación de llamadas. "
+"es decir: Si el prefijo con \"Ventas:\", una llamada de John Doe mostraría "
+"como \"Ventas: John Doe\" en las extensiones que suenan."
+
+msgid "enter numbers the user can dial, one per line"
+msgstr "Introduzca números que el usuario puede marcar, uno por línea"
+
+msgid "is required."
+msgstr ""
+
+#~ msgid "Applications"
+#~ msgstr "Apps"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php. The Web Call Me module allows you to easily "
+#~ "add an HTML call me box\tto your website. Visitors simply put their phone "
+#~ "number in to be connected with you, or a specific destination. The Web "
+#~ "Callback module allows you to specify a CID to be prepended\twhich alerts "
+#~ "you that the call is coming from a specific callback. You can also set "
+#~ "Dial Matches to specify which numbers users are allows to call. Once you "
+#~ "have set your\tdestination and saved changes you will be given HTML code "
+#~ "to paste into your website."
+#~ msgstr ""
+#~ "MÓDULO COMERCIAL requiere una licencia para su funcionamiento. Por favor, "
+#~ "visite www.schmoozecom.com/oss.php. El módulo Web Call Me  le permite "
+#~ "añadir fácilmente un archivo HTML call me box → para su sitio web. Los "
+#~ "visitantes simplemente ponen su número de teléfono para conectarse con "
+#~ "usted o un destino específico. El módulo Web Callback permite especificar "
+#~ "y  anteponer un CID → que le avisa que la llamada proviene y  específica "
+#~ "que se trata de un Callback. También puede establecer Dial Matches para "
+#~ "especificar qué números de usuarios son permitidos a llamar. Una vez que "
+#~ "haya establecido su destino → y guardado los cambios se le dará el código "
+#~ "HTML para pegar en su sitio web."
+
+#~ msgid "Add"
+#~ msgstr "Agregar"

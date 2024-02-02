@@ -1,0 +1,63 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for irc
+# Copyright (C) 2008-2018 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-26 01:22-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: irc.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: page.irc.php:11
+msgid "Bugs and Feature Request Commercial"
+msgstr ""
+
+#: page.irc.php:10
+msgid "Bugs and Feature Request Open Source"
+msgstr ""
+
+#: page.irc.php:7
+msgid "Community Forums"
+msgstr ""
+
+#: page.irc.php:8
+msgid "IRC Information"
+msgstr ""
+
+#: irc.i18n.php:4 /usr/src/freepbx/irc/irc.i18n.php:10
+msgid "Online Support"
+msgstr ""
+
+#: page.irc.php:2
+msgid "Online Support Resources"
+msgstr ""
+
+#: page.irc.php:13
+msgid "Product Training"
+msgstr ""
+
+#: page.irc.php:12
+msgid "Professional Support Services"
+msgstr ""
+
+#: irc.i18n.php:8
+msgid "This module provides online resources for help with your PBX"
+msgstr ""
+
+#: page.irc.php:9
+msgid "WIKI"
+msgstr ""

@@ -1,0 +1,29 @@
+#!/bin/bash
+cat <<- EOF > /etc/logrotate.d/queuestats
+/var/log/asterisk/queuestats_syncall.log  {
+	daily
+	missingok
+	notifempty
+	dateext
+	sharedscripts
+	dateformat -%d%m%Y
+	rotate 10
+	size 50M
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+}
+
+/var/log/asterisk/queuestats_purnedata.log  {
+	daily
+	missingok
+	notifempty
+	dateext
+	sharedscripts
+	dateformat -%d%m%Y
+	rotate 10
+	size 50M
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+}
+
+EOF

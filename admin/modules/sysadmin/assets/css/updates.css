@@ -1,0 +1,43 @@
+#cronsched{
+	position:relative;
+}
+.cronsched{
+	float:left;
+	height: 240px;
+	width: 75px;
+	overflow:auto;
+	padding: 0px 1em;
+}
+.cronsched_header{
+	float:left;
+	width: 75px;
+	padding: 0.5px 1em;
+}
+.crondays, .cronmonth{
+	width: 115px;
+}
+.update_status{
+	background-color: #d6ecf4;
+	border-radius: 10px;
+	padding: 10px;
+	width: 100%;
+	min-height: 15px;
+	height: 70px;
+}
+.update_text{
+	color: #2d5a6a;
+	float: left;
+	position: relative;
+	overflow-y: hidden;
+	max-height: 70px;
+	min-width: 106px;
+	font-family:"Courier New", Courier, monospace;
+	font-size: small;
+}
+
+.update_text_shadow {
+	background-image: -webkit-linear-gradient(#6b767a, #d6ecf4);
+	background-image: -moz-linear-gradient(#6b767a, #d6ecf4);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#6b767a, endColorstr=#d6ecf4);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#6b767a, endColorstr=#d6ecf4)";
+}

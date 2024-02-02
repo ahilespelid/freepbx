@@ -1,0 +1,16 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/vqplus/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/vqplus/node/package.json: 895db3200f900f0ed36761dac8991da9
+[npm-cache] [INFO] [npm] running [npm install]...
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 17 packages from 24 contributors and audited 17 packages in 5.374s
+found 0 vulnerabilities
+
+[npm-cache] [INFO] [npm] installed npm dependencies, now archiving
+[npm-cache] [INFO] [npm] archiving dependencies from /var/www/html/admin/modules/vqplus/node/node_modules
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/vqplus/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] installed and archived dependencies
+[npm-cache] [INFO] successfully installed all dependencies

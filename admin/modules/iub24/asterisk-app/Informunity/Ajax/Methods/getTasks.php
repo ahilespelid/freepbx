@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Tasks; class getTasks implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\x74\x68\145\x6e\x74\x69\x63\x61\x74\x65" => true, "\141\154\154\x6f\x77\x72\x65\155\157\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return Tasks::load()->getTasks(isset($data["\x69\164\x65\x6d\x73"]) && $data["\151\164\145\x6d\163"]); } }

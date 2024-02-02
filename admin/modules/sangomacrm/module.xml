@@ -1,0 +1,138 @@
+<module>
+	<rawname>sangomacrm</rawname>
+	<repo>commercial</repo>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Links your PBX to your CRM</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Customer+Relationship+Management</more-info>
+	<name>Customer Relationship Management Link</name>
+	<version>15.0.23.7</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#crm</link>
+	</commercial>
+	<category>Settings</category>
+	<menuitems>
+		<sangomacrm>CRM Settings</sangomacrm>
+		<sangomacrmrest>CRM API Settings</sangomacrmrest>
+	</menuitems>
+	<changelog>
+		*15.0.23.7* FREEI-4608 Added new fields in GUI to get crm version and displayed custom module zip file according to the given crm version (Only for SugarCRM) 
+		*15.0.23.6* FREEI-4292 CRM API Settings not Getting correct API port From SysAdmin module. 
+		*15.0.23.5* FREEI-4224 Added Sales force login url as the default url instead of empty string 
+		*15.0.23.4* FREEI-1285 Created Unique Workspaces for different users to store recordings which belongs to that user 
+		*15.0.23.3* FREEI-1285 Created new functions to store call recordings in content workspace (Public folder) 
+		*15.0.23.2* FREEI-4051 Added new field to salesforce settings form to get auth url. 
+		*15.0.23.1* FREEI-2990 
+		*15.0.23* FREEI-3344 Removing Zulu dependency from SangomaCRM module 
+		*15.0.22* FREEI-1945 Sangomacrm associates registries to the same account 
+		*15.0.21* FREEI-2423 call-start-time entry not proper 
+		*15.0.20* bugfix/FREEI-2423-call-start-time-entry-error 
+		*15.0.19* FREEI-1945 Sangomacrm associates registries to the same account 
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEI-2096 Zoho throwing invalid call_start_time error 
+		*15.0.16* Packaging of ver 15.0.16
+		*15.0.15* FREEI-1810 Remove pm2 logrotate
+		*15.0.14.46* FREEI-1577 Updates to licensing
+		*15.0.14.45* FREEI-1253 PersonMobilePhone not working with salesforce 
+		*15.0.14.44* FREEI-1516 Salesforce CRM is not un-assigning the user 
+		*15.0.14.43* FREEI-1307 Unable to change "Default User" option under Connectwise CRM. 
+		*15.0.14.42* FREEI-1254 Anonymous calls not working using salesforce 
+		*15.0.14.41* FREEI-1137 Issues with RestAPI 
+		*15.0.14.40* FREEI-1174 proper uninstall
+		*15.0.14.39* FREEI-1238 ZULU outbound call changed to inbound in second webhook request 
+		*15.0.14.38* FREEI-1034 
+		*15.0.14.37* FREEI-1024 restAPI: API Enabled option - disabling doesn't work 
+		*15.0.14.36* FREEI-1060 Add Sangoma CRM(ZOHO) module logging 
+		*15.0.14.35* FREEI-793:  fixed corrupted wav files that resulted from calls/recording/:uuid requests 
+		*15.0.14.34* FREEI-966 SangomaCRM duplicates records at Connectwise 
+		*15.0.14.33* FREEI-903 CRM Settings: SuiteCRM - install info link went to the wrong page 
+		*15.0.14.32* FREEI-811 user cache fix 
+		*15.0.14.31* FREEI-760: the zip we were including for suitecrm was no good. 
+		*15.0.14.30* FREEI-798 Code added for store the START type in REST API for inbound calls 
+		*15.0.14.29* FREEI-834 Add Sangoma CRM(REST API) module logging 
+		*15.0.14.28* Bugfix/FREEI-853 
+		*15.0.14.27* FREEI-870 Zoho CRM doesn't leave "none" to linked user option. 
+		*15.0.14.26* FREEI-874 Connectwise CRM doesn't leave "none" to linked user option. 
+		*15.0.14.25* FREEI-834 Add Sangoma CRM(REST API) module logging 
+		*15.0.14.24* FREEI-678 Sangoma CRM with Connectwise - old contacts not deleted from database 
+		*15.0.14.23* FREEI-676 Need Sangoma CRM to pull only active users from Connectwise CRM 
+		*15.0.14.22* Bugfix/FREEI-783 
+		*15.0.14.21* FREEI-748 Pull Zoho api url from server 
+		*15.0.14.20* Bugfix/FREEPBX-20503 update 
+		*15.0.14.19* FREEI-721 Wrong incoming call duration on the Zoho CRM 
+		*15.0.14.18* FREEI-721 Wrong incoming call duration on the Zoho CRM 
+		*15.0.14.17* FREEPBX-20333 Whoops\Exception\ErrorException Call to undefined method FreePBX\modules\Sangomacrm\Modules\Salesforce\Users::__getMore() 
+		*15.0.14.16* FREEPBX-20171 Changing the Sangoma CRM from one type to another gives warning saying "Changing CRM type might reset all of your settings.Is that okay?". But Changing CRM Type is not flushing the data from backend. 
+		*15.0.14.15* FREEI-640 Add Sangoma CRM(Suite/Sugar) module logging 
+		*15.0.14.14* FREEI-644 Sangoma CRM module not pulling 'users' from Connectwise,Showing None in right nav. 
+		*15.0.14.13* FREEI-626 Add Zulu API for check the extension in Sangoma crm (Salesforce). 
+		*15.0.14.12* FREEI-594 SangomaCRM-Zoho Call not seen in Activities when answered by Zulu 
+		*15.0.14.11* FREEI-579 Refersh Token Error. 
+		*15.0.14.10* FREEPBX-20170 Connectwise CRM configurations not shown if the system is not connected to internet. 
+		*15.0.14.9* Fixing FREEI-579 exception error 
+		*15.0.14.8* FREEPBX-20169 Whoops\Exception\ErrorException Call to a member function getStatusCode() on null 
+		*15.0.14.7* FREEPBX-20152 SangomaCRM module gives error while restoring in FreePBX 15 if there is no internet connection to the system and uninstalls the SangomaCRM module. 
+		*15.0.14.6* FREEI-588 Add Sangoma CRM(SalesForce) module logging 
+		*15.0.14.5* adding logic to avoid crashing if db table not found during uninstall 
+		*15.0.14.4* bump 
+		*15.0.14.3* bump 
+		*15.0.14.2* FREEPBX-20072  
+		*15.0.14* Fix legacy restore
+		*15.0.14* FREEI-490 Sangoma CRM link with SugarCRM, possible data retrieval issues. 
+		*15.0.13* FREEI-490 Sangoma CRM link with SugarCRM, possible data retrieval issues 
+		*15.0.12* FREEI-472 Connectwise popup url issue 
+		*15.0.11* FREEI-473 Sangomacrm log rotation 
+		*15.0.10* Use lazy loading console commands
+		*15.0.9* Adding Framework module dependency
+		*15.0.8* FREEI-474
+		*15.0.7* FREEI-468
+		*15.0.6* sangoma crm module causes backup to fail
+		*15.0.5.3* Remove deps that are in framework
+		*15.0.5.2* FREEPBX-19609
+		*15.0.5.1* Fix installation
+		*15.0.5* Fix webhooks
+		*15.0.4.1* Fix backup and restore
+		*15.0.4* FREEI-388 - fix recording url to have / before index.php
+		*15.0.3* FREEPBX-18818 call duration times not showing up in Zoho correctly
+		*15.0.2* Add backup 15 functionality
+		*15.0.1 Add Backup 15
+	</changelog>
+	<depends>
+		<version>15.0.6.18</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>framework ge 15.0.6.18</module>
+		<module>cdr</module>
+		<module>cel</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Sangomacrm" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delUser" class="Sangomacrm" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Sangomacrm" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Sangomacrm" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method callingMethod="myShowPage" class="Sangomacrm" namespace="FreePBX\modules">usermanShowPage</method>
+		</userman>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method callingMethod="getModuleLicenseInformation" class="Sangomacrm" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+		</sysadmin>
+		<zulu class="Zulu" namespace="FreePBX\modules">
+			<method callingMethod="displayCallpopOptions" class="Sangomacrm" namespace="FreePBX\modules">displayCallpopOptions</method>
+			<method callingMethod="processCallpopType" class="Sangomacrm" namespace="FreePBX\modules">processCallpopType</method>
+			<method callingMethod="processCallpopValue" class="Sangomacrm" namespace="FreePBX\modules">processCallpopValue</method>
+		</zulu>
+	</hooks>
+	<console>
+		<command>
+			<name>crm</name>
+			<class>Sangomacrm</class>
+		</command>
+	</console>
+</module>

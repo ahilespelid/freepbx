@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Tasks; class removeTask implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\165\164\x68\145\x6e\x74\x69\x63\x61\x74\145" => true, "\141\154\154\157\167\162\145\x6d\x6f\x74\x65" => false); return true; } public function ajaxHandler($config, $data) { return Tasks::load()->removeTask($data); } }

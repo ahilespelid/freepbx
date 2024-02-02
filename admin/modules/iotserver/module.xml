@@ -1,0 +1,145 @@
+<module>
+	<rawname>iotserver</rawname>
+	<name>SmartOffice</name>
+	<version>15.0.9.3</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+		<link>//www.sangoma.com/products/smartoffice/</link>
+	</commercial>
+	<repo>commercial</repo>
+	<type>tool</type>
+	<category>Admin</category>
+  	<description>SmartOffice module enable access control features on your PBX</description>
+	<more-info>https://www.sangoma.com/products/smartoffice/</more-info>
+	<changelog>
+		*15.0.9.3* Bug fixes.
+		*15.0.9.1* Bug fixes.
+		*15.0.9.0* Audit log export feature and bug fixes.
+		*15.0.8.2* Bug fixes.
+		*15.0.8.1* Bug fixes.
+		*15.0.8.0* Automated Action override feature and bug fixes.
+		*15.0.7.2* Bug Fixes.
+		*15.0.7.1* Bug Fixes.
+		*15.0.7.0* Added organization name settings, custom pincode for door locks and Bug Fixes.
+		*15.0.5.2* Guest Access feature and bug fixes.
+		*15.0.5.1* Bug Fixes
+		*15.0.5.0* Automated Access, Remote Access Restriction and bug fixes.
+		*15.0.4.1* Simplified door license and bug fixes.
+		*15.0.3.8* Bug Fixes
+		*15.0.3.7* Fixed node v8 ssl issue
+		*15.0.3.6* Bug Fixes
+		*15.0.3.5* Bug Fixes
+		*15.0.3.4* Added flexible service port support and improved gateway state change display.
+		*15.0.3.3* Bug Fixes
+		*15.0.3.2* Bug Fixes
+		*15.0.3.0* Bug Fixes
+		*15.0.2.9* Bug Fixes
+		*15.0.2.8* Bug Fixes
+		*15.0.2.7* Moved invite email template to cloud
+		*15.0.2.6* FREEI-2483 System cutom  acp port was change in the midnight 
+		*15.0.2.5* Bug fixes
+		*15.0.2.4* Redirect cron jobs output to null
+		*15.0.2.3* Fixed issue with access profiles periodic schedulers
+		*15.0.2.2* Fixed backup/restore issues
+		*15.0.2.1* Fixed package install issues
+		*15.0.2.0* Added handling of push notifications. Bug Fixes
+		*15.0.1.8* Fixed issues with wrongly populated org_id in database
+		*15.0.1.7* Added cloud connect service installation from SmartOffice commercial module
+		*15.0.1.6* Removed client webapp code
+		*15.0.1.5* Fixed gateway database corruption issue when server looses connection with the gateway during firmware upgrade
+		*15.0.1.4* Fixed issue with unclread pincode when door group is deleted. Exposed advanced settings tab
+		*15.0.1.3* Added service restart after backup restore and user import
+		*15.0.1.2* Fixed issue with invalid data when restoring smartoffice from backup
+		*15.0.1.1* Added ability to upgrade IoT Gateways firmware version from module
+		*15.0.1.0* Allowed module installation on unactivated systems
+		*15.0.0.14* Fixed issue with npm-shrinkwrap file being notified as tampered
+		*15.0.0.13* Improved csv user import logic and Fixed access profile cleanup issues when scope is deleted
+		*15.0.0.12* Fixed service faillure when removing a device
+		*15.0.0.11* Added support of access profile management
+		*15.0.0.10* Fixed websocket connection wrong error code issues
+		*15.0.0.9* Fixed installation failure due to database root permissions issues
+		*15.0.0.8* Fixed service faillure when admin port is different from 80
+		*15.0.0.7* Added sysadmin license hook
+		*15.0.0.6* Bug Fixes and added support of dbm signal level display for calibrating devices
+		*15.0.0.5* Fixed issues with smart office cron entries not getting removed on module uninstall
+		*15.0.0.4* Fixed sales link
+		*15.0.0.3* Fixed wrong timezone in email notifications and added support of multiple device status in groups 
+		*15.0.0.2* Added smartoffice troubleshooting section
+		*15.0.0.1* Initial 15 release
+	</changelog>
+
+	<supported>
+	    <version>15.0</version>
+	</supported>
+  	<menuitems>
+	    <smartoffice needsenginedb="yes">SmartOffice</smartoffice>
+	 </menuitems>
+	 <depends>
+	    <module>userman ge 15.0.26</module>
+	 </depends>
+	 <hooks>
+	 	<core class="Core" namespace="FreePBX\modules">
+	 		<method callingMethod="delUser" class="Iotserver" namespace="FreePBX\modules">delUser</method>
+	 	</core>
+	 	<userman class="Userman" namespace="FreePBX\modules">
+	 		<method callingMethod="myShowPage" class="Iotserver" namespace="FreePBX\modules">usermanShowPage</method>
+	 		<method callingMethod="addGroup" class="Iotserver" namespace="FreePBX\modules">usermanSaveGroup</method>
+	 		<method callingMethod="updateGroup" class="Iotserver" namespace="FreePBX\modules">usermanSaveGroup</method>
+	 		<method callingMethod="delGroup" class="Iotserver" namespace="FreePBX\modules">usermanDelGroup</method>
+	 		<method callingMethod="delUser" class="Iotserver" namespace="FreePBX\modules">usermanDelUser</method>
+	 		<method callingMethod="addUser" class="Iotserver" namespace="FreePBX\modules">usermanSaveUser</method>
+	 		<method callingMethod="updateUser" class="Iotserver" namespace="FreePBX\modules">usermanSaveUser</method>
+		</userman>
+
+		<ucp class="Ucp">
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="constructModuleConfigPages">ucpConfigPage</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="addUser">ucpAddUser</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="updateUser">ucpUpdateUser</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="delUser">ucpDelUser</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="addGroup">ucpAddGroup</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method namespace="FreePBX\Modules" class="Iotserver" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method callingMethod="getModuleLicenseInformation" class="Iotserver" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+		</sysadmin>
+
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+		      <method callingMethod="getSummary" class="Iotserver" namespace="FreePBX\modules">dashboardService</method>
+		</dashboard>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+		      <method callingMethod="postAsteriskHooks" class="Iotserver" namespace="FreePBX\modules">startFreepbx</method>
+	        </framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+		      <method callingMethod="preAsteriskHooks" class="Iotserver" namespace="FreePBX\modules">stopFreepbx</method>
+	    </framework>
+	  </hooks>
+ 	 <database>
+		<table name="iot_tokens">
+	     	      <field name="uid" type="integer"/>
+		      <field name="token" type="string" length="36"/>
+		      <field name="websocket_session" type="string" length="100" primarykey="true"/>
+		      <field name="client_version" type="string" length="255"/>
+		      <field name="connect_time" type="integer"/>
+		      <field name="client_ip" type="string" length="255"/>
+		      <field name="client_type" type="string" length="255"/>
+	    	</table>
+	        <table name="iot_login_tokens">
+		      <field name="token" type="string" length="36" default="" primarykey="true"/>
+		      <field name="uid" type="integer" notnull="false"/>
+		      <field name="temp" type="boolean" default="1"/>
+		      <field name="expires" type="integer" notnull="false"/>
+		      <field name="websocket_session" type="string" length="100" default=""/>
+	        </table>
+	  </database>
+	  <console>
+	    	<command>
+		      <name>smartoffice</name>
+		      <class>Iotserver</class>
+	    	</command>
+	  </console>
+</module>

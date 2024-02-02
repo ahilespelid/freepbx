@@ -1,0 +1,746 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for oracle_connector
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 15:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%s found as a valid room type."
+msgstr ""
+
+msgid "(Directy Occupied by default)."
+msgstr ""
+
+msgid "-> No information. File Empty. <-"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add Room"
+msgstr ""
+
+msgid "Allow UCP access."
+msgstr ""
+
+#, php-format
+msgid "An Error occured with the database: %s"
+msgstr ""
+
+msgid "An error is occured checking Billing Rate Integrity. Please check."
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "Arguments available [start] [stop] [restart] or [sync] (see --help)"
+msgstr ""
+
+msgid "Assign a DID number"
+msgstr ""
+
+msgid "Asterisk is not running. Next try in 15 seconds"
+msgstr ""
+
+msgid "Automatic Room Status Change"
+msgstr ""
+
+msgid ""
+"Automatically changes the status of an Occupied room to Dirty Occupied "
+"overnight."
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "Balance mismatch"
+msgstr ""
+
+msgid "Billing Rate"
+msgstr ""
+
+msgid "Boby for Customer Ticket"
+msgstr ""
+
+msgid "Buffer cleared."
+msgstr ""
+
+msgid "COS"
+msgstr ""
+
+#, php-format
+msgid ""
+"COS: %s\n"
+"VM secret: %s\n"
+msgstr ""
+
+#, php-format
+msgid ""
+"COS: %s\n"
+"VM secret: %s\n"
+"UCP password: %s"
+msgstr ""
+
+msgid "Check the Billing Rates integrity."
+msgstr ""
+
+msgid "Check-out date is not today"
+msgstr ""
+
+msgid "Class of Service for internal calls only."
+msgstr ""
+
+msgid "Class of Service for local calls."
+msgstr ""
+
+msgid "Class of Service for national calls."
+msgstr ""
+
+msgid "Class of Service for no restrictions."
+msgstr ""
+
+msgid "Clean"
+msgstr ""
+
+msgid "Clean Occupied"
+msgstr ""
+
+msgid "Clean Vacant"
+msgstr ""
+
+msgid "Clean occupied"
+msgstr ""
+
+msgid "Clear Buffer"
+msgstr ""
+
+msgid "Click to send a ticket"
+msgstr ""
+
+msgid "Command or request completed successfully"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "DND"
+msgstr ""
+
+msgid "Data synchronization in progress"
+msgstr ""
+
+msgid "Default Guest Check-in State"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Dirty Occupied"
+msgstr ""
+
+msgid "Dirty Vacant"
+msgstr ""
+
+msgid "Dislpay the room list from the database."
+msgstr ""
+
+msgid "Display the room list from the database."
+msgstr ""
+
+msgid ""
+"Don't forget to run the following command line to import the rooms from the "
+"Oracle server: fwconsole oracle sync"
+msgstr ""
+
+#, php-format
+msgid "Done"
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Download csv"
+msgstr ""
+
+msgid "Download txt"
+msgstr ""
+
+msgid ""
+"Enter the duration for the Keep Alive. (default = 300s). Oracle recommends "
+"NOT to send an LS as alive check more than once every 5 minutes."
+msgstr ""
+
+#, php-format
+msgid "Error Exception received: %s."
+msgstr ""
+
+msgid "Error! Invalid arguments!"
+msgstr ""
+
+msgid ""
+"Error! The extension number must be numeric, and its status must be between "
+"1 and 6."
+msgstr ""
+
+msgid ""
+"Error! Unable to send the request. Please, start Oracle Connector service "
+"and try again."
+msgstr ""
+
+msgid "Error: "
+msgstr ""
+
+msgid "Error: An error occured!"
+msgstr ""
+
+#, php-format
+msgid "Error: The room %s doesn't exist. Request aborted."
+msgstr ""
+
+#, php-format
+msgid ""
+"Error: The room must be equal to the extension. You are trying to set %s as "
+"the room. Permission denied."
+msgstr ""
+
+#, php-format
+msgid ""
+"Error: There is %d unknown model present in the room list. Please launch:  "
+"fwconsole oracle model --repair."
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Extension"
+msgstr ""
+
+msgid "Feature not enabled or Check-out process not running"
+msgstr ""
+
+msgid "File deleted :"
+msgstr ""
+
+msgid "File ready to be processed again :"
+msgstr ""
+
+msgid "Files failed :"
+msgstr ""
+
+msgid "Files processed :"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Generic Oracle found."
+msgstr ""
+
+msgid "Generic Oracle not found."
+msgstr ""
+
+msgid "Guest Name"
+msgstr ""
+
+msgid "Guest Number"
+msgstr ""
+
+msgid "Guest not allowed this feature"
+msgstr ""
+
+msgid "Guest not found"
+msgstr ""
+
+msgid "Handle room types."
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid ""
+"If you want to check the contents of the buffer in the debug file. It will "
+"be disabled at the same time as the keepalive life (every 5 ')."
+msgstr ""
+
+msgid "Inspected Occupied"
+msgstr ""
+
+msgid "Inspected Vacant"
+msgstr ""
+
+msgid "Inspected occupied"
+msgstr ""
+
+msgid "Invalid account"
+msgstr ""
+
+msgid "Keep Alive"
+msgstr ""
+
+msgid "Keep an assigned number"
+msgstr ""
+
+msgid "Key Word"
+msgstr ""
+
+msgid "Last Call"
+msgstr ""
+
+msgid "Launch roomlist checkbr."
+msgstr ""
+
+msgid "Log File"
+msgstr ""
+
+msgid "Log file is called."
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Maid Services"
+msgstr ""
+
+msgid "Message/Locator not found"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Models"
+msgstr ""
+
+msgid "Move an assigned number"
+msgstr ""
+
+msgid "Night Audit"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Response"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Occupied"
+msgstr ""
+
+msgid "Oracle Connector"
+msgstr ""
+
+msgid "Oracle Connector Logs"
+msgstr ""
+
+msgid "Oracle Connector Panel"
+msgstr ""
+
+msgid "Oracle Connector Settings"
+msgstr ""
+
+msgid "Oracle Function"
+msgstr ""
+
+msgid "Oracle Server"
+msgstr ""
+
+msgid "Oracle connector for PMS module"
+msgstr ""
+
+msgid "Oracle connector has been successfully stopped"
+msgstr ""
+
+msgid "Oracle gateway init."
+msgstr ""
+
+msgid "Panel"
+msgstr ""
+
+msgid "Panel is called."
+msgstr ""
+
+msgid "Pending Requests"
+msgstr ""
+
+msgid "Pending requests :"
+msgstr ""
+
+msgid ""
+"Please enter a personal key in plain text that will be encrypted. (Eg: My "
+"key word). The result of this encryption key will be manually sent to the "
+"Oracle server manager to get an access (Eg: ctHtlvSXQQIRD91WogB13w==). If "
+"there's no key, then there's no authentication with Oracle server as well."
+msgstr ""
+
+msgid "Please, enter IP address or hostname used for Oracle server."
+msgstr ""
+
+msgid ""
+"Please, enter a message text for the body email which will be sent to the "
+"customer when the checkin. up to 2048 characters. HTML tags required."
+msgstr ""
+
+msgid ""
+"Please, enter a subject for the email which will be sent to the customer "
+"when the check in will be done."
+msgstr ""
+
+msgid "Please, enter a valid IP address and port number."
+msgstr ""
+
+msgid "Please, enter port number used for Oracle server."
+msgstr ""
+
+msgid "Please, enter the class of service for internal calls only."
+msgstr ""
+
+msgid "Please, enter the class of service for local calls."
+msgstr ""
+
+msgid "Please, enter the class of service for national calls."
+msgstr ""
+
+msgid "Please, enter the class of service for no restrictions."
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid ""
+"Posting denied because overwriting the CreditLimit is not allowed (not used "
+"with Suite8)"
+msgstr ""
+
+msgid "Posting denied for this guest (NoPost flag has been set)"
+msgstr ""
+
+msgid "Preparing Default Oracle Connector Settings."
+msgstr ""
+
+msgid "Privileges"
+msgstr ""
+
+msgid "Provides some commands for Oracle Connector."
+msgstr ""
+
+msgid "Referral"
+msgstr ""
+
+msgid "Reloading PBX in progress..."
+msgstr ""
+
+msgid "Remove All Pending Requests"
+msgstr ""
+
+#, php-format
+msgid "Repair of rooms with %s"
+msgstr ""
+
+msgid "Repair room types."
+msgstr ""
+
+msgid "Request denied"
+msgstr ""
+
+msgid "Requests failed  :"
+msgstr ""
+
+msgid ""
+"Resets rooms to default settings. Need to run fwconsole oracle sync once "
+"done."
+msgstr ""
+
+msgid ""
+"Resets rooms to default settings. Need to run fwconsole oracle sync one done."
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Restarting Oracle Connector deamon."
+msgstr ""
+
+msgid "Restarting Oracle Connector."
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Room Name"
+msgstr ""
+
+#, php-format
+msgid "Room Payment methods : %s"
+msgstr ""
+
+msgid "Room Status Auto is now disabled."
+msgstr ""
+
+msgid "Room Status Auto is now enabled."
+msgstr ""
+
+msgid "Room Type"
+msgstr ""
+
+msgid "Rooms ok!"
+msgstr ""
+
+msgid ""
+"Send Room Equipement request to the Oracle server (status => 1 = Dirty/"
+"Vacant, 2 = Dirty/Occupied, 3 = Clean/Vacant, 4 = Clean/Occupied, 5 = "
+"Inspected/Vacant, 6 = Inspected/Occupied). E.g.: fwconsole oracle re 200,1"
+msgstr ""
+
+msgid "Send emails to customers."
+msgstr ""
+
+msgid "Sending request:"
+msgstr ""
+
+msgid "Server Settings"
+msgstr ""
+
+msgid "Set Read buffer : No."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show buffer in debug file."
+msgstr ""
+
+msgid "Sorry. This service is not available."
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Starting Oracle Connector deamon."
+msgstr ""
+
+msgid "Starting Oracle Connector."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop request canceled because the time has expired"
+msgstr ""
+
+msgid "Stopping Oracle Connector deamon and wait ack from Oracle server."
+msgstr ""
+
+msgid "Stopping Oracle Connector immediately."
+msgstr ""
+
+msgid "Subject for Customer Ticket"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Sync Database"
+msgstr ""
+
+msgid "Sync. data in progress. Storing request in FIFO."
+msgstr ""
+
+msgid "Synchronization request sent."
+msgstr ""
+
+msgid ""
+"Synchronize the database from Oracle to PMS. All room become available at "
+"first and next, Oracle send the complete data."
+msgstr ""
+
+msgid "Telephone / Encoder Busy"
+msgstr ""
+
+#, php-format
+msgid "The Cryptogram is %s"
+msgstr ""
+
+#, php-format
+msgid "The DLS Timeout is %d seconds"
+msgstr ""
+
+#, php-format
+msgid "The EFT Timeout is %d seconds"
+msgstr ""
+
+#, php-format
+msgid "The Fidelio version is %s"
+msgstr ""
+
+#, php-format
+msgid "The Hotel-ID is %s"
+msgstr ""
+
+msgid "The date has been correctly encrypted."
+msgstr ""
+
+msgid "The date is not correctly encrypted!!!"
+msgstr ""
+
+msgid "The default room state when the guest checks into the room."
+msgstr ""
+
+#, php-format
+msgid "The drivers version for FIAS is %s"
+msgstr ""
+
+#, php-format
+msgid "The extension %s doesn't exist. Please, create this one and try again."
+msgstr ""
+
+#, php-format
+msgid ""
+"The extension %s is not present in any class of service. This one will be "
+"redefined in its next Oracle request."
+msgstr ""
+
+#, php-format
+msgid "The extension %s was present in multiple CoS."
+msgstr ""
+
+#, php-format
+msgid "The file %s doesn't exist."
+msgstr ""
+
+#, php-format
+msgid "The interface version is %s"
+msgstr ""
+
+#, php-format
+msgid "The room %s with the extension %s has been added."
+msgstr ""
+
+msgid "There's no charge yet. Please, add a charge at least."
+msgstr ""
+
+#, php-format
+msgid "Timeout exceeded for %s. No ACK received."
+msgstr ""
+
+msgid "Total Amount"
+msgstr ""
+
+msgid "Un-assign a DID number"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unprocessable request, this request cannot be carried out , no retry"
+msgstr ""
+
+msgid "Unprocessable request, this request cannot be carried out , no retry."
+msgstr ""
+
+msgid "Unreachable"
+msgstr ""
+
+msgid "Valid Commands:"
+msgstr ""
+
+msgid "Verbose with a single line for oracle connector logs."
+msgstr ""
+
+msgid "Virtual Number already assigned"
+msgstr ""
+
+msgid "Virtual Number not found"
+msgstr ""
+
+msgid "Voicemail"
+msgstr ""
+
+msgid "Waiting new connection...."
+msgstr ""
+
+msgid "Wakeup/Key has been deleted"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Write something for body here."
+msgstr ""
+
+msgid "Write something for subject here."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You are currently using the free SPM version which has a limit of 10 rooms. "
+"For more rooms, visit our website and purchase a license."
+msgstr ""
+
+msgid "You can allow UCP access."
+msgstr ""
+
+msgid ""
+"You can allow or disallow the sending of emails to customers for any events."
+msgstr ""
+
+msgid ""
+"You can start, stop or restart Oracle Connector clicking on the button "
+"following its status."
+msgstr ""
+
+msgid ""
+"You can start, stop or restart Oracle Connector clicking on the button "
+"following its status. Also you can launch Sync Database to synchronize all "
+"Oracle server data."
+msgstr ""
+
+msgid "Your ticket"
+msgstr ""
+
+msgid "accepted"
+msgstr ""
+
+msgid "characters."
+msgstr ""
+
+msgid "eg: re 200,1"
+msgstr ""
+
+msgid "id"
+msgstr ""
+
+msgid "is running."
+msgstr ""
+
+msgid "is stopped."
+msgstr ""
+
+msgid "oracle [start] [stop] [restart] [sync]"
+msgstr ""
+
+msgid "seconds"
+msgstr ""

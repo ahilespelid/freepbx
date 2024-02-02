@@ -1,0 +1,1 @@
+/var/www/html/admin/modules/endpoint/assets/js/views/ucp_admin.js

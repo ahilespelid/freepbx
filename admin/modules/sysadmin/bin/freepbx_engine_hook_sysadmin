@@ -1,0 +1,33 @@
+#!/bin/bash
+
+chown_asterisk_hook_sysadmin() {
+        if [ -f "/var/log/maillog" ]; then
+		chown -R $AMPASTERISKUSER:$AMPASTERISKGROUP $(readlink -f /var/log/maillog)
+		chmod -R g+r $(readlink -f /var/log/maillog)
+	fi
+	if [ -d "/etc/schmooze" ]; then
+		chown -R $AMPASTERISKUSER:$AMPASTERISKGROUP $(readlink -f /etc/schmooze)
+        fi
+}
+
+run_asterisk_hook_sysadmin() {
+	FAIL2BANFILTER=`php -r '
+		if (file_exists("/etc/fail2ban/jail.local")) {
+			$bootstrap_settings["freepbx_auth"] = false;
+			$bootstrap_settings["skip_astman"] = true;
+			$restrict_mods = true;
+			if (!@include_once(getenv("FREEPBX_CONF") ? getenv("FREEPBX_CONF") : "/etc/freepbx.conf")) {
+			        include_once("/etc/asterisk/freepbx.conf");
+			}
+			global $amp_conf;
+			if (version_compare($amp_conf["ASTVERSION"], 11,">=") && file_exists("/etc/fail2ban/filter.d/asterisk-security.conf")) {
+			        exec("sed -i \"s/^filter\s*=\s*asterisk$/filter = asterisk-security/g\" /etc/fail2ban/jail.local 2>&1");
+			} else {
+			        exec("sed -i \"s/^filter\s*=\s*asterisk-security$/filter = asterisk/g\" /etc/fail2ban/jail.local 2>&1");
+			}
+		}'`
+	if [ -f /etc/fail2ban/jail.local ] && [ -f /etc/init.d/fail2ban ]; then
+		exe="/etc/init.d/fail2ban"
+		$exe restart 2>&1
+	fi
+}

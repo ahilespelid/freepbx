@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# This will install the 'XactViewServerV3' rpm if not installed and
+# remove the iSymphonyServerV3 rpm if installed.
+
+rpm -q iSymphonyServerV3-fpbx > /dev/null 2>&1
+ISTATUS=$?
+
+rpm -q XactViewServerV3-fpbx > /dev/null 2>&1
+XSTATUS=$?
+
+yum clean all > /dev/null 2>&1
+
+if [ $ISTATUS == 0 ]; then
+	#iSymphonyServerV3 is installed. Remove it
+	yum -y remove iSymphonyServerV3-fpbx > /dev/null 2>&1
+fi
+
+if [ $XSTATUS > 0 ]; then
+	# It's not installed.
+	rm -f /tmp/XactViewServerV3-install-log
+	yum -y install XactViewServerV3-fpbx > /tmp/XactViewServerV3-install-log 2>&1
+fi
+
+# Also ensure that the ssh_keys RPM is installed
+yum -y install ssh_keys > /dev/null 2>&1

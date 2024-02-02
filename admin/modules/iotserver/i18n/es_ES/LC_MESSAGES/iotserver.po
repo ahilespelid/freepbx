@@ -1,0 +1,1162 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for iotserver
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-21 17:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"\n"
+"Please confirm user SmartOffice settings are correct.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"SmartOffice login will not work with duplicated email addresses.\n"
+"Please correct the issues and re-upload the file.\n"
+"\n"
+msgstr ""
+
+#, php-format
+msgid ""
+"\n"
+"The email address '%s' specified for %s is already in use for the existing "
+"user %s."
+msgstr ""
+
+#, php-format
+msgid ""
+"\n"
+"User '%s %s' already exists in the system."
+msgstr ""
+
+msgid ""
+"\n"
+"Warning: Duplicate email addresses.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Warning: User already exists.\n"
+msgstr ""
+
+msgid " Create Automated Action"
+msgstr ""
+
+msgid ""
+"!=t.substring(0,1)});for(var r in n)if(!1===Object."
+"getOwnPropertyDescriptor(t,n[r]).configurable){var i=n[r],o=t[i];o&&(Array."
+"isArray(o)?e.push({key:i,value:I(o)}):o instanceof B?e.push({key:i,value:o."
+"objId+"
+msgstr ""
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+#, php-format
+msgid "%s. Please check your system admin port settings"
+msgstr ""
+
+msgid "A PHP extension stopped the file upload"
+msgstr ""
+
+#, php-format
+msgid "ALLOW OVERRIDE"
+msgstr ""
+
+msgid "Access Automation"
+msgstr ""
+
+msgid "Access Profiles"
+msgstr ""
+
+msgid "Access Scope"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Guest User"
+msgstr ""
+
+msgid "Add User"
+msgstr ""
+
+msgid "Add User Group"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address to bind to"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin Email Notification"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Allow Override"
+msgstr ""
+
+msgid "Are you sure you want to downgrade to the previous firmware version?"
+msgstr ""
+
+msgid "Are you sure you want to run "
+msgstr ""
+
+msgid ""
+"Are you sure you want to submit these Settings? This will disconnect all "
+"connected users and restart the SmartOffice server"
+msgstr ""
+
+msgid "Are you sure you want to upgrade to the newest firmware version?"
+msgstr ""
+
+msgid "Are you sure you wish to Invite the selected users to SmartOffice"
+msgstr ""
+
+msgid "Are you sure you wish to remove these users from SmartOffice server?"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+msgid "Audit Logs"
+msgstr ""
+
+msgid "Authentication Status"
+msgstr ""
+
+msgid "Automated Actions"
+msgstr ""
+
+msgid "Available Version"
+msgstr ""
+
+msgid "Boostrap Toggle Example"
+msgstr ""
+
+msgid "Bootstrap Select"
+msgstr ""
+
+msgid "Bootstrap Select Example"
+msgstr ""
+
+msgid "Bootstrap Table"
+msgstr ""
+
+msgid "Bootstrap Table Example"
+msgstr ""
+
+msgid "Bootstrap Toggle"
+msgstr ""
+
+msgid "Browse CSV File"
+msgstr ""
+
+msgid "CSV File Export"
+msgstr ""
+
+msgid "Can Not Find Uploaded Files"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+#, php-format
+msgid "Cannot Create Temp Directory: %s"
+msgstr ""
+
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr ""
+
+msgid "Cant find uploaded file"
+msgstr ""
+
+msgid "Certificate Location"
+msgstr ""
+
+msgid "Certificate error"
+msgstr ""
+
+msgid "Checking module cloud activation status"
+msgstr ""
+
+msgid "Cleaning iot objects"
+msgstr ""
+
+msgid "Cleaning migration lock flag  using "
+msgstr ""
+
+msgid "Cleaning migration lock flag using root user"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "CloudConnect Agent Status:"
+msgstr ""
+
+#, php-format
+msgid "CloudConnect Agent version %s is up to date"
+msgstr ""
+
+msgid ""
+"CloudConnect provides an important redundant connection to SmartOffice, in "
+"case the corporate wifi goes down or becomes unavailable Users will still be "
+"able to open doors via their mobile LTE connection via Sangoma Cloud"
+msgstr ""
+
+msgid "Configuration Information"
+msgstr ""
+
+msgid "Create Profile"
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "Credentials"
+msgstr ""
+
+msgid "Current Version"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Date from"
+msgstr ""
+
+msgid "Date to"
+msgstr ""
+
+#, php-format
+msgid "Date/Time: %s"
+msgstr ""
+
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#, php-format
+msgid "Deployment id: %s"
+msgstr ""
+
+msgid "Desired State"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Device Group"
+msgstr ""
+
+msgid "Device Location"
+msgstr ""
+
+msgid "Device Name"
+msgstr ""
+
+msgid "Device Scene"
+msgstr ""
+
+msgid "Device Zone"
+msgstr ""
+
+msgid "Devices Events"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Disconnecting all client sessions"
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Door"
+msgstr ""
+
+msgid "Downgrade Firmware Confirmation"
+msgstr ""
+
+msgid "Download Troubleshooting data"
+msgstr ""
+
+msgid "Edit Access Profile"
+msgstr ""
+
+msgid "Edit Automation"
+msgstr ""
+
+msgid "Edit Guest Details"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "Enable Smart Office for this user"
+msgstr ""
+
+msgid "Enable SmartOffice service"
+msgstr ""
+
+msgid "Enable SmartOffice tab"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "End at"
+msgstr ""
+
+msgid "Endpoint"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Event Chart"
+msgstr ""
+
+msgid "Events History"
+msgstr ""
+
+msgid "Exception on cleaning migration lock:"
+msgstr ""
+
+msgid "Expiry Date"
+msgstr ""
+
+msgid "Expiry date"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export SmartOffice Users to CSV file"
+msgstr ""
+
+msgid "Export/Import Users"
+msgstr ""
+
+msgid "Expose PBX Admin UI through CloudConnect Agent"
+msgstr ""
+
+msgid "Expose Web UI to Cloud"
+msgstr ""
+
+#, php-format
+msgid "Failed to get organization token and information for deployment %s"
+msgstr ""
+
+msgid ""
+"Failed to install node dependencies for the SmartOffice Module. Please run "
+"the install again."
+msgstr ""
+
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr ""
+
+msgid "Failed to write file to disk"
+msgstr ""
+
+msgid "Failed updating libraries!"
+msgstr ""
+
+msgid "Failed!"
+msgstr ""
+
+msgid "Finished updating libraries!"
+msgstr ""
+
+msgid "Firmware Status"
+msgstr ""
+
+msgid "Firmware update in gateway:"
+msgstr ""
+
+msgid "Follow Me"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Gateway Actions"
+msgstr ""
+
+msgid "Gateway Debug Mode"
+msgstr ""
+
+msgid "Gateway Name"
+msgstr ""
+
+msgid "Gateway Serial"
+msgstr ""
+
+msgid "Gateway Status"
+msgstr ""
+
+msgid "Gateway type"
+msgstr ""
+
+msgid "Generating SSL certificates from cloud"
+msgstr ""
+
+msgid "Grant SmartOffice Administrator access to the user."
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Guest Access"
+msgstr ""
+
+msgid "Guest PIN"
+msgstr ""
+
+msgid "Guest Status"
+msgstr ""
+
+msgid "Guest name"
+msgstr ""
+
+msgid "HELLO UCP"
+msgstr ""
+
+msgid "Header row and data row count do not match"
+msgstr ""
+
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+msgid "Hello World Settings"
+msgstr ""
+
+#, perl-format
+msgid "Hello World has been loaded at %s"
+msgstr ""
+
+msgid "Hello World!"
+msgstr ""
+
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import SmartOffice Users from CSV file"
+msgstr ""
+
+msgid "Import Users"
+msgstr ""
+
+msgid "Import users from remote server"
+msgstr ""
+
+msgid "Imported"
+msgstr ""
+
+msgid "Importing"
+msgstr ""
+
+msgid "Importing..."
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Initializing node dependencies"
+msgstr ""
+
+msgid "Invalid SmartOffice Service bind port setting"
+msgstr ""
+
+msgid "Invalid credentials"
+msgstr ""
+
+msgid "Invalid user identifier"
+msgstr ""
+
+msgid "Invalid username"
+msgstr ""
+
+msgid "Invite"
+msgstr ""
+
+msgid "Invite Status"
+msgstr ""
+
+msgid "Invite Users"
+msgstr ""
+
+msgid "Inviting"
+msgstr ""
+
+msgid "Inviting..."
+msgstr ""
+
+msgid "Iot is not enabled for this user"
+msgstr ""
+
+msgid "Is Admin"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+#, php-format
+msgid "Locale: %s"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Missing a temporary folder"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+#, php-format
+msgid "No PBXID file found, not registering module to cloud."
+msgstr ""
+
+#, php-format
+msgid "No file choosen"
+msgstr ""
+
+msgid "No file was uploaded"
+msgstr ""
+
+msgid "Node Package Manager is not installed"
+msgstr ""
+
+msgid "Node is not installed"
+msgstr ""
+
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Not Running"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+#, php-format
+msgid "OTHER SETTINGS"
+msgstr ""
+
+msgid "Organization Display Name"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Perform CloudConnect Agent Action"
+msgstr ""
+
+msgid "Perform Domain Operation"
+msgstr ""
+
+msgid "Please renew your license to recover full system functionality."
+msgstr ""
+
+msgid "Please update the certificate for the firmware upgrading"
+msgstr ""
+
+msgid "Poll"
+msgstr ""
+
+msgid "Poll Example"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Port to bind to. Default is 8100"
+msgstr ""
+
+msgid "Previous Version"
+msgstr ""
+
+msgid "Private Key Location"
+msgstr ""
+
+msgid "Proceed"
+msgstr ""
+
+msgid "Process"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Remote Import"
+msgstr ""
+
+msgid "Remove Users"
+msgstr ""
+
+msgid "Removing..."
+msgstr ""
+
+msgid "Reset SmartOffice Server"
+msgstr ""
+
+msgid "Resetting..."
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+msgid "Run CloudConnect Agent action"
+msgstr ""
+
+msgid "Run Domain Action"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr ""
+
+#, php-format
+msgid "SCHEDULER [Timezone: %s]"
+msgstr ""
+
+msgid "SCOPE"
+msgstr ""
+
+#, php-format
+msgid "SMARTOFFICE CERTIFICATES"
+msgstr ""
+
+#, php-format
+msgid "SMARTOFFICE SERVER BINDING"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Scene"
+msgstr ""
+
+msgid "Scope"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Send SmartOffice Invitation Email"
+msgstr ""
+
+msgid "Server Logging"
+msgstr ""
+
+msgid "Server Status:"
+msgstr ""
+
+msgid "Server error"
+msgstr ""
+
+msgid "Server log tail"
+msgstr ""
+
+msgid "Service Address"
+msgstr ""
+
+msgid "Service Port"
+msgstr ""
+
+msgid "Sets the organization display name"
+msgstr ""
+
+msgid "Sets the path to the HTTPS private key"
+msgstr ""
+
+msgid "Sets the path to the HTTPS server certificate"
+msgstr ""
+
+msgid "Setting DB "
+msgstr ""
+
+msgid "Show SmartOffice tab with download link?"
+msgstr ""
+
+msgid "Smart Office Administrator"
+msgstr ""
+
+#, php-format
+msgid "Smart Office ip address to bind to [%s]"
+msgstr ""
+
+msgid "SmartOffice"
+msgstr ""
+
+msgid "SmartOffice Administrator Email Notifications for Event changes."
+msgstr ""
+
+msgid "SmartOffice Authentication Status"
+msgstr ""
+
+msgid "SmartOffice Cloud Token"
+msgstr ""
+
+msgid ""
+"SmartOffice CloudConnect Agent will securely connect SmartOffice to the "
+"Sangoma SmartOffice Cloud, in order to facilitate remote user control."
+msgstr ""
+
+msgid "SmartOffice Command Token"
+msgstr ""
+
+#, php-format
+msgid "SmartOffice Domain: %s"
+msgstr ""
+
+#, php-format
+msgid "SmartOffice License Expiration Date: %s"
+msgstr ""
+
+msgid "SmartOffice License Info"
+msgstr ""
+
+msgid "SmartOffice Server Daemon"
+msgstr ""
+
+#, php-format
+msgid "SmartOffice Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "SmartOffice Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "SmartOffice Server info"
+msgstr ""
+
+msgid "SmartOffice Server is not running"
+msgstr ""
+
+msgid "SmartOffice domain"
+msgstr ""
+
+#, php-format
+msgid ""
+"SmartOffice domain not configured, please generate your SSL certificates"
+msgstr ""
+
+msgid "SmartOffice functions"
+msgstr ""
+
+msgid "SmartOffice module enable access control features on your PBX"
+msgstr ""
+
+#, php-format
+msgid ""
+"SmartOffice module installed but not activated. Please buy a license and "
+"activate the module"
+msgstr ""
+
+#, php-format
+msgid "SmartOffice module is registered to the cloud for deployment %s"
+msgstr ""
+
+msgid "SmartOffice not licensed for this system"
+msgstr ""
+
+msgid "SmartOffice server Bind Address"
+msgstr ""
+
+msgid "SmartOffice server Bind Port"
+msgstr ""
+
+msgid "SmartOffice server TLS Certificate Location"
+msgstr ""
+
+msgid "SmartOffice server TLS Private Key Location"
+msgstr ""
+
+msgid "SmartOffice server domain"
+msgstr ""
+
+msgid "SmartOffice server is not running"
+msgstr ""
+
+msgid "SmartOffice server organization display name"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Start at"
+msgstr ""
+
+#, php-format
+msgid "Started SmartOffice Server. PID is %s"
+msgstr ""
+
+#, php-format
+msgid "Started with PID %s!"
+msgstr ""
+
+msgid "Starting SmartOffice Server..."
+msgstr ""
+
+msgid "Starting SmartOffice server Process..."
+msgstr ""
+
+msgid "Starting SmartOffice services"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stopped SmartOffice server Server"
+msgstr ""
+
+msgid "Stopping SmartOffice Server"
+msgstr ""
+
+msgid "Stopping cloudconnect agent"
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid "Stopping running SmartOffice servers..."
+msgstr ""
+
+msgid "Submit Settings"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "System not activated, cannot perform cloud activation"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "The SmartOffice Server is disabled in Advanced Settings"
+msgstr ""
+
+#, php-format
+msgid ""
+"The email address '%s' is already in use for %s.\n"
+"\n"
+"Please use a unique email address."
+msgstr ""
+
+msgid "The gateway's certificate seems to be out of date"
+msgstr ""
+
+msgid "The information about SmartOffice license"
+msgstr ""
+
+msgid "The token used by the smart office server cloud user"
+msgstr ""
+
+msgid ""
+"The token used to connect to the bind port. This is randomized per install"
+msgstr ""
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#, perl-format
+msgid "The window state is '%s'"
+msgstr ""
+
+msgid "This product is not licensed"
+msgstr ""
+
+msgid ""
+"This will disconnect all SmartOffice users and reset the SmartOffice "
+"service. Are you sure?"
+msgstr ""
+
+msgid ""
+"This will disconnect all SmartOffice users and stop the SmartOffice service. "
+"Are you sure?"
+msgstr ""
+
+msgid "This will reset and disconnect all SmartOffice users. Are you sure?"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+#, perl-format
+msgid "Time since you started this session: %s"
+msgstr ""
+
+#, php-format
+msgid "Time: %s"
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+#, php-format
+msgid "Timezone: %s"
+msgstr ""
+
+msgid ""
+"To downgrade the gateway to the previous version will take some minutes and "
+"the gateway needs to reboot, so the gateway and all devices connected to it "
+"will remain unreachable until it is back up."
+msgstr ""
+
+msgid ""
+"To upgrade the gateway firmware to the newest version will take some minutes "
+"and the gateway needs to reboot, so the gateway and all devices connected to "
+"it will remain unreachable until it is back up."
+msgstr ""
+
+msgid "Toggle"
+msgstr ""
+
+msgid "Token is already in use!"
+msgstr ""
+
+msgid "Trigger SmartOffice Invitation email sending"
+msgstr ""
+
+msgid "Troubleshooting"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Unable to parse file"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Unsupported file format"
+msgstr ""
+
+msgid "Unsupported file format "
+msgstr ""
+
+msgid "Update certificate"
+msgstr ""
+
+msgid "Updated at"
+msgstr ""
+
+#, php-format
+msgid "Updating CloudConnect Agent version to %s"
+msgstr ""
+
+msgid "Upgrade Firmware Confirmation"
+msgstr ""
+
+msgid "User Email"
+msgstr ""
+
+msgid "User Groups"
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "User PIN"
+msgstr ""
+
+msgid "User Settings go here"
+msgstr ""
+
+msgid "User Timed"
+msgstr ""
+
+msgid "User Type"
+msgstr ""
+
+msgid "User authentication status"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "What is SmartOffice"
+msgstr ""
+
+msgid "What is SmartOffice CloudConnect Agent?"
+msgstr ""
+
+msgid "Whether to enable the backend server for Sangoma Smart Office"
+msgstr ""
+
+msgid "Whether to expose or not the PBX Admin UI through CloudConnect Agent"
+msgstr ""
+
+msgid "Whilly Module"
+msgstr ""
+
+msgid "Whilma  the Widget"
+msgstr ""
+
+msgid "Whilma Module"
+msgstr ""
+
+msgid "Whilma dreamed of being a widget all of her life"
+msgstr ""
+
+msgid "Whilma the Widget"
+msgstr ""
+
+msgid "Willy Module"
+msgstr ""
+
+msgid "Willy dreamed of being a widget all of his life"
+msgstr ""
+
+msgid "Willy the Widget"
+msgstr ""
+
+msgid ""
+"With CloudConnect agent running, a permanent secure websocket connection to "
+"Sangoma Cloud and will allow remote users, with specific permissions to "
+"control office doors and view sensor data."
+msgstr ""
+
+msgid ""
+"Without the CloudConnect, SmartOffice users will only be able to control "
+"their devices when they connect to corporate wifi."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment date format is %s"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment date/time format is %s"
+msgstr ""
+
+#, perl-format
+msgid "Your Moment time format is %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your SmartOffice License has expired. Functionality is now limited to Admin "
+"users"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your SmartOffice license has expired and system functionality has been "
+"restricted. Please renew your license to restore full functionalilty."
+msgstr ""
+
+#, perl-format
+msgid "Your Timezone is %s"
+msgstr ""
+
+msgid "Zone"
+msgstr ""
+
+msgid "https://127.0.0.1/json"
+msgstr ""

@@ -1,0 +1,6 @@
+{
+  "host": "",
+  "port": 80,
+  "moduleConfigURL": "/admin/ajax.php?module=iub24&command=nodeConfig",
+  "recordsPath": "/var/spool/asterisk/monitor"
+}

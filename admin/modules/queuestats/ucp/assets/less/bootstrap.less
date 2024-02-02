@@ -1,0 +1,328 @@
+.grid-stack-item[data-rawname="queuestats"] {
+	.widget-content {
+		overflow-y: hidden; //why?
+		.box-header {
+			vertical-align: top;
+			text-align: center;
+			font-weight: bold;
+			font-size: 76%;
+			margin-top: 3px;
+		}
+	}
+	.stateicon {
+		color: #369dad;
+		.green {
+			color: green
+		}
+		.red {
+			color: red
+		}
+		.yellow {
+			color: yellow
+		}
+    .opacity {
+      opacity: 0.33;
+    }
+	}
+	.multipleagentsummary {
+		overflow-y: auto;
+	}
+	.queuesummary {
+		h6 {
+			text-align: center;
+			font-weight: bold;
+		}
+		.progress-circle-abandonded-container {
+			position: absolute;
+			width: 33%;
+			.progress-circle-abandonded {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+		.progress-circle-received-container {
+			position: absolute;
+			width: 33%;
+			left: 33%;
+			.progress-circle-received {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+		.progress-circle-waiting-container {
+			position: absolute;
+			width: 33%;
+			left: 66%;
+			.progress-circle-waiting {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+	}
+
+  .calleroutcome {
+		h6 {
+			text-align: center;
+			font-weight: bold;
+		}
+		.progress-circle-answered-container {
+			position: absolute;
+			width: 33%;
+			.progress-circle-answered {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+		.progress-circle-timeout-container {
+			position: absolute;
+			width: 33%;
+			left: 33%;
+			.progress-circle-timeout {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+		.progress-circle-hungup-container {
+			position: absolute;
+			width: 33%;
+			left: 66%;
+			.progress-circle-hungup {
+				text-align: center;
+				margin: auto;
+				width: 50%;
+			}
+			.qs-i18n {
+				text-align: center;
+			}
+		}
+  }
+
+  .allcontainer {
+    position: relative;
+    height: 100%;
+    width:100%;
+  }
+  .maincontainer {
+    position: absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .rowelement{
+    display: table-row;
+    height: 70%;
+  }
+  .rwlmnt{
+    display: table-row;
+    height: 15%;
+  }
+  .cellelement {
+    display: table-cell;
+    text-align: center;
+    height: 33.33%;
+    vertical-align: middle;
+  }
+  .unicell{
+    position:absolute;
+    display: table-cell;
+    //display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    height: 33.33%;
+    width: 100%;
+  }
+  .innerunicell{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .bottomtxt {
+    height: 33.33%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: table;
+  }
+  .calignertxt {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+  }
+  .cntrtxtaligner {
+    text-align: center;
+  }
+  .titlestyle {
+    color: rgb(58,58,58);
+    font-weight: bold;
+    font-size: x-small;
+  }
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20%, 100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-ring {
+  -webkit-animation: ring 2s ease infinite;
+  animation: ring 2s ease infinite;
+  transform-origin-x: 50%;
+  transform-origin-y: 0px;
+  transform-origin-z: initial;
+}
+
+.faa-ring.animated.faa-fast,
+.faa-ring.animated-hover.faa-fast:hover,
+.faa-parent.animated-hover:hover > .faa-ring.faa-fast {
+  -webkit-animation: ring 1s ease infinite;
+  animation: ring 1s ease infinite;
+}
+
+.faa-ring.animated.faa-slow,
+.faa-ring.animated-hover.faa-slow:hover,
+.faa-parent.animated-hover:hover > .faa-ring.faa-slow {
+  -webkit-animation: ring 3s ease infinite;
+  animation: ring 3s ease infinite;
+}

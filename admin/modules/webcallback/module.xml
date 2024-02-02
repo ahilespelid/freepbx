@@ -1,0 +1,61 @@
+<module>
+	<rawname>webcallback</rawname>
+	<name>Web Callback</name>
+	<version>15.0.6.3</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/15/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.pdf</licenselink>
+	<repo>commercial</repo>
+	<category>Applications</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. The Web CallBack  module allows you to easily add an HTML call me box
+		to your website. Visitors simply put their phone number in to be connected with you, or a specific destination. The
+		Web Callback module allows you to specify a CID to be prepended
+		which alerts you that the call is coming from a specific callback. You can also set Dial Matches to specify which
+		numbers users are allows to call. Once you have set your
+		destination and saved changes you will be given HTML code to paste into your website. </description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Web+CallBack</more-info>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#web-callback</link>
+	</commercial>
+	<database>
+		<table name="webcallback">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="50" notnull="false"/>
+			<field name="dest" type="string" length="150" notnull="false"/>
+			<field name="cidprepend" type="string" length="25" notnull="false"/>
+			<field name="numprepend" type="string" length="50" notnull="false"/>
+			<field name="accountcode" type="integer" notnull="false"/>
+			<field name="button_attr" type="text" notnull="false"/>
+			<field name="dialpad_attr" type="text" notnull="false"/>
+			<field name="patterns" type="text" notnull="false"/>
+			<field name="error_msg" type="text" notnull="false"/>
+			<field name="valid_msg" type="text" notnull="false"/>
+			<field name="invalid_msg" type="text" notnull="false"/>
+			<field name="icon" type="string" length="25" notnull="false"/>
+		</table>
+	</database>
+	<menuitems>
+		<webcallback needsenginedb="yes">Web Callback</webcallback>
+	</menuitems>
+	<changelog>
+		*15.0.6.3* Packaging of ver 15.0.6.3
+		*15.0.6.2* bump 
+		*15.0.6.1* FREEPBX-19728
+		*15.0.6* fixing legacy restore 
+		*15.0.5* FREEPBX-19391 Java script Issue in web callback module 
+		*15.0.4* FREEPBX-15555 Exception Asterisk is not connected error issue fix 
+		*15.0.3* zending 
+		*15.0.2* Add Backup 15 
+		*15.0.1* Backup 15, Branched 1t 13.0.6
+	</changelog>
+	<depends>
+		<version>13.0.6</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

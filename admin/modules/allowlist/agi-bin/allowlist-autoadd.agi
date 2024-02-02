@@ -1,0 +1,65 @@
+#!/usr/bin/php -q
+<?php
+
+// FreePBX Bootstrap environment
+$restrict_mods = true;
+if (!@include_once(getenv('FREEPBX_CONF') ? getenv('FREEPBX_CONF') : '/etc/freepbx.conf')) {
+	include_once('/etc/asterisk/freepbx.conf');
+}
+
+$FreePBX = FreePBX::Create();
+
+// AGI Class
+$agidir = FreePBX::Config()->get('ASTAGIDIR');
+require_once $agidir."/phpagi.php";
+require_once $agidir."/allowlist-common.php";
+
+$AGI = new AGI();
+
+if (!$AGI || !$FreePBX) {
+	// something went wrong
+	exit;
+}
+
+$AGI->verbose("script starting up");
+
+$dnid = $AGI->request['agi_dnid'];
+
+$res = $AGI->get_variable("DIAL_NUMBER");
+
+if ($res['result'] == 0) {
+	$dial_number = $dnid;
+} else {
+       $dial_number = $res['data'];
+}
+
+$AGI->verbose("initial \$dial_number = \"$dial_number\"");
+$digit_remcount = 0;
+$digit_stocount = 99;
+ 
+// get the number of leading digits to remove and the number of digits to store in the number automatically added to the allowlist
+if ($argc > 2) {
+	$digit_remcount = (int)trim($argv[2]);
+	$digit_stocount = (int)trim($argv[3]);
+}
+
+$AGI->verbose("\$digit_remcount = \"$digit_remcount\"");
+$AGI->verbose("\$digit_stocount = \"$digit_stocount\"");
+
+$dial_number = substr($dial_number,$digit_remcount,$digit_stocount);
+
+$AGI->verbose("searching for final \"$dial_number\" in asterisk database");
+
+if (!(searchAllowList($dial_number) || searchContactManager($dial_number) || searchAsteriskPhonebook($dial_number)) && (strlen($dial_number) != 0)) { // dialed number is not part of any of the allowed numbers so add it if it is not empty
+	$AGI->verbose("adding number to allowlist");
+	$done = $AGI->database_put('allowlist',$dial_number,'automatically added');
+	if ($done['result'] == 0) {
+		$AGI->verbose("could not add $dial_number to allowlist");
+	} else {
+		$AGI->verbose("added $dial_number to allowlist");
+	}
+} else {
+	$AGI->verbose("$dial_number empty or found in asterisk database, not autoadding to allowlist");
+}
+
+$AGI->verbose("scripted completed");

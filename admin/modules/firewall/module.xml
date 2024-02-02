@@ -1,0 +1,158 @@
+<module>
+	<rawname>firewall</rawname>
+	<repo>standard</repo>
+	<name>System Firewall</name>
+	<version>15.0.43</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<category>Connectivity</category>
+	<candisable>no</candisable>
+	<description>Integrated PBX Firewall. Currently works with RHEL 6 and RHEL 7 compatible distributions. Note: This requires the Sysadmin RPM. Please see wiki for further information.</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Firewall</more-info>
+	<changelog>
+		*15.0.43* FREEI-5273 
+		*15.0.42* FREEPBX-23571 firewall blacklist deletion issue fixes 
+		*15.0.41* FREEPBX-23571, FREEI-5002 and FREEI-4869 
+		*15.0.40* FREEI-4870  and FREEI-4869 for GQL API related fixes 
+		*15.0.39* FREEI-4148 Move cron jobs to fwconsole job instead of asterisks crontab 
+		*15.0.38* Packaging of ver 15.0.38
+		*15.0.37* FREEI-4729 
+		*15.0.36* Packaging of ver 15.0.36
+		*15.0.35* FREEPBX-22496 
+		*15.0.34* FREEPBX-22496 and FREEI-2809 
+		*15.0.33* FREEI-4501 Set default firewall zone for XMPP 
+		*15.0.32* FREEPBX-15243 
+		*15.0.31* FREEPBX-23286 
+		*15.0.30* Packaging of ver 15.0.30
+		*15.0.29* Packaging of ver 15.0.29
+		*15.0.28* Packaging of ver 15.0.28
+		*15.0.27* FREEI-4218 Need to unban the IP during whitelist 
+		*15.0.26* bump 
+		*15.0.25.1* FREEPBX-22943 Firewall leaving interface as Trusted
+		*15.0.25* FREEPBX-22933 
+		*15.0.24* Packaging of ver 15.0.24
+		*15.0.23* FREEI-3968 Fixing Fail2ban inconsistent bahaviour 
+		*15.0.22* FREEPBX-22654 Don't use null values for restapi ports 
+		*15.0.21* Bugfix/FREEI-3422 firewall security issue 
+		*15.0.20* FREEPBX-22769 Fail2ban Intrusion Detection Sync Firewall banned trustedIP's 
+		*15.0.19* Packaging of ver 15.0.19
+		*15.0.18* FREEPBX-22653, FREEPBX-22666 and FREEPBX-22674 
+		*15.0.17* Packaging of ver 15.0.17
+		*15.0.16* FREEI-3677 Removing unused argument from get_registered API 
+		*15.0.15* FREEPBX-22654 Don't use disabled as port for restapi 
+		*15.0.14* FREEPBX-22550 NTP/Chrony doesn't respond until configured in firewall 
+		*15.0.13* Packaging of ver 15.0.13
+		*15.0.12* Packaging of ver 15.0.12
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9*    FREEPBX-22588 , FREEPBX-22563, FREEPBX-22561, FREEPBX-22562, FREEPBX-22543 and FREEPBX-22574 
+		*15.0.8.27* FREEI-3244 adding is set on array elements 
+		*15.0.8.26* Packaging of ver 15.0.8.26
+		*15.0.8.25* Fixing FREEI-3517 Chan_sip options displayed in firewall even when chan_sip is disabled 
+		*15.0.8.24* Packaging of ver 15.0.8.24
+		*15.0.8.23* Packaging of ver 15.0.8.23
+		*15.0.8.22* FREEPBX-22543 
+		*15.0.8.21* FREEPBX-21095 
+		*15.0.8.20* FREEPBX-22196 RFW Threshold settings UI fixes 
+		*15.0.8.19* Packaging of ver 15.0.8.19
+		*15.0.8.18* FREEI-3160 
+		*15.0.8.17* FREEI-3242 allowing only internal,external,trusted,other for zone 
+		*15.0.8.16* FREEI-3244 
+		*15.0.8.15* FREEI-3250 validation bug fixes done 
+		*15.0.8.14* FREEI-3232 adding support for nested muations instead of string of objects
+		*15.0.8.13* bump 
+		*15.0.8.12* FREEPBX-22371 
+		*15.0.8.11* FREEI-3145 adding GQL api for whitelisting IP along with utest 
+		*15.0.8.10* FREEPBX-22196 
+		*15.0.8.9* Packaging of ver 15.0.8.9
+		*15.0.8.8* FREEI-2745 Update tool tip for intrusion detection whitelist 
+		*15.0.8.7* FREEI-2675 bug resolved for firewall services class 
+		*15.0.8.6* FREEI-2675 firewall gql api's and utest 
+		*15.0.8.5* FREEPBX-22131 - remove logs secction 
+		*15.0.8.4*  FREEI-2587 
+		*15.0.8.3*  FREEI-2572 
+		*15.0.8.2*  FREEPBX-22105 
+		*15.0.8.1*  FREEI-2481 I.D doesn't not appear when the Firewall is disabled. 
+		*15.0.8*    FREEI-2469 option to legacy from enabled, Registered ext IP's are getting added to whitelist. 
+		*15.0.7*    FREEI-1982 Moving Intrusion detection to firewall
+		*15.0.6.34* Packaging of ver 15.0.6.34
+		*15.0.6.33* FREEPBX-21923 
+		*15.0.6.32* Packaging of ver 15.0.6.32
+		*15.0.6.31* Fixing FREEPBX-21822 
+		*15.0.6.30* Packaging of ver 15.0.6.30
+		*15.0.6.29* Packaging of ver 15.0.6.29
+		*15.0.6.28* Packaging of ver 15.0.6.28
+		*15.0.6.27* Jerrmlerules 
+		*15.0.6.26* Packaging of ver 15.0.6.26
+		*15.0.6.25* FREEPBX-21627: reload firewall rules after enable or disable custom rules. 
+		*15.0.6.24* FREEPBX-21625: Add button for clean log. 
+		*15.0.6.23* FREEPBX-21611 
+		*15.0.6.22* Packaging of ver 15.0.6.22
+		*15.0.6.21* FREEI-1848 Define a good location for tmp and log file for the Firewall module 
+		*15.0.6.20* Packaging of ver 15.0.6.20
+		*15.0.6.19* Packaging of ver 15.0.6.19
+		*15.0.6.18* FREEI-1659 Changing firewall wizard imaging 
+		*15.0.6.17* FREEPBX-21613 Clicking on save rules button in Firewall - Advanced custom rules page without making any changes gives response in some spanish language. 
+		*15.0.6.16* FREEPBX-21612 - Fix: The log list does not show data. 
+		*15.0.6.15* FREEPBX-21612 
+		*15.0.6.14* FREEPBX-21609: Add button only save rules. 
+		*15.0.6.13* FREEPBX-21430 Edit Files Custom Rules and show log firewall
+		*15.0.6.12* FREEI-1428 LetsEncrypt validation may now come from any IP address 
+		*15.0.6.11* bump 
+		*15.0.6.10* FREEPBX-21472: Correct layout 
+		*15.0.6.9* Use SQL prepared statement
+		*15.0.6.8* FREEPBX-21399 Firewall broken after restore from legacy backup onto FreePBX 15
+		*15.0.6.7* FREEPBX-21053 readded backup and restore custom rules with restore hook
+		*15.0.6.6* FREEPBX-21053 reverting backup and restore custom rules to previous state
+		*15.0.6.5* FREEPBX-21053, backup and restore custom rules 
+		*15.0.6.4* FREEI-958 kvblobstore fetch added 
+		*15.0.6.3* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.6.2* FREEPBX-18511 - Add networks from cli.
+		*15.0.6.1* Fine tune TCP ratelimiting
+		*15.0.6* Fix jiffies being inaccesable in newer containers
+		*15.0.5* FREEPBX-19933 Firewall submenu missing on mobile devices/ narrow screens
+		*15.0.4* Use lazy loading console commands
+		*15.0.3* fixing legacy restore
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Impliment Backup 15
+	</changelog>
+	<depends>
+		<file>/usr/lib/sysadmin/includes.php</file>
+		<module>sipsettings ge 13.0.23.1</module>
+		<module>manager ge 13.0.2.5</module>
+		<module>sysadmin ge 15.0.21.3</module>
+		<version>15.0.6.18</version>
+	</depends>
+	<menuitems>
+		<firewall>Firewall</firewall>
+	</menuitems>
+	<location>compatibility</location>
+	<md5sum>compatibility</md5sum>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>firewall</name>
+		</command>
+	</console>
+	<hooks>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Firewall" namespace="FreePBX\modules">dashboardService</method>
+		</dashboard>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Firewall" namespace="FreePBX\modules">startFirewall</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Firewall" namespace="FreePBX\modules">stopFirewall</method>
+		</framework>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Firewall" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<Backup class="Backup" namespace="FreePBX\modules">
+			<method callingMethod="postrestoreModulehook" class="Firewall" namespace="FreePBX\modules">postrestorehook</method>
+		</Backup>
+	</hooks>
+	<oobe method="oobeHook" priority="200"/>
+</module>

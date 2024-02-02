@@ -1,0 +1,544 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for vmnotify
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-08 07:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 Hr."
+msgstr ""
+
+msgid "1 Min."
+msgstr ""
+
+msgid "10 Hr."
+msgstr ""
+
+msgid "10 Min."
+msgstr ""
+
+msgid "11 Hr."
+msgstr ""
+
+msgid "12 Hr."
+msgstr ""
+
+msgid "13 Hr."
+msgstr ""
+
+msgid "14 Hr."
+msgstr ""
+
+msgid "15 Hr."
+msgstr ""
+
+msgid "15 Min."
+msgstr ""
+
+msgid "16 Hr."
+msgstr ""
+
+msgid "17 Hr."
+msgstr ""
+
+msgid "18 Hr."
+msgstr ""
+
+msgid "19 Hr."
+msgstr ""
+
+msgid "2 Hr."
+msgstr ""
+
+msgid "2 Min."
+msgstr ""
+
+msgid "20 Hr."
+msgstr ""
+
+msgid "20 Min."
+msgstr ""
+
+msgid "21 Hr."
+msgstr ""
+
+msgid "22 Hr."
+msgstr ""
+
+msgid "23 Hr."
+msgstr ""
+
+msgid "24 Hr."
+msgstr ""
+
+msgid "25 Min."
+msgstr ""
+
+msgid "3 Hr."
+msgstr ""
+
+msgid "3 Min."
+msgstr ""
+
+msgid "30 Min."
+msgstr ""
+
+msgid "35 Min."
+msgstr ""
+
+msgid "4 Hr."
+msgstr ""
+
+msgid "4 Min."
+msgstr ""
+
+msgid "40 Min."
+msgstr ""
+
+msgid "45 Min."
+msgstr ""
+
+msgid "5 Hr."
+msgstr ""
+
+msgid "5 Min."
+msgstr ""
+
+msgid "50 Min."
+msgstr ""
+
+msgid "55 Min."
+msgstr ""
+
+msgid "6 Hr."
+msgstr ""
+
+msgid "6 Min."
+msgstr ""
+
+msgid "7 Hr."
+msgstr ""
+
+msgid "7 Min."
+msgstr ""
+
+msgid "8 Hr."
+msgstr ""
+
+msgid "8 Min."
+msgstr ""
+
+msgid "9 Hr."
+msgstr ""
+
+msgid "9 Min."
+msgstr ""
+
+msgid ""
+"A comma-separated list of email addresses to notify when a notification is "
+"accepted successfully."
+msgstr ""
+
+msgid ""
+"A comma-separated list of email addresses to notify when a notification "
+"times out."
+msgstr ""
+
+msgid ""
+"A new voicemail notification was sent from\n"
+"mailbox {{MAILBOX}} on {{TIME}}.\n"
+"\n"
+"-----------------------------------------\n"
+"\t\t\t\t\tNotification Details:\n"
+"-----------------------------------------\n"
+"\n"
+"Status:          {{STATUS}}\n"
+"Message CID:     {{CALLERID}}\n"
+"Length:          {{LENGTH}} seconds\n"
+"Accepted By:     {{ACCEPTEDBY}}\n"
+"Notification ID: {{ID}}\n"
+"Number Retries:  {{RETRY}}\n"
+"Final Priority:  {{PRIORITY}}\n"
+"\n"
+"-----------------------------------------\n"
+"\t\t\t\t\t Notification Log:\n"
+"-----------------------------------------\n"
+"{{LOG}}\n"
+"\n"
+"\t\t"
+msgstr ""
+
+msgid ""
+"A new voicemail notification was sent from\n"
+"mailbox {{MAILBOX}} on {{TIME}}.\n"
+"\n"
+"-----------------------------------------\n"
+"        Notification Details:\n"
+"-----------------------------------------\n"
+"\n"
+"Status:          {{STATUS}}\n"
+"Message CID:     {{CALLERID}}\n"
+"Length:          {{LENGTH}} seconds\n"
+"Accepted By:     {{ACCEPTEDBY}}\n"
+"Notification ID: {{ID}}\n"
+"Number Retries:  {{RETRY}}\n"
+"Final Priority:  {{PRIORITY}}\n"
+"\n"
+"-----------------------------------------\n"
+"         Notification Log:\n"
+"-----------------------------------------\n"
+"{{LOG}}\n"
+"\n"
+"  "
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Notification"
+msgstr ""
+
+msgid "Add Voicemail Notify"
+msgstr ""
+
+msgid "Allow Voicemail Notify"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid ""
+"Available Variables:<br />\n"
+"<br />\n"
+"{{STATUS}} - Either FAILED or SUCCESSFUL depending on if the notification "
+"was accepted or timed out.<br />\n"
+"{{CALLERID}} - The caller ID of the person who left the message.<br />\n"
+"{{MAILBOX}}  - The mailbox number the voicemail was left in.<br />\n"
+"{{TIME}}  - The date and time the message was left.<br />\n"
+"{{LENGTH}} - The length of the message in seconds.<br />\n"
+"{{ACCEPTEDBY}} - The phone number that accepted the call.<br />\n"
+"{{ID}} - The unique notification ID.  This can be used to prevent email "
+"clients from grouping unrelated messages by subject.<br />\n"
+"{{RETRY}} - The retry number the call reached before being accepted or  "
+"timing out.  This will be 0 if it was accepted on the first attempt.<br />\n"
+"{{PRIORITY}} - The last priority level the call reached before it was "
+"accepted or timed out."
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. You can configure a "
+"new Voicemail Notification to\t\tmonitor a mailbox for new messages. When a "
+"new message is left in that mailbox the system will call the recipients\t"
+"\tlisted below until one of them accepts responsibility for\t\tthe message. "
+"All numbers in the first priority will be called simultaneously, then if "
+"nobody has accepted the message\t\tit will continue to call all recipients "
+"in the next\t\thigher priority until it runs out of priorities to call. It "
+"will then retry the entire list if configured to do so."
+msgstr ""
+
+msgid "Caller ID Name"
+msgstr ""
+
+msgid "Choose the mailbox to monitor"
+msgstr ""
+
+msgid ""
+"Choose the way outbound Caller ID will be handled.  <br /><br /><b>Default:</"
+"b> Transmits the Caller ID provided if allowed by the trunk.<br /><b>Fixed:</"
+"b> Force the value provided below even on trunks with a Caller ID set.<br /"
+"><b>Mailbox:</b> Use the mailbox number if allowed by the outbound trunk<br /"
+"><b>Force Mailbox:</b> Forces the mailbox Caller ID even if the trunk has an "
+"outbound Caller ID value set."
+msgstr ""
+
+#, php-format
+msgid "Could not delete message id %s for mailbox %s"
+msgstr ""
+
+#, php-format
+msgid "Could not move message id %s to /Old for mailbox %s"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Original Message"
+msgstr ""
+
+#, php-format
+msgid "Deleted id %s for mailbox %s"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Email Attach"
+msgstr ""
+
+msgid "Email Body"
+msgstr ""
+
+msgid "Email Fail"
+msgstr ""
+
+msgid "Email From"
+msgstr ""
+
+msgid "Email Subject"
+msgstr ""
+
+msgid "Email Success"
+msgstr ""
+
+msgid "Enable VMNotify Settings"
+msgstr ""
+
+msgid "Enable the voicemail notification for this extensions voicemail box"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Failed to update VMNotify"
+msgstr ""
+
+msgid "Failed to update VMNotify recipients"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Fixed Caller ID"
+msgstr ""
+
+msgid "Force Mailbox"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Initial Greeting"
+msgstr ""
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Invalid Setting Type"
+msgstr ""
+
+msgid "List Notification(s)"
+msgstr ""
+
+msgid "List Voicemail Notify"
+msgstr ""
+
+msgid "Mailbox"
+msgstr ""
+
+#, php-format
+msgid "Moved id %s to /Old for mailbox %s"
+msgstr ""
+
+msgid "New Notification"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Outbound CID Mode"
+msgstr ""
+
+msgid "Priority Delay"
+msgstr ""
+
+msgid ""
+"Provide a list of numbers to call, one per line, followed by an  optional "
+"priority number.  If a priority is provided, all numbers in  that priority "
+"will be called simultaneously, then the next higher, until  the message is "
+"accepted.  Below is an example of the format:<br />5551211, 0<br />5551212, "
+"1<br />5551213, 1<br />5551214, 2<br /> 5551215, 3"
+msgstr ""
+
+msgid ""
+"Provide a list of numbers to call, one per line, followed by an  optional "
+"priority number.  If a priority is provided, all numbers in  that priority "
+"will be called simultaneously, then the next higher, until  the message is "
+"accepted.  Below is an example of the format:<br />5551212, 1<br />5551213, "
+"1<br />5551214, 2<br /> 5551215, 3"
+msgstr ""
+
+msgid ""
+"Provide the outbound caller ID value you would like to use if necessary."
+msgstr ""
+
+msgid "Read Only"
+msgstr ""
+
+msgid "Recipients"
+msgstr ""
+
+#, php-format
+msgid "Recipients for %s have been updated"
+msgstr ""
+
+msgid "Remove Vm Notify file which older then 2 weeks "
+msgstr ""
+
+msgid "Removing Data older than 14 days from vmnotify"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Retry Count"
+msgstr ""
+
+msgid "Retry Delay"
+msgstr ""
+
+msgid "Select a Mailbox"
+msgstr ""
+
+msgid "Select a mailbox"
+msgstr ""
+
+msgid ""
+"Select the custom System Recording you would like to play instead of the "
+"default Greeting &quot;You have a new voicemail in mailbox ... &quot;<br /> "
+"Note that the mailbox name (if available), or number will immediately follow "
+"this message."
+msgstr ""
+
+msgid ""
+"Select the custom System Recording you would like to play instead of the "
+"default Instructions<br /> Make sure to include the options: 1 - Listen, 2 - "
+"Decline, 3 - Hear Caller ID"
+msgstr ""
+
+msgid "Select whether this notification is enabled or not."
+msgstr ""
+
+msgid ""
+"Select whether you would like the voicemail message attached to the email as "
+"a wav file."
+msgstr ""
+
+msgid ""
+"Set how long you want the system to wait after calling all of the recipients "
+"in the list before retrying."
+msgstr ""
+
+msgid ""
+"Set how long you want the system to wait after calling the recipients in a "
+"priority before trying the next priority."
+msgstr ""
+
+msgid ""
+"Set how many times you want the system to retry calling all of the "
+"recipients in the list before giving up."
+msgstr ""
+
+msgid ""
+"Should the system delete the original message. If no the message will be "
+"moved to 'Old'"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid ""
+"The email address you want the notification status emails to appear  to come "
+"from.  Keep in mind this may need to be a real email box, and  the address "
+"of this server may need to be added to your SPF records to  ensure delivery "
+"of the emails."
+msgstr ""
+
+msgid ""
+"The email body can contain any of the variables from the subject plus the "
+"following:<br />\n"
+"{{LOG}} - This will be replaced with a log of all the calls related to this "
+"notification."
+msgstr ""
+
+msgid "VM Notify"
+msgstr ""
+
+#, php-format
+msgid "VM Notify for %s"
+msgstr ""
+
+#, php-format
+msgid "VMNotify for %s has been %s"
+msgstr ""
+
+msgid "Voicemail"
+msgstr ""
+
+msgid "Voicemail Notification"
+msgstr ""
+
+msgid "Voicemail Notifications"
+msgstr ""
+
+msgid "Voicemail Notify this user can manage"
+msgstr ""
+
+msgid "Voicemail notification"
+msgstr ""
+
+msgid "Whether to allow this user to manage vmnotify on assigned extensions."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You can configure a new Voicemail Notification to monitor a mailbox for  new "
+"messages.  When a new message is left in that mailbox the system  will call "
+"the recipients listed below until one of them accepts  responsibility for "
+"the message.  All numbers in the first priority will  be called "
+"simultaneously, then if nobody has accepted the message it  will continue to "
+"call all recipients in the next higher priority until  it runs out of "
+"priorities to call.  It will then retry the entire list  if configured to do "
+"so."
+msgstr ""
+
+msgid ""
+"You can optionally configure the system to notify you when a  notification "
+"is complete.  To enable this function provide one or more addresses below, "
+"separated by commas.  You can also customize the  message subject and body "
+"using the variables listed in the roll-over help.  Keep in mind that the "
+"system will delete the email from the monitored mailbox when the "
+"notification is sent out, so attaching the voicemail may be necessary."
+msgstr ""
+
+msgid ""
+"You can provide a custom caller ID name that will display when the recipient "
+"is an internal extension.  If you leave the field blank it will default to "
+"'VMNFY-&lt;MailboxName&gt;'."
+msgstr ""
+
+msgid "{{STATUS}} voicemail notification from {{MAILBOX}} --- [{{ID}}]"
+msgstr ""

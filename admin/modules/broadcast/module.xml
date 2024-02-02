@@ -1,0 +1,84 @@
+<module>
+	<rawname>broadcast</rawname>
+	<name>Broadcast</name>
+	<version>15.0.21</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  The Broadcast module for FreePBX allows you to broadcast messages
+	to your custoemrs or clients.  You can create campaings and set start and end times.  From their you can direct where you want the call to be directed to based on if a humna being
+	or a answering machine answer the call.  Upload your CDS list of names and numbers and start your campaign.  You can also choose to get reports on your campaign daily or after the
+	campaign completes.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Broadcast+XactDialer</more-info>
+	<repo>commercial</repo>
+	<category>Applications</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#xact</link>
+  	</commercial>
+	<menuitems>
+		<broadcast>Broadcast</broadcast>
+	</menuitems>
+	<database>
+		<table name="broadcast_campaign_groups">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="campaign_id" type="integer"/>
+			<field name="group_id" type="integer"/>
+		</table>
+		<table name="broadcast_settings">
+    		<field name="concurrent_calls" type="integer" default="0"/>
+    		<field name="maximum_retry" type="integer" default="0"/>
+    		<field name="from_email" type="string" length="255" default=""/>
+			<field name="retrytime" type="integer" default="30"/>
+			<field name="waittime" type="integer" default="30"/>
+ 		</table>
+  		<table name="broadcast_callees">
+    		<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+    		<field name="name" type="string" length="40" default=""/>
+    		<field name="phonenum" type="string" length="20" default=""/>
+    		<field name="group_id" type="integer" default="0"/>
+    		<key name="phonenum" type="index">
+      			<column name="phonenum"/>
+    		</key>
+    		<key name="name" type="index">
+    			<column name="name"/>
+    		</key>
+    		<key name="broadcast_callees_group_id" type="index">
+    			<column name="group_id"/>
+    		</key>
+		</table>		 
+	</database>
+	<depends>
+    	<phpcomponent>Zend Guard Loader</phpcomponent>
+    	<phpversion>5.6.0</phpversion>
+    	<module>sysadmin ge 2.11.0.50</module>
+	</depends>
+	<changelog>
+		*15.0.21* Packaging of ver 15.0.21
+		*15.0.20* FREEPBX-23599 bugfixes 
+		*15.0.19* FREEPBX-23599 broadcast module apis and utests 
+		*15.0.18* FREEI-4641 fixed line mismatch issue due to hebrew text in broadcast report's downloaded csv file 
+		*15.0.17* FREEI-4424 Issue displaying the callerid name in Hebrew 
+		*15.0.16* FREEI-4488 Broadcast - Not making calls from remote CSV file 
+		*15.0.15* FREEI-4418 Broadcast error tmpimport.log file 
+		*15.0.14* FREEI-3976 Broadcast Module 30 second limit 
+		*15.0.13* Packaging of ver 15.0.13
+		*15.0.12* FREEI-913 Fix XSS Bootstrap Datatable Issues 
+		*15.0.11* bump 
+		*15.0.9* fixing legacy restore 
+		*15.0.8* fixing legacy restore 
+		*15.0.7* FREEPBX-15207 duplicate Call Group Name 
+		*15.0.6* FREEPBX-15207 Able to create duplicate entries under Broadcast 
+		*15.0.5* New backup and restore for 15.0 
+		*15.0.4* Implementation of legacy restore.
+		*15.0.3* Improve/FREEPBX-17703 
+		*15.0.2* FREEPBX-17580 Broadcast concurrent calls by campaign off by 1 and Both CC settings permit the user to enter negative values and 0 which should probably be blocked. 
+		*15.0.1* New backup
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<methods>
+		<get_config pri="700">broadcast_get_config</get_config>
+	</methods>
+</module>

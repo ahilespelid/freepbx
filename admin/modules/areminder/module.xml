@@ -1,0 +1,154 @@
+<module>
+	<rawname>areminder</rawname>
+	<name>Appointment Reminder</name>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Appointment Reminder module for FreePBX is a unique way to automate
+	appointment confirmations, cancellations and reschedules. By simply specifying numbers and names to be called your PBX will automatically call at specified times and allow
+	recipients to confirm / cancel / reschedule appointments. The module gives you the flexibility to control all details of the calls from rate limiting to retry attempts and days
+	ahead to notify of an appointment. You have the ability to simply load a CSV list of numbers to call, or even add numbers and names manually. On the fly modifications can be
+	made to any Appointment Reminder list to allow for total flexibility. </description>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/15/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.pdf</licenselink>
+	<repo>commercial</repo>
+	<version>15.0.14.27</version>
+	<category>Applications</category>
+	<more-info>https://wiki.freepbx.org/display/FPG/Appointment+Reminder</more-info>
+	<menuitems>
+		<areminder needsenginedb="yes">Appointment Reminder</areminder>
+	</menuitems>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#appointment-reminder</link>
+	</commercial>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>ttsengines ge 2.10.0</module>
+		<version>15.0.1alpha2</version>
+	</depends>
+	<info/>
+	<changelog>
+		*15.0.14.27* FREEI-3757 Fixed statistics percentage formula 
+		*15.0.14.26* FREEI-964 fixe code for 15. 
+		*15.0.14.25* FREEI-964 
+		*15.0.14.24* FREEI-2005 Backup&amp;amp;Restore from Freepbx 15 to 15, not restores Appointment reminder setting 
+		*15.0.14.23* Packaging of ver 15.0.14.23
+		*15.0.14.22* Fixing FREEI-1318 - Order By with PDO Bind statement was not working. 
+		*15.0.14.21* FREEI-1364 Store null when deselecting all areminders from UCP 
+		*15.0.14.20* bump 
+		*15.0.14.19* FREEI-1308 Getting SQL error while adding Appointment remainder entry when there is no TTS engine present in the server. 
+		*15.0.14.18* FREEPBX-20911 Legacy restore failed with areminder installed 
+		*15.0.14.17* FREEI-973 uninstalling areminder throws error on first attempt , second completes 
+		*15.0.14.16* FREEI-890 Fix XSS Bootstrap Datatable Issues 
+		*15.0.14.15* bump 
+		*15.0.14.14* FREEPBX-20246 Getting SQL error while restoring the Appointment Reminder 
+		*15.0.14.13* FREEI-587 Update Appointment Reminders to use FreePBX Job Scheduler 
+		*15.0.14.12* FREEI-587 - move cron to freepbx job scheduler 
+		*15.0.14.11* FREEPBX-19408 Need Appointment Reminder 
+		*15.0.14.10* FREEPBX-19408 Need Appointment Reminder not to pronounce 'Seconds' 
+		*15.0.14.9* FREEPBX-19408 Need Appointment Reminder not to pronounce 'Seconds' 
+		*15.0.14.8* FREEPBX-19727 
+		*15.0.14.7* FREEPBX-19577 
+		*15.0.14.6* FREEPBX-19384 
+		*15.0.14.5* Fixing FREEPBX-19596 
+		*15.0.14.4* Fixing FREEPBx-18328 
+		*15.0.14.3* FREEI-395 Polly TTS Engine change in Appt. Reminder Module not working issue fix 
+		*15.0.14.2* fixing legacy restore 
+		*15.0.14.1* Fix legacy restore
+		*15.0.14* FREEPBX-19383  Delete After Importing fields are not updating under appointment 
+		*15.0.13* FREEPBX-19408 Need Appointment Reminder not to pronounce 'Seconds' 
+		*15.0.12* backup and restore 
+		*15.0.11* FREEPBX-18997 Add outbound RTP before AMD in Apt reminder 
+		*15.0.10* FREEPBX-19000 Appointment Reminders playback english files instead of system def language 
+		*15.0.8* New backup and restore for 15.0 
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* FREEPBX-17215 Allow Answering Machine Detection (AMD) in Appointment Reminder 
+		*15.0.5* FREEPBX-15545 Exception Asterisk is not connected
+		*15.0.4* FREEPBX-17800 Fix issues with newer MySQL and MariaDB
+		*15.0.3* FREEPBX-15545 Exception Asterisk is not connected
+		*15.0.2* FREEPBX-17576 Apostrophe in Name is replaced with &amp;amp;#039; when importing list from file
+		*15.0.1* Implement 15 backup.
+	</changelog>
+	<hooks>
+		<ucp class="Ucp">
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="constructModuleConfigPages">ucpConfigPage</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="addUser">ucpAddUser</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="updateUser">ucpUpdateUser</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="delUser">ucpDelUser</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="addGroup">ucpAddGroup</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method namespace="FreePBX\Modules" class="Areminder" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method class="Areminder" namespace="FreePBX\modules" callingMethod="getModuleLicenseInformation">sendModuleLicenseInformation</method>
+		</sysadmin>
+	</hooks>
+	<database>
+		<table name="areminder">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="64" default=""/>
+			<field name="enabled" type="boolean" default="1" unsigned="true"/>
+			<field name="start1" type="integer" default="0"/>
+			<field name="start2" type="integer" default="0"/>
+			<field name="start3" type="integer" default="0"/>
+			<field name="start4" type="integer" default="0"/>
+			<field name="start5" type="integer" default="0"/>
+			<field name="start6" type="integer" default="0"/>
+			<field name="start7" type="integer" default="0"/>
+			<field name="stop1" type="integer" default="0"/>
+			<field name="stop2" type="integer" default="0"/>
+			<field name="stop3" type="integer" default="0"/>
+			<field name="stop4" type="integer" default="0"/>
+			<field name="stop5" type="integer" default="0"/>
+			<field name="stop6" type="integer" default="0"/>
+			<field name="stop7" type="integer" default="0"/>
+			<field name="outcid" type="string" length="56" default=""/>
+			<field name="outcidname" type="string" length="56" default=""/>
+			<field name="cidtype" type="string" length="24" default="default"/>
+			<field name="maxnotice" type="integer" default="0" unsigned="true"/>
+			<field name="retrycount" type="smallint" default="3" unsigned="true"/>
+			<field name="retrydelay" type="smallint" default="300" unsigned="true"/>
+			<field name="greetingid" type="smallint" default="0" unsigned="true"/>
+			<field name="greeting2id" type="smallint" default="0" unsigned="true"/>
+			<field name="sayname" type="boolean" default="1" unsigned="true"/>
+			<field name="saydate" type="boolean" default="1" unsigned="true"/>
+			<field name="instructionsid" type="smallint" default="0" unsigned="true"/>
+			<field name="csext" type="string" length="64" default=""/>
+			<field name="resched" type="string" length="4" default="LOG"/>
+			<field name="schedext" type="string" length="64" default=""/>
+			<field name="ttsengine" type="integer" default="1"/>
+			<field name="emailcomplete" type="text"/>
+			<field name="emailfrom" type="text"/>
+			<field name="attachas" type="string" length="4" default="CSV"/>
+			<field name="lastemail" type="integer" default="0" unsigned="true"/>
+		</table>
+		  <table name="areminder_calls">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="arid" type="integer" default="0" unsigned="true"/>
+			<field name="name" type="string" length="64" default=""/>
+			<field name="number" type="string" length="24" default=""/>
+			<field name="status" type="boolean" default="0"/>
+			<field name="retry" type="integer" default="0"/>
+			<field name="appointment" type="integer" default="0" unsigned="true" notnull="false"/>
+			<field name="calltime" type="integer" default="0" unsigned="true" notnull="false"/>
+			<field name="length" type="integer" default="0" unsigned="true"/>
+			<field name="notes" type="string" length="512" notnull="false"/>
+		</table>
+		<table name="areminder_settings">
+			<field name="id" type="integer" unsigned="true" primarykey="true" autoincrement="true"/>
+			<field name="key" type="string" length="64" default=""/>
+			<field name="value" type="string" length="64" default=""/>
+		</table>
+		<table name="areminder_updates">
+			<field name="id" type="integer" unsigned="true"/>
+			<field name="uri" type="string" length="64" default=""/>
+			<field name="delete" type="boolean" default="0" notnull="false"/>
+			<field name="update" type="integer" default="300"/>
+			<field name="lastupdate" type="integer" default="0" unsigned="true" notnull="false"/>
+		</table>
+	</database>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

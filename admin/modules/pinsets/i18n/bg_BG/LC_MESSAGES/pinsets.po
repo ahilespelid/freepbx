@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX v2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-14 19:39-0400\n"
+"PO-Revision-Date: 2014-07-22 12:37+0200\n"
+"Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
+"Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/pinsets/bg/"
+">\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.10-dev\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: views/grid.php:24
+msgid "Actions"
+msgstr ""
+
+#: views/bootnav.php:2
+msgid "Add PIN Sets"
+msgstr ""
+
+#: pinsets.i18n.php:8
+msgid ""
+"Allow creation of lists of PINs (numbers for passwords) that can be used by "
+"other modules (eg, trunks)."
+msgstr ""
+"Позволява създаването на списък с PIN-ове (номера за пароли) които могат да "
+"се използват от други модули (например външни линии)."
+
+#: Pinsets.class.php:51
+msgid "Delete"
+msgstr ""
+
+#: views/form.php:16
+msgid "Edit PIN Set"
+msgstr "Редактирай PIN Въвеждане"
+
+#: views/form.php:92
+msgid "Enter a list of one or more PINs.  One PIN per line."
+msgstr "Въведете списък от един или повече PIN кода. Един PIN на ред."
+
+#: views/bootnav.php:1
+msgid "List PIN Sets"
+msgstr ""
+
+#: views/form.php:16
+msgid "New PIN Set"
+msgstr "Ново PIN Въвеждане"
+
+#: views/form.php:60
+msgid "No"
+msgstr ""
+
+#: functions.inc.php:242
+msgid "None"
+msgstr "Няма"
+
+#: functions.inc.php:258
+msgid ""
+"Optional: Select a PIN set to use. If using this option, leave the Route "
+"Password field blank."
+msgstr ""
+"Незадължително: Изберете PIN Въвеждане за използване. Ако използвате тази "
+"опция, оставете полето Парола на Маршрут празно."
+
+#: views/form.php:80
+msgid "PIN List"
+msgstr ""
+
+#: functions.inc.php:237 views/grid.php:23
+msgid "PIN Set"
+msgstr "PIN Въвеждане"
+
+#: views/form.php:29
+msgid "PIN Set Description"
+msgstr ""
+
+#: pinsets.i18n.php:4 pinsets.i18n.php:10
+msgid "PIN Sets"
+msgstr "PIN Въвеждания"
+
+#: page.pinsets.php:6
+msgid ""
+"PIN Sets are used to manage lists of PINs that can be used to access "
+"restricted features such as Outbound Routes. The PIN can also be added to "
+"the CDR record's 'accountcode' field."
+msgstr ""
+"PIN Въвежданията се използват да управлявате списъка с PIN-ове, които могат "
+"да се използват за ограничаване на функции като Изходящи Маршрути. Също така "
+"PIN може да се добави в CDR записите в полето 'акаунт код'."
+
+#: page.pinsets.php:7
+msgid "Pin Sets"
+msgstr ""
+
+#: views/form.php:41
+msgid "Please enter a description for this pinset"
+msgstr ""
+
+#: assets/js/pinsets.js:9
+msgid "Please enter a valid Description"
+msgstr "Моля въведете правилно Описание"
+
+#: views/form.php:53
+msgid "Record In CDR"
+msgstr ""
+
+#: Pinsets.class.php:56
+msgid "Reset"
+msgstr ""
+
+#: views/form.php:68
+msgid ""
+"Select Yes, if you would like to record the PIN in the call detail records "
+"when used"
+msgstr ""
+
+#: pinsets.i18n.php:6 pinsets.i18n.php:12
+msgid "Settings"
+msgstr "Настройки"
+
+#: Pinsets.class.php:61
+msgid "Submit"
+msgstr ""
+
+#: functions.inc.php:128 functions.inc.php:137
+msgid "Unnamed"
+msgstr "Без име"
+
+#: views/form.php:58
+msgid "Yes"
+msgstr ""
+
+#: install.php:99
+msgid "already done"
+msgstr "вече е направено"
+
+#: install.php:30
+msgid "checking if migration required.."
+msgstr "проверка дали има нужда от преместване.."
+
+#: install.php:73
+msgid "continuing.."
+msgstr "продължаване.."
+
+#: install.php:86
+msgid "done"
+msgstr "изпълнено"
+
+#: install.php:88
+msgid "dropping used_by field.."
+msgstr "изтриване на поле used_by.."
+
+#: install.php:34
+msgid "migrating.."
+msgstr "преместване.."
+
+#: install.php:44
+msgid "migration aborted"
+msgstr "преместването е прекратено"
+
+#: install.php:92
+msgid "no used_by field???"
+msgstr "няма поле used_by???"
+
+#: install.php:94
+msgid "ok"
+msgstr "ok"
+
+#: install.php:43
+msgid "unknown error fetching table data"
+msgstr "непозната грешка при извличане на данни от таблицата"
+
+#~ msgid "Add PIN Set"
+#~ msgstr "Добави PIN Въвеждане"
+
+#~ msgid "Delete PIN Set"
+#~ msgstr "Изтрий PIN Въвеждане"
+
+#~ msgid "PIN List:"
+#~ msgstr "PIN Лист:"
+
+#~ msgid "PIN Set "
+#~ msgstr "PIN Въвеждане "
+
+#~ msgid "PIN Set Description:"
+#~ msgstr "Описание на PIN Въвеждане:"
+
+#~ msgid "PIN Set:"
+#~ msgstr "PIN Въвеждане:"
+
+#~ msgid "Record In CDR?:"
+#~ msgstr "Запис в CDR?:"
+
+#~ msgid ""
+#~ "Select this box if you would like to record the PIN in the call detail "
+#~ "records when used"
+#~ msgstr ""
+#~ "Маркирайте ако искате да записвате PIN-а в детайлни отчети на разговорите "
+#~ "ако се използва"
+
+#~ msgid "Submit Changes"
+#~ msgstr "Приеми Промените"
+
+#~ msgid "deleted"
+#~ msgstr "изтрит"
+
+#~ msgid "Add Password Set"
+#~ msgstr "Добави Въвеждане на Парола"

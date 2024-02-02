@@ -1,0 +1,77 @@
+module.exports = {
+    environment: process.env.NODE_ENV || 'development',
+    // keep alive set to 1 minute on incoming requests
+    keepAliveInterval: 60000,
+    knex: {
+        debug: false,
+        client: 'mysql',
+        connection: {
+            host: process.env.MYSQL_HOST || '127.0.0.1',
+            user: process.env.MYSQL_USER || 'sangoma',
+            password: process.env.MYSQL_PASSWORD || 'sangomaftw!',
+            database: process.env.MYSQL_DATABASE || 'iot',
+            charset: 'utf8mb4',
+        },
+        pool: { min: 1, max: 10 },
+    },
+    log: {
+        level: 'debug',
+        logUncaughtException: false,
+        pretty: true,
+        verboseEvents: false,
+        path: '/var/log/asterisk/iot-server.log',
+    },
+    iot: {
+
+        cloud: {
+            connection: {host: 'sr.iot.sangoma.tech', ssl: true, port: 443 },
+            base_path: '/etcd-v3',
+        },
+
+        udp_port_range: '10000:60000',
+        default_org_id: '8736421e-6b51-41fb-bebe-c37351642acd',
+
+        weather_service: {
+
+            url: 'api.openweathermap.org/data/2.5',
+            api_key: 'a7c1ab62607366ed0ccf0aa22d5b09b8'
+        },
+
+        providers: [
+            /*{
+                name: 'jilia',
+                base_url: 'api.jilia.io/v1',
+                authentication: {username: 'eAooANNAizjHAriWI5YmpYKBrwcI6AN1', password: 'El71K7CO2BhxgEcL'}
+            },*/
+
+            {
+                name: 'cyberdata',
+            },
+
+            {
+                name: 'develco',
+                base_url: 'ssapi',
+                //templates: {storage: 'local', path:'/usr/local/iot-server/config/develco'}
+
+            },
+
+            {
+                name: 'simulator',
+                base_url: '127.0.0.1:8090/v1',
+                authentication: {username: 'sangoma', password: 'sangoma'}
+            }
+        ],
+    },
+    zulu: {
+         api: { port: 80, ssl: false }, 
+         asterisk: { port: 8089, ssl: true },
+         port:3443,
+    },
+    client:{
+        //uuid:'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    },
+    port: 3000,
+    host: '127.0.0.1',
+    // name of this service to use when the source of an error is not an upstream service
+    sourceService: 'iot-server',
+};

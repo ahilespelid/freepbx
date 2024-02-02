@@ -1,0 +1,30 @@
+#!/bin/bash
+cat <<- EOF > /etc/logrotate.d/sangomaconnect
+/var/log/asterisk/sangomaconnect.log  {
+	daily
+	missingok
+	notifempty
+	dateext
+	sharedscripts
+	dateformat -%d%m%Y
+	rotate 10
+	size 50M
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+	postrotate
+		/usr/sbin/fwconsole pm2 --reload-logs -q
+	endscript
+}
+
+/var/log/asterisk/sangomaconnect_SCD_hook.log {
+	size 50M
+	missingok
+	rotate 5
+	dateext
+	notifempty
+	sharedscripts
+	create 0664 asterisk asterisk
+	su asterisk asterisk
+}
+
+EOF

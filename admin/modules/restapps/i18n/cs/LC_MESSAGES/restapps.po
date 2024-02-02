@@ -1,0 +1,1456 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for restapps
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-18 04:21+0000\n"
+"PO-Revision-Date: 2018-09-04 11:48+0000\n"
+"Last-Translator: Petr Varvarovsky <petrv@atlantis.cz>\n"
+"Language-Team: Czech <http://*/projects/fpbxc/restapps/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%d secs"
+msgstr "%d sek"
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+#, php-format
+msgid "%s = %s"
+msgstr ""
+
+#, php-format
+msgid "%s call(s) done."
+msgstr ""
+
+#, php-format
+msgid "%s has %d %s."
+msgstr ""
+
+#, php-format
+msgid "%s has no message."
+msgstr ""
+
+#, php-format
+msgid "%s is not authorized in the Phone Apps module for extension %s."
+msgstr "%s není autorizován v modulu Phone Apps pro pobočku %s."
+
+#, php-format
+msgid "%s is not enabled for extension %s."
+msgstr "%s není povoleno pro pobočku %s."
+
+#, php-format
+msgid "(%s) - %s "
+msgstr ""
+
+#, php-format
+msgid "(F%d) %s = %s"
+msgstr ""
+
+msgid "(Un)Mute"
+msgstr "Ztlumit"
+
+msgid "(Un)Pause"
+msgstr "Pauza"
+
+msgid "A-Z"
+msgstr "A-Z"
+
+#, php-format
+msgid "Abandoned: %s"
+msgstr "Opuštěno: %s"
+
+msgid "Above"
+msgstr "Výše"
+
+msgid "Access denied"
+msgstr "Přístup zamítnut"
+
+msgid "Active"
+msgstr "Aktivní"
+
+msgid "Add New"
+msgstr "Přidat nový"
+
+msgid "Additional Voicemail Boxes"
+msgstr "Další hlasové schránky"
+
+msgid ""
+"Additional Voicemail Boxes functionality will not work with Sangoma's D/P "
+"series phones which are configured with DPMA."
+msgstr ""
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin login override"
+msgstr "Přepsání administrátora"
+
+msgid ""
+"Admin override is required for this extension. Please enter administrator "
+"password instead."
+msgstr ""
+"Přepsání správce je vyžadováno pro tuto pobočku. Zadejte místo toho heslo "
+"správce."
+
+#, php-format
+msgid "Alarm Clock"
+msgstr ""
+
+#, php-format
+msgid "Alarm Clock : %s - %s. Delete? "
+msgstr ""
+
+msgid "All"
+msgstr "Vše"
+
+msgid "All Queues"
+msgstr "Všechny fronty"
+
+msgid "All Time Conditions"
+msgstr "Všechny časové podmínky"
+
+msgid "Allow Access"
+msgstr "Povolit přístup"
+
+msgid "Allowed Call Flows"
+msgstr "Povolené toky hovorů"
+
+msgid "Allowed Conference Bridges"
+msgstr "Povolené konferenční mosty"
+
+msgid "Allowed Queues"
+msgstr "Povolené fronty"
+
+msgid "Allowed Time Conditions"
+msgstr "Povolené časové podmínky"
+
+msgid "Applications"
+msgstr "Aplikace"
+
+msgid "Ascending"
+msgstr "Vzestupně"
+
+msgid "Authentication Required"
+msgstr "Vyžadováno ověření"
+
+msgid "BLF"
+msgstr "BLF"
+
+msgid "BLF Status"
+msgstr "Stav BLF"
+
+msgid "Back"
+msgstr "Zpět"
+
+msgid "Backspace"
+msgstr "klávesa zpět"
+
+msgid ""
+"Backup & Restore process is in progress so not running 'update-ports' hooks "
+"from install."
+msgstr ""
+
+msgid "Below"
+msgstr "Níže"
+
+msgid "Best regards."
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Busy Greeting"
+msgstr "Hláška při obsazenu"
+
+msgid "CID Name"
+msgstr "Jméno CID"
+
+msgid "CID Num"
+msgstr "Číslo CID"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Applications using "
+"the RESTful API"
+msgstr ""
+
+msgid "Call Back"
+msgstr "Zavolejte zpět"
+
+msgid "Call Flow"
+msgstr "Tok hovorů"
+
+msgid "Call Flow Control"
+msgstr "Kontrola toku hovoru"
+
+msgid "Call Flow Settings"
+msgstr "Nastavení toku hovoru"
+
+msgid "Call Forward"
+msgstr "Přesměrování hovoru"
+
+msgid "Call Forward Settings"
+msgstr "Nastavení přesměrování hovoru"
+
+#, php-format
+msgid "Call Forward: %s"
+msgstr "Přesměrování: %s"
+
+msgid "Call Forwarding"
+msgstr "Přesměrování hovorů"
+
+msgid "Call parked"
+msgstr "Hovor zaparkován"
+
+#, php-format
+msgid "Call parked: %s"
+msgstr "Hovor zaparkován: %s"
+
+msgid "CallDate"
+msgstr "Datum hovoru"
+
+msgid "Callers"
+msgstr "Volající"
+
+#, php-format
+msgid "Callers: %s"
+msgstr "Volající: %s"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Cell"
+msgstr "Buňka"
+
+#, php-format
+msgid "Cell (%s)"
+msgstr "Buňka (%s)"
+
+msgid "Change"
+msgstr "Změnit"
+
+msgid "Change Password"
+msgstr "Změnit heslo"
+
+msgid "Check Out Failed!!"
+msgstr ""
+
+msgid "Check out"
+msgstr ""
+
+msgid "Check out done."
+msgstr ""
+
+#, php-format
+msgid "Check your date format."
+msgstr ""
+
+msgid "Clean"
+msgstr ""
+
+#, php-format
+msgid "Company: %s"
+msgstr "Společnost: %s"
+
+#, php-format
+msgid "Completed: %s"
+msgstr "Dokončeno: %s"
+
+msgid "Conference"
+msgstr "Konference"
+
+msgid "Conference Active"
+msgstr "Aktivní konference"
+
+msgid "Conferences"
+msgstr "Konference"
+
+msgid "Confirm Calls"
+msgstr "Potvrdit volání"
+
+msgid "Contact Groups"
+msgstr "Kontaktní skupiny"
+
+msgid "Contact details not found."
+msgstr ""
+
+msgid "Contacts"
+msgstr "Kontakty"
+
+msgid "Could not login for this extension."
+msgstr ""
+
+#, php-format
+msgid "Could not login to extension %s."
+msgstr "Nelze se přihlásit k pobočce %s."
+
+msgid "Could not logout for this extension."
+msgstr ""
+
+#, php-format
+msgid "Could not logout of extension %s."
+msgstr "Nelze se odhlásit z pobočky %s."
+
+msgid "DID is blocklisted."
+msgstr ""
+
+msgid "DND"
+msgstr "Nerušit"
+
+msgid "DND Settings"
+msgstr "Nerušit nastavení"
+
+msgid "Day"
+msgstr ""
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Delete SCD Voicemail Symlinks"
+msgstr ""
+
+msgid "Descending "
+msgstr "Sestupně "
+
+msgid "Det. Mini-Bar"
+msgstr ""
+
+msgid "Details"
+msgstr "Detaily"
+
+#, php-format
+msgid "Details for %s."
+msgstr ""
+
+msgid "Device does not exist!"
+msgstr ""
+
+msgid "Dial"
+msgstr "Vytočit"
+
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#, php-format
+msgid "Display Name: %s"
+msgstr "Jméno: %s"
+
+msgid "Done"
+msgstr "Hotovo"
+
+#, php-format
+msgid "E-Mail: %s"
+msgstr "E-Mail: %s"
+
+msgid "Enable Call Flow Access"
+msgstr "Povolit přístup k toku hovorů"
+
+msgid "Enable Call Flow Access in Phone Apps for this user"
+msgstr "Povolit přístup k toku hovorů v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Call Forward Access"
+msgstr "Povolit přístup k přesměrování hovorů"
+
+msgid "Enable Call Forward in Phone Apps for this user"
+msgstr "Povolit přístup k přesměrování v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Conference Access"
+msgstr "Povolit přístup ke konferencím"
+
+msgid "Enable Conference Access in Phone Apps for this user"
+msgstr "Povolit přístup ke konferencím v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Contact Access"
+msgstr "Povolit přístup ke kontaktům"
+
+msgid ""
+"Enable Contact Access in Phone Apps for this user (Contact Groups are set "
+"under the 'Contact Manager' title)"
+msgstr ""
+"Povolit přístup ke kontaktům v Phone Apps pro tohoto uživatele (Kontaktní "
+"skupiny jsou nastaveny pod nadpisem \"Manažer kontaktů\")"
+
+msgid "Enable DND Access"
+msgstr "Povolit přístup k Nerušit"
+
+msgid "Enable DPMA Apps Logging"
+msgstr ""
+
+msgid "Enable Do Not Disturb in Phone Apps for this user"
+msgstr "Povolit Nerušit(DND) v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Find Me/Follow Me Access"
+msgstr "Povolit přístup k Find Me/Follow Me"
+
+msgid "Enable Find Me/Follow Me in Phone Apps for this user"
+msgstr "Povolit přístup k Find Me/Follow Me v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Login/Logout Access"
+msgstr "Povolit přístup k Login/Logout"
+
+msgid "Enable Login/Logout in Phone Apps for this user"
+msgstr "Povolit přístup k Login/Logout v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Parking Access"
+msgstr "Povolit přístup k Parkování hovorů"
+
+msgid "Enable Parking in Phone Apps for this user"
+msgstr "Povolit přístup k Parkování hovorů v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Presence State Access"
+msgstr "Povolit přístup k Prezenčním stavům"
+
+msgid "Enable Presence State in Phone Apps for this user"
+msgstr "Povolit přístup k Prezenčním stavům v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Promperty Management in Phone apps."
+msgstr ""
+
+msgid "Enable Property Management Access"
+msgstr ""
+
+msgid "Enable Queue Access"
+msgstr "Povolit přístup k Frontám"
+
+msgid "Enable Queue Access in Phone Apps for this user"
+msgstr "Povolit přístup k Frontám v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Queue Agent Access"
+msgstr "Povolit přístup k Agentovi"
+
+msgid "Enable Queue Agent in Phone Apps for this user"
+msgstr "Povolit přístup k Agentovi v Phone Apps pro tohoto uživatele"
+
+msgid "Enable Time Condition Access"
+msgstr "Povolit přístup k časovým podmínkám"
+
+msgid "Enable Token Based Security"
+msgstr ""
+
+msgid "Enable Voicemail Access"
+msgstr "Povolit přístup k hlasové poště"
+
+msgid "Enable Voicemail Access in Phone Apps for this user"
+msgstr "Povolit přístup k hlasové poště v Phone Apps pro tohoto uživatele"
+
+msgid "Enable or Disable BLF"
+msgstr "Povolit nebo zakázat BLF"
+
+msgid ""
+"Enable or disable BLF. The phone configuration must be rebuilt and restarted "
+"to apply the changes."
+msgstr ""
+"Povolit nebo zakázat BLF. Konfigurace telefonu musí být znovu provedena a "
+"telefon restartován."
+
+msgid "Enable time condition Access in Phone Apps for this user"
+msgstr "Povolit přístup k časovým podmínkám v Phone Apps pro tohoto uživatele"
+
+msgid "Enabled"
+msgstr "Povoleno"
+
+msgid "Endpoint Manager"
+msgstr "Endpoint manager"
+
+msgid "Endpoint Manager Settings"
+msgstr "Nastavení Endpoint manažeru"
+
+msgid "Enter Dest."
+msgstr "Zadej cíl."
+
+msgid "Enter Name/Number"
+msgstr "Zadejte název / číslo"
+
+msgid "Enter New Password"
+msgstr "Zadejte nové heslo"
+
+msgid "Enter Number"
+msgstr "Vložte číslo"
+
+#, php-format
+msgid "Entry %s"
+msgstr "Vstup: %s"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Error adding contact"
+msgstr ""
+
+msgid "Error deleting contact"
+msgstr ""
+
+msgid "Error moving voicemail message"
+msgstr ""
+
+msgid "Error playing voicemail message"
+msgstr ""
+
+msgid "Error removing voicemail message"
+msgstr ""
+
+msgid "Error setting presence"
+msgstr ""
+
+msgid "Error updating contact"
+msgstr ""
+
+msgid "Exit"
+msgstr "Konec"
+
+#, php-format
+msgid "Ext. %s"
+msgstr "Linka %s"
+
+msgid "Extension"
+msgstr "Linka"
+
+#, php-format
+msgid "Extension (%s)"
+msgstr "Pobočka (%s)"
+
+msgid "Extension not found in group list!"
+msgstr ""
+
+msgid "Extension or password is invalid."
+msgstr "Linka nebo heslo je neplatné."
+
+msgid "FFwd"
+msgstr "Přesm"
+
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr "Nepodařilo se spustit: '%s'"
+
+msgid "Failed!"
+msgstr "Neúspěšně!"
+
+#, php-format
+msgid "First Name: %s"
+msgstr "Jméno: %s"
+
+msgid "Follow Me"
+msgstr "Follow me"
+
+msgid "Follow Me Enabled"
+msgstr "Follow me povoleno"
+
+msgid "Follow Me Settings"
+msgstr "Nastavení Follow Me"
+
+msgid ""
+"For information about this module, please visit the <a href=\"http://wiki."
+"freepbx.org/display/FPG/Phone+Apps\">Phone Apps wiki page</a>."
+msgstr ""
+"Informace o tomto modulu naleznete na stránce wiki pro <a href=\"http://wiki."
+"freepbx.org/display/FPG/Phone+Apps\"> Aplikace pro telefony </a>."
+
+#, php-format
+msgid "Format can be: %s"
+msgstr "Formát může být: %s"
+
+msgid "Forward"
+msgstr "Přesměrovat"
+
+msgid ""
+"Freepbx upgrade process is in progress so not running 'update-ports' hooks "
+"from install."
+msgstr ""
+
+msgid "From Softphone"
+msgstr ""
+
+msgid "General"
+msgstr "Obecné"
+
+msgid "Group List"
+msgstr "Seznam skupin"
+
+msgid "Hello"
+msgstr ""
+
+msgid "Here"
+msgstr "Zde"
+
+msgid "Here you id for your voicemail and web access."
+msgstr ""
+
+msgid "Hide application status from idle screen"
+msgstr "Skrýt stav aplikace z obrazovky"
+
+msgid "Hide idle screen display"
+msgstr "Skryjte zobrazení displeje"
+
+#, php-format
+msgid "Hold Time: %s"
+msgstr "Délká přídržení: %s"
+
+msgid "Home"
+msgstr "Domů"
+
+#, php-format
+msgid "Home (%s)"
+msgstr "Domů (%s)"
+
+msgid "Hour"
+msgstr ""
+
+#, php-format
+msgid "Hour 00 -> 23"
+msgstr ""
+
+#, php-format
+msgid "Hour and minute should have 2 digits"
+msgstr ""
+
+msgid ""
+"If enabled, users must authenticate against User Manager instead of "
+"extension and voicemail password"
+msgstr ""
+"Je-li tato možnost povolena, uživatelé se musí autentizovat proti správci "
+"uživatelů místo hesla pro pobočku a hlasovou poštu"
+
+msgid ""
+"If in case Restore process not running then you may delete /var/run/asterisk/"
+"restore_running.lock file and try install again"
+msgstr ""
+
+msgid ""
+"If in case upgrade process not running then you may delete /var/run/asterisk/"
+"upgrade_running.lock file and try install again"
+msgstr ""
+
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#, php-format
+msgid "Inbox: %01d"
+msgstr "Doručená pošta: %01d"
+
+msgid "Inherit"
+msgstr "Zdědit"
+
+msgid "Initial Ring Time"
+msgstr "Počáteční čas vyzvánění"
+
+msgid "Invalid Caller ID number."
+msgstr "Neplatné ID volajícího."
+
+msgid "Invalid User ID or Password"
+msgstr ""
+
+msgid "Invalid code index!"
+msgstr ""
+
+msgid "Invalid credentials"
+msgstr "Neplatné pověření"
+
+msgid "Invalid user"
+msgstr "Neplatný uživatel"
+
+msgid "Kick"
+msgstr "Kopnutí"
+
+#, php-format
+msgid "Last Name: %s"
+msgstr "Příjmení: %s"
+
+msgid "Line Position"
+msgstr "Poloha linky"
+
+msgid "Line Type"
+msgstr "Typ linky"
+
+msgid "Login"
+msgstr "Přihlášení"
+
+msgid "Login failed"
+msgstr "Přihlášení selhalo"
+
+msgid "Login/Logout"
+msgstr "Přihlášení / Odhlášení"
+
+msgid "Login/out"
+msgstr "Přihlášení / Odhlášení"
+
+msgid "Logout"
+msgstr "Odhlášení"
+
+msgid "Logout failed"
+msgstr "Odhlášení se nezdařilo"
+
+#, php-format
+msgid ""
+"Logout not allowed. Kindly enabled Hot Desk Emergency CID for this extension "
+"%s with mac address %s."
+msgstr ""
+
+msgid "Main Menu"
+msgstr "Hlavní menu"
+
+msgid "May this user use Phone Apps"
+msgstr "Může tento uživatel používat Phone Apps"
+
+msgid "Members"
+msgstr "Členové"
+
+#, php-format
+msgid "Members: %s"
+msgstr "Členové: %s"
+
+msgid "Message Content"
+msgstr ""
+
+#, php-format
+msgid "Message for %s"
+msgstr ""
+
+#, php-format
+msgid "Migrating %s group from Rest API to Rest Apps"
+msgstr "Migrace skupiny %s z Rest API do Rest Apps"
+
+#, php-format
+msgid "Migrating %s user from Rest API to Rest Apps"
+msgstr "Migrace uživatele %s z Rest API do Rest Apps"
+
+msgid "Minute"
+msgstr ""
+
+#, php-format
+msgid "Minute 00 -> 59"
+msgstr ""
+
+msgid "Monitored Hint"
+msgstr "Monitorovaný návod"
+
+msgid "Month"
+msgstr ""
+
+msgid "Mute the beep that occurs when idle screen notifications are displayed"
+msgstr ""
+"Ztlumení pípnutí, ke kterému dochází při zobrazování nečinných upozornění na "
+"obrazovce"
+
+msgid "My Room"
+msgstr ""
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "New Voicemail"
+msgstr "Nová hlasová zpráva"
+
+msgid "No"
+msgstr "Ne"
+
+#, php-format
+msgid "No %s are authorized in the Phone Apps module for extension %s."
+msgstr "%s není autorizováno v modulu Phone Apps pro pobočku %s."
+
+msgid "No Contacts Found"
+msgstr "Nebyly nalezeny žádné kontakty"
+
+#, php-format
+msgid "No callers in queue %s (%s)"
+msgstr "Žádní volající ve frontě %s (%s)"
+
+msgid "No callers in this conference"
+msgstr "Žádní volající v této konferenci"
+
+msgid "No calls are parked"
+msgstr "Žádné hovory nejsou zaparkovány"
+
+msgid "No data found!"
+msgstr ""
+
+#, php-format
+msgid "No entries configured for group %s"
+msgstr "Žádné položky nebyly nakonfigurovány pro skupinu %s"
+
+msgid "No entries found"
+msgstr "Nebyly nalezeny žádné položky"
+
+#, php-format
+msgid "No groups configured for user %s"
+msgstr "Žádné skupiny nebyly nakonfigurovány pro uživatele %s"
+
+#, php-format
+msgid "No members in queue %s (%s)"
+msgstr "Žádní členové ve frontě %s (%s)"
+
+#, php-format
+msgid "No numbers configured for entry %s"
+msgstr "Žádné čísla nejsou nakonfigurována pro zadání %s"
+
+msgid "No parking lots found for this user"
+msgstr ""
+
+msgid "No queues assigned to this user"
+msgstr ""
+
+#, php-format
+msgid "No queues configured for user %s"
+msgstr "Žádné fronty nakonfigurované pro uživatele %s"
+
+msgid "No voicemail messages"
+msgstr "Žádné hlasové zprávy"
+
+msgid "Normal"
+msgstr "Normální"
+
+msgid "Not Clean"
+msgstr ""
+
+msgid "Not Set"
+msgstr "Nenastaveno"
+
+msgid "Not a valid conference room"
+msgstr "Neplatná konferenční místnost"
+
+msgid ""
+"Note for the Sangoma D80 Conferences App: Please select a maximum of 5 "
+"individual extensions.  The \"All <*>\" option should not be included."
+msgstr ""
+
+msgid "Nothing"
+msgstr "Nic"
+
+msgid "Numbers"
+msgstr "Čísla"
+
+msgid "Office"
+msgstr "Kancelář"
+
+#, php-format
+msgid "Old: %01d"
+msgstr "Staré: %01d"
+
+msgid "Other Apps"
+msgstr "Ostatní aplikace"
+
+msgid "Override"
+msgstr "Přepsat"
+
+msgid "Override 'Apps' Menu"
+msgstr "Přepsat 'Apps' Menu"
+
+msgid "Override required"
+msgstr "Přepsání vyžadováno"
+
+msgid ""
+"Override the default 'Apps' menu when using the 'Apps' button with the menu "
+"used below"
+msgstr ""
+"Pokud používáte tlačítko \"Apps\" v níže uvedeném menu, přepište výchozí "
+"nabídku \"Apps\""
+
+msgid "PMS module is not installed."
+msgstr ""
+
+#, php-format
+msgid "Page %s"
+msgstr "Strana %s"
+
+msgid "Parking"
+msgstr "Parkování hovorů"
+
+msgid "Parking Settings"
+msgstr "Nastavení parkování hovorů"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "Password is invalid."
+msgstr "Heslo je neplatné."
+
+msgid "Pause"
+msgstr "Pauza"
+
+msgid "Paused/UnPaused"
+msgstr "Pauza/Připraven"
+
+#, php-format
+msgid "Period from %s to %s"
+msgstr ""
+
+msgid "Permanent Matched"
+msgstr "Trvalá shoda"
+
+msgid "Permanent Unmatched"
+msgstr "Trvalá neshoda"
+
+msgid "Phone App Hints"
+msgstr "Tipy pro Phone App"
+
+msgid "Phone Apps"
+msgstr "Phone apps"
+
+msgid ""
+"Phone Apps (Rest Apps) are applications for your desktop phone. They can be "
+"used to control a variety of features. From here you can control fine "
+"grained permissions for each user/device."
+msgstr ""
+"Phone Apps (Rest Apps) jsou aplikace pro váš telefon. Mohou být použity pro "
+"ovládání různých funkcí. Odtud můžete ovládat oprávnění pro každého "
+"uživatele / zařízení."
+
+msgid "Phone Apps module not licensed."
+msgstr "Modul Phone Apps není licencován."
+
+msgid "Phone Hint"
+msgstr "Nápověda telefonu"
+
+msgid "Pickup"
+msgstr "Vyzvednout"
+
+msgid "Play"
+msgstr "Přehrát"
+
+msgid "Please choose a module to the right for settings."
+msgstr "Zvolte prosím modul pro nastavení."
+
+#, php-format
+msgid "Please dial %s to initialize your mailbox."
+msgstr ""
+
+#, php-format
+msgid "Please try again."
+msgstr ""
+
+msgid ""
+"Please, apply <Save, Rebuild Config(s) and Update Phones> for each one of "
+"templates."
+msgstr ""
+"Prosím, použijte <Uložit, znovu sestavit konfiguraci a aktualizovat "
+"telefony> pro každou šablonu."
+
+msgid "Prefs"
+msgstr "Předvolby"
+
+msgid "Presence"
+msgstr "Prezence"
+
+msgid "Presence Settings"
+msgstr "Nastavení Prezence"
+
+msgid "Presets"
+msgstr "Předvolby"
+
+msgid "Property Management Settings"
+msgstr ""
+
+msgid "Queue Active"
+msgstr "Aktivní fronta"
+
+msgid "Queue Agent"
+msgstr "Agent fronty"
+
+msgid "Queue Agent BLF Type"
+msgstr "Typ fronty BLF"
+
+msgid "Queue Settings"
+msgstr "Nastavení fronty"
+
+msgid "Queue does not exist"
+msgstr "Fronta neexistuje"
+
+msgid "Queues"
+msgstr "Fronty"
+
+msgid "Quiet Alerts"
+msgstr "Tiché výstrahy"
+
+msgid "R. Status"
+msgstr ""
+
+msgid "Record"
+msgstr "Nahrávání"
+
+msgid ""
+"Recording failed to start. Kindly enabled On Demand Recording for this "
+"extension."
+msgstr ""
+
+msgid "Refresh"
+msgstr "Obnovit"
+
+msgid "Removed all SCD Voicemail Symlinks created before 12 hours."
+msgstr ""
+
+msgid "Renew Token"
+msgstr "Obnovit token"
+
+msgid "Renewing Token :"
+msgstr "Obnovování tokenu :"
+
+msgid "Request sent. Please consult the main menu."
+msgstr ""
+
+msgid "Require a password to log out of an extension"
+msgstr "Vyžadovat heslo pro odhlášení z linky"
+
+msgid "Require administrator password if an extension is already in use"
+msgstr "Požadovat heslo admina, pokud se již linka používá"
+
+msgid "Require logout password"
+msgstr "Vyžadovat heslo pro odhlášení"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Reset Override"
+msgstr "Obnovit přepsání"
+
+msgid "Rest Apps is not Authorized"
+msgstr "Rest Apps nejsou povoleny"
+
+#, php-format
+msgid "RestApps Server Failed: %s"
+msgstr "RestApps Server selhání: %s"
+
+#, php-format
+msgid "RestApps Server has already been running on PID %s for %s"
+msgstr "RestApps Server již běžel na PID %s pro %s"
+
+msgid "RestApps Server is not running"
+msgstr "RestApps Server není spuštěn"
+
+msgid "RestApps daemon stopped"
+msgstr "RestApps daemon byl zastaven"
+
+msgid "RestApps daemon was not running"
+msgstr "RestApps daemon nebyl spuštěn"
+
+msgid "RestApps is not licensed."
+msgstr "RestApps není licencován."
+
+msgid "Restapp Server status on backup"
+msgstr ""
+
+msgid "Restapps Daemon"
+msgstr "Restapps daemon"
+
+msgid "Restapps is not running"
+msgstr "Restapps není spuštěn"
+
+msgid "Rewind"
+msgstr "Přetočit"
+
+msgid "Ring Time"
+msgstr "Čas vyzvánění"
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr "Doba běhu (trvání: %s)"
+
+msgid "Sangoma Property Management"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save Recording"
+msgstr "Uložit nahrávku"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Select"
+msgstr "Vybrat"
+
+msgid "Send ID"
+msgstr ""
+
+msgid "Send Msg"
+msgstr ""
+
+msgid "Sending error!!"
+msgstr ""
+
+msgid "Sending has been successfully completed."
+msgstr ""
+
+msgid "Set All"
+msgstr "Nastavte vše"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid ""
+"Setup and organize the menu when users hit the 'Apps' button on their "
+"phones. Note: This list is also sortable."
+msgstr ""
+"Nastavení a uspořádání nabídky, když uživatelé na svých telefonech stisknou "
+"tlačítko \"Apps\". Poznámka: Tento seznam je také vybrán."
+
+msgid "Show BLF States: <ext> [<app>]"
+msgstr "Zobrazit stavy BLF: <ext> [<app>]"
+
+msgid "Sort"
+msgstr "Třídit"
+
+msgid "Sort Order"
+msgstr "Řazení"
+
+msgid "Sort by"
+msgstr "Třídit podle"
+
+#, php-format
+msgid "Started RestApps Server. PID is %s"
+msgstr "Spuštěn RestApps Server. PID je %s"
+
+#, php-format
+msgid "Started with PID %s!"
+msgstr "Spuštěno s PID %s!"
+
+msgid "Starting RestApps Server..."
+msgstr "Spuštění serveru RestApps ..."
+
+msgid "Starting new RestApps Process..."
+msgstr "Spuštění nového procesu Restapps ..."
+
+#, php-format
+msgid "Status : %s"
+msgstr ""
+
+msgid "Stopped RestApps Server"
+msgstr "RestApps server zastaven"
+
+msgid "Stopping RestApps Server"
+msgstr "Zastavení serveru RestApps"
+
+msgid "Stopping old running processes..."
+msgstr "Zastavení starých běžících procesů ..."
+
+msgid "Submit"
+msgstr "Poslat"
+
+msgid "Temporary Greeting"
+msgstr "Dočasný pozdrav"
+
+msgid "Temporary Matched"
+msgstr "Dočasná shoda"
+
+msgid "Temporary Unmatched"
+msgstr "Dočasná neshoda"
+
+msgid ""
+"The Feature Code used for Phone App Hints. Do not change this unless it "
+"conflicts with something else"
+msgstr ""
+"Kód funkce používaný pro Phone Apps tipy. Neměňte toto, pokud to není v "
+"rozporu s něčím jiným"
+
+#, php-format
+msgid ""
+"The recording failed to start. Kindly enabled On-Demand Recording for an "
+"extension %s"
+msgstr ""
+
+#, php-format
+msgid "The room is %s "
+msgstr ""
+
+#, php-format
+msgid "The room is : %s"
+msgstr ""
+
+#, php-format
+msgid "There was an error playing back the greeting for %s."
+msgstr "Při přehrávání pozdravu pro %s došlo k chybě."
+
+msgid "There's no product sold at the moment."
+msgstr ""
+
+msgid ""
+"These are the additional (besides the user's voicemail box) assigned and "
+"active voicemail box which will show up for this user to control and edit on "
+"their phone."
+msgstr ""
+"Jedná se o přidruženou a aktivní schránku hlasové pošty (kromě hlasové "
+"schránky uživatele), která se uživateli bude zobrazovat a umožňuje správu a "
+"úpravu ve svém telefonu."
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit on their phone."
+msgstr ""
+
+msgid ""
+"These are the assigned and active queues which will show up for this user to "
+"control and edit on their phone"
+msgstr ""
+"Jedná se o přidělené a aktivní fronty, které se budou zobrazovat pro tohoto "
+"uživatele, který je bude ovládat a upravovat v telefonu"
+
+msgid ""
+"These are the assigned and active time conditions which will show up for "
+"this user to control and edit on their phone"
+msgstr ""
+"Jedná se o přiřazené a aktivní časové podmínky, které se budou zobrazovat, "
+"aby je mohl tento uživatel ovládat a upravovat v telefonu"
+
+msgid "This Application is not configured for this extension"
+msgstr "Tato aplikace není pro tuto linku nakonfigurována"
+
+#, php-format
+msgid ""
+"This extension is not configured for Rest Apps. If this is a PJSIP extension "
+"try using '%s-n' where 'n' is the pjsip contact number. Ex '%s-1'"
+msgstr ""
+"Tato pobočka není nakonfigurována pro aplikaci Rest Apps. Pokud se jedná o "
+"pobočku PJSIP, zkuste použít '%s-n' kde 'n' je číslo kontaktu pjsip. Ex "
+"'%s-1'"
+
+msgid "This module does not currently have any settings."
+msgstr "Tento modul momentálně nemá žádné nastavení."
+
+#, php-format
+msgid ""
+"This version of Phone Apps is not licensed, therefore all phone apps "
+"settings listed here can only be used with Sangoma Phones. For more "
+"information on Phone Apps or to purchase a license please review our wiki %s"
+msgstr ""
+"Tato verze Phone Apps není licencovaná, a proto všechny telefonní aplikace "
+"lze použít pouze s telefony Sangoma. Další informace o Phone Apps nebo o "
+"koupi licence naleznete na stránce wiki %s"
+
+msgid "Time Conditions"
+msgstr "Časové podmínky"
+
+msgid "Time Conditions Settings"
+msgstr "Nastavení časových podmínek"
+
+#, php-format
+msgid "Title: %s"
+msgstr "Titul: %s"
+
+msgid "To"
+msgstr ""
+
+msgid "Toggle"
+msgstr "Přepnout"
+
+msgid "Toggle DND on press"
+msgstr "Přepněte DND stisknutím tlačítka"
+
+msgid "Toggle the state of DND rather than show a page."
+msgstr "Přepněte stav DND spíše než zobrazení stránky."
+
+msgid "Total"
+msgstr ""
+
+msgid "Transfer"
+msgstr "Přepojit"
+
+msgid "Transfer VM"
+msgstr "Přepojit do hlasové schránky"
+
+msgid "Unavailable Greeting"
+msgstr "Pozdrav při nedostupnosti"
+
+msgid "Unknown"
+msgstr "Neznámý"
+
+#, php-format
+msgid "Urgent: %01d"
+msgstr "Naléhavé: %01d"
+
+#, php-format
+msgid "User %s does not have a default extension."
+msgstr "Uživatel %s nemá výchozí linku."
+
+msgid "User Linked Conference"
+msgstr "Uživatelská konference"
+
+msgid "User Manager authentication"
+msgstr "Autentizace Správce uživatelů"
+
+msgid "User does not exist!"
+msgstr ""
+
+#, php-format
+msgid "User: %s"
+msgstr "Uživatel: %s"
+
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+msgid "Voice mail : "
+msgstr ""
+
+msgid "Voicemail"
+msgstr "Hlasová pošta"
+
+msgid "Voicemail Greeting"
+msgstr "Uvítání Hlasové pošty"
+
+msgid "Voicemail Settings"
+msgstr "Nastavení hlasové schránky"
+
+msgid "Voicemail Sort Order "
+msgstr "Pořadí řazení hlasové pošty "
+
+msgid "Voicemail Sort by"
+msgstr "Hlasovou poštu řadit podle"
+
+msgid "Voicemail directory for this user does not exist"
+msgstr ""
+
+msgid "Voicemail is not enabled for this user"
+msgstr ""
+
+msgid "Voicemail message does not exist!"
+msgstr ""
+
+msgid "WARNING!!!! Unexpected activity has been detected from:"
+msgstr ""
+
+#, php-format
+msgid "Wake up call deleted."
+msgstr ""
+
+#, php-format
+msgid "Wake up call not deleted."
+msgstr ""
+
+#, php-format
+msgid "Website: %s"
+msgstr "WWW: %s"
+
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#, php-format
+msgid "Welcome. Your phone is %d"
+msgstr ""
+
+msgid "What are Phone Apps"
+msgstr "Co jsou Phone Apps"
+
+msgid ""
+"What the Queue Agent BLF should monitor. If 'Login/Logout' is selected only "
+"Dynamic Queue Agents will be monitored (Light will be Active if Logged In). "
+"For 'Paused/UnPaused' all Agents will be monitored (Light will be Active if "
+"Paused)"
+msgstr ""
+"Co by měl sledovat agent fronty BLF. Pokud je vybrána volba \"Přihlášení / "
+"Odhlášení\", budou monitorováni pouze dynamičtí agenti (LED bude aktivní, "
+"pokud je přihlášeno). Pro \"Pauza/Připraven\" budou všichni agenti sledováni "
+"(LED bude aktivní, pokud bude pozastaveno)"
+
+msgid ""
+"When this is enabled only phones that have a token in their URL will be "
+"allowed to access the Phone Apps. You will have to regenerated all "
+"configurations for all endpoints in Endpoint Manager to get the token"
+msgstr ""
+
+msgid "Whether yes or not to invoke the DPMA Apps log facility."
+msgstr ""
+
+msgid "Work"
+msgstr "Práce"
+
+#, php-format
+msgid "Work (%s)"
+msgstr "Práce (%s)"
+
+msgid "YES"
+msgstr "ANO"
+
+msgid "Year"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ano"
+
+msgid "You cannot forward a voicemail message to yourself"
+msgstr ""
+
+msgid "You cannot move voicemail messages to the same folder"
+msgstr ""
+
+msgid "You must synchronize EPM with your phones."
+msgstr "Musíte synchronizovat EPM s telefony."
+
+msgid "Your id"
+msgstr ""
+
+msgid "Z-A"
+msgstr "Z-A"
+
+msgid "callflows"
+msgstr "Tok hovoru"
+
+msgid "clean."
+msgstr ""
+
+msgid "items"
+msgstr "položky"
+
+msgid "message"
+msgstr ""
+
+msgid "messages"
+msgstr ""
+
+msgid "not clean."
+msgstr ""
+
+msgid "queues"
+msgstr "fronty"
+
+msgid "timeconditions"
+msgstr "časové podmínky"
+
+msgid "unknown"
+msgstr "neznámý"
+
+msgid "web access : "
+msgstr ""
+
+#~ msgid ""
+#~ "These are the assigned and active extensions which will show up for this "
+#~ "user to control and edit on their phone"
+#~ msgstr ""
+#~ "Jedná se o přiřazená a aktivní linky, které se budou zobrazovat, aby je "
+#~ "mohl uživatel ovládat a upravovat v telefonu"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php. Applications using the RESTful API"
+#~ msgstr ""
+#~ "KOMERČNÍ MODUL POŽADUJE LICENCI PRO JEJÍ FUNKČNOST. Navštivte www."
+#~ "schmoozecom.com/oss.php. Aplikace používající rozhraní RESTful API"
+
+#~ msgid "ERROR failed to update timestamp field"
+#~ msgstr "CHYBA nepodařilo se aktualizovat pole časové značky"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "already exists"
+#~ msgstr "již existuje"
+
+#~ msgid "checking for timestamp field.."
+#~ msgstr "Kontrola pole pro časové razítko.."
+
+#~ msgid "This extension is not configured for Rest Apps"
+#~ msgstr "Tato linka není nakonfigurováno pro Rest Apps"
+
+#~ msgid "No %s are authorized in the Phone Apps module for extension %s"
+#~ msgstr "%s není autorizováno v modulu Phone Apps pro pobočku %s"

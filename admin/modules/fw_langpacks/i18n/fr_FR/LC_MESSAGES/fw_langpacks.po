@@ -1,0 +1,101 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Copyright (C) 2009 Séverine GUTIERREZ, severine@medialsace.fr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 08:48+0000\n"
+"PO-Revision-Date: 2016-01-16 19:37+0200\n"
+"Last-Translator: Nicolas <forums@riendeau.org>\n"
+"Language-Team: French <http://weblate.freepbx.org/projects/freepbx/"
+"fw_langpacks/fr_FR/>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
+msgstr "'cp -ru' de la src: '%s' vers dst: '%s'... les détails suivent"
+
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
+#: install.php:50 install.php:95
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr "Le répertoire %s est absent, le script d'installation n'est pas requis"
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
+
+#: install.php:75 install.php:120
+#, php-format
+msgid "Updated %s"
+msgstr "%s mis à jour"
+
+#: install.php:87 install.php:132
+msgid "an error occured removing the packaged files"
+msgstr "une erreur est survenue lors de la suppression des fichiers du paquet"
+
+#: install.php:89 install.php:134
+msgid "files removed successfully"
+msgstr "les fichiers ont été supprimés avec succès"
+
+#: install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr "fw_langpacks n'a pas pu copier les fichiers vers %s"
+
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr ""
+"L'installation des fichiers mo de fw_langpacks est complétée, suppression "
+"des paquets du module"
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr ""
+"L'installation des fichiers po de fw_langpacks est complétée, suppression "
+"des paquets du module"
+
+#~ msgid "FreePBX Localization Updates"
+#~ msgstr "MAJ d'internationalisation FreePBX"
+
+#~ msgid "Preparing to copy %s to %s"
+#~ msgstr "Prépare la copie de %s vers %s"
+
+#~ msgid "No destination directory %s to copy %s to"
+#~ msgstr "Pas de répertoire de destination %s pour copier %s"

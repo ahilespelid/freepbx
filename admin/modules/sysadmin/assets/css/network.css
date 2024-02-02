@@ -1,0 +1,14 @@
+/* Alert classes to change background colours */
+@-webkit-keyframes pulsebg {
+  0%   {background: white;}
+  20%  {background: pink;}
+  100% {background: white;}
+}
+@keyframes pulsebg {
+  0%   {background: white;}
+  20%  {background: pink;}
+  100% {background: white;}
+}
+.pulsebg {
+  -webkit-animation: pulsebg 2s linear;
+  animation: pulsebg 2s linear;

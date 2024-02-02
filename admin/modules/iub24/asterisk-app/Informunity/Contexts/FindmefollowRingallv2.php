@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Contexts; class FindmefollowRingallv2 { public static function make(&$ext) { goto zCrjL; zCrjL: $context = "\x66\151\x6e\144\155\x65\x66\x6f\x6c\154\157\x77\x2d\162\151\156\147\141\154\154\x76\x32"; goto wwYVO; RULFB: $ext->splice($context, $exten, 0, new \ext_Set("\137\x46\115\107\x5f\120\x45\x45\122", "\x24\173\x46\115\x47\x52\120\175")); goto v1BbU; wwYVO: $exten = "\x5f\106\x4d\x50\122\x2d\56"; goto RULFB; v1BbU: } }

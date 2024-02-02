@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Dids; class getDidsList implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\150\145\x6e\164\151\143\x61\x74\x65" => true, "\141\154\x6c\x6f\x77\162\145\155\x6f\x74\x65" => false); return true; } public function ajaxHandler($config, $data) { $items = isset($data["\151\x74\145\x6d\163"]) && $data["\x69\x74\x65\x6d\163"]; return Dids::load()->getDidsList($config, $items); } }

@@ -1,0 +1,39 @@
+<module>
+	<rawname>pinsetspro</rawname>
+	<name>Pinsets Pro</name>
+	<version>15.0.4</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<category>Reports</category>
+	<repo>commercial</repo>
+	<changelog>
+		*15.0.4* Packaging of ver 15.0.4
+		*15.0.3* FREEPBX-19509 
+		*15.0.1* Backup and restore
+	</changelog>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Provides reports on calls based on the account code used</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/PIN+Set+Pro</more-info>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#pinset-pro</link>
+	</commercial>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>core</module>
+		<module>pinsets ge 2.11.0.9</module>
+	</depends>
+	<methods>
+		<get_config pri="750">pinsetspro_hook_pinsets_get_config</get_config>
+	</methods>
+	<menuitems>
+		<pinset_report>Pinsets Code Reports</pinset_report>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<location>release/2.11/pinsetspro-2.11.0.5.tgz</location>
+	<md5sum>501d07f34a5ed2a8a75feac8ac0d41d0</md5sum>
+</module>

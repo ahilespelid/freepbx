@@ -1,0 +1,122 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sangomartapi
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-26 09:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Applications"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+msgid "Begin setting up Queue database..."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Done setting up Queue database..."
+msgstr ""
+
+msgid "Enable RTAPI Logs"
+msgstr ""
+
+msgid "Failed updating libraries!"
+msgstr ""
+
+msgid "Finished updating libraries!"
+msgstr ""
+
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr ""
+
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr ""
+
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Node Package Manager is not installed"
+msgstr ""
+
+msgid "Node is not installed"
+msgstr ""
+
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid ""
+"Restapps module not installed properly, kvstore_FreePBX_modules_Restapps "
+"table is missing"
+msgstr ""
+
+msgid "Restarting Sangoma RT API Server"
+msgstr ""
+
+#, php-format
+msgid "Sangoma RT API Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "Sangoma RT API Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "Sangoma RT API Server is not running"
+msgstr ""
+
+msgid "Sangoma Realtime API"
+msgstr ""
+
+msgid ""
+"Sangoma Realtime API - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO "
+"FUNCTION.  Used by some Phone Apps and SangomaConnect"
+msgstr ""
+
+#, php-format
+msgid "Started Sangoma RT API Server. PID is %s"
+msgstr ""
+
+msgid "Starting Sangoma RT API Server..."
+msgstr ""
+
+msgid "Stopped Sangoma RT API Server"
+msgstr ""
+
+msgid "Stopping Sangoma RT API Server..."
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid ""
+"When set to 'Yes', the Sangoma RT API logs (inside the directory /var/log/"
+"asterisk/sangomartapi) will show the maximum available logs. Otherwise it "
+"will show only minimal logs. When this is set to 'No', all the feature logs "
+"will be disabled. Use this feature judiciously to avoid overloading system "
+"resources"
+msgstr ""

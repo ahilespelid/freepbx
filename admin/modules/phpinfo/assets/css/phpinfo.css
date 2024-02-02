@@ -1,0 +1,19 @@
+body, td, th, h1, h2 {font-family: sans-serif;}
+pre {margin: 0px; font-family: monospace;}
+a:link {color: #000099; text-decoration: none; background-color: #ffffff;}
+a:hover {text-decoration: underline;}
+
+table {border-collapse: collapse; width: 600px; border-spacing: 0;}
+.center {text-align: left;}
+.center table { margin-left: left; margin-right: left; text-align: left;}
+.center th { text-align: s !important; }
+h1 {font-size: 150%;}
+h2 {font-size: 125%;}
+.p {text-align: left;}
+.e {background-color: #ccccff; font-weight: bold; color: #000000;}
+.h {background-color: #9999cc; font-weight: bold; color: #000000;}
+.v {background-color: #cccccc; color: #000000; overflow: hidden; width: 300px; white-space:pre-line; word-wrap: break-word; word-break: break-all;}
+.vr {background-color: #cccccc; color: #000000;}
+img {float: right; border: 0px;}
+hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;   margin-left:0;  text-align:left;}
+h2 {}

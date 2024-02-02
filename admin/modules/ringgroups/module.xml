@@ -1,0 +1,84 @@
+<module>
+	<rawname>ringgroups</rawname>
+	<repo>standard</repo>
+	<name>Ring Groups</name>
+	<version>15.0.11.17</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Applications</category>
+	<description>
+		Creates a group of extensions that all ring together. Extensions can be rung all at once, or in various 'hunt' configurations. Additionally, external numbers are supported, and there is a call confirmation option where the callee has to confirm if they actually want to take the call before the caller is transferred.
+	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Ring+Groups+Module</more-info>
+	<changelog>
+		*15.0.11.17* FREEI-5052 backup and restore ringgroups fix 
+		*15.0.11.16* Bugfix/FREEPBX-23399 
+		*15.0.11.15* Release/15.0 [FREEPBX-22857] Always send ANSWERED_ELSEWHERE 
+		*15.0.11.14* FREEI-2636 bugfix for existing configuation getting lost in ringgroup 
+		*15.0.11.13* FREEI-2915 ringgroup API 
+		*15.0.11.12* Packaging of ver 15.0.11.12
+		*15.0.11.11* Packaging of ver 15.0.11.11
+		*15.0.11.10* Packaging of ver 15.0.11.10
+		*15.0.11.9* Packaging of ver 15.0.11.9
+		*15.0.11.8* FREEPBX-21311 Ring Groups module, Mark Answered Elsewhere problem 
+		*15.0.11.7* FREEPBX-19795 Mark Answered Elsewhere broken after updating
+		*15.0.11.6* FREEPBX-20683
+		*15.0.11.5* FREEI-787 Cannot edit Ring Groups in Basic Mode 
+		*15.0.11.4* Fixing FREEI-787 
+		*15.0.11.3* FREEPBX-20060 Remove bad method call in backup 
+		*15.0.11.2* FREEPBX-20038 Could not backup module ringgroups because it depends on callrecordings which is not enabled 
+		*15.0.11.1* FREEPBX-19795
+		*15.0.11* FREEPBX-18379 
+		*15.0.9* fixing legacy restore
+		*15.0.8* backup and restore
+		*15.0.7* FREEPBX-14518 Uniformity: Ring Groups Form return to grid
+		*15.0.6* Feature/FREEPBX-15651
+		*15.0.5* FREEPBX-18376 Fix parameter name in legacy function
+		*15.0.4* FREEPBX-18189 Fix form to redirect to landing
+		*15.0.3* FREEPBX-18135 Fix get method used to pull single data
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Impliment 15 backup
+	</changelog>
+	<depends>
+		<module>callrecording ge 12.0.1</module>
+		<module>core ge 12.0.16</module>
+		<version>13.0.70</version>
+	</depends>
+	<menuitems>
+		<ringgroups needsenginedb="yes">Ring Groups</ringgroups>
+	</menuitems>
+    <database>
+        <table name="ringgroups">
+            <field name="grpnum" type="string" length="20" primarykey="true"/>
+            <field name="strategy" type="string" length="50"/>
+            <field name="grptime" type="smallint"/>
+            <field name="grppre" type="string" length="100" notnull="false"/>
+            <field name="grplist" type="string" length="255"/>
+            <field name="annmsg_id" type="integer" notnull="false"/>
+            <field name="postdest" type="string" length="255" notnull="false"/>
+            <field name="description" type="string" length="35"/>
+            <field name="alertinfo" type="string" length="255" notnull="false"/>
+            <field name="remotealert_id" type="integer" notnull="false"/>
+            <field name="needsconf" type="string" length="10" notnull="false"/>
+            <field name="toolate_id" type="integer" notnull="false"/>
+            <field name="ringing" type="string" length="80" notnull="false"/>
+            <field name="cwignore" type="string" length="10" notnull="false"/>
+            <field name="cfignore" type="string" length="10" notnull="false"/>
+            <field name="cpickup" type="string" length="10" notnull="false"/>
+            <field name="recording" type="string" length="10" default="dontcare" notnull="false"/>
+            <field name="progress" type="string" length="10" notnull="false"/>
+            <field name="elsewhere" type="string" length="10" notnull="false"/>
+            <field name="rvolume" type="string" length="2" default=""/>
+        </table>
+    </database>
+	<popovers>
+		<ringgroups>
+			<display>ringgroups</display>
+			<view>form</view>
+		</ringgroups>
+ 	</popovers>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

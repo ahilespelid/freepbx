@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<API>
+	<featureSet>
+		<name>voicemail_v1</name>
+		<name>private_groups_v1</name>
+		<name>stream_archive_v1</name>
+		<name>user_permissions_v1</name>
+		<name>interaction_notifications_v1</name>
+		<name>interaction_contacts_v1</name>
+		<name>interaction_contacts_search_v1</name>
+		<name>room_bridges_v1</name>
+		<name>callstatus_override_v1</name>
+		<name>mobile_v2</name>
+		<name>seen_all_v1</name>
+		<name>stream_id_in_sendmessage_v1</name>
+		<name>empty_topic_v1</name>
+		<name>contact_update_v1</name>
+		<name>update_public_interaction_avatar_v1</name>
+		<name>mobile_call_status_v1</name>
+		<name>api_uploadLimits_v1</name>
+		<name>call_merging_v1</name>
+	</featureSet>
+</API>

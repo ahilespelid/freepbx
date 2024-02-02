@@ -1,0 +1,2515 @@
+swagger: '2.0'
+info:
+  version: '0.0.1'
+  title: Sangoma IoT Server API
+# during dev, should point to your local machine
+host: 192.168.1.115:3000
+basePath: /v1
+securityDefinitions:
+  basicAuth:
+    type: basic
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  #- https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /log/level:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns the current app logging level
+      operationId: getLogLevel
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfLocations'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Sets the app log level
+      operationId: setLogLevel
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              level:
+                type: string
+                enum: [FATAL, ERROR, WARN, INFO, DEBUG, TRACE]
+                description: the log level to set
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /all:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available objects
+      operationId: getAll
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfLocations'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /locations:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available locations
+      operationId: getLocations
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfLocations'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Create a new location
+      operationId: createLocation
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The location name
+              location_uuid:
+                type: string
+                description: The uuid of the location the zone belongs to
+              user_groups:
+                type: array
+                description: list of location user groups permissions
+                items:
+                  type: object
+                  properties:
+                    permission_type_id:
+                      type: string
+                      description: id of the permission type
+                    user_group_id:
+                      type: string
+                      description: id of the user group
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Location'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: delete location
+      operationId: deleteLocation
+      security: []
+      parameters:
+        - name: uuid
+          in: query
+          description: The uuid of the location to delete
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfLocations'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /locations/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the location to retrieve
+        required: true
+        type: string
+    get:
+      description: get a specific location
+      operationId: getLocation
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Location'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a location
+      operationId: updateLocation
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type : [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Location'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /locations/{uuid}/permissions:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the location to add a permission to
+        required: true
+        type: string
+    post:
+      description: add a permission to a location
+      operationId: locationAddPermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              user_group_id:
+                type: integer
+                description: The user group member of this permission
+              permission_type_id:
+                type: integer
+                enum: [1, 2, 3, 4]
+                description: The id of the permission type. 1 => view_limitted, 2 => view,  3 => control, 4 => monitor, 
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a permission from a location
+      operationId: locationRemovePermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: permission_id
+          in: query
+          description: The id of the permission to remove from this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /locations/{uuid}/zones:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the location to add a zone to
+        required: true
+        type: string
+    post:
+      description: add a zone to a location
+      operationId: locationAddZone
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: zone_uuid
+          in: query
+          description: The uuid of the zone to add to this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a zone from a location
+      operationId: locationRemoveZone
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: zone_uuid
+          in: query
+          description: The uuid of the zone to remove from this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /zones:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available zones
+      operationId: getZones
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Create a new zone
+      operationId: createZone
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The zone name
+              location_uuid:
+                type: string
+                description: The uuid of the location the zone belongs to
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: delete zone
+      operationId: deleteZone
+      security: []
+      parameters:
+        - name: uuid
+          in: query
+          description: The uuid of the zone to delete
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /zones/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the zone
+        required: true
+        type: string
+    get:
+      description: get a specific zone
+      operationId: getZone
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a zone
+      operationId: updateZone
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type: [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /zones/{uuid}/permissions:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the zone to add a permission to
+        required: true
+        type: string
+    post:
+      description: add a permission to a zone
+      operationId: zoneAddPermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              user_group_id:
+                type: integer
+                description: The user group member of this permission
+              permission_type_id:
+                type: integer
+                enum: [1, 2, 3, 4]
+                description: The id of the permission type. 1 => view_limitted, 2 => view,  3 => control, 4 => monitor, 
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a permission from a zone
+      operationId: zoneRemovePermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: permission_id
+          in: query
+          description: The id of the permission to remove from this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /zones/{uuid}/scenes:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the zone to remove the scenefrom
+        required: true
+        type: string
+    post:
+      description: add a scene to a zone
+      operationId: zoneAddScene
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: scene_uuid
+          in: query
+          description: The uuid of the scene to add to this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Scene'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a scene from a zone
+      operationId: zoneRemoveScene
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: scene_uuid
+          in: query
+          description: The uuid of the scene to remove from this zone
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfScenes'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /zones/{uuid}/action:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the zone
+        required: true
+        type: string
+    post:
+      description: perform a zone action
+      operationId: zoneDoAction
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: action
+          in: query
+          description: The action to perform
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Response'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /scenes:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available scenes
+      operationId: getScenes
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfScenes'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Create a new scene
+      operationId: createScene
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The scene name
+              zone_uuid:
+                type: string
+                description: The uuid of the zone the scene belongs to
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Scene'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: delete scene
+      operationId: deleteScene
+      security: []
+      parameters:
+        - name: uuid
+          in: query
+          description: The uuid of the scene to delete
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfScenes'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /scenes/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the scene
+        required: true
+        type: string
+    get:
+      description: get a specific scene
+      operationId: getScene
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Scene'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a scene
+      operationId: updateScene
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type:  [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Scene'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /scenes/{uuid}/permissions:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the scene to add a permission to
+        required: true
+        type: string
+    post:
+      description: add a permission to a scene
+      operationId: sceneAddPermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              user_group_id:
+                type: integer
+                description: The user group member of this permission
+              permission_type_id:
+                type: integer
+                enum: [1, 2, 3, 4]
+                description: The id of the permission type. 1 => view_limitted, 2 => view,  3 => control, 4 => monitor, 
+              local_access:
+                type: integer
+                enum: [1, 2]
+                description: The id of the local access type. 1 => Anywhere, 2 => Local Only 
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Zone'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a permission from a scene
+      operationId: sceneRemovePermission
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: permission_id
+          in: query
+          description: The id of the permission to remove from this location
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfZones'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /scenes/{uuid}/groups:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the scene
+        required: true
+        type: string
+    post:
+      description: add a group to a scene
+      operationId: sceneAddGroup
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: group_uuid
+          in: query
+          description: The uuid of the group to add
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Group'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a group from a scene
+      operationId: sceneRemoveGroup
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: group_uuid
+          in: query
+          description: The uuid of the group to remove
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /scenes/{uuid}/action:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the scene
+        required: true
+        type: string
+    post:
+      description: perform a scene action
+      operationId: zoneDoAction
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: action
+          in: query
+          description: The action to perform
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Response'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /groups:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available groups
+      operationId: getGroups
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Create a new Group
+      operationId: createGroup
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The group name
+              type:
+                type: string
+                enum: [Outside Door, Contact, Occupancy, Light, Switch, Sensor, Shade, Intercom, Motion]
+                description: The group type
+              scene_uuid:
+                type: string
+                description: The uuid of the scene the group belongs to
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Group'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: delete group
+      operationId: deleteGroup
+      security: []
+      parameters:
+        - name: uuid
+          in: query
+          description: The uuid of group to delete
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /groups/types:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available group types
+      operationId: getGroupTypes
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /groups/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the group
+        required: true
+        type: string
+    get:
+      description: get a specific group
+      operationId: getGroup
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Group'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a group
+      operationId: updateGroup
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type:  [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Group'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /groups/{uuid}/devices:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the group
+        required: true
+        type: string
+    post:
+      description: add a device to a group
+      operationId: groupAddDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: device_uuid
+          in: query
+          description: The uuid of the device to add
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a device from a group
+      operationId: groupRemoveDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: device_uuid
+          in: query
+          description: The uuid of the group to remove
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfDevices'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /groups/{uuid}/action:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the group
+        required: true
+        type: string
+    post:
+      description: perform a group action
+      operationId: groupDoAction
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: action
+          in: query
+          description: The action to perform
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Response'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available devices
+      operationId: getDevices
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfDevices'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Add a new device
+      operationId: addDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The device anme
+              physical_type:
+                type: string
+                enum: [zigbee, electrical-stryke, electrical-contact, intercom, bluetooth-low-energy]
+                description: The device physical_type
+              physical_id:
+                type: string
+                description: The device physical_id. For cyberdata provider specifies the position of the device on the relay connection (Possible values are 1 or 2). For jilia and develco provider specifies the serial number of the device to add
+              duration:
+                type: string
+                description: pairing mode duration in seconds
+              gateway_uuid:
+                type: string
+                description: device gateway uuid
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/DeviceAddResponse'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/physical/types:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available devices physical types
+      operationId: getDevicesPhysicalTypes
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfDevices'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    get:
+      description: get a specific device
+      operationId: getDevice
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a device
+      operationId: updateDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type:  [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Location'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a device
+      operationId: removeDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfDevices'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/calibrate/start:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    post:
+      description: put a device in calibration mode
+      operationId: startDeviceCalibration
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/calibrate/stop:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    post:
+      description: put a device out of calibration mode
+      operationId: stopDeviceCalibration
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/pair:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    post:
+      description: put a device in pairing mode
+      operationId: pairDevice
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/action:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the zone
+        required: true
+        type: string
+    post:
+      description: perform a device action
+      operationId: deviceDoAction
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: action
+          in: query
+          description: The action to perform
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Response'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/pincode/set:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    post:
+      description: set user pin code on a lock device
+      operationId: setPinCode
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: user_id
+          in: query
+          description: id of the user to set the pincode
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /devices/{uuid}/pincode/clear:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the device
+        required: true
+        type: string
+    post:
+      description: clear user pin code on a lock device
+      operationId: clearPinCode
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: user_id
+          in: query
+          description: id of the user to set the pincode
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Device'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /providers:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available providers
+      operationId: getProviders
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGateways'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /gateways:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns list of available gateways
+      operationId: getGateways
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGateways'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: Add a new gateway
+      operationId: addGateway
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+                description: The gateway name
+              location_uuid:
+                type: string
+                description: The gateway location uuid
+              provider:
+                type: string
+                enum: [cyberdata, develco, jilia, DP09, 11375]
+                description: The gateway provider
+              gateway_identifier:
+                type: string
+                description: The gateway identifer. For develco provider ip address of the develco gateway, For cyberdata provider serial number of the cyberdata stryke controller or ip address and serial number of  of the controller in the format SERIAL:IP, For Jilia provider serial number of the jilia gateway
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Response'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /gateways/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the gateway
+        required: true
+        type: string
+    get:
+      description: get a specific gateway
+      operationId: getGateway
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: update a gateway
+      operationId: updateGateway
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: array
+            description: list parameters to update
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: name of the parameter
+                value:
+                  type:  [ string, object, number, integer, boolean, array ]
+                  description: value of the parameter
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a gateway
+      operationId: removeGateway
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGateways'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /gateways/{uuid}/debug:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the gateway
+        required: true
+        type: string
+    get:
+      description: get debug configuration of the gateway
+      operationId: getGatewayDebug
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: set debug configuration of the gateway
+      operationId: setGatewayDebug
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              mode:
+                type: string
+                enum: [on, off]
+                description: the debug mode
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /gateways/{uuid}/logs:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the gateway
+        required: true
+        type: string
+    get:
+      description: get debug logs from the gateway
+      operationId: getGatewayLogs
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/Gateway'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /history:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns all events history
+      operationId: getHistory
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfEvents'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /history/objects/{uuid}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: uuid
+        in: path
+        description: The uuid of the object to query history for
+        required: true
+        type: string
+    get:
+      description: Returns all events history for a specific object
+      operationId: getObjectHistory
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfEvents'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /history/users/{username}:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+      - name: username
+        in: path
+        description: The user id to query event history for
+        required: true
+        type: string
+    get:
+      description: Returns all events history for a specific object
+      operationId: getUserHistory
+      security: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfEvents'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /favorites:
+    x-swagger-router-controller: iot_server
+    parameters:
+      - name: sessionid
+        in: query
+        description: swagger session id
+        required: false
+        type: string
+        default: 'swagger_session'
+      - name: token
+        in: query
+        description: swagger token
+        required: false
+        type: string
+        default: 'iZh8grpZbjQZ2JIFyViUfOoVLcOT7XYqZdu1u34frvfNQrL8ifJAHgpgV'
+    get:
+      description: Returns all favorites for a specific user
+      operationId: getUserFavorite
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: user_id
+          in: query
+          type: integer
+          description: id of the user to query for favorites
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    delete:
+      description: remove a user favorite
+      operationId: removeUserFavorite
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              user_id:
+                type: integer
+                description: id of the user to query for favorites
+              object_uuid:
+                type: string
+                description: uuid of the object to remove from user favorites
+              object_type:
+                type: string
+                enum: [location, zone, scene, group]
+                description: type of the object to remove from user favorites
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    post:
+      description: add a user favorite
+      operationId: addUserFavorite
+      security: []
+      consumes:
+        - application/json
+        - application/octet-stream
+      parameters:
+        - name: data
+          in: body
+          schema:
+            type: object
+            properties:
+              user_id:
+                type: integer
+                description: id of the user to query for favorites
+              object_uuid:
+                type: string
+                description: uuid of the object to remove from user favorites
+              object_type:
+                type: string
+                enum: [location, zone, scene, group]
+                description: type of the object to remove from user favorites
+      responses:
+        '200':
+          description: Success
+          schema:
+            $ref: '#/definitions/ArrayOfGroups'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /swagger:
+    x-swagger-pipe: swagger_raw
+definitions:
+  DeviceAddResponse:
+    type: object
+    properties: 
+      physical_id:
+        type: string
+        description: device physical id
+      state:
+        type: string
+        description: device state
+  Response:
+     required:
+       - message
+     properties:
+       message:
+         type: string
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  Location:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: location unique identifier
+      name:
+        type: string
+        description: location name
+      actions:
+        type: string
+        description: location allowed actions
+      temperature:
+        type: string
+        description: location temperature
+      children:
+        type: array
+        description: list of zones belonging to this location
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: zone name
+            uuid:
+              type: string
+              description: zone uuid
+            actions:
+              type: string
+              description: zone allowed actions
+            objtype:
+              type: string
+              description: zone object type
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfLocations:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: location unique identifier
+        name:
+          type: string
+          description: location name
+        actions:
+          type: string
+          description: location allowed actions
+        temperature:
+          type: string
+          description: location temperature
+        objtype:
+          type: string
+          description: the object type
+  Zone:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: zone unique identifier
+      name:
+        type: string
+        description: zone name
+      actions:
+        type: string
+        description: zone allowed actions
+      temperature:
+        type: string
+        description: zone temperature
+      children:
+        type: array
+        description: list of scenes belonging to this zone
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: scene name
+            uuid:
+              type: string
+              description: scene uuid
+            actions:
+              type: string
+              description: scene allowed actions
+            objtype:
+              type: string
+              description: scene object type
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfZones:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: zone unique identifier
+        name:
+          type: string
+          description: zone name
+        actions:
+          type: string
+          description: zone allowed actions
+        temperature:
+          type: string
+          description: zone temperature
+        objtype:
+          type: string
+          description: the object type
+  Scene:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: scene unique identifier
+      name:
+        type: string
+        description: scene name
+      actions:
+        type: string
+        description: scene allowed actions
+      temperature:
+        type: string
+        description: scene temperature
+      children:
+        type: array
+        description: list of groups belonging to this scene
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: group name
+            uuid:
+              type: string
+              description: group uuid
+            actions:
+              type: string
+              description: group allowed actions
+            objtype:
+              type: string
+              description: group object type
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfScenes:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: scene unique identifier
+        name:
+          type: string
+          description: scene name
+        actions:
+          type: string
+          description: scene allowed actions
+        temperature:
+          type: string
+          description: scene temperature
+        objtype:
+          type: string
+          description: the object type
+  Group:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: group unique identifier
+      name:
+        type: string
+        description: group name
+      type:
+        type: string
+        description: group type
+      actions:
+        type: string
+        description: group allowed actions
+      children:
+        type: array
+        description: list of devices belonging to this group
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: device name
+            uuid:
+              type: string
+              description: device uuid
+            actions:
+              type: string
+              description: device allowed actions
+            objtype:
+              type: string
+              description: device object type
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfGroups:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: group unique identifier
+        name:
+          type: string
+          description: group name
+        type:
+          type: string
+          description: group type
+        actions:
+          type: string
+          description: group allowed actions
+        objtype:
+          type: string
+          description: the object type
+  Device:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: device unique identifier
+      name:
+        type: string
+        description: device name
+      type:
+        type: string
+        description: device type
+      actions:
+        type: string
+        description: device allowed actions
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfDevices:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: device unique identifier
+        name:
+          type: string
+          description: device name
+        type:
+          type: string
+          description: device type
+        actions:
+          type: string
+          description: device allowed actions
+        objtype:
+          type: string
+          description: the object type
+  Gateway:
+    type: object
+    properties: 
+      uuid:
+        type: string
+        description: gateway unique identifier
+      name:
+        type: string
+        description: gateway name
+      location:
+        type: string
+        description: uuid of teh location the gateway belongs to
+      actions:
+        type: string
+        description: gateway allowed actions
+      objtype:
+        type: string
+        description: the object type
+  ArrayOfGateways:
+    type: array
+    items:
+      type: object
+      properties: 
+        uuid:
+          type: string
+          description: gateway unique identifier
+        name:
+          type: string
+          description: device name
+        location:
+          type: string
+          description: gateway location
+        actions:
+          type: string
+          description: gateway allowed actions
+        objtype:
+          type: string
+          description: the object type
+  ArrayOfEvents:
+    type: array
+    items:
+      type: object
+      properties: 
+        id:
+          type: string
+          description: the event id
+        event_type:
+          type: string
+          description: event type
+        event_value:
+          type: string
+          description: event value
+        event_uuid:
+          type: string
+          description: event unique identifier
+        event_object_uuid:
+          type: string
+          description: the object uuid
+        user_id:
+          type: string
+          description: the event user id
+

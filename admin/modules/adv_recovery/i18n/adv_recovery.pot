@@ -1,0 +1,987 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for adv_recovery
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-02 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "  Regenerate EPM Config for S and D series phones"
+msgstr ""
+
+msgid ""
+" Enable this option, if we want to bring down primary server by running "
+"'fwconsole stop' command after switchover. Secondary server will keep on "
+"checking the status of primary and as soon as primary comes up and if this "
+"optionis set to  yes, then we will stop all the services on  primary. SSH "
+"connection from secondary to primary must be setup properly for this option "
+"to work properly."
+msgstr ""
+
+msgid " Last Activity time "
+msgstr ""
+
+msgid " Primary Server "
+msgstr ""
+
+msgid " Regenerate EPM Config for S and D series phones"
+msgstr ""
+
+msgid " Secondary Server "
+msgstr ""
+
+msgid " Server "
+msgstr ""
+
+msgid " Server Status "
+msgstr ""
+
+msgid " Servers are not configured "
+msgstr ""
+
+msgid " Service Status "
+msgstr ""
+
+msgid " Stop Service "
+msgstr ""
+
+msgid " Switchover Trunk Status "
+msgstr ""
+
+msgid " Sync Now "
+msgstr ""
+
+msgid " Trunk Current Status "
+msgstr ""
+
+msgid " Trunk Name "
+msgstr ""
+
+msgid " Trunk Tech "
+msgstr ""
+
+msgid "/path/to/dir"
+msgstr ""
+
+msgid "/path/to/file"
+msgstr ""
+
+msgid ""
+"A script to be run AFTER a successfull switchover. Script should be in "
+"executable format And this should be Placed on BOTH Servers"
+msgstr ""
+
+msgid "Access Token URL"
+msgstr ""
+
+msgid "Access Token URL "
+msgstr ""
+
+msgid "Access Token URL of Primary server."
+msgstr ""
+
+msgid "Access Token URL of Secondary server."
+msgstr ""
+
+msgid "Active Syncing Process Running in the Server"
+msgstr ""
+
+msgid "Active syncing process status "
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin,"
+msgstr ""
+
+msgid "Advanced Recovery"
+msgstr ""
+
+msgid "Advanced Recovery Home page"
+msgstr ""
+
+msgid "Advanced Recovery Service"
+msgstr ""
+
+msgid "Advanced Recovery Service action (applicable on both servers)"
+msgstr ""
+
+msgid "Advanced Recovery enabled "
+msgstr ""
+
+msgid "Advanced Recovery is not licensed."
+msgstr ""
+
+msgid "Advanced Recovery module is not licensed"
+msgstr ""
+
+msgid "Advanced Recovery process Did not start..."
+msgstr ""
+
+#, php-format
+msgid "Advanced Recovery service Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "Advanced Recovery service has already been running on PID %s for %s"
+msgstr ""
+
+msgid "Advanced Recovery service is not running"
+msgstr ""
+
+msgid ""
+"Advanced Recovery service is not running because dependable Pm2 is not "
+"installed/enabled"
+msgstr ""
+
+#, php-format
+msgid "Advanced Recovery service is running on PID %s for %s"
+msgstr ""
+
+msgid "Advanced Recovery service stopped"
+msgstr ""
+
+msgid "Advanced Recovery service was not running"
+msgstr ""
+
+msgid "Apply Configs"
+msgstr ""
+
+msgid "Associated Server Status"
+msgstr ""
+
+msgid "Auto Switch Services"
+msgstr ""
+
+msgid "Backup completed successfully"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Bring down primary after switchover"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE. Advanced Recovery makes it easy to "
+"setup a warm spare that can easily take over if your primary server fails."
+msgstr ""
+
+msgid ""
+"Call Recordings ( monitor folder) will be synced fully on the very first "
+"sync , latter only the current day folder and files will be synced based on "
+"the sync schedule"
+msgstr ""
+
+msgid "Check Secondary Server Token"
+msgstr ""
+
+msgid "Click to do primary server related configuration."
+msgstr ""
+
+msgid "Click to do secondary server related configuration."
+msgstr ""
+
+msgid "Client Access Token"
+msgstr ""
+
+msgid "Client ID"
+msgstr ""
+
+msgid "Client Secret"
+msgstr ""
+
+msgid "Client Secret of the Primary server."
+msgstr ""
+
+msgid "Client Secret of the Secondary server."
+msgstr ""
+
+msgid "ClientID of the Primary server."
+msgstr ""
+
+msgid "ClientID of the Secondary server."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Complete Path"
+msgstr ""
+
+msgid "Configurations"
+msgstr ""
+
+msgid "Custom Files"
+msgstr ""
+
+msgid "Data Not SAVED"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete this entry. Don't forget to click Submit to save changes!"
+msgstr ""
+
+msgid "Digium"
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid "Disable Remote Trunks"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Do Not refresh your browser!"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "ERROR in Generating API credentials"
+msgstr ""
+
+msgid "Email Type"
+msgstr ""
+
+msgid ""
+"Email address to send notifications, Multiple email addresses need to be "
+"separated by comma"
+msgstr ""
+
+msgid "Enable Call Notification"
+msgstr ""
+
+msgid ""
+"Enable call notifcation feature to notify the admin via call during server "
+"faliure. Call will play the configured annoucement to inform admin about the "
+"server failure"
+msgstr ""
+
+msgid ""
+"Enable to send notification to phones to pull latest configuration from "
+"server. This might result in phone reboot in order to update the "
+"configuration."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid ""
+"Enabling this will activate the services like enabling registered trunks "
+msgstr ""
+
+msgid ""
+"Enabling this will activate the services like enabling registered trunks "
+"after switchover to active server "
+msgstr ""
+
+msgid "Endpoint"
+msgstr ""
+
+msgid "Endpoint Manager For Sangoma Phones "
+msgstr ""
+
+msgid ""
+"Endpoint manager to regenerate configuration for S and D series Sangoma's "
+"phones. Please note that this is to regenerate existing templates "
+"configuration with secondary server ip and update the template configuration "
+"with secondary server ip. Please visit Endpoint Manager to do any new phone "
+"configuration."
+msgstr ""
+
+msgid ""
+"Equivalence of clicking the red button, will happen automatically after a "
+"restore on a Secondary system"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Exclude"
+msgstr ""
+
+msgid "Exclude Bind Address"
+msgstr ""
+
+msgid "Exclude CERTIFICATE settings"
+msgstr ""
+
+msgid "Exclude DNS"
+msgstr ""
+
+msgid "Exclude NAT settings"
+msgstr ""
+
+#, php-format
+msgid "Executing Script: %s"
+msgstr ""
+
+msgid ""
+"Explicitly exclude any machine-specific Bindaddres. This allows you to have "
+"a Secondary machine with a different IP address."
+msgstr ""
+
+msgid ""
+"Explicitly exclude any machine-specific DNS. This allows you to have a "
+"Secondary machine with a different DNS."
+msgstr ""
+
+msgid ""
+"Explicitly exclude any machine-specific IP settings. This allows you to have "
+"a secondary machine with a different IP address."
+msgstr ""
+
+msgid "Failed to start Advanced Recovery service"
+msgstr ""
+
+msgid ""
+"Failed to start Advanced Recovery service because dependable Pm2 is not "
+"installed/enabled."
+msgstr ""
+
+msgid ""
+"Failed to stop Advanced Recovery service because dependable Pm2 is not "
+"installed/enabled"
+msgstr ""
+
+msgid "Failure"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "GQL Token URL"
+msgstr ""
+
+msgid "Generating Key Pair please standby"
+msgstr ""
+
+msgid "Get OAUTH2 Token for the Secondary server API."
+msgstr ""
+
+msgid "Get OAUTH2 Token from the Secondary server API."
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "GraphQL URL"
+msgstr ""
+
+msgid "GraphQL URL of Primary Server"
+msgstr ""
+
+msgid "GraphQL URL of the Primary server."
+msgstr ""
+
+msgid "GraphQL URL of the Secondary server."
+msgstr ""
+
+msgid ""
+"If this option is set to yes then certificate will not be restored which "
+"require HTTPS config to be rebuild manually with secondary server "
+"certificate."
+msgstr ""
+
+msgid "Inline Logs"
+msgstr ""
+
+msgid "Items"
+msgstr ""
+
+msgid "Last Sync Status"
+msgstr ""
+
+msgid "Last Synced transaction and status"
+msgstr ""
+
+msgid "Loading Please Wait"
+msgstr ""
+
+msgid "Log file is missing but process is still running!"
+msgstr ""
+
+msgid "Login as Primary or secondary server."
+msgstr ""
+
+msgid "Missing id or transaction or pid"
+msgstr ""
+
+msgid "Module"
+msgstr ""
+
+msgid "Modules"
+msgstr ""
+
+msgid "Modules ("
+msgstr ""
+
+msgid "Modules and Custom Files to Sync"
+msgstr ""
+
+msgid "Modules to Sync"
+msgstr ""
+
+msgid "Needs your attention."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid ""
+"No module has selected for this sync. Please ensure you are selecting "
+"atleast Custom files"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Notification Email"
+msgstr ""
+
+msgid "Notification Extension"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "PATTERNs, one per line"
+msgstr ""
+
+msgid "Phone Brand"
+msgstr ""
+
+msgid "Please Enter the Backup Sync Time"
+msgstr ""
+
+msgid "Please Enter the Notification Extension"
+msgstr ""
+
+msgid "Please Select the Notification When Primary Fails"
+msgstr ""
+
+msgid "Please Select the Notification When Secondary Fails"
+msgstr ""
+
+msgid ""
+"Please enter GraphQL URL of Primary Server. Please correct the Protocal and "
+"Port number .If you are using self signed certificates OR individual "
+"hostnames not associated with the certificate, DO NOT use HTTPS"
+msgstr ""
+
+msgid ""
+"Please enter GraphQL URL of Secondary Server. Please correct the Protocal "
+"and Port number .If you are using self signed certificates OR individual "
+"hostnames not associated with the certificate, DO NOT use HTTPS"
+msgstr ""
+
+msgid ""
+"Please enter Primary server IP. This field is filled with browser URL, you "
+"are accessing,</a> "
+msgstr ""
+
+msgid ""
+"Please enter Primary server IP. This step assumes that ssh key setup to "
+"connect to primary server without password has already been done. For more "
+"info on SSH keys setup please refer to <a href='https://wiki.freepbx.org/"
+"display/FPG/Advanced+Recovery#AdvancedRecovery-"
+"AssociatePrimaryserverwithSecondaryserver'> How to connect Primary server "
+"with secondary wiki </a> .Please note When you Sync back your servers are "
+"vice versa"
+msgstr ""
+
+msgid ""
+"Please enter Secondary server IP. This step assumes that ssh key setup to "
+"connect to secondary server without password has already been done. For more "
+"info on SSH keys setup please refer to <a href='https://wiki.freepbx.org/"
+"display/FPG/Advanced+Recovery#AdvancedRecovery-"
+"AssociatePrimaryserverwithSecondaryserver'> How to connect Primary server "
+"with secondary wiki </a> "
+msgstr ""
+
+msgid ""
+"Please enter Token URL of Primary Server. Please correct the Protocal and "
+"Port number .If you are using self signed certificates OR individual "
+"hostnames not associated with the certificate, DO NOT use HTTPS"
+msgstr ""
+
+msgid ""
+"Please enter Token URL of Secondary Server. Please correct the Protocal and "
+"Port number .If you are using self signed certificates OR individual "
+"hostnames not associated with the certificate, DO NOT use HTTPS"
+msgstr ""
+
+msgid "Please fill the primary server Clientid"
+msgstr ""
+
+msgid "Please fill the primary server GQL url"
+msgstr ""
+
+msgid "Please fill the primary server Secret"
+msgstr ""
+
+msgid "Please fill the primary server accesstokenurl"
+msgstr ""
+
+msgid ""
+"Please select endpoint manager template for which you may want to regenerate "
+"the configuration."
+msgstr ""
+
+msgid ""
+"Please select phone brand for which you may want to regenerate the "
+"configuration."
+msgstr ""
+
+msgid "Please select the Secondary Server OR enter the IP address!"
+msgstr ""
+
+msgid "Please select the Sync Time!"
+msgstr ""
+
+msgid "Please select the admin Notification Recording When Spare server fails"
+msgstr ""
+
+msgid ""
+"Please select the admin Notification Recording When primary server fails"
+msgstr ""
+
+msgid "Please select the admin Notification extension"
+msgstr ""
+
+msgid "Please select the phone brand!"
+msgstr ""
+
+msgid "Please wait while we switch back the services."
+msgstr ""
+
+msgid "Post Switchover Hook"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Primary Server "
+msgstr ""
+
+msgid "Primary Server API Access Details"
+msgstr ""
+
+msgid "Primary Server Configuration"
+msgstr ""
+
+msgid "Primary Server Configuration "
+msgstr ""
+
+msgid "Primary Server IP"
+msgstr ""
+
+msgid "Primary System Ip"
+msgstr ""
+
+msgid "Process is no longer running"
+msgstr ""
+
+msgid "Public Key"
+msgstr ""
+
+msgid "Public SSH key to allow other servers to connect"
+msgstr ""
+
+msgid "Quick Configuration"
+msgstr ""
+
+msgid "Quick Configure"
+msgstr ""
+
+msgid "Recording When Secondary fails"
+msgstr ""
+
+msgid "Recording When primary fails"
+msgstr ""
+
+msgid ""
+"Recording file to play on admin notifcation call when Secondary server fails"
+msgstr ""
+
+msgid ""
+"Recording file to play on admin notifcation call when primary server fails"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Remote Trunks Settings"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Response from Standby Server API"
+msgstr ""
+
+msgid "Restarting Advanced Recovery process..."
+msgstr ""
+
+msgid "Restore Done , Please move to next step to Do Switch Services"
+msgstr ""
+
+#, php-format
+msgid ""
+"Restore process on Secondary Server with Transaction ID: %s has completed "
+"with Restore Status: %s "
+msgstr ""
+
+msgid "Restore will take time based on the  Backup size"
+msgstr ""
+
+msgid "Restoring  on Secondary Server "
+msgstr ""
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr ""
+
+msgid "Sangoma"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Schedule Sync time"
+msgstr ""
+
+msgid "Scheduling"
+msgstr ""
+
+msgid "Secondary Server"
+msgstr ""
+
+msgid "Secondary Server Configuration"
+msgstr ""
+
+msgid "Secondary Server Configuration "
+msgstr ""
+
+msgid "Secondary Server From Filestore"
+msgstr ""
+
+msgid "Secondary Server IP"
+msgstr ""
+
+msgid "Secondary Server IP to configure into phones."
+msgstr ""
+
+msgid ""
+"Secondary server needs to add to filestore, And it should be a FreePBX 15 "
+"and Above"
+msgstr ""
+
+msgid "Select Brand"
+msgstr ""
+
+msgid "Select Secondary server"
+msgstr ""
+
+msgid "Select Template"
+msgstr ""
+
+msgid "Select items to sync"
+msgstr ""
+
+msgid ""
+"Select secondary server for the backing up configuration. If list does not "
+"have any entry then secondary ssh server needs to add in filestore module. "
+"Please refer to <a href='https://wiki.freepbx.org/display/FPG/"
+"Filestore#Filestore-SSH'> Filestore wiki </a> to know more about "
+"configuration."
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Service switch over to Primary system is completed"
+msgstr ""
+
+msgid ""
+"Services switched back to Primary Server.<br>Please reconfigure your Primary "
+"Server's Adv_recovery module.<br>'fwconsole restart' command has run on the "
+"Primary Server. So services may not be ready yet."
+msgstr ""
+
+msgid ""
+"Should the trunks be disabled on secondary server after replicating/"
+"restoring trunks configuration. this is needed if we want Trunks to register "
+"from both primary and secondary servers at the same time. Generally we try "
+"to keep active trunk only from one server so this option should set to YES. "
+msgstr ""
+
+msgid "Skip Sync"
+msgstr ""
+
+msgid "Spare Server IP can not be blank!"
+msgstr ""
+
+msgid "Spare Server Not Reachable"
+msgstr ""
+
+msgid ""
+"Specify event to generate email notification i.e. during the backup process "
+"generate email on success, failure or in both cases."
+msgstr ""
+
+msgid "Specify extension to send server failure notification call"
+msgstr ""
+
+msgid "Start Service"
+msgstr ""
+
+msgid "Start or Stop Advanced Recovery Service daemon on both the servers."
+msgstr ""
+
+#, php-format
+msgid "Started Advanced Recovery Service. PID is %s"
+msgstr ""
+
+msgid "Starting Advanced Recovery Service..."
+msgstr ""
+
+msgid "Starting advrecovery processes..."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stopped Advanced Recovery service"
+msgstr ""
+
+msgid "Stopping Advanced Recovery service"
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Switch Over"
+msgstr ""
+
+msgid "Switch Service"
+msgstr ""
+
+msgid "Switch all services back to Primary Server"
+msgstr ""
+
+msgid "Switch back"
+msgstr ""
+
+msgid "Switch service"
+msgstr ""
+
+msgid ""
+"Switch service will switch the services back to primary by Enabling the "
+"trunks which are enabled in secondary server into the primary system and "
+"disable all the trunks present in secondary system."
+msgstr ""
+
+msgid "Switchover Configuration"
+msgstr ""
+
+msgid "Sync"
+msgstr ""
+
+msgid "Sync Back to Primary"
+msgstr ""
+
+msgid "Sync Data"
+msgstr ""
+
+msgid "Sync Items"
+msgstr ""
+
+msgid "Sync Progress Bar"
+msgstr ""
+
+msgid "Sync System"
+msgstr ""
+
+msgid "Sync back  running"
+msgstr ""
+
+msgid "Sync running"
+msgstr ""
+
+msgid "Template can not be blank!"
+msgstr ""
+
+msgid "Test Connectivity"
+msgstr ""
+
+#, php-format
+msgid "The %s Server is not responding."
+msgstr ""
+
+msgid "The Sync process has finished."
+msgstr ""
+
+msgid "The Sync process has finished. Click Refresh below to continue"
+msgstr ""
+
+msgid "There is some API connectivity issue !"
+msgstr ""
+
+#, perl-format
+msgid "There was an error during %s"
+msgstr ""
+
+msgid ""
+"There was an error in Access token generation. Please check the API  "
+"credential"
+msgstr ""
+
+msgid "There were errors during the backup process"
+msgstr ""
+
+msgid "There were warnings during the backup process"
+msgstr ""
+
+msgid "Threshold Time (in seconds)"
+msgstr ""
+
+msgid ""
+"Threshold time to wait before declaring primary is down and to make "
+"secondary server active."
+msgstr ""
+
+msgid ""
+"Time (hh:mm:ss) since last configuration restore to secondary system "
+"happened."
+msgstr ""
+
+msgid "Time Since Last Config Restore "
+msgstr ""
+
+msgid "Time Since Last Sync "
+msgstr ""
+
+msgid ""
+"Time in hh:mm:ss format, since last configuration syncing to secondary "
+"system happened."
+msgstr ""
+
+msgid "Time taken for Last Sync"
+msgstr ""
+
+msgid "Time taken to finish last sync"
+msgstr ""
+
+msgid ""
+"To define syncing frequency. Please note that frequency should depends on "
+"your system capacity and recommended to be done in off hours to avoid load "
+"on system. Syncing might take hours for large systems and may have impact on "
+"system performance as well, so this value should be configured  more wisely "
+"and carefully."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+#, php-format
+msgid "Transaction ID is: %s"
+msgstr ""
+
+msgid "TransactionID"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Uninstalled or Disabled"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Update Phones"
+msgstr ""
+
+msgid "Waiting for dependencies to download and install .."
+msgstr ""
+
+msgid "We Have triggered an API to restore the backup on Standby Server"
+msgstr ""
+
+msgid "We Have triggered the command to restore the backup on primary Server"
+msgstr ""
+
+msgid "What is "
+msgstr ""
+
+msgid ""
+"When set to Yes logs will be added to the body of the email, when set to No "
+"logs will be added as an attachment"
+msgstr ""
+
+msgid "When should this Sunc run"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You are logged in to "
+msgstr ""
+
+msgid "You must enter a valid  Spare Access Token URL"
+msgstr ""
+
+msgid "You must enter a valid  Spare Server API Client ID"
+msgstr ""
+
+msgid "You must enter a valid  Spare Server API Client Secret"
+msgstr ""
+
+msgid "You must enter a valid  Spare Server API GraphQL URL"
+msgstr ""
+
+msgid "You must select a valid  Spare Server"
+msgstr ""
+
+msgid "Your Sync Back to Primary has finished"
+msgstr ""
+
+msgid "Your Sync process has finished"
+msgstr ""
+
+msgid "choose"
+msgstr ""

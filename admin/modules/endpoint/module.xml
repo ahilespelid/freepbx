@@ -1,0 +1,519 @@
+<module>
+	<rawname>endpoint</rawname>
+	<name>EndPoint Manager</name>
+	<version>15.0.65.7</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<type>setup</type>
+	<category>Settings</category>
+	<description>Endpoint Manager - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Supports provisioning of devices.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/EndPoint+Manager</more-info>
+	<changelog>
+		*15.0.65.7* FREEI-538, FREEI-566 and FREEI-561 
+		*15.0.65.6* Packaging of ver 15.0.65.6
+		*15.0.65.5* FREEI-414 Adding FMFM app support for the Px series phones 
+		*15.0.65.4* FREEI-302 and FREEI-115 
+		*15.0.65.3* FREEI-115 
+		*15.0.65.2* FREEPBX-24353 Adding Transient CDR DB Table 
+		*15.0.65.1* FREEI-351 , FREEI-357 and FREEI-337 
+		*15.0.65*   FREEI-70 Fixing Phone Apps weak auth issue 
+		*15.0.64.6* FREEI-264 
+		*15.0.64.5* FREEPBX-24325 Adding new Yealink mac address 
+		*15.0.64.4* FREEI-263 
+		*15.0.64.3* FREEI-243 
+		*15.0.64.2* FREEI-224 
+		*15.0.64.1* bump 
+		*15.0.64* FREEI-243 
+		*15.0.63* FREEI-224 
+		*15.0.62* FREEI-223 and FREEI-225 
+		*15.0.61*   FREEI-211 Hotdesking issue with the latest P31x firmware 
+		*15.0.60.15* FREEI-203 
+		*15.0.60.14* fixing permission issue while installing dpma rpm 
+		*15.0.60.13* FREEI-116 Add Multicast broadcast support in EPM 
+		*15.0.60.12* FREEI-111 
+		*15.0.60.11* FREEI-111, FREEI-60 
+		*15.0.60.10* FREEI-105 
+		*15.0.60.9* Packaging of ver 15.0.60.9
+		*15.0.60.8* FREEI-59 and FREEI-60 
+		*15.0.60.7* FREEI-45, FREEI-41, FREEI-4 and FREEI-5485 
+		*15.0.60.6* FREEI-26 
+		*15.0.60.5* FREEI-6 
+		*15.0.60.4* FREEI-5890 
+		*15.0.60.3* FREEI-5675 
+		*15.0.60.2* Packaging of ver 15.0.60.2
+		*15.0.60.1*  FREEI-5605 New contact group selection option for Px template
+		*15.0.60*    FREEI-5849 and FREEI-5853 
+		*15.0.59.22* Packaging of ver 15.0.59.22
+		*15.0.59.21* FREEI-5828 config for 802.1X for P phones 
+		*15.0.59.20* FREEI-5824 
+		*15.0.59.19* FREEI-5485, FREEI-5826 , FREEI-5791 and FREEPBX-23903 
+		*15.0.59.18* FREEI-5824, FREEI-5829 , FREEI-5830 , FREEI-5780 , FREEI-5791 , FREEI-5801 , FREEI-5605, FREEI-5791 and FREEPBX-23903 
+		*15.0.59.17* Packaging of ver 15.0.59.17
+		*15.0.59.16* Packaging of ver 15.0.59.16
+		*15.0.59.15* FREEI-5748, FREEI-5785 FREEI-5714 and FREEI-5672 
+		*15.0.59.14* FREEI-5781 
+		*15.0.59.13* Packaging of ver 15.0.59.13
+		*15.0.59.12* Packaging of ver 15.0.59.12
+		*15.0.59.11* Packaging of ver 15.0.59.11
+		*15.0.59.10* Packaging of ver 15.0.59.10
+		*15.0.59.9* FREEI-5744 and FREEI-5699 
+		*15.0.59.8* FREEI-5684 
+		*15.0.59.7* Packaging of ver 15.0.59.7
+		*15.0.59.6* FREEPBX-24054 
+		*15.0.59.5* Packaging of ver 15.0.59.5
+		*15.0.59.4* FREEI-5674 UCP Device Mgmt error 
+		*15.0.59.3* FREEI-5670 
+		*15.0.59.2* Packaging of ver 15.0.59.2
+		*15.0.59.1* FREEI-5573
+		*15.0.59* FREEI-5653 and FREEI-5654 
+		*15.0.58* Adding D713, D862 , D865 Snom models and fixing FREEI-5623, FREEI-5619, FREEI-4716, FREEI-5559, FREEI-5527, FREEI-5579, FREEI-5487, FREEI-5556 
+		*15.0.57.4* Packaging of ver 15.0.57.4
+		*15.0.57.3* FREEI-5571, FREEI-5505 and PC-986 
+		*15.0.57.2* FREEI-5537 
+		*15.0.57.1*   FREEI-5513 Console error in EPM for UCP
+		*15.0.57*   FREEI-5513 and FREEI-5418 
+		*15.0.56*   FREEI-5125 , FREEI-5454 , FREEI-5466 , FREEI-5462 and FREEI-5475 
+		*15.0.55.4* FREEI-5451 and FREEI-5461 
+		*15.0.55.3* FREEI-4661 D and P phones not pulling the correct TZ 
+		*15.0.55.2* FREEI-5407 
+		*15.0.55.1* FREEI-5403 and FREEI-5412  
+		*15.0.55* Packaging of ver 15.0.55
+		*15.0.54* FREEPBX-23811 and FREEI-5380 
+		*15.0.53* bump 
+		*15.0.52.13* FREEI-5372 and FREEI-5372 
+		*15.0.52.12* FREEI-5360 Adding support for the Background image for the  P31x models 
+		*15.0.52.11* FREEI-5260 and FREEI-5277 
+		*15.0.52.10* FREEI-5310 , FREEI-5291 and FREEI-5322 
+		*15.0.52.9* FREEI-5316, FREEI-5304  and FREEI-5287 
+		*15.0.52.8* FREEI-5304 
+		*15.0.52.7* FREEI-5220 Snom M900 
+		*15.0.52.6* FREEI-4015 D series - Voicemail app on multiple AORs 
+		*15.0.52.5* FREEI-5220 Adding Snom M900 
+		*15.0.52.4* FREEI-1999 
+		*15.0.52.3* FREEI-5176 , FREEI-5114 , FREEI-1999 and FREEI-4123 
+		*15.0.52.2* FREEI-5055 and FREEI-1999 
+		*15.0.52.1* FREEI-5114 and FREEI-5117 
+		*15.0.52* FREEI-5083 Add Grandstream  GRP2616/24/34/70 IP phones 
+		*15.0.51*  FREEI-4302, FREEI-5021, FREEI-4915, FREEI-4961 and FREEI-4853 
+		*15.0.50.1* FREEI-5033
+		*15.0.50* FREEI-5031 and FREEI-5027 
+		*15.0.49*   FREEI-5030 Adding support for P370 and FREEI-5022 
+		*15.0.48.3* SPH-1872 
+		*15.0.48.2* FREEI-4854 Login is not working with new P-phone models 
+		*15.0.48.1* FREEI-4706 Template buttons layouts and naming
+		*15.0.48* Packaging of ver 15.0.48
+		*15.0.47* Packaging of ver 15.0.47
+		*15.0.46* FREEI-4651, FREEI-4664 , FREEI-4527, FREEI-4678 and FREEI-4675 
+		*15.0.45* Packaging of ver 15.0.45
+		*15.0.44*   FREEI-4513, FREEI-4548 and FREEI-4527  
+		*15.0.43.3* FREEI-3221 
+		*15.0.43.2* FREEI-4584 and FREEI-3221
+		*15.0.43.1* FREEI-4575 Error when applying config - D phone
+		*15.0.43* FREEI-4316 BLF Substitution not working correctly for PJSIP extensions with Max Contacts &amp;gt; 1 
+		*15.0.42* bump 
+		*15.0.41.54* Packaging of ver 15.0.41.54
+		*15.0.41.53* FREEI-4555 
+		*15.0.41.52* FREEPBX-23318 
+		*15.0.41.51* FREEI-4427 D80 Apps missing under the contact details 
+		*15.0.41.50* FREEI-3966 and FREEI-4478 
+		*15.0.41.49* FREEI-4413 
+		*15.0.41.48* FREEI-4384 monitoring BLF on D80 during call to BLF extension results in config check on D80 
+		*15.0.41.47* FREEI-4318 Default settings for EPM DPMA not optimal 
+		*15.0.41.46* FREEI-4356 Add "Quick BLF Transfer" option to D/P phone templates 
+		*15.0.41.45* FREEI-4354 Error while opening the Extension Mapping 
+		*15.0.41.44* FREEI-4326 Emergency extension not getting registered with VPN 
+		*15.0.41.43* FREEI-4300 Yealink CP960 invalid programablekey.1.type 
+		*15.0.41.42* FREEI-4318 , FREEI-4259, FREEI-4194 
+		*15.0.41.41* FREEI-4284 EPM - VVX450 not creating above 6th line key 
+		*15.0.41.40* FREEI-4276 Bulkhandler export issue 
+		*15.0.41.39* FREEI-4198, FREEI-4170 and FREEI-4196 
+		*15.0.41.38* FREEI-4228 Issue with Call Recording in Snom 
+		*15.0.41.37* FREEI-4130, FREEI-4216, FREEI-4214 and FREEI-4217 - Fixing SNOM phones related issues 
+		*15.0.41.36* FREEI-4187 Exp40 bug in EPM 
+		*15.0.41.35* FREEI-4191, FREEI-4209 and FREEI-2166 
+		*15.0.41.34* Packaging of ver 15.0.41.34
+		*15.0.41.33* FREEI-4125 Option to change or configure the horizontal keys for Snom phones are missing in EPM 
+		*15.0.41.32* FREEI-4125 Option to change or configure the horizontal keys for Snom phones are missing in EPM 
+		*15.0.41.31* Packaging of ver 15.0.41.31
+		*15.0.41.30* FREEI-4144 Whoops Error Undefined variable Value 
+		*15.0.41.29* FREEI-4090 Add Poly VVX150 and VVX250 UNCERTIFIED to EPM 
+		*15.0.41.28* FREEI-4123 Add M900 Snom Device to EPM 
+		*15.0.41.27* FREEI-4024 Hotdesking issue fix , FREEI-3884 add D385 and D335 Snom phones to EPM and FREEI-3989 
+		*15.0.41.26* FREEI-4024 Hotdesking loin config is not writing to configuration files properly 
+		*15.0.41.25* FREEPBX-22926 
+		*15.0.41.24* FREEI-4075 
+		*15.0.41.23* FREEI-4073 added check for existence of template background image 
+		*15.0.41.22* FREEI-2443 EPM - Add Yealink T53 model 
+		*15.0.41.21* FREEI-3969 Failed to download firmware bundle-EPM 
+		*15.0.41.20* FREEI-3767 Grandstream phone-EPM-UCP custom entries-config Rebuild error 
+		*15.0.41.19* FREEI-3698 Added condition to limit max contacts value 
+		*15.0.41.18* FREEPBX-22912 
+		*15.0.41.17* Packaging of ver 15.0.41.17
+		*15.0.41.16* FREEI-4022 unable to edit Digium phone template 
+		*15.0.41.15* FREEI-3635 dphoneapi: add start/stop call recording methods 
+		*15.0.41.14* FREEI-3983 D/P phone provisioning exception fix 
+		*15.0.41.13* FREEI-3967 Digit mapi issues on default Digium templates 
+		*15.0.41.12* FREEI-3635 dphoneapi:  add start/stop call recording methods 
+		*15.0.41.11* FREEI-3951 Cant get DPMA phones to work with vpn 
+		*15.0.41.10* FREEI-3900 OPUS codec issue - Sangoma S505 
+		*15.0.41.9* FREEI-3693 Custom Phone Label in EPM not working 
+		*15.0.41.8* FREEI-3744 DPMA phones in ring group with 'answered elsewhere' still show missed call 
+		*15.0.41.7* FREEI-2440 EPM - Add Yealink T33G model 
+		*15.0.41.6* FREEI-3902 P315 not able to pull call logs 
+		*15.0.41.5* FREEPBX-22770 Can't logout for hot desking For Sangoma S Series Phone 
+		*15.0.41.4* FREEI-3723 and FREEI-3797 
+		*15.0.41.3* FREEI-3743 Add ability to disable missed calls for DPMA phones 
+		*15.0.41.2* FREEI-3778 
+		*15.0.41.1* bump 
+		*15.0.41* FREEI-3729 DPMA: add api-uri setting to dpma_settings.conf 
+		*15.0.40* FREEI-3714 
+		*15.0.39.100* FREEI-3740 D phone - Adding Backlight Dim Levels availabl 
+		*15.0.39.99* FREEI-3722 Fixing yealink config issue for SRTP scenario 
+		*15.0.39.98* FREEI-3611 D80 Transfer call to VM is not Working 
+		*15.0.39.97* FREEI-3575 EPM - Error when changing phone extension assignment 
+		*15.0.39.96* FREEI-3693 Custom Phone Label in EPM not working 
+		*15.0.39.95* FREEI-3741 and FREEI-3749 
+		*15.0.39.94* FREEI-3618 New uncertified models for EPM 
+		*15.0.39.93* FREEPBX-22663 EPM - Yealink TLS/SRTP Config 
+		*15.0.39.92* FREEI-3046 Native app for D-80 is not working 
+		*15.0.39.91* FREEI-3461 
+		*15.0.39.90* FREEI-3599 EXP150 - Not Able To Program Keys with Dx phones 
+		*15.0.39.89* FREEPBX-22542 Included endpoint_write_ext function file 
+		*15.0.39.88* FREEI-3405 
+		*15.0.39.87* Packaging of ver 15.0.39.87
+		*15.0.39.86* Packaging of ver 15.0.39.86
+		*15.0.39.85* FREEI-3393 EPM-SNOM M700 phone, accounts not more than 12 
+		*15.0.39.84* FREEI-3486 EPM for DPMA does not 'take' custom ntp_server value 
+		*15.0.39.83* Packaging of ver 15.0.39.83
+		*15.0.39.82* Packaging of ver 15.0.39.82
+		*15.0.39.81* Fixing FREEI-3525 GQL API for updateEndpointManagerGlobalSettings 
+		*15.0.39.80* FREEI-3449 EPM widget 
+		*15.0.39.79* Fixing FREEI-3527 
+		*15.0.39.78* FREEI-3399: add phone config file changes for the realtime api conference app 
+		*15.0.39.77* FREEI-3482 P3X model should be enabled by default in Digium_default 
+		*15.0.39.76* FREEI-3458 set config_auth to globalpin and globalpin 222222 on new install 
+		*15.0.39.75* FREEI-3464 GQL API to set internal and external phone provisioning addresses in global settings 
+		*15.0.39.74* FREEI-3481 Configured By shows NONE in Extensions mapping page for D-phones 
+		*15.0.39.73* FREEI-3456 Using Hotdesking login, the user should not claim the extensions which is configured to Phone by admin 
+		*15.0.39.72* Fixing FREEPBX-22536 Setting CP7965G _PriAcctName_ to 12 characters 
+		*15.0.39.71* FREEI-3336, FREEI-3412, FREEI-3353 
+		*15.0.39.70* FREEI-3400 Change D phone template - Native API option text to DPMA Apps with help text. 
+		*15.0.39.69* FREEI-3398 
+		*15.0.39.68* FREEI-3349 
+		*15.0.39.67* FREEI-3240 Hot Desking App - add method: pbx.users.digiumPhones.login 
+		*15.0.39.66* FREEI-3400 
+		*15.0.39.65* FREEI-3340 EPM writes aastra config even if aastra devices are not configured 
+		*15.0.39.64* FREEI-3357 
+		*15.0.39.63* FREEI-3349 Endpoint manager fails when "save and rebuild" 
+		*15.0.39.62* FREEI-3265 Yealink EXP50 sidecar BLF's for SIP-T58A-CAM not working 
+		*15.0.39.61* FREEI-3262 
+		*15.0.39.60* FREEI-3285 
+		*15.0.39.59* As we are going to launch p phone so removed the hide logic. 
+		*15.0.39.58* FREEI-3263 
+		*15.0.39.57* FREEPBX-22346 EPM Digium Phone Contact subscribe_to entries incorrect for non-UDP transport 
+		*15.0.39.56* FREEI-3217 
+		*15.0.39.55* FREEI-2977 Contacts" native app of D-phone is not working 
+		*15.0.39.54* FREEI-3146 
+		*15.0.39.53* FREEI-2992 CallLog App - add method: pbx.users.callLogs.getList 
+		*15.0.39.52*  
+		*15.0.39.51* FREEI-2972 Add dashboard notification for DPMA SSL issue 
+		*15.0.39.50* FREEI-3054 EPM uses 5070 for the OutboundProxyPort on Obihai device 
+		*15.0.39.49* FREEI-3048 EPM - consider removing addCertXML, if it is not used 
+		*15.0.39.48* FREEI-3020 Voicemail button displays the error message 
+		*15.0.39.47* FREEI-2972 
+		*15.0.39.46* FREEI-3035 
+		*15.0.39.45* FREEI-2952 EPM: Add model images for P31x phones 
+		*15.0.39.44* FREEI-2930 Endpoint manager - Rename digium template to "Sangoma DPMA" 
+		*15.0.39.43* FREEI-2961 
+		*15.0.39.42* FREEI-2947 Allow to configure new phone in Endpoint manager module 
+		*15.0.39.41* FREEI-2955 Undefined offset: 1 error 
+		*15.0.39.40* FREEI-2927 Yealink VP59 allows to add phone apps button 
+		*15.0.39.39* FREEI-2845 Add provisioning symlink to /tftpboot for configured DPMA devices 
+		*15.0.39.38* FREEI-2437 EPM - Add T31P into EPM 
+		*15.0.39.37* FREEI-2885 New ISO Testing-Apply config not working from GUI 
+		*15.0.39.36* FREEI-2776  Whoops \ Exception \ ErrorException (E_WARNING) PDO::quote() expects parameter 1 to be string, array given 
+		*15.0.39.35* FREEI-2768 Change D80 Background Image 
+		*15.0.39.34* FREEI-2733 Change default value for S series P24953 
+		*15.0.39.33* FREEI-2724 DPMA: Throwing error when clicked on force reboot button 
+		*15.0.39.32* FREEI-2459 - added &amp;lt;appconfig&amp;gt; element for call_log 
+		*15.0.39.31* FREEPBX-22212 Migration of Digium D70 phones to new EPM module fails 
+		*15.0.39.30* FREEI-2616 Add custom ringtones functionality for D series phones 
+		*15.0.39.29* FREEI-2715 Basefile edit issue for D series phone 
+		*15.0.39.28* FREEI-2678 Decouple OPTIONS keep alive from the rest of redundancy settings in EPM 
+		*15.0.39.27* FREEI-2433: remove line key type 'Line' option for P31x phones 
+		*15.0.39.26* FREEI-2668 DPMA - Remote Phone Bug 
+		*15.0.39.25* FREEI-2652 DPMA-QA restapp's login/logout not working in sangoma-cloud system 
+		*15.0.39.24* Packaging of ver 15.0.39.24
+		*15.0.39.23* FREEI-2653 and FREEI-1354 
+		*15.0.39.22* FREEI-2642 DPMA-QA user list should not display while login to extension from login button 
+		*15.0.39.21* FREEI-1354 Wrong transport type for Digium phone when using TLS 
+		*15.0.39.20* FREEI-2626 DPMA-QA d-phone Login button missed if phone is in logout state 
+		*15.0.39.19* fixing FREEI-2613 Increasing T48S Yealink accounts to 16 
+		*15.0.39.18* FREEI-2624 DPMA-QA while adding account2 for the same mac address its creating another extension folder 
+		*15.0.39.17* FREEI-2619 http url address is wrongly mentioned for Restapps-loginExt 
+		*15.0.39.16* FREEI-2436 Wrong time showing on D65 
+		*15.0.39.15* FREEI-1354 Wrong transport type for Digium phone when using TLS 
+		*15.0.39.14* Packaging of ver 15.0.39.14
+		*15.0.39.13* FREEI-2503 DPMA-QA D-80 module and d80 phone image not added in the default diguim template 
+		*15.0.39.12* FREEI-2548 DPMA-QA Migrating to new DPMA D-65 phone no response 
+		*15.0.39.11* FREEI-2561 Hook is not downloading latest dpma rpm 
+		*15.0.39.10* FREEI-2558 If you customize the default config file 
+		*15.0.39.9* FREEI-2569 Remove duplicated code 
+		*15.0.39.8* FREEI-2536 Display DPMA based PJSIP extensions IPs and FREEI-2491 
+		*15.0.39.7* FREEI-2556 Can't modify yealink basefiles 
+		*15.0.39.6* FREEI-2548 
+		*15.0.39.5* FREEI-2485 Add option to set VM button to Visual VM 
+		*15.0.39.4* FREEI-2541 FREEI-2539 
+		*15.0.39.3* FREEI-1081 allow customization of top level S phones default config files 
+		*15.0.39.2* FREEI-2535 and FREEI-2460 
+		*15.0.39.1* FREEI-2531 Add "LCD Display Language" option in D phone template 
+		*15.0.39*   FREEI-2348 Adding Yealink models and template improvements. 
+		*15.0.38.1*   FREEI-2514
+		*15.0.38*   Fixing DPMA/EPM in PBXact cloud issue and adding Dx models by-defaults 
+		*15.0.37.1*   Adding VPN support  D phones
+		*15.0.37*   DPMA Release
+		*15.0.36.8* Packaging of ver 15.0.36.8
+		*15.0.36.7* Packaging of ver 15.0.36.7
+		*15.0.36.6* FREEI-2205 
+		*15.0.36.5* Fix the bug for digium template horizontal key for idle 
+		*15.0.36.4* Packaging of ver 15.0.36.4
+		*15.0.36.3* FREEI-1894, FREEI-2170 and FREEI-2171 
+		*15.0.36.2* Packaging of ver 15.0.36.2
+		*15.0.36.1* FREEI-2395
+		*15.0.36* Packaging of ver 15.0.36
+		*15.0.35* Packaging of ver 15.0.35
+		*15.0.34* DPMA Release 
+		*15.0.33* Packaging of ver 15.0.33
+		*15.0.32*   DPMA Improvement release 
+		*15.0.31.3* Packaging of ver 15.0.31.3
+		*15.0.31.2* Packaging of ver 15.0.31.2
+		*15.0.31.1* FREEI-2091 Login/Logout with DPMA 
+		*15.0.31* Packaging of ver 15.0.31
+		*15.0.30* Fixing FREEI-2275 
+		*15.0.29* Packaging of ver 15.0.29
+		*15.0.28*    FREEI-1786 Major improvement in DPMA functionality support
+		*15.0.27.43* Added show AOR button 
+		*15.0.27.42* Packaging of ver 15.0.27.42
+		*15.0.27.41* Packaging of ver 15.0.27.41
+		*15.0.27.40* FREEI-1955 EPM doesn't creates config file correctly when RESTful Phone Apps it's only HTTPS 
+		*15.0.27.39* Fixing FREEI-2042 Adding fwconsole logout code 
+		*15.0.27.38* Packaging of ver 15.0.27.38
+		*15.0.27.37* Packaging of ver 15.0.27.37
+		*15.0.27.36* Packaging of ver 15.0.27.36
+		*15.0.27.35* Packaging of ver 15.0.27.35
+		*15.0.27.34* Packaging of ver 15.0.27.34
+		*15.0.27.33* Packaging of ver 15.0.27.33
+		*15.0.27.32* FREEI-1777: add support for EXP150 expansion modules 
+		*15.0.27.31* FREEI-1941 Editing help text for custom firmware in EPM 
+		*15.0.27.30* Fixing FREEI-1899 Setting proper permission of /tftpboot directory 
+		*15.0.27.29* FREEI-1886 End Point Manager Multicast Port Numbers Missing from Digium XML File 
+		*15.0.27.28* Packaging of ver 15.0.27.28
+		*15.0.27.27* FREEI-1796 Improve Digium Template and add network options for DPMA 
+		*15.0.27.26* FREEPBX-21598 EPM - Yealink - Custom Firmware 
+		*15.0.27.25* Fixing FREEI-1740 Adding phoneapps port also for failoverXML(P23283) field 
+		*15.0.27.24* FREEI-830 Fixing VEGA gateways template issues to allow adding multiple configuration lines as well. 
+		*15.0.27.23* Fixing FREEI-1639 Making sure Yealink T46S account number starts with 1 not from 0 
+		*15.0.27.22* Fixing FREEI-1653 Adding support for P76 field for Grandstream HT-801/HT-802 models. 
+		*15.0.27.21* FREEI-1629 Added Button for Enable or Disable Backup Destination 
+		*15.0.27.20* Fix for undefine index issue 
+		*15.0.27.19* bump 
+		*15.0.27.18* FREEI-1503 Fixing endpoint warmspare backup issue 
+		*15.0.27.17* FREEI-1493 Display adv recovery failover ip on GUI of phone template 
+		*15.0.27.16* Fixing FREEI-1329 Ading logic to run hook if DPMA is not loaded properly 
+		*15.0.27.15* fixing FREEPBX-21345 
+		*15.0.27.14* fixing FREEI-880 
+		*15.0.27.13* Fixing FREEI-1370 Adding proper SNOM expansion module index values(logic and in DB) 
+		*15.0.27.12* Fixing FREEI-1010 
+		*15.0.27.11* FREEI-1225 Show warning when somebody uses the Hot desk emergency extension In Normal extension 
+		*15.0.27.10* FREEI-1096 HALite - EPM improvement for developing failover IP configuration 
+		*15.0.27.9* FREEI-989: optimize reload delays caused by a large amount of XML-API buttons in phone templates 
+		*15.0.27.8*  FREEI-1315
+		*15.0.27.7*  bump
+		*15.0.27.6* FREEI-1274 Adding support for Custom phone firmware management 
+		*15.0.27.5* FREEI-1259 
+		*15.0.27.4* FREEPBX-21180 Failing backup of endpoint if directory not exists 
+		*15.0.27.3*  FREEI-1245 
+		*15.0.27.2*  FREEI-1240 Emergency extension Not getting registering 
+		*15.0.27.1*    FREEPBX-21164 
+		*15.0.27*    FREEI-1233
+		*15.0.26*    bump
+		*15.0.25*    FREEI-1147 : Adding support for emergency caller id mapping service	
+		*15.0.24.37* FREEI-970 warm spare replication does not replicate any endpoint 
+		*15.0.24.36* FREEI-1177
+		*15.0.24.35* FREEI-1084: adding new db tables for logged out hotdesker emergency CIDs 
+		*15.0.24.34* FREEI-1154 GXP wallpaper broken if apache prov credentials set 
+		*15.0.24.33* Fixing FREEI-1136 Htek basefile edit issue 
+		*15.0.24.32* FREEI-970 warm spare replication does not replicate any endpoint 
+		*15.0.24.31* Fixing FREEPBX-20708 
+		*15.0.24.30* Fixing FREEPBX-20706 
+		*15.0.24.29* FREEI-947 
+		*15.0.24.28* FREEI-938 EPM Polycom Template Wrong DTMF number. 
+		*15.0.24.27* FREEI-856 When firmware x.0.4.73 is available in EPM, also change phone template pushed by EPM 
+		*15.0.24.26* removing digium_phones dependency with epm 
+		*15.0.24.25* FREEI-856 When firmware x.0.4.73 is available in EPM, also change phone template pushed by EPM 
+		*15.0.24.24* FREEI-841: corrected the softkey options for certain models, and moved some provisioning settings closer to other related options. 
+		*15.0.24.23* FREEI-786 S206 SIP account 2 not working in phone user interface 
+		*15.0.24.22* FREEI-848 Yealink T21PE2 cannot use hot desk 
+		*15.0.24.21* Fixing FREEI-882 
+		*15.0.24.20* Fixing FREEI-830 
+		*15.0.24.19* FREEI-673: increased the number of available accounts from 12 to 30 for the snom m700. 
+		*15.0.24.18* FREEI-699
+		*15.0.24.17* FREEI-769 tftpboot files restore issue Replace if file exists 
+		*15.0.24.16* FREEI-728 Tftpboot backup and restore 
+		*15.0.24.15* FREEI-656: fix the generated db20 config to get the correct timezone and dst settings from the template settings. 
+		*15.0.24.14* FREEI-738 D80 GUI displays 'There was an error requesting or processing your phone settings' 
+		*15.0.24.13* Bugfix/FREEI-728 
+		*15.0.24.12* Fixing FREEPBX-20468 
+		*15.0.24.11* Fixing FREEI-699 
+		*15.0.24.10* FREEI-647: custom extensions that are created on the fly(through the modal from Extension Mappings page) would create the option element with a space between the extension and label. 
+		*15.0.24.9* FREEI-645 - saving blf key settings worked from the admin, but is being handled differently when saved from the ucp widget, and the state(audio/visual/none) value wasn't getting saved to the database.   These changes prep the POST data to match what works 
+		*15.0.24.8* FREEPBX-20201: an alert now shows up, preventing the user from adding a basestation with a mac that is already associated with an existing basestation 
+		*15.0.24.7* Revert "Fixing FREEI-397 UCP not able to update the device management configuration" 
+		*15.0.24.6* FREEPBX-20288 invalid mac alert was incorrectly showing up if creating an extension mapping to a basestation(db20) or blank mac(hotdesk) 
+		*15.0.24.5* FREEPBX-19983 - added validation for MAC address fields. 
+		*15.0.24.4* Fixing FREEPBX-20251 
+		*15.0.24.3* FREEPBX-20200 Unable to update Custom Extension added under endpoint. 
+		*15.0.24.2* Fixing FREEI-573 Increasing number of keys to 12 for S305 phones 
+		*15.0.24.1* Fixing FREEI-593 Increasing number of accounts for T54S yealink model to 16
+		*15.0.24* Fixing FREEI-589 Adding mac address check for DECT phones 
+		*15.0.23* Fixing FREEI-574 
+		*15.0.22* FREEI-541 EPM not properly generating XML Pbook button config for Yealink phones 
+		*15.0.21* Bugfix/FREEI-524 
+		*15.0.20* FREEI-535 Adding S406 model
+		*15.0.19.16* FREEI-512 Digium D45 auto answer does not accept Alert-Info format 
+		*15.0.19.15* Fixing FREEI-497 Adding missing models images 
+		*15.0.19.14* Fixing FREEI-506 Increasing Db20 accounts to 20 
+		*15.0.19.13* FREEPBX-19794 Fixing fwconsole remove extension not deleting config file issue 
+		*15.0.19.12* Digium phone restapps logout issue fix 
+		*15.0.19.11* FREEPBX-15348 
+		*15.0.19.10* FREEPBX-19782
+		*15.0.19.9* DPMA improvement 
+		*15.0.19.8* FREEI-467 
+		*15.0.19.7* Use lazy loading console commands
+		*15.0.19.6* FREEI-466 Cisco template editing whoops error issue fix
+		*15.0.19.5* Fixing FREEI-467 fwconsole rebuild template command for pjsip extension issue
+		*15.0.19.4* Fixing FREEPBX-19689 Help tip issue for the template specific parameters
+		*15.0.19.3* Fixing FREEI-456 Changing default QoS to 46 for sangoma phones
+		*15.0.19.2* Fixing FREEPBX-19628 Feature code enable/disable while generating configuration
+		*15.0.19.1* Fix restore
+		*15.0.19* FREEPBX-13956
+		*15.0.18* FREEPBX-18278 Adding help text in EPM firmware management page
+		*15.0.17* Add backup and restore
+		*15.0.16.32* FREEI-422 EPM DST saving issue
+		*15.0.16.31* FREEPBX-19597
+		*15.0.16.30* Fixing FREEPBX-19593 Setting proper registration port instead of hardcoding
+		*15.0.16.29* Fixing FREEPBX-18288 Cisco line button labels cut off issue fix
+		*15.0.16.28* Fixing FREEFIX-19582 Reset issue in global page
+		*15.0.16.27* FREEPBX-18979 Adding SPM restapp support in EPM
+		*15.0.16.26* Fixing FREEPBX-15263 help text not showing for the custom extension tab fields
+		*15.0.16.25* Fixing FREEPBX-18537 Changing directory programable key code for yealink model
+		*15.0.16.24* Implement conflicts
+		*15.0.16.23* Fixing FREEPBX-19501 LDAP protocol version setting issue for sangoma template
+		*15.0.16.22* Fixing FREEI-400 Initializing display to avoid whoops error
+		*15.0.16.21* Fixing FREEPBX-19428 Snom XML button configuration syntax issue
+		*15.0.16.20* Fixing FREEPBX-19412 BLF syntax issue for snom phones
+		*15.0.16.19* FREEPBX-18994 Increasing S206 accounts to 2
+		*15.0.16.18* FREEPBX-19023 D80 firmware url is not generating in epm configuration
+		*15.0.16.17* FREEPBX-18994 Adding S206 support in EPM
+		*15.0.16.16* FREEPBX-18952 Adding S505 background image support
+		*15.0.16.15* FREEPBX-18913, FREEPBX-16101, FREEPBX-16289, FREEPBX-18937 fixes
+		*15.0.16.14* FREEPBX-18858 digium phones module induces security warning
+		*15.0.16.13* Fixing FREEPBX-18768 Adding warning to user before changing PJSIP Max contacts field if extn is associated with EPM
+		*15.0.16.12* FREEPBX-17805 snom phones, bad syntax generated for blf+pickup keys
+		*15.0.16.11* FREEPBX-18550 EPM allows Aastra 9133 buttons to be configured with Phone Apps
+		*15.0.16.10* Fixing FREEPBX-18760 Fixing SRTP config issue for Sangoma DECT phones
+		*15.0.16.9* Fixing FREEPBX-18757 Adding MAC validation for IPEI
+		*15.0.16.8* FREEPBX-18397 Using Basic DPMA for Digium D-Series Phones in Endpoint
+		*15.0.16.7* FREEPBX-18746 Adding DST 'Auto' settings for Sangoma phones and making 'auto' as default settings for DST.
+		*15.0.16.6* Fixing FREEPBX-18726 Replacing sipPort variable with SipServerPort for Panasonic
+		*15.0.16.5* FreePBX-18686 Adding support for SNOM D785, D735, D717 and D120 models
+		*15.0.16.4* Fixing FREEPBX-18727 DB20 basefile edit issue
+		*15.0.16.3* FREEPBX-18719 Improving mac address validation check
+		*15.0.16.2* Fixing FREEPBX-18698 Adding 10 D10s support for DB20
+		*15.0.16.1* FREEPBX-16076 Proxy server(s) for Incom device configs is written without SIP port
+		*15.0.16* FREEPBX-18633 Add REST-Pms into the list of Phone Apps
+		*15.0.15* Fixing FREEPBX-18392 UCP save issues with multiple EXP100
+		*15.0.14* Fixing FREEPBX-18602 IPEI validation for DB20 extension
+		*15.0.13* FREEPBX-18282 Help (?) doesn't work with brand GreandStream for some label
+		*15.0.12* Fixing FREEPBX-17989 HTTPS restapps default login/logout issue
+		*15.0.11* Bugfix/FREEPBX-18362
+		*15.0.10* FREEPBX-18482 UCP: Device Management: Only licensed for Sangoma and Digium devices
+		*15.0.9* Fixing FREEPBX-17989 HTTPS protocol not coming on default logout configuration
+		*15.0.8* Fixing FREEPBX-18438 MAC address validation issue for DB20 configuration
+		*15.0.7* Fixing FREEPBX-18373 Adding check-sync support for Algo brand
+		*15.0.6* Fixing FREEPBX-18375 GXP-1780 lines are not configuring properly for more then 5 keys
+		*15.0.5* Fixing FREEPBX-18395 Fixing license check condition
+		*15.0.4* Fixing FREEPBX-18269 DST startday not setting properly for yealink phones.
+		*15.0.3* Fixing FREEPBX-18174 Endpoint Mgr - Rebuild seems to get stuck in loop.
+		*15.0.2* Fixing FREEPBX-18131 Removing reboot by force option from yealink while sending sip notify to yealink phone.
+		*15.0.1* Bump
+	</changelog>
+	<depends>
+		<version>15.0.6.18</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 14.0.11</module>
+		<module>core ge 15.0.9.76</module>
+		<module>cdr ge 15.0.22</module>
+		<module>paging ge 15.0.4.18</module>
+		<module>sipsettings ge 12.0.13</module>
+		<module>framework ge 15.0.6.18</module>
+		<module>parking ge 15.0.15.4</module>
+		<module>backup ge 15.0.22</module>
+	</depends>
+	<methods>
+		<get_config pri="750">endpoint_core_process</get_config>
+	</methods>
+	<hooks>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method callingMethod="getModuleLicenseInformation" class="Endpoint" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+		</sysadmin>
+		<framework class="View" namespace="FreePBX">
+			<method callingMethod="alertInfoDrawSelect" class="Endpoint" namespace="FreePBX\modules">alertInfoDrawSelect</method>
+		</framework>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Endpoint" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Endpoint" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+                        <method callingMethod="getHeaders" class="Endpoint" namespace="FreePBX\modules">bulkhandlerGetHeaders</method>
+                        <method callingMethod="getTypes" class="Endpoint" namespace="FreePBX\modules">bulkhandlerGetTypes</method>
+                        <method callingMethod="import" class="Endpoint" namespace="FreePBX\modules">bulkhandlerImport</method>
+                        <method callingMethod="export" class="Endpoint" namespace="FreePBX\modules">bulkhandlerExport</method>
+                </bulkhandler>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Endpoint" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Endpoint" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Endpoint" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Endpoint" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Endpoint" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Endpoint" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Endpoint" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+	</hooks>
+	<fileinclude>
+	    <install>functions.inc.php</install>
+	</fileinclude>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#endpoint</link>
+	</commercial>
+	<menuitems>
+		<endpoint needsenginedb="yes">EndPoint Manager</endpoint>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<md5sum>d635a5b60a80d478f2e61cad07067d9b</md5sum>
+	<oobe method="oobeHook" priority="99"/>
+	<console>
+		<command>
+			<name>endpoint</name>
+			<alias>epm</alias>
+		</command>
+	</console>
+</module>

@@ -1,0 +1,3220 @@
+msgid " Activation Done"
+msgstr ""
+
+msgid " Days ago "
+msgstr ""
+
+msgid " HD issues."
+msgstr ""
+
+#, php-format
+msgid "%s - Access to provisioning files. Default port %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s - Administration for this system (This interface). Default port %s. (Can "
+"not be disabled)"
+msgstr ""
+
+#, php-format
+msgid "%s - Default port %s"
+msgstr ""
+
+#, php-format
+msgid "%s - Only allows access to LetsEncrypt tokens. Should be on port 80"
+msgstr ""
+
+#, php-format
+msgid "%s - User Control Panel. Default port %s"
+msgstr ""
+
+#, php-format
+msgid "%s Professional Support's"
+msgstr ""
+
+#, php-format
+msgid "%s and %s do not match. Please update your timezone from this page"
+msgstr ""
+
+#, php-format
+msgid "%s has been installed successfully."
+msgstr ""
+
+#, php-format
+msgid "(%s Zend Resets remaining)"
+msgstr ""
+
+msgid "(1 Zend Reset remaining)"
+msgstr ""
+
+msgid "(Default)"
+msgstr ""
+
+msgid "(No Zend Resets remaining)"
+msgstr ""
+
+#, php-format
+msgid "(Updates and support until %s)"
+msgstr ""
+
+msgid ""
+"- Stops and starts the VPN server to regenerate the certificates when they "
+"are expired."
+msgstr ""
+
+msgid ""
+"- You must manually disable and enable the VPN server to regenerate the "
+"certificates."
+msgstr ""
+
+msgid "---"
+msgstr ""
+
+msgid "15 Minutes"
+msgstr ""
+
+msgid "30 Minutes"
+msgstr ""
+
+msgid ""
+"<p><strong>This is a HA Machine. You can not change the hostname of this, or "
+"the other, machine.</strong></p>"
+msgstr ""
+
+msgid ""
+"<p>After you have submitted a CSR to a CA, they will sign it, after "
+"validation, and return a Signed Certificate. That certificate should be "
+"pasted in the box below. If you leave this box blank, the certificate will "
+"not be updated.</p>"
+msgstr ""
+
+msgid ""
+"<p>HA <i>requires</i> the hostnames of both nodes to be freepbx-a and "
+"freepbx-b. Changing those hostnames will break the cluster, and destroy your "
+"settings. This is not a configurable option. Do not attempt to manually "
+"change the the hostnames of the nodes.</p>"
+msgstr ""
+
+msgid ""
+"<p>Instructions on changing the name displayed on the window title and shell "
+"prompt are <a href='http://wiki.freepbx.org/display/FCM/FreePBX-HA+-+Changing"
+"+the+hostname+displayed+in+the+shell'>available at the HA Wiki</a></p>"
+msgstr ""
+
+msgid ""
+"<p>Your CA may also require a Trusted Chain to be installed. This will be "
+"provided by the CA, and will consist of one, or multiple, certificate "
+"files.   Paste the contents of all the Chain files, if any, into the box "
+"below. This may be left blank, or updated at any time. They can be added in "
+"any order.</p>"
+msgstr ""
+
+msgid "A new version of the TLS protocol, as defined in RFC 8446."
+msgstr ""
+
+msgid "A revision of the TLS 1.0 protocol, as defined in RFC 4346."
+msgstr ""
+
+msgid "A revision of the TLS 1.1 protocol, as defined in RFC 5246."
+msgstr ""
+
+msgid "ALL"
+msgstr ""
+
+msgid "ASTDB Dump"
+msgstr ""
+
+msgid "Abnormal Call Volume"
+msgstr ""
+
+msgid "Abort"
+msgstr ""
+
+#, php-format
+msgid ""
+"Access to services used by Sangoma Phone Desktop Clients, Default Port %s"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activate System using DeploymentID"
+msgstr ""
+
+msgid "Activate system with provided Deployment ID"
+msgstr ""
+
+msgid "Activation"
+msgstr ""
+
+msgid "Activation Expiry"
+msgstr ""
+
+msgid ""
+"Activation process has started. Kindly check the fetchApiStatus api with the "
+"transaction id."
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid ""
+"Add / insert line in custom Postfix settings. E.g: fwconsole sa addpostfix --"
+"set='smtp_use_tls = yes'"
+msgstr ""
+
+msgid "Add Interface"
+msgstr ""
+
+msgid "Add a custom protocol if it doesn't exist into the list."
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid ""
+"Address (IP or FQDN) at which the OpenVPN server is reachable for connecting "
+"clients."
+msgstr ""
+
+msgid ""
+"Address range with netmask for OpenVPN server and connecting clients. (e.g. "
+"10.8.0.0/255.255.255.0)  Note: If this changes, any addresses assigned to "
+"clients will be removed."
+msgstr ""
+
+msgid "Address to send alert emails to."
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid ""
+"Administration for this system (This interface). Default port 80. (Can not "
+"be disabled)"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Alert Email"
+msgstr ""
+
+msgid "Alert!"
+msgstr ""
+
+msgid "All UPS Alerts and events will be sent to this address"
+msgstr ""
+
+msgid "All emails sent from this machine will come from this email address."
+msgstr ""
+
+msgid "All emails sent from this machine will come from this name."
+msgstr ""
+
+msgid "Allow Anonymous"
+msgstr ""
+
+msgid "Allow Plaintext"
+msgstr ""
+
+msgid "Allow VPN"
+msgstr ""
+
+msgid "An email will also be sent if a raid failure occurs."
+msgstr ""
+
+msgid "An error has occurred deleting PCAP, please try again"
+msgstr ""
+
+msgid "An error has occurred sending PCAP command, please try again"
+msgstr ""
+
+msgid "An error is occurred while default certificate installation!"
+msgstr ""
+
+#, php-format
+msgid "An error is occurred while installation with %s!"
+msgstr ""
+
+msgid "An error occurred while adding."
+msgstr ""
+
+msgid "An error occurred while deleting."
+msgstr ""
+
+msgid "An error occurred while reseting."
+msgstr ""
+
+msgid "An error occurred while saving."
+msgstr ""
+
+msgid ""
+"Any storage events, such as low disk space, or RAID failures, will be sent "
+"to this address."
+msgstr ""
+
+msgid "Any text may be placed here."
+msgstr ""
+
+#, php-format
+msgid "Apache Configured Until %s"
+msgstr ""
+
+msgid "Are you sure you want to delete file"
+msgstr ""
+
+msgid "Are you sure you want to delete this client?"
+msgstr ""
+
+msgid "Are you sure you want to delete this custom protocol?"
+msgstr ""
+
+msgid "Are you sure you want to delete this interface?"
+msgstr ""
+
+msgid "Are you sure you want to save (and apply, if possible) these changes?"
+msgstr ""
+
+msgid "Are you sure you want to save and apply these changes?"
+msgstr ""
+
+#, perl-format
+msgid "Are you sure you wish to delete these %s?"
+msgstr ""
+
+msgid "Assigned Address"
+msgstr ""
+
+msgid "Asterisk Logs"
+msgstr ""
+
+msgid "Auth"
+msgstr ""
+
+msgid "Auto Create & Link"
+msgstr ""
+
+msgid "Auto Renew"
+msgstr ""
+
+msgid "Auto."
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Automatic Updates"
+msgstr ""
+
+msgid "Available Packet Captures"
+msgstr ""
+
+msgid "Available Wireless Networks"
+msgstr ""
+
+msgid ""
+"Backup & Restore process is in progress so not running 'update-ports' hooks "
+"from install."
+msgstr ""
+
+msgid "Battery Minimum Level"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Branding Name"
+msgstr ""
+
+msgid "Brief description for this client."
+msgstr ""
+
+msgid "Built In SMTP Server"
+msgstr ""
+
+msgid "Buy"
+msgstr ""
+
+msgid "Buy Now"
+msgstr ""
+
+msgid ""
+"By keeping your subscription active, and renewing before your update period "
+"expires, you are eligible for significant discounts. "
+msgstr ""
+
+msgid "CERT Alert Threshold"
+msgstr ""
+
+msgid "CERT. Days Remaining"
+msgstr ""
+
+msgid ""
+"CERT_DAYS_VAL has been changed. You have to rebuild the VPN certificates."
+msgstr ""
+
+msgid "Cable Type"
+msgstr ""
+
+msgid "Can be blank"
+msgstr ""
+
+#, php-format
+msgid "Can not update SSL file type '%s' was not found [Missing %s]!"
+msgstr ""
+
+msgid "Can't delete interface that doesn't exist"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Certificate"
+msgstr ""
+
+msgid "Certificate Issuer:"
+msgstr ""
+
+msgid "Certificate Manager"
+msgstr ""
+
+msgid "Certificate Name:"
+msgstr ""
+
+msgid "Certificate type"
+msgstr ""
+
+msgid "Certificates are getting generated, please try again after few minutes"
+msgstr ""
+
+msgid "Change Owner"
+msgstr ""
+
+msgid "Changelogs"
+msgstr ""
+
+#, php-format
+msgid "Channel %s"
+msgstr ""
+
+#, php-format
+msgid "Channel %s - %sGHz"
+msgstr ""
+
+msgid "Check if your SMTP server requires TLS"
+msgstr ""
+
+msgid "Check if your SMTP server requires authentication"
+msgstr ""
+
+msgid "Checking Vpn server "
+msgstr ""
+
+msgid "Checking available resets, Please wait..."
+msgstr ""
+
+msgid "Checking for Module Updates"
+msgstr ""
+
+msgid "Checking..."
+msgstr ""
+
+msgid ""
+"City name such as \"Toronto\" or \"Brisbane.\" Do not abbreviate. For "
+"example, enter \"Saint Louis\" not \"St. Louis.\""
+msgstr ""
+
+msgid "City or Locality (L)"
+msgstr ""
+
+msgid "Cleaning custom Postfix."
+msgstr ""
+
+msgid "Click to force or not HTTP to HTTPS."
+msgstr ""
+
+msgid "Click to import FQDN from HTTPS Setup cert."
+msgstr ""
+
+msgid "Client IP"
+msgstr ""
+
+msgid "Client Remote Address(s)"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Commercial Licenses"
+msgstr ""
+
+msgid "Common Name (CN)"
+msgstr ""
+
+msgid "Configure & Start"
+msgstr ""
+
+msgid "Configured"
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Connect to Wireless Network"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+#, php-format
+msgid "Connected to %s (%s)"
+msgstr ""
+
+msgid "Connection Details"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Core system error. Can't run manager"
+msgstr ""
+
+msgid "Could not find configuration."
+msgstr ""
+
+msgid "Could not generate configuration file."
+msgstr ""
+
+msgid "Could not read configuration file."
+msgstr ""
+
+msgid "Could not update provisional protocols"
+msgstr ""
+
+msgid "Country (C)"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Create Interface"
+msgstr ""
+
+#, php-format
+msgid ""
+"Created interface %s, but it didn't start. Further investigation required."
+msgstr ""
+
+#, php-format
+msgid "Created interface %s. Reloading..."
+msgstr ""
+
+msgid "Current Hostname"
+msgstr ""
+
+msgid "Current Status"
+msgstr ""
+
+msgid "Current Version"
+msgstr ""
+
+msgid "Current Wireless Config"
+msgstr ""
+
+msgid ""
+"Currently RESTful Phone Apps service requests to HTTP are redirected to "
+"HTTPS. This is not recommended, and will probably cause Phone App URLs using "
+"HTTP to fail. The supported method for using Phone Apps over HTTPS is to "
+"define the HTTPS protocol directly in the Endpoint Manager template."
+msgstr ""
+
+msgid "Custom Port"
+msgstr ""
+
+msgid "Custom Protocol"
+msgstr ""
+
+msgid "Custom Protocol deleted successfuly."
+msgstr ""
+
+msgid "Custom entries for main.cf"
+msgstr ""
+
+msgid "Custom settings have been changed. Need to be saved."
+msgstr ""
+
+msgid "Custom settings have been saved."
+msgstr ""
+
+msgid "DDNS"
+msgstr ""
+
+msgid "DDNS Info"
+msgstr ""
+
+msgid "DDNS Services:"
+msgstr ""
+
+msgid ""
+"DDNS automatically assigns a unique hostname to your system, and updates it "
+"whenever the IP address of your PBX changes. This is used to assist remote "
+"devices to stay connected to this machine."
+msgstr ""
+
+msgid "DHCP"
+msgstr ""
+
+msgid "DHCP Server"
+msgstr ""
+
+msgid "DHCP Server Configuration"
+msgstr ""
+
+msgid "DHCP Server Disabled"
+msgstr ""
+
+msgid "DHCPD Status"
+msgstr ""
+
+msgid "DNS"
+msgstr ""
+
+msgid "DNS Server list"
+msgstr ""
+
+msgid "DNS Server(s)"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "De-Activate"
+msgstr ""
+
+msgid "Deactivate system with provided Deployment ID"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Define Additional VPN Clients"
+msgstr ""
+
+msgid ""
+"Define an alert threshold before the certificate expires. (28 days by "
+"default)"
+msgstr ""
+
+msgid "Defines the type of cable connecting the UPS to your server."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Interface"
+msgstr ""
+
+msgid "Delete custom protocol"
+msgstr ""
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Deployment ID"
+msgstr ""
+
+msgid "Deployment ID  you want to activate on this system"
+msgstr ""
+
+msgid "Deployment ID of the system"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description for the certificate"
+msgstr ""
+
+msgid "Details found successfully"
+msgstr ""
+
+msgid "Detected External IP:"
+msgstr ""
+
+msgid ""
+"Device (/dev/usb/hiddev0), Port (/dev/ttyS0) or Network Address "
+"(192.168.15.100:3551) to communicate with the UPS"
+msgstr ""
+
+msgid "Device/Port"
+msgstr ""
+
+msgid "Dialplan"
+msgstr ""
+
+msgid "Disable Security"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid ""
+"Disabling HTTPS forced redirection for the administration interface, e.g: "
+"fwconsole sa cf."
+msgstr ""
+
+msgid "Disabling HTTPS forced redirection for the administration interface."
+msgstr ""
+
+msgid "Disabling custom Postfix."
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Display Activation info"
+msgstr ""
+
+msgid "Display internal HTTP/HTTPS port mappings"
+msgstr ""
+
+msgid ""
+"Displays hard disk drive usage and will send an email to the notification "
+"address when disk space is as per the Storage Threshold 1 & Storage "
+"Threshold 2.<br />"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download VPN client configuration"
+msgstr ""
+
+msgid "Drive Status"
+msgstr ""
+
+msgid "Drive Usage"
+msgstr ""
+
+msgid "Drives are setup as a Software Mirror RAID."
+msgstr ""
+
+msgid ""
+"Either a FQDN or IP Address of your smtp server. If a port is required add a "
+"colon and the port after the server address, i.e. mysmtp.example.com:2525"
+msgstr ""
+
+msgid "Email Address"
+msgstr ""
+
+msgid "Email Frequency 1"
+msgstr ""
+
+msgid "Email Frequency 2"
+msgstr ""
+
+msgid "Email Settings"
+msgstr ""
+
+msgid "Email Setup"
+msgstr ""
+
+msgid "Email address to send notifications to "
+msgstr ""
+
+msgid ""
+"Enable / disable custom Postfix settings. E.g: fwconsole sa custompostfix "
+"yes or fwconsole sa custompostfix no"
+msgstr ""
+
+msgid "Enable DDNS Services"
+msgstr ""
+
+msgid "Enable UPS"
+msgstr ""
+
+msgid "Enable VPN client config download in UCP for this user"
+msgstr ""
+
+msgid "Enable specific features associated with FREEI-221"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+#, php-format
+msgid "Enabled - Network %s"
+msgstr ""
+
+msgid ""
+"Enabling Provisioning Authentication is <strong>highly recommended</strong> "
+"as it adds an extra level of security to your provisioning server, by "
+"removing the ability for automated scanners to guess the identity of "
+"configured devices."
+msgstr ""
+
+msgid "Enabling custom Postfix."
+msgstr ""
+
+msgid "End Address"
+msgstr ""
+
+msgid "Enter WiFi Password, or click Connect below"
+msgstr ""
+
+msgid "Enter WiFi SSID, or click Connect below"
+msgstr ""
+
+msgid "Enter a description for the custom protocol."
+msgstr ""
+
+msgid "Enter a from email"
+msgstr ""
+
+msgid "Enter a name for the custom protocol."
+msgstr ""
+
+msgid "Enter a name for this UPS. Used for Email Notifications."
+msgstr ""
+
+msgid "Enter a to email"
+msgstr ""
+
+msgid "Enter a valid FQDN"
+msgstr ""
+
+msgid "Enter an IP Address here"
+msgstr ""
+
+msgid "Enter from name"
+msgstr ""
+
+msgid ""
+"Enter the PBX address to which the browser will be redirected when force is "
+"enabled, without protocol or slashes. This will probably be the FQDN that is "
+"associated with the TLS certificate configured in the HTTPS Setup."
+msgstr ""
+
+msgid "Enter your SMTP server password if required"
+msgstr ""
+
+msgid "Enter your SMTP server username if required."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error removing old cron jobs"
+msgstr ""
+
+#, php-format
+msgid "Error uninstalling %s reason(s): %s"
+msgstr ""
+
+msgid "Error while saving."
+msgstr ""
+
+#, php-format
+msgid "Error! Base name %s unknown."
+msgstr ""
+
+msgid "Error! No default certificate found!"
+msgstr ""
+
+msgid ""
+"Error! The Firewall module is not installed. Intrusion Detection needs  "
+"Firewall module. You can disable the firewall module once installed if you "
+"wont use it."
+msgstr ""
+
+msgid "Ethernet Cable"
+msgstr ""
+
+#, php-format
+msgid "Excellent (%sdBm)"
+msgstr ""
+
+msgid "Exit Debug"
+msgstr ""
+
+msgid "Expiration Date"
+msgstr ""
+
+msgid "Expired Support Contract (POMPs)"
+msgstr ""
+
+msgid "Expired Support Contract."
+msgstr ""
+
+msgid "Expired commercial module license(s)"
+msgstr ""
+
+msgid "Expired maintenance for the commercial module(s)"
+msgstr ""
+
+msgid "External DDNS Name:"
+msgstr ""
+
+msgid "FAULT"
+msgstr ""
+
+msgid "FREEI-221"
+msgstr ""
+
+msgid "FTP Password"
+msgstr ""
+
+msgid "FTP Server"
+msgstr ""
+
+msgid "FTP Username"
+msgstr ""
+
+msgid ""
+"FTP is the older protocol used for provisioning devices, but is not Firewall-"
+"friendly, and can be unreliable through NAT."
+msgstr ""
+
+msgid "Failed to query packet status"
+msgstr ""
+
+msgid "Failure Notifications Email"
+msgstr ""
+
+msgid "File Deleted"
+msgstr ""
+
+msgid "Firewall Settings"
+msgstr ""
+
+msgid "Firewall module detected."
+msgstr ""
+
+msgid "Firewall module not detected."
+msgstr ""
+
+msgid "First level storage threshold(%) to send email notifications"
+msgstr ""
+
+msgid ""
+"For VPN certificate changes to take full effect, reprovision any devices "
+"using the OpenVPN server."
+msgstr ""
+
+#, php-format
+msgid ""
+"For more information on the features of Sysadmin and Sysadmin Pro, please "
+"visit %s The FreePBX Wiki %s ."
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Force"
+msgstr ""
+
+msgid "Force HTTP to HTTPS"
+msgstr ""
+
+msgid "Force IP Address:"
+msgstr ""
+
+msgid "Force all client traffic through this OpenVPN server."
+msgstr ""
+
+msgid "Force https"
+msgstr ""
+
+#, php-format
+msgid "Force option for port %s is set to %s"
+msgstr ""
+
+msgid "Force to rebuild the certificate."
+msgstr ""
+
+msgid "Forece yes/no"
+msgstr ""
+
+msgid ""
+"Free storage space is getting low on the following drive(s) of your system:"
+msgstr ""
+
+msgid "FreePBX Versions"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Frequency to send email notifications for first level threshold"
+msgstr ""
+
+msgid "Frequency to send email notifications for second level threshold"
+msgstr ""
+
+msgid "From Address"
+msgstr ""
+
+msgid "From Name"
+msgstr ""
+
+msgid "Full name of Server (\"server.example.com\")"
+msgstr ""
+
+msgid "Gateway"
+msgstr ""
+
+msgid "Gmail"
+msgstr ""
+
+#, php-format
+msgid ""
+"Gmail may require you to use an application-specific password, rather than "
+"your standard password. <a href='%s'>Please read this Gmail help article</a> "
+"if you have any questions."
+msgstr ""
+
+#, php-format
+msgid "Good (%sdBm)"
+msgstr ""
+
+msgid "HTTP Authentications"
+msgstr ""
+
+msgid "HTTP Only"
+msgstr ""
+
+msgid "HTTP Provisioning"
+msgstr ""
+
+msgid "HTTP Provisioning - Access to provisioning files. Default port 84"
+msgstr ""
+
+msgid "HTTP password. Auto-generated if it is blank"
+msgstr ""
+
+msgid "HTTP username. Auto-generated if it is blank"
+msgstr ""
+
+msgid "HTTP(s) Authentication"
+msgstr ""
+
+msgid "HTTP(s) Password"
+msgstr ""
+
+msgid "HTTP(s) Username"
+msgstr ""
+
+msgid "HTTPS Address"
+msgstr ""
+
+msgid "HTTPS Only"
+msgstr ""
+
+msgid "HTTPS Setup"
+msgstr ""
+
+msgid ""
+"HTTPS can not be enabled as your HTTPS Certificate is not yet configured. "
+"You need to install a certificate with <a href='?"
+"display=certman'>Certificate Manager</a>, and enable HTTPS through <a href='?"
+"display=sysadmin&view=ssl'>HTTPS Setup</a> before it is possible to "
+"configure HTTPS."
+msgstr ""
+
+msgid "HTTP_HOST"
+msgstr ""
+
+msgid "Here"
+msgstr ""
+
+msgid "Host name for the system"
+msgstr ""
+
+msgid "Hostname"
+msgstr ""
+
+msgid "Hostname (CN)"
+msgstr ""
+
+msgid "Hostname for the system"
+msgstr ""
+
+msgid "Hostname too short"
+msgstr ""
+
+msgid ""
+"Hostname will always resolve to this IP if set. Leave blank to auto discover "
+"the public IP address of this machine."
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "How often should the server update it's IP with the DDNS server"
+msgstr ""
+
+msgid "IAX Settings"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "IP Assignment"
+msgstr ""
+
+msgid ""
+"If Asterisk crashes, or is restarted, this email address will receive an "
+"alert."
+msgstr ""
+
+msgid ""
+"If a machine has been blocked by Intrusion Detection, an alert will be sent "
+"to this email address."
+msgstr ""
+
+msgid ""
+"If during a power failure, the UPS has run on batteries for longer than this "
+"setting, the system will initiate a shutdown. A value of 0 disables this "
+"timer."
+msgstr ""
+
+msgid ""
+"If during a power failure, the remaining battery percentage (as reported by "
+"the UPS) is below or equal to Battery Minimum Level, the system will "
+"initiate a shutdown."
+msgstr ""
+
+msgid ""
+"If during a power failure, the remaining runtime in minutes (as calculated "
+"internally by the UPS) is below or equal to Minimum Runtime Remaining, the "
+"system will initiate a shutdown."
+msgstr ""
+
+msgid ""
+"If in case Restore process not running then you may delete /var/run/asterisk/"
+"restore_running.lock file and try install again"
+msgstr ""
+
+msgid ""
+"If in case upgrade process not running then you may delete /var/run/asterisk/"
+"upgrade_running.lock file and try install again"
+msgstr ""
+
+msgid ""
+"If this problem persists, you can manually install the oembranding module "
+"from the CLI with the following command and then retry activation:"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you do not enter a description, the default will be '%s'. This is "
+"displayed as an identifier to the user, when the phone has been reset to "
+"factory defaults, or explicitly unconfigured. If there are multiple servers "
+"on the network, you can change this to be a descriptive name, and the user "
+"will be able to select the correct one."
+msgstr ""
+
+msgid ""
+"If you do not specify an IP address, one will be allocated from the pool "
+"available to it (depending on the interface it is connected to)."
+msgstr ""
+
+msgid ""
+"If you have selected <strong>'Auto-Renew'</strong>, your subscription will "
+"automatically be renewed 30 days before it expires. "
+msgstr ""
+
+msgid "Illegal Protocol format. Only Alpha, Numeric and dot are allowed."
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+#, php-format
+msgid "Imported %s %s - Ext %s"
+msgstr ""
+
+msgid "Importing..."
+msgstr ""
+
+msgid "In Progress"
+msgstr ""
+
+msgid "Individual packet capture (pcap) files are limited to 500MB"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Insecure Port (http)"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Install Branding Updates"
+msgstr ""
+
+msgid ""
+"Install Https Certificate for Apache, e.g: fwconsole sa ihc --set='your.base."
+"name' or fwconsole sa ihc default"
+msgstr ""
+
+msgid "Install SSL Certificate"
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed module version is newer than licensing permits "
+msgstr ""
+
+msgid "Installing"
+msgstr ""
+
+msgid ""
+"Installing SSL certificate process is started. Kindly check the "
+"fetchApiStatus api with the transaction id."
+msgstr ""
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Interface"
+msgstr ""
+
+#, php-format
+msgid "Interface %s already exists!"
+msgstr ""
+
+msgid "International outbound call threshold percent"
+msgstr ""
+
+msgid "International outbound duration threshold percent"
+msgstr ""
+
+msgid "Intrusion Detection"
+msgstr ""
+
+msgid "Intrusion Detection Notifications"
+msgstr ""
+
+msgid "Invalid IP Address"
+msgstr ""
+
+msgid "Invalid Netmask (can't parse)"
+msgstr ""
+
+msgid "Invalid Netmask (too small)"
+msgstr ""
+
+msgid "Invalid VLAN ID Provided"
+msgstr ""
+
+msgid "Invalid argument. Please set yes or no."
+msgstr ""
+
+msgid "Invalid interface specified"
+msgstr ""
+
+msgid "It is recommended to use the randomly generated ones provided."
+msgstr ""
+
+msgid "Key found successfully"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Label invalid (A-z and 0-9 only)"
+msgstr ""
+
+msgid "Latest Version"
+msgstr ""
+
+msgid "Latest version as per the stable repo"
+msgstr ""
+
+msgid "Leave blank for automatic configuration"
+msgstr ""
+
+msgid "LetsEncrypt"
+msgstr ""
+
+msgid ""
+"Licence update process has started. Kindly check the fetchApiStatus api with "
+"the transaction id."
+msgstr ""
+
+msgid "License Information"
+msgstr ""
+
+msgid "Licensing"
+msgstr ""
+
+#, php-format
+msgid "Link Speed %s %s.  Current IP %s"
+msgstr ""
+
+#, php-format
+msgid "Link Speed %s %s.  No IP Address"
+msgstr ""
+
+msgid "List of SSL certificates present"
+msgstr ""
+
+msgid ""
+"Listening port for the VPN service. Default is 1194. If you have changed "
+"it , You need to restart the VPN server by submiting 'Enabled'= No then ' "
+"Enabled'=Yes"
+msgstr ""
+
+msgid "Loading.."
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "MAC"
+msgstr ""
+
+msgid "Mail Log"
+msgstr ""
+
+msgid "Make sure the Apache SSL Certificate is up to date"
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "Manual URI"
+msgstr ""
+
+msgid "Message for the request"
+msgstr ""
+
+msgid "Minimum Runtime Remaining"
+msgstr ""
+
+msgid ""
+"Missing parameters. E.g: fwconsole sa addpostfix --"
+"set='smtp_tls_security_level = may'"
+msgstr ""
+
+msgid "Missing parameters. E.g: fwconsole sa ihc --set='your.base.name'"
+msgstr ""
+
+msgid ""
+"Missing parameters. E.g: fwconsole sa wsp --set='all -SSLv3 -TLSv1 -TLSv1.1'"
+msgstr ""
+
+msgid "Module Updates"
+msgstr ""
+
+msgid "Module Users"
+msgstr ""
+
+msgid "Module expiry"
+msgstr ""
+
+msgid "Module licenses"
+msgstr ""
+
+msgid "Module maintenance expiry"
+msgstr ""
+
+msgid "Modules"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+#, php-format
+msgid ""
+"More information on Activation is available in <a href='%s'>the Wiki</a> "
+msgstr ""
+
+#, php-format
+msgid ""
+"Most modern devices support HTTP (currently port %s) or HTTPS (currently "
+"port %s) provisioning with Username and Password authentication to request "
+"their configuration. You can configure these ports on the %s Port Management "
+"Page %s"
+msgstr ""
+
+msgid "My Domain"
+msgstr ""
+
+msgid "My Hostname"
+msgstr ""
+
+msgid "My Origin"
+msgstr ""
+
+msgid ""
+"NOTE TO TRANSLATOR (do not translate this) - do not use double quotes (\") "
+"in the previous string, use single quotes, or a local equivalent"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the certificate"
+msgstr ""
+
+msgid "Neenah"
+msgstr ""
+
+msgid "Netmask"
+msgstr ""
+
+msgid "Network Configuration"
+msgstr ""
+
+msgid "Network Interface"
+msgstr ""
+
+msgid "Network SSID:"
+msgstr ""
+
+msgid "Network Settings"
+msgstr ""
+
+msgid "New Hostname"
+msgstr ""
+
+msgid "Newer versions, if any, will be visible when you Check Online."
+msgstr ""
+
+msgid "Next, stop and start the VPN server."
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Authentication"
+msgstr ""
+
+msgid "No FQDN found!"
+msgstr ""
+
+msgid "No Interface label provided"
+msgstr ""
+
+msgid "No TLS"
+msgstr ""
+
+msgid "No WiFi Hardware found"
+msgstr ""
+
+msgid "No WiFi hardware has been detected on this machine."
+msgstr ""
+
+msgid "No information - /var/log/wpa_supplicant.log does not exist."
+msgstr ""
+
+msgid "No packet captures found"
+msgstr ""
+
+msgid "No software RAID configured"
+msgstr ""
+
+msgid "No status available"
+msgstr ""
+
+msgid "No support contract found"
+msgstr ""
+
+msgid "No valid deployment id"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Normal outbound call threshold percent"
+msgstr ""
+
+msgid "Normal outbound duration threshold percent"
+msgstr ""
+
+msgid ""
+"Normally, your first DNS server should be <code>127.0.0.1</code>. Add any "
+"additional servers after that."
+msgstr ""
+
+msgid "Not Allowed"
+msgstr ""
+
+msgid "Not Connected"
+msgstr ""
+
+msgid "Not Installed"
+msgstr ""
+
+msgid "Not available: Default Gateway"
+msgstr ""
+
+msgid "Not available: No IP Address"
+msgstr ""
+
+msgid "Not received"
+msgstr ""
+
+#, php-format
+msgid ""
+"Not using an external server will increase the chance that messages sent "
+"from this machine will be treated as Spam.  You may need to whitelist %s in "
+"your email service."
+msgstr ""
+
+msgid ""
+"Note that 'Start Automatically' is set to <strong>NO</strong> on all new "
+"interface creations. This allows you to reboot the machine if you "
+"accidentally lose contact with the machine due to an invalid network "
+"configuration. After the network configuration is applied, you can set "
+"ONBOOT to yes on the main page."
+msgstr ""
+
+msgid ""
+"Note that <strong>all http ports</strong> provide access to <tt>/.well-"
+"known</tt> (which is used by LetsEncrypt to validate certificates) in "
+"addition to their normal use. However, as LetsEncrypt requires that this be "
+"present on port 80, the LetsEncrypt port <strong>only</strong> permits "
+"access to <tt>/.well-known</tt> and nothing else."
+msgstr ""
+
+msgid ""
+"Note that <strong>no validation</strong> is done on an IP address that you "
+"enter manually. If you attempt to assign an IP address that is not available "
+"to the network the client is requesting from, a normal IP address from that "
+"range will be allocated. This is to avoid loss of service if a device is "
+"moved from one network to another."
+msgstr ""
+
+msgid ""
+"Note that any endpoints using VPN will need to be rebuilt and the device "
+"updated.  These devices will be marked as needing rebuild in Endpoint "
+"Manager Extension Mapping."
+msgstr ""
+
+msgid ""
+"Note that some potentially risky changes will be <strong>saved but not "
+"applied</strong> - for example, changing a network interface from static to "
+"DHCP. To ensure your machine's network configuration is up to date, a reboot "
+"may need to be scheduled to complete network changes."
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Notifications Settings"
+msgstr ""
+
+msgid "Now go to Certificate Manager and click 'Import Locally'"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Office 365"
+msgstr ""
+
+msgid "On Battery Delay Time"
+msgstr ""
+
+msgid ""
+"On this page you can configure the threshold, or percentage of change that "
+"must occur in order to receive a notice about the amount of minutes used on "
+"your phone system. This is designed to help you with capacity planning and "
+"possibly detect an intruder."
+msgstr ""
+
+msgid ""
+"On this page you can send a test email.<br /><br /> The last 50 lines of the "
+"log are listed for troubleshooting purposes.<br /><br />"
+msgstr ""
+
+msgid ""
+"On this page you can set your FTP and HTTP Server authentication information."
+msgstr ""
+
+msgid ""
+"On this page you can set your SMTP Server information to receive e-mail "
+"notification and voicemail to e-mail.<br /><br />\n"
+"Please note that due to the security settings of some mail servers (1and1, "
+"GMail), you may need to manually configure additional settings."
+msgstr ""
+
+msgid ""
+"On this page you can set your UPS information.  <br /><br />UPS's can be "
+"used to properly shutdown the PBX in case of power loss, and to alert you to "
+"power issues<br />\n"
+"by email.<br />"
+msgstr ""
+
+msgid ""
+"Once you have completed this process you will be able to select a "
+"certificate from the Settings tab to install for use in Apache"
+msgstr ""
+
+msgid ""
+"One or more commercial licenses on this system are expired. To continue "
+"using the features provided by these modules, they must be <a href='https://"
+"wiki.freepbx.org/display/FPG/Purchasing+Commercial+Modules'><strong>renewed "
+"or repurchased</strong></a>."
+msgstr ""
+
+msgid "Only allows access to LetsEncrypt tokens. Should be on port 80"
+msgstr ""
+
+msgid ""
+"Only lowercase alphanumeric characters are allowed in the username & "
+"password field in provisioning protocol."
+msgstr ""
+
+msgid "OpenVPN"
+msgstr ""
+
+msgid "OpenVPN Client"
+msgstr ""
+
+msgid "Option 150 (URL)"
+msgstr ""
+
+msgid "Option 66 (IP)"
+msgstr ""
+
+msgid "Organization Name (O)"
+msgstr ""
+
+msgid "Organization Name such as Sangoma Technologies, Inc."
+msgstr ""
+
+msgid "Organization Unit (OU)"
+msgstr ""
+
+msgid ""
+"Organizational Unit. This can be a doing business as (DBA) name, or the name "
+"of a department within the business. This may be left blank."
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "PBX framework version"
+msgstr ""
+
+msgid ""
+"PBX upgrade process is in progress so not running 'update-ports' hooks from "
+"install."
+msgstr ""
+
+msgid "PBX version"
+msgstr ""
+
+msgid "PCAP File"
+msgstr ""
+
+msgid "PJSIP Settings"
+msgstr ""
+
+msgid "Packet Capture"
+msgstr ""
+
+msgid "Packet Capture Status"
+msgstr ""
+
+msgid ""
+"Parameters must start with 'all' or '+'. E.g: 'all -TLSv1' or '+TLSv1.1'."
+msgstr ""
+
+msgid "Parent"
+msgstr ""
+
+msgid "Passphrase:"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password that FTP client will use"
+msgstr ""
+
+#, php-format
+msgid "Perfect (%sdBm)"
+msgstr ""
+
+msgid "Please Confirm"
+msgstr ""
+
+msgid ""
+"Please enter a valid CID.Uploaded certificate ID can be found using "
+"fetchSSLCertificates api"
+msgstr ""
+
+msgid ""
+"Please enter the details for the new interface. Note that it is extremely "
+"unusual to select DHCP for alternative interfaces, as it can cause "
+"unexpected and unwanted network dropouts."
+msgstr ""
+
+msgid "Please provide a valid port"
+msgstr ""
+
+msgid ""
+"Please select the entries that have been requested. If none have been "
+"explicitly requested, the defaults are sufficient."
+msgstr ""
+
+msgid ""
+"Please, before adding a custom protocol you need to know what you are doing. "
+"Entering an unknown value could break Apache!"
+msgstr ""
+
+msgid ""
+"Please, clear the browser cache if you are updating any configuration "
+"changes."
+msgstr ""
+
+msgid "Please, don't use any type of protocol in the FQDN, e.g: my.domain.com"
+msgstr ""
+
+msgid "Please, fill in both fields."
+msgstr ""
+
+msgid "PnP Configuration"
+msgstr ""
+
+msgid "PnP Server Configuration"
+msgstr ""
+
+msgid "PnP Server ID"
+msgstr ""
+
+msgid "PnP Server Status"
+msgstr ""
+
+#, php-format
+msgid "Poor (%sdBm)"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+#, php-format
+msgid "Port %s "
+msgstr ""
+
+msgid "Port Management"
+msgstr ""
+
+msgid "Port is  used for :"
+msgstr ""
+
+msgid "Port number to force"
+msgstr ""
+
+msgid "Port number: "
+msgstr ""
+
+msgid "Port provisioning update has started"
+msgstr ""
+
+msgid "Postfix Custom Config"
+msgstr ""
+
+msgid "Power Off"
+msgstr ""
+
+msgid "Power Options"
+msgstr ""
+
+msgid ""
+"Power cycle the system. All calls will be dropped and the system will be "
+"temporarily unavailable."
+msgstr ""
+
+msgid ""
+"Powers off the system. WARNING: You will not be able to restart the system "
+"unless you have physical access!"
+msgstr ""
+
+msgid "Processing. Please wait... "
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Protocol added successfuly."
+msgstr ""
+
+msgid "Protocol saved successfully."
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Provisioning Protocols"
+msgstr ""
+
+msgid "Queue Callback Logs"
+msgstr ""
+
+msgid "RAID Status"
+msgstr ""
+
+msgid "REST API port Provisioning.Default port 83"
+msgstr ""
+
+msgid "REST/GraphQL API"
+msgstr ""
+
+msgid "RESTful Phone Apps"
+msgstr ""
+
+msgid ""
+"RESTful Phone Apps (https) port is disabled now , Sangomaconect Desktop "
+"phone service needs RESTful Phone Apps Https port."
+msgstr ""
+
+msgid "RESTful Phone Apps. Default port 82"
+msgstr ""
+
+msgid "Read the System licence information"
+msgstr ""
+
+msgid "Reboot"
+msgstr ""
+
+msgid "Rebuild"
+msgstr ""
+
+msgid "Rebuild VPN certificates"
+msgstr ""
+
+msgid "Redirect Gateway"
+msgstr ""
+
+msgid "Refresh Activation information"
+msgstr ""
+
+msgid "Registered Modules"
+msgstr ""
+
+msgid "Relaod values of the list from config file."
+msgstr ""
+
+msgid ""
+"Relating to the motherboard connection, sda is the primary hard drive, sdb "
+"is the secondary hard drive."
+msgstr ""
+
+msgid "Remaining"
+msgstr ""
+
+msgid "Remote Support"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove all custom Postfix settings: E.g: fwconsole sa cleanpostfix"
+msgstr ""
+
+msgid "Removing"
+msgstr ""
+
+msgid "Renegotiate data channel key after n seconds (default=3600)."
+msgstr ""
+
+msgid "Renew"
+msgstr ""
+
+msgid "Renew Now"
+msgstr ""
+
+msgid "Renewals"
+msgstr ""
+
+msgid "Require Both"
+msgstr ""
+
+msgid "Reservations"
+msgstr ""
+
+msgid "Reserved label used. Please use another"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset to Default"
+msgstr ""
+
+msgid "Reset to Default changes settings to 'SSLProtocol +TLSv1.2'"
+msgstr ""
+
+msgid ""
+"Reset to Default changes settings to (SSLProtocol +TLSv1.2), e.g: fwconsole "
+"sa rsp"
+msgstr ""
+
+msgid ""
+"Restapp Port has changed ,Please Restart the sangomartapi process by logging "
+"in to the CLI and running the command 'fwconsole restart sangomartapi' "
+msgstr ""
+
+msgid "Restarting fail2ban"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Routes"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Running Sysadmin Hooks"
+msgstr ""
+
+msgid "SASL Security Options"
+msgstr ""
+
+msgid "SIP Settings"
+msgstr ""
+
+msgid "SMTP Email Debug"
+msgstr ""
+
+msgid "SMTP Email Setup"
+msgstr ""
+
+msgid "SMTP Server"
+msgstr ""
+
+msgid "SMTP Server: "
+msgstr ""
+
+msgid "SSH Keys Package"
+msgstr ""
+
+msgid "SSID"
+msgstr ""
+
+msgid "SSL Apache CipherSuites Settings"
+msgstr ""
+
+msgid "SSL Protocol for Apache"
+msgstr ""
+
+msgid ""
+"SSL protocol details updated, please restart apache for the configuration to "
+"be effective (https://wiki.freepbx.org/display/FPG/Sysadmin+Module+GraphQL"
+"+APIs#SysadminModuleGraphQLAPIs-Apacherestart)"
+msgstr ""
+
+msgid ""
+"SSLProtocol <i class=\"fa fa-exclamation-triangle\"></i> <b>Cannot be empty."
+"</b>"
+msgstr ""
+
+msgid "SSLProtocol SSLv3 enable/disable for apache"
+msgstr ""
+
+msgid "SSLProtocol TLSv1 enable/disable for apache"
+msgstr ""
+
+msgid "SSLProtocol TLSv1.1 enable/disable for apache"
+msgstr ""
+
+msgid "SSLProtocol TLSv1.2 enable/disable for apache"
+msgstr ""
+
+msgid "SSLProtocol all for apache"
+msgstr ""
+
+msgid "SSLv3"
+msgstr ""
+
+msgid "SSl Protocol reseted successfuly."
+msgstr ""
+
+msgid "SSl Protocol saved successfuly."
+msgstr ""
+
+msgid "Safe Asterisk"
+msgstr ""
+
+msgid "Sangoma Phone Desktop Client Service"
+msgstr ""
+
+msgid "Sangoma Technologies, Inc."
+msgstr ""
+
+msgid "SangomaConnect Logs"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid ""
+"Save / Apply custom Postfix settings. (Restart Postfix): E.g: fwconsole sa "
+"savepostfix"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save Interface"
+msgstr ""
+
+msgid "Save Intrusion Detection"
+msgstr ""
+
+msgid "Save SSL Protocol for Apache"
+msgstr ""
+
+msgid "Save and Apply"
+msgstr ""
+
+msgid "Save and Restart Apache"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Second level storage threshold(%) to send email notifications"
+msgstr ""
+
+msgid "Secondary"
+msgstr ""
+
+msgid "Secure Port (https)"
+msgstr ""
+
+msgid "Secure Port default HTTP Only"
+msgstr ""
+
+msgid "Secure Port https for HTTP Provisioning of this system"
+msgstr ""
+
+msgid "Secure Port https for REST API Provisioning of this system"
+msgstr ""
+
+msgid "Secure Port https for RESTful Phone Apps Provisioning of this system"
+msgstr ""
+
+msgid "Secure Port https for Sangoma Phone Desktop Client Service"
+msgstr ""
+
+msgid "Secure Port https for administration for this system"
+msgstr ""
+
+msgid ""
+"Secure Port https for administration for user control panel of this system"
+msgstr ""
+
+#, php-format
+msgid ""
+"Secure Provisioning is enabled on both HTTP and HTTPS ports (defined above), "
+"with the username <tt>%s</tt> and password <tt>%s</tt>"
+msgstr ""
+
+#, php-format
+msgid ""
+"Secure Provisioning is enabled on the %s port only, with the username <tt>"
+"%s</tt> and password <tt>%s</tt>"
+msgstr ""
+
+#, php-format
+msgid "Secure Provisioning is not currently enabled for any protocol."
+msgstr ""
+
+msgid "Security:"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select a Certificate"
+msgstr ""
+
+msgid "Select a valid FQDN"
+msgstr ""
+
+msgid "Select items for support"
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on international outbound "
+"calls."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on normal outbound calls."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on the average international "
+"outbound call duration."
+msgstr ""
+
+msgid ""
+"Select the percentage of change that must occur on the average normal "
+"outbound call duration."
+msgstr ""
+
+msgid "Select which SMTP provider to use."
+msgstr ""
+
+msgid "Select which SMTP server to use."
+msgstr ""
+
+msgid "Server Port"
+msgstr ""
+
+msgid "Server Range"
+msgstr ""
+
+msgid "Server Remote Address"
+msgstr ""
+
+msgid "Service Name"
+msgstr ""
+
+msgid "Set hostname of the system"
+msgstr ""
+
+msgid "Set ssl protocol for apache"
+msgstr ""
+
+msgid ""
+"Setting Hostname process has started. Kindly check the fetchApiStatus api "
+"with the transaction id."
+msgstr ""
+
+#, php-format
+msgid "Setting timezone to %s"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Setup https"
+msgstr ""
+
+msgid "Should DDNS services be enabled for this system"
+msgstr ""
+
+msgid "Show SSL Protocol for Apache, e.g: fwconsole sa ssp"
+msgstr ""
+
+msgid "Show custom Postfix settings. E.g: fwconsole sa showpostfix"
+msgstr ""
+
+msgid "Simple Cable"
+msgstr ""
+
+msgid "Size (bytes)"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Smart Cable"
+msgstr ""
+
+msgid "Sorry "
+msgstr ""
+
+msgid "Sorry Unable to find licence details"
+msgstr ""
+
+msgid "Sorry Unable to find the key"
+msgstr ""
+
+msgid "Sorry unable to find the hostname"
+msgstr ""
+
+msgid "Sorry unable to get provisional protocols details"
+msgstr ""
+
+msgid "Sorry unable to install ssl certificate"
+msgstr ""
+
+msgid "Sorry unable to process licence update"
+msgstr ""
+
+msgid "Sorry unable to process port provisioning"
+msgstr ""
+
+msgid "Sorry unable to process the activation "
+msgstr ""
+
+msgid "Sorry unable to set Hostname"
+msgstr ""
+
+msgid ""
+"Sorry unable to set SSL Protocol, please provide valid protocol details in "
+"request."
+msgstr ""
+
+msgid "Sorry unable to set SSL Protocol."
+msgstr ""
+
+msgid "Sorry unable to update ssl certificate"
+msgstr ""
+
+msgid "Sorry, this system is not activated yet"
+msgstr ""
+
+msgid "Sorry, unable to find any SSL certificate"
+msgstr ""
+
+msgid "Sorry,activation could not be processed"
+msgstr ""
+
+msgid "Start Address"
+msgstr ""
+
+msgid "Start Automatically"
+msgstr ""
+
+msgid "Start PCAP"
+msgstr ""
+
+msgid "Start Packet Capture"
+msgstr ""
+
+msgid "Starts packet capture. Remember to stop it later!"
+msgstr ""
+
+msgid ""
+"State or province such as \"Queensland\" or \"Wisconsin\" or \"Ontario.\" Do "
+"not abbreviate. Enter the full name."
+msgstr ""
+
+msgid "State/Province (ST)"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Static IP"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status for the request"
+msgstr ""
+
+msgid "Status of FTP server"
+msgstr ""
+
+msgid "Status of TFTP server"
+msgstr ""
+
+msgid "Status of the request"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "Stop & Unconfigure"
+msgstr ""
+
+msgid "Stop PCAP"
+msgstr ""
+
+msgid "Stop Packet Capture"
+msgstr ""
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Stops a running packet capture"
+msgstr ""
+
+msgid "Storage"
+msgstr ""
+
+msgid "Storage Notifications"
+msgstr ""
+
+msgid "Storage State"
+msgstr ""
+
+msgid "Storage Threshold 1"
+msgstr ""
+
+msgid "Storage Threshold 2"
+msgstr ""
+
+msgid "Strength"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Successfully found licence details"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Support Contract (POMPs) Expiry"
+msgstr ""
+
+msgid "Support Contract Expiring Soon."
+msgstr ""
+
+msgid "Support Contract Expiry"
+msgstr ""
+
+msgid "Support Files"
+msgstr ""
+
+msgid "Support VPN"
+msgstr ""
+
+msgid ""
+"Support contract expiring soon. Please <a href='https://wiki.freepbx.org/"
+"display/FPAS/How+to+Purchase+Support+Contracts#HowtoPurchaseSupportContracts-"
+"PurchasingSupportContracts'><strong> renew </strong></a> to ensure continued "
+"assistance."
+msgstr ""
+
+msgid "Sysadmin Module"
+msgstr ""
+
+msgid "Sysadmin functions"
+msgstr ""
+
+msgid "System Admin"
+msgstr ""
+
+msgid ""
+"System Administration - COMMERCIAL MODULE REQUIRES A LICENSE FOR PRO "
+"FEATURES TO BE ENABLED ABOVE THE\t\tINCLUDED FREE FEATURES. System "
+"Administration - provides access to various\t\tsystem administration tools. "
+"This module is designed to work with some very specific distributions such "
+"as the\t\tFreePBX Distro and PBXact. There are dependencies that are not all "
+"listed in this module.xml package so the module\t\tshould not be used except "
+"on the distributions that it is designed for."
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "System Licence expiry"
+msgstr ""
+
+msgid "System Registration"
+msgstr ""
+
+msgid "System activated"
+msgstr ""
+
+msgid "System not activated"
+msgstr ""
+
+msgid "TFTP Server"
+msgstr ""
+
+msgid "TLSv1"
+msgstr ""
+
+msgid "TLSv1.1"
+msgstr ""
+
+msgid "TLSv1.2"
+msgstr ""
+
+msgid "TLSv1.3"
+msgstr ""
+
+#, php-format
+msgid "Test Email from your %s Phone System \"%s\""
+msgstr ""
+
+#, php-format
+msgid ""
+"That account does not seem to exist. Please create a new portal account <a "
+"href='%s' target='_new'>here</a>."
+msgstr ""
+
+msgid "The Module has expired."
+msgstr ""
+
+msgid "The Module will expire in less than 30 days."
+msgstr ""
+
+msgid ""
+"The POMPs support contract for this PBX deployment has expired. To continue "
+"to receive PBX software updates, you must <a href=\"https://wiki.freepbx.org/"
+"display/FPAS/How+to+Purchase+Support+Contracts#HowtoPurchaseSupportContracts-"
+"PurchasingSupportContracts\"><strong>renew</strong></a> the POMPs support "
+"contract."
+msgstr ""
+
+msgid ""
+"The PnP service allows you to automatically configure any Sangoma phone that "
+"is on the same network as this server, without needing to configure any "
+"other services (such as DHCP)."
+msgstr ""
+
+msgid "The Support Contract (POMPs) will expire soon"
+msgstr ""
+
+msgid "The Support has expired."
+msgstr ""
+
+msgid "The Support will expire in less than 30 days."
+msgstr ""
+
+msgid ""
+"The System Admin module is an optional module that gives you the ability to "
+"manage different Operating System level settings, such as Network Settings, "
+"HTTP and HTTPS Ports, Hostname, Email, and DNS settings, along with other "
+"useful features."
+msgstr ""
+
+#, php-format
+msgid "The certificate begins %s until %s"
+msgstr ""
+
+msgid ""
+"The certificate for the VPN will expire in a few days. Please remember to "
+"regenerate it."
+msgstr ""
+
+msgid "The certificate has expired."
+msgstr ""
+
+#, php-format
+msgid "The highest version of this module you may run is %s."
+msgstr ""
+
+msgid "The hostname of your PBX."
+msgstr ""
+
+msgid ""
+"The maintenance period for one or more commercial modules has expired. To "
+"continue receiving module updates and support, please <a href='https://wiki."
+"freepbx.org/display/FPAS/How+to+Renew+FreePBX+Commercial+Modules"
+"+Maintenance'><strong>renew</strong></a> the maintenance subscription."
+msgstr ""
+
+msgid ""
+"The mydomain parameter specifies the local internet domain name. The default "
+"is to use $myhostname minus the first component."
+msgstr ""
+
+msgid ""
+"The myhostname parameter specifies the internet hostname (also known as the "
+"Reverse DNS) of this mail system. The default is to use the Reverse DNS "
+"lookup name from gethostname()."
+msgstr ""
+
+msgid ""
+"The myorigin parameter specifies the domain that locally-posted mail appears "
+"to come from.  The default is the Fully Qualified Domain Name of the PBX."
+msgstr ""
+
+msgid ""
+"The ssh_keys RPM is currently <strong>installed</strong>. Click 'Remove' to "
+"remove it"
+msgstr ""
+
+msgid ""
+"The ssh_keys RPM is currently <strong>not installed</strong>. Click "
+"'Install' to install it."
+msgstr ""
+
+msgid ""
+"The support contract (POMPs) for your PBXact will expire soon, which will "
+"prevent you from updating the system. <a href=\"https://wiki.freepbx.org/"
+"display/FPAS/How+to+Purchase+Support+Contracts#HowtoPurchaseSupportContracts-"
+"PurchasingSupportContracts\"><strong>Please renew the contract to continue "
+"receiving support and updates.</strong></a>"
+msgstr ""
+
+msgid ""
+"The support contract for this PBX deployment has expired. To continue "
+"receiving support, please <a href='https://wiki.freepbx.org/display/FPAS/How"
+"+to+Purchase+Support+Contracts#HowtoPurchaseSupportContracts-"
+"PurchasingSupportContracts'><strong>renew</strong></a> the support contract."
+msgstr ""
+
+msgid ""
+"The time in seconds from when a power failure is detected until we react to "
+"it with an \"on battery\" event."
+msgstr ""
+
+msgid ""
+"There is a possibility that <strong>any device</strong> that has physical "
+"access to your network could have the ability to see these credentials."
+msgstr ""
+
+msgid ""
+"There was an error trying to install branding updates. Please click the "
+"'Retry' button to try again."
+msgstr ""
+
+#, php-format
+msgid "These are the %s most recent releases:"
+msgstr ""
+
+msgid ""
+"These are the currently allocated ports for services. They are not "
+"adjustable, and are provided here for your reference only."
+msgstr ""
+
+msgid "This Modules Free Upgrade period has expired!"
+msgstr ""
+
+msgid "This Modules Free Upgrade period is ending."
+msgstr ""
+
+msgid "This allows you to assign clients to specific IP addresses."
+msgstr ""
+
+msgid ""
+"This allows you to set port numbers for various services. The available "
+"ports you can configure are as follows:"
+msgstr ""
+
+msgid ""
+"This allows you to set the 'smtp_sasl_security_options' param. Setting it to "
+"'Allow Plaintext' is the equivalent of 'smtp_sasl_security_options = "
+"noanonymous'. Some external SMTP providers may require this setting."
+msgstr ""
+
+msgid ""
+"This button will attempt to release the activation from this machine. If you "
+"are going to re-apply the <u>same deployment</u> to this machine in the "
+"future, you do not need to use this button. You only need to use this button "
+"if you want to move this deployment to another, different, server."
+msgstr ""
+
+msgid "This enables the Zero-Touch PnP Service, for use with Sangoma Phones."
+msgstr ""
+
+msgid ""
+"This feature is currently not licensed. For more information on this feature "
+"or to purchase this Add-On, please see the information below."
+msgstr ""
+
+msgid ""
+"This host name will always resolve to the external IP address of the system."
+msgstr ""
+
+msgid "This hostname will be suggested to the client"
+msgstr ""
+
+msgid ""
+"This is a shortcut for '+SSLv3 +TLSv1' or - when using OpenSSL 1.0.1 and "
+"later - '+SSLv3 +TLSv1 +TLSv1.1 +TLSv1.2', respectively (except for OpenSSL "
+"versions compiled with the 'no-ssl3' configuration option, where all does "
+"not include +SSLv3)."
+msgstr ""
+
+#, php-format
+msgid ""
+"This is a test email from your %s Phone System, please do not respond to "
+"this message"
+msgstr ""
+
+msgid ""
+"This is simply the label. You can use a number (0, 1, 2), or a name (dmz, "
+"internal, lan10). Do not add the interface name."
+msgstr ""
+
+msgid ""
+"This is the Secure Sockets Layer (SSL) protocol, version 3.0, from the "
+"Netscape Corporation. It is the successor to SSLv2 and the predecessor to "
+"TLSv1, but is deprecated in RFC 7568."
+msgstr ""
+
+msgid ""
+"This is the hostname of your machine. This is not changeable through here, "
+"and can only be modified through the Management Console."
+msgstr ""
+
+#, php-format
+msgid ""
+"This machine does not have Sysadmin Pro activated.  Sysadmin Pro gives you "
+"various additional functionality, including the ability to password protect "
+"your provisioning protocols. %s This page %s outlines the the differences in "
+"%s Sysadmin Pro %s."
+msgstr ""
+
+msgid ""
+"This machine does not have Sysadmin Pro activated. Sysadmin Pro gives you "
+"various additional functionality, including the ability to password protect "
+"your provisioning protocols."
+msgstr ""
+
+msgid ""
+"This machine has Sysadmin Pro activated, which gives you the ability to "
+"password-protect HTTP and HTTPS provisioning requests."
+msgstr ""
+
+msgid "This machine has been activated."
+msgstr ""
+
+#, php-format
+msgid ""
+"This machine is activated and has Sysadmin Pro enabled. You can see your "
+"current licenses on the %s Activation Page %s."
+msgstr ""
+
+#, php-format
+msgid "This machine is eligible for %d %s!"
+msgstr ""
+
+msgid ""
+"This machine is not activated. The Free version of Sysadmin is only "
+"available to Activated machines."
+msgstr ""
+
+msgid "This machine is not currently activated."
+msgstr ""
+
+msgid ""
+"This machine is using the Free version of Sysadmin. You can upgrade to the "
+"Full version at any time, by clicking on the 'Buy Now' button."
+msgstr ""
+
+msgid "This machine will automatically re-activate before this date."
+msgstr ""
+
+msgid ""
+"This module comes in 2 versions, a free version and a Pro (commercial) "
+"version."
+msgstr ""
+
+msgid ""
+"This module will keep functioning, but you may miss out on new features if "
+"you do not renew your subscription. "
+msgstr ""
+
+msgid ""
+"This module will keep functioning, but you may miss out on new features. "
+msgstr ""
+
+msgid "This protocol already exists."
+msgstr ""
+
+msgid ""
+"This section allows you to change the hostname of your machine. When you "
+"click 'Update Hostname', the name change will be applied immediately."
+msgstr ""
+
+msgid ""
+"This section gives you an easy method of providing all the needed "
+"information."
+msgstr ""
+
+msgid ""
+"This sets up Apache using a self-signed certificate. The hostname you use to "
+"access this machine\n"
+"   must be provided. It has been auto-detected from your address bar, but "
+"may be changed before \n"
+"   clicking 'Generate'"
+msgstr ""
+
+msgid ""
+"This system is running a commercial module version that is newer than the "
+"expiry date for the module maintenance. We ask that you please either renew "
+"the commercial module maintenance or downgrade to the latest version "
+"supported by your existing license"
+msgstr ""
+
+msgid ""
+"This system is running a commercial module version that is newer than the "
+"expiry date for the module maintenance. We ask that you please either renew "
+"the commercial module maintenance or downgrade to the latest version "
+"supported by your existing license. Please refer to the <a href='config.php?"
+"display=modules#licensestab'><strong>commercial license</strong></a> tab for "
+"more details. "
+msgstr ""
+
+msgid ""
+"This will immediately bring the interface down, and delete the network "
+"interface configuration."
+msgstr ""
+
+msgid ""
+"This will remove the activation from this machine, and reset the activation "
+"state back to un-activated. If you have any commercial modules they will "
+"immediately become disabled. Are you sure to deactivate machine? [y/n]: "
+msgstr ""
+
+msgid ""
+"This will remove the activation from this machine, and reset the activation "
+"state back to un-activated. If you have any commercial modules they will "
+"immediately become disabled. You must type the word 'confirm' to proceed"
+msgstr ""
+
+msgid ""
+"This will save and apply the changes specified. Please note that a "
+"misconfiguration could make your VPN inaccessable."
+msgstr ""
+
+msgid ""
+"This will save and apply the changes specified. Please note that a "
+"misconfiguration could make your server inaccessable."
+msgstr ""
+
+msgid "Time Zone"
+msgstr ""
+
+msgid "Time in Minutes"
+msgstr ""
+
+msgid "Time in Seconde"
+msgstr ""
+
+msgid "Time in Seconds"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid ""
+"To apply this new value or force to rebuild the certificate now, please "
+"click the Rebuild or Cancel button to abort."
+msgstr ""
+
+msgid "To assist support, you may be asked to provide system information."
+msgstr ""
+
+msgid ""
+"To enhance security, and ease support issues, you may install the 'ssh_keys' "
+"RPM package. This package permits authorized Sangoma support staff to access "
+"your server <i>without the need to divulge any system passwords</i>. This "
+"does not alter any existing authorized keys, and may be removed at any time."
+msgstr ""
+
+msgid ""
+"To set up this server for SSL (HTTPS) access you will need to either install "
+"or update your version of Certificate Manager from Module Admin"
+msgstr ""
+
+#, php-format
+msgid ""
+"To set up this server for SSL (HTTPS) access, you will need to generate or "
+"upload a certificate using Certificate Manager %s"
+msgstr ""
+
+msgid ""
+"Too many arguments. E.g: fwconsole sa addpostfix --"
+"set='smtp_tls_security_level = may'"
+msgstr ""
+
+msgid "Too many arguments. E.g: fwconsole sa wsp 'all -SSLv3 -TLSv1 -TLSv1.1'"
+msgstr ""
+
+msgid "Total Licensed Users"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "Tried to delete undeleteable interface"
+msgstr ""
+
+msgid "Trusted Chain"
+msgstr ""
+
+msgid "Two letter country code, such as \"US\", \"CA\", or \"AU\"."
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "UCP"
+msgstr ""
+
+msgid "UPS Alerts"
+msgstr ""
+
+msgid "UPS Battery Level in percentage "
+msgstr ""
+
+msgid "UPS Name"
+msgstr ""
+
+msgid "UPS Server"
+msgstr ""
+
+msgid "UPS Setup"
+msgstr ""
+
+msgid "UPS Type"
+msgstr ""
+
+msgid "US"
+msgstr ""
+
+msgid "USB Cable"
+msgstr ""
+
+msgid "Unable to determine"
+msgstr ""
+
+msgid "Unable to find deployment_id in new licence file"
+msgstr ""
+
+msgid "Unable to start"
+msgstr ""
+
+msgid "Unable to track down your deployment"
+msgstr ""
+
+msgid "Unconfigured"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown error reading /var/log/wpa_supplicant.log"
+msgstr ""
+
+msgid "Unlock Key"
+msgstr ""
+
+#, php-format
+msgid "Unusable (%sdBm)"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Activation"
+msgstr ""
+
+msgid "Update Hostname"
+msgstr ""
+
+msgid "Update Interfaces"
+msgstr ""
+
+msgid "Update Interval:"
+msgstr ""
+
+msgid "Update Now"
+msgstr ""
+
+msgid "Update Provisioning Port"
+msgstr ""
+
+msgid "Update Required"
+msgstr ""
+
+msgid "Update SSL Certificate"
+msgstr ""
+
+msgid "Update Status"
+msgstr ""
+
+msgid "Update hostname"
+msgstr ""
+
+msgid "Update provisioning protocols"
+msgstr ""
+
+msgid "Updating"
+msgstr ""
+
+#, php-format
+msgid "Updating License Information for %s"
+msgstr ""
+
+msgid ""
+"Updating SSL certificate is under process. Kindly check the fetchApiStatus "
+"api with the transaction id."
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Upgrade Now"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "Use Auth"
+msgstr ""
+
+msgid "Use Authentication"
+msgstr ""
+
+msgid "Use Built In SMTP Server"
+msgstr ""
+
+msgid "Use DDNS"
+msgstr ""
+
+msgid "Use External SMTP Server"
+msgstr ""
+
+msgid "Use Server Remote Address"
+msgstr ""
+
+msgid "Use TLS"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "User Control Panel. Default port 81"
+msgstr ""
+
+msgid "User licenses"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Username that FTP client will use"
+msgstr ""
+
+msgid "VLAN"
+msgstr ""
+
+msgid "VLAN ID"
+msgstr ""
+
+msgid "VPN"
+msgstr ""
+
+msgid "VPN Cert Days value is Changed"
+msgstr ""
+
+msgid "VPN Cert Expiry Alert"
+msgstr ""
+
+msgid "VPN Clients"
+msgstr ""
+
+msgid "VPN IP"
+msgstr ""
+
+msgid "VPN Renegotiate Timer"
+msgstr ""
+
+msgid "VPN Server"
+msgstr ""
+
+msgid "VPN client software"
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+msgid "Warning! The certificate has expired."
+msgstr ""
+
+msgid "Warning!!"
+msgstr ""
+
+msgid "Warning: To complete time zone changes, you must reboot your system."
+msgstr ""
+
+#, php-format
+msgid ""
+"We have identified that the admin port has been changed to %s.\n"
+"The wizard  will try to automatically redirect to the new port, but if that "
+"doesn't\n"
+"work, click on the 'Continue' button to redirect manually."
+msgstr ""
+
+#, php-format
+msgid "Weak (%sdBm)"
+msgstr ""
+
+msgid "Weaker Cipher"
+msgstr ""
+
+msgid "Weaker Cipher enabled by default"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+#, php-format
+msgid ""
+"When the service is running, a secure, encrypted tunnel is connected to %s "
+"infrastructure.  <br />This allows for %s support personnel to be able to "
+"remotely support systems that do not <br /> or can not open required ports. "
+"<br /><br /> This does not connect the PBX to any outside computer, network "
+"or Internet other than %s <br />Infrastructure. <br /><br />VPN does not "
+"need to always be running, however %s support personnel may ask you to <br /"
+">start it if needed.  <br /><br />%s recommends <span style=\"color: red; "
+"font-weight: bold; \">NOT</span> leaving the VPN connected."
+msgstr ""
+
+msgid "Where to send a test email"
+msgstr ""
+
+msgid ""
+"Whether the client is enabled. Disabled clients will not be allowed to "
+"connect."
+msgstr ""
+
+msgid ""
+"Whether to use the configured DDNS.  If DDNS is disabled, Remote Address "
+"will be used as a fallback."
+msgstr ""
+
+msgid ""
+"Whether to use the servers configured remote address.  If disabled, Remote "
+"Address will be used as a fallback."
+msgstr ""
+
+msgid "Which VPN client configurations this user can download."
+msgstr ""
+
+msgid ""
+"Which VPN client configurations this user can download. Leave blank to "
+"inherit from groups"
+msgstr ""
+
+msgid "Which static IP address this VPN client will be assigned."
+msgstr ""
+
+msgid "WiFi Password"
+msgstr ""
+
+msgid "WiFi SSID"
+msgstr ""
+
+msgid "Wired Networks"
+msgstr ""
+
+msgid "Wireless Networks"
+msgstr ""
+
+msgid "Wisconsin"
+msgstr ""
+
+msgid "Working..."
+msgstr ""
+
+msgid "Would you like to activate this machine now? "
+msgstr ""
+
+msgid "Would you like to update the modules now?"
+msgstr ""
+
+msgid ""
+"Write SSL Protocol for Apache, e.g: fwconsole sa wsp --set='all -SSLv3 -"
+"TLSv1 -TLSv1.1'"
+msgstr ""
+
+msgid "Wrong FQDN format. Can contain a-z, ., - and 0-9."
+msgstr ""
+
+msgid "Wrong IP Address format."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You are no longer eligible for upgrades for this module. "
+msgstr ""
+
+msgid "You are running the latest available version"
+msgstr ""
+
+msgid "You are running the latest version available under your license"
+msgstr ""
+
+#, php-format
+msgid ""
+"You can configure Authentication settings in the %s Provisioning Protocol %s "
+"section of Sysadmin Pro"
+msgstr ""
+
+msgid ""
+"You can customize Postfix entries for main.cf. Your settings will override "
+"the previous config."
+msgstr ""
+
+msgid ""
+"You can customize Postfix manually. Your settings will override the previous "
+"config."
+msgstr ""
+
+msgid ""
+"You can enter any number of IPs or Hostnames here that will be provided to "
+"the client, indicating where THIS server is. You may add a port number by "
+"appending : and a number - eg, 20.30.40.50:1196."
+msgstr ""
+
+msgid ""
+"You can not use 'extra' non standard VLAN Identifiers. You can only use "
+"standard 802.1q VIDs, which are between 1 and 4094"
+msgstr ""
+
+msgid ""
+"You can specify an IP for the system to report back to the DDNS server "
+"rather than using the detected IP"
+msgstr ""
+
+msgid ""
+"You have a previous certificate installed that was used by system admin to "
+"setup SSL in apache. If you would like to import this certificate into "
+"Certificate Manager please click 'Import'"
+msgstr ""
+
+msgid "You have chosen to delete the interface <span id='intdelname'></span>."
+msgstr ""
+
+msgid "You have to enable at least one protocol!"
+msgstr ""
+
+msgid ""
+"You may import existing devices from Endpoint Manager by clicking on the "
+"'Import' button."
+msgstr ""
+
+msgid ""
+"You want to rebuild the certificate or the value for CERT_DAYS_VAL has been "
+"changed."
+msgstr ""
+
+msgid ""
+"Your 'sysadmin' RPM is out of date. These features require the sysadmin rpm "
+"to be updated. Please run the command (as root) 'yum update sysadmin' on "
+"your machine."
+msgstr ""
+
+msgid ""
+"Your 'sysadmin' RPM is out of date. These features require the sysadmin rpm "
+"to be updated. Please run the command (as root) 'yum update sysadmin'."
+msgstr ""
+
+#, php-format
+msgid "Your licence for Free upgrades to this module will expire on %s UTC. "
+msgstr ""
+
+msgid ""
+"Your machine must be activated to install Commercial Modules. Note that some "
+"Free modules are classified as Commercial and require your machine to be "
+"activated."
+msgstr ""
+
+msgid "Yum is currently running. Retrying..."
+msgstr ""
+
+msgid "acp"
+msgstr ""
+
+msgid "cid install ID"
+msgstr ""
+
+msgid "confirm"
+msgstr ""
+
+msgid "done"
+msgstr ""
+
+msgid "dropping service tables..."
+msgstr ""
+
+#, php-format
+msgid "fail2ban Restart failed Failed: %s"
+msgstr ""
+
+msgid "fail2ban Restarted"
+msgstr ""
+
+msgid "hpro"
+msgstr ""
+
+msgid "installSSLCertificate"
+msgstr ""
+
+msgid ""
+"is already in use. Unable to delete. Please release it before to delete."
+msgstr ""
+
+msgid "is set to default"
+msgstr ""
+
+msgid "modules Licence expiry"
+msgstr ""
+
+msgid "offer"
+msgstr ""
+
+msgid "offers"
+msgstr ""
+
+msgid "on RAID issues or "
+msgstr ""
+
+msgid "protocol is currently not supported or incorrect. Please check."
+msgstr ""
+
+msgid "restapi"
+msgstr ""
+
+msgid "restapps"
+msgstr ""
+
+msgid "server.example.com"
+msgstr ""
+
+msgid "ucp"
+msgstr ""
+
+msgid "unknown error while checking expired modules"
+msgstr ""
+
+msgid "update preserved dns data"
+msgstr ""
+
+msgid "updateSSLCertificate"
+msgstr ""
+
+msgid ""
+"updating provisional protocols process has started. Kindly check the "
+"fetchApiStatus api with the transaction id."
+msgstr ""
+
+msgid "user passed option for skip remote dns"
+msgstr ""
+
+msgid "warmspare remotedns option enabled"
+msgstr ""

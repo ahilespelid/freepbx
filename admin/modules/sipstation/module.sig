@@ -1,0 +1,143 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=B53D215A755231A3
+signedby='FreePBX Mirror Servers <security@freepbx.org>'
+repo=standard
+timestamp=1686111212.9663
+[hashes]
+Api/Gql/Sipstation.php = b81caf5dda4d6843174aaab5e084251c9392d6cc91f91a58087f31af3b48397a
+Backup.php = 47dff4ac4ccc1e5c41890e5a5ef58b08c3fd00b03a3f398ad850bd396516dc2b
+Console/Sipstation.class.php = 68ac84be43f24596c9024494f61234e8f48945decef1843bc869cd24b6a2aaeb
+LICENSE = d012ce07f6ec81aeae4f3aa64794d8624511e10e21f3413ef5991174d68ce58a
+Oobe.class.php = 73f3307912e0582b0f2b7b513eae75b8a36877cbf0d1abf7390640d96aec0dc4
+Restore.php = bfcb033ac844957ccb49e47d8302a5d1d5ad6c49d73317b47e99b0caba79ebd0
+Sipstation.class.php = ad49df7ee350ca3eaa144f273d3cf62e2653f9fa514dac26aadf1662ba2c8c0a
+agi-bin/sipstation_sms.php = 50b9269fcc44020fa5a36d8aa09f0ce19bbb4aa64931dbc5e3c3c4916eedd55e
+assets/css/sipstation.css = 97f3fb833a6ba84f6cc4bbbd02cf8573fb6a756e52ee115c4ca0727f62182ce2
+assets/images/convert-trial.png = a25798d92c9d102e9fdee44d7fd1d7fa4208b5155395c7c4f9ba6244063302a5
+assets/images/full-power.png = e0999ba22243476b2f75b2e461d682a59c74db3e6ba494b777b32dceaadcaa12
+assets/images/storeFrontSipStation-00002.png = b5f0f48bb94716f9db31312b0da133d71ed75f972749ab75dcd052cecebf76f2
+assets/images/toggle_minus.png = f751115943de91fc272473a4db3875c76c7ad5c1d3432ce1bf7956dcf7ae4ae9
+assets/images/toggle_plus.png = 68c038e65d4e03c06c4ad59f11e199ed171b52b2d1b23f1cefd2cf18c3d0cea2
+assets/js/iframeResizer.map = 1d21054b4734a1a7832d6f83e14b7c3b6b5e0175e4380cff71fc54d7c118cc7c
+assets/js/iframeResizer.min.js = 65884f9ace195e3d72cdc1254f1666ad909049932ed98e2a5fe5491222c9d596
+assets/js/jquery.form.js = b11c1577afb8bc73e197d0e81648ced80d8f770fe4b92b06062b4af98c8a1bcd
+assets/js/math-session.js = 5a0448f31838934301ad4eac9ec09a5213d56ed2cfec71c40a7ff2cc689685fd
+assets/js/sipstation.js = 532a2de2188c9ea18eb05aefa0cfc8c7e911bc840e6030aa163cce99dc1b462a
+bin/freepbx_sipstation_check = d1d9fa005c2d5834b0a9e054756f62d29658d93dbb155fa6b07923c7d069063c
+composer.json = 0448cb5e79a7c4a1b12452bdf8543266431a86f9495d610cfb61fd00c8f552fb
+composer.lock = c322917a0d510f46d0b6c4893a9a228c6436f41855d9531677d5eb5bf68ae879
+functions.inc/hook_core.php = 76fa5859935605140f90f2b31dd17777140185855e083b25e1db64eb3d1a681e
+functions.inc.php = defd27d320a5d2c2959f84f80950bb5f3a5abdaf85bb92f1e0192d014d0bdf51
+install.php = a6753c544802b16beb29895f209d1b292b1875879f7fb0a13e21097754c4231b
+module.xml = 34d454369f89c27bfd3e7f19ad2ab6bca051e62fa8f3022aa5ba723d5e634843
+page.sipstation.php = 37c1715cd95f41f6716b886f38a41cf789f9dccbd80314f543a17ca3ec891827
+phpunit.xml = 1840842e482f0566967aaeb4344b5e32c073db34eac3976def4f9820c04a56d3
+sapi/PestSipstation.php = fe840a448266603b43e8426ecfbc0e64a8515e8c391a223c21a08ba639f0fc59
+sapi/Sipstation.php = cccbadf4892cf17738c553568e6b31c60e132b67a7d785f908a3d97d83f1aa43
+sapi/config/Config101.php = 7145fa992b442a094f6fde65d3f5f63e328dd460ffd514ac044da6983a9509a2
+sapi/config/Config102.php = 60b29536f525cd1ba3228a4b87f9409a4b92899ba97685a1d7ec7b1569a2366d
+sapi/config/Config103.php = bd34eaed882284d6a6a65b3aa9f92295ed2dcffd63111b61e34c42a8b93809db
+sapi/config/ConfigBase.php = b48ac1c3eaf73a5d85312ccd548fbe008e69e93e1bf59cec49f72dd04e568b4c
+sapi/drivers/Base.php = df305ffa3099a10a5b4b410b612a1745e1ec67754dd0431db6c59ffc811f8e72
+sapi/drivers/Driver.php = 9674211c6f0ff8cc58ef74e8a9d4d763a04cb6a17edc7e1c0af721c2983374b7
+sapi/drivers/Pjsip.php = a5626e69a6b1261e326e0ba958562900a1070923ee33546cd5e450407f3f89a9
+sapi/drivers/Sip.php = 001b8e992d54c4852e910e8f52405329191248f267be33e299b33499b9bdada7
+sipstation.html.php = 9c1c25245647e55c64a95a1677c7e47b26712b69a6229a0d3e3f19254ab0de7e
+sms/SipstationSMS.php = a0b57a9463d1209e2468739a542ab91a12b524780abbdbbc95b650ded4ff40d2
+sms/Smsapi.php = a1eadf47665c3b24d1717328b62c62ad16bc9ad686df63264f23609fb36b363e
+uninstall.php = 33b1d44634be32fe769238fa88e9783b4ff67db22af6a69badec9a193b77e558
+utests/API/GQL/SipstationGqlApiTest.php = 4d624a32fdf5d4290f65c9e4ebf4952ddec976d8ee02d2e9a8fb287bb6a466bc
+utests/SipstationSapiTest.php = fceca3e4931dc6048d46962a5ce2b404920c5f5e2c052323cb5199eaba636590
+vendor/autoload.php = 067490ac639cb914491b20d73048d32ec1ea360cd3fdf1678df3e3891e88be56
+vendor/composer/ClassLoader.php = 1057ef1b55b0f906b2f562c2204ca38a51574aa0374994c3bcf48a45a5d00a28
+vendor/composer/LICENSE = c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+vendor/composer/autoload_classmap.php = f7927c215be0fe08c9f2efe688ee45c788546cf30a30b55a25a0049befe26981
+vendor/composer/autoload_namespaces.php = f8d8fcc85e7eebf816e2a7b464db2b46025c64d0452e169ab3cdecd9b30df876
+vendor/composer/autoload_psr4.php = 9ead7763dcdb921731a7b7395385bf61dc6481899ae21d76aef52a659d21fccd
+vendor/composer/autoload_real.php = 8cab4688bf4c17c6d93a8cc6ff2f4a399646d3be997881ee8f2fa70841833c76
+vendor/composer/autoload_static.php = a1d22a4a97004137805016995ecc44fabac96d0355adc6e0b0b4ee234a34a81e
+vendor/composer/installed.json = fb57cefc062fdbae86ac28a04f738696d4c11203eadcd282e99f6b6312d3bce6
+vendor/netresearch/jsonmapper/ChangeLog = 805c0c181b15c77603ef6e7605b05ee19f8ca1c3b4ea7f3630be7bd661a63a1c
+vendor/netresearch/jsonmapper/LICENSE = 3be46680883ed8e6764a2ded4a9bfff0004c3c24eb5237445a942380b45347c3
+vendor/netresearch/jsonmapper/README.rst = 030c7ed1b230ecd286aa74f3c35fece05d1ae30da62ef347c78010a2bd2f0128
+vendor/netresearch/jsonmapper/composer.json = b1ae1c0fda45a9ec1779538e675741d00b560c1fd6bd79a03021fcaf3077edc4
+vendor/netresearch/jsonmapper/example/Address.php = 577db0615431e85be4acce11345e77ca21aec84675ddfa39c873218c6e4e37db
+vendor/netresearch/jsonmapper/example/Contact.php = 6f5bda0df6acac66de713a21264e48b4c526ac8e76044d1525ab3e369a45ef4d
+vendor/netresearch/jsonmapper/example/run.php = 5cfb39ac25b3cda6722ab4f11dacb5dfceb9850c7c4a9b3ef1f2345671848a13
+vendor/netresearch/jsonmapper/example/single.json = 3c2e06ce03d0088d623743c2419e42ee58cf9a2433b9d40fed9c7f519b1da921
+vendor/netresearch/jsonmapper/package.xml = c5a529045dce7bed58ab7fd6ff57360a15bfbb49100785d255b39f737367a9fa
+vendor/netresearch/jsonmapper/src/JsonMapper/Exception.php = f727562af3f4aa600cf6471b559b03f1e4af22ed403e581f1dd88e560de9769f
+vendor/netresearch/jsonmapper/src/JsonMapper.php = 99c415c7b01a698f566e71678db849b3cdf90151fb20fae6d4db6599f00a0b0e
+vendor/netresearch/jsonmapper/tests/ArrayTest.php = eda1201f7f311aec88750259d0451d09b285c478fabf60f105b9d2706b41d2c4
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Array.php = 7c6fdeb09498f45503d7a6df253d6c6adf887525e0503dac6958636c5f138162
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Broken.php = ad970e58d0e5b8a35b081fedd4052ff07c9205c7cde5b8882170b8dcdb6604d3
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/DependencyInjector.php = 04dd95f7b2965391d5f0b72bfc092798ba91105117313d1e91e698d3303d4b91
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Logger.php = a7a53a4405bd8112bc22a8e007b41709467cbc862f644a883da719231e5a46bb
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Object.php = ddc9fc65b2fb5829e82371042868516777bfac6ccbb412ab848c2297071f7221
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/PlainObject.php = 71ba0dad5deafdd412f02cf24910186c1677d564680f5b3fd1985080b2ce07e8
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/PrivateWithSetter.php = a5edb401a9948dc046002acd124e75e6cf3e316606e71d59011d8c6eec2e3343
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Simple.php = 1edb03a1209624cd61194b8cad8d7bd08793e453be421961e7b63862b7b0758f
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/ValueObject.php = 13dbdc645f53bba0d35f7fb90f2278ccf8cb0fa998a4947fe903baacb8496c5c
+vendor/netresearch/jsonmapper/tests/ObjectTest.php = f38fc7a1ef53e30ad9ed50f186568e8b7090c822e1e650ef3c98944844a4ae44
+vendor/netresearch/jsonmapper/tests/OtherTest.php = adeed5057076da2d991e1cca02c0921185410e3d92e4bd940f3bf33a57699a80
+vendor/netresearch/jsonmapper/tests/PHP7_ObjectTest.php = 167d20487db992495a65e8bbd4f7f49bc66d2ea6e3c246ea273cba7c68c864b4
+vendor/netresearch/jsonmapper/tests/SimpleTest.php = 2adc7d94ec209b92267400a31f0854a276d0e4f9099dcd294730c5711d3a6ffa
+vendor/netresearch/jsonmapper/tests/bootstrap.php = 4f883f7c597637461782b09b443dcff90bd3851db8c195706f838d9b4301da36
+vendor/netresearch/jsonmapper/tests/namespacetest/NamespaceTest.php = 30456ed891c5871bf6a6c27f7a81767d60c72e83cad3200dc1b3b23281c9cc6e
+vendor/netresearch/jsonmapper/tests/namespacetest/Unit.php = fe9c5681486d69fb16647d1cfbcb2e17b7661411026612972d0f887159a586fc
+vendor/netresearch/jsonmapper/tests/namespacetest/UnitData.php = 79baa8adc64f47f74dc51c4a73c54356e2ec4e5ffc8fa8fddae7d7086d8942aa
+vendor/netresearch/jsonmapper/tests/namespacetest/model/MyArrayObject.php = 928e5b2ce1ece73a57bb02a0b97eb7f04857bbeb28785d7f9160af7ac35dda73
+vendor/netresearch/jsonmapper/tests/namespacetest/model/User.php = 54cd298707b07fe596899ca5b92c801676503dadfed6b4308d8d97c3d8e5cea1
+vendor/netresearch/jsonmapper/tests/namespacetest/model/UserList.php = 6c022f8cb51e57197fef88f3ae25b80c0d2413afac79e7fb8eef849a490f94d8
+vendor/netresearch/jsonmapper/tests/othernamespace/Foo.php = 5450e69b5c18cdcae8df408a44fcf3212c10317fde835844bbf88a12ba723a46
+vendor/netresearch/jsonmapper/tests/phpunit.xml = 923f0a54d3e54f782209afa7193ac1743031ab904d1e855ae5461d00044a97fc
+views/account.php = 5a8000cf4b7d8efef03b8793de679b60f124b664eae4c2dbb91320f9c0847a56
+views/converttrial.php = 6dd32ca6bce526d32559b12497afe4e0c167ccecbea01b7c7e0bc991908152c7
+views/e911.php = 380f84b45a0cf5332b4254f303223e4a3c4411cda4387b582f7e8b6931073930
+views/failover.php = 70e20a34169786eb532fe82ce44ab631f00346ce1dd5c939cafd7f6da6c8d817
+views/footer.php = a981a46e605320203596a7d99d5165b1f78d4c6c9cfc90abeb90f85842fe23ca
+views/header.php = b07ec766606cf70f9ebc75e706b1d55c68c2701e2e39645e0e3a577f159306fb
+views/hook_core.php = 836fb30be8a76fdaeba95f6d8201c1fb768e8d1a172053e8216662070c6f9fae
+views/invalidnoservertempnot.php = e9e1f259d9d12a36335f03a76cdf01e2595517628c807339b25243c4774ab20b
+views/location.php = ba78dddfd87748f9774ca522a9de91c3f899c7fc6e61331e66c5c33c40e46c47
+views/main.php = 01944e64a3450730fe9854a7b272a978669a461ee3058ae2101d232f09fd5b8b
+views/maintabbed.php = ff0d94de3946071b574bae5d2fd0e33cb4ae8d0a3492613c0cabe75bd1654893
+views/newlook.php = cfb44f8a0eca575953c96ced7e255d0a0ed9e1749e011e5a80a8833b1489b67d
+views/no_internet.php = 6bbbdfdd728b6845e68122cfdaa212536b25054162629ce21bf005c515e9835a
+views/nokey.php = 60da39f35c9cf3c3a67f57f59b8813f75b554228c0e3e3f00ea39f58afe50c8e
+views/outdated.php = be2c3f3523ae84681f367eb9e631c3402fb5b9e08aeb22496ec8cc3a217bc3f2
+views/routing.php = 29fe984b2dff46d9f23781034a74b904e0255c7eb926813f0b489e3673d4494d
+views/status.php = db28319e982e432467fe93eb08c861e6d7c23c9f2a18c71391edb9130e5619f2
+views/ucp_config.php = 9c959cbf96557190f96ffc55045a39a4cba5775a9e2ba40f412ba131826623db
+views/userman_config.php = 711d22d64c8f66c0fa505c6501bebbfc82614891a3fa68c07f761142ca1f8199
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQIcBAEBAgAGBQJkgAPsAAoJELU9IVp1UjGjNeYP/jh9+dWihVZvq42d9EWBKEnw
+dDA5Mm46mEnDe8VIA17Jbi71oBX7MYCPaNVBm59mQjp47LbMgojlEhrEk0R4W9jL
+1kNiMS0GCeRCicN1yBTnW9CtB5OnfNF2tvJJaOGZpVwlBWo7SyNQvRkBLEEgucB+
+zDuEIywgKSlD70iUN4DppFCq8WvT9OrgfNKNJEoARXbr6GxadSfrfRB3pUConBpj
+QgnV1EmpI7weyGbre+5J2fCHl5tS2SYTekUVsxtTxLLUvMfxC9SPAcR4iWAx721K
+iSxrLrW3uFqGf9qsAuSowTmlu3GtOhe2AqSSH3ssFZ8HVr99LkOl9XYcwfHjhMkZ
+fm2f5fMZhlMBbT9MiSmxGY6KpcAZEsA68Mb+nXRegNVtGRluLN54psFYIIms68cE
+9Zf5dMVgakEyiDnRphsHQY74JlmBoNrwa2VEHxR3D7oYjqBCsqrKj5uxHIOKvE9a
+WeBlfMyczrP56nJWn2DdgCjZlDFvVHBq7pPXbY6l3hbybm2NgUGxtwUPFMoF01o1
+re6JwTigvfS/ALH1xEA+Mnr+0UUw5h4Frz8e9nfLCZ0jJ5osQadkhL3/SMEmtebb
+VBzeZF0Z4vvQ5CZXpGeQ86OAmiCc6E0JUxRXGFGN8QWN7s8R2x1jSXouVEnErVqD
+kOXS/nOeatXavU4kRhYI
+=Wnly
+-----END PGP SIGNATURE-----

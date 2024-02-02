@@ -1,0 +1,102 @@
+<module>
+	<rawname>conferencespro</rawname>
+	<name>Conference Pro</name>
+	<version>15.0.3.18</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<category>Applications</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Adds ability to manage Conference Room settings into the User Control Panel and also to create Conference IVRs </description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Conference+Pro</more-info>
+
+	<changelog>
+		*15.0.3.18* FREEI-3695 Updated license checking condition from zend to ioncube 
+		*15.0.3.17* FREEI-3572 Add  getWidgetListByModule method conferencepro module 
+		*15.0.3.16* Packaging of ver 15.0.3.16
+		*15.0.3.15* Fixing FREEI-1279 Buy page embedded url not found issue 
+		*15.0.3.14* FREEI-1038 ucp error 
+		*15.0.3.13* bump
+		*15.0.3.12* bump
+		*15.0.3.11* Adding conferences module dependency
+		*15.0.3.10* FREEI-556 - use new getAllConferences method in an updated conferences module
+		*15.0.3.8* FREEPBX-19576 
+		*15.0.3.6* Fixing legacy restore 
+		*15.0.3.5* FREEPBX-18549
+		*15.0.3.4* FREEPBX-18592 Conference Room Prefix allows Alphabets, Special Characters and empty value 
+		*15.0.3.3* FREEPBX-18456 Conference Pro - Issue with Firefox and User or Admin PIN starting with 0
+		*15.0.3.2* Fixing problems in Backup 15 (Backup Part) 
+		*15.0.3.1* Dont create conferences when not licensed
+		*15.0.3* Packaging of ver 15.0.3
+		*15.0.2* FREEPBX-12553 Conference bridges aren't removed on user delete 
+		*15.0.1* Fork to 15, implement backup
+	</changelog>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#conference-pro</link>
+	</commercial>
+	<menuitems>
+		<conferencespro>Conferences Pro</conferencespro>
+	</menuitems>
+    <database>
+        <table name="conferencespro_rooms">
+            <field name="room" type="string" length="25"/>
+            <field name="user" type="string" length="50"/>
+            <field name="ivr" type="string" length="15"/>
+            <key name="room" type="unique">
+                <column name="room"/>
+            </key>
+        </table>
+        <table name="conferencespro">
+            <field name="setting" type="string" length="50"/>
+            <field name="value" type="string" length="50"/>
+            <key name="setting" type="unique">
+                <column name="setting"/>
+            </key>
+        </table>
+    </database>
+	<depends>
+		<version>13.0.121</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.6.0</phpversion>
+		<module>core ge 13.0.10</module>
+		<module>sysadmin ge 13.0.69</module>
+		<module>conferences ge 15.0.7.1</module>
+		<module>music ge 12.0.1</module>
+		<module>recordings ge 12.0.4</module>
+		<module>userman ge 14.0.3.6</module>
+		<module>framework ge 13.0.121</module>
+	</depends>
+	<hooks>
+		<ucp class="Ucp">
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="constructModuleConfigPages">ucpConfigPage</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="addUser">ucpAddUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="updateUser">ucpUpdateUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="delUser">ucpDelUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="addGroup">ucpAddGroup</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+		<userman namespace="FreePBX\modules" class="Userman">
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="delGroup">usermanDelGroup</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="addGroup">usermanAddGroup</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="updateGroup">usermanUpdateGroup</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="delUser">usermanDelUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="addUser">usermanAddUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="updateUser">usermanUpdateUser</method>
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="myShowPage">usermanShowPage</method>
+		</userman>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method class="Conferencespro" namespace="FreePBX\modules" callingMethod="getModuleLicenseInformation">sendModuleLicenseInformation</method>
+		</sysadmin>
+	</hooks>
+	<popovers>
+		<conferencespro>
+			<display>conferences</display>
+			<view>form</view>
+		</conferencespro>
+	</popovers>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

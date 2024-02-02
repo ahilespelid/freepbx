@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Dids; use Informunity\Classes\OutRoutes; class getOutboundRoutesList implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\x75\x74\150\x65\x6e\164\151\x63\141\x74\x65" => true, "\141\154\154\x6f\x77\162\145\x6d\157\164\145" => false); return true; } public function ajaxHandler($config, $data) { return OutRoutes::load()->getOutboundRoutesList($config, $data, isset($data["\151\164\145\x6d\x73"]) && $data["\x69\x74\x65\155\x73"]); } }

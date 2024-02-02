@@ -1,0 +1,30 @@
+<module>
+	<rawname>fw_langpacks</rawname>
+	<modtype>framework</modtype>
+	<repo>extended</repo>
+	<name>Localization Updates</name>
+	<version>14.0.1</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<changelog>
+		*14.0.1* Version bump only, no changes.
+		*12.0.1* Full Spanish Translations
+		*2.11.2* 3/9/2014
+		*2.11.1.1* Include license file
+		*2.11.1.0* Additions and Updates to Japanese and Russian, Thanks to coverup0204 and ded. Many Many Thanks to coverup0204 for all of the hours of work and support
+		*2.11.0.0* bump version
+		*2.10.0.0* pull in updated languages
+		*2.9.0.1* #4404
+		*2.9.0.0* language updates
+	</changelog>
+	<description>
+		This module provides a facility to install new and updated localization translations. Localization i18n translations are still kept with each module. This provides an easy ability to bring all components up-to-date without the need to publish dozens of modules for every minor change. The localization updates used will be the latest available for all modules regardless of the current version you are running.
+	</description>
+	<category>Admin</category>
+	<location>legacy</location>
+	<md5sum>legacy</md5sum>
+	<supported>
+		<version>14.0</version>
+	</supported>
+</module>

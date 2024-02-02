@@ -1,0 +1,99 @@
+<module>
+	<rawname>timeconditions</rawname>
+	<repo>standard</repo>
+	<name>Time Conditions</name>
+	<version>15.0.15.11</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Applications</category>
+	<description>
+		Creates a condition where calls will go to one of two destinations (eg, an extension, IVR, ring group..) based on the time and/or date. This can be used for example to ring a receptionist during the day, or go directly to an IVR at night.
+	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Time+Conditions+Module</more-info>
+	<changelog>
+		*15.0.15.11* FREEPBX-22461 Bulk Handler export time Groups 
+		*15.0.15.10* FREEI-1714-timegroups-tabs-error 
+		*15.0.15.9* FREEPBX-22141
+		*15.0.15.8* FREEPBX-22058 [BC-Break][TimeGroup] Empty time in timegroup 
+		*15.0.15.7* Packaging of ver 15.0.15.7
+		*15.0.15.6* Packaging of ver 15.0.15.6
+		*15.0.15.5* FREEPBX-21827 Time Conditions not showing state 
+		*15.0.15.4* Packaging of ver 15.0.15.4
+		*15.0.15.3* FREEI-1968  timegroup not saving time details 
+		*15.0.15.2* FREEPBX-21190 
+		*15.0.15.1* FREEPBX-21038 BLF Hint not working properly 
+		*15.0.15* Fixing FREEI-1135
+		*15.0.14* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.13* Fixing FREEPBX-20093
+		*15.0.10* fixing legacy restore
+		*15.0.9* FREEPBX-18838 Time Condition allows to add the entry without Destination matches and/or Destination non-matches when the Time Group or Calendar is empty.
+		*15.0.8* FREEPBX-18825 Time Groups FreePBX 15 Will Not Save
+		*15.0.7* FREEPBX-18137 Fix condition for form buttons
+		*15.0.6* FREEPBX-18137 Fix request paramiter
+		*15.0.5* FREEPBX-18141
+		*15.0.4* Rest Api
+		*15.0.3* Packaging of ver 15.0.3
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Branch to 15, add backup and restore
+	</changelog>
+	<depends>
+		<version>13.0.74</version>
+		<module>cel ge 13.0.18</module>
+		<module>calendar ge 14.0.1alpha6</module>
+	</depends>
+	<menuitems>
+		<timeconditions needsenginedb="yes">Time Conditions</timeconditions>
+		<timegroups needsenginedb="yes">Time Groups</timegroups>
+	</menuitems>
+	<hooks>
+		<framework namespace="FreePBX\Console\Command" class="Chown">
+			<method namespace="FreePBX\modules" class="Timeconditions" callingMethod="fwcChownFiles">chownFreepbx</method>
+		</framework>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" namespace="FreePBX\modules" class="Timeconditions">bulkhandlerGetHeaders</method>
+			<method callingMethod="getTypes" namespace="FreePBX\modules" class="Timeconditions">bulkhandlerGetTypes</method>
+			<method callingMethod="import" namespace="FreePBX\modules" class="Timeconditions">bulkhandlerImport</method>
+			<method callingMethod="export" namespace="FreePBX\modules" class="Timeconditions">bulkhandlerExport</method>
+		</bulkhandler>
+	</hooks>
+	<database>
+		<table name="timeconditions">
+			<field name="timeconditions_id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="displayname" type="string" length="50" notnull="false"/>
+			<field name="time" type="integer" notnull="false"/>
+			<field name="truegoto" type="string" length="50" notnull="false"/>
+			<field name="falsegoto" type="string" length="50" notnull="false"/>
+			<field name="deptname" type="string" length="50" notnull="false"/>
+			<field name="generate_hint" type="boolean" default="0" notnull="false"/>
+			<field name="invert_hint" type="boolean" default="0" notnull="false"/>
+			<field name="fcc_password" type="string" length="20" default="" notnull="false"/>
+			<field name="priority" type="string" length="50" notnull="false"/>
+			<field name="timezone" type="string" length="255" notnull="false"/>
+			<field name="mode" type="string" length="20" default="time-group" notnull="false"/>
+			<field name="calendar_id" type="string" length="150" notnull="false"/>
+			<field name="calendar_group_id" type="string" length="150" notnull="false"/>
+		</table>
+		<table name="timegroups_groups">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="description" type="string" length="80" default=""/>
+			<key name="display" type="unique">
+				<column name="description"/>
+			</key>
+		</table>
+		<table name="timegroups_details">
+			<field name="id" type="integer" primaryKey="true" autoincrement="true"/>
+			<field name="timegroupid" type="integer" default="0"/>
+			<field name="time" type="string" length="100" default=""/>
+		</table>
+	</database>
+	<popovers>
+		<timeconditions>
+			<display>timeconditions</display>
+			<view>form</view>
+		</timeconditions>
+	</popovers>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

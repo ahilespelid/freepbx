@@ -1,0 +1,228 @@
+<module>
+	<rawname>queuestats</rawname>
+	<name>Queue Wallboard</name>
+	<version>15.0.13</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<commercial>
+		<type>paid</type>
+	       <link>//freepbx.org/</link>
+	</commercial>
+	<category>Reports</category>
+	<description>The Queue Wallboard module allows you to easily view real-time information related to queues in the UCP module of FreePBX or PBXact.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Queue+Wallboard</more-info>
+	<changelog>
+		*15.0.13* FREEI-18 
+		*15.0.12* FREEI-5800 
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* FREEI-5383 queue wallboard widgets not reflecting correct data 
+		*15.0.9* FREEPBX-21138 replace Unknown with Logged Out 
+		*15.0.8* Packaging of ver 15.0.8
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* FREEI-4916 Qs_agentstats continuous DELETE makes the system unstable 
+		*15.0.5* FREEI-4570 Advanced settings not saving 
+		*15.0.4*    Allow lazy loading for fwconsole commands
+		*15.0.3.35* FREEI-4509 Increased background process usage since last update 
+		*15.0.3.34* FREEI-2480 Queuestats high CPU usage 
+		*15.0.3.33* FREEI-3497 queuestats allowed widgets 
+		*15.0.3.32* FREEI-3307 QueueWallboard - can not add Agent State Widget when first queue on list has 0 agents 
+		*15.0.3.31* FREEI-2614 Queue Wallboard showing unaccurate information 
+		*15.0.3.30* FREEI-2662-QueueWallboard-flicker-in-ucp 
+		*15.0.3.29* Packaging of ver 15.0.3.29
+		*15.0.3.28* Packaging of ver 15.0.3.28
+		*15.0.3.27* FREEI-1809 UCP Wallboard Widgets not moved on PBX15 restore 
+		*15.0.3.26* FREEI-1781 queuestats sync process check before running new one. 
+		*15.0.3.25* FREEI-1277
+		*15.0.3.24* FREEI-619 Queue Wallboard status shows "unknown" when set to DND 
+		*15.0.3.23* FREEPBX-20306 Wrong Averaging Period and inconsistent report for Average wait time of a queue in UCP. 
+		*15.0.3.22* FREEPBX-20309 Last Week of a Queue is not showing if more than one Last Week of a Queue widget is added. 
+		*15.0.3.21* FREEPBX-20310 Queue Summary (Queue) is not showing if more than one Queue Summary (Queue) widget is added. 
+		*15.0.3.20* FREEPBX-20293 Legacy 15 restore stops at queuestats import 
+		*15.0.3.19* FREEI-619 Queue Wallboard status shows "unknown" when set to DND 
+		*15.0.3.18* FREEPBX-20087 backup fails on queue stats 
+		*15.0.3.17* FREEI-600  queuestats cron sync failure 
+		*15.0.3.16* FREEI-581 How do time ranges work in wallboard? 
+		*15.0.3.15* FREEI-499 queue wallboard agent summary not updating 
+		*15.0.3.14* FREEI-508 replace awful locks with better locks 
+		*15.0.3.13* FREEI-499 queue wallboard agent summary not updating 
+		*15.0.3.12* FREEPBX-18991 Longest Wait Time in queue wallboard is not showing the proper values 
+		*15.0.3.11* FREEPBX-18986 Average wait time widget of Queue Wallboard module 
+		*15.0.3.10* FREEPBX-18977 Getting error in UCP while adding the Agent State widget for remote server 
+		*15.0.3.9* FREEPBX-18972 JS issue under userman Queue wallboard selection 
+		*15.0.3.8* FREEPBX-18971 
+		*15.0.3.7* FREEPBX-18973 
+		*15.0.3.6* FREEPBX-18973 
+		*15.0.3.5* FREEI-401 Queue Wallboard has extremely high CPU during cron 
+		*15.0.3.4* Backup and restore
+		*15.0.3.3* FREEPBX-18628 - fix variable naming so that everything matches
+		*15.0.3.2* FREEPBX-18628 Queue wallboard hardcodes access to asterisk database
+		*15.0.2* New Backup and Restore for 15
+		*15.0.1* Added Backup/Restore 15 support
+	</changelog>
+	<depends>
+		<version>14.0.1alpha24</version>
+		<module>cdr ge 14.0.2</module>
+	</depends>
+	<menuitems>
+		<queuestats>Queue Wallboard</queuestats>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<location>legacy</location>
+	<md5sum>legacy</md5sum>
+	<!-- Note that the CDRDB 'queuelog' table is created as part of install -->
+	<database>
+		<table name="qs_queuestats">
+			<field name="id" type="bigint" primaryKey="true" autoincrement="true"/>
+			<field name="serverid" type="string" length="36"/>
+			<field name="queuename" type="string" length="64"/>
+			<field name="incomingcalls" type="integer"/>
+			<field name="answeredcalls" type="integer"/>
+			<field name="abandoned" type="integer"/>
+			<field name="ivrabandoned" type="integer"/>
+			<field name="shortestholdsec" type="integer"/>
+			<field name="shortestholdid" type="string" length="20"/>
+			<field name="longestholdsec" type="integer"/>
+			<field name="longestholdid" type="string" length="20"/>
+			<field name="totalagents" type="integer"/>
+			<field name="agentsavail" type="integer"/>
+			<field name="agentsunavail" type="integer"/>
+			<field name="agentsinuse" type="integer"/>
+			<field name="callswaiting" type="integer"/>
+			<field name="periodstart" type="integer"/>
+			<field name="periodend" type="integer"/>
+			<field name="activecalls" type="integer"/>
+			<field name="completedcalls" type="integer"/>
+			<field name="averageholdsec" type="integer"/>
+			<field name="shortesttalksec" type="integer"/>
+			<field name="shortesttalkid" type="string" length="20"/>
+			<field name="averagetalksec" type="integer"/>
+			<field name="longesttalksec" type="integer"/>
+			<field name="longesttalkid" type="string" length="20"/>
+			<field name="slapercent" type="decimal" precision="10" scale="5"/>
+			<key name="periodindex" type="index">
+				<column name="periodstart"/>
+				<column name="periodend"/>
+			</key>
+		</table>
+		<table name="qs_callstats">
+			<field name="callid" type="string" length="32" primaryKey="true"/>
+			<field name="serverid" type="string" length="36"/>
+			<field name="did" type="string" length="32"/>
+			<field name="callerid" type="string" length="32"/>
+			<field name="queuename" type="string" length="20"/>
+			<field name="entryposition" type="integer"/>
+			<field name="entrytime" type="integer"/>
+			<field name="holdtime" type="integer"/>
+			<field name="talktime" type="integer"/>
+			<field name="status" type="string" length="20"/>
+			<field name="complete" type="boolean" default="0"/>
+			<field name="agentname" type="string" length="40"/>
+			<field name="lastevent" type="string" length="20"/>
+			<field name="lasteventtime" type="integer"/>
+			<field name="lasteventid" type="integer"/>
+			<field name="relatedcallid" type="string" length="32"/>
+			<field name="answertime" type="integer"/>
+			<field name="completetime" type="integer"/>
+			<key name="callstatus" type="index">
+				<column name="status"/>
+			</key>
+			<key name="relatedindex" type="index">
+				<column name="relatedcallid"/>
+			</key>
+			<key name="startindex" type="index">
+				<column name="entrytime"/>
+			</key>
+			<key name="endindex" type="index">
+				<column name="lasteventtime"/>
+			</key>
+			<key name="answerindex" type="index">
+				<column name="answertime"/>
+			</key>
+		</table>
+		<table name="qs_livestats">
+			<field name="uuid" type="string" primaryKey="true" length="42"/>
+			<field name="serverid" type="string" length="36"/>
+			<field name="timestamp" type="integer"/>
+			<key name="ts_indexs" type="index">
+				<column name="timestamp"/>
+			</key>
+		</table>
+		<table name="qs_agentstats">
+			<field name="id" type="bigint" primaryKey="true" autoincrement="true"/>
+			<field name="serverid" type="string" length="36"/>
+			<field name="statstart" type="integer"/>
+			<field name="statend" type="integer"/>
+			<field name="agentid" type="string" length="64"/>
+			<field name="missedcalls" type="integer"/>
+			<field name="answeredcalls" type="integer"/>
+			<field name="avgtalktime" type="integer"/>
+			<field name="mintalktime" type="integer"/>
+			<field name="mintalkcallid" type="string" length="20"/>
+			<field name="maxtalktime" type="integer"/>
+			<field name="maxtalkcallid" type="string" length="20"/>
+			<field name="completedcalls" type="integer"/>
+			<field name="pausedsec" type="integer"/>
+			<field name="idlesec" type="integer"/>
+			<field name="talksec" type="integer"/>
+			<field name="wrapupsec" type="integer"/>
+			 <key name="timeindex" type="index">
+                                <column name="statstart"/>
+                                <column name="statend"/>
+                                <column name="serverid"/>
+                        </key>
+
+		</table>
+		<table name="qs_agentlog">
+			<field name="id" type="bigint" primaryKey="true" autoincrement="true"/>
+			<field name="serverid" type="string" length="36"/>
+			<field name="agentid" type="string" length="64"/>
+			<field name="event" type="string" length="64"/>
+			<field name="queuename" type="string" length="20"/>
+			<field name="eventstart" type="integer"/>
+			<field name="eventend" type="integer"/>
+			<field name="eventlength" type="integer"/>
+			<field name="eventdata" type="string" length="32"/>
+			<key name="agent" type="index">
+				<column name="agentid"/>
+			</key>
+			<key name="fullindex" type="index">
+				<column name="event"/>
+				<column name="eventstart"/>
+				<column name="eventend"/>
+			</key>
+			<key name="eventindex" type="index">
+				<column name="event"/>
+			</key>
+		</table>
+	</database>
+	<hooks>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+                       <method callingMethod="getModuleLicenseInformation" class="Queuestats" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+               </sysadmin>
+
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Queuestats" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<framework class="Reload" namespace="FreePBX">
+			<method callingMethod="preReload" class="Queuestats" namespace="FreePBX\Modules">preReloadFreepbx</method>
+		</framework>
+		<ucp class="Ucp">
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="constructModuleConfigPages">ucpConfigPage</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="addUser">ucpAddUser</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="updateUser">ucpUpdateUser</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="delUser">ucpDelUser</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="addGroup">ucpAddGroup</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method namespace="FreePBX\modules" class="Queuestats" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+	</hooks>
+	<console>
+		<command>
+			<name>queuestats</name>
+		</command>
+	</console>
+</module>

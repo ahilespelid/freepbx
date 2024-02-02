@@ -1,0 +1,42 @@
+<module>
+    <rawname>miscapps</rawname>
+    <repo>extended</repo>
+    <name>Misc Applications</name>
+    <version>15.0.10</version>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <category>Applications</category>
+    <description>
+        Adds the ability to create feature codes that can go to any FreePBX destination (such as an IVR or queue)
+    </description>
+    <more-info>https://wiki.freepbx.org/display/FPG/Misc+Applications+Module</more-info>
+    <menuitems>
+        <miscapps needsenginedb="yes">Misc Applications</miscapps>
+    </menuitems>
+    <database>
+        <table name="miscapps">
+            <field name="miscapps_id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="ext" type="string" length="50" notnull="false"/>
+            <field name="description" type="string" length="50" notnull="false"/>
+            <field name="dest" type="string" length="255" notnull="false"/>
+        </table>
+    </database>
+    <changelog>
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEI-922 Fix XSS Bootstrap Datatable Issues 
+		*15.0.7* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.6* FREEPBX-20481 Restoring legacy(FreePBX 13) Backup into FreePBX 15 system is not restoring the Feature codes for Misc application entries. 
+		*15.0.5* Fixing FREEPBX-19768 
+		*15.0.3* fixing legacy restore
+		*15.0.2* Packaging of ver 15.0.2
+        *15.0.1* Add Backup 15
+	</changelog>
+    <depends>
+        <version>2.4.0</version>
+    </depends>
+    <supported>
+        <version>15.0</version>
+    </supported>
+</module>

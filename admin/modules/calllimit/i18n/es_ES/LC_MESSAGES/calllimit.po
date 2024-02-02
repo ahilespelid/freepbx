@@ -1,0 +1,160 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for calllimit
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:22+0000\n"
+"PO-Revision-Date: 2015-08-08 23:39+0200\n"
+"Last-Translator: Alejandro <alejandro.apan@neocenter.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/calllimit/"
+"es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid "A Maximum of"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Call Limit"
+msgstr "Añadir Límite de Llamadas"
+
+msgid "Add Outbound Call Limit"
+msgstr "Añadir Límite de Llamadas de Salida"
+
+msgid ""
+"An Outbound Call limit allows you to restrict the number of calls people "
+"make that match particular outbound routes."
+msgstr ""
+"Un Límite de Llamadas de Salida le permite restringir el número de llamadas "
+"que la gente realiza si coincide una ruta de salida en particular."
+
+msgid "Call Limit"
+msgstr "Limitar llamadas"
+
+msgid ""
+"Call limit limits the number of calls that can be made using this route. "
+"These settings will be ignored if you set the Route type as Emergency or "
+"Intra-Company."
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default"
+msgstr "Por Defecto"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Edit: "
+msgstr "Editar "
+
+msgid ""
+"Enter the name of your outbound call limit rule to make it easier to select "
+"in your outbound route."
+msgstr ""
+"Ingrese el nombre de la regla del límite de llamadas de salida para "
+"facilitar la selección en su ruta de salida."
+
+msgid "Hours"
+msgstr ""
+
+msgid "Limit Reached Message"
+msgstr ""
+
+msgid "List Call Limits"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "None"
+msgstr "Nada"
+
+msgid "Note that this will match against <strong>all fields</strong>."
+msgstr ""
+
+msgid "Outbound Call Limit"
+msgstr "Límite de Llamadas de Salida"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Select the maximum number of calls that can be made in a single period."
+msgstr ""
+
+msgid ""
+"Select the recording to be played to the caller when they have hit this "
+"limit and are unable to complete their outbound call."
+msgstr ""
+"Selecciona la grabación a tocarse a los llamantes cuando ellos alcancen este "
+"límite y no puedan completar su llamada de salida."
+
+msgid "Submit"
+msgstr "Enviar"
+
+#, perl-format
+msgid "The Name %s already used, please use a different name."
+msgstr ""
+
+msgid ""
+"The recordings module seems to be disabled or not installed. The default "
+"message will be played to callers when their call limit is reached"
+msgstr ""
+
+msgid ""
+"This means, for example, if you have a maximum of '10' in a 5 hour period, "
+"but a maximum of '5' per day, it will block calls after 5, because it will "
+"match on the 'per day' field."
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "You must set a valid name for this call limit"
+msgstr ""
+
+msgid "calls per"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Please visit www."
+#~ "schmoozecom.com/oss.php - Restrict Outbound Calls at an outbound route "
+#~ "level"
+#~ msgstr ""
+#~ "EL MÓDULO COMERCIAL REQUIERE DE UNA LICENCIA PARA FUNCIONAR. Por favor "
+#~ "visite www.schmoozecom.com/oss.php - Restringir Llamadas de Salida en el "
+#~ "nivel de ruta de salida"
+
+#~ msgid "Connectivity"
+#~ msgstr "Conectividad"
+
+#~ msgid ""
+#~ "Call limit limits the number of calls that can be made using this route."
+#~ msgstr ""
+#~ "Límite de Llamadas limita el número de llamadas que puede hacer usando "
+#~ "esta ruta."
+
+#~ msgid "Edit Call Limit"
+#~ msgstr "Editar Límite de Llamadas"
+
+#~ msgid "Recording"
+#~ msgstr "Grabación"

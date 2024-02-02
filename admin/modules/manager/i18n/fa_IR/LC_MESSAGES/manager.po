@@ -1,0 +1,279 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for manager
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-07 09:45+0000\n"
+"PO-Revision-Date: 2016-04-11 12:19+0200\n"
+"Last-Translator: Media <mousavi.media@gmail.com>\n"
+"Language-Team: Persian <http://weblate.freepbx.org/projects/freepbx/manager/"
+"fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: views/grid.php:13
+msgid "Actions"
+msgstr "عملیات"
+
+#: page.manager.php:38 views/form.php:12 views/grid.php:5
+msgid "Add Manager"
+msgstr "افزودن مدیریت"
+
+#: manager.i18n.php:4
+msgid "Asterisk API"
+msgstr ""
+
+#: page.manager.php:25
+msgid "Asterisk Manager"
+msgstr "مدیریت استریسک"
+
+#: manager.i18n.php:10
+msgid "Asterisk Manager Users"
+msgstr ""
+
+#: functions.inc.php:367
+msgid "Choose Manager:"
+msgstr "انتخاب مدیریت ："
+
+#: functions.inc.php:367
+msgid "Choose the user that PHPAGI will use to connect the Asterisk API."
+msgstr "کاربری انتخاب کنید که PHPAGI توسط آن به API استریسک متصل شود."
+
+#: Manager.class.php:78
+msgid "Delete"
+msgstr "حذف"
+
+#: views/form.php:119 views/grid.php:11
+msgid "Deny"
+msgstr "لغو"
+
+#: views/form.php:190
+msgid ""
+"For information on individual permissions please see the Asterisk Manager "
+"Documentation"
+msgstr ""
+"برای بدست آوردن اطلاعات درباره مجوزهای فردی لطفا به مدارک مدیریت استریسک "
+"مراجعه کنید"
+
+#: views/form.php:56
+msgid "General"
+msgstr "عمومی"
+
+#: views/form.php:131
+msgid ""
+"If you want to deny many hosts or networks, use & char as separator.<br/><br/"
+">Example: 192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+msgstr ""
+"در صورتی که میخواهید دسترسی تعداد زیادی شبکه و یا هاست را ببندید از & جهت "
+"جداسازی آنها استفاده کنید. <<br/><br/>Example: "
+"192.168.1.0/255.255.255.0&10.0.0.0/255.0.0.0"
+
+#: views/form.php:155
+msgid ""
+"If you want to permit many hosts or networks, use & char as separator. Look "
+"at deny example."
+msgstr ""
+"در صورتی که میخواهید دسترسی تعداد زیادی شبکه و یا هاست را بازکنید از & جهت "
+"جداسازی آنها استفاده کنید."
+
+#: page.manager.php:37
+msgid "List Managers"
+msgstr "فهرست مدیریت ها"
+
+#: views/form.php:5
+msgid "Manager"
+msgstr "مدیریت"
+
+#: views/form.php:68
+msgid "Manager name"
+msgstr "نام مدیریت"
+
+#: views/form.php:319
+msgid "Manager password must match regex rules like this: [a-zA-Z0-9*?+-.,!_]"
+msgstr ""
+
+#: views/form.php:92
+msgid "Manager secret"
+msgstr "رمز مدیریت"
+
+#: views/grid.php:10
+msgid "Name"
+msgstr "نام"
+
+#: views/form.php:80
+msgid ""
+"Name of the manager without spaces and special characters except _ and -. "
+"Limit upto 15 characters only."
+msgstr ""
+
+#: views/form.php:212 views/form.php:220 views/form.php:233 views/form.php:241
+msgid "No"
+msgstr "خیر"
+
+#: views/form.php:107
+msgid "Password for the manager."
+msgstr "پسورد مدیریت."
+
+#: views/form.php:57
+msgid "Permissions"
+msgstr "دسترسی ها"
+
+#: views/form.php:143 views/grid.php:12
+msgid "Permit"
+msgstr "اجازه دادن"
+
+#: Manager.class.php:83
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: views/form.php:182
+msgid ""
+"Sets the timeout used by Asterisk when writing data to the AMI connection "
+"for this user"
+msgstr ""
+"تنظیم وقفه استفاده شده در استریسک در هنگام نوشتن دیتا در AMI connection برای "
+"این کاربر"
+
+#: manager.i18n.php:6
+msgid "Settings"
+msgstr ""
+
+#: Manager.class.php:88
+msgid "Submit"
+msgstr "ارسال"
+
+#: views/form.php:320
+msgid "The manager deny is not well formatted."
+msgstr "انکار مدیریت دارای فیلد مناسبی نیست."
+
+#: views/form.php:316
+msgid "The manager name cannot be empty or may not have any space in it."
+msgstr "نام مدیریت نمیتواند خالی بوده و یا شامل فضای خالی یا فاصله باشد."
+
+#: views/form.php:317
+msgid "The manager name will not accept any special characters except _ and -."
+msgstr ""
+
+#: views/form.php:321
+msgid "The manager permit is not well formatted."
+msgstr "مجوز مدیریت دارای فرمت مناسبی نیست."
+
+#: views/form.php:322
+msgid "The manager read field is not well formatted."
+msgstr "فیلد خواندنی مدیریت دارای فرمت مناسبی نیست."
+
+#: views/form.php:318
+msgid "The manager secret cannot be empty."
+msgstr "راز مدیریت نمیتواند خالی باشد."
+
+#: views/form.php:323
+msgid "The manager write field is not well formatted."
+msgstr "فیلد نوشتاری مدیریت دارای فرمت مناسبی نیست."
+
+#: functions.inc.php:327 functions.inc.php:333
+msgid "This manager already exists"
+msgstr "مدیریت موجود است"
+
+#: manager.i18n.php:8
+msgid "This module is used to add AMI Users"
+msgstr ""
+
+#: views/form.php:227
+msgid "Toggle All"
+msgstr "تعویض همه"
+
+#: views/form.php:167
+msgid "Write Timeout"
+msgstr "وقفه نوشتن"
+
+#: views/form.php:210 views/form.php:218 views/form.php:231 views/form.php:239
+msgid "Yes"
+msgstr "بله"
+
+#: views/form.php:27
+msgid "agent"
+msgstr "اپراتور"
+
+#: views/form.php:23
+msgid "call"
+msgstr "تماس"
+
+#: views/form.php:32
+msgid "cdr"
+msgstr "جزییات تماس"
+
+#: views/form.php:26
+msgid "command"
+msgstr "دستور"
+
+#: views/form.php:29
+msgid "config"
+msgstr "تنظیم"
+
+#: views/form.php:33
+msgid "dialplan"
+msgstr "نقشه تماس"
+
+#: views/form.php:30
+#, fuzzy
+msgid "dtmf"
+msgstr "dtmf"
+
+#: views/form.php:24
+msgid "log"
+msgstr "لاگ"
+
+#: views/form.php:173
+msgid "milliseconds"
+msgstr "میلی ثانیه"
+
+#: views/form.php:34
+msgid "originate"
+msgstr "ایجاد کردن"
+
+#: views/form.php:31
+msgid "reporting"
+msgstr "گزارش دادن"
+
+#: views/form.php:22
+msgid "system"
+msgstr "سیستم"
+
+#: views/form.php:28
+msgid "user"
+msgstr "کاربر"
+
+#: views/form.php:25
+msgid "verbose"
+msgstr "تشریح"
+
+#~ msgid "Name of the manager without spaces."
+#~ msgstr "نام مدیریت بدون فاصله."
+
+#~ msgid "Adding write timeout.."
+#~ msgstr "افزودن وقفه نوشتن.."
+
+#~ msgid "Column present"
+#~ msgstr "ستون حال حاضر"
+
+#~ msgid "Increasing read field size if needed.."
+#~ msgstr "افزایش اندازه فیلد خواندنی در صورت نیاز.."
+
+#~ msgid "Increasing write field size if needed.."
+#~ msgstr "افزایش اندازه فیلد نوشتاری در صورت نیاز.."
+
+#~ msgid "error encountered, not altered"
+#~ msgstr "بروز خطا, بدون هشدار"
+
+#~ msgid "ok"
+#~ msgstr "تایید"

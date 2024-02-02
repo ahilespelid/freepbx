@@ -1,0 +1,83 @@
+<module>
+	<rawname>cidlookup</rawname>
+	<repo>standard</repo>
+	<name>CallerID Lookup</name>
+	<version>15.0.27</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<description>Allows CallerID Lookup of incoming calls against different sources (OpenCNAM, MySQL, HTTP, ENUM, Phonebook Module)</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/CallerID+Lookup+Sources+Module</more-info>
+	<category>Admin</category>
+	<changelog>
+		*15.0.27* FREEPBX-23954 
+		*15.0.26* FREEPBX-23954 
+		*15.0.25* FREEPBX-23578 CallerID Lookup Module No Longer Passing Default Caller ID Through 
+		*15.0.24* FREEPBX-23429 CallerID Lookup after update doesn't substitute [NUMBER] 
+		*15.0.23* FREEI-4692 
+		*15.0.22* FREEI-4682 
+		*15.0.21* FREEPBX-23206 CID Lookup module relies on app_mysql
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* Packaging of ver 15.0.19
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEI-1667  modify cidlookup &amp;amp; adding delAction class 
+		*15.0.16* FREEI-1397 To avoid duplicate entry of cidlookup 
+		*15.0.15* Feature/FREEPBX-21165 
+		*15.0.14* Fix whitespace for test release.
+		*15.0.13* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.12* FREEPBX-20106 Backup and restoring the CID Lookup module is adding a junk entry. 
+		*15.0.11* FREEPBX-20004 Not able to select the Contact Manager Groups in CID lookup sources. 
+		*15.0.10* FREEPBX-20117 Unable to edit CallerID Lookup entry in FreePBX 15. 
+		*15.0.9* FREEPBX-19791 
+		*15.0.8* FREEPBX-19709 CID lookup to Contact Mgr returns 'unknown' instead of nothing 
+		*15.0.7* Fixing FREEPBX-18685 CallerId Lookup does not urlencode plus(+) sign 
+		*15.0.6* fixing legacy restore 
+		*15.0.5* FREEPBX-18193 Fix core hook to DID 
+		*15.0.4* FREEPBX-18193 Fix CRUD actions 
+		*15.0.3* FREEPBX-18139 
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* FreePBX 15 updates
+	</changelog>
+	<menuitems>
+		<cidlookup>CallerID Lookup Sources</cidlookup>
+	</menuitems>
+	<depends>
+		<engine>asterisk 1.6</engine>
+		<module>framework ge 13.0.121</module>
+		<module>core ge 13.0.13</module>
+	</depends>
+	<database>
+	  <table name="cidlookup">
+	    	<field name="cidlookup_id" type="integer" primaryKey="true" autoincrement="true"/>
+	    	<field name="description" type="string" length="50"/>
+	    	<field name="sourcetype" type="string" length="100"/>
+	    	<field name="cache" type="smallint" default="0"/>
+	    	<field name="deptname" type="string" length="30" notnull="false"/>
+	    	<field name="http_host" type="string" length="100" notnull="false"/>
+	    	<field name="http_port" type="string" length="30" notnull="false"/>
+	    	<field name="http_username" type="string" length="50" notnull="false"/>
+	    	<field name="http_password" type="string" length="50" notnull="false"/>
+	    	<field name="http_path" type="string" length="100" notnull="false"/>
+	    	<field name="http_query" type="string" length="100" notnull="false"/>
+	    	<field name="mysql_host" type="string" length="60" notnull="false"/>
+			<field name="mysql_port" type="string" length="5" notnull="false"/>
+	    	<field name="mysql_dbname" type="string" length="60" notnull="false"/>
+	    	<field name="mysql_query" type="string" length="255" notnull="false"/>
+	    	<field name="mysql_username" type="string" length="30" notnull="false"/>
+	    	<field name="mysql_password" type="string" length="30" notnull="false"/>
+	    	<field name="mysql_charset" type="string" length="60" notnull="false"/>
+	    	<field name="opencnam_account_sid" type="string" length="34" notnull="false"/>
+	    	<field name="opencnam_auth_token" type="string" length="34" notnull="false"/>
+	    	<field name="cm_group" type="string" length="60" default="" notnull="false"/>
+	    	<field name="cm_format" type="string" length="5" default="" notnull="false"/>
+	  	</table>
+		<table name="cidlookup_incoming">
+			<field name="cidlookup_id" type="integer"/>
+			<field name="extension" type="string" length="100" notnull="false"/>
+			<field name="cidnum" type="string" length="30" notnull="false"/>
+		</table>
+	</database>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

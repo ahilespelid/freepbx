@@ -1,0 +1,5 @@
+#!/bin/bash
+# This will update curl through yum
+
+yum -y clean all > /tmp/curl.log 2>&1
+yum -y update curl > /tmp/curl.log 2>&1

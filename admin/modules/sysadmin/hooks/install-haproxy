@@ -1,0 +1,102 @@
+#!/bin/bash
+######################### Enable logging  ####################################################
+asterisk=`/usr/sbin/asterisk -rx "core show version"`
+kernel=`uname -a`
+version=`cat /etc/schmooze/pbx-version`
+brand=`cat /etc/schmooze/pbx-brand`
+host=`hostname`
+pidfile='/var/run/asterisk/install-haproxy.pid'
+
+
+log='/var/log/asterisk/haproxy_install.log'
+
+truncate -s 0 $log
+echo "`date`  Copy limits.conf"
+`cp /var/www/html/admin/modules/sysadmin/scripts/limits.conf /etc/security/limits.conf`
+`chmod 644  /etc/security/limits.conf`
+`cp /var/www/html/admin/modules/sysadmin/scripts/haproxy-ctl /usr/sbin/haproxy-ctl`
+`chmod 755  /usr/sbin/haproxy-ctl`
+echo "" > $log
+
+if [ -f "$pidfile" ]; then
+   echo "`date` HAProxy installation process is already going on, hence not starting new process"
+   echo "`date` HAProxy installation process is already going on, hence not starting new process" >> "$log"
+   echo "`date` If HAProxy installation process is NOT running then delete $pidfile file and try again."
+   echo "`date` If HAProxy installation process is NOT running then delete $pidfile file and try again." >> "$log"
+   exit
+fi
+
+
+echo "`date` Starting HAProxy installation process " >> "$log"
+touch $pidfile
+
+#echo "`date` Ensuring permissions are good.." >> $log
+#/usr/sbin/fwconsole chown >> $log
+
+################################################################################################################
+#Helpers APIs
+function terminate {
+	# removing pid file
+	rm -rf $pidfile
+	exit
+}
+function isinstalled {
+  if yum list installed "$@" >/dev/null 2>&1; then
+    true
+  else
+    false
+  fi
+}
+
+remove_package() {
+        rpm=$1
+	if isinstalled $rpm; then
+                #rpm -e --nodeps $rpm > /dev/null 2>&1
+		echo "uninstalling $rpm"
+                rpm -e --nodeps $rpm >> $log 2>&1
+		echo "`date` $rpm uninstalled successfully...." >> $log 
+	else 
+		echo "$rpm is not installed"
+		echo "`date` $rpm is not installed.." >> $log 
+        fi
+}
+
+#####################################################################################
+# Check to make sure this is a FreePBX Distro system before executing
+echo "Check to make sure this is a Sangoma Distro system before executing"
+if [ -f /etc/schmooze/pbx-version ]; then
+		echo "This appears to be a Sangoma Distro system as it has a Distro Version of $version"
+		echo "`date` This appears to be a Sangoma Distro system as it has a Distro Version of $version" >> "$log"
+else
+		echo "This does not appears to be a FreePBX Distro system as it has no Distro Version file"
+		terminate
+fi
+export PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin"
+#####################################################################################
+###########################################################################
+# Install haproxy 
+rpms=("haproxy" "rsyslog" "socat")
+
+	for i in "${!rpms[@]}"; do
+		pkg=${rpms[$i]};
+		if isinstalled $pkg; then
+			echo "$pkg package is already installed"; 
+			echo "`date` $pkg package is already installed" >> $log;
+		else 
+			yum -y install $pkg >> $log 2>&1
+			if isinstalled $pkg; then
+				echo "$pkg  successfully installed";
+				echo "`date` $pkg successfully installed" >> $log;
+			else 
+				echo "Failed to install $pkg package. Exiting upgrade process.."	
+				echo "`date` Failed to install $pkg package. Exiting upgrade process.." >> $log
+				terminate
+			fi
+		fi
+	done
+
+###########################################################################
+echo "`date` Config and Restart will be part of updateports "
+
+terminate
+######################################################################### 

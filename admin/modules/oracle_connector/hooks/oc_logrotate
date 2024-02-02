@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "/var/log/asterisk/oracle_connector.log" > /etc/logrotate.d/oc_logrotate
+echo "/var/log/asterisk/oracle_engine_err.log" >> /etc/logrotate.d/oc_logrotate
+echo "/var/log/asterisk/oracle_engine_out.log {" >> /etc/logrotate.d/oc_logrotate
+echo "       daily" >> /etc/logrotate.d/oc_logrotate
+echo "       missingok" >> /etc/logrotate.d/oc_logrotate
+echo "       rotate 15" >> /etc/logrotate.d/oc_logrotate
+echo "       notifempty" >> /etc/logrotate.d/oc_logrotate
+echo "       sharedscripts" >> /etc/logrotate.d/oc_logrotate
+echo "       create 0640 asterisk asterisk" >> /etc/logrotate.d/oc_logrotate
+echo "       su asterisk asterisk" >> /etc/logrotate.d/oc_logrotate
+echo "}" >> /etc/logrotate.d/oc_logrotate

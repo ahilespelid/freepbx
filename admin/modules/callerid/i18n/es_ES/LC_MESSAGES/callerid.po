@@ -1,0 +1,184 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callerid
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:07+0000\n"
+"PO-Revision-Date: 2017-11-18 01:33+0200\n"
+"Last-Translator: Eduardo <eabad@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/callerid/"
+"es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Entry"
+msgstr ""
+
+msgid "Applications"
+msgstr "Apps"
+
+msgid "Are you sure you wish to delete these caller id mappings?"
+msgstr ""
+
+msgid "Attention: Extension"
+msgstr "Atención: Extensión"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.The CallerID "
+"Management module is a unique way to\tmodify the caller ID that is outpulsed "
+"on the fly. By dialing a simple feature code you can change the Caller ID "
+"for the next call on your extension. Optionally you\tcan also specify the "
+"Persistent field, If this is checked the CID is permanently changed for all "
+"future calls for your extension until another feature code is\tentered to "
+"change it"
+msgstr ""
+
+msgid "Caller ID Management"
+msgstr "Administración del Identificador de Llamadas"
+
+msgid "CallerID Management"
+msgstr "Gestión CallerID"
+
+#, php-format
+msgid "CallerID Management: %s %s"
+msgstr "Gestión CallerID: %s %s"
+
+msgid "CallerID Managment"
+msgstr "Gestión CallerID"
+
+msgid "CallerID Name"
+msgstr "Nombre CallerID"
+
+msgid "CallerID Num"
+msgstr "Número CallerID"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Extension discarded!"
+msgstr "¡Extensión descartada!"
+
+msgid "INUSE"
+msgstr "ENUSO"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "No"
+msgstr "No"
+
+msgid "Persistent"
+msgstr "Persistente"
+
+msgid "Prefix"
+msgstr "Prefijo"
+
+msgid ""
+"The CallerID Management module allows you to change the outbound Caller ID "
+"on an extension basis by utilizing a call prefix code."
+msgstr ""
+"El módulo CallerID Management le permite cambiar el Caller ID de salida "
+"sobre una extensión mediante la utilización de un código de prefijo de "
+"llamada."
+
+#, php-format
+msgid ""
+"The prefix you are trying to use is already being used by cidnum[%s]. \n"
+"Please choose another prefix."
+msgstr ""
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "conflicts with"
+msgstr "conflictos con"
+
+#~ msgid "Reset"
+#~ msgstr "Reinicializar"
+
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#~ msgid "CallerID Number"
+#~ msgstr "Número de Identificación de llamada"
+
+#~ msgid "Descriptive Name"
+#~ msgstr "Nombre descriptivo"
+
+#~ msgid "remove"
+#~ msgstr "eliminar"
+
+#~ msgid "Click here to remove this entry"
+#~ msgstr "Haga clic aquí para eliminar esta entrada"
+
+#~ msgid " dialplan matching, you cannot use an automatic range (i.e. [2-6])"
+#~ msgstr ""
+#~ " coincide plan de marcación, no puede utilizar un rango automático (es "
+#~ "decir [2-6])"
+
+#~ msgid " instead, you must list all of the possible digits (i.e. [23456])"
+#~ msgstr ""
+#~ " en cambio, debe enumerar todos los posibles cambios  (es decir [23456])"
+
+#~ msgid "<prefix><caller-id-number>#<number-to-dial>."
+#~ msgstr "<prefijo><numero-caller-id>#<numero-a-marcar>."
+
+#~ msgid "CallerID name"
+#~ msgstr "Nombre CallerID"
+
+#~ msgid "CallerID num"
+#~ msgstr "número CallerID"
+
+#~ msgid ""
+#~ "If you put a single \"*\" as the CallerID Number, you can dynamically set "
+#~ "the CallerID Number as part of the dialstring. You must dial as follows:"
+#~ msgstr ""
+#~ "Si usted pone un único \"*\" como el número de identificación de "
+#~ "llamadas, puede configurar dinámicamente el número identificador de "
+#~ "llamadas como parte de la cadena a marcar. Usted debe marcar la siguiente "
+#~ "manera:"
+
+#~ msgid ""
+#~ "Make CallerID changes persistant. If unchecked, will only change the "
+#~ "CallerID for one call."
+#~ msgstr ""
+#~ "Hacer cambios persistentes en CallerID. Si desmarca podría cambiar el "
+#~ "CallerID solo para una llamada."
+
+#~ msgid "N: any digit from 2-9"
+#~ msgstr "N: cualquier dígito desde 2-9"
+
+#~ msgid "X: any digit from 0-9"
+#~ msgstr "X: cualquier dígito desde 0-9"
+
+#~ msgid ""
+#~ "You can also generate a random callerid by using dialplan matching. "
+#~ "Prefix your string with a _ and then use any of the following"
+#~ msgstr ""
+#~ "También puede generar un callerid aleatorio a usar si el plan de "
+#~ "marcación coincide. Su cadena de prefijo con un _ y luego cualquiera con "
+#~ "lo siguiente"
+
+#~ msgid "Z: any digit from 1-9"
+#~ msgstr "Z: cualquier dígito desde 1-9"
+
+#~ msgid "[xzy]: the digits specified in the brackets. Note: unlike regular "
+#~ msgstr ""
+#~ "[xzy]: los dígitos especificados en los corchetes. Nota: a diferencia de "
+#~ "otros "

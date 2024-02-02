@@ -1,0 +1,52 @@
+<module>
+	<rawname>callback</rawname>
+	<repo>extended</repo>
+	<name>Callback</name>
+	<version>15.0.12</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<description>A callback will hang up on the caller and then call them back, directing them to the selected destination.</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Callback+Module</more-info>
+	<category>Applications</category>
+	<menuitems>
+		<callback needsenginedb="yes">Callback</callback>
+	</menuitems>
+	<popovers>
+		<callback>
+			<display>callback</display>
+		</callback>
+ 	</popovers>
+	<changelog>
+		*15.0.12* FREEI-1111 fixing PHP 7.3 compatibility issue 
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* FREEPBX-21398 Legacy backup restore issue 
+		*15.0.8* FREEI-913 Fix XSS Bootstrap Datatable Issues 
+		*15.0.7* FREEPBX-20566 Restoring FreePBX 15 Backup is not restoring CallerID and Timeout values of Callback entries. 
+		*15.0.6* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.5* Fixing FREEPBX-17867 
+		*15.0.4* fixing legacy restore 
+		*15.0.3* FREEPBX-18100 Callback timeout and cid on GUI
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Impliment backup 15.0
+	</changelog>
+	<database>
+		<table name="callback">
+			<field name="callback_id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="description" type="string" length="50" notnull="false"/>
+			<field name="callbacknum" type="string" length="100" notnull="false"/>
+			<field name="destination" type="string" length="50" notnull="false"/>
+			<field name="sleep" type="integer" notnull="false"/>
+			<field name="deptname" type="string" length="50" notnull="false"/>
+			<field name="timeout" type="integer" notnull="false"/>
+			<field name="callerid" type="string" length="100" notnull="false"/>
+		</table>
+	</database>
+	<depends>
+		<version>13.0.5</version>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

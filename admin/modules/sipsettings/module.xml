@@ -1,0 +1,87 @@
+<module>
+  <rawname>sipsettings</rawname>
+  <repo>standard</repo>
+  <candisable>no</candisable>
+  <canuninstall>no</canuninstall>
+  <name>Asterisk SIP Settings</name>
+  <version>15.0.11</version>
+  <publisher>Sangoma Technologies Corporation</publisher>
+  <license>AGPLv3+</license>
+  <licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+  <category>Settings</category>
+  <menuitems>
+    <sipsettings>Asterisk SIP Settings</sipsettings>
+  </menuitems>
+  <database>
+    <table name="sipsettings">
+      <field name="keyword" type="string" length="50" default="" primarykey="true"/>
+      <field name="data" type="string" length="255" default=""/>
+      <field name="seq" type="boolean" default="0" primarykey="true"/>
+      <field name="type" type="boolean" default="0" primarykey="true"/>
+    </table>
+  </database>
+  <description>
+      Use to configure Various Asterisk SIP and PJSIP Settings
+  </description>
+  <more-info>https://wiki.freepbx.org/display/FPG/Asterisk+SIP+Settings</more-info>
+  <changelog>
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* FREEPBX-23656 
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEPBX-21423 SIP and PJSIP ports odd after Legacy restore from 2.10 
+		*15.0.7*    FREEI-4436 - Restore - Ability to select modules to ignore  
+		*15.0.6.40* SCD-223 created gql api to modify ws settings 
+		*15.0.6.39* FREEI-3303 allowing taskprocessor for asterisk version greater than 13.35.0 or 16.2.0 and higher 
+		*15.0.6.38* FREEPBX-20610 PJSIP should use cert+chain file not pem file with key 
+		*15.0.6.37* FREEI-3260 new GQL api's for Asterisk SIP NAT settings 
+		*15.0.6.36* FREEPBX-22361 Asterisk 18 integration 
+		*15.0.6.35* FREEI-3073 Error - Pjsip Keep alive Interval button not working (Sipsetting) 
+		*15.0.6.34* FREEI-2827 Add pjsip logger toggle to Asterisk Logfile settings 
+		*15.0.6.33* FREEI-2761  white space issue 
+		*15.0.6.32* FREEI-2761 White spaces provokes transports going off 
+		*15.0.6.31* Packaging of ver 15.0.6.31
+		*15.0.6.30* FREEPBX-21970 taskprocessor_overload_trigger in pjsip.conf 
+		*15.0.6.29* Packaging of ver 15.0.6.29
+		*15.0.6.28* Packaging of ver 15.0.6.28
+		*15.0.6.27* FREEI-1541 Revert back commit 9723a2142f6 it is not required here we are handling this in sipstation 
+		*15.0.6.26* FREEI-1541 Equals in turnpassword breaks SIPStation config page 
+		*15.0.6.25* bump 
+		*15.0.6.24* FREEI-1181 Setting the Contact Header part dynamically with the Caller ID value 
+		*15.0.6.23* FREEPBX-20853 Deleting items from "Other SIP Settings" 
+		*15.0.6.22* FREEI-1061 PJSIP 'Allow Transports Reload' dashboard warning 
+		*15.0.6.21* FREEI-1061 PJSIP 'Allow Transports Reload' dashboard warning 
+		*15.0.6.20* FREEI-977 Setting default to NO, pjsip option allow transports reload 
+		*15.0.6.19* FREEPBX-20646 Warm spare backup bindaddress and nat settings 
+		*15.0.6.18* FREEI-765 Warm Spare Backup 
+		*15.0.6.17* FREEPBX-20638 Error which can prevent sipsettings from upgrading 
+		*15.0.6.16* FREEI-797: changing Verify Client and Verify Server for PJSIP TLS options were not getting saved properly 
+		*15.0.6.15* FREEPBX-20595:  Allow Transports Reload pjsip setting was always, regardless of gui toggling. 
+		*15.0.6.14* FREEI-733: Change allow_reload for pjsip to be No by default. 
+		*15.0.6.13* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.6.12* Fixing FREEPBX-20469 
+		*15.0.6.11* FREEPBX-20354 sipsettings setconfig json-arr error correction 
+		*15.0.6.10* FREEPBX-19942 Changing driver from chan_sip to both rewrites chan_sip ports 
+		*15.0.6.9* FREEI-513 Can't Change The Default TLS Port Assignment to PJSIP 
+		*15.0.6.8* FREEPBX-19525 Remove deprecated usage of bindaddr and bindport and replace with udpbindaddr 
+		*15.0.6.7* Fixing FREEPBX-19484 Reload issue 
+		*15.0.6.6* FREEPBX-17803 Allow changing of Endpoint identification matching priority in PJSIP 
+		*15.0.6.5* fixing legacy restore 
+    *15.0.6.4* Revert setting RTP defaults
+    *15.0.6.3* Set RTP Defaults
+    *15.0.6.2* FREEPBX-19505
+    *15.0.6.1* Backup
+    *15.0.6* FREEPBX-18811
+    *15.0.5* FREEPBX-18597 SSL Method includes TLSV1.1 and 1.2 
+    *15.0.4* FREEPBX-17871 Allow setting keep_alive_interval in PJSIP global section
+    *15.0.3* FREEPBX-18165 pjsip allow reload should be defaulted to yes
+    *15.0.2* Packaging of ver 15.0.2
+    *15.0.1* Backup 15
+	</changelog>
+  <depends>
+    <module>core ge 15.0.3.5</module>
+    <module>backup ge 15.0.19</module>
+  </depends>
+  <supported>
+    <version>15.0</version>
+  </supported>
+</module>

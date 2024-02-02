@@ -1,0 +1,46 @@
+<module>
+	<rawname>vega</rawname>
+	<repo>commercial</repo>
+	<name>Vega</name>
+	<version>15.0.12</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial+</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<category>Connectivity</category>
+	<description>This module is used to configure and manage Vega gateways</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/PBX+Vega+Management+Module</more-info>
+	<menuitems>
+		<vega needsenginedb="yes">Vega Gateway Management</vega>
+	</menuitems>
+	<changelog>
+		*15.0.12* FREEPBX-22947 Modified information panel details 
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* bump 
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* Fixing FREEI-1302 Adding cache logic to avoid polling vega status on every time gui load 
+		*15.0.5* Fixing auto install issue 
+		*15.0.4* FREEI-1023 
+		*15.0.3* FREEPBX-20396 VegaGateway Leagacy Restore 
+		*15.0.2* FREEPBX-20129  backup restore done 
+		*15.0.1* Release 15.0
+	</changelog>
+	<depends>
+		<version>15.0.16.53</version>
+		<module>sysadmin ge 15.0.15</module>
+		<module>core ge 15.0.12.8</module>
+		<module>sipsettings ge 15.0.6.27</module>
+	</depends>
+	<hooks>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Vega" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Vega" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+	</hooks>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

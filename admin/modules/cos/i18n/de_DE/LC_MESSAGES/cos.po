@@ -1,0 +1,215 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cos
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 10:23+0000\n"
+"PO-Revision-Date: 2020-02-19 10:00+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/cos/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%s is not a member of any CoS"
+msgstr "%s ist kein Mitglied eines CoS"
+
+msgid ""
+"(This may be changed in <a href='config.php?"
+"display=advancedsettings'>Advanced Settings)"
+msgstr ""
+"(Dies kann in den <a href='config.php?display=advancedsettings'> erweiterten "
+"Einstellungen geändert werden.)"
+
+msgid "<h2>Add new Class of Service</h2>"
+msgstr "<h2>Neue Serviceklasse hinzufügen</h2>"
+
+msgid "<h2>Edit Class of Service</h2>"
+msgstr "<h2>Bearbeite Serviceklasse</h2>"
+
+msgid ""
+"<h3>Core Module Disabled</h3>\n"
+"<p>Please re-enable core through module admin</p>\n"
+msgstr ""
+"<h3> Kernmodul deaktiviert </h3>\n"
+"<p> Bitte aktivieren Sie den Core über den Moduladministrator erneut </p>\n"
+
+msgid "ALLOW overrides DENY"
+msgstr "ZULASSEN überschreibt ABLEHNEN"
+
+msgid ""
+"ALLOW overrides DENY (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is ALLOW)"
+msgstr ""
+"ZULASSEN überschreibt ABLEHNEN (Wenn in Konflikt stehenden CoS eine "
+"Erweiterung zugewiesen ist, lautet die berechnete Berechtigung ALLOW.)"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add new CoS"
+msgstr "Füge neues CoS hinzu"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Allow"
+msgstr "Zulassen"
+
+msgid "Assigned"
+msgstr "Zugewiesen"
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\tClass of Service allows you to "
+"limit access, per extension, to feature codes, trunks, queues, ring groups, "
+"etc."
+msgstr ""
+"KOMMERZIELLES MODUL ERFORDERT EINE LIZENZ.\t\tMit der Serviceklasse können "
+"Sie den Zugriff pro Nebenstelle auf Funktionscodes, Trunks, Warteschlangen, "
+"Klingelgruppen usw. beschränken."
+
+#, php-format
+msgid "COS '%s' granted access to '%s'"
+msgstr "COS '%s' hat Zugriff auf '%s' gewährt"
+
+msgid "COS Name"
+msgstr "COS Name"
+
+msgid "COS Name is required."
+msgstr "COS Name ist erforderlich."
+
+#, php-format
+msgid "CallerID not Parseable - received %s - exiting with DENY"
+msgstr "Anrufer-ID nicht analysierbar -%s empfangen - mit ANLEHNEN beendet"
+
+msgid "Class of Service"
+msgstr "Serviceklasse"
+
+msgid "Conferences"
+msgstr "Konferenzen"
+
+msgid ""
+"DENY overrides ALLOW (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is DENY)"
+msgstr ""
+"ABLEHNEN überschreibt ZULASSEN (Wenn in Konflikt stehenden CoS eine "
+"Erweiterung zugewiesen wurde, lautet die berechnete Berechtigung ABLEHNEN.)"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Deny"
+msgstr "ablehnen"
+
+msgid "Detected EXTERNAL Call. Skipping CoS Checks"
+msgstr "EXTERNER Anruf erkannt. CoS-Checks überspringen"
+
+msgid "Exclude"
+msgstr "Ausschließen"
+
+msgid "Extensions that are not assigned to a Class of Service have full access"
+msgstr ""
+"Nebenstellen, die keiner Serviceklasse zugeordnet sind, haben Vollzugriff"
+
+msgid "Feature Codes"
+msgstr "Funktionscodes"
+
+msgid ""
+"For further information, please <a href='//wiki.freepbx.org/display/FCM/Class"
+"+of+Service' target='_new'>visit the wiki</a>"
+msgstr ""
+"Weitere Informationen erhalten Sie <a href='//wiki.freepbx.org/display/FCM/"
+"Class+of+Service' target='_new'> im Wiki </a>"
+
+msgid ""
+"If an extension is assigned to conflicting Class of Service groups, should "
+"ALLOW override DENY. Setting this to FALSE means that if any Class of "
+"Service DENIES the permission, the permission is DENIED. Setting this to "
+"TRUE means that if any Class of Service ALLOWS the permission, the "
+"permission is ALLOWED."
+msgstr ""
+"Wenn eine Erweiterung widersprüchlichen Class of Service-Gruppen zugewiesen "
+"ist, sollte ZULASSEN ABLEHNEN überschreiben. Wenn Sie dies auf FALSE setzen, "
+"bedeutet dies, dass die Berechtigung ABGELEHNT wird, wenn eine Serviceklasse "
+"die Berechtigung ABLEHNT. Wenn dies auf TRUE gesetzt wird, ist die "
+"Berechtigung ZUGELASSEN, wenn eine Serviceklasse die Berechtigung ZULÄSST."
+
+msgid "Include"
+msgstr "Einbinden"
+
+msgid "List CoS"
+msgstr "Liste Serviceklassen"
+
+msgid "Members"
+msgstr "Mitglieder"
+
+msgid "Move selected items to the left"
+msgstr ""
+
+msgid "Move selected items to the right"
+msgstr ""
+
+msgid "Not Assigned"
+msgstr "Nicht zugewiesen"
+
+msgid "Outbound Routes integrates with the free Extension Routes Module."
+msgstr ""
+"Ausgehende Routen sind in das Modul für kostenlose Nebenstellenrouten "
+"integriert."
+
+msgid "Paging"
+msgstr "Alarmieren"
+
+msgid "Please provide a friendly name for this COS entry"
+msgstr "Bitte geben Sie einen Anzeigenamen für diesen COS-Eintrag an"
+
+msgid "Queues"
+msgstr "Warteschlangen"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Ring Groups"
+msgstr "Rufgruppen"
+
+msgid "Routes"
+msgstr "Routen"
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Swap items"
+msgstr ""
+
+msgid "The Extension Route module is not loaded"
+msgstr "Das Nebenstellen Route-Modul ist nicht geladen"
+
+#, fuzzy
+msgid "The module has expired."
+msgstr "Das Modul ist veraltet."
+
+msgid "The module is not installed"
+msgstr "Das Modul ist nicht installiert"
+
+msgid "The module is not registered"
+msgstr "Das Modul ist nicht registriert"
+
+#, fuzzy
+msgid "The module is out of date"
+msgstr "Das Modul ist veraltet"
+
+msgid "This may be because of any of the following reasons:"
+msgstr "Dies kann einen der folgenden Gründe haben:"
+
+msgid "VoiceMail Blasts"
+msgstr "VoiceMail Blasts"

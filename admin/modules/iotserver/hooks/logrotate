@@ -1,0 +1,18 @@
+#!/bin/bash
+cat <<- EOF > /etc/logrotate.d/smartoffice
+/var/log/asterisk/iot-server.log  {
+	daily
+	missingok
+	notifempty
+	dateext
+	sharedscripts
+	dateformat -%d%m%Y
+	rotate 10
+	size 50M
+	create 0640 asterisk asterisk
+	su asterisk asterisk
+	postrotate
+		/usr/sbin/fwconsole pm2 --reload-logs -q
+	endscript
+}
+EOF

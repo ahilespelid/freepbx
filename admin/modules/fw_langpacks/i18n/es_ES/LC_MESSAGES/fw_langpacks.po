@@ -1,0 +1,114 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for fw_langpacks
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 08:48+0000\n"
+"PO-Revision-Date: 2015-04-23 06:14+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
+"fw_langpacks/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#: install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
+msgstr "'cp -ru' desde org: '%s' a dest: '%s'...siguen detalles"
+
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr "Admininstrador"
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr "Actualizaciones de Localización"
+
+#: install.php:50 install.php:95
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr "No directorio %s, no se requiere instalar script"
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
+"Este módulo proporciona una facilidad para instalar nuevas y actualizadas "
+"traducciones de localización. Traducciones i18n localización todavía se "
+"mantienen con cada módulo. Esto proporciona la capacidad de mantener todos "
+"los componentes al día, sin la necesidad de publicar docenas de módulos para "
+"cada cambio menor. Las actualizaciones de localización utilizados serán los "
+"últimos disponibles para todos los módulos, independientemente de la versión "
+"actual está ejecutando."
+
+#: install.php:75 install.php:120
+#, php-format
+msgid "Updated %s"
+msgstr "Actualizado %s"
+
+#: install.php:87 install.php:132
+msgid "an error occured removing the packaged files"
+msgstr "un error a ocurrido removiendo los archivos del paquete"
+
+#: install.php:89 install.php:134
+msgid "files removed successfully"
+msgstr "archivos removidos satisfactoriamente"
+
+#: install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr "fw_langpacks no pudo copiar archivos a %s"
+
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr ""
+"instalación del archivo mo  fw_langpacks efectuada, removiendo paquetes del "
+"modulo"
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr ""
+"instalación del archivo po fw_langpacks efectuada, removiendo paquetes del "
+"modulo"
+
+#~ msgid "fw_langpacks file install done, removing packages from module"
+#~ msgstr ""
+#~ "instalación de archivo fw_langpacks  hecha, removiendo paquetes del modulo"
+
+#~ msgid "FreePBX Localization Updates"
+#~ msgstr "Localización Actualizaciones FreePBX"
+
+#~ msgid ""
+#~ "This module provides a facility to install new and updated localization "
+#~ "translations for all components in FreePBX. Localization i18n "
+#~ "translations are still kept with each module and other components such as "
+#~ "the User Portal (ARI). This provides an easy ability to bring all "
+#~ "components up-to-date without the need of publishing dozens of modules "
+#~ "for every minor change. The localization updates used will be the latest "
+#~ "available for all modules and will not consider the current version you "
+#~ "are running."
+#~ msgstr ""
+#~ "Este módulo proporciona una facilidad para instalar nuevas y actualizadas "
+#~ "traducciones de localización para todos los componentes de FreePBX. "
+#~ "Localizaciones i18n  todavía se mantienen con cada módulo y otros "
+#~ "componentes tales como el portal del usuario (ARI). Esto proporciona una "
+#~ "habilidad fácil para mantener todos los componentes al dia, sin la "
+#~ "necesidad de publicar docenas de módulos para cada cambio menor. Las "
+#~ "actualizaciones de localización utilizados serán los últimos disponibles "
+#~ "para todos los módulos y no tendrá en cuenta la versión actual que está "
+#~ "ejecutando."

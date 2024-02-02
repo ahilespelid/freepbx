@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\SipExtensions; class getExtensions implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\164\x68\x65\x6e\x74\x69\x63\141\164\145" => false, "\141\x6c\x6c\157\x77\162\145\x6d\x6f\164\x65" => true); return true; } public function ajaxHandler($config, $data) { unset($config, $data); return SipExtensions::load()->get(); } }

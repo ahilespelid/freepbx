@@ -1,0 +1,51 @@
+/* Alert classes to change background colours */
+@-webkit-keyframes pulsebg {
+  0% {
+      background: white;
+  }
+
+  20% {
+      background: pink;
+  }
+
+  100% {
+      background: white;
+  }
+}
+
+@keyframes pulsebg {
+  0% {
+      background: white;
+  }
+
+  20% {
+      background: pink;
+  }
+
+  100% {
+      background: white;
+  }
+}
+
+.pulsebg {
+  -webkit-animation: pulsebg 2s linear;
+  animation: pulsebg 2s linear;
+}
+
+.autohide {
+  display: none;
+}
+
+.alert a {
+  font-weight: bold;
+}
+
+div .element-active{
+  color: white !important;
+  background-color: #4C9471 !important;
+}
+.btn {
+	background-color:#d6e4dd;
+	color:#0f5a59;
+}
+

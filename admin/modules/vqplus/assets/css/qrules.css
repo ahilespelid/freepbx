@@ -1,0 +1,3 @@
+.queue_rule_duration:invalid, .queue_penalty:invalid {
+	border: 2px solid red;
+}

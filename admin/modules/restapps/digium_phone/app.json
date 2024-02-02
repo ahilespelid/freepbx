@@ -1,0 +1,10 @@
+{
+ "name" : "freepbx",
+ "jsFiles" : ["main.js"],
+ "iconFile" : "",
+ "otherFiles" : [],
+ "type" : "foreground",
+ "displayName" : "FreePBX",
+ "hidden" : false,
+ "hasIdle" : true
+}

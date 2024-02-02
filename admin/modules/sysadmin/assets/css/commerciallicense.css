@@ -1,0 +1,146 @@
+/**
+* Style for Commercial Licenses Tab in Module Admin 
+*/
+
+#licensestab .maAlert30days {
+    background-color: rgb(247, 255, 177);
+    text-align: center;
+}
+
+#licensestab .maAlertExpiry {
+    background-color: rgb(247, 255, 177);
+    text-align: center;
+}
+
+#licensestab .licCol {
+    /* background-color: #157D7C;
+	color: white; */
+}
+
+#licensestab .fa-tasks {
+    margin-right: 10px;
+}
+
+#licensestab .fa-check-circle {
+    font-size: 16px;
+    color: green !important;
+}
+
+#licensestab .fa-times-circle {
+    font-size: 16px;
+    color: red !important;
+}
+
+#licensestab .fa-refresh {
+    font-size: 16px;
+}
+
+#licensestab .fa-clock-o {
+    font-size: 16px;
+}
+
+#licensestab .licColStd {
+    /* background-color: #DFF0D8; */
+    text-align: center;
+}
+
+#licensestab .latest_version {
+    font-weight: bold;
+    /* color: green; */
+}
+
+#licensestab .cursor-pointer {
+    cursor: pointer !important;
+}
+
+#licensestab .mb-0 {
+    margin-bottom: 0px;
+}
+
+#licensestab .mt-2 {
+    margin-top: 1rem;
+}
+
+#licensestab .mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+#licensestab .mt-3 {
+    margin-top: 1.5rem;
+}
+/* ADVERTISEMENT BANNER */
+
+#licensestab .banner-slides {
+    display: none;
+}
+
+/* Slideshow container */
+#licensestab .slideshow-container {
+    position: relative;
+    margin: 20px 0px;
+}
+
+#licensestab .slideshow-container img {
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 100%;
+    max-height: 150px;
+}
+
+/* Fading animation */
+#licensestab .slider-fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+#licensestab .close-ads {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 10px;
+    color: #005b5a;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#licensestab .close-ads .fa {
+    color: #005b5a !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.license-info {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.text-danger {
+    color: red !important;
+}
+
+.divider {
+    margin: 2rem 0rem;
+    height: 1px;
+}
+
+.w-25 {
+    width: 25px !important;
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

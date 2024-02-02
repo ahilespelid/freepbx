@@ -1,0 +1,106 @@
+;2.13 Philippines (Country code 63)
+;2.13.1 Command Line Interface commands to configure tones – (For all analogue and digital Vega gateways)
+;
+; dial = 425 HZ Continuous
+; stuttered dial = 400 Hz 0.2 on, 0.2 off
+; busy = 425 Hz 0.5 on, 0.5 off
+; ringback = 425 Hz + 480 Hz 1.0 on, 4.0 off
+; fastbusy = use congestion tone 480 + 620 Hz 0.25 on, 0.25 off
+; callwait1 - non country specific; as Vega default
+; callwait2 – non country specific; as Vega default
+;
+
+; configures power ringing for Vega FXS ports
+;
+; ringing = 1.0 on, 4.0 off
+;
+purge ._advanced.pots.ring
+cp ._advanced.pots.ring.1
+set ._advanced.pots.ring.1.frequency=50
+set ._advanced.pots.ring.1.name=External_Philippines
+set ._advanced.pots.ring.1.repeat=1
+set ._advanced.pots.ring.1.ring1_on=1000
+set ._advanced.pots.ring.1.ring1_off=4000
+set ._advanced.pots.ring.1.ring2_on=0
+set ._advanced.pots.ring.1.ring2_off=0
+set ._advanced.pots.ring.1.ring3_on=0
+set ._advanced.pots.ring.1.ring3_off=0
+;
+set .pots.port.1.if.1.ring_index=1
+set .pots.port.2.if.1.ring_index=1
+set .pots.port.3.if.1.ring_index=1
+set .pots.port.4.if.1.ring_index=1
+set .pots.port.5.if.1.ring_index=1
+set .pots.port.6.if.1.ring_index=1
+set .pots.port.7.if.1.ring_index=1
+set .pots.port.8.if.1.ring_index=1
+;
+; FXS Ports 9 to 12
+;
+set .pots.port.9.if.1.ring_index=1
+set .pots.port.10.if.1.ring_index=1
+set .pots.port.11.if.1.ring_index=1
+set .pots.port.12.if.1.ring_index=1
+;
+; FXS Ports 13 to 16
+;
+set .pots.port.13.if.1.ring_index=1
+set .pots.port.14.if.1.ring_index=1
+set .pots.port.15.if.1.ring_index=1
+set .pots.port.16.if.1.ring_index=1
+;
+; FXS Ports 17 to 20
+;
+set .pots.port.17.if.1.ring_index=1
+set .pots.port.18.if.1.ring_index=1
+set .pots.port.19.if.1.ring_index=1
+set .pots.port.20.if.1.ring_index=1
+;
+; FXS Ports 21 to 24
+;
+set .pots.port.21.if.1.ring_index=1
+set .pots.port.22.if.1.ring_index=1
+set .pots.port.23.if.1.ring_index=1
+set .pots.port.24.if.1.ring_index=1
+;
+; FXS Ports 25 to 48
+;
+set .pots.port.25.if.1.ring_index=1
+set .pots.port.26.if.1.ring_index=1
+set .pots.port.27.if.1.ring_index=1
+set .pots.port.28.if.1.ring_index=1
+set .pots.port.29.if.1.ring_index=1
+set .pots.port.30.if.1.ring_index=1
+set .pots.port.31.if.1.ring_index=1
+set .pots.port.32.if.1.ring_index=1
+set .pots.port.33.if.1.ring_index=1
+set .pots.port.34.if.1.ring_index=1
+set .pots.port.35.if.1.ring_index=1
+set .pots.port.36.if.1.ring_index=1
+set .pots.port.37.if.1.ring_index=1
+set .pots.port.38.if.1.ring_index=1
+set .pots.port.39.if.1.ring_index=1
+set .pots.port.40.if.1.ring_index=1
+set .pots.port.41.if.1.ring_index=1
+set .pots.port.42.if.1.ring_index=1
+set .pots.port.43.if.1.ring_index=1
+set .pots.port.44.if.1.ring_index=1
+set .pots.port.45.if.1.ring_index=1
+set .pots.port.46.if.1.ring_index=1
+set .pots.port.47.if.1.ring_index=1
+set .pots.port.48.if.1.ring_index=1
+;
+;
+cp .
+;
+
+;2.13.4 Ring Cadence detection configuration – (For Vega gateways supporting FXO ports … Vega code R7.5 and beyond)
+; ringing = 1.0 on, 4.0 off
+set ._advanced.pots.fxo.1.ring_detect_longest_ring_off=4000
+set ._advanced.pots.fxo.1.ring_detect_shortest_ring_on=1000
+;
+; Country specific – use CTR21
+set ._advanced.pots.fxo.1.impedance=CTR21
+
+;2.13.5 Time zone offset
+set .ntp.local_offset="0800"

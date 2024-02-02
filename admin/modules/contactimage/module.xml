@@ -1,0 +1,31 @@
+<module>
+  <rawname>contactimage</rawname>
+  <name>Contactimage</name>
+  <version>15.0.1</version>
+  <publisher>Sangoma Technologies Corporation</publisher>
+  <repo>commercial</repo>
+  <license>Commercial</license>
+  <licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+  <commercial>
+    <type>paid</type>
+    <link>//www.freepbx.org/zulu</link>
+  </commercial>
+  <changelog>
+    *15.0.1* FREEI-722 Fixe : Image is not uploaded to the phone
+    *13.0.1* Initial released
+  </changelog>
+  <category>Settings</category>
+  <description>Generated Module</description>
+  <hooks>
+    <contactmanager class="Contactmanager" namespace="FreePBX\modules">
+      <method callingMethod="getContactImage" class="Contactimage" namespace="FreePBX\modules">getContactImage</method>
+    </contactmanager>
+  </hooks>
+  <depends>
+    <module>core</module>
+    <module>contactmanager</module>
+  </depends>
+  <supported>
+    <version>15.0</version>
+  </supported>
+</module>

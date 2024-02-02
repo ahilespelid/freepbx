@@ -1,0 +1,246 @@
+<module>
+	<rawname>vqplus</rawname>
+	<name>Queues Pro</name>
+	<version>15.0.7.30</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/15/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.pdf</licenselink>
+	<repo>commercial</repo>
+	<description>
+		(Formerly Virtual Queue Plus) MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Queue Pro adds additional advanced features to Queues module.
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/VQ+Plus-Admin+Guide</more-info>
+	<changelog>
+		*15.0.7.30* Packaging of ver 15.0.7.30
+		*15.0.7.29* FREEI-4772 Adding backup restore support for queue pause codes, callback report and queue plus options 
+		*15.0.7.28* FREEI-4681-VQplus module data is not restored if the system is not licensed 
+		*15.0.7.27* FREEI-4527 
+		*15.0.7.26* Packaging of ver 15.0.7.26
+		*15.0.7.25* FREEI-4087 Queue pause code improvements 
+		*15.0.7.24* FREEI-4084 callback issue 
+		*15.0.7.23* FREEI-3852 Report Agent Pause Reason in Qxact Reports/ Agent Availability Detail 
+		*15.0.7.22* FREEI-3554 Advanced recovery not syncing vqplus and firewall issue 
+		*15.0.7.21* FREEI-1938 Queue agents are available but 'queue callback' not dialing 
+		*15.0.7.20* Packaging of ver 15.0.7.20
+		*15.0.7.19* Packaging of ver 15.0.7.19
+		*15.0.7.18* Packaging of ver 15.0.7.18
+		*15.0.7.17* FREEI-1434 VQplus callback processing delays 
+		*15.0.7.16* Packaging of ver 15.0.7.16
+		*15.0.7.15* bump 
+		*15.0.7.14* FREEI-730 FREEI-712 
+		*15.0.7.13* fixing FREEPBX-20456 
+		*15.0.7.12* Reverting previous fix done for FREEPBX-20456 
+		*15.0.7.11* FREEPBX-20456 
+		*15.0.7.10* FREEI-595 vqplus_callback Doesn't make calls 
+		*15.0.7.9* FREEI-597 Vqplus edge version(15.0.7.4) installation issue 
+		*15.0.7.8* FREEPBX-20190 Issue with Queue Callback Call Confimation. 
+		*15.0.7.7* FREEI-596 Queue Callback reports not showing the failed and success call backs 
+		*15.0.7.6* FREEI-591 queue callback will NOT honor the queue 'retry delay' 
+		*15.0.7.5* FREEI-595 vqplus_callback Doesn't make calls 
+		*15.0.7.4* FREEPBX-20128 Backup and Restore in not restoring the Virtual Queue entries and adding a junk value 
+		*15.0.7.3* FREEPBX-20102 Backup and Restore in not restoring the Queue Penalty entries 
+		*15.0.7.2* FREEPBX-18676 Configuration File Link removed(http://freepbx.org/configuration_files) 
+		*15.0.7.1* Remove needless cron job
+		*15.0.7* FREEI-445 Queue callback works for about half a day and then stops working completely 
+		*15.0.6* FREEPBX-19842 Queue Plus options are stored in the database 
+		*15.0.5* FREEPBX-19842 
+		*15.0.4* FREEPBX-18951 
+		*15.0.2.7* FREEI-464
+		*15.0.2.6* Fixing FREEPBX-17867
+		*15.0.2.5* FREEI-451 Vqplus darmon restarting issue fix
+		*15.0.2.4* FREEPBX-19667
+		*15.0.2.3* FREEPBX-19667
+		*15.0.2.1* bump
+		*15.0.1.14* FREEPBX-19445
+		*15.0.1.13* FREEPBX-18793 and FREEPBX-18935
+		*15.0.1.12* Fixing FREEPBx-19447 After add/edit page not redirecting to list page issue
+		*15.0.1.11* FREEPBX-19492
+		*15.0.1.10* FREEI-404 Queue callback calls don't have default channel language set
+		*15.0.1.8* Fix legacy restore
+		*15.0.1.7* FREEPBX-19396 queue callback Dead call removal from database was missing
+		*15.0.1.6* FREEPBX-19019 VQplus daemon won't start
+		*15.0.1.5* FREEPBX-18935 Fixing Whoops error
+		*15.0.1.4* FREEPBX-18778 Queue callback only plays default announcement
+		*15.0.1.3* FREEPBX-14947 Able to create Empty as well as Multiple Queue Penalty Rules with same Name
+		*15.0.1.2* FREEPBX-18593 vqplus Not dialing queue callbacks
+		*15.0.1* Backup 15
+	</changelog>
+	<category>Applications</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#queues-pro</link>
+	</commercial>
+	<menuitems>
+		<vqueue>Virtual Queues</vqueue>
+		<queuecallback>Queue Callback</queuecallback>
+		<queuepausecodes category="Admin">Queue Pause Codes</queuepausecodes>
+		<queuecallbackreport category="Reports">Queue Callback Report</queuecallbackreport>
+		<qrules category="Admin">Queue Penalty Rules</qrules>
+	</menuitems>
+	<popovers>
+		<vqueue>
+			<display>vqueue</display>
+		</vqueue>
+		<queuecallback>
+			<display>queuecallback</display>
+		</queuecallback>
+		<queuepausecodes>
+			<display>queuepausecodes</display>
+		</queuepausecodes>
+	</popovers>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>queues ge 15.0.34</module>
+		<module>pm2 ge 13.0.3</module>
+		<version>15.0.17.68</version>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Vqplus" namespace="FreePBX\Modules">dashboardService</method>
+		</dashboard>
+		<queues class="Queues" namespace="FreePBX\modules">
+			<method callingMethod="hookTabs" class="Vqplus" namespace="FreePBX\Modules">tabhookQueues</method>
+		</queues>
+		<feature class="Featurecodeadmin" namespace="FreePBX\modules">
+			<method callingMethod="hookModuleCustomFeaturecodesview" class="Vqplus" namespace="FreePBX\Modules">tabhookPauseCode</method>
+		</feature>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Vqplus" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Vqplus" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Vqplus" namespace="FreePBX\modules">stopFreepbx</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="virtual_queue_config">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="40" default=""/>
+			<field name="priority" type="integer" notnull="false"/>
+			<field name="position" type="integer" notnull="false"/>
+			<field name="min_penalty" type="integer" notnull="false"/>
+			<field name="max_penalty" type="integer" notnull="false"/>
+			<field name="raise_penalty" type="integer" notnull="false"/>
+			<field name="rule_id" type="integer" notnull="false"/>
+			<field name="joinannounce_id" type="integer" notnull="false"/>
+			<field name="agentannounce_id" type="integer" notnull="false"/>
+			<field name="music" type="string" length="100" notnull="false"/>
+			<field name="maxwait" type="string" length="8" notnull="false"/>
+			<field name="cidpp" type="string" length="100" default=""/>
+			<field name="alertinfo" type="string" length="254" default=""/>
+			<field name="language" type="string" length="50" default=""/>
+			<field name="callconfirm_id" type="integer" notnull="false"/>
+			<field name="dest" type="string" length="100" default=""/>
+			<field name="cdest" type="string" length="100" default=""/>
+			<field name="adest" type="string" length="100" default=""/>
+			<field name="gotodest" type="string" length="100" default=""/>
+			<field name="full_dest" type="string" length="100" default=""/>
+			<field name="joinempty_dest" type="string" length="100" default=""/>
+			<field name="leaveempty_dest" type="string" length="100" default=""/>
+			<field name="joinunavail_dest" type="string" length="100" default=""/>
+			<field name="leaveunavail_dest" type="string" length="100" default=""/>
+		</table>
+		<table name="vqplus_queue_config">
+			<field name="queue_num" type="string" length="20" default="" primarykey="true"/>
+			<field name="min_penalty" type="integer" notnull="false"/>
+			<field name="max_penalty" type="integer" notnull="false"/>
+			<field name="raise_penalty" type="integer" notnull="false"/>
+			<field name="rule_id" type="integer" notnull="false"/>
+			<field name="cdest" type="string" length="100" default=""/>
+			<field name="adest" type="string" length="100" default=""/>
+			<field name="full_dest" type="string" length="100" default=""/>
+			<field name="joinempty_dest" type="string" length="100" default=""/>
+			<field name="leaveempty_dest" type="string" length="100" default=""/>
+			<field name="joinunavail_dest" type="string" length="100" default=""/>
+			<field name="leaveunavail_dest" type="string" length="100" default=""/>
+			<field name="upil" type="string" length="6" default="no"/>
+			<field name="lazymembers" type="string" length="6" default="no"/>
+		</table>
+		<table name="vqplus_qrule_config">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="40" default=""/>
+		</table>
+		<table name="vqplus_qrule_detail">
+			<field name="rule_id" type="integer" primarykey="true"/>
+			<field name="elapsed" type="integer" primarykey="true"/>
+			<field name="min_penalty" type="string" length="10" default=""/>
+			<field name="max_penalty" type="string" length="10" default=""/>
+			<field name="queue_raise_penalty" type="string" length="10" default=""/>
+		</table>
+		<table name="vqplus_callback_config">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="40" default=""/>
+			<field name="cid" type="string" length="100" notnull="false"/>
+			<field name="numprepend" type="string" length="20" notnull="false"/>
+			<field name="patterns" type="text" notnull="false"/>
+			<field name="announcement" type="string" length="100" notnull="false"/>
+			<field name="recordname" type="boolean" notnull="false"/>
+			<field name="promptreqnum" type="string" length="100" notnull="false"/>
+			<field name="promptreqname" type="string" length="100" notnull="false"/>
+			<field name="promptreqconfirm" type="string" length="100" notnull="false"/>
+			<field name="promptcb" type="string" length="100" notnull="false"/>
+			<field name="promptcbaccept" type="string" length="100" notnull="false"/>
+			<field name="cbqueue" type="string" length="20" notnull="false"/>
+			<field name="timeout" type="integer" notnull="false"/>
+			<field name="retries" type="integer" notnull="false"/>
+			<field name="retrydelay" type="integer" notnull="false"/>
+			<field name="maxcallbacks" type="integer" notnull="false"/>
+			<field name="forcecid" type="boolean" notnull="false"/>
+			<field name="cbdfcountry" type="string" length="4" notnull="false"/>
+			<field name="cbstarttime" type="string" length="8" notnull="false"/>
+			<field name="cbendtime" type="string" length="8" notnull="false"/>
+			<field name="cbtiming" type="boolean" notnull="false"/>
+			<field name="qannouncements" type="boolean" notnull="false" default="1"/>
+		</table>
+		<table name="vqplus_callback_calls">
+			<field name="queue_num" type="string" length="20"/>
+			<field name="uniqueid" type="string" length="40" primarykey="true"/>
+			<field name="cbid" type="integer"/>
+			<field name="position" type="integer"/>
+			<field name="callback" type="string" length="20"/>
+			<field name="queue_entry_time" type="string" length="20"/>
+		</table>
+		<table name="vqplus_callback_log">
+			<field name="timestamp" type="integer"/>
+			<field name="queue_num" type="string" length="20"/>
+			<field name="uniqueid" type="string" length="40" primarykey="true"/>
+			<field name="cbid" type="integer"/>
+			<field name="callback" type="string" length="20"/>
+			<field name="success" type="boolean" notnull="false"/>
+			<field name="reason" type="string" length="80"/>
+			<field name="linkedids" type="string" length="200"/>
+		</table>
+		<table name="vqplus_callback_daemon_log">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="uniqueid" type="string" length="40"/>
+			<field name="queue" type="string" length="20"/>
+			<field name="cbid" type="integer" notnull="false"/>
+			<field name="channel" type="string" length="100"/>
+			<field name="callerid" type="string" length="20"/>
+			<field name="position" type="integer" length="3" notnull="false"/>
+			<field name="queuejointime" type="string" length="20"/>
+			<field name="event" type="string" length="20"/>
+			<field name="reason" type="string" length="50"/>
+			<field name="result" type="string" length="100"/>
+			<field name="event_link" type="string" length="50"/>
+			<field name="eventtime" type="datetime"/>
+		</table>
+		<table name="vqplus_qpause_codes">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="code" type="string" length="20"/>
+			<field name="reason" type="string" length="40"/>
+		</table>
+	</database>
+	<console>
+		<command>
+			<name>vqplus</name>
+		</command>
+	</console>
+</module>

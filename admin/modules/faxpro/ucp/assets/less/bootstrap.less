@@ -1,0 +1,257 @@
+.grid-stack-item[data-rawname='faxpro'] {
+	.separator-list {
+			height: 15px;
+	}
+	.settings-list {
+			background-color: aliceblue;
+	}
+	.folder-list {
+			background-color: #f3f5f6;
+	}
+	.folder {
+			margin-bottom: 1px;
+			font-size: 85%;
+			.badge {
+					float:right;
+			}
+			a {
+					position: relative;
+					display: block;
+					padding: 3px 8px;
+					border-radius: 2px;
+					color: #000000;
+					text-decoration:none;
+			}
+			a:hover {
+					text-decoration: none;
+					background-color: #eeeeee;
+			}
+	}
+	.folder.active {
+			background-color: #2f4050;
+			border-radius: 2px;
+			a {
+					color: #ffffff;
+					text-decoration:none;
+			}
+			a:hover {
+					text-decoration: none;
+					background-color: #000000;
+					color: #ffffff;
+			}
+	}
+}
+
+#globalModal {
+	.faxsend {
+		.filedrop {
+			border: 1px dashed;
+			height: 60px;
+			border-radius: 10px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			background-color: #eaeaea;
+			overflow: hidden;
+			.message {
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				font-weight: bold;
+				font-size: 120%;
+				position: relative;
+				top: -53px;
+			}
+			.pbar {
+				height: 100%;
+				width: 0%;
+				background-color: #5cb85c;
+				position: relative;
+			}
+		}
+		.hover {
+			background-color: #585858;
+			color: #FFFFFF;
+		}
+		.center {
+			margin: auto;
+			width: 20%;
+		}
+		.files {
+			.list-group-item .icons {
+				float: right;
+				.fa-file-pdf-o {
+					font-size: 116%;
+					margin-right: 5px;
+					color: black;
+				}
+				.fa-trash-o{
+					font-size: 135%;
+					cursor: pointer;
+					color: black;
+				}
+			}
+		}
+	}
+}
+
+#module-page-faxpro {
+
+	#maxquota {
+	    border-radius: 5px;
+	    text-align: center;
+	    font-size: 90%;
+	    padding: 10px;
+	    @media only screen and (max-width : 991px) {
+	        border-radius: 0px;
+	        padding: 0px;
+	    }
+	}
+	#msg-left.red {
+	    color: red;
+	}
+	.faxsettings, .faxsend {
+	    background-color: aliceblue;
+	    border-radius: 10px;
+	    padding: 10px;
+	    width: 370px;
+	    @media only screen and (max-width : 991px) {
+	        width: 100%;
+	    }
+	    .extras {
+	        display: none;
+	    }
+	}
+
+	.separator-list {
+	    height: 15px;
+	}
+	.settings-list {
+	    background-color: aliceblue;
+	}
+	.settings.active {
+	    background-color: #428bca;
+	    border-radius: 2px;
+	    a {
+	        color: #ffffff;
+	    }
+	    a:hover {
+	        text-decoration: none;
+	        background-color: #428bca;
+	        color: #ffffff;
+	    }
+	}
+	.settings-inner {
+	    i {
+			font-size: 120%;
+			color: #999999;
+			float: right;
+			margin-top: 1px;
+	    }
+	}
+	.settings {
+	    a {
+	        position: relative;
+	        display: block;
+	        padding: 3px 8px;
+	        border-radius: 2px;
+	    }
+	    a:hover {
+	        text-decoration: none;
+	        background-color: #eeeeee;
+	        color: #2a6496;
+	    }
+	}
+
+	.folder-list {
+	    background-color: aliceblue;
+	}
+	.message-table {
+	    font-size: 90%;
+	}
+	.fax-message {
+	    color: black;
+	    background-color: rgba(255, 255, 255, 0.5);
+	    a {
+	        cursor: pointer;
+	    }
+	}
+	.fax-message.new {
+	    font-weight: bold;
+	}
+	.pdf-view {
+	    display:none;
+	}
+	.msginfo {
+	    position: absolute;
+	}
+	.msginfo.date {
+	    left:0px;
+	}
+	.msginfo.time {
+	    left:10px;
+	}
+	.msginfo.callerid {
+	    left:20px;
+	}
+	.msginfo.priority {
+	    left:30px;
+	}
+	.msginfo.mailbox {
+	    left:40px;
+	}
+	.folder {
+	    margin-bottom: 1px;
+	    font-size: 85%;
+	    .badge {
+	        float:right;
+					font-size: 85%;
+	    }
+	    a {
+	        position: relative;
+	        display: block;
+	        padding: 3px 8px;
+	        border-radius: 2px;
+	    }
+	    a:hover {
+	        text-decoration: none;
+	        background-color: #eeeeee;
+	        color: #2a6496;
+	    }
+	}
+	.folder.active {
+	    background-color: #428bca;
+	    border-radius: 2px;
+	    a {
+	        color: #ffffff;
+	    }
+	    a:hover {
+	        text-decoration: none;
+	        background-color: #428bca;
+	        color: #ffffff;
+	    }
+	}
+	.mailbox-header {
+	    font-size:400%;
+	}
+
+	#fax-table {
+		.actions {
+			i {
+				color: black;
+				font-size:130%;
+			}
+		}
+		.message-header {
+			th:not(.noclick) {
+				i {
+					float: right;
+				}
+				cursor: pointer;
+			}
+			th:not(.noclick):hover {
+				background-color:#f5f5f5;
+			}
+			background-color: aliceblue;
+		}
+	}
+}

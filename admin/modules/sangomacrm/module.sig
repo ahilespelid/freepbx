@@ -1,0 +1,152 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=B53D215A755231A3
+signedby='FreePBX Mirror Servers <security@freepbx.org>'
+repo=commercial
+timestamp=1647834193.6335
+[hashes]
+Backup.php = 607edb39fc6f601095b65c928604b9cdc7339f2013304ca8645bf8c4754e2b26
+CRMAPI/API.php = 0dc9224f9f99458355ec78edddda94723152275e99e55ff69620e3654d1f5f28
+CRMAPI/Calls.php = 8a23c1b0de5d4f0bc750d41ccc6049af52ecf57e4ae327ea816a3c62871d93b7
+CRMAPI/Hooks.php = c859996158ddc64c233b6f6c6962cfb9097b5108a78ee38c1b2f799e65876293
+CRMAPI/Users.php = c0a3e93c0c503a75a648bdac1c2b8d102be81d4987ba7e659ec1bb10a4b20083
+Console/Sangomacrm.class.php = b86bad9f81f151c1208dda73d45aa431f62133c853dd47e181a78563bf760835
+Data/Countries.php = efd369ef2e3a53439272bd84a29f6ba84e7e9a787f939f7955e478f514e95045
+Data/SalesforceHttpCodes.php = eeae8216ac557f0c57c98cdfdf9c1720499926101e8804869b9f43f01aa1a5dc
+DriverBase.php = 631c6ccd93515a42fc932edd46ab047b17e92a4eb1794fc6e8b8e304ea8c4a5d
+LICENSE = d012ce07f6ec81aeae4f3aa64794d8624511e10e21f3413ef5991174d68ce58a
+Modules/Connectwise/Activities.php = 8cc4cd914522b6037d539bd989b21ea7bfb889fa4bb7b2c6f3220de70ad5940b
+Modules/Connectwise/Base.php = 5ddbeb4eeb8b998877b49a301924110a5f3602b266ed26dd74b1f6450c69bd90
+Modules/Connectwise/Companies.php = a604bdc1d53a84220bf4998a4cd3281b01c3c14c23ae98057a7c0497af5714ae
+Modules/Connectwise/Contacts.php = 4df9f36909ac2b34f438f7df31eb73bd397671f5bae34655afec7391fbb7b219
+Modules/Connectwise/Leads.php = 69c8cab927a3d9b7b5402986bce1e1c922c33b5e05362459b4ecf2c5328b5b37
+Modules/Connectwise/System.php = eaae264f0515d34b55135d918097f8d55439163f21f74a66bf9b13875c496b2a
+Modules/Portaltrace/Portaltrace.php = 7241cfcc89fd2330a5a0c63bb8cfbbf85ae833e42c674838f7c4ab95c3719180
+Modules/Portaltrace/portal_log_trace.class.php = 9bffb38be9f577bf1bd3f2aff6536d25a6bc263f343811f2abf890ba790ef4a6
+Modules/Salesforce/Accounts.php = 1b728c96b86fcae16e89584c941e805db2bd925c0d97b4694615dd3bac0b7360
+Modules/Salesforce/Base.php = cf96cd79958edac88dbcf4b6a1d1a90ef4856d614b9f91f33ad513a8e7df1b0b
+Modules/Salesforce/Callhistory.php = e47d58914f6665955af28d1433372269cddb2f2a40e5d29d23b0e14e15fff11d
+Modules/Salesforce/Contacts.php = 8a439d66762c66be77ba4d0a5e60db915fd640afd47d4f7c9c729a2d1cea04d6
+Modules/Salesforce/Leads.php = 2ad6e612391fb9ffae52ea3c5a88471c75658cb9f4c90f4651b4aeb3e71c38fe
+Modules/Salesforce/Oauth.php = bf02855d3521224758d0fdbaada6c0b3a8ae311a5991ad4f7c50a5972045b4f9
+Modules/Salesforce/Upload.php = 238bfab8b48aa3d5127c625fc204a28232ddc4273f13018ed19ae6787ec66fe7
+Modules/Salesforce/Users.php = eb88c8b6990c04a25fecda16fc189f9c406675218ac1a73eba7bfc28da2aa0b0
+Modules/Salesforce/objects/Recording.php = 2d4a8d7186e54ead20cdae43a228a8ed63766dfb454f928934ec5bf5e5dceef9
+Modules/Suitecrm/Accounts.php = 02672207861d7d48b6ec73e87c16e7f677423378ccaf48086a65085444945232
+Modules/Suitecrm/Base.php = 66b4fb1d22e38f1fcedae407aac73112b9a5571341e8645aad74f5451fcd1760
+Modules/Suitecrm/Callhistory.php = aa1f46a82058fe13dc6ea4063ff121e2f17428640b3fb7106afafa44deca3913
+Modules/Suitecrm/Contacts.php = 6a9c59be4efea17fc2ec477c271b5ed18b21f4f65c8c7d4068c1aade4d74a405
+Modules/Suitecrm/Leads.php = b125b4754a372d6bdd7c975a2c638fc18d8c5f597d5b9a5f7492b5c9a94cee13
+Modules/Suitecrm/Users.php = 3173ddcc4de95492898b91468f1d613b00b915bbecdc570b0313724db1a59d36
+Modules/Zoho/Accounts.php = e91eaefc86aadc5c999efb3a58024f74d198a0b4dcf9b5c85dc8c0368911900c
+Modules/Zoho/Base.php = bd62755f565878862805dc05d2bf917f54332076173d764ab36984eddf78d07b
+Modules/Zoho/Calls.php = 47582c59939082a846e82db55feecb2897bc6ac1f9fb9b3429add95cfad04e37
+Modules/Zoho/Contacts.php = 32f2175829bc6958213beda48f65b6b1a38b6c6814a228619a8af320b0f9db55
+Modules/Zoho/Leads.php = 8052472d1345b4c0855be00274513590fb3b0b4d69a91a8d4f7076f57df88b00
+Modules/Zoho/Oauth.php = e6364161e0899f7eb14739f9abfe916c7675e68e629422c50799fb732db2e7f6
+Modules/Zoho/Users.php = 277a63bd4f4ef8d120a80955a5faf6c93de88ca36fe8b391e426f8c0b61c0d20
+Modules/Zoho/Views/zohosettings.php = d60cf866ad1b500acdcb0d588fe9754d9e1ae7882c8118f95467a948fbd30768
+README.md = 4ace584822e24d54846471a9862694965de7ec931c01e5bfe38f20ddcb2502f2
+RestAPI.php = 78b327523b4cfa220318a743bd0c3513208fe4a61c33a771ced7797d83fa9656
+Restore.php = 8e7e8c0531c9944d716a451d11ceb43aff5d2269189e54b27d2b043e1a40fc2d
+Sangomacrm.class.php = 4779903276ab4d0ee02a5b28f45734c14d9bc74f7bdbc0ed601f609dc5045d2d
+agi-bin/sangomacrm.agi = 09f29e22833b300afef50bc4f32a61ac3c9277d8067a609a952d09f80224acfc
+assets/js/sangomacrm.js = c52f2238fbb1e466bb43a432834a644535315f3e92172b398a2e92cabcdc9123
+drivers/Connectwise.php = d6930d2d7f775091f1d3a162824a9b9e1f85156e160083a155590f3131669d78
+drivers/Restapi.php = 67d4074b89fd9caa908bc283e0d9076285194fa50792a19f72476180e9035245
+drivers/Salesforce.php = bcc88e2bb601d792f1ca18cc56eefb264f110c66c7064db0a7d7ab73cc61f547
+drivers/Suitecrm.php = 138192dbafb1826b09a01e6c87e6be706895c7473df02b68814a1fece7515adc
+drivers/Zoho.php = b414a68b570ce302618e4978f1b59a8b91fe324787a62e4ecf7d09a268284bf6
+hooks/logrotate = 9e05e264a0051c1be7e63f4e313c4de2b80d5210c5c354ac669f62745e63cfaa
+hooks/yum-update-curl = 69a4c8a91d16bc696b851a8063bbecb65cfbf29bbf82add20aac1dee3c5145dd
+importOne.php = 3a05dd353e1b10add9f87da886ccab4cfdced92d2d7e0ae68e0f7cfec68618d3
+log.php = 7b066492ef66c9f9c5ffb8cd1f3e93d108b323942313da3025c1f2bc5fac8212
+module.xml = b897bb7eb2ca4c4a4f87f0d1672486b1810c8ee29a0b39d0d737d09a5b630967
+packages/sugarcrm/sugarcrm.zip = b287977b7d1aef1a7639043a52978b11c662ff7c9961485c98fc9ec12fd9cc1d
+packages/sugarcrm/sugarcrm_v8.zip = a83ede4b82c450d686212218453f1d40e8659fe5ea237578d7ebad2d59fc056d
+packages/suitecrm/suitecrm.zip = b287977b7d1aef1a7639043a52978b11c662ff7c9961485c98fc9ec12fd9cc1d
+page.sangomacrm.php = 09201321eab1645a20506d3c2982135dd21fcc8c1c3f720ad34e03421e8cbf3a
+page.sangomacrmrest.php = a5946f4e4d902d06ee341de2e57e23a03cb02334ab314e92b20c7e2547eac642
+vendor/autoload.php = 20acc69a8e6985201d6c4ad824e15649933d635b366205a15cf9badd16401e50
+vendor/composer/ClassLoader.php = 1057ef1b55b0f906b2f562c2204ca38a51574aa0374994c3bcf48a45a5d00a28
+vendor/composer/LICENSE = c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+vendor/composer/autoload_classmap.php = 2be1d60eba4b4c872a91337a7c3bf74a1be468a82698ed36c4062333b88c47ec
+vendor/composer/autoload_namespaces.php = 787b0c87f7d749f97dfd69d5bec2ddbc6099b2c6e396f8968c70ed4b0b855e2b
+vendor/composer/autoload_psr4.php = 9ead7763dcdb921731a7b7395385bf61dc6481899ae21d76aef52a659d21fccd
+vendor/composer/autoload_real.php = 5228b35151b853d28ae1b7015b4ec6ba6beb68c75a3920a27343bef84d5de30e
+vendor/composer/autoload_static.php = fe0811b6036f2f3c4c5981189803c2ad49d67bd0b6d6f58eda92098408049d4f
+vendor/composer/installed.json = fe2924766104f18a7da8a858cfe2aa89ecb426a759c05a7744c158ebafa63df1
+vendor/herzult/php-ssh/LICENSE = 8898112525fce72130c44dc152eee285a29910783ca76b7e1148a5a80776f608
+vendor/herzult/php-ssh/README.markdown = c6875e9e740aaf6f13883d32b3948106e89057b32082a79bfdd6028a40a7c8e2
+vendor/herzult/php-ssh/phpunit.xml.dist = ea63a8b35300474ff6cff67af10616e738db49efb34a253b0cdac2d04f60fe32
+vendor/herzult/php-ssh/src/Ssh/AbstractResourceHolder.php = 8bb11b21924cce00f2315eb914fdda7977b409d5f3905410373154a127eb1603
+vendor/herzult/php-ssh/src/Ssh/Authentication/Agent.php = 87cdd7ea1177bb7fbb2c10bedf6415a9e5cad1c760c94f7a9b34a90529196094
+vendor/herzult/php-ssh/src/Ssh/Authentication/HostBasedFile.php = ced005418e4a24bf2a25e5df7ec501d46f2f2c95f4c0ea6880b0ca380ba28fd5
+vendor/herzult/php-ssh/src/Ssh/Authentication/None.php = a7168793f0c89bff00f3a76ea116070ac2b063bc368a0427278403245eae6ee7
+vendor/herzult/php-ssh/src/Ssh/Authentication/Password.php = 277149d46726e2f07f2b9b28f68733fc2a3db23b8401a00ac4cb494270b16761
+vendor/herzult/php-ssh/src/Ssh/Authentication/PublicKeyFile.php = 2c471bab75ca52718d5e17fc6ce74dcaa5aaeb137ebddc4802054ee93e1c7213
+vendor/herzult/php-ssh/src/Ssh/Authentication.php = 9ee70c78be2c1541174e4e7701144faee6886951fb5180818aa09de19e0eebae
+vendor/herzult/php-ssh/src/Ssh/Configuration.php = 12c0a2615182c1d59b809f5d5d91dc6d50f78ce6717bc19a80b000a5be626ece
+vendor/herzult/php-ssh/src/Ssh/Exec.php = 1895b0ceba3fa0e7fcabfccaa5dde58ca319fd772e8421815d73f21f3a416bc0
+vendor/herzult/php-ssh/src/Ssh/Publickey.php = ac422742d54d1669d0cb911e750a0ab546e7b221169bb033e29214fe63748981
+vendor/herzult/php-ssh/src/Ssh/ResourceHolder.php = 95af41f9d3ee06d891b45f7483ea38ad56c4c9cda387e1321140fe26f7f5e3e1
+vendor/herzult/php-ssh/src/Ssh/Session.php = 88de5d5d547078cd401d4d80910f44e9be84643073d2be18678d3f992dfc0247
+vendor/herzult/php-ssh/src/Ssh/Sftp.php = 628aff1d9d83ee12f3fe7492e578da3fbfb5ed26e9aec6c47812857d76c9554a
+vendor/herzult/php-ssh/src/Ssh/SshConfigFileConfiguration.php = 6f0ed29fb60f8b8a13064e937bbe4855306ffd2442e24a02c6ff92aa0dee5776
+vendor/herzult/php-ssh/src/Ssh/Subsystem.php = a780e4a83b2137c1ec9fb86f245ccbbf1c60b369c2a1efcd58be451ab669f523
+vendor/herzult/php-ssh/tests/Ssh/AbstractResourceHolderTest.php = bf0e8c41aff01935dd2b563392d02cfd6a828886dd6e7e2c9e09a718bbd7955a
+vendor/herzult/php-ssh/tests/Ssh/Authentication/AgentTest.php = e3443fe7b293a7f07be997581fb1351cae11954c1abb49babeb4c3a7f96d1307
+vendor/herzult/php-ssh/tests/Ssh/Authentication/HostBasedFileTest.php = 68123ff4192c35a219c1da2840f7ce579e7385a6c5a0a1cd1caca67175d612e4
+vendor/herzult/php-ssh/tests/Ssh/Authentication/NoneTest.php = 100e890d8529420406d12ce28c516ccf5d4ae11146eddc3bd604666c5b32e8af
+vendor/herzult/php-ssh/tests/Ssh/Authentication/PasswordTest.php = dd1bb03a33adc8e0964c382aba0b1ca3f6e4db22bc9078e7c4988b4c725eb1ca
+vendor/herzult/php-ssh/tests/Ssh/Authentication/PublicKeyFileTest.php = a043aba15099c531bc91d803fb142e2337184fd10fba668b626eba593197de9c
+vendor/herzult/php-ssh/tests/Ssh/ConfigurationTest.php = f6d336f4f545277e414c53bdb6036fcbeeebdc2dc9cab117f0b61bfe60439f11
+vendor/herzult/php-ssh/tests/Ssh/Fixtures/config_invalid = dfa1498bb6ad222a19e8d31188b54c538a35bf4398e20cffc3a40704e049eae4
+vendor/herzult/php-ssh/tests/Ssh/Fixtures/config_valid = 76fb6ee76530f4da25000e583659d0623e8abeb1c0da5ec8a921591759054074
+vendor/herzult/php-ssh/tests/Ssh/FunctionalTests/ExecTest.php = fb3c0d7e6ab99b2afeb50ea2998d2377c76a8641bdb3e7d863c50e067e7fd23b
+vendor/herzult/php-ssh/tests/Ssh/FunctionalTests/LoginTest.php = 769ac5815956c22e83eb622945438651d58fcae666dc9a920f79654e8a46be5c
+vendor/herzult/php-ssh/tests/Ssh/FunctionalTests/SftpTest.php = 83740a11da8c07fd3f8986e775e8ad1f20ab42dd137786e6b6b0c4320d7e8c91
+vendor/herzult/php-ssh/tests/Ssh/SessionTest.php = 4e3397513fb2aa904b949fd585074d678cdad4652db4fe4f0304e617476b9c4d
+vendor/herzult/php-ssh/tests/Ssh/SshConfigFileConfigurationTest.php = 669ebc5b0c17145b482c69020977b231458c9e0829c54491143bc53ce7851cab
+vendor/herzult/php-ssh/tests/Ssh/SubsystemTest.php = 3bfda99a2935005bf7ef622b6829feffc1a82022d198ce8217ae9b5fa84853db
+vendor/herzult/php-ssh/tests/bootstrap.php.dist = 597ee10935f0d5ec79fbf03fe2702af21da0be30e544410ecaa809bd0ba9f115
+views/cwsettings.php = 6d068f509e9e4fb99cf342156ad2935fa2ecce1e4036c576026b2c5f022fdac7
+views/recordings.php = a76c8d270a03f7503943b8f2e7bdd93688f69e19a34fd2eede62340faafa1906
+views/restsettings.php = 0dc54ab6b13b5db39815f77d5bfdf7160ebfd32f1f0d5cb301063809cb24b899
+views/restsettingsmoved.php = 43ad53e94ffb9f25d32ca7669655307eccc92085797b877e084aa44da8cbf03f
+views/sales.php = 1b0a4b1095fe3a2e62439c0435816251454c4857d176a4f9e618947f15198f7b
+views/salesforce-disabled.php = a8dae4a4bdb38e1de96d9066dbfbd4b7e819e984bc53aa3454f66508c294be00
+views/salesforcesettings.php = f58cc8977f307252d30532d72bbe5eacd8d01c4d5747737363bdb9bf93dcb31e
+views/settings.php = 6f7e37ef6c88e3890c8645f7c4df6048e81dab2cb9c9f2b214193573d22c9199
+views/suitecrmsettings.php = b34879c3687ca40b3437c4a8d65614c20871f69c8b6257396984d94c63cd4e00
+views/userman_hook.php = ce0235164ccb4270cdc772e644b2862b9a5da9d680cb9f6dbb8a15655db98d8a
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQIcBAEBAgAGBQJiN/RRAAoJELU9IVp1UjGjuEAP+QE3x0TyXe4uQHuCa/hqR8S+
+WyUOZ2gq7aN5j/RnhwCUGfbDCvUuyrywzLE3UiP0X7GvqeYZgkBCNC/AUd0zgpdR
+CQV2peXkGuFUblT4mISX6GRc0NlIik9Zx+afhrzZ+Qbk8dP0TfJ7JanjpRZMAIYm
+sIWRNgIXM9bIOOoGYhSA0OVcGzzMAxq4hJ8QOQ9ujUfa9HDsAZPcN1Miwhfx/HxW
+SOM/Xd7wj7iT1ym9BZLgT4CbQLmDvS9OcXSxzhlzmA7n9Wh1hmk7YYoRnT2qd1Ms
+nQ4yE/G5k+k1vtTCGs6afmLl42x4dHmgFCjmDnA5835gsOHU/tjy1ycguDf2b+WD
+lE49DPAfBoPc+FH/xl+pPjXWKDKrsG4NYUN4UiJeJfhzXUliUGYS7q8k77Gdj33g
+7E7DlpiGS09KgljFjjiHVmBECCt6jLOZfqpy/BQd7t3J5Gg6XF54eMErHPC9xtL0
+hTBJx7O2/kua2KAmfao8yczU6/YUwDQajVnZ6TmySaPXhvTsO5U7Nzc0Zwxqyz2o
+g8pSbCjIRegX4Xgl5JkOLGGLwfH8Sag2Qg5jX9BcemldX51tbj61nvyci1GiD/0A
+uc6YzYuRzh2vd9yON3a/DbBCWXLJ+TD5NE6JMTWMgGDKTiwm0dQneMGRR0O0mbHX
+OSPuQllGEOe1FvCWPnUJ
+=tHgx
+-----END PGP SIGNATURE-----

@@ -1,0 +1,11 @@
+#!/usr/bin/sh 
+	echo "/var/log/asterisk/pms.log {" > /etc/logrotate.d/pms
+	echo "       daily" >> /etc/logrotate.d/pms
+	echo "       missingok" >> /etc/logrotate.d/pms
+	echo "       rotate 15" >> /etc/logrotate.d/pms
+	echo "       notifempty" >> /etc/logrotate.d/pms
+	echo "       sharedscripts" >> /etc/logrotate.d/pms
+	echo "       create 0640 asterisk asterisk" >> /etc/logrotate.d/pms
+	echo "       su asterisk asterisk" >> /etc/logrotate.d/pms
+	echo "}" >> /etc/logrotate.d/pms
+

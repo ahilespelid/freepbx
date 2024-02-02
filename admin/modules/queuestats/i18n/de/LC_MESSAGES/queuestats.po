@@ -1,0 +1,747 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for queuestats
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 03:55+0000\n"
+"PO-Revision-Date: 2020-02-25 21:04+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
+"Language-Team: German <http://*/projects/fpbxc/queuestats/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%s (%s) - %s Members"
+msgstr "%s (%s) - %s Mitglieder"
+
+#, php-format
+msgid "%s (on %s) (%s)"
+msgstr "%s (auf %s) (%s)"
+
+#, php-format
+msgid "%s - %s. Member of %s Queue(s)"
+msgstr "%s - %s. Mitglied von %s Warteschlange(n)"
+
+#, php-format
+msgid "%s Seconds Ago"
+msgstr "%s Sekunden zuvor"
+
+#, php-format
+msgid "%s seconds"
+msgstr "%s Sekunden"
+
+msgid "'Alert above' field its not numeric or not empty string."
+msgstr ""
+"'Alert above'/('Warnung oben') Feld ist nicht numerisch oder nicht leer."
+
+#, php-format
+msgid "(%s) Calls have been Abandoned"
+msgstr "(%s) Anrufe wurden abgebrochen"
+
+msgid "1 day"
+msgstr "1 Tag"
+
+msgid "1 hour"
+msgstr "1 Stunde"
+
+msgid "10 min"
+msgstr "10 min"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "12 Hour"
+msgstr "12 Stunden"
+
+msgid "15 min"
+msgstr "15 min"
+
+msgid "24 Hour"
+msgstr "24 Stunden"
+
+msgid "40%"
+msgstr "40%"
+
+msgid "5 min"
+msgstr "5 min"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "60%"
+msgstr "60%"
+
+msgid "70%"
+msgstr "70%"
+
+msgid "75%"
+msgstr "75%"
+
+msgid "80%"
+msgstr "80%"
+
+msgid "90%"
+msgstr "90%"
+
+msgid "95%"
+msgstr "95%"
+
+msgid "99%"
+msgstr "99%"
+
+msgid "A Month"
+msgstr "Ein Monat"
+
+msgid "A Week"
+msgstr "Eine Woche"
+
+msgid "AVG Wait Time"
+msgstr "Durchschn. Wartezeit"
+
+#, php-format
+msgid "Abandonded Calls for Queue %s"
+msgstr "Abgebrochene Anrufe für Warteschlange %s"
+
+msgid "Abandoned Calls (Queue)"
+msgstr "Abgebrochene Anrufe (Warteschlange)"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Active Calls (Queue)"
+msgstr "Aktive Anrufe (Warteschlange)"
+
+#, php-format
+msgid "Active Calls for Queue %s"
+msgstr "Aktive Anrufe für Warteschlange %s"
+
+msgid "Add Server"
+msgstr "Server hinzufügen"
+
+#, php-format
+msgid "Agent %s (Unknown)"
+msgstr "Agent %s (Unbekannt)"
+
+msgid "Agent Name"
+msgstr "Agentenname"
+
+msgid "Agent State"
+msgstr "Agentenstatus"
+
+msgid "Agent Status for Agent __HINT__ (__USER__)"
+msgstr "Agentenstatus für Agent __HINT__ (__USER__)"
+
+msgid "Agent Summary"
+msgstr "Agentenübersicht"
+
+#, php-format
+msgid "Agent Summary for Agent %s (%s)"
+msgstr "Agentenübersicht für Agent %s (%s)"
+
+msgid "Agent Summary for Agent __HINT__ (__USER__)"
+msgstr "Agentenübersicht für Agent __HINT__ (__USER__)"
+
+#, php-format
+msgid "Agent(s) %s"
+msgstr "Agent(en) %s"
+
+msgid "Alert Level"
+msgstr "Alarmstufe"
+
+msgid "Alert in minutes or leave text in blank for 'no Notifications'."
+msgstr ""
+"Benachrichtigung in Minuten oder Text leer lassen für 'Keine "
+"Benachrichtigungen'."
+
+#, php-format
+msgid "Alert when Queue %s climbs above %s minute(s)."
+msgstr "Alarm, wenn Warteschlange %s über %s Minute(n) steigt."
+
+#, php-format
+msgid "Alert when Queue %s falls below %s%%"
+msgstr "Warnung, wenn die Warteschlange %s unter %s%% fällt"
+
+msgid "Allowed Queue Wallboard Widgets"
+msgstr "Zulässige Warteschlangen-Wallboard-Widgets"
+
+msgid "Allows you to display the time in various timezones."
+msgstr "Ermöglicht die Anzeige der Uhrzeit in verschiedenen Zeitzonen."
+
+msgid "Allows you to monitor the state of a selection of agents"
+msgstr "Ermöglicht die Überwachung des Status einer Auswahl von Agenten"
+
+msgid "Amount of data to consider for syncing. Recommended value is 1 week."
+msgstr ""
+
+msgid ""
+"Amount of days to retain data in the log tables. Setting this to 30 is ideal."
+msgstr ""
+"Anzahl der Tage, die Daten in den Protokolltabellen aufbewahrt werden "
+"sollen. Die Einstellung auf 30 ist ideal."
+
+#, perl-format
+msgid "Are you sure you wish to delete these: %s?"
+msgstr "Sind Sie sicher, dass Sie dies löschen möchten: %s?"
+
+msgid "Asterisk Manager Password"
+msgstr "Asterisk Manager-Passwort"
+
+msgid "Asterisk Manager User"
+msgstr "Asterisk Manager-Benutzer"
+
+msgid "Averaging Period"
+msgstr "Mittelungszeitraum"
+
+msgid "Avg Wait Time of a Queue"
+msgstr "Durchschn. Wartezeit einer Schlange"
+
+msgid "CDR Database"
+msgstr "CDR-Datenbank"
+
+msgid "Caller Outcome Summary (Queue)"
+msgstr "Zusammenfassung der Anruferergebnisse (Warteschlange)"
+
+#, php-format
+msgid "Caller Outcome for Queue %s"
+msgstr "Anruferergebnis für Warteschlange %s"
+
+msgid "Can not connect to CDRDB!"
+msgstr "Kann keine Verbindung zu CDRDB herstellen!"
+
+#, php-format
+msgid "Can't find queue %s"
+msgstr "Warteschlange %s kann nicht gefunden werden"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cannot create widget: "
+msgstr "Widget kann nicht erstellt werden: "
+
+msgid "Clock"
+msgstr "Uhr"
+
+msgid "Clock Type"
+msgstr "Uhrentyp"
+
+msgid "Connection Name"
+msgstr "Verbindungsname"
+
+msgid "Connection Type"
+msgstr "Verbindungstyp"
+
+msgid "Create Widget"
+msgstr "Widget erstellen"
+
+msgid "Current status:"
+msgstr "Aktueller Status:"
+
+msgid "DND"
+msgstr "DND"
+
+msgid "Data Retention"
+msgstr "Vorratsdatenspeicherung"
+
+msgid "Data sync cutoff time"
+msgstr ""
+
+#, php-format
+msgid "Date and Time in <strong>%s</strong>"
+msgstr "Datum und Uhrzeit in <strong>%s</strong>"
+
+msgid "Delete Selected"
+msgstr "Ausgewählte löschen"
+
+msgid "Descriptive Name for this Connection"
+msgstr "Beschreibender Name für diese Verbindung"
+
+msgid "Descriptive Name for this widget"
+msgstr "Beschreibender Name für dieses Widget"
+
+msgid "Displays a brief summary of Caller Outcome in the Queue"
+msgstr ""
+"Zeigt eine kurze Zusammenfassung des Anruferergebnisses in der Warteschlange "
+"an"
+
+msgid "Displays a brief summary on a single Queue"
+msgstr "Zeigt eine kurze Zusammenfassung einer einzelnen Warteschlange an"
+
+msgid "Displays a summary of the last 24 hours of a single queue."
+msgstr ""
+"Zeigt eine Zusammenfassung der letzten 24 Stunden einer einzelnen "
+"Warteschlange an."
+
+msgid "Displays a summary of the last week of a single queue."
+msgstr ""
+"Zeigt eine Zusammenfassung der letzten Woche einer einzelnen Warteschlange "
+"an."
+
+msgid "Displays the Hold time on a single Queue"
+msgstr "Zeigt die Haltezeit in einer einzelnen Warteschlange an"
+
+msgid "Displays the Top 5 longest wait time of a single queue."
+msgstr ""
+"Zeigt die Top 5 der längsten Wartezeit einer einzelnen Warteschlange an."
+
+msgid "Displays the abandonned calls on a single Queue"
+msgstr "Zeigt die abgebrochenen Anrufe in einer einzelnen Warteschlange an"
+
+msgid ""
+"Displays the average wait time over a determinated period of time of a "
+"single queue."
+msgstr ""
+"Zeigt die durchschnittliche Wartezeit über einen bestimmten Zeitraum einer "
+"einzelnen Warteschlange an."
+
+msgid "Displays the current active calls on a single Queue"
+msgstr "Zeigt die aktuell aktiven Anrufe in einer einzelnen Warteschlange an"
+
+msgid "Displays the received calls on a single Queue"
+msgstr "Zeigt die empfangenen Anrufe in einer einzelnen Warteschlange an"
+
+msgid ""
+"Displays whatever the user wants as long as the content is HTML or plain "
+"text."
+msgstr ""
+"Zeigt an, was der Benutzer möchte, solange der Inhalt HTML oder einfacher "
+"Text ist."
+
+msgid "Edit Widget"
+msgstr "Widget bearbeiten"
+
+msgid "Enable Queue Wallboard Access"
+msgstr "Aktiviere den Queue Wallboard-Zugriff"
+
+msgid "Enable the Queue Wallboard Access in UCP for this user"
+msgstr "Aktivieren Sie den Queue Wallboard-Zugriff in UCP für diesen Benutzer"
+
+msgid "Force resyncronization"
+msgstr "Resynchronisation erzwingen"
+
+msgid "Generic HTML/Text Section"
+msgstr "Generischer HTML/Text-Bereich"
+
+#, php-format
+msgid "HOLD TIME for Queue %s since last reset / Notification above: %s"
+msgstr ""
+"HALTEZEIT für Warteschlange %s seit dem letzten Zurücksetzen / "
+"Benachrichtigung oben: %s"
+
+msgid "HTML or Text to insert"
+msgstr "HTML oder Text zum Einfügen"
+
+msgid "Hold Time in (Queue)"
+msgstr "Wartezeit in (Warteschlange)"
+
+#, php-format
+msgid "Hold time is %s for Queue %s"
+msgstr "Die Haltezeit für Warteschlange %s beträgt %s"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Host i.e: 192.168.0.1 or pbx.mydomain.com"
+msgstr "Host, d. H. 192.168.0.1 oder pbx.mydomain.com"
+
+msgid "Idle"
+msgstr "Leerlauf"
+
+msgid "In Non-Queue Call"
+msgstr "In Nichtschlangenanruf"
+
+#, php-format
+msgid "In Queue (%s)"
+msgstr "In der Warteschlange (%s)"
+
+msgid "In Queue Call"
+msgstr "In Warteschlangenanruf"
+
+msgid "Incoming"
+msgstr "Eingehend"
+
+msgid "Inherit"
+msgstr "Übernehmen"
+
+#, php-format
+msgid "Last 24 hours of Call Info for Queue %s"
+msgstr "Letzte 24 Stunden Anrufinformationen für Warteschlange %s"
+
+msgid "Last 24hrs of a Queue"
+msgstr "Die letzten 24 Stunden einer Warteschlange"
+
+#, php-format
+msgid "Last Call: %s"
+msgstr "Letzter Anruf: %s"
+
+msgid "Last Call: __LASTCALLNICE__"
+msgstr "Letzter Anruf: __LASTCALLNICE__"
+
+#, php-format
+msgid "Last Week Call Info for Queue %s"
+msgstr "Anrufinformationen der letzten Woche für Warteschlange %s"
+
+msgid "Last Week of a Queue"
+msgstr "Letzte Woche einer Warteschlange"
+
+msgid "List servers"
+msgstr "Liste Server auf"
+
+msgid "Loading"
+msgstr "Wird geladen"
+
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+msgid "Local"
+msgstr "Lokal"
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged in UCP User (If a member of queue)"
+msgstr "Angemeldeter UCP-Benutzer (wenn ein Mitglied der Warteschlange)"
+
+#, php-format
+msgid "Member of %s Queue(s)"
+msgstr "Mitglied von %s Warteschlange(n)"
+
+msgid "Member of __QUEUECOUNT__ Queue(s)"
+msgstr "Mitglied der __QUEUECOUNT__ Warteschlange(n)"
+
+msgid ""
+"Monitors the SLA of a single Queue. By default this will alert when the SLA "
+"falls below 95%."
+msgstr ""
+"Überwacht die SLA einer einzelnen Warteschlange. Standardmäßig wird eine "
+"Warnung ausgegeben, wenn die SLA unter 95% fällt."
+
+msgid "Multiple Agent Summary"
+msgstr "Zusammenfassung mehrerer Agenten"
+
+msgid "MySQL Database"
+msgstr "MySQL-Datenbank"
+
+msgid "MySQL Password"
+msgstr "MySQL-Passwort"
+
+msgid "MySQL User"
+msgstr "MySQL-Benutzer"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Never"
+msgstr "Nie"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "No Agents"
+msgstr "Keine Agenten"
+
+msgid "No Calls"
+msgstr "Keine Anrufe"
+
+msgid "No Calls Abandoned"
+msgstr "Keine Anrufe abgebrochen"
+
+msgid "No Longest Wait Times on Record"
+msgstr "Keine längeren Wartezeiten aufgezeichnet"
+
+#, perl-format
+msgid "On %s at %s caller '%s' waited for %s"
+msgstr "Bei %s um %s hat der Anrufer '%s' auf %s gewartet"
+
+msgid "One Day"
+msgstr "Ein Tag"
+
+msgid "One Hour"
+msgstr "Eine Stunde"
+
+msgid "Optional text"
+msgstr "Optionaler Text"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "Paused"
+msgstr "Pausiert"
+
+msgid "Please, first create a queue and return to this module."
+msgstr ""
+"Bitte erstellen Sie zuerst eine Warteschlange und kehren Sie zu diesem Modul "
+"zurück."
+
+msgid "Please, first create them and then return tu this module."
+msgstr ""
+"Bitte erstellen Sie sie zuerst und kehren Sie dann zu diesem Modul zurück."
+
+msgid "Please, select another queue with assignated agents."
+msgstr "Bitte wählen Sie eine andere Warteschlange mit zugewiesenen Agenten."
+
+msgid "Please, write a valid number without any special characters or letters"
+msgstr ""
+"Bitte schreiben Sie eine gültige Nummer ohne Sonderzeichen oder Buchstaben"
+
+msgid "Queue"
+msgstr "Warteschlange"
+
+#, php-format
+msgid "Queue %s"
+msgstr "Warteschlange %s"
+
+#, php-format
+msgid "Queue %s (No Hold time Alerting)"
+msgstr "Warteschlange %s (Keine Wartezeitwarnung)"
+
+#, php-format
+msgid "Queue %s (No SLA Alerting)"
+msgstr "Warteschlange %s (keine SLA-Warnung)"
+
+#, php-format
+msgid "Queue %s has received %s calls %s."
+msgstr "Die Warteschlange %s hat %s Anrufe %s erhalten."
+
+#, php-format
+msgid "Queue %s has received No Calls %s"
+msgstr "Warteschlange %s hat keine Anrufe %s erhalten"
+
+#, php-format
+msgid "Queue %s, %s"
+msgstr "Warteschlange %s, %s"
+
+msgid "Queue Statistics"
+msgstr "Warteschlangenstatistik"
+
+msgid "Queue Summary (Queue)"
+msgstr "Warteschlangenübersicht (Warteschlange)"
+
+#, php-format
+msgid "Queue Summary for Queue %s"
+msgstr "Warteschlangenübersicht für Warteschlange %s"
+
+msgid "Queue Wallboard"
+msgstr "Warteschlangenwallboard"
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the CDR database"
+msgstr ""
+"Warteschlangenwallboard ist auf dem Remotecomputer nicht ordnungsgemäß "
+"eingerichtet und kann nicht hinzugefügt werden, da keine Kommunikation mit "
+"der CDR-Datenbank möglich ist"
+
+msgid ""
+"Queue Wallboard is not properly setup on the remote machine, can not add as "
+"we are unable to talk to the database"
+msgstr ""
+"Warteschlangenwallboard ist auf dem Remotecomputer nicht ordnungsgemäß "
+"eingerichtet und kann nicht hinzugefügt werden, da wir nicht mit der "
+"Datenbank kommunizieren können"
+
+msgid "Received Calls (Queue)"
+msgstr "Empfangene Anrufe (Warteschlange)"
+
+#, php-format
+msgid "Received Calls for Queue %s"
+msgstr "Empfangene Anrufe für Warteschlange %s"
+
+msgid "Remote"
+msgstr "Remote"
+
+msgid "Remote Servers"
+msgstr "Remote-Server"
+
+msgid "Remove Data older than retention days"
+msgstr ""
+
+msgid "Reports"
+msgstr "Berichte"
+
+msgid "Restoing Legacy backup from Queuestats"
+msgstr ""
+
+msgid "Restoing Only Widgets and Servers from Queuestats kvstore"
+msgstr ""
+
+msgid "Ringing"
+msgstr "Klingelt"
+
+#, php-format
+msgid "Ringing (%s)"
+msgstr "Klingelt (%s)"
+
+msgid "Save"
+msgstr "Sichern"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Service Level Agreements"
+msgstr "Service Level Agreements"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Six Hours"
+msgstr "Sechs Stunden"
+
+msgid "Syncronize a single server by id (obtained from --list)"
+msgstr ""
+"Synchronisieren Sie einen einzelnen Server anhand der ID (erhalten von --"
+"list)"
+
+msgid "Syncronize all servers"
+msgstr "Synchronisieren Sie alle Server"
+
+msgid "The Hold time in the queue __QUEUE__ is about __HOLDTIMENICE__."
+msgstr ""
+"Die Haltezeit in der Warteschlange __QUEUE__ beträgt ungefähr "
+"__HOLDTIMENICE__."
+
+msgid ""
+"The Queue Wallboard module allows you to easily view real-time information "
+"related to queues in the UCP module of FreePBX or PBXact."
+msgstr ""
+
+msgid "The top 5 longest wait time in the queue __QUEUE__ __RANGE__"
+msgstr "Die 5 längsten Wartezeiten in der Warteschlange __QUEUE__ __RANGE__"
+
+msgid "There are no agents configured"
+msgstr "Es sind keine Agenten konfiguriert"
+
+msgid "There are no agents in this queue"
+msgstr "In dieser Warteschlange befinden sich keine Agenten"
+
+msgid "There are no queues and agents configured."
+msgstr "Es sind keine Warteschlangen und Agenten konfiguriert."
+
+msgid "There are no queues configured"
+msgstr "Es sind keine Warteschlangen konfiguriert"
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+"Dies sind die zugewiesenen und aktiven Erweiterungen, die diesem Benutzer "
+"zur Steuerung und Bearbeitung in UCP angezeigt werden"
+
+msgid "This widget displays live information about a single agent."
+msgstr "Dieses Widget zeigt Live-Informationen zu einem einzelnen Agenten an."
+
+msgid "This widget displays the current state of an agent in a specific queue."
+msgstr ""
+"Dieses Widget zeigt den aktuellen Status eines Agenten in einer bestimmten "
+"Warteschlange an."
+
+msgid "This will be help text."
+msgstr "Dies wird Hilfetext sein."
+
+msgid "Time Range"
+msgstr "Zeitspanne"
+
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#, php-format
+msgid "Timezone '%s'"
+msgstr "Zeitzone '%s'"
+
+msgid "Top Longest Wait Time"
+msgstr "Top Längste Wartezeit"
+
+msgid "Twelve Hours"
+msgstr "Zwölf Stunden"
+
+msgid "Type"
+msgstr "Art"
+
+msgid "UCP Widgets"
+msgstr "UCP-Widgets"
+
+msgid "Unable to connect to the remote asterisk manager"
+msgstr ""
+"Es kann keine Verbindung zum Remote-Asterisk-Manager hergestellt werden"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Unset"
+msgstr "Nicht eingestellt"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "User Primary Extension"
+msgstr "Primäre Benutzernebenstelle"
+
+msgid "Waiting"
+msgstr "Warten"
+
+msgid "Warning"
+msgstr ""
+
+msgid "Widget Type"
+msgstr "Widget-Typ"
+
+#, php-format
+msgid "With Agent (%s)"
+msgstr "Mit Agent (%s)"
+
+msgid "Wrapping Up"
+msgstr "Abschließen"
+
+msgid "Yes"
+msgstr "Ja"
+
+#, php-format
+msgid ""
+"You have not enabled the 'Log Queues' in %s Asterisk Log File Settings. %s "
+"This will affect Queue wallboard data display"
+msgstr ""
+
+msgid ""
+"You have not enabled the 'Log Queues' in Asterisk Log File Settings. This "
+"will affect Queue wallboard data display"
+msgstr ""
+
+msgid "__SLAPERCENT__ of calls have been answered within __SECONDSNICE__"
+msgstr ""
+"__SLAPERCENT__ von Anrufen wurde innerhalb von __SECONDSNICE__ beantwortet"
+
+msgid "minute(s)."
+msgstr "Minute(n)."
+
+msgid "over the last day(24 hours)"
+msgstr "am letzten Tag (24 Stunden)"
+
+msgid "over the last hour"
+msgstr "in der letzten Stunde"
+
+msgid "over the last month"
+msgstr "im letzten Monat"
+
+msgid "over the last six hours"
+msgstr "in den letzten sechs Stunden"
+
+msgid "over the last twelve hours"
+msgstr "in den letzten zwölf Stunden"
+
+msgid "over the last week"
+msgstr "in der letzten Woche"
+
+msgid "since the begining of time"
+msgstr "seit Anbeginn der Zeit"
+
+#~ msgid "Queue Wallboard Description"
+#~ msgstr "Warteschlangenwallboardbeschreibung"

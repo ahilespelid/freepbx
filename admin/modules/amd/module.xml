@@ -1,0 +1,22 @@
+<module>
+	<rawname>amd</rawname>
+	<repo>standard</repo>
+	<name>AMD</name>
+	<version>15.0.3</version>
+	<publisher>Sangoma Technologies Inc.</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Applications</category>
+	<description>This module is used to manage AMD. The AMD application attempts to detect answering machines at the beginning of outbound calls</description>
+	<menuitems>
+		<amd>AMD Settings</amd>
+	</menuitems>
+	<changelog>
+		*15.0.3* Packaging of ver 15.0.3
+		*15.0.2* FREEPBX-19776
+		*15.0.1* Add backup and restore
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

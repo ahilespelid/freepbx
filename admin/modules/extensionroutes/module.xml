@@ -1,0 +1,45 @@
+<module>
+	<rawname>extensionroutes</rawname>
+	<repo>commercial</repo>
+	<name>Extension Routes</name>
+	<version>15.0.8</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>free</type>
+		<link>//www.freepbx.org/add-ons/#extension-routing</link>
+	</commercial>
+	<category>Connectivity</category>
+	<description>COMMERCIAL MODULE, REQUIRES A LICENSE.
+				Allows the explicit exclusion/inclusion of extensions for each route, including calls forwarded or followme-ed from the extension</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Extension+Routing</more-info>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>core ge 13.0.21</module>
+		<module>sysadmin ge 13.0.69</module>
+		<module>framework ge 12.0.1alpha26</module>
+	</depends>
+	<changelog>
+		*15.0.8* FREEI-750-extensionroutes-multi-drag-drop 
+		*15.0.7* FREEI-750-extensionroutes-multi-drag-drop 
+		*15.0.6* Packaging of ver 15.0.6
+		*15.0.5* bump 
+		*15.0.4* fixing legacy restore 
+		*15.0.3* backup and restore 
+		*15.0.2* backup and restore 
+		*15.0.1* Implement Backup and Restore
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<database>
+	<table name="extensionroutes">
+		<field name="exten" type="string" length="20" default="" primarykey="true"/>
+		<field name="route_id" type="integer" default="0" primarykey="true"/>
+	</table>
+</database>
+	<location/>
+	<md5sum/>
+</module>

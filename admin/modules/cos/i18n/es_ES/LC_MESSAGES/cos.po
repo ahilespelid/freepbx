@@ -1,0 +1,281 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cos
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 10:23+0000\n"
+"PO-Revision-Date: 2017-11-17 21:34+0200\n"
+"Last-Translator: Eduardo <eabad@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/cos/es_ES/"
+">\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+#, php-format
+msgid "%s is not a member of any CoS"
+msgstr "%s no es miembro de ningún CoS"
+
+msgid ""
+"(This may be changed in <a href='config.php?"
+"display=advancedsettings'>Advanced Settings)"
+msgstr ""
+
+msgid "<h2>Add new Class of Service</h2>"
+msgstr ""
+
+msgid "<h2>Edit Class of Service</h2>"
+msgstr ""
+
+msgid ""
+"<h3>Core Module Disabled</h3>\n"
+"<p>Please re-enable core through module admin</p>\n"
+msgstr ""
+
+msgid "ALLOW overrides DENY"
+msgstr "ALLOW sobreescribe a DENY"
+
+msgid ""
+"ALLOW overrides DENY (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is ALLOW)"
+msgstr ""
+"ALLOW sobreescribe a DENY (Si una extensión es asignada para contradecir los "
+"CoS's, el permiso calculado es ALLOW)"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Add new CoS"
+msgstr ""
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Allow"
+msgstr "Permitir"
+
+msgid "Assigned"
+msgstr "Asignado"
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\tClass of Service allows you to "
+"limit access, per extension, to feature codes, trunks, queues, ring groups, "
+"etc."
+msgstr ""
+"MÓDULO COMERCIAL, REQUIERE UNA LICENCIA. Class of Service permite limitar el "
+"acceso, por extensión, a códigos de funciones, troncales, colas, grupos de "
+"ring, etc."
+
+#, php-format
+msgid "COS '%s' granted access to '%s'"
+msgstr "COS '%s' acceso autorizado para '%s'"
+
+msgid "COS Name"
+msgstr ""
+
+msgid "COS Name is required."
+msgstr ""
+
+#, php-format
+msgid "CallerID not Parseable - received %s - exiting with DENY"
+msgstr "CallerID no analizable - recibido %s - saliendo con DENY"
+
+msgid "Class of Service"
+msgstr "Clase de Servicio"
+
+msgid "Conferences"
+msgstr "Conferencias"
+
+msgid ""
+"DENY overrides ALLOW (If an extension is assigned to conflicting CoS's, the "
+"calculated permission is DENY)"
+msgstr ""
+"DENY sobreescribe a ALLOW (Si una extensión es asignada para contradecir "
+"CoS's, el permiso calculado es DENY)"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Deny"
+msgstr "Rechazar"
+
+msgid "Detected EXTERNAL Call. Skipping CoS Checks"
+msgstr "Llamada EXTERNAL detectada. Saltando revisión CoS"
+
+msgid "Exclude"
+msgstr "Excluir"
+
+msgid "Extensions that are not assigned to a Class of Service have full access"
+msgstr ""
+"Las extensiones que no estan asignadas a una Class of Service tienen acceso "
+"completo"
+
+msgid "Feature Codes"
+msgstr "Códigos de funciones"
+
+msgid ""
+"For further information, please <a href='//wiki.freepbx.org/display/FCM/Class"
+"+of+Service' target='_new'>visit the wiki</a>"
+msgstr ""
+
+msgid ""
+"If an extension is assigned to conflicting Class of Service groups, should "
+"ALLOW override DENY. Setting this to FALSE means that if any Class of "
+"Service DENIES the permission, the permission is DENIED. Setting this to "
+"TRUE means that if any Class of Service ALLOWS the permission, the "
+"permission is ALLOWED."
+msgstr ""
+"Si una extensión es asignada para contradecir grupos de Class of Service, "
+"debería ALLOW sobreescribir DENY. Configurar esto a FALSE significa que si "
+"alguna Class of Service rechaza el permiso, el permiso es DENIED. Configurar "
+"esto a TRUE significa que si alguna Class of Service permite el permiso, el "
+"permiso es ALLOWED."
+
+msgid "Include"
+msgstr "Incluir"
+
+msgid "List CoS"
+msgstr ""
+
+msgid "Members"
+msgstr "Miembros"
+
+msgid "Move selected items to the left"
+msgstr ""
+
+msgid "Move selected items to the right"
+msgstr ""
+
+msgid "Not Assigned"
+msgstr "No Asignado"
+
+msgid "Outbound Routes integrates with the free Extension Routes Module."
+msgstr ""
+
+msgid "Paging"
+msgstr "Anunciar"
+
+msgid "Please provide a friendly name for this COS entry"
+msgstr ""
+
+msgid "Queues"
+msgstr "Colas"
+
+msgid "Reset"
+msgstr "Reinicializar"
+
+msgid "Ring Groups"
+msgstr "Grupos de ring"
+
+msgid "Routes"
+msgstr "Rutas"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Swap items"
+msgstr ""
+
+msgid "The Extension Route module is not loaded"
+msgstr ""
+
+msgid "The module has expired."
+msgstr ""
+
+msgid "The module is not installed"
+msgstr ""
+
+msgid "The module is not registered"
+msgstr ""
+
+msgid "The module is out of date"
+msgstr ""
+
+msgid "This may be because of any of the following reasons:"
+msgstr ""
+
+msgid "VoiceMail Blasts"
+msgstr "VoiceMail Blasts"
+
+#~ msgid "Contact Groups"
+#~ msgstr "Grupo de Contactos"
+
+#~ msgid "Add new COS"
+#~ msgstr "Adicionar nuevo COS"
+
+#~ msgid "  <li> The module has expired.</li>\n"
+#~ msgstr "  <li> El módulo ha expirado.</li>↵\n"
+
+#~ msgid "  <li> The module is not installed</li>\n"
+#~ msgstr "  <li> El módulo no está instalado</li>↵\n"
+
+#~ msgid "  <li> The module is not registered</li>\n"
+#~ msgstr "  <li> El módulo no está registrado</li>↵\n"
+
+#~ msgid "  <li> The module is out of date</li>\n"
+#~ msgstr "  <li> El módulo ha caducado</li>↵\n"
+
+#~ msgid "</ul></p></div>\n"
+#~ msgstr "</ul></p></div>↵\n"
+
+#~ msgid "<p>This may be because of any of the following reasons:<ul>\n"
+#~ msgstr "<p>Esto es posible por alguna de la siguientes razones:<ul>↵\n"
+
+#~ msgid ""
+#~ "<p>Outbound Routes integrates with the free Extension Routes Module.</"
+#~ "p><p>The Extension Route module is not loaded</p>"
+#~ msgstr ""
+#~ "<p>Las rutas de salida se integran con el Módulo de Rutas de Extensiones "
+#~ "gratuito.</p><p>El Módulo de Rutas de Extnesiones no ha sido cargado</p>"
+
+#~ msgid "Add new Class of Service"
+#~ msgstr "Adicionar nueva Class of Service"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Configuraciones avanzadas"
+
+#~ msgid "CoS Name: "
+#~ msgstr "Nombre CoS: "
+
+#~ msgid "Core Module Disabled"
+#~ msgstr "Módulo Core deshabilitado"
+
+#~ msgid "Create"
+#~ msgstr "Crear"
+
+#~ msgid "Edit Class of Service"
+#~ msgstr "Editar Class of Service"
+
+#~ msgid "For further information, please"
+#~ msgstr "Para más información, por favor"
+
+#~ msgid "Please re-enable core through module admin"
+#~ msgstr "Por favor rehabilite core a través del módulo de administración"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "This may be changed in"
+#~ msgstr "Esto puede cambiar en"
+
+#~ msgid "visit the wiki"
+#~ msgstr "visite la wiki"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE, REQUIRES A LICENSE.\n"
+#~ "\t\tClass of Service allows you to limit access, per extension, to "
+#~ "feature codes, trunks, queues, ring groups, etc."
+#~ msgstr ""
+#~ "MÓDULO COMERCIAL, REQUIERE UNA LICENCIA.↵\n"
+#~ "      →          →     Clases de Servicio le permite limitar el acceso, "
+#~ "por extensión, a códigos característicos, troncales, colas, grupos de "
+#~ "ringueo, etc."

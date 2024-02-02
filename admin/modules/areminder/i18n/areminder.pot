@@ -1,0 +1,634 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for areminder
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-11 03:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%s Finished / %s Total Calls"
+msgstr ""
+
+#, php-format
+msgid "%u hours"
+msgstr ""
+
+#, php-format
+msgid "%u minutes"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add Reminder"
+msgstr ""
+
+msgid "Allow Appointment Reminders"
+msgstr ""
+
+msgid "Amount of time to wait after the first attempt before retrying."
+msgstr ""
+
+msgid "Append to existing List"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "Appointment Campaign"
+msgstr ""
+
+msgid "Appointment Date"
+msgstr ""
+
+msgid "Appointment Reminder"
+msgstr ""
+
+#, php-format
+msgid "Appointment Reminder %s"
+msgstr ""
+
+msgid "Appointment Reminders"
+msgstr ""
+
+msgid "Attach As"
+msgstr ""
+
+msgid "Automatic Updates"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "CALLEDBACK"
+msgstr ""
+
+msgid "CANCEL"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Appointment "
+"Reminder module for FreePBX is a unique way to automate\tappointment "
+"confirmations, cancellations and reschedules. By simply specifying numbers "
+"and names to be called your PBX will automatically call at specified times "
+"and allow\trecipients to confirm / cancel / reschedule appointments. The "
+"module gives you the flexibility to control all details of the calls from "
+"rate limiting to retry attempts and days\tahead to notify of an appointment. "
+"You have the ability to simply load a CSV list of numbers to call, or even "
+"add numbers and names manually. On the fly modifications can be\tmade to any "
+"Appointment Reminder list to allow for total flexibility."
+msgstr ""
+
+msgid "CONFIRM"
+msgstr ""
+
+msgid "CSV"
+msgstr ""
+
+msgid "Call Date"
+msgstr ""
+
+msgid "Call Status"
+msgstr ""
+
+msgid "Called Date"
+msgstr ""
+
+msgid "Caller ID Name"
+msgstr ""
+
+msgid "Campaigns this user can manage"
+msgstr ""
+
+msgid ""
+"Choose the CSV file to upload.  This should be a basic CSV with the "
+"following columns:  Name, Phone Number, Date (YYYY-MM-DD HH:MM:SS)"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Critical Error: Text To Speech Engines is not installed"
+msgstr ""
+
+msgid "Customer Service Destination"
+msgstr ""
+
+msgid "Daily End Time"
+msgstr ""
+
+msgid "Daily Report Completion Email(s)"
+msgstr ""
+
+msgid "Daily Start Schedule"
+msgstr ""
+
+msgid "Daily Start Time"
+msgstr ""
+
+msgid "Daily end schedule"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date Announcement"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete After Importing"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Download CSV"
+msgstr ""
+
+msgid "Download Link"
+msgstr ""
+
+msgid "Download Now"
+msgstr ""
+
+msgid "Download Results:"
+msgstr ""
+
+msgid "EXPIRED"
+msgstr ""
+
+msgid "Edit Reminder"
+msgstr ""
+
+#, php-format
+msgid "Edit Reminder %s"
+msgstr ""
+
+msgid "Edit reminder"
+msgstr ""
+
+msgid "Email From"
+msgstr ""
+
+msgid "Enable Appointment Reminder"
+msgstr ""
+
+msgid "Enable the Appointment Reminder access in UCP for this user"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Enter a name"
+msgstr ""
+
+msgid ""
+"Enter the URI to download the report from, such as:<br>ftp://username:"
+"password@192.168.1.1/directoryname/reminder.csv<br/>&nbsp; or<br />http://"
+"myserver.remote.com/downloadfile/file.csv<br />Currently, only http(s) and "
+"ftp are supported."
+msgstr ""
+
+msgid "Enter the outbound Caller ID you wish to use."
+msgstr ""
+
+msgid ""
+"Every period, the server will attempt to download the file. Minimum of 300 "
+"seconds (5 Mins)"
+msgstr ""
+
+msgid ""
+"FTP ONLY! After successfully importing the csv file, the source will be "
+"deleted."
+msgstr ""
+
+msgid "Filter By"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Fixed Caller ID"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Generate"
+msgstr ""
+
+msgid "Generate Report"
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "How should the data from this CSV be handled"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Initial Greeting"
+msgstr ""
+
+msgid "Instructions"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "List Reminders"
+msgstr ""
+
+msgid "List Updates"
+msgstr ""
+
+msgid "Log for Callback"
+msgstr ""
+
+msgid "Manage Recipients"
+msgstr ""
+
+msgid "Manage recipients"
+msgstr ""
+
+#, php-format
+msgid "Manage recipients for %s"
+msgstr ""
+
+msgid "Manage this appointment reminder campaign"
+msgstr ""
+
+msgid "Max Advance Notice"
+msgstr ""
+
+msgid "Maximum Calls"
+msgstr ""
+
+msgid "Maximum Simultanious Calls"
+msgstr ""
+
+msgid ""
+"Maximum number of days notice to give the recipient.  You can add "
+"appointments further into the future, however, no calls will be placed until "
+"the appointment date is within this number of days."
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "Module Admin"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "NOANSWER"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New Reminder"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Data"
+msgstr ""
+
+msgid "No id received"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not Running"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Nothing received"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid ""
+"Number of times to retry the call if no response is received on the first "
+"call."
+msgstr ""
+
+msgid "OPERATOR"
+msgstr ""
+
+msgid "Optionally, provide a Caller ID name to appear to internal extensions."
+msgstr ""
+
+msgid "Outbound CID Mode"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "PENDING"
+msgstr ""
+
+msgid "Phone Number"
+msgstr ""
+
+#, php-format
+msgid ""
+"Please install the Text to Speech Modules from %s before using Appointment "
+"Reminders."
+msgstr ""
+
+#, php-format
+msgid "Please read %s for information on the CSV file format"
+msgstr ""
+
+msgid "Provide a friendly name for the reminder."
+msgstr ""
+
+msgid ""
+"Provide one or more email addresses, separated by a comma, to send daily "
+"reports to upon completion of calling for the day."
+msgstr ""
+
+msgid "Provide the email address that the completion emails will be sent from."
+msgstr ""
+
+msgid "Purge List"
+msgstr ""
+
+msgid "RESCHEDULE"
+msgstr ""
+
+msgid "Recipient List"
+msgstr ""
+
+msgid "Reminder"
+msgstr ""
+
+msgid "Reminder Reports"
+msgstr ""
+
+msgid "Replace existing list"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Reschedule Behavior"
+msgstr ""
+
+msgid "Rescheduling Destination"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Retry Count"
+msgstr ""
+
+msgid "Retry Delay"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "SEENOTES"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Say Appointment Date"
+msgstr ""
+
+msgid "Say Name"
+msgstr ""
+
+msgid "Say the date of the appointment to the caller"
+msgstr ""
+
+msgid "SayUnixTime Announce Format"
+msgstr ""
+
+msgid ""
+"SayUnixTime(unixtime,timezone,format) <br/> format is a string specifying in "
+"what way to say the date/time. It uses a format based on the strftime(3) "
+"unix system call, if you’re familiar with that. If omitted, the default "
+"value is:<br>ABdY \\’digits/at\\’ IMp"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Select CSV"
+msgstr ""
+
+msgid "Select a date"
+msgstr ""
+
+msgid "Select a reminder to use for this report."
+msgstr ""
+
+msgid "Select a reminder:"
+msgstr ""
+
+msgid ""
+"Select the destination the recipient will be sent to if they choose Customer "
+"Service."
+msgstr ""
+
+msgid ""
+"Select the first day of the range you would like included in this report."
+msgstr ""
+
+msgid "Select the parameter you would like the resulting data sorted by."
+msgstr ""
+
+msgid "Select the way you would like the Caller ID to be handled."
+msgstr ""
+
+msgid ""
+"Select whether you would like the callers name to be said.  If selected it "
+"will use Text To Speech to read the name of the person associated with the "
+"reminder."
+msgstr ""
+
+msgid ""
+"Select whether you would like to filter by the Appointment date or the Call "
+"date."
+msgstr ""
+
+msgid ""
+"Select which Text to Speech Engine you wish to use to say the recipients "
+"name."
+msgstr ""
+
+msgid "Should this reminder be enabled?"
+msgstr ""
+
+msgid "Silence Length"
+msgstr ""
+
+msgid "Silence Timeout"
+msgstr ""
+
+msgid "Single Update"
+msgstr ""
+
+msgid "Sort By"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+#, php-format
+msgid "Success! %u line(s) imported"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "System Time"
+msgstr ""
+
+msgid "TTS Engine"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid ""
+"The amount of silence to wait for before playing audio to the caller in "
+"miliseconds.<br/> 1000ms = 1 second"
+msgstr ""
+
+msgid ""
+"The max amount of time to wait for silence before playing the message.<br/"
+">This should only be adjusted if you are havinf issues with cutoff messages."
+msgstr ""
+
+msgid ""
+"This is the first message played to the recipient. You can record a custom "
+"greeting or use the default. Be sure to include a message similar to the "
+"following: \"This is an Appointment Reminder\""
+msgstr ""
+
+msgid ""
+"This recording should include information similar to the following: \"You "
+"have an appointment scheduled on...\" "
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Transfer"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Update Period"
+msgstr ""
+
+msgid "Use Command Column"
+msgstr ""
+
+msgid "VOICEMAIL"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "What format to attach the report in."
+msgstr ""
+
+msgid "Where to send the caller if they choose to reschedule."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You can choose alternate instructions for the caller if you choose, however "
+"you must be sure to provide the following options to the recipient: \"To "
+"confirm this appointment press ONE, to cancel press TWO, to request your "
+"appointment be rescheduled to a new date press THREE or press ZERO for "
+"customer service\" "
+msgstr ""
+
+msgid ""
+"You can either have the caller transferred to a destination for "
+"rescheduling, such as a ring group or voicemail box, or you can simply log "
+"the call and provide the customer with a call-back to confirm a new date."
+msgstr ""
+
+msgid "You can enter a single recipient here to be added to the list."
+msgstr ""
+
+msgid "eg:"
+msgstr ""
+
+msgid "the Wiki page"
+msgstr ""

@@ -1,0 +1,122 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=B53D215A755231A3
+signedby='FreePBX Mirror Servers <security@freepbx.org>'
+repo=commercial
+timestamp=1683192574.326
+[hashes]
+AgentEvents.php = 3962662318f77b4043f42e38439b4df2179a348426cb7937a5b34e50a3b36d67
+AgentStats.php = 6780709d6fbb892d77b741c055b9687f2dc475baf0621a3247a7358728c9f245
+Backup.php = 26909f7ac6e621e0fd54e26c3db55e8c4a05f3e5a69348b027c5b31e878063cb
+Console/Queuestats.class.php = 5a864649ff696d5e6184181f5db9f02c788931f9004ecb7fad80d9c1848859b2
+DBLayout.php = 0ba32de7c4669083c685141f9b48a000a9ac095e61545bea0b8d6e38d4ec90bd
+LICENSE = d012ce07f6ec81aeae4f3aa64794d8624511e10e21f3413ef5991174d68ce58a
+LiveQueueDetails.php = 8d0c78f519bb614d00e1c771a07917c49be67efb2747fd94d69fc2e7f853dbcf
+PerCallStats.php = 3a1c5a875f09bcfea21991318736afa8433fc872efcffc530a6d0070e8ced40c
+Processor.php = 2e27aa4b5ee527c49ce42f745908ed2388a9b58bab90f4cc1c4ec8c56b09b61a
+QueueEvents.php = 1cca1dc7010faa7a9f0b50eb018003f372cd9c36e865ec7399058f3b6b1785af
+Queuestats.class.php = 8679985ced49a0f6b970992bfc7857f7d453130daf15d1bf42c009af93f1fc16
+Restore.php = b5c32d96d5054cab3ffd2a6aff07ff0e8f90cfc4e565b16da14d4b5d7715f4b0
+ServerConnection.php = db390f795788683d5ba1e8cedd12c3e6ecc110e29ab241843610c2608722bea2
+SystemEvents.php = 9013367cad8f9cc4691d7ded0fabb6967fd227823f912509603686e84846301a
+Widgets/Abandoned.php = cf545d67de46aa48b3962613a87eae6b6a358f7fd91a0efc8becf5272d6c0a3e
+Widgets/Activecalls.php = 5594bd3b66cc28899ab02fb3e69941dc72de139afe2091dfedff0fb44689163f
+Widgets/Agentstate.php = 6cca7a81e60381fe2c3a56dcbab10d5b5c0f3794f84b4db21b716833b7ecf3f3
+Widgets/Agentsummary.php = d346f7942530a7803cd3281f12972cf3fd4838fb7f22563a431700eb43d3448c
+Widgets/Avgwaittime.php = 2f576e67d592cdfb520becd383b2f261e9e3c969fd0aeed0e528080e80162420
+Widgets/Calleroutcome.php = 7d84f874b59fa9026fb374cfbb4bc8fdbb5b88b62fa910b2536b964a290eec9a
+Widgets/Clock.php = b1364925d0982f3d9e0d10e87bc5f52c4b402f0d85e5423aa0182169beedb5b0
+Widgets/Dailyqueuestats.php = e4d84662a4fcb138eed58a775adf40c2d3cc6faaa10c7b511af0fc4697a34882
+Widgets/Genhtmltext.php = cd296bcba106fc95dc74929a19f594f92c72e9f2e672f3367765b7f08e78d7c0
+Widgets/Longwaittime.php = 72a9092244c74c5b20620f22824523de3a7febada917b892dc159f32154316aa
+Widgets/Multipleagentsummary.php = 0a3f27ede9759825e2cf2f61b6a70dfb3565fe78b1f6ea11aa17ee5383a7f9a3
+Widgets/Queuesummary.php = 0e50c173f469399eb2de6d091fea6da7f525a6c768369113d5c7c90c360042b4
+Widgets/Receivedcalls.php = c89d77aaa4e4fba1e2811e830e35f5c598a0f7327609694f5f9517a9be6942fa
+Widgets/Sla.php = 2d7a2f84b7167c9a4ea23472a107d3a881780b9490e62b78d845754802bd9bc1
+Widgets/Toplwt.php = 892f7029ac1dfcda4b2652e3b15298b08df82410464145647dfbe2867502f979
+Widgets/Weeklyqueuestats.php = 9c8f2ae84b9ffe21413ed19b3da14cd966fb6dd1c82eb4e01c2b862a4744e8e5
+Widgets/WidgetBase.php = 1d575362d8fad995b6e62a2010eb05a86f79f9bafc83abf71961126fe765c66b
+Widgets/WidgetInterface.php = bbe39cd53143383eafbc9dc3d5b4378bc4bccac0e706dfa17e567694a2c115ee
+Widgets/views/view.abandoned.php = 96068cf24d047dfae99e70d6b1a2482f4568ffca6b570f098a3450d515324565
+Widgets/views/view.activecalls.php = d18881eec775ccdaf18ebf4e1100c2e554696c881600a5a9e94a4efab82eca42
+Widgets/views/view.agentstate.php = 0ad24183a4ddf0a8b07b2678250c08c563f280e02586a5191b0cbe12139915bf
+Widgets/views/view.agentsummary.php = eb310441f74f37f6965d734aae51732ecc8990bece4175b1b864eb23ff05eaf6
+Widgets/views/view.avgwaittime.php = 68d6976837560359548c5e1da4f2bccbc26a17b741b877646636c3cc10affe1b
+Widgets/views/view.calleroutcome.php = 14aa2c3f9ff6abe6c384963e084bf04b0c7b2cd97bea5a5dc1b46ffa88e077c1
+Widgets/views/view.clock.php = 28c93023ecbb5893b24e4126c80e292b8a1c0f1bf9cf394969e80d745d4bc1f4
+Widgets/views/view.dailyqueuestats.php = ad76af14e38d86b40faa1d20d7c7c63b7f53c8639703ccd9f7a01277fd660754
+Widgets/views/view.genhtmltext.php = 5d82d1df168ff5f4d35298fccbab8cb58fb69815fabf3730fbd3931369ecafd3
+Widgets/views/view.longwaittime.php = f8ab4e0ec1af29b8720fae0b1bcfaed9b7acfcc3755a33737dd0d8d50deccd5b
+Widgets/views/view.multipleagentsummary.php = 5f658a7ed560f704baab0e0e6a9da784fd6074ae0bfc201970ca1e613737ca13
+Widgets/views/view.queuesummary.php = e2431d7078cc84cb51483e7ce3da04ea64c82966f997e0164b0ffa02772a717f
+Widgets/views/view.receivedcalls.php = 76d54fb925ff91f7c1216ac5e9e2e04d5bcf6c8bd3bd2355713019a2065d6c5b
+Widgets/views/view.sla.php = 5af1fa01896859017c64672aeea52ad71fa32abdbc4ff00f203e2f21355fe77c
+Widgets/views/view.toplwt.php = 95a5bf8016d5d7e73855528279f67b0daed87cb1ee36b5157591100a9578636a
+Widgets/views/view.weeklyqueuestats.php = 3d5d40185708eb0569cfb32f36c4c64ebf01778db8821999bfc152635d7eaf88
+Widgets.php = 944518267a99db5ea027b467c895300f98af32b5a44ff84b9a1222d82c2b52d8
+assets/js/canvasjs.min.js = bdced933fde66baa27745c8a2a62c5c4c214ed2e5180fc124604814b48c392de
+assets/js/queuestats.js = 122978a5cd8b487fa033e4bf99f185940d966e5b5b1d901936ef83e8dbce1ebc
+assets/less/queuestats.less = a8adde05c157c78ce1623f70d110067fac2051b3890095396f81bbf265877c37
+functions.inc.php = 0d4b56ddfb9eec3d76c9c62d1ed6f66bb5fee46d72ae227acd681a227741cada
+hooks/logrotate = 4406fee227cd1b3cd1e1b914b60e96c85042cad5c6c256882d4a6c01131d7631
+module.xml = 581c913aa425d6365a39bc16a4811e4c62ef94cc40e3e7930b7290ed46c3a68f
+page.queuestats.php = c94e579f54b7933433f1c5006e73d5b6bc59daafd64cbf883aa59e1f481ea8ca
+sample/importer.php = bf19b1d58a8fbd8275307c8527eedea5b214b2d8bce02e5dfcbb842dd1c39b3e
+sample/queue_log = 8113b7e4a3979ccf731d2db425ea33e75d391181ac997f5602dc2d373c7f79d8
+sample/queue_log-20160904 = a1ddfa85c5de853a26c57abb510a66676d8135e6521c379e26a0ddc5b261ee14
+sample/queue_log-20160905 = 25e83f3c510e41eb3ebf09b6412a693b9a7c16f349fc2b898de644979bf692b8
+sample/queue_log-20160906 = 19232ad64d0e668b619739fbf2e9c22d6665df2bf794875b89823615537b3e63
+sample/queue_log-20160907 = 087f1260d99ab95b7053c111b65e88949c68f7abb48c210d4522afc7640f4328
+sample/queue_log-20160908 = 5f8f458090fef0b0e6eacdd9402556271f95772360c77035a3d168e377eb0ae7
+ucp/Queuestats.class.php = 31c0e7003a137f8616bb11ee81e3c10b02d29ef174f43318ca0a159ae35baa85
+ucp/assets/images/alert.png = 4cfe42bde213cb3a0085f2880143748beac89b3b3fbff517ba74a8bd7de75b14
+ucp/assets/js/canvasjs.js = 38043d9f71416ac4eeb0414a11a4dbc0e6d1ed7b3a44ad091748be80c5e80088
+ucp/assets/js/global.js = 40bb88536f6aa702b5282a3591e50eb3a0b386a2dfb18bcb5cf206f8a6a75d52
+ucp/assets/js/progressbar.js = 86d61100765a9c0d254c66afb1bc8a4a011a43c4cc9da1c834cb96db5e2e9cc2
+ucp/assets/less/bootstrap.less = c604a0070bf1ef651520f0e9ef322c2ce9ab0a3f707c581f28175414b5bcd84c
+ucp/views/view.abandoned.php = eb9ac0aa61c72fc2bb6dbd1a13cd2c455b9ccaf52e5ff34dd0d760921d45f86b
+ucp/views/view.activecalls.php = cdc0669180c52b5f922685b9d2045d80476d46e2b729c6edf4f1ed26fff3c8ab
+ucp/views/view.agentdetails.php = 1d587e62c0a77ae6bcc880b12576ec9a768860a3983a00f0661097cdd703b9d4
+ucp/views/view.agentstate.php = b75f019a924b42b372e59e9c71cbc37fb4372f9133a6ada10f84d206faca7289
+ucp/views/view.agentstatesummary.php = 5e1e29a0f295cf3e58662f269d773258a842c6748d8e145466ddb581d162f632
+ucp/views/view.avgwait.php = f289b4c47ce31f430bfc0e43bb7ac15e823248f580c434ce70be8c0f66478bde
+ucp/views/view.clock.php = a3954e7b790420fd074106f9ca1e0aa714f464b767f624a6c4e6467ec79e2967
+ucp/views/view.dailycomparison.php = 6ecdd4377987971cd663124c1f7ae6785b9245e9ae551121200ae21dde57f76c
+ucp/views/view.longestwait.php = dd9ffc70175b0f98e60a4baaa3ef64cbae74220a6abd89464e8e5225d09ae9ec
+ucp/views/view.queuesummary.php = d22c8b2b1aa21d3636862596ff069a9f7a04c17788c16e9c64f640db9abf8f2b
+ucp/views/view.sla.php = 08bb146b5075a7fc06486c3258fb990349d4bdc322fa9f69a80e1e58c0809dd6
+ucp/views/view.weeklycomparison.php = dba82d15f0b4bf6b53dcc0e5b79d76a90b562984bfd5a131cc70c75908989c3f
+views/main.php = ce18d15c9a1d6da9f981e7fcbb5663753ad53934ebbe3e131379cda96ac0992b
+views/tab.servers.php = 76299a97b91270fefd98fc04d017e4bd9bdbc280dc03657fce1e7c492806cee4
+views/tab.widgets.php = 56ec8f5e7702ba0c529bc7027d61bc2df2f5b001e9ff6bcaaee0ce378127204e
+views/ucp_config.php = af9e260a29893a2c996ecc030363d9f81b42042aec9724bed6ab5dcbf3b1ce78
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQIcBAEBAgAGBQJkU3r+AAoJELU9IVp1UjGjAXMP/RsM98qSU6HKga408lJdsMxE
+QEnj55whuhEcQvWXkFyuTjm4e9wyiue4bWVn9O5HBtJaljhziCXUMl7kzX/gdp4V
+jKn4/nAgiQF4AygCGxZTPGMguz4/p1K9JdNJd6Mowl5jBATM0Z5NgJSbh2SRLy3u
+fLBylxerKkawqWQXOAOgNbWwd5P+DLN8KlBlUCVvNVixO/tiUXdLmVoSAX3wq6pZ
+d2KFXIar2d+NtmrgNA17GLlez1lVuqVmY5nIdi9ExYkYlgb1OuPbAvdh0KPtQOMw
+utQ5lDazCYnnuc56R1eSOXYIHh3/V+FNi8awe1JeqDKFfo49ULvsFZbzv5FEK0jT
+630ag+WhjEiE2e8DE+QqZnP5nnmW9vsCqTgSK3+cf3Dwnr0kEeokuiTxmNxXOgN3
+Pl3GXkd7eKX6ZDd3MCXXXj4uKnkPGu5KmQJD9W0SY8/DpUa+TTXmcGlI7yKSkOA6
+Nctpp/YK8BZN9fVb92n8OkIQXRKhhbaletFNLw8ZoCucsQP97SG43m9GvHgsuAGX
+Hbd+y83tb+xxT72peGg9A+5/BJbabRozXR5IL+22CWfTQgfnZ+sWnuY9ZVX2oFbs
+Dyn1pkee6makLuY3aLIaUmVl19croL9AI10NtJv9TW4fohKQSwZxAWzYdtlxNqMx
+eF6yEwmDaaTnK3f91SIM
+=3sag
+-----END PGP SIGNATURE-----

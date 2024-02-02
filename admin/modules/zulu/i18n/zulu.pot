@@ -1,0 +1,856 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for zulu
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-25 11:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " Restoring Data from SQL file"
+msgstr ""
+
+msgid " in a direct message"
+msgstr ""
+
+msgid " in room"
+msgstr ""
+
+msgid ""
+"A list of number delimiters. These delimiters are stripped from the number "
+"before dialing"
+msgstr ""
+
+msgid "ABC"
+msgstr ""
+
+msgid "ARI is not enabled"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Active Sessions"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address to bind to. Default is 0.0.0.0"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Allow User Override"
+msgstr ""
+
+msgid "Allow other users to see your call status"
+msgstr ""
+
+msgid ""
+"Allow user to override 'Show Call Status' and 'Allow Caller ID Display' "
+"settings through UCP or Zulu client"
+msgstr ""
+
+msgid "Are you sure you wish to close the selected rooms?"
+msgstr ""
+
+msgid "Are you sure you wish to delete the user's mobile tokens?"
+msgstr ""
+
+msgid "Are you sure you wish to disconnect this session from Zulu?"
+msgstr ""
+
+msgid "Are you sure you wish to remove these users from Zulu?"
+msgstr ""
+
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+msgid "Browser Extension Settings"
+msgstr ""
+
+#, php-format
+msgid ""
+"By default the softphone SIP signalling in Zulu clients is proxied through "
+"the same port as Zulu. This helps to alleviate opening multiple ports on the "
+"same host, however this can make SIP debugging difficult as the signalling "
+"IP address will be the localhost. Setting this to Yes will tell softphones "
+"to connect directly to the PBX on port %s, bypassing the Zulu proxying. It "
+"is advised to only enable this for debugging purposes"
+msgstr ""
+
+msgid "Call"
+msgstr ""
+
+#, php-format
+msgid "Change your notification preferences %s"
+msgstr ""
+
+msgid "Changing Websocket Mode to PJSIP"
+msgstr ""
+
+msgid "Chat List"
+msgstr ""
+
+msgid "Click this window to answer or close this window to ignore"
+msgstr ""
+
+msgid "Client Type"
+msgstr ""
+
+msgid "Client Version"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Closing..."
+msgstr ""
+
+msgid "Configuration Information"
+msgstr ""
+
+msgid "Connect Phone"
+msgstr ""
+
+msgid "Connect softphone directly to PBX"
+msgstr ""
+
+msgid "Connected At"
+msgstr ""
+
+msgid "Connecting to socket..."
+msgstr ""
+
+msgid "Creating entries to zulu_interactions_stream_actions table..."
+msgstr ""
+
+msgid "DEF"
+msgstr ""
+
+msgid "Default On Call Popup"
+msgstr ""
+
+msgid "Default URL for 'Link to URL'"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Deleting duplicated contacts..."
+msgstr ""
+
+msgid "Deleting users from this view will disable Zulu for each user"
+msgstr ""
+
+msgid "Delimiters"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Disconnect Phone"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Disconnecting..."
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Do Nothing"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Domain Exclusions List"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Enable Auto Answer for Origination"
+msgstr ""
+
+msgid "Enable Contacts"
+msgstr ""
+
+msgid "Enable Contacts for this user in Zulu"
+msgstr ""
+
+msgid "Enable Fax"
+msgstr ""
+
+msgid "Enable Originating Calls to Deskphone"
+msgstr ""
+
+msgid "Enable Originating Calls to the user's deskphone"
+msgstr ""
+
+msgid "Enable SMS"
+msgstr ""
+
+msgid "Enable SMS for this user in Zulu"
+msgstr ""
+
+msgid "Enable Sangoma STUN"
+msgstr ""
+
+msgid "Enable Sangoma STUN servers"
+msgstr ""
+
+msgid "Enable Sangoma TURN"
+msgstr ""
+
+msgid "Enable Sangoma TURN servers"
+msgstr ""
+
+msgid "Enable Softphone"
+msgstr ""
+
+msgid "Enable Zulu for this user"
+msgstr ""
+
+msgid "Enable call status"
+msgstr ""
+
+msgid "Enable creation of private group"
+msgstr ""
+
+msgid "Enable creation of private groups for this user in Zulu"
+msgstr ""
+
+msgid "Enable creation of public rooms for this user in Zulu"
+msgstr ""
+
+msgid "Enable creation of room"
+msgstr ""
+
+msgid "Enable email notification"
+msgstr ""
+
+msgid "Enable email notification for chat messages when user is not logged in"
+msgstr ""
+
+msgid "Enable fax in Zulu for this user in Zulu"
+msgstr ""
+
+msgid "Enable screensharing"
+msgstr ""
+
+msgid "Enable screensharing for this user in Zulu"
+msgstr ""
+
+msgid "Enable softphone for this user in Zulu"
+msgstr ""
+
+msgid "Enable the Zulu Server"
+msgstr ""
+
+msgid "Enable visual voicemail"
+msgstr ""
+
+msgid "Enable visual voicemail for this user in Zulu"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enabling PJSIP Websocket server"
+msgstr ""
+
+msgid "Enabling the Asterisk ARI Server"
+msgstr ""
+
+msgid "Enabling the Asterisk HTTP Server"
+msgstr ""
+
+msgid "Enabling the Asterisk HTTPS Server"
+msgstr ""
+
+#, php-format
+msgid "Error installing zulu reason(s): %s"
+msgstr ""
+
+msgid "Error running migration from XMPP modules"
+msgstr ""
+
+#, php-format
+msgid "Exporting Databases from %s"
+msgstr ""
+
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr ""
+
+msgid "Failed updating libraries!"
+msgstr ""
+
+msgid "Failed!"
+msgstr ""
+
+msgid "Finished updating libraries!"
+msgstr ""
+
+msgid "GHI"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Generate QR Code"
+msgstr ""
+
+msgid "Generating..."
+msgstr ""
+
+msgid "Hold"
+msgstr ""
+
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr ""
+
+msgid ""
+"If set to yes when originating calls from Zulu the Zulu extension will "
+"automatically answer. This eliminates the need to answer the local extension "
+"to bridge the call. Default is yes"
+msgstr ""
+
+msgid "If you think this e-mail was an error, please contact us at"
+msgstr ""
+
+msgid "Ignore Tags"
+msgstr ""
+
+#, php-format
+msgid ""
+"In order for Zulu Mobile to successfully connect, this server must be "
+"configured with <strong>a valid, trusted SSL/TLS certificate</strong>, and "
+"must be reachable at <strong>%s</strong> on port <strong>%s</strong>."
+msgstr ""
+
+#, perl-format
+msgid "Incoming call from %s"
+msgstr ""
+
+msgid "Increasing HTTP Session Limit"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr ""
+
+msgid "Invalid DID"
+msgstr ""
+
+msgid "Invalid Session"
+msgstr ""
+
+msgid "Invalid Websocket Transport for Zulu"
+msgstr ""
+
+msgid "Invalid credentials"
+msgstr ""
+
+msgid "Invalid user"
+msgstr ""
+
+msgid "Invalidate caches"
+msgstr ""
+
+msgid "JKL"
+msgstr ""
+
+msgid "Link to Contact"
+msgstr ""
+
+msgid "Link to URL"
+msgstr ""
+
+msgid "Linked Extension"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "List of HTML tags to ignore while processing"
+msgstr ""
+
+msgid "List of domains to skip for processing"
+msgstr ""
+
+msgid "List ports provided to zulu"
+msgstr ""
+
+msgid "Local Zulu Port"
+msgstr ""
+
+msgid "MNO"
+msgstr ""
+
+msgid "Matching Pattern List"
+msgstr ""
+
+msgid "Max video streams"
+msgstr ""
+
+msgid ""
+"Maximum number of video streams allowed on a call. Requires Asterisk 16 or "
+"newer. Re-run zulu install and reload config to take effect."
+msgstr ""
+
+msgid "Message could not be delivered"
+msgstr ""
+
+msgid "Migrating Let's Chat Data to Zulu..."
+msgstr ""
+
+msgid "Migrating mobile tokens to zulu_mobile_tokens mysql table..."
+msgstr ""
+
+msgid "Migration from XMPP to Zulu done succesfully"
+msgstr ""
+
+msgid "Migration from XMPP was done previously"
+msgstr ""
+
+msgid "Mobile Tokens"
+msgstr ""
+
+msgid "Mobile token deleted!!"
+msgstr ""
+
+msgid "MongoDB is not running. Cant Migrate"
+msgstr ""
+
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Image"
+msgstr ""
+
+msgid "No need to migrate XMPP"
+msgstr ""
+
+msgid "No valid deployment id!"
+msgstr ""
+
+msgid "Node Package Manager is not installed"
+msgstr ""
+
+msgid "Node is not installed"
+msgstr ""
+
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+msgid "Not Installed"
+msgstr ""
+
+msgid "Not Running"
+msgstr ""
+
+msgid "Not supported in this browser"
+msgstr ""
+
+msgid "Note: An Active call will not be dropped when this window is closed"
+msgstr ""
+
+msgid "Number pattern matching"
+msgstr ""
+
+msgid "On Call Popup"
+msgstr ""
+
+msgid "Only supported over HTTPS"
+msgstr ""
+
+msgid ""
+"PJSIP Transports for WS and WSS must be enabled in Asterisk SIP Settings "
+"under the Chan PJSIP Settings tab. Please enable and restart Asterisk."
+msgstr ""
+
+msgid "PQRS"
+msgstr ""
+
+msgid "Phone Status"
+msgstr ""
+
+msgid ""
+"Please setup a default certificate in Certificate Manager for the softphone "
+"functionality to work"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Port to bind to for Server Commands. Localhost ONLY. Default is 7999"
+msgstr ""
+
+msgid ""
+"Port to bind to. Default is 8002 (modification of this value will require a "
+"restart of the zulu service: fwconsole restart zulu)"
+msgstr ""
+
+msgid "QR"
+msgstr ""
+
+msgid ""
+"QR code generation only supported over HTTPS with valid certificate and "
+"hostname"
+msgstr ""
+
+msgid "Registered"
+msgstr ""
+
+msgid "Registering..."
+msgstr ""
+
+msgid "Registration Failed"
+msgstr ""
+
+msgid "Reloading PBX to update new settings..."
+msgstr ""
+
+msgid "Removing..."
+msgstr ""
+
+msgid "Reset Zulu"
+msgstr ""
+
+msgid "Reset all Zulu Data"
+msgstr ""
+
+msgid "Resetting..."
+msgstr ""
+
+msgid "Room List"
+msgstr ""
+
+msgid "Room Topic"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr ""
+
+msgid ""
+"SIP Channel Driver must be set to both or chan_pjsip in Advanced Settings. "
+"Then restart Asterisk"
+msgstr ""
+
+msgid "SIP Driver does not allow pjsip"
+msgstr ""
+
+msgid "Server Status:"
+msgstr ""
+
+msgid "Sets the path to the HTTPS private key"
+msgstr ""
+
+msgid "Sets the path to the HTTPS server certificate"
+msgstr ""
+
+msgid "Setting field refreshed_at for mobile tokens..."
+msgstr ""
+
+msgid "Setting field updated_at in zulu_interactions_interactions..."
+msgstr ""
+
+msgid "Silence Ringer"
+msgstr ""
+
+msgid "Softphone"
+msgstr ""
+
+msgid "Start Public Stream Action Migration..."
+msgstr ""
+
+#, php-format
+msgid "Started Zulu Server. PID is %s"
+msgstr ""
+
+#, php-format
+msgid "Started with PID %s!"
+msgstr ""
+
+msgid "Starting Zulu Server..."
+msgstr ""
+
+msgid "Starting new Zulu Process..."
+msgstr ""
+
+msgid "Stopped Zulu Server"
+msgstr ""
+
+msgid "Stopping Zulu Server"
+msgstr ""
+
+msgid "Stopping old running processes..."
+msgstr ""
+
+msgid "Stopping running processes..."
+msgstr ""
+
+msgid "TLS for the mini-HTTP Server is not enabled"
+msgstr ""
+
+msgid "TUV"
+msgstr ""
+
+msgid "The Zulu Server is disabled in Advanced Settings"
+msgstr ""
+
+msgid "The mini-HTTP Server is not enabled"
+msgstr ""
+
+msgid ""
+"The token used to connect to the bind port. This is randomized per install"
+msgstr ""
+
+#, php-format
+msgid "There was an error loading class '%s'"
+msgstr ""
+
+msgid "This feature is not activated"
+msgstr ""
+
+msgid "This message was intended for"
+msgstr ""
+
+msgid "This product is not licensed"
+msgstr ""
+
+msgid "This will be the prefix that conference rooms will use"
+msgstr ""
+
+msgid "This will reset and disconnect all Zulu users. Are you sure?"
+msgstr ""
+
+msgid "Token is already in use!"
+msgstr ""
+
+msgid "Too many emails?"
+msgstr ""
+
+msgid "Total of Tokens"
+msgstr ""
+
+msgid "Total of members"
+msgstr ""
+
+msgid "Total of owners"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "URL for 'Link to URL'"
+msgstr ""
+
+msgid ""
+"URL to execute when a call popup is clicked on the desktop client. Any "
+"Asterisk channel variables can be passed, examples of common variables are: "
+"<ul><li>${CALLERID(name)}: Inbound CallerID Number</li><li>${CALLERID(num)}: "
+"Inbound CallerID Name</li></ul>"
+msgstr ""
+
+msgid "Unable to enable websocket driver!"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unregistered"
+msgstr ""
+
+msgid ""
+"Used to identify the local client port for client to plugin communications. "
+"This is not the same as the PBX Server port"
+msgstr ""
+
+msgid "User does not exist!"
+msgstr ""
+
+msgid "User does not have access to zulu"
+msgstr ""
+
+msgid "User does not have any known mobile clients!"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Video Conferencing Max RTC Port"
+msgstr ""
+
+msgid "Video Conferencing Min RTC Port"
+msgstr ""
+
+msgid "WXYZ"
+msgstr ""
+
+msgid "Websocket changed, updating webrtc clients..."
+msgstr ""
+
+msgid "Websocket mode is not set to pjsip"
+msgstr ""
+
+msgid "What is Zulu"
+msgstr ""
+
+msgid ""
+"When a call through this route hits a Zulu client this setting determines "
+"what happens when the user clicks the desktop popup. Choices are: "
+"<ul><li>Link to Contact: Will bring up the associated contact to the Caller "
+"ID Number through the desktop Address Book</li><li>Link to URL: Will execute "
+"a URL listed below in the default desktop browser</li></ul>"
+msgstr ""
+
+msgid "Whether to enable the backend server for Zulu"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Yes with caller ID"
+msgstr ""
+
+#, php-format
+msgid "You are currently using %s of %s users"
+msgstr ""
+
+#, php-format
+msgid "You are currently using %s of %s users."
+msgstr ""
+
+msgid "You are not licensed for this feature"
+msgstr ""
+
+msgid ""
+"You will not be able to add new users until you remove old ones or purchase "
+"another user license pack"
+msgstr ""
+
+msgid "ZULU Server"
+msgstr ""
+
+msgid "Zulu"
+msgstr ""
+
+msgid "Zulu Bind Address"
+msgstr ""
+
+msgid "Zulu Bind Port"
+msgstr ""
+
+msgid "Zulu Command Bind Port"
+msgstr ""
+
+msgid "Zulu Command Token"
+msgstr ""
+
+msgid "Zulu Conference Prefix"
+msgstr ""
+
+msgid "Zulu Daemon"
+msgstr ""
+
+msgid "Zulu On Call Popup"
+msgstr ""
+
+msgid "Zulu Rooms"
+msgstr ""
+
+#, php-format
+msgid "Zulu Server Failed: %s"
+msgstr ""
+
+#, php-format
+msgid "Zulu Server has already been running on PID %s for %s"
+msgstr ""
+
+msgid "Zulu Server is not running"
+msgstr ""
+
+#, php-format
+msgid "Zulu Server: %s"
+msgstr ""
+
+msgid "Zulu Softphone"
+msgstr ""
+
+msgid "Zulu TLS Certificate Location"
+msgstr ""
+
+msgid "Zulu TLS Private Key Location"
+msgstr ""
+
+msgid "Zulu URL for 'Link to URL'"
+msgstr ""
+
+msgid ""
+"Zulu bridges the gap between your PBX and your desktop. Providing unified "
+"communications directly in the applications you use daily"
+msgstr ""
+
+msgid ""
+"Zulu bridges the gap between your PBX and your desktop. Providing unified "
+"communications directly in the apps you use daily"
+msgstr ""
+
+msgid "Zulu is not enabled for this user"
+msgstr ""
+
+msgid "Zulu is not running"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "mentioned you"
+msgstr ""
+
+msgid "wrote"
+msgstr ""

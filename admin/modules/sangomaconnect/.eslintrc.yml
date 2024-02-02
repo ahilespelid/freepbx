@@ -1,0 +1,24 @@
+---
+plugins: [promise]
+root: true
+rules:
+  no-plusplus: [off]
+  # History is hard to escape
+  indent: [error, 4]
+  # Hard to do express without reassigning params
+  no-param-reassign: [off]
+  # Disable multiple-return rule
+  consistent-return: [off]
+  no-loop-func: [off]
+  no-use-before-define: [off]
+  # Avoid useless promise wrapping
+  promise/no-return-wrap: error
+  # Ensure consistent param names
+  promise/param-names: error
+  # Avoid swallowed exceptions
+  promise/catch-or-return: error
+  arrow-body-style: [off]
+env:
+  es6: true
+  node: true
+extends: [airbnb-base]

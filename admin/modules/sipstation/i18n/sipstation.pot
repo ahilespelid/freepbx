@@ -1,0 +1,1046 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sipstation
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-07 04:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+" and register DIDs for campaigns where necessary. Failure to do so may "
+"result in SMS/MMS delivery failure after March 31, 2023."
+msgstr ""
+
+msgid ""
+" customers using SMS/MMS immediately review the information at the Sangoma "
+"TCR Portal at "
+msgstr ""
+
+#, php-format
+msgid "%s Route(s) updated"
+msgstr ""
+
+#, php-format
+msgid "%u"
+msgstr ""
+
+#, php-format
+msgid ""
+"'Enable TLS' for 'Chan SIP' is currently set to '%s', this must be changed "
+"to '%s', change this %s and refresh this page"
+msgstr ""
+
+#, php-format
+msgid ""
+"'SSL Method' for 'Chan SIP' is currently set to '%s', this must be changed "
+"to '%s', change this %s and refresh this page"
+msgstr ""
+
+msgid "API message"
+msgstr ""
+
+msgid "API status"
+msgstr ""
+
+msgid "Account Information"
+msgstr ""
+
+msgid "Account Key"
+msgstr ""
+
+msgid "Account Services"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
+msgid "Add Sipstation Key to sipstation module"
+msgstr ""
+
+msgid "Added New Trunks. Please hit Apply Config to apply the new settings"
+msgstr ""
+
+msgid "Added Routes"
+msgstr ""
+
+#, php-format
+msgid "Adding new 844 toll free route"
+msgstr ""
+
+msgid "Additional E911 Addresses"
+msgstr ""
+
+msgid "Address 1"
+msgstr ""
+
+msgid "Address 2"
+msgstr ""
+
+msgid "Address On Record"
+msgstr ""
+
+msgid "Address1:"
+msgstr ""
+
+msgid "Address2:"
+msgstr ""
+
+msgid "All route areacodes updated"
+msgstr ""
+
+msgid "Allow SMS"
+msgstr ""
+
+msgid "An Error occurred trying run firewall test"
+msgstr ""
+
+msgid "An Error occurred trying to contact the server for account settings."
+msgstr ""
+
+msgid "An unexpected token was returned, try the test again"
+msgstr ""
+
+msgid "Are you sure you want to cancel your Free Trial Account?"
+msgstr ""
+
+msgid "Area Code"
+msgstr ""
+
+msgid "Assign which users will get SMSes routed through this inbound route"
+msgstr ""
+
+msgid "Asterisk Registration Status"
+msgstr ""
+
+msgid ""
+"Automatically set the extension's CID to match the DID, if this DID is "
+"routed to an extension."
+msgstr ""
+
+msgid "Caller ID"
+msgstr ""
+
+msgid "Caller ID For this DID"
+msgstr ""
+
+msgid "Caller ID for Emergency calls"
+msgstr ""
+
+msgid "Caller Name:"
+msgstr ""
+
+msgid "Cancel Free Trial"
+msgstr ""
+
+msgid "Chan_PJSIP has been enabled because this system is in PJSIP only mode"
+msgstr ""
+
+msgid "Chan_PJSIP is not supported on PBX 13.0 or lower"
+msgstr ""
+
+msgid "Chan_PJSIP is not supported when SIP Driver is forced to Chan_SIP"
+msgstr ""
+
+msgid "Channels"
+msgstr ""
+
+msgid "Check Connectivity"
+msgstr ""
+
+#, php-format
+msgid ""
+"Check Primary (%s) and Secondary (%s) Trunk for each route that should be "
+"configured with the %s service. The trunks will be inserted into the "
+"corresponding routes upon clicking the %s button. You can enable 7 digit "
+"dialing with the trunk by entering your area code as well."
+msgstr ""
+
+msgid "Check if registered"
+msgstr ""
+
+msgid "Checking routes for trunks.."
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "City:"
+msgstr ""
+
+msgid "Clear Failover"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Codec Priorities"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid "DID"
+msgstr ""
+
+msgid "DID Updates"
+msgstr ""
+
+msgid "DID Verification"
+msgstr ""
+
+msgid "DID not found"
+msgstr ""
+
+msgid "DID not provided"
+msgstr ""
+
+msgid ""
+"DIDs without inbound routes have been detected and default routes set, you "
+"need to reload your system for them to take effect"
+msgstr ""
+
+msgid "Data Missing from request"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Destination appears to be an invalid URI."
+msgstr ""
+
+msgid "E911 Caller ID"
+msgstr ""
+
+msgid "E911 Information"
+msgstr ""
+
+#, php-format
+msgid "E911 Information for %s"
+msgstr ""
+
+msgid "ERROR"
+msgstr ""
+
+msgid "Edit CallerID Information"
+msgstr ""
+
+msgid "Edit Destination Information"
+msgstr ""
+
+msgid "Edit E911 Information"
+msgstr ""
+
+msgid "Edit Global Failover"
+msgstr ""
+
+msgid "Edit/Update"
+msgstr ""
+
+msgid "Emergency CID"
+msgstr ""
+
+msgid "Emergency Caller ID"
+msgstr ""
+
+msgid "Enable Experimental SIPStation PJSIP Mode"
+msgstr ""
+
+msgid "Enable Primary Gateway"
+msgstr ""
+
+msgid "Enable SMS in UCP for this user"
+msgstr ""
+
+msgid "Enable Secondary Gateway"
+msgstr ""
+
+msgid ""
+"Enables experimental PJSIP mode for SIPStation. This only works on PBX 14 or "
+"higher and it will reset any trunk settings you have configured"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Expires in"
+msgstr ""
+
+msgid "External Connectivity"
+msgstr ""
+
+msgid "External IP"
+msgstr ""
+
+msgid "FIREWALL TEST ERROR"
+msgstr ""
+
+msgid "FIREWALL TEST WARNING"
+msgstr ""
+
+msgid "Failed to configure Key"
+msgstr ""
+
+msgid "Failed!! Key is missing"
+msgstr ""
+
+msgid "Failover"
+msgstr ""
+
+msgid "Failover Configuration"
+msgstr ""
+
+msgid "Failover Destination"
+msgstr ""
+
+msgid "Failover Destination Updated, Number Was not Updated"
+msgstr ""
+
+msgid "Failover FQDN / IP:"
+msgstr ""
+
+msgid "Failover Number"
+msgstr ""
+
+msgid "Failover Number Updated, Destination Was not Updated"
+msgstr ""
+
+msgid "Failover Number:"
+msgstr ""
+
+msgid "Failover Update Failed"
+msgstr ""
+
+msgid "Failover Updated"
+msgstr ""
+
+msgid "Firewall Status"
+msgstr ""
+
+msgid "Gateways"
+msgstr ""
+
+msgid "Gets E911 information"
+msgstr ""
+
+msgid "Gets gateways trunk information"
+msgstr ""
+
+msgid "Gets server settings information"
+msgstr ""
+
+msgid "Gives the E11 Information"
+msgstr ""
+
+msgid "Gives the number of trunks"
+msgstr ""
+
+msgid "Global Failover"
+msgstr ""
+
+msgid "Global Failover Destination"
+msgstr ""
+
+msgid "Global Failover IP/FQDN"
+msgstr ""
+
+msgid "Global Failover Number"
+msgstr ""
+
+msgid "Global Failover Trunk Group"
+msgstr ""
+
+msgid "Go to Module Admin"
+msgstr ""
+
+msgid "Here"
+msgstr ""
+
+msgid ""
+"Here you can manage your DIDs<br>Specifically you can do the following: "
+msgstr ""
+
+#, php-format
+msgid "I agree to additional charges and have read the documentation here: %s"
+msgstr ""
+
+msgid "IS the Ips matched"
+msgstr ""
+
+msgid ""
+"In the event that your system is not registered or our servers can not reach "
+"you, you can provide an IP, a full domain where we should try to deliver "
+"your calls or select another trunk group that you have. If we can't deliver "
+"the call to this address or trunk group and you have a failover number set, "
+"we will send the call there"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "International Calling"
+msgstr ""
+
+msgid "Invalid Account Key Code provided"
+msgstr ""
+
+msgid "Invalid DID"
+msgstr ""
+
+msgid "It's CRITICALLY IMPORTANT that "
+msgstr ""
+
+msgid "KEYS AND TRUNKS REMOVED!"
+msgstr ""
+
+msgid "Last Call"
+msgstr ""
+
+msgid "Location Information"
+msgstr ""
+
+msgid "MMS is not setup for this DID"
+msgstr ""
+
+msgid "Message from SIPStation"
+msgstr ""
+
+msgid "Module Out of date."
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "NO CODECS"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the trunk"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid ""
+"No Free Ports in Asterisk RTP Port Range available for testing, you can try "
+"later"
+msgstr ""
+
+msgid "No Trunk Groups Defined"
+msgstr ""
+
+msgid "No areacode provided"
+msgstr ""
+
+msgid "No devices to update"
+msgstr ""
+
+msgid "No internet connection. Please check and try again in a few minutes."
+msgstr ""
+
+msgid "No valid data received"
+msgstr ""
+
+msgid "Not Available"
+msgstr ""
+
+msgid "Not Availible for Trial Accounts"
+msgstr ""
+
+msgid "Not Availible on Trial accounts"
+msgstr ""
+
+msgid "Not Registered"
+msgstr ""
+
+msgid "Not Set"
+msgstr ""
+
+msgid "Nothing Changed"
+msgstr ""
+
+msgid "Nothing was changed"
+msgstr ""
+
+msgid "Number of Channels"
+msgstr ""
+
+msgid "Outbound Fax"
+msgstr ""
+
+msgid "Please check with your reseller to get it updated"
+msgstr ""
+
+msgid ""
+"Please enter your Account key, this can be obtained from the SIPStation "
+"portal."
+msgstr ""
+
+msgid "Please provide a valid key"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Primary Failover"
+msgstr ""
+
+msgid "Primary SIPstation Server"
+msgstr ""
+
+msgid "Primary Server information"
+msgstr ""
+
+msgid ""
+"Provide your 3 digit area code if you would like your trunks to allow 7 "
+"digit dialing and automatically prepend your area code. This requires the "
+"route to be configured to send a 7 digit number."
+msgstr ""
+
+#, php-format
+msgid "Questions or Issues can be directed to our %s at %s"
+msgstr ""
+
+msgid "Refresh ALL SMS"
+msgstr ""
+
+msgid "Refresh Asterisk Account Info"
+msgstr ""
+
+msgid "Refresh Inbound SMS Only"
+msgstr ""
+
+msgid "Refresh Outbound SMS Only"
+msgstr ""
+
+msgid "Refreshing Account Info"
+msgstr ""
+
+msgid "Register for SMS campaigns before March 31, 2023"
+msgstr ""
+
+msgid ""
+"Remote Server Error. Please try again in 10 minutes, If you continue to have "
+"problems please contact support and give them this error code"
+msgstr ""
+
+#, php-format
+msgid ""
+"Remote trunk settings have been changed (%s). Please hit Apply Config to "
+"apply the new settings"
+msgstr ""
+
+msgid ""
+"Remote trunk settings have been changed. Please hit Apply Config to apply "
+"the new settings"
+msgstr ""
+
+msgid "Remove Key"
+msgstr ""
+
+msgid "Remove Key & Delete Trunks"
+msgstr ""
+
+msgid "Remove key and trunks"
+msgstr ""
+
+msgid "Remove the Sipstation Key and delete trunk from sipstation module"
+msgstr ""
+
+msgid "Remove the Sipstation Key from sipstation module"
+msgstr ""
+
+msgid "Removing AstDB Entries"
+msgstr ""
+
+msgid "Return The network IP"
+msgstr ""
+
+msgid "Return the contact IP"
+msgstr ""
+
+msgid "Return user agent"
+msgstr ""
+
+msgid "Route Name"
+msgstr ""
+
+msgid "Route To"
+msgstr ""
+
+msgid "Route Updated, Apply Config"
+msgstr ""
+
+msgid "Route Your DID to a specified location"
+msgstr ""
+
+msgid "Routing Information"
+msgstr ""
+
+msgid "Run Firewall Test"
+msgstr ""
+
+msgid "SERVER ERROR"
+msgstr ""
+
+msgid "SIP Ping"
+msgstr ""
+
+msgid "SIP Username"
+msgstr ""
+
+msgid "SIPSTATION"
+msgstr ""
+
+msgid "SIPSTATION DID routed"
+msgstr ""
+
+msgid "SIPSTATION Free Trial"
+msgstr ""
+
+msgid "SIPSTATION Store"
+msgstr ""
+
+msgid "SIPStation"
+msgstr ""
+
+msgid "SIPStation DID Verification"
+msgstr ""
+
+msgid "SIPStation Module"
+msgstr ""
+
+msgid "SIPStation SMS"
+msgstr ""
+
+msgid "SIPstation"
+msgstr ""
+
+msgid "SIPstation Free Trial"
+msgstr ""
+
+msgid "SIPstation Settings"
+msgstr ""
+
+msgid "SIPstation Store"
+msgstr ""
+
+msgid "SMS Assigned DIDs"
+msgstr ""
+
+msgid "SMS Support"
+msgstr ""
+
+msgid "SMS is not setup for this DID"
+msgstr ""
+
+msgid "SMS/User Assignment"
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+msgid "Secndary server information"
+msgstr ""
+
+msgid "Secondary"
+msgstr ""
+
+msgid "Secondary Failover"
+msgstr ""
+
+msgid "Secondary SIPstation Server"
+msgstr ""
+
+msgid ""
+"Select/Unselect the butons and submit to add/remove this service as the "
+"primary trunks to any listed route. Both gateways should be configured to "
+"allow for redundancy. If gateways are already configured in the route, the "
+"box will be checked, even if they are not the primary trunks for that route. "
+"Click on the route name to link directly to the Outbound Routes page for any "
+"route."
+msgstr ""
+
+msgid "Set A Description for the Inbound Routes Page"
+msgstr ""
+
+msgid "Set CID"
+msgstr ""
+
+msgid "Set E911"
+msgstr ""
+
+msgid "Set ECID"
+msgstr ""
+
+msgid ""
+"Set and edit the E911 address for a DID. (Fees apply for multiple E911 "
+"addresses.)"
+msgstr ""
+
+msgid "Set and edit your per-DID failover numbers."
+msgstr ""
+
+msgid ""
+"Set the extension's Emergency CID to match one of your E911-enabled DIDs."
+msgstr ""
+
+msgid "Sets the api url for sipstation this should never be touched"
+msgstr ""
+
+msgid "Sip Gateways"
+msgstr ""
+
+msgid "Sip Password"
+msgstr ""
+
+msgid "Sip Username"
+msgstr ""
+
+msgid "SipStation Configuration updated"
+msgstr ""
+
+msgid "SipStation Key"
+msgstr ""
+
+msgid "SipStation key has been added successfully"
+msgstr ""
+
+msgid "Sipstation"
+msgstr ""
+
+msgid "Sipstation Key"
+msgstr ""
+
+msgid "Sipstation Key not set"
+msgstr ""
+
+msgid "Sipstation key"
+msgstr ""
+
+msgid "Sipstation key found"
+msgstr ""
+
+msgid "Sipstation key has been removed"
+msgstr ""
+
+msgid "Sipstation key not found"
+msgstr ""
+
+msgid "Sipstation status found"
+msgstr ""
+
+msgid "Sipstation status not found"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "State:"
+msgstr ""
+
+#, php-format
+msgid "Successfully updated or created %s inbound routes for your DIDs"
+msgstr ""
+
+#, php-format
+msgid "Successfully updated or set failover for your %s DIDs"
+msgstr ""
+
+msgid "Support Center"
+msgstr ""
+
+msgid "System Status"
+msgstr ""
+
+#, php-format
+msgid ""
+"The TLS transport for Chan PJSIP is currently disabled, please enabled it "
+"under Chan PJSIP %s and refresh this page"
+msgstr ""
+
+#, php-format
+msgid ""
+"The current trunks are utilizing %s and connecting to %s over port %s using "
+"an RTP range of %s-%s"
+msgstr ""
+
+msgid ""
+"The interface on our servers has been updated to provide new information for "
+"the SIPStation module."
+msgstr ""
+
+#, php-format
+msgid ""
+"The prefix you entered, %s, is not a proper prefix or the wrong length. It "
+"should be a 3 digit prefix."
+msgstr ""
+
+msgid ""
+"The server is currently not responding. It is either unavailable or access "
+"is being blocked. If the server is unavailable, please try again later."
+msgstr ""
+
+msgid ""
+"The server is currently unavailable and we can not process your request. "
+"Please check back with us later. We apologize for the inconvenience."
+msgstr ""
+
+msgid ""
+"The test timed out which means your firewall is probably configured wrong. "
+"If subsequent tests fail, check your port forwarding on the firewall."
+msgstr ""
+
+msgid ""
+"There was a problem when we tried to connect to our server. A local "
+"configuration is currently used."
+msgstr ""
+
+#, php-format
+msgid ""
+"There were %s validation failures on the requested DIDs, no updates performed"
+msgstr ""
+
+msgid "These are the SMS DIDs that are assigned to this user for use in UCP"
+msgstr ""
+
+msgid "This item is not available in trial mode"
+msgstr ""
+
+msgid ""
+"This module is used to configure, manage and troubleshoot your "
+"SIPSTATION(tm) FreePBX.com SIP trunks and DIDs. The license on this source "
+"code is NOT GPL Open Source, it is a proprietary Free to Use license."
+msgstr ""
+
+#, php-format
+msgid ""
+"This module requires %s trunking service available at %s or use the window "
+"below.\n"
+"\t\t\t\t\t\t\t\t\t\tOnce you have SIPStation service and have entered a "
+"valid E911 address, your account key will be available in the %s. Enter it "
+"below to use this module.\n"
+"\t\t\t\t\t\t\t\t\t\tThe key is very long, use \"Copy\" &amp; \"Paste\" to "
+"copy it here. The key will be stored securely and can be removed at any time "
+"to stop access.\n"
+"\t\t\t\t\t\t\t\t\t\tIf the key is compromised, you can contact us at our %s "
+"and have a new one re-generated."
+msgstr ""
+
+msgid "This will reset on every install of SIPStation"
+msgstr ""
+
+#, php-format
+msgid ""
+"To disable account access, click %s. The auto generated trunk, route and DID "
+"configurations will remain active even if the key is removed.\n"
+"\t\t\tTo also remove the Trunks, chose the %s options instead"
+msgstr ""
+
+#, php-format
+msgid ""
+"To disable account access, click %s. To update account information, click "
+"%s. If port forwarding is configured on your firewall/router, you can test "
+"it with the %s button.\n"
+"\t\tPort forwarding can provide more reliable service and better quality and "
+"we recommend setting it up.\n"
+"\t\tThe test sends a packet to an unused Asterisk RTP port at your WAN "
+"address and results in a PASS if the packet is properly received."
+msgstr ""
+
+msgid "Trunk Group"
+msgstr ""
+
+msgid "Trunk Group Name:"
+msgstr ""
+
+msgid "Trunk Group for calls to fail over to."
+msgstr ""
+
+msgid "Trunk Group: "
+msgstr ""
+
+msgid "Trunk Updates"
+msgstr ""
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Unable to remove AstDB Entries, AstDB not availible."
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Account Info"
+msgstr ""
+
+msgid "Update Route/Trunk Configurations"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+msgid ""
+"When enabled, the SIPStation module will auto generate PJSIP trunks, "
+"otherwise chan_sip trunks are created. Chan_sip is deprecated and not "
+"recommended."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You must update this module to the newest version to so it can work with "
+"this new information and to continue to provide the best user experience. "
+"please click the button below to take you to Module Admin where you can "
+"update this module, it will only take a minute, will have not affect on your "
+"PBX operation and then you can continue forward into the module."
+msgstr ""
+
+msgid "Your Contact IP"
+msgstr ""
+
+msgid ""
+"Your DID, Clicking here will take you to the inbound route setup for this DID"
+msgstr ""
+
+msgid ""
+"Your E911 Master Location is your primary E911 address. It must be a valid U."
+"S. or Canadian address.<br/> You must provide an address in order to use the "
+"SIPStation service, except in Free Trial mode.<br/> You are responsible for "
+"the accuracy of this information and for confirming that E911 service is "
+"working.<br/><strong>DO NOT call 911 to test E911 service.</strong> To test "
+"the service, please be sure 933 is included in an emergency outbound route, "
+"and then dial 933. <br/>This reaches an E911 address verification service "
+"that will play back the information being transmitted. <br/> When calling "
+"outbound on an emergency route, the SIPStation trunk will send out a Caller "
+"ID (CID) matching your Master E911 DID as shown here, unless an extension/"
+"device has its own Emergency CID set. There is no fee for E911 service on "
+"your Master DID. If you have multiple DIDs, you can designate a different "
+"DID as the Master within your SIPStation account. You can also enable E911 "
+"service on additional DIDs for a small additional fee. This would allow the "
+"E911 operator to see different addresses and CIDs for different numbers."
+msgstr ""
+
+msgid "Your Network IP"
+msgstr ""
+
+#, php-format
+msgid "Your SIPSTATION DID %s, has been routed to a test destination"
+msgstr ""
+
+msgid ""
+"Your SIPStation trunks and key have been removed from your system, make sure "
+"to Apply Configuration Changes for this to take effect"
+msgstr ""
+
+msgid ""
+"Your key is no longer valid. Click below to remove the current key. To "
+"obtain a new key and use this module, visit the portal at https://store."
+"freepbx.com and log into your account. After getting your new key please "
+"refresh this page to enter it."
+msgstr ""
+
+#, php-format
+msgid ""
+"Your module version is not compatible with the current API requirements and "
+"needs to be updated. Expecting XML version no greater then %s and received "
+"version %s."
+msgstr ""
+
+msgid "Zip"
+msgstr ""
+
+msgid "Zip:"
+msgstr ""
+
+#, php-format
+msgid ""
+"an erroneous entry, %s,  was found in extensions table that should not be "
+"there"
+msgstr ""
+
+msgid "check if fax is enabled or not"
+msgstr ""
+
+msgid "check if international is enabled or not"
+msgstr ""
+
+msgid "check if sms is enabled or not"
+msgstr ""
+
+msgid "checking for phantoms.."
+msgstr ""
+
+msgid "city of the E911"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "error detected"
+msgstr ""
+
+#, php-format
+msgid "found %s"
+msgstr ""
+
+msgid "gets the server setting information"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "name of the E911"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "number of the E911"
+msgstr ""
+
+msgid "ok"
+msgstr ""
+
+#, php-format
+msgid "removed %s phantoms"
+msgstr ""
+
+msgid "state of the E911 caller"
+msgstr ""
+
+msgid "street1 of the E911"
+msgstr ""
+
+msgid "street2 of the E911"
+msgstr ""
+
+msgid "zip of the E911"
+msgstr ""

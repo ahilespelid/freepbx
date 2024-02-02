@@ -1,0 +1,987 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/zulu/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/zulu/node/package.json: 9fd2861eafc72195dee2cd05d2a1050b
+[npm-cache] [INFO] [npm] running [npm install]...
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated uuid@3.1.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated core-js@2.6.12: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated swagger-client@2.2.21: No longer maintained, please upgrade to swagger-client@3.
+npm WARN deprecated bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see https://bit.ly/2KcpXdo for more details
+npm WARN deprecated superagent@2.3.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+
+> ws@0.4.31 install /var/www/html/admin/modules/zulu/node/node_modules/ari-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/var/www/html/admin/modules/zulu/node/node_modules/ari-client/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+make: Leaving directory `/var/www/html/admin/modules/zulu/node/node_modules/ari-client/node_modules/ws/build'
+
+> websocket@1.0.28 install /var/www/html/admin/modules/zulu/node/node_modules/websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/var/www/html/admin/modules/zulu/node/node_modules/websocket/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  COPY Release/validation.node
+make: Leaving directory `/var/www/html/admin/modules/zulu/node/node_modules/websocket/build'
+
+> core-js@2.6.12 postinstall /var/www/html/admin/modules/zulu/node/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> clang-tools-prebuilt@0.1.4 postinstall /var/www/html/admin/modules/zulu/node/node_modules/clang-tools-prebuilt
+> node install.js
+
+unziping /home/asterisk/.clang-tools/clang-tools-r298696-linux.tgz
+
+> mediasoup@1.2.8 postinstall /var/www/html/admin/modules/zulu/node/node_modules/mediasoup
+> make Release
+
+cd worker && /usr/bin/python2 ./scripts/configure.py -R mediasoup-worker
+['-R', 'mediasoup-worker', '/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/mediasoup-worker.gyp', '-I', '/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/common.gypi', '--depth=.', '-f', 'make', '-Goutput_dir=/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out', '--generator-output', '/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out', '-Dgcc_version=48', '-Dclang=0', '-Dhost_arch=x64', '-Dtarget_arch=x64', '-Dopenssl_fips=', '-Dmediasoup_asan=false', '-Dnode_byteorder=little']
+make BUILDTYPE=Release -C worker/out
+make[1]: Entering directory `/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out'
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/jsoncpp/deps/jsoncpp/jsoncpp/bundled/jsoncpp.o
+  AR(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/deps/jsoncpp/libjsoncpp.a
+  COPY /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/libjsoncpp.a
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/srtp/ekt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/srtp/srtp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/cipher/aes.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/cipher/cipher.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/cipher/null_cipher.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/hash/auth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/hash/null_auth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/kernel/alloc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/kernel/crypto_kernel.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/kernel/err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/kernel/key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/math/datatypes.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/math/stat.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/replay/rdb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/replay/rdbx.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/replay/ut_sim.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/cipher/aes_gcm_ossl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/cipher/aes_icm_ossl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libsrtp/deps/libsrtp/srtp/crypto/hash/hmac_ossl.o
+  AR(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/deps/libsrtp/libsrtp.a
+  COPY /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/libsrtp.a
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/fs-poll.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/inet.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/threadpool.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/uv-common.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/version.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/async.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/core.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/dl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/fs.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/getaddrinfo.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/getnameinfo.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/loop.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/loop-watcher.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/pipe.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/poll.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/process.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/signal.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/stream.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/tcp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/thread.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/timer.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/tty.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/udp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/proctitle.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/linux-core.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/linux-inotify.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/linux-syscalls.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/procfs-exepath.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/sysinfo-loadavg.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/libuv/deps/libuv/src/unix/sysinfo-memory.o
+  AR(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/deps/libuv/libuv.a
+  COPY /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/libuv.a
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/netstring/deps/netstring/netstring-c/netstring.o
+  AR(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/deps/netstring/libnetstring.a
+  COPY /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/libnetstring.a
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/bio_ssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_both.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_clnt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_meth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_pkt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_srtp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/d1_srvr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/kssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s23_clnt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s23_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s23_meth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s23_pkt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s23_srvr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_clnt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_meth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_pkt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s2_srvr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_both.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_cbc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_clnt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_meth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_pkt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/s3_srvr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_algs.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_cert.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_ciph.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_conf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_err2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_rsa.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_sess.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_stat.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_txt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/ssl_utst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_clnt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_ext.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_meth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_reneg.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_srvr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/t1_trce.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/tls_srp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_cfb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_ctr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_ige.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_misc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_ofb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/aes/aes_wrap.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_bitstr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_bool.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_bytes.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_d2i_fp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_digest.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_dup.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_enum.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_gentm.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_i2d_fp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_int.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_mbstr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_object.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_octet.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_set.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_strex.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_strnid.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_time.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_type.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_utctm.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_utf8.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/a_verify.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/ameth_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn1_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn1_gen.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn1_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn1_par.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn_mime.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn_moid.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/asn_pack.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/bio_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/bio_ndef.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/d2i_pr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/d2i_pu.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/evp_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/f_enum.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/f_int.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/f_string.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/i2d_pr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/i2d_pu.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/n_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/nsseq.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/p5_pbe.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/p5_pbev2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/p8_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_bitst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_crl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_req.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_spki.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_x509.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/t_x509a.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_dec.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_fre.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_new.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_typ.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/tasn_utl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_algor.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_attrib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_bignum.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_crl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_exten.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_info.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_long.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_name.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_nx509.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_pubkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_req.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_sig.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_spki.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_val.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_x509.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/asn1/x_x509a.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bf/bf_cfb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bf/bf_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bf/bf_ofb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bf/bf_skey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/b_dump.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/b_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/b_sock.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bf_buff.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bf_nbio.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bf_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bio_cb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bio_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bio_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_acpt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_bio.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_conn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_dgram.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_fd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_file.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_log.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_mem.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bio/bss_sock.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_add.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_blind.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_const.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_ctx.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_depr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_div.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_exp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_exp2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_gcd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_gf2m.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_kron.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_mod.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_mont.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_mpi.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_mul.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_nist.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_prime.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_rand.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_recp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_shift.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_sqr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_sqrt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_word.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/bn_x931p.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/buffer/buf_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/buffer/buf_str.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/buffer/buffer.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_cfb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_ctr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_ofb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_utl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cast/c_cfb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cast/c_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cast/c_ofb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cast/c_skey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cmac/cm_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cmac/cm_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cmac/cmac.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_att.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_cd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_dd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_env.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_ess.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_io.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_kari.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_pwri.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_sd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cms/cms_smime.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_api.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_def.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_mall.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_mod.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/conf/conf_sap.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cpt_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cryptlib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cversion.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/cbc_cksm.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/cbc_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/cfb64ede.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/cfb64enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/cfb_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/des_old.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/des_old2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ecb3_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ecb_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ede_cbcm_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/enc_read.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/enc_writ.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/fcrypt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ofb64ede.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ofb64enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/ofb_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/pcbc_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/qud_cksm.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/rand_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/read2pwd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/rpc_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/set_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/str2key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/xcbc_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_check.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_depr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_gen.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_kdf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dh/dh_rfc5114.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_depr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_gen.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_ossl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dsa/dsa_vrf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_beos.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_dl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_dlfcn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_openssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_vms.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/dso/dso_win32.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ebcdic.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec2_mult.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec2_oct.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec2_smpl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_check.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_curve.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_cvt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_mult.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_oct.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ec_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/eck_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_mont.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nist.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nistp224.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nistp256.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nistp521.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nistputil.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_oct.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_smpl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdh/ech_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdh/ech_kdf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdh/ech_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdh/ech_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdh/ech_ossl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_ossl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ecdsa/ecs_vrf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_all.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_cnf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_cryptodev.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_ctrl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_dyn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_fat.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_init.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_list.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_openssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_rdrand.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/eng_table.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_asnmth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_cipher.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_dh.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_digest.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_dsa.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_ecdh.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_ecdsa.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_pkmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_rand.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_rsa.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/engine/tb_store.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/err/err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/err/err_all.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/err/err_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/bio_b64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/bio_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/bio_md.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/bio_ok.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/c_all.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/c_allc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/c_alld.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/digest.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_aes.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_aes_cbc_hmac_sha1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_aes_cbc_hmac_sha256.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_bf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_camellia.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_cast.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_des.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_des3.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_idea.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_old.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_rc2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_rc4.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_rc4_hmac_md5.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_rc5.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_seed.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/e_xcbc_d.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/encode.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_acnf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_cnf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_pbe.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/evp_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_dss.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_dss1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_ecdsa.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_md2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_md4.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_md5.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_mdc2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_ripemd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_sha.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_sha1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_sigver.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/m_wp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/names.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p5_crpt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p5_crpt2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_dec.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_open.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_seal.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/p_verify.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/pmeth_fn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/pmeth_gn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/evp/pmeth_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ex_data.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/fips_ers.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/hmac/hm_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/hmac/hm_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/hmac/hmac.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/idea/i_cbc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/idea/i_cfb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/idea/i_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/idea/i_ofb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/idea/i_skey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/krb5/krb5_asn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/lhash/lh_stats.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/lhash/lhash.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/md4/md4_dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/md4/md4_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/md5/md5_dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/md5/md5_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/mdc2/mdc2_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/mdc2/mdc2dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/mem.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/mem_dbg.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/cbc128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/ccm128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/cfb128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/ctr128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/cts128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/gcm128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/ofb128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/wrap128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/modes/xts128.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/o_dir.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/o_fips.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/o_init.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/o_str.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/o_time.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/objects/o_names.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/objects/obj_dat.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/objects/obj_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/objects/obj_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/objects/obj_xref.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_asn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_cl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_ext.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_ht.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_srv.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ocsp/ocsp_vfy.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_all.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_info.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_oth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_pk8.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_pkey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_seal.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_x509.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pem_xaux.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pem/pvkfmt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_add.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_asn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_attr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_crpt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_crt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_decr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_init.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_key.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_kiss.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_mutl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_npas.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_p8d.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_p8e.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/p12_utl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs12/pk12err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/bio_pk7.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_attr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_doit.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_mime.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pk7_smime.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pkcs7/pkcs7err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/pqueue/pqueue.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/md_rand.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_egd.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_nw.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_os2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_unix.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/rand_win.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rand/randfile.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc2/rc2_cbc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc2/rc2_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc2/rc2_skey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc2/rc2cfb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc2/rc2ofb64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rc4/rc4_utl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ripemd/rmd_dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ripemd/rmd_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_ameth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_chk.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_crpt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_depr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_eay.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_gen.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_none.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_null.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_oaep.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_pk1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_pmeth.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_pss.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_saos.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_ssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/rsa/rsa_x931.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/seed/seed.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/seed/seed_cbc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/seed/seed_cfb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/seed/seed_ecb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/seed/seed_ofb.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha1_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha1dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha256.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha512.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha_dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/sha/sha_one.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/srp/srp_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/srp/srp_vfy.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/stack/stack.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_asn1.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_conf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_req_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_req_utils.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_rsp_print.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_rsp_sign.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_rsp_utils.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_rsp_verify.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ts/ts_verify_ctx.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/txt_db/txt_db.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ui/ui_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ui/ui_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ui/ui_openssl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ui/ui_util.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/uid.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/whrlpool/wp_dgst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/by_dir.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/by_file.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_att.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_cmp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_d2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_def.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_ext.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_lu.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_obj.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_r2x.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_req.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_set.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_trs.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_txt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_v3.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_vfy.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509_vpm.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509cset.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509name.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509rset.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509spki.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x509type.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509/x_all.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_cache.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_data.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_map.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_node.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/pcy_tree.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_addr.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_akey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_akeya.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_alt.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_asid.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_bcons.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_bitst.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_conf.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_cpols.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_crld.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_enum.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_extku.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_genn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_ia5.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_info.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_int.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_lib.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_ncons.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_ocsp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_pci.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_pcia.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_pcons.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_pku.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_pmaps.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_prn.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_purp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_scts.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_skey.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_sxnet.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3_utl.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/x509v3/v3err.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_4758cca.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_aep.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_atalla.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_capi.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_chil.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_cswift.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_gmp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_nuron.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_sureware.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/engines/e_ubsec.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/aes-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/aesni-mb-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/aesni-sha256-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/aesni-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/vpaes-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/bsaes-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/aes/aesni-sha1-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/bn/rsaz-avx2.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/bn/rsaz-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/bn/x86_64-mont.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/bn/x86_64-mont5.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/bn/x86_64-gf2m.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/camellia/cmll-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/ec/ecp_nistz256-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/md5/md5-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/rc4/rc4-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/rc4/rc4-md5-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/sha/sha1-mb-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/sha/sha1-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/sha/sha256-mb-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/sha/sha256-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/sha/sha512-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/whrlpool/wp-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/modes/aesni-gcm-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/modes/ghash-x86_64.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/asm_obsolete/x64-elf-gas/x86_64cpuid.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/asm/x86_64-gcc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bf/bf_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/bn/rsaz_exp.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/cast/c_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/camellia/cmll_misc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/des_enc.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/des/fcrypt_b.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ec/ecp_nistz256.o
+  CC(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/openssl/deps/openssl/openssl/crypto/ui/ui_compat.o
+  AR(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/deps/openssl/libopenssl.a
+  COPY /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/libopenssl.a
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/DepLibSRTP.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/DepLibUV.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/DepOpenSSL.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Logger.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Loop.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Settings.o
+../src/Settings.cpp: In function 'bool isBindableIp(const string&, int, int*)':
+../src/Settings.cpp:595:35: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+  struct sockaddr_storage bindAddr{};
+                                   ^
+../src/Settings.cpp:595:35: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/Settings.cpp:595:35: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Channel/Notifier.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Channel/Request.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Channel/UnixStreamSocket.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/DtlsTransport.o
+../src/RTC/DtlsTransport.cpp: In member function 'bool RTC::DtlsTransport::SetTimeout()':
+../src/RTC/DtlsTransport.cpp:920:30: warning: missing initializer for member 'timeval::tv_sec' [-Wmissing-field-initializers]
+   struct timeval dtlsTimeout{};
+                              ^
+../src/RTC/DtlsTransport.cpp:920:30: warning: missing initializer for member 'timeval::tv_usec' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/IceCandidate.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/IceServer.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/NackGenerator.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/Peer.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/Room.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpListener.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpPacket.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpReceiver.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpSender.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpStream.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpStreamRecv.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpStreamSend.o
+../src/RTC/RtpStreamSend.cpp: In member function 'void RTC::RtpStreamSend::ReceiveRtcpReceiverReport(RTC::RTCP::ReceiverReport*)':
+../src/RTC/RtpStreamSend.cpp:84:27: warning: missing initializer for member 'Utils::Time::Ntp::seconds' [-Wmissing-field-initializers]
+   Utils::Time::Ntp nowNtp{};
+                           ^
+../src/RTC/RtpStreamSend.cpp:84:27: warning: missing initializer for member 'Utils::Time::Ntp::fractions' [-Wmissing-field-initializers]
+../src/RTC/RtpStreamSend.cpp: In member function 'RTC::RTCP::SenderReport* RTC::RtpStreamSend::GetRtcpSenderReport(uint64_t)':
+../src/RTC/RtpStreamSend.cpp:300:24: warning: missing initializer for member 'Utils::Time::Ntp::seconds' [-Wmissing-field-initializers]
+   Utils::Time::Ntp ntp{};
+                        ^
+../src/RTC/RtpStreamSend.cpp:300:24: warning: missing initializer for member 'Utils::Time::Ntp::fractions' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDataCounter.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/SrtpSession.o
+../src/RTC/SrtpSession.cpp: In constructor 'RTC::SrtpSession::SrtpSession(RTC::SrtpSession::Type, RTC::SrtpSession::Profile, uint8_t*, size_t)':
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::ssrc' [-Wmissing-field-initializers]
+   srtp_policy_t policy{};
+                        ^
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::rtp' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::rtcp' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::key' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::ekt' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::window_size' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::allow_repeat_tx' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::enc_xtn_hdr' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::enc_xtn_hdr_count' [-Wmissing-field-initializers]
+../src/RTC/SrtpSession.cpp:58:24: warning: missing initializer for member 'srtp_policy_t::next' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/StunMessage.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/TcpConnection.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/TcpServer.o
+../src/RTC/TcpServer.cpp: In static member function 'static uv_tcp_t* RTC::TcpServer::GetRandomPort(int)':
+../src/RTC/TcpServer.cpp:90:3: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+   };
+   ^
+../src/RTC/TcpServer.cpp:90:3: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/RTC/TcpServer.cpp:90:3: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/Transport.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/TransportTuple.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/UdpSocket.o
+../src/RTC/UdpSocket.cpp: In static member function 'static uv_udp_t* RTC::UdpSocket::GetRandomPort(int)':
+../src/RTC/UdpSocket.cpp:88:36: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+   struct sockaddr_storage bindAddr{};
+                                    ^
+../src/RTC/UdpSocket.cpp:88:36: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/RTC/UdpSocket.cpp:88:36: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/Media.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/Parameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtcpFeedback.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtcpParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpCapabilities.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpCodecMime.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpCodecParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpEncodingParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpFecParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpHeaderExtension.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpHeaderExtensionParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpHeaderExtensionUri.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RtpDictionaries/RtpRtxParameters.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/Packet.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/CompoundPacket.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/SenderReport.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/ReceiverReport.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/Sdes.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/Bye.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/Feedback.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPs.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtp.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtpNack.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtpTmmb.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtpSrReq.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtpTllei.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackRtpEcn.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsPli.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsSli.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsRpsi.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsFir.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsTst.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsVbcm.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsLei.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsAfb.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RTCP/FeedbackPsRemb.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/AimdRateControl.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/InterArrival.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/OveruseDetector.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/OveruseEstimator.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/RemoteBitrateEstimatorAbsSendTime.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/RTC/RemoteBitrateEstimator/RemoteBitrateEstimatorSingleStream.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Utils/Crypto.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Utils/File.o
+../src/Utils/File.cpp: In static member function 'static void Utils::File::CheckFile(const char*)':
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_dev' [-Wmissing-field-initializers]
+   struct stat fileStat{};
+                        ^
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_ino' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_nlink' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_mode' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_uid' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_gid' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::__pad0' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_rdev' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_size' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_blksize' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_blocks' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_atim' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_mtim' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::st_ctim' [-Wmissing-field-initializers]
+../src/Utils/File.cpp:18:24: warning: missing initializer for member 'stat::__unused' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/Utils/IP.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/SignalsHandler.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/TcpConnection.o
+../src/handles/TcpConnection.cpp: In member function 'void TcpConnection::Write(const uint8_t*, size_t)':
+../src/handles/TcpConnection.cpp:172:18: warning: missing initializer for member 'uv_buf_t::base' [-Wmissing-field-initializers]
+  uv_buf_t buffer{};
+                  ^
+../src/handles/TcpConnection.cpp:172:18: warning: missing initializer for member 'uv_buf_t::len' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/TcpServer.o
+../src/handles/TcpServer.cpp: In constructor 'TcpServer::TcpServer(const string&, uint16_t, int)':
+../src/handles/TcpServer.cpp:49:35: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+  struct sockaddr_storage bindAddr{};
+                                   ^
+../src/handles/TcpServer.cpp:49:35: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/handles/TcpServer.cpp:49:35: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/Timer.o
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/UdpSocket.o
+../src/handles/UdpSocket.cpp: In constructor 'UdpSocket::UdpSocket(const string&, uint16_t)':
+../src/handles/UdpSocket.cpp:73:35: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+  struct sockaddr_storage bindAddr{};
+                                   ^
+../src/handles/UdpSocket.cpp:73:35: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/handles/UdpSocket.cpp:73:35: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+../src/handles/UdpSocket.cpp: In member function 'void UdpSocket::Send(const uint8_t*, size_t, const sockaddr*)':
+../src/handles/UdpSocket.cpp:194:18: warning: missing initializer for member 'uv_buf_t::base' [-Wmissing-field-initializers]
+  uv_buf_t buffer{};
+                  ^
+../src/handles/UdpSocket.cpp:194:18: warning: missing initializer for member 'uv_buf_t::len' [-Wmissing-field-initializers]
+../src/handles/UdpSocket.cpp: In member function 'void UdpSocket::Send(const uint8_t*, size_t, const string&, uint16_t)':
+../src/handles/UdpSocket.cpp:261:31: warning: missing initializer for member 'sockaddr_storage::ss_family' [-Wmissing-field-initializers]
+  struct sockaddr_storage addr{};
+                               ^
+../src/handles/UdpSocket.cpp:261:31: warning: missing initializer for member 'sockaddr_storage::__ss_padding' [-Wmissing-field-initializers]
+../src/handles/UdpSocket.cpp:261:31: warning: missing initializer for member 'sockaddr_storage::__ss_align' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/handles/UnixStreamSocket.o
+../src/handles/UnixStreamSocket.cpp: In member function 'void UnixStreamSocket::Write(const uint8_t*, size_t)':
+../src/handles/UnixStreamSocket.cpp:149:18: warning: missing initializer for member 'uv_buf_t::base' [-Wmissing-field-initializers]
+  uv_buf_t buffer{};
+                  ^
+../src/handles/UnixStreamSocket.cpp:149:18: warning: missing initializer for member 'uv_buf_t::len' [-Wmissing-field-initializers]
+  CXX(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/obj.target/mediasoup-worker/src/main.o
+../src/main.cpp: In function 'void ignoreSignals()':
+../src/main.cpp:130:23: warning: missing initializer for member 'sigaction::__sigaction_handler' [-Wmissing-field-initializers]
+  struct sigaction act{};
+                       ^
+../src/main.cpp:130:23: warning: missing initializer for member 'sigaction::sa_mask' [-Wmissing-field-initializers]
+../src/main.cpp:130:23: warning: missing initializer for member 'sigaction::sa_flags' [-Wmissing-field-initializers]
+../src/main.cpp:130:23: warning: missing initializer for member 'sigaction::sa_restorer' [-Wmissing-field-initializers]
+  LINK(target) /var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out/Release/mediasoup-worker
+make[1]: Leaving directory `/var/www/html/admin/modules/zulu/node/node_modules/mediasoup/worker/out'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 401 packages from 334 contributors and audited 405 packages in 152.788s
+found 55 vulnerabilities (1 low, 19 moderate, 25 high, 10 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+[npm-cache] [INFO] [npm] installed npm dependencies, now archiving
+[npm-cache] [INFO] [npm] archiving dependencies from /var/www/html/admin/modules/zulu/node/node_modules
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/zulu/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] installed and archived dependencies
+[npm-cache] [INFO] successfully installed all dependencies

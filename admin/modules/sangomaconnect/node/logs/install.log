@@ -1,0 +1,20 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/sangomaconnect/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/sangomaconnect/node/package.json: 622141d4d22c1671fbf091451059e455
+[npm-cache] [INFO] [npm] running [npm install]...
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN sangomaconnect@1.0.0 No description
+npm WARN sangomaconnect@1.0.0 No repository field.
+npm WARN sangomaconnect@1.0.0 license should be a valid SPDX license expression
+
+added 111 packages in 3.739s
+[npm-cache] [INFO] [npm] installed npm dependencies, now archiving
+[npm-cache] [INFO] [npm] archiving dependencies from /var/www/html/admin/modules/sangomaconnect/node/node_modules
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/sangomaconnect/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] installed and archived dependencies
+[npm-cache] [INFO] successfully installed all dependencies

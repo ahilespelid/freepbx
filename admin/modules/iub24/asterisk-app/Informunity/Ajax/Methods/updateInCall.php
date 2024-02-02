@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\InCall; class updateInCall implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\165\x74\150\145\x6e\164\151\x63\141\164\x65" => true, "\141\x6c\154\x6f\167\x72\145\155\x6f\164\145" => false); return true; } public function ajaxHandler($config, $data) { unset($config); return InCall::load()->updateInCall($data); } }

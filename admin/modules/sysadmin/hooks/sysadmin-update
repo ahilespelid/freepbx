@@ -1,0 +1,12 @@
+#!/bin/bash -x
+
+# Update sysadmin rpm
+if rpm -q sysadmin > /dev/null 2>&1; then
+	yum -y update sysadmin
+else
+	# If it's not installed, install it.
+	yum -y install sysadmin
+fi
+
+
+

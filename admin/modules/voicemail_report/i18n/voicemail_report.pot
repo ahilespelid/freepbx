@@ -1,0 +1,151 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for voicemail_report
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 04:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Attach"
+msgstr ""
+
+msgid ""
+"Attach -- Email will be sent to the address shown in this column when a "
+"voicemail is left.<br>"
+msgstr ""
+
+msgid "Busy"
+msgstr ""
+
+msgid "Busy -- This recording is played if the callee is busy.<br>"
+msgstr ""
+
+msgid "Caller ID"
+msgstr ""
+
+msgid "Caller ID -- The person who left the message.<br>"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date -- The date this message was left.<br>"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid ""
+"Delete -- If this column reads \"Yes\" then voicemail will be deleted from "
+"the mailbox when it is emailed.<br>"
+msgstr ""
+
+msgid "Displays various information related to the voicemail system."
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "Duration -- The length of the message in seconds.<br>"
+msgstr ""
+
+msgid "File does not exist"
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Folder -- The folder this message currently resides in.<br>"
+msgstr ""
+
+msgid "Greetings & Settings"
+msgstr ""
+
+msgid "Greetings and Settings"
+msgstr ""
+
+msgid "Listen"
+msgstr ""
+
+msgid "Listen -- Click the blue icon to listen to this recording.<br>"
+msgstr ""
+
+msgid "Mailbox"
+msgstr ""
+
+msgid "Mailbox -- The mailbox that all of the following options apply to.<br>"
+msgstr ""
+
+msgid "Mailbox -- The mailbox this message belongs to.<br>"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid ""
+"Name\t-- This recording is played when someone enters the name directory or "
+"when a caller first reaches their mailbox.<br>"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password -- The password for the mailbox.<br>"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Temporary"
+msgstr ""
+
+msgid ""
+"Temporary -- This recording is played if someone has recorded an out of the "
+"office message.<br>"
+msgstr ""
+
+msgid ""
+"This page allows you to review all the voicemail messages currently residing "
+"on the system."
+msgstr ""
+
+msgid ""
+"This page is designed to give you further insight into your voicemail "
+"system. You can quickly tell who needs to record greetings in order to make "
+"things like the name directory not spell out names. You can also easily see "
+"who is setup to receive voicemail to email."
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid ""
+"Unavailable -- This recording is played if the callee is unavailable.<br>"
+msgstr ""
+
+msgid "View Voicemails"
+msgstr ""
+
+msgid "Voicemail Reports"
+msgstr ""
+
+msgid "Yes"
+msgstr ""

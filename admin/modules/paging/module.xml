@@ -1,0 +1,100 @@
+<module>
+    <rawname>paging</rawname>
+    <repo>standard</repo>
+    <name>Paging and Intercom</name>
+    <version>15.0.4.35</version>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <category>Applications</category>
+    <changelog>
+		*15.0.4.35* FREEI-123 Change alert info when paging D/P phones 
+		*15.0.4.34* Packaging of ver 15.0.4.34
+		*15.0.4.33* FREEI-4283 Add Default in the title of the col. 
+		*15.0.4.32* FREEI-3021 
+		*15.0.4.31* FREEPBX-22463 pjsip member contact comparision 
+		*15.0.4.30* FREEPBX-22463 Page group calling phone making page 
+		*15.0.4.29* FREEPBX-22033 Paging Groups - backups missing some data 
+		*15.0.4.28* Packaging of ver 15.0.4.28
+		*15.0.4.27* FREEPBX-22033 Paging Groups - backups missing some data 
+		*15.0.4.26* Packaging of ver 15.0.4.26
+		*15.0.4.25* FREEI-1773 Intercom dial prefix missing 
+		*15.0.4.24* Packaging of ver 15.0.4.24
+		*15.0.4.23* FREEI-1481 Outbound Routes - move paging Notifications setting to the new tab 
+		*15.0.4.22* FREEI-1480: Renamed the Outbound Route paging notification option from "Notifications" to "Paging Notification" 
+		*15.0.4.21* FREEI-1241: make Notifications option available when creating a new Outbound Route 
+		*15.0.4.20* FREEI-1234
+		*15.0.4.19* FREEI-1239
+		*15.0.4.18* Fixing FREEI-1093 
+		*15.0.4.17* Fixing FREEPBX-20940 
+		*15.0.4.16* FREEI-1019 paginpro Module Doesn't Play Announcement Sound 
+		*15.0.4.15* FREEI-843 Paging not hanging up when audiofile is not present 
+		*15.0.4.14* FREEI-922 Fix XSS Bootstrap Datatable Issues 
+		*15.0.4.13* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.4.12* FREEI-521 Ticket#894180 - Problem with scheduling page 
+		*15.0.4.11* Update alert infos
+		*15.0.4.10* FREEI-444 
+        *15.0.4.9* Fix restore and backup
+		*15.0.4.8* fixing legacy restore
+		*15.0.4.7* Backup and restore
+		*15.0.4.6* FREEPBX-18784 Page announcements message under Park and announce
+		*15.0.4.5* FREEPBX-18980 age Pro Announcements not playing after hangup plus
+		*15.0.4.4* FREEPBX-18920 Page group schedule doesn't hang up
+		*15.0.4.3* FREEPBX-18646 FREEPBX-18647
+		*15.0.4.2* FREEPBX-18643 FREEPBX-18642
+		*15.0.4.1* FREEPBX-18324
+		*15.0.4* FREEPBX-17320 Paging announcement not playing if I set the Conference Room App as app_confbridge
+		*15.0.3* FREEPBX-18253 Fix backup and restore missing methods
+		*15.0.2* Packaging of ver 15.0.2
+        *15.0.1* Backup 15
+	</changelog>
+    <depends>
+        <version>13.0.191.12</version>
+        <module>core ge 13.0.86</module>
+        <module>framework ge 14.0.2.16</module>
+        <module>conferences</module>
+    </depends>
+    <description>Allows creation of paging groups to make announcements using the speaker built into most SIP phones. Also creates an
+        Intercom feature code that can be used as a prefix to talk directly to one person, as well as optional feature codes
+        to block/allow intercom calls to all users as well as blocking specific users or only allowing specific users.</description>
+    <more-info>https://wiki.freepbx.org/display/FPG/Paging+and+Intercom+Module</more-info>
+    <menuitems>
+        <paging needsenginedb="yes">Paging and Intercom</paging>
+    </menuitems>
+    <database>
+        <table name="paging_groups">
+            <field name="page_number" type="string" length="50" default="" primarykey="true"/>
+            <field name="ext" type="string" length="25" default="" primarykey="true"/>
+        </table>
+        <table name="paging_autoanswer">
+            <field name="useragent" type="string" length="190" primarykey="true"/>
+            <field name="var" type="string" length="20" primarykey="true"/>
+            <field name="setting" type="string" length="255"/>
+        </table>
+        <table name="paging_config">
+            <field name="page_group" type="string" length="190" default="" primarykey="true"/>
+            <field name="force_page" type="integer"/>
+            <field name="duplex" type="integer" default="0"/>
+            <field name="description" type="string" length="255" default=""/>
+            <field name="announcement" type="string" length="255" notnull="false"/>
+            <field name="volume" type="integer" default="0"/>
+        </table>
+        <table name="paging_core_routing">
+            <field name="route" type="string" length="25" default="" primaryKey="true"/>
+            <field name="page_id" type="string" length="50" notnull="false"/>
+        </table>
+    </database>
+    <methods>
+        <get_config pri="600">paging600_get_config</get_config>
+    </methods>
+    <popovers>
+        <paging>
+            <display>paging</display>
+            <view>form</view>
+            <action>add</action>
+        </paging>
+    </popovers>
+    <supported>
+        <version>15.0</version>
+    </supported>
+</module>

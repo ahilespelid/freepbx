@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Rest; use Informunity\Classes\CustomClassName; class Custom { public static function GetCustomData($config, $data, $className) { goto p12bG; Mx1Rk: hYzYV: goto SuC8o; jJhJp: if (!class_exists($customClassName)) { goto hYzYV; } goto QT12M; QT12M: return new $customClassName($config, $data); goto Mx1Rk; SuC8o: return new $className($config, $data); goto dAEBV; p12bG: $customClassName = CustomClassName::Get($className); goto jJhJp; dAEBV: } }

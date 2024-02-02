@@ -1,0 +1,128 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for pinsetspro
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 02:24+0000\n"
+"PO-Revision-Date: 2016-08-08 13:59+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
+"pinsetspro/ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "Account Code"
+msgstr ""
+
+msgid "Account Code Reports"
+msgstr ""
+
+msgid "All"
+msgstr "全て"
+
+msgid "Billable Time"
+msgstr ""
+
+msgid "Date Range"
+msgstr ""
+
+msgid "Date/Time"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Detailed Report"
+msgstr ""
+
+msgid "Download CSV Reports"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "Filter by Source"
+msgstr ""
+
+msgid "Filter by account"
+msgstr ""
+
+msgid "Filter by billable time"
+msgstr ""
+
+msgid "Filter by destination"
+msgstr ""
+
+msgid "Filter by duration"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Invalid Command"
+msgstr ""
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Pinless Dialing"
+msgstr "PINコード不要の発信"
+
+msgid "Pinsets Pro"
+msgstr "PINコードプロ"
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Select the date range for the report"
+msgstr ""
+
+#, php-format
+msgid ""
+"Setting Pinless Dialing Yes for the route %s will allow this extension to "
+"bypass any pin codes set under routes password required on outbound calls "
+"for route %s."
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Summary Report"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php Provides reports on calls based on the "
+#~ "account code used"
+#~ msgstr ""
+#~ "有償モジュール。ご利用するには、ライセンスの購入が必要です。詳しくは www."
+#~ "schmoozecom.com/oss.php をご覧ください。アカウントコード別の通話レポートを"
+#~ "生成します"
+
+#~ msgid "Pinsets Code Reports"
+#~ msgstr "PINコードレポート"
+
+#~ msgid "Reports"
+#~ msgstr "レポート"
+
+#~ msgid "Submit"
+#~ msgstr "送信"
+
+#~ msgid "Bypass pin requirments when dialing via outbound route "
+#~ msgstr "アウトバウンドルート経由で発信する場合はPINを要求しない "

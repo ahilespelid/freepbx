@@ -1,0 +1,70 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for contactimage
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 13:11+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Contactimage"
+msgstr ""
+
+msgid ""
+"Enter a relative image URL like this: /image.php or /image.jpg. This will be "
+"appended to the endpoint's ip address"
+msgstr ""
+
+msgid "Generated Module"
+msgstr ""
+
+msgid ""
+"If enabled the image sent to the endpoint will be replaced with the image "
+"provided by this url"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Protocol for URL"
+msgstr ""
+
+msgid ""
+"Protocol for the URL, Can be HTTP or HTTPS. This will be prepended to the "
+"endpoint's ip address"
+msgstr ""
+
+msgid "Relative Image URL"
+msgstr ""
+
+msgid "Remote Images"
+msgstr ""
+
+msgid "Replace Contact image with remote image"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Yes"
+msgstr ""

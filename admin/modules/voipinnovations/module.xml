@@ -1,0 +1,97 @@
+<module>
+	<rawname>voipinnovations</rawname>
+	<repo>commercial</repo>
+	<name>VoIPInnovations</name>
+	<version>15.0.34</version>
+	<category>Connectivity</category>
+	<menuitems>
+		<voipinnovations needsenginedb="yes">Metered SIP Trunking</voipinnovations>
+	</menuitems>
+	<description>
+		This module is used to configure, manage and troubleshoot your VoIPInnovations(tm) SIP trunks and DIDs. The license on this source code is NOT GPL Open Source, it is a proprietary Free to Use license.
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Voip+Innovations+Module</more-info>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<changelog>
+		*15.0.34* Packaging of ver 15.0.34
+		*15.0.33* Packaging of ver 15.0.33
+		*15.0.32* FREEI-5666 
+		*15.0.31* FREEI-5405 
+		*15.0.30* Packaging of ver 15.0.30
+		*15.0.29* Packaging of ver 15.0.29
+		*15.0.28* FREEI-5323 Renaming VI to Metered SIP Trunking 
+		*15.0.27* FREEI-5272 Fixed the reload issue 
+		*15.0.26* Packaging of ver 15.0.26
+		*15.0.25* Packaging of ver 15.0.25
+		*15.0.24* Packaging of ver 15.0.24
+		*15.0.23* FREEI-4970 Mysql getting crashed when I recive the SMS in the description through VI trunk. 
+		*15.0.22* FREEI-4944 
+		*15.0.21* FREEI-4363 VI SMS not working properly 
+		*15.0.20* FREEI-4304 Remove all voice feature blocks for VI module 
+		*15.0.19* FREEI-4243 Linking SMS DID in User Manager for VoIP Innovation trunk does not save 
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEI-3990 Change way VI trunks are created 
+		*15.0.16* FREEI-3972 VI DID verification dialplan breaks without +1 DID 
+		*15.0.15* FREEI-3910 VI MMS issue 
+		*15.0.14* FREEI-3856 Firewall entries for VI module are overly permissive 
+		*15.0.13* FREEI-3856 Firewall entries for VI module are overly permissive 
+		*15.0.12* FREEI-3812 Voip Innovation SMS is not working 
+		*15.0.11* FREEI-3806 An extra + symbol is added to the DID number in VI inbound route 
+		*15.0.10* FREEI-3785 Change proxy IP address for VI trunk 
+		*15.0.9* FREEI-3784 VI module disabled when sip driver set to PJSIP only 
+		*15.0.8* FREEI-3619 Change VI module text showing when not in use 
+		*15.0.7* FREEI-3391 Fixed inbound route issue 
+		*15.0.6* Packaging of ver 15.0.6
+		*15.0.5* FREEI-3391 Need licensing unlock for VI module 
+		*15.0.4* Adding MMS support 
+		*15.0.3* FREEI-3391 Need licensing unlock for VI module 
+		*15.0.2* FREEI-3119: Fix whoops errors caused by using deprecated core routing functions 
+		*15.0.1* Packaging of ver 15.0.1
+		*15.0.0* Initial release
+	</changelog>
+	<depends>
+		<module>core ge 15.0.12.57</module>
+		<module>framework ge 15.0.6.18</module>
+		<module>userman ge 13.0.47</module>
+		<module>sipsettings ge 13.0.26</module>
+		<module>certman ge 13.0.37</module>
+		<module>sms ge 15.0.36</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<sms namespace="FreePBX\modules" class="Sms">
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="loadAdaptor">smsAdaptor</method>
+		</sms>
+		<core class="Core" namespace="FreePBX\modules">
+			<method callingMethod="hookTabs" namespace="FreePBX\Modules" class="Voipinnovations">coreDIDHook</method>
+		</core>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" namespace="FreePBX\Modules" class="Voipinnovations">usermanDelGroup</method>
+			<method callingMethod="addGroup" namespace="FreePBX\Modules" class="Voipinnovations">usermanAddGroup</method>
+			<method callingMethod="updateGroup" namespace="FreePBX\Modules" class="Voipinnovations">usermanUpdateGroup</method>
+			<method callingMethod="myShowPage" namespace="FreePBX\Modules" class="Voipinnovations">usermanShowPage</method>
+			<method callingMethod="delUser" namespace="FreePBX\Modules" class="Voipinnovations">usermanDelUser</method>
+			<method callingMethod="addUser" namespace="FreePBX\Modules" class="Voipinnovations">usermanAddUser</method>
+			<method callingMethod="updateUser" namespace="FreePBX\Modules" class="Voipinnovations">usermanUpdateUser</method>
+		</userman>
+		<ucp class="Ucp">
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="constructModuleConfigPages">ucpConfigPage</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="addUser">ucpAddUser</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="updateUser">ucpUpdateUser</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="delUser">ucpDelUser</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="addGroup">ucpAddGroup</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method namespace="FreePBX\Modules" class="Voipinnovations" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+	</hooks>
+	<oobe method="oobeHook" priority="5000"/>
+	<console>
+		<command>
+			<name>voipinnovations</name>
+		</command>
+	</console>
+</module>

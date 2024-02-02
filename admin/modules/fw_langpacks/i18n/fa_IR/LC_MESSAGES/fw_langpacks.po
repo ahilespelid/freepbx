@@ -1,0 +1,76 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for fw_langpacks
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 08:48+0000\n"
+"PO-Revision-Date: 2016-03-16 23:30+0200\n"
+"Last-Translator: Media <mousavi.media@gmail.com>\n"
+"Language-Team: Persian <http://weblate.freepbx.org/projects/freepbx/"
+"fw_langpacks/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+#: install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
+msgstr "'cp -ru' from src: '%s' to dst: '%s' ...details follow"
+
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
+#: install.php:50 install.php:95
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr "بدون دایرکتوری %s, نیازی به نصب اسکریپت نیست"
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
+
+#: install.php:75 install.php:120
+#, php-format
+msgid "Updated %s"
+msgstr "%s به روز شده"
+
+#: install.php:87 install.php:132
+msgid "an error occured removing the packaged files"
+msgstr "خطایی در حذف بسته های فایل رخ داد"
+
+#: install.php:89 install.php:134
+msgid "files removed successfully"
+msgstr "فایل ها با موفقیت حذف شدند"
+
+#: install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr "fw_langpacks نمیتواند فایل را در %s کپی کند"
+
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr "فایلfw_langpacks mo نصب شد, بسته را از ماژول حذف کنید"
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr "فایل fw_langpacks po نصب شد, بسته را از ماژول حذف کنید"

@@ -1,0 +1,113 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX Swedish language for fw_langpacks
+# Copyright (C) 2009, 2010 Mikael Carlsson
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 08:48+0000\n"
+"PO-Revision-Date: 2008-09-13 23:07+0100\n"
+"Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+
+#: install.php:10
+#, php-format
+msgid "'cp -ru' from src: '%s' to dst: '%s'...details follow"
+msgstr ""
+
+#: fw_langpacks.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: fw_langpacks.i18n.php:4
+msgid "Localization Updates"
+msgstr ""
+
+#: install.php:50 install.php:95
+#, php-format
+msgid "No directory %s, install script not needed"
+msgstr "Ingen katalog %s, installationsskriptet behövs ej"
+
+#: fw_langpacks.i18n.php:8
+msgid ""
+"This module provides a facility to install new and updated localization "
+"translations. Localization i18n translations are still kept with each "
+"module. This provides an easy ability to bring all components up-to-date "
+"without the need to publish dozens of modules for every minor change. The "
+"localization updates used will be the latest available for all modules "
+"regardless of the current version you are running."
+msgstr ""
+
+#: install.php:75 install.php:120
+#, php-format
+msgid "Updated %s"
+msgstr "Uppdaterade %s"
+
+#: install.php:87 install.php:132
+msgid "an error occured removing the packaged files"
+msgstr ""
+
+#: install.php:89 install.php:134
+msgid "files removed successfully"
+msgstr ""
+
+#: install.php:11
+#, php-format
+msgid "fw_langpacks couldn't copy file to %s"
+msgstr ""
+
+#: install.php:83
+msgid "fw_langpacks mo file install done, removing packages from module"
+msgstr ""
+
+#: install.php:128
+msgid "fw_langpacks po file install done, removing packages from module"
+msgstr ""
+
+#~ msgid "FreePBX Localization Updates"
+#~ msgstr "FreePBX språkuppdatering"
+
+#~ msgid ""
+#~ "This module provides a facility to install new and updated localization "
+#~ "translations for all components in FreePBX. Localization i18n "
+#~ "translations are still kept with each module and other components such as "
+#~ "the User Portal (ARI). This provides an easy ability to bring all "
+#~ "components up-to-date without the need of publishing dozens of modules "
+#~ "for every minor change. The localization updates used will be the latest "
+#~ "available for all modules and will not consider the current version you "
+#~ "are running."
+#~ msgstr ""
+#~ "Denna modul installerar nya och uppdaterade översättningar för alla "
+#~ "komponeneter i FreePBX. Översättningar finns fortfarande i varje modul "
+#~ "och i andra komponenter såsom ARI. Denna modul gör det enkelt att "
+#~ "uppdatera översättningar utan att publicera uppdatering för moduler"
+
+#~ msgid "Preparing to copy %s to %s"
+#~ msgstr "Förbereder att kopiera %s till %s"
+
+#~ msgid "No destination directory %s to copy %s to"
+#~ msgstr "Ingen destionationsmapp %s att kopiera %s till"
+
+#~ msgid "Basic"
+#~ msgstr "Allmänt"

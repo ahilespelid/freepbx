@@ -1,0 +1,351 @@
+<module>
+	<rawname>sysadmin</rawname>
+	<name>System Admin</name>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<version>15.0.33.10</version>
+	<authentication>false</authentication>
+	<category>Admin</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#sysadmin</link>
+	</commercial>
+	<more-info>https://wiki.freepbx.org/display/FPG/System+Admin+Module</more-info>
+	<description>System Administration - COMMERCIAL MODULE REQUIRES A LICENSE FOR PRO FEATURES TO BE ENABLED ABOVE THE
+		INCLUDED FREE FEATURES. System Administration - provides access to various
+		system administration tools. This module is designed to work with some very specific distributions such as the
+		FreePBX Distro and PBXact. There are dependencies that are not all listed in this module.xml package so the module
+		should not be used except on the distributions that it is designed for. </description>
+	<changelog>
+		*15.0.33.10* Packaging of ver 15.0.33.10
+		*15.0.33.9* Packaging of ver 15.0.33.9
+		*15.0.33.8* Packaging of ver 15.0.33.8
+		*15.0.33.7* Packaging of ver 15.0.33.7
+		*15.0.33.6* Packaging of ver 15.0.33.6
+		*15.0.33.5* Packaging of ver 15.0.33.5
+		*15.0.33.4* Packaging of ver 15.0.33.4
+		*15.0.33.3* Packaging of ver 15.0.33.3
+		*15.0.33.2* FREEPBX-24334 
+		*15.0.33.1* Packaging of ver 15.0.33.1
+		*15.0.33* Packaging of ver 15.0.33
+		*15.0.32* Packaging of ver 15.0.32
+		*15.0.31* Packaging of ver 15.0.31
+		*15.0.30*    Adding commercial license information 
+		*15.0.29.21* FREEPBX-24127 
+		*15.0.29.20* Packaging of ver 15.0.29.20
+		*15.0.29.19* Packaging of ver 15.0.29.19
+		*15.0.29.18* Packaging of ver 15.0.29.18
+		*15.0.29.17* Packaging of ver 15.0.29.17
+		*15.0.29.16* FREEI-5428 
+		*15.0.29.15* Packaging of ver 15.0.29.15
+		*15.0.29.14* FREEI-5400 
+		*15.0.29.13* Packaging of ver 15.0.29.13
+		*15.0.29.12* Packaging of ver 15.0.29.12
+		*15.0.29.11* FREEI-5143 Cloud migration - skipdns not working 
+		*15.0.29.10* FREEI-5123 
+		*15.0.29.9* FREEI-5123 and SCD-319 
+		*15.0.29.8* FREEI-4974 Licenses not showing in the GUI 
+		*15.0.29.7* Packaging of ver 15.0.29.7
+		*15.0.29.6* FREEI-5029 
+		*15.0.29.5* FREEI-4979 set domain name in fqdn via GQL 
+		*15.0.29.4* FREEI-4979 GraphQL API enhancement for sysadmin port provisioning 
+		*15.0.29.3* FREEI-4590 
+		*15.0.29.2* FREEI-4652  and FREEI-4769 
+		*15.0.29.1*  FREEI-2403 and FREEI-3116
+		*15.0.29*  FREEI-4590 , FREEI-4652 and FREEI-4098 
+		*15.0.28*  FREEI-4436 - Restore - Ability to select modules to ignore
+		*15.0.27.5* FREEI-4677, FREEI-4485 and SCD-237 
+		*15.0.27.4* FREEI-4529 
+		*15.0.27.3* Packaging of ver 15.0.27.3
+		*15.0.27.2* FREEI-4630 
+		*15.0.27.1* FREEI-4485 
+		*15.0.27* FREEI-4486 and FREEI-4597 
+		*15.0.26* FREEI-4445, FREEI-4486 , SCD-219 and FREEI-4533 
+		*15.0.25* FREEI-4563 
+		*15.0.24* FREEI-4435 GraphQL updateProvisioningProtocols - Validate username and password input 
+		*15.0.23* SCD-177 
+		*15.0.22.2* FREEI-4492 
+		*15.0.22.1* SCD-166 
+		*15.0.22* FREEI-4274 , SCD-166, SCD-173 and SCD-150 
+		*15.0.21.101* Packaging of ver 15.0.21.101
+		*15.0.21.100* Packaging of ver 15.0.21.100
+		*15.0.21.99* Packaging of ver 15.0.21.99
+		*15.0.21.98* QA testing improvements 
+		*15.0.21.97* FREEI-4197 Added isset condition to check the existence of ftp_username field 
+		*15.0.21.96* SCD-82: run hooks/update-ports during sysadmin install/update 
+		*15.0.21.95* FREEI-4176 The requested API URL was not found on this server. 
+		*15.0.21.94* Packaging of ver 15.0.21.94
+		*15.0.21.93* SCD-56: add disablereuse=on setting to sangomartapi proxypass lines 
+		*15.0.21.92* FREEI-4094  Call to a member function moduleLicenseInformation() 
+		*15.0.21.91* FREEI-3753 Need to install sysadmin module twice to solve apache-api.conf file not created issue. 
+		*15.0.21.90* vpn client config with custom port 
+		*15.0.21.89* FREEPBX-12422 
+		*15.0.21.88* FREEPBX-12422 Request that OpenVPN Server port be user settable in Sysadmin 
+		*15.0.21.87* Packaging of ver 15.0.21.87
+		*15.0.21.86* FREEI-3710 Removed htmlentities for password fields 
+		*15.0.21.85* FREEI-3843  Force redirect button shows as enabled for ACP in UI by default 
+		*15.0.21.84* FREEI-3710 Sanitised activation form using htmlentities 
+		*15.0.21.83* Fixing FREEI-3888 Increasing sysadmin incrond waiting timeout 
+		*15.0.21.82* FREEI-3948 Fail2ban Intrusion Detection Sync Firewall banned trustedIP's 
+		*15.0.21.81* FREEI-3913 Can t create LE cert when http-&amp;gt;https redirect is enabled 
+		*15.0.21.80* FREEI-3798 Dashboard notices from VPN causing nuisance 
+		*15.0.21.79* FREEI-3858 fail2ban inoperative after restore - missing 
+		*15.0.21.78* FREEI-3842 
+		*15.0.21.77* FREEI-3842  FREEPBX-22772 Non PRO sysadmin asking for user and password authentication 
+		*15.0.21.76* FREEI-3870 
+		*15.0.21.75* Packaging of ver 15.0.21.75
+		*15.0.21.74* FREEI-3755 Removed space in name for EnumType 
+		*15.0.21.73* FREEI-3763 corrected typo and pass force to reset on php upgrade from 5.6 to 7.4 
+		*15.0.21.72* FREEI-3730 Adding description,type,default in fetchSSLCertificates API 
+		*15.0.21.71* Packaging of ver 15.0.21.71
+		*15.0.21.70* FREEPBX-22694 FREEI-3653 Backup restore errors while restoring the sysadmin module and sysadmin module gets uninstalled. 
+		*15.0.21.69* FREEI-3684 Whoops exception on fail2ban_ban_time after restoring 
+		*15.0.21.68* FREEPBX-22658 
+		*15.0.21.67* SMOBILE-49 Add Push Server IPs to sysadmin intrusion detection 
+		*15.0.21.66* FREEI-3625 
+		*15.0.21.65* FREEPBX-22637 
+		*15.0.21.64* FREEI-3107 
+		*15.0.21.63* FREEI-3107 
+		*15.0.21.62* FREEI-3134, FREEI-3107 and FREEI-2931 
+		*15.0.21.61* FREEI-3526 updateProvisioningProtocols  GQL API 
+		*15.0.21.60* FREEI-3526 Adding GQL API to update provisioning protocol 
+		*15.0.21.59* FREEI-3134 Postfix configuration value persistence issue 
+		*15.0.21.58* FREEI-3107 Ticket#975260 - Option To Redirect HTTP to HTTPS 
+		*15.0.21.57* FREEI-3338: add location entries to ssl.conf to route /rtapi and /rtapiws accordingly 
+		*15.0.21.56* FREEI-3397 
+		*15.0.21.55* FREEI-3033 
+		*15.0.21.54* Packaging of ver 15.0.21.54
+		*15.0.21.53* SMOBILE-49 Add Push Server IPs to sysadmin intrusion detection 
+		*15.0.21.52* Packaging of ver 15.0.21.52
+		*15.0.21.51* FREEI-2300-From-Name-in-Sysadmin 
+		*15.0.21.50* Packaging of ver 15.0.21.50
+		*15.0.21.49* FREEI-3033 Add fwconsole sa command to de-activate a system 
+		*15.0.21.48* FREEI-3258 removing oobe ads incase of smartoffice 
+		*15.0.21.47* FREEI-3137 
+		*15.0.21.46* FREEI-3267 Update activation installs the oembranding module but its not redirecting to port 2001 
+		*15.0.21.45* SMOBILE-187 Allow generating Support backup from Commercial module 
+		*15.0.21.44* FREEI-3254 
+		*15.0.21.43* FREEI-3062 api to update ssl certificate 
+		*15.0.21.42* FREEI-3159 adding the condition to restart apache gracefully 
+		*15.0.21.41* Packaging of ver 15.0.21.41
+		*15.0.21.40* FREEI-3137 and FREEI-3135 updateprovision bug for not updating the transaction status and same port bug for acp and sslacp 
+		*15.0.21.39* FREEI-3131 fix the issue of ads not showing up during the activation process 
+		*15.0.21.38*  
+		*15.0.21.37* FREEI-3030 fwconsole command to set the cert to be used for https 
+		*15.0.21.36* FREEI-3056 hadling the case when hook terminates 
+		*15.0.21.35* FREEI-2663 add tests for expired cert 
+		*15.0.21.34* FREEI-2912 methods for set and get hostname along with utest 
+		*15.0.21.33* FREEI-2864 Change default ssl protocol for Apache in console 
+		*15.0.21.32* FREEI-2774 gql api for fetch &amp;amp;&amp;amp; install ssl certificates 
+		*15.0.21.31* FREEI-2756 fail2ban not starting 
+		*15.0.21.30* Packaging of ver 15.0.21.30
+		*15.0.21.29* FREEI-2864 Change default ssl protocol for Apache 
+		*15.0.21.28* FREEI-2844 bug fix for redeclare of a function 
+		*15.0.21.27* FREEI-2854 Replace Rebuilt with Rebuild. 
+		*15.0.21.26* FREEPBX-22252 fixe apache error 
+		*15.0.21.25* FREEI-2815 bugfixed as new system without any module licence case was not handled and unable to trackdown deployment Id 
+		*15.0.21.24* FREEI-2665 
+		*15.0.21.23* Packaging of ver 15.0.21.23
+		*15.0.21.22* FREEI-2720 
+		*15.0.21.21* FREEI-2753 removed the unlock api as we are doing through url like cloud 
+		*15.0.21.20* FREEI-2663 Improve the code for avoid error ajax. 
+		*15.0.21.19* Ability to activate sysadmin against staging servers 
+		*15.0.21.18* FREEI-2753 remote unlock key adding 
+		*15.0.21.17* FREEI-2663 fixe whoops error 
+		*15.0.21.16* FREEI-2663 Add ability to disable insecure TLS protocols in Apache 
+		*15.0.21.15* FREEI-2758 
+		*15.0.21.14* FREEI-2742 sysadmin fail2ban name change 
+		*15.0.21.13* Packaging of ver 15.0.21.13
+		*15.0.21.12* FREEI-2742 Fail2ban sends the incorrect e-mail notification message 
+		*15.0.21.11* FREEI-2495 OpenVPN Server revoking certs after 180 days 
+		*15.0.21.10* FREEI-2667 Backup fails with PHP Fatal error: Allowed memory size 
+		*15.0.21.9* Packaging of ver 15.0.21.9
+		*15.0.21.8* Packaging of ver 15.0.21.8
+		*15.0.21.7* Packaging of ver 15.0.21.7
+		*15.0.21.6* FREEI-2582 I.D is shown in sysadmin module even if Firewall is enabled 
+		*15.0.21.5* Fixing FREEI-1713 
+		*15.0.21.4* Packaging of ver 15.0.21.4
+		*15.0.21.3* Fixing FREEI-2481 
+		*15.0.21.2* Fixing FREEI-2542
+		*15.0.21.1* Fixing FREEI-2512 - Use custom acp port not default during OOBE actiation process 
+		*15.0.21* FREEI-2270 - Adding Packet Capture option
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* FREEI-2368 fwconsole cannot parse AMPDBHOST with different port 
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17*    FREEI-1982 Moving Intrusion detection to firewall
+		*15.0.16.24* Fixing FREEI-2140 Prov protocol saving issue 
+		*15.0.16.23* FREEI-2269 8443 can be used on System Admin (it shouldn't) 
+		*15.0.16.22* fixing FREEI-2393 
+		*15.0.16.21* FREEI-2320 Apache error when activating from command line 
+		*15.0.16.20* Packaging of ver 15.0.16.20
+		*15.0.16.19* Packaging of ver 15.0.16.19
+		*15.0.16.18* FREEI-2228 activation issues randomly not installing the oembranding 
+		*15.0.16.17* Packaging of ver 15.0.16.17
+		*15.0.16.16* Packaging of ver 15.0.16.16
+		*15.0.16.15* FREEI-2227 FREEI-2228 
+		*15.0.16.14* removed skip apache restart 
+		*15.0.16.13* Packaging of ver 15.0.16.13
+		*15.0.16.12* Packaging of ver 15.0.16.12
+		*15.0.16.11* Fixing FREEI-1932 Installing OEM brand if we trigger update license command from CLI 
+		*15.0.16.10* FREEI-1621 adding fail2ban on zulu 
+		*15.0.16.9* FREEI-1848 Define a good location for tmp and log file for the Firewall module 
+		*15.0.16.8* Improvements to oembranding
+		*15.0.16.7* FREEI-1880 Increase curl connection timeout 
+		*15.0.16.6* FREEI-1759 Fix issue with oembranding install
+		*15.0.16.5* FREEI-1759 Redirect to port 2001 when installing PBXAct 
+		*15.0.16.4* FREEI-1652 
+		*15.0.16.3* Packaging of ver 15.0.16.3
+		*15.0.16.2* FREEI-1652 Changing port to 8088 at System Admin &gt; Ports Management
+		*15.0.16.1* FREEI-1689 Update version section in sysadmin
+		*15.0.16* FREEI-1551 https setup not replicating to warm spare 
+		*15.0.15* Fixing FREEI-1622 Redirecting Buy option for PBXact system to Sangoma Pbxact web page 
+		*15.0.14* bump 
+		*15.0.13.19* FREEI-1491 
+		*15.0.13.18* bump 
+		*15.0.13.17* bump 
+		*15.0.13.16* FREEI-957 Give users an opportunity to update modules after fresh install
+		*15.0.13.15* FREEI-1310 pms and oracle_connector module not licensed correctly 
+		*15.0.13.14* FREEI-975 freepbx 15 restore corrupts intrusion detection values 
+		*15.0.13.13* FREEI-1266 
+		*15.0.13.12* FREEI-1196 Cannot restore a FPBX13 backup into 15
+		*15.0.13.11* FREEI-878 Determine status of 'Provisioning Protocols' feature 
+		*15.0.13.10* FREEI-893 allowing to activate only FreePBXDistro brand_name 
+		*15.0.13.9* FREEI-862 FREEI-865 PBX End Of Line Production Test 
+		*15.0.13.8* FREEI-893 PBXact Deployment ID  check 
+		*15.0.13.7* Packaging of ver 15.0.13.7
+		*15.0.13.6* FREEI-845 backports to 14 
+		*15.0.13.5* FREEI-845 Verify that a network interface is on a machine 
+		*15.0.13.4*  bump 
+		*15.0.13.3*  FREEI-694 Built-in DHCP server giving out wrong DHCP option 66 
+		*15.0.13.2*  FREE-693 
+		*15.0.13.1*  Adding Fetch Hostname API
+		*15.0.13* Fixing FREEI-536 Adding renegotiation timer value in openvpn configurations 
+		*15.0.12* FREEI-578 sysadmin network definitions - - only eth0 polulating data 
+		*15.0.11* FREEPBX-19939 Cliente VPN duplicate 
+		*15.0.10* FREEI-569 - move sysadmin cron to the FreePBX Job Scheduler 
+		*15.0.9* Dont reinclude freepbx.conf
+		*15.0.8.2* FREEPBX-19378 Advanced Settings: User Management Email From: Address Ignored 
+		*15.0.8* Use lazy loading console commands
+		*15.0.7.1* Fix backup and restore
+		*15.0.7* fixing legacy restore
+		*15.0.6* Fix backup and restore
+		*15.0.5.11* bump
+		*15.0.5.10* Fixing FREEPBX-18974 'vpn add' hook file issues
+		*15.0.5.9* FREEPBX-18417 HTTPS Autoprovision Password Cannot Have Special Characters
+		*15.0.5.8* Fixing FREEPBX-12421 Adding ovpn file also while downloading vpn client configuration
+		*15.0.5.7* Fixing FREEPBX-13590 VPN connection status issue
+		*15.0.5.6* FREEPBX-18766 - do not display ssl to PBXact Cloud customers
+		*15.0.5.5* FREEPBX-18695 support tarball is not generated properly issue fix
+		*15.0.5.4* TELE-851 FREEPBX-18667 - update sysadmin vpnserver hooks for adding and deleting users to prevent rewriting the server config everytime
+		*15.0.5.3* FREEPBX-18568 - update sysadmin_extensions_limit to exclude disabled modules extensions
+		*15.0.5.2* FREEPBX-18479 FREEPBX-18475 - get the deployments registered hostname correctly
+		*15.0.5.1* FREEPBX-18484 crash after installing SystemAdmin 15.0.5
+		*15.0.5* FREEPBX-18475 - do not write the email line if we are using the deployments.pbxact.com hostname for the to email since it will bounce
+		*15.0.4* FREEPBX-18320 Adding BATTERYLEVEL option for sysadmin UPS support
+		*15.0.3* Add backup 15
+		*15.0.2* Add Backup 15.0
+		*15.0.1.5* FREEPBX-12977 Update text to indicate renewal state
+		*15.0.1.4* FREEPBX-18129 Fix cron jobs to redirect output
+		*15.0.1.3* Fixing FREEPBX-18056 fail2ban apache-tcpwrapper
+		*15.0.1.2* FREEPBX-17945 Sysadmin DDNS Force IP field needs validation, private IP address is not supported
+	</changelog>
+	<depends>
+		<module>framework ge 15.0.6.18</module>
+		<module>core ge 15.0.0</module>
+		<module>backup ge 15.0.19</module>
+		<module>certman ge 15.0.48</module>
+		<phpversion>5.6.0</phpversion>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<file>/usr/sbin/incrond</file>
+	</depends>
+	<menuitems>
+		<sysadmin>System Admin</sysadmin>
+	</menuitems>
+	<bootstrap_hooks>
+		<pre_module_load>
+			<all_mods>modules/sysadmin/agi-bin/LoadLicenseIfExists.php</all_mods>
+		</pre_module_load>
+	</bootstrap_hooks>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Sysadmin" namespace="FreePBX\modules">dashboardService</method>
+		</dashboard>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Sysadmin" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Sysadmin" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="myShowPage" class="Sysadmin" namespace="FreePBX\modules">usermanShowPage</method>
+			<method callingMethod="addUser" class="Sysadmin" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Sysadmin" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method class="Sysadmin" namespace="FreePBX\modules" callingMethod="addGroup">usermanAddGroup</method>
+			<method class="Sysadmin" namespace="FreePBX\modules" callingMethod="updateGroup">usermanUpdateGroup</method>
+		</userman>
+		<userman class="Certman" namespace="FreePBX\modules">
+			<method callingMethod="updateCertificate" class="Sysadmin" namespace="FreePBX\modules">updateCertManCert</method>
+		</userman>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Sysadmin" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Sysadmin" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Sysadmin" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Sysadmin" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Sysadmin" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Sysadmin" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Sysadmin" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+		<framework class="Motd" namespace="FreePBX\Console\Command">
+			<method callingMethod="externalMessages" class="Sysadmin" namespace="FreePBX\modules">updateMessages</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="sysadmin_options">
+			<field name="key" type="string" length="25" notnull="false"/>
+			<field name="value" type="text" notnull="false"/>
+			<key name="key" type="unique">
+				<column name="key"/>
+			</key>
+		</table>
+		<table name="sysadmin_update_log">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="time" type="bigint" notnull="false"/>
+			<field name="version" type="string" length="25" notnull="false"/>
+			<field name="status_id" type="smallint" notnull="false"/>
+			<field name="status" type="string" length="255" notnull="false"/>
+		</table>
+		<table name="sysadmin_fail2ban">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="filter_owner" type="string" length="25" notnull="false"/>
+			<field name="filter_rule" type="string" length="25" notnull="false"/>
+			<field name="logpath" type="string" notnull="40"/>
+			<field name="opt_name" type="string" length="25" notnull="false"/>
+			<field name="opt_port" type="string" length="25" default="" notnull="false"/>
+			<field name="opt_protocol" type="string" length="25" default="all" notnull="false"/>
+			<field name="active" type="smallint" default="1" notnull="true"/>
+			<key name="filter_owner" type="unique">
+				<column name="filter_owner"/>
+			</key>
+		</table>
+		<table name="sysadmin_expiry_notifications">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="type" type="string" length="25" notnull="true"/>
+			<field name="module" type="string" length="25" notnull="true"/>
+			<field name="module" type="string" length="150" notnull="true"/>
+			<field name="expired_date" type="bigint" notnull="true"/>
+			<field name="created_at" type="datetime" notnull="true"/>
+		</table>
+	</database>
+	<oobe method="oobeHook" priority="90"/>
+	<console>
+		<command>
+			<name>sysadmin</name>
+			<alias>sa</alias>
+		</command>
+	</console>
+</module>

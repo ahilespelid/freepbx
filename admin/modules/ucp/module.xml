@@ -1,0 +1,151 @@
+<module>
+	<rawname>ucp</rawname>
+	<name>User Control Panel</name>
+	<repo>standard</repo>
+	<version>15.0.15</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<description>
+		The user control panel is a way for users to control call handling and personal settings from a web browser.
+	</description>
+  	<more-info>https://wiki.freepbx.org/pages/viewpage.action?pageId=28180526</more-info>
+	<changelog>
+		*15.0.15* FREEPBX-24071 Updated moment timezone library 
+		*15.0.14.10* Packaging of ver 15.0.14.10
+		*15.0.14.9* FREEPBX-24071 
+		*15.0.14.8* FREEI-5572 
+		*15.0.14.7* FREEI-5111 
+		*15.0.14.6* Packaging of ver 15.0.14.6
+		*15.0.14.5* Packaging of ver 15.0.14.5
+		*15.0.14.4* Packaging of ver 15.0.14.4
+		*15.0.14.3* Packaging of ver 15.0.14.3
+		*15.0.14.2* Packaging of ver 15.0.14.2
+		*15.0.14.1* FREEPBX-23428 UCP password reset link valid until date and time showing
+		*15.0.14* FREEI-4412 and FREEI-4572 
+		*15.0.13* SCD-104 updated sortable library 
+		*15.0.12* FREEI-4235 UCP error: MySQL server has gone away code: 2006 
+		*15.0.11* SCD-21 password reset page that can be reached by a url 
+		*15.0.10* FREEI-3374 Vuln-001 Stored Cross-Site Scripting 
+		*15.0.9* FREEI-3161 Add forgot password check 
+		*15.0.8* FREEI-3762 fixed the issue by creating the compiled minified js file upon ucp installation itself 
+		*15.0.7*    FREEI-3369 Adding UCP template feature 
+		*15.0.6.29* FREEI-3551 
+		*15.0.6.28* FREEI-3161 Need userman password validation rules 
+		*15.0.6.27* FREEI-3218 Can get valid email address/login name from UCP forgot password form 
+		*15.0.6.26* Packaging of ver 15.0.6.26
+		*15.0.6.25* Packaging of ver 15.0.6.25
+		*15.0.6.24* Packaging of ver 15.0.6.24
+		*15.0.6.23* FREEI-2467-ucp-url-error 
+		*15.0.6.22* Packaging of ver 15.0.6.22
+		*15.0.6.21* FREEI-2368 fwconsole cannot parse AMPDBHOST with different port 
+		*15.0.6.20* Packaging of ver 15.0.6.20
+		*15.0.6.19* Packaging of ver 15.0.6.19
+		*15.0.6.18* Packaging of ver 15.0.6.18
+		*15.0.6.17* FREEI-1784 Changing the logo,favicon [ucp] 
+		*15.0.6.16* FREEI-1638 UCP daemon not running - should be : disabled in advanced settings 
+		*15.0.6.15* FREEI-1495 UCP phone incorrectly labeled as : Softphone (Zulu) 
+		*15.0.6.14* FREEI-1099 Improve poll error notification in UCP 
+		*15.0.6.13* FREEI-931: sanitize the date and time format fields like we do for some of the other fields to prevent script injections 
+		*15.0.6.12* FREEPBX-20615 cannot regenerate deleted session 
+		*15.0.6.11* update JShrink lib 
+		*15.0.6.10* FREEPBX-20473 Apache Errors when browsing UCP 
+		*15.0.6.9* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.6.8* Fixing FREEPBX-20211, FREEPBX-20212, FREEPBX-20215 
+		*15.0.6.7* Fixes FREEPBX-20455: add $dashboard_id to the getDisplay() signature 
+		*15.0.6.6* FREEPBX-20209 FreePBX 15 module UCP fails to install under Raspbian (Debian) OS 
+		*15.0.6.5* FREEPBX-18543 Fixe UCP Username Change bug 
+		*15.0.6.4* FREEPBX-16181 Fixe icu issue under Ubuntu, Debia 
+		*15.0.6.3* Fixing FREEPBX-19390 
+		*15.0.6.2* FREEEPBX-19390 
+		*15.0.6.1* tampered file warning
+		*15.0.5* fixing legacy restore
+		*15.0.4* Fix UCP
+		*15.0.3* trigger post-body.widgets even if there are no dashboards
+		*14.0.2.9* FREEPBX-17784 UCP - Forgot password
+		*14.0.2.8* Fix method calls and no widget dashboards
+		*14.0.2.7* Fixing FREEPBX-17566 spelling errors
+		*14.0.2.6* Fix logrotate
+		*14.0.2.5* FREEPBX-16566 Originate command not working on UCP
+		*14.0.2.4* Remove reference to large asset
+		*14.0.2.3* FREEPBX-16916
+		*14.0.2.2* Upgrade moment library
+		*14.0.2.1* FREEPBX-16270 UCP email password reset "valid until" needs clarification
+		*14.0.2* Widget formatting
+		*14.0.1.5* Move polling to ajax
+		*14.0.1.4* Fix group permissions
+		*14.0.1.3* FREEPBX-15576
+		*14.0.1.2* FREEPBX-15430 call to wrong object
+		*14.0.1.1* Check npm status on installation
+		*14.0.1* Stable release
+		*14.0.1beta12* FREEPBX-14223
+		*14.0.1beta11* For super slow systems
+		*14.0.1beta10* Start/Stop/Restart/Dashboard hooks
+		*14.0.1beta9* Move the reset function lower for slow systems
+		*14.0.1beta8* Utilize pm2
+		*14.0.1beta7* Fix depends
+		*14.0.1beta6* Moving UCPNode into UCP
+		*14.0.1beta5* If we're not USING the minified files, don't make them.
+		*14.0.1beta4* Prevent duplicate chat messages
+		*14.0.1beta3* FREEPBX-14639 Use onerror in UCP 14
+		*14.0.1beta2* FREEPBX-14383, FREEPBX-14454
+		*14.0.1beta1* Dynamic widgets support
+		*14.0.1alpha1* Initial Release
+	</changelog>
+	<category>Admin</category>
+	<menuitems>
+		<ucptab access="all" category="User Panel" href="/ucp" requires_auth="false" target="ucp">UCP</ucptab>
+	</menuitems>
+	<fileinclude>
+	    <install>install.inc.php</install>
+	</fileinclude>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Ucp">delGroup</method>
+			<method callingMethod="addGroup" class="Ucp">addGroup</method>
+			<method callingMethod="updateGroup" class="Ucp">updateGroup</method>
+			<method callingMethod="delUser" class="Ucp">delUser</method>
+			<method callingMethod="addUser" class="Ucp">addUser</method>
+			<method callingMethod="updateUser" class="Ucp">updateUser</method>
+			<method callingMethod="sendWelcomeEmail" class="Ucp">usermanSendEmail</method>
+			<method callingMethod="myShowPage" class="Ucp">usermanShowPage</method>
+		</userman>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Ucp">chownFreepbx</method>
+		</framework>
+		<certman class="Certman" namespace="FreePBX\modules">
+			<method callingMethod="makeCertDefault" class="Ucp">setDefaultCert</method>
+		</certman>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Ucp">dashboardService</method>
+		</dashboard>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Ucp">startFreepbx</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Ucp">stopFreepbx</method>
+		</framework>
+	</hooks>
+	<database>
+		<table name="ucp_sessions">
+			<field name="session" type="string" length="190" primarykey="true"/>
+			<field name="uid" type="integer" notnull="false"/>
+			<field name="address" type="string" length="255" notnull="false"/>
+			<field name="time" type="integer" notnull="false"/>
+			<field name="socketid" type="string" length="255" notnull="false"/>
+			<key name="session_UNIQUE" type="unique">
+				<column name="session"/>
+			</key>
+		</table>
+	</database>
+	<depends>
+		<module>userman ge 15.0.42</module>
+		<module>core ge 12.0.1alpha25</module>
+		<version>15.0.34</version>
+		<module>pm2 ge 13.0.3.18</module>
+		<module>certman ge 13.0.36.6</module>
+	</depends>
+</module>

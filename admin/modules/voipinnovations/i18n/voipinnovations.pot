@@ -1,0 +1,775 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for voipinnovations
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-28 06:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, php-format
+msgid "%s Route(s) updated"
+msgstr ""
+
+#, php-format
+msgid "%u"
+msgstr ""
+
+#, php-format
+msgid ""
+"'Enable TLS' for 'Chan SIP' is currently set to '%s', this must be changed "
+"to '%s', change this %s and refresh this page"
+msgstr ""
+
+#, php-format
+msgid ""
+"'SSL Method' for 'Chan SIP' is currently set to '%s', this must be changed "
+"to '%s', change this %s and refresh this page"
+msgstr ""
+
+msgid ""
+". Failure to do so may result in SMS/MMS delivery failure after March 31, "
+"2023."
+msgstr ""
+
+#, php-format
+msgid ""
+"<strong>This module requires PJSIP technology, Chan_pjsip not supported when "
+"SIP driver is forced to chan_sip.</strong><br/><br/>"
+msgstr ""
+
+msgid "Account Key"
+msgstr ""
+
+msgid "Account Services"
+msgstr ""
+
+msgid "Add Key"
+msgstr ""
+
+msgid "Added New Trunks. Please hit Apply Config to apply the new settings"
+msgstr ""
+
+msgid "Added Routes"
+msgstr ""
+
+msgid "Additional E911 Addresses"
+msgstr ""
+
+msgid "Address 1"
+msgstr ""
+
+msgid "Address 2"
+msgstr ""
+
+msgid "Address On Record"
+msgstr ""
+
+msgid "Address1:"
+msgstr ""
+
+msgid "Address2:"
+msgstr ""
+
+msgid "All route areacodes updated"
+msgstr ""
+
+msgid "Allow SMS"
+msgstr ""
+
+msgid "An Error occurred trying run firewall test"
+msgstr ""
+
+msgid "An Error occurred trying to contact the server for account settings."
+msgstr ""
+
+msgid "An unexpected token was returned, try the test again"
+msgstr ""
+
+msgid ""
+"Are you an enterprise, an ITSP, or MSP looking to provide high-value "
+"services to your customers, without hassle?"
+msgstr ""
+
+msgid "Area Code"
+msgstr ""
+
+msgid "Assign which users will get SMSes routed through this inbound route"
+msgstr ""
+
+msgid "Benefits:"
+msgstr ""
+
+msgid "Caller ID"
+msgstr ""
+
+msgid "Caller ID For this DID"
+msgstr ""
+
+msgid "Caller ID for Emergency calls"
+msgstr ""
+
+msgid "Caller Name:"
+msgstr ""
+
+msgid "Chan_PJSIP has been enabled because this system is in PJSIP only mode"
+msgstr ""
+
+msgid "Chan_PJSIP is not supported on PBX 13.0 or lower"
+msgstr ""
+
+msgid "Chan_PJSIP is not supported when SIP Driver is forced to Chan_SIP"
+msgstr ""
+
+msgid "Check Connectivity"
+msgstr ""
+
+#, php-format
+msgid ""
+"Check Primary (%s) Trunk for each route that should be configured with the "
+"%s service. The trunk will be inserted into the corresponding routes upon "
+"clicking the %s button. You can enable 7 digit dialing with the trunk by "
+"entering your area code as well."
+msgstr ""
+
+msgid ""
+"Choose the features you need for all your locations and work with one vendor "
+"for all your needs, using our robust self-serve portal, eliminating the need "
+"to work with multiple providers."
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "City:"
+msgstr ""
+
+msgid "Clear Failover"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid "DID"
+msgstr ""
+
+msgid "DID Updates"
+msgstr ""
+
+msgid "DID Verification"
+msgstr ""
+
+msgid "DID not found"
+msgstr ""
+
+msgid "DID not provided"
+msgstr ""
+
+msgid ""
+"DIDs without inbound routes have been detected and default routes set, you "
+"need to reload your system for them to take effect"
+msgstr ""
+
+msgid "Data Missing from request"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Destination appears to be an invalid URI."
+msgstr ""
+
+msgid "E911 Caller ID"
+msgstr ""
+
+#, php-format
+msgid "E911 Information for %s"
+msgstr ""
+
+msgid "ERROR"
+msgstr ""
+
+msgid "Edit CallerID Information"
+msgstr ""
+
+msgid "Edit Destination Information"
+msgstr ""
+
+msgid "Edit E911 Information"
+msgstr ""
+
+msgid "Edit Global Failover"
+msgstr ""
+
+msgid "Edit/Update"
+msgstr ""
+
+msgid "Emergency Caller ID"
+msgstr ""
+
+msgid "Enable Primary Gateway"
+msgstr ""
+
+msgid "Enable SMS in UCP for this user"
+msgstr ""
+
+msgid "Enterprise"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Expires in"
+msgstr ""
+
+msgid "External Connectivity"
+msgstr ""
+
+msgid "External IP"
+msgstr ""
+
+msgid "FIREWALL TEST ERROR"
+msgstr ""
+
+msgid "FIREWALL TEST WARNING"
+msgstr ""
+
+msgid "Failover Configuration"
+msgstr ""
+
+msgid "Failover Destination"
+msgstr ""
+
+msgid "Failover Destination Updated, Number Was not Updated"
+msgstr ""
+
+msgid "Failover FQDN / IP:"
+msgstr ""
+
+msgid "Failover Number"
+msgstr ""
+
+msgid "Failover Number Updated, Destination Was not Updated"
+msgstr ""
+
+msgid "Failover Number:"
+msgstr ""
+
+msgid "Failover Update Failed"
+msgstr ""
+
+msgid "Failover Updated"
+msgstr ""
+
+msgid "Firewall Status"
+msgstr ""
+
+msgid "Gateways"
+msgstr ""
+
+msgid "Get a Quote"
+msgstr ""
+
+msgid "Global Failover"
+msgstr ""
+
+msgid "Global Failover Destination"
+msgstr ""
+
+msgid "Global Failover IP/FQDN"
+msgstr ""
+
+msgid "Global Failover Number"
+msgstr ""
+
+msgid "Global Failover Trunk Group"
+msgstr ""
+
+msgid "Go to Module Admin"
+msgstr ""
+
+msgid ""
+"Have access to all of VI Communication Services no matter where you are and "
+"create brandable end-user portals for your customers to make service changes "
+"themselves."
+msgstr ""
+
+msgid "Here"
+msgstr ""
+
+msgid ""
+"Here you can manage your DIDs<br>Specifically you can do the following: "
+msgstr ""
+
+#, php-format
+msgid "I agree to additional charges and have read the documentation here: %s"
+msgstr ""
+
+msgid ""
+"In the event that your system is not registered or our servers can not reach "
+"you, you can provide an IP, a full domain where we should try to deliver "
+"your calls or select another trunk group that you have. If we can't deliver "
+"the call to this address or trunk group and you have a failover number set, "
+"we will send the call there"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "International Calling"
+msgstr ""
+
+msgid "Invalid Account Key Code provided"
+msgstr ""
+
+msgid ""
+"It's CRITICALLY IMPORTANT that VoIP Innovations customers using SMS/MMS "
+"review the information at the VI wiki for campaign registration at "
+msgstr ""
+
+msgid "KEYS AND TRUNKS REMOVED!"
+msgstr ""
+
+msgid "Last Call"
+msgstr ""
+
+msgid "Location Information"
+msgstr ""
+
+msgid "Message from VoIP_Innovations"
+msgstr ""
+
+msgid "Metered SIP Trunking"
+msgstr ""
+
+msgid "Metered SIP Trunking Settings"
+msgstr ""
+
+msgid "Module Out of date."
+msgstr ""
+
+msgid ""
+"Module to automatically configure VI Communication Services. Once you have "
+"configured your endpoint at VI, enter your account key below. The key is "
+"very long, use \"Copy\" &amp; \"Paste\" to copy it here. The key will be "
+"stored securely and can be removed at any time to stop access."
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "NO CODECS"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid ""
+"No Free Ports in Asterisk RTP Port Range available for testing, you can try "
+"later"
+msgstr ""
+
+msgid "No Trunk Groups Defined"
+msgstr ""
+
+msgid "No areacode provided"
+msgstr ""
+
+msgid "No devices to update"
+msgstr ""
+
+msgid "No internet connection. Please check and try again in a few minutes."
+msgstr ""
+
+msgid ""
+"No large minimum spends, carrier negotiations, or contracts to maintain."
+msgstr ""
+
+msgid "No valid data received"
+msgstr ""
+
+msgid "Not Availible for Trial Accounts"
+msgstr ""
+
+msgid "Not Availible on Trial accounts"
+msgstr ""
+
+msgid "Not Registered"
+msgstr ""
+
+msgid "Not Set"
+msgstr ""
+
+msgid "Nothing Changed"
+msgstr ""
+
+msgid "Nothing was changed"
+msgstr ""
+
+msgid ""
+"One single vendor to work with for all your locations, simplifying "
+"relationships, taxes and billing."
+msgstr ""
+
+msgid "Outbound Fax"
+msgstr ""
+
+msgid ""
+"Pay only for your usage and the features you need VI Communication Services "
+"is Sangoma’s Metered SIP Trunking services."
+msgstr ""
+
+msgid "Please check with your reseller to get it updated"
+msgstr ""
+
+msgid ""
+"Please enter your Account key, this can be obtained from the "
+"VoIP_Innovations portal."
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Primary Failover"
+msgstr ""
+
+msgid ""
+"Provide your 3 digit area code if you would like your trunks to allow 7 "
+"digit dialing and automatically prepend your area code. This requires the "
+"route to be configured to send a 7 digit number."
+msgstr ""
+
+#, php-format
+msgid "Questions or Issues can be directed to our %s at %s"
+msgstr ""
+
+msgid "Refresh Asterisk Account Info"
+msgstr ""
+
+msgid "Refreshing Account Info"
+msgstr ""
+
+msgid "Register for SMS campaigns before March 31, 2023"
+msgstr ""
+
+msgid "Registration Status"
+msgstr ""
+
+msgid ""
+"Remote Server Error. Please try again in 10 minutes, If you continue to have "
+"problems please contact support and give them this error code"
+msgstr ""
+
+#, php-format
+msgid ""
+"Remote trunk settings have been changed (%s). Please hit Apply Config to "
+"apply the new settings"
+msgstr ""
+
+msgid ""
+"Remote trunk settings have been changed. Please hit Apply Config to apply "
+"the new settings"
+msgstr ""
+
+msgid "Remove Key"
+msgstr ""
+
+msgid "Remove Key & Delete Trunks"
+msgstr ""
+
+msgid "Removing AstDB Entries"
+msgstr ""
+
+msgid "Renaming Voipinnovations module info"
+msgstr ""
+
+msgid "Route Name"
+msgstr ""
+
+msgid "Route To"
+msgstr ""
+
+msgid "Route Updated, Apply Config"
+msgstr ""
+
+msgid "Route Your DID to a specified location"
+msgstr ""
+
+msgid "Routing Information"
+msgstr ""
+
+msgid "SERVER ERROR"
+msgstr ""
+
+msgid "SIP Username"
+msgstr ""
+
+msgid "SMS Assigned DIDs"
+msgstr ""
+
+msgid "SMS Support"
+msgstr ""
+
+msgid "SMS/User Assignment"
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+msgid "Secondary"
+msgstr ""
+
+msgid "Secondary Failover"
+msgstr ""
+
+msgid ""
+"Select/Unselect the butons and submit to add/remove this service as the "
+"primary trunks to any listed route. If gateway is already configured in the "
+"route, the box will be checked, even if they are not the primary trunks for "
+"that route. Click on the route name to link directly to the Outbound Routes "
+"page for any route."
+msgstr ""
+
+msgid "Service Providers"
+msgstr ""
+
+msgid "Sip Gateways"
+msgstr ""
+
+msgid "Sip Password"
+msgstr ""
+
+msgid "Sip Username"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "State:"
+msgstr ""
+
+#, php-format
+msgid "Successfully updated or created %s inbound routes for your DIDs"
+msgstr ""
+
+#, php-format
+msgid "Successfully updated or set failover for your %s DIDs"
+msgstr ""
+
+msgid "Support Center"
+msgstr ""
+
+msgid "System Status"
+msgstr ""
+
+#, php-format
+msgid ""
+"The TLS transport for Chan PJSIP is currently disabled, please enabled it "
+"under Chan PJSIP %s and refresh this page"
+msgstr ""
+
+msgid ""
+"The Voipinnovations module name is changed and is accessible from the "
+"connectivity menu as Metered SIP Trunking."
+msgstr ""
+
+#, php-format
+msgid "The current trunk is utilizing %s using an RTP range of %s-%s"
+msgstr ""
+
+msgid ""
+"The interface on our servers has been updated to provide new information for "
+"the VoIP_Innovations module."
+msgstr ""
+
+#, php-format
+msgid ""
+"The prefix you entered, %s, is not a proper prefix or the wrong length. It "
+"should be a 3 digit prefix."
+msgstr ""
+
+msgid ""
+"The server is currently not responding. It is either unavailable or access "
+"is being blocked. If the server is unavailable, please try again later."
+msgstr ""
+
+msgid ""
+"The server is currently unavailable and we can not process your request. "
+"Please check back with us later. We apologize for the inconvenience."
+msgstr ""
+
+msgid ""
+"The test timed out which means your firewall is probably configured wrong. "
+"If subsequent tests fail, check your port forwarding on the firewall."
+msgstr ""
+
+#, php-format
+msgid ""
+"There were %s validation failures on the requested DIDs, no updates performed"
+msgstr ""
+
+msgid "These are the SMS DIDs that are assigned to this user for use in UCP"
+msgstr ""
+
+msgid "This item is not available in trial mode"
+msgstr ""
+
+msgid ""
+"This module is used to configure, manage and troubleshoot your "
+"VoIPInnovations(tm) SIP trunks and DIDs. The license on this source code is "
+"NOT GPL Open Source, it is a proprietary Free to Use license."
+msgstr ""
+
+#, php-format
+msgid ""
+"To disable account access, click %s. The auto generated trunk, route and DID "
+"configurations will remain active even if the key is removed.\n"
+"\t\t\tTo also remove the Trunks, chose the %s options instead"
+msgstr ""
+
+msgid "Trunk Group"
+msgstr ""
+
+msgid "Trunk Group Name:"
+msgstr ""
+
+msgid "Trunk Group for calls to fail over to."
+msgstr ""
+
+msgid "Trunk Group: "
+msgstr ""
+
+msgid "Trunk Updates"
+msgstr ""
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Unable to remove AstDB Entries, AstDB not availible."
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Route/Trunk Configurations"
+msgstr ""
+
+msgid ""
+"VI communication Services offers these metered services you are looking for."
+msgstr ""
+
+msgid "VOIPINNOVATIONS DID routed"
+msgstr ""
+
+msgid "VoIP Innovations SMS"
+msgstr ""
+
+msgid "VoIPInnovations"
+msgstr ""
+
+msgid "VoIP_Innovations"
+msgstr ""
+
+msgid "VoIP_Innovations DID Verification"
+msgstr ""
+
+msgid "Voipinnovations"
+msgstr ""
+
+msgid "Voipinnovations Key not set"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You must update this module to the newest version to so it can work with "
+"this new information and to continue to provide the best user experience. "
+"please click the button below to take you to Module Admin where you can "
+"update this module, it will only take a minute, will have not affect on your "
+"PBX operation and then you can continue forward into the module."
+msgstr ""
+
+msgid ""
+"Your DID, Clicking here will take you to the inbound route setup for this DID"
+msgstr ""
+
+msgid ""
+"Your E911 Master Location is your primary E911 address. It must be a valid U."
+"S. or Canadian address.<br/> You must provide an address in order to use the "
+"VoIP_Innovations service, except in Free Trial mode.<br/> You are "
+"responsible for the accuracy of this information and for confirming that "
+"E911 service is working.<br/><strong>DO NOT call 911 to test E911 service.</"
+"strong> To test the service, please be sure 933 is included in an emergency "
+"outbound route, and then dial 933. <br/>This reaches an E911 address "
+"verification service that will play back the information being transmitted. "
+"<br/> When calling outbound on an emergency route, the VoIP_Innovations "
+"trunk will send out a Caller ID (CID) matching your Master E911 DID as shown "
+"here, unless an extension/device has its own Emergency CID set. There is no "
+"fee for E911 service on your Master DID. If you have multiple DIDs, you can "
+"designate a different DID as the Master within your VoIP_Innovations "
+"account. You can also enable E911 service on additional DIDs for a small "
+"additional fee. This would allow the E911 operator to see different "
+"addresses and CIDs for different numbers."
+msgstr ""
+
+#, php-format
+msgid "Your VOIPINNOVATIONS DID %s, has been routed to a test destination"
+msgstr ""
+
+msgid ""
+"Your VoIP_Innovations trunks and key have been removed from your system, "
+"make sure to Apply Configuration Changes for this to take effect"
+msgstr ""
+
+msgid ""
+"Your key is no longer valid. Click below to remove the current key. To "
+"obtain a new key and use this module, visit the portal at https://store."
+"freepbx.com and log into your account. After getting your new key please "
+"refresh this page to enter it."
+msgstr ""
+
+#, php-format
+msgid ""
+"Your module version is not compatible with the current API requirements and "
+"needs to be updated. Expecting XML version no greater then %s and received "
+"version %s."
+msgstr ""
+
+msgid "Zip"
+msgstr ""
+
+msgid "Zip:"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "here"
+msgstr ""

@@ -1,0 +1,267 @@
+//Compiled CSS
+
+@CHARSET "UTF-8";
+ /* unvisited link */
+a {
+	text-decoration:none;
+    color: #1B7AB9;
+}
+a:link {
+	text-decoration:none;
+    color: #1B7AB9;
+}
+
+/* visited link */
+a:visited {
+	text-decoration:none;
+    color: #1B7AB9;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration:none;
+    color: #1B7AB9;
+}
+
+/* selected link */
+a:active {
+	text-decoration:none;
+    color: #1B7AB9;
+}
+
+.tac {
+	text-align:center;
+}
+
+.tal {
+	text-align:left;
+}
+
+.tar {
+	text-align:right;
+}
+
+.underline_tt {
+	border-bottom: 2px solid lightblue;
+}
+
+.nobd_top {
+	border-top: none;
+}
+
+.hidden_full {
+	visibility: hidden; 
+	display: none;
+}
+
+.table-borderless td,table.borderless th{
+     border: none !important;
+}
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	@page { size: auto;  
+			margin: 0mm; 
+	}
+	body {  margin: 0mm; 
+			overflow: visible;
+	}
+	body * {
+			overflow: visible;
+			margin: 0mm;
+			visibility:hidden;
+
+	}
+	.page-break	{ display: block; page-break-before: always; }
+	  #printSection, #printSection * {
+				visibility:visible;
+	  }
+  
+  #printSection {
+			position:absolute;
+			left:0;
+			top:0;
+  }
+
+        
+
+}
+
+.para {
+    font-size:x-large;
+    height:3000px;
+}
+
+.bg_booking {
+	background: #58ADFA;
+	background-color: #58ADFA;
+}
+
+.bg_busy {
+	background: #2ECE83;
+	background-color: #2ECE83;
+
+}
+
+.w100 {
+	width: 100px;
+}
+
+.white {
+	background: white;
+	background-color: white;	
+}
+
+.green_text {
+	color: rgb(101, 145, 101);
+}
+
+.red_text {
+	color: rgb(255, 123, 123);
+}
+
+.blue_text {
+	color: rgb(133, 133, 250);
+}
+
+.fpbx_text {
+	color: #1B7AB9;
+}
+
+.white_text {
+	color: white;
+}
+
+
+.ui-tooltip {
+    white-space: pre-line;
+	text-align:left;
+}
+
+.grid_tooltip {
+  radius: 5px !important;
+  white-space: pre-line;
+  background-color: black;
+  color: white !important;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 50px;
+  text-align: left;
+  font: bold 14px ;
+  font-stretch: condensed;
+  text-decoration: none;
+  box-shadow: 0 0 5px black;
+}
+
+.room_list {
+  font-family: 'FontAwesome', 'sans-serif';
+}
+
+.green_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #46e086, #038b3c);
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.red_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #f75a5a, #cf0000);
+	color: white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.orange_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #f3b455, #f33b03);
+	color: white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.yellow_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #f9ffa9, #ffff00);
+	color: #7f8c8d;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.blue_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #a99deb, #230da3);
+	color: white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.grey_stickers {
+    border-radius: 12px;
+    background: linear-gradient( 0.45turn, #adadad, #171818);
+	color: white;
+    padding: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height:100px;
+	box-shadow: 4px 4px 4px #aaa;
+}
+
+.hr_line {
+    background: rgba(255, 255, 255, 0.623);
+    height: 1px;
+    border: 0;
+}
+
+.center-block{
+    float: none;
+    margin-left: 50px;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+.oc_counter {
+    background-color: #D7EBF9;
+    text-align: feft;
+    color: #1B90D0;
+	border-bottom-right-radius: 5px 5px;
+	border-bottom-left-radius:  5px 5px;
+    box-shadow: 2px 5px 5px grey;
+    width: 20%;
+}
+
+th.fonta {
+	font-family: "FontAwesome";
+	font-size: 24px;
+
+}

@@ -1,0 +1,13 @@
+[npm-cache] [INFO] using /home/asterisk/.package_cache as cache directory
+[npm-cache] [INFO] [composer] Dependency config file /var/www/html/admin/modules/iotserver/node/composer.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] using package-lock.json instead of package.json
+[npm-cache] [INFO] [npm] config file exists
+[npm-cache] [INFO] [npm] cli exists
+[npm-cache] [INFO] [npm] hash of /var/www/html/admin/modules/iotserver/node/package-lock.json: ac2e0ae9b2a29f33e01aea1f902704b0
+[npm-cache] [INFO] [npm] cache exists
+[npm-cache] [INFO] [npm] clearing installed dependencies at /var/www/html/admin/modules/iotserver/node/node_modules
+[npm-cache] [INFO] [npm] ...cleared
+[npm-cache] [INFO] [npm] retrieving dependencies from /home/asterisk/.package_cache/npm/6.4.1/ac2e0ae9b2a29f33e01aea1f902704b0.tar.gz
+[npm-cache] [INFO] [bower] Dependency config file /var/www/html/admin/modules/iotserver/node/bower.json does not exist. Skipping install
+[npm-cache] [INFO] [npm] done extracting
+[npm-cache] [INFO] successfully installed all dependencies

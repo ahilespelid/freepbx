@@ -1,0 +1,162 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for calllimit
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:22+0000\n"
+"PO-Revision-Date: 2018-01-08 22:55+0200\n"
+"Last-Translator: Nils <Nils@heckenkamp.info>\n"
+"Language-Team: German <http://weblate.freepbx.org/projects/fpbxc/calllimit/"
+"de_DE/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "A Maximum of"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Call Limit"
+msgstr "Anruflimit hinzufügen"
+
+msgid "Add Outbound Call Limit"
+msgstr "Grenzwert für ausgehende Anrufe hinzufügen"
+
+msgid ""
+"An Outbound Call limit allows you to restrict the number of calls people "
+"make that match particular outbound routes."
+msgstr ""
+"Mit einem Grenzwert für ausgehende Anrufe können Sie die Anzahl der Anrufe "
+"begrenzen, die Personen tätigen, die bestimmten ausgehenden Routen "
+"entsprechen."
+
+msgid "Call Limit"
+msgstr "Anruflimit"
+
+msgid ""
+"Call limit limits the number of calls that can be made using this route. "
+"These settings will be ignored if you set the Route type as Emergency or "
+"Intra-Company."
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Edit: "
+msgstr "Bearbeiten: "
+
+msgid ""
+"Enter the name of your outbound call limit rule to make it easier to select "
+"in your outbound route."
+msgstr ""
+"Geben Sie den Namen Ihrer Regel für ausgehende Anrufe ein, um die Auswahl in "
+"Ihrer ausgehenden Route zu erleichtern."
+
+msgid "Hours"
+msgstr ""
+
+msgid "Limit Reached Message"
+msgstr ""
+
+msgid "List Call Limits"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Note that this will match against <strong>all fields</strong>."
+msgstr ""
+
+msgid "Outbound Call Limit"
+msgstr "Grenzwert für ausgehende Anrufe"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Select the maximum number of calls that can be made in a single period."
+msgstr ""
+
+msgid ""
+"Select the recording to be played to the caller when they have hit this "
+"limit and are unable to complete their outbound call."
+msgstr ""
+"Wählen Sie die Aufnahme aus, die dem Anrufer vorgespielt werden soll, wenn "
+"sie dieses Limit erreicht haben und ihren ausgehenden Anruf nicht "
+"abschließen können."
+
+msgid "Submit"
+msgstr "Senden"
+
+#, perl-format
+msgid "The Name %s already used, please use a different name."
+msgstr ""
+
+msgid ""
+"The recordings module seems to be disabled or not installed. The default "
+"message will be played to callers when their call limit is reached"
+msgstr ""
+
+msgid ""
+"This means, for example, if you have a maximum of '10' in a 5 hour period, "
+"but a maximum of '5' per day, it will block calls after 5, because it will "
+"match on the 'per day' field."
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "You must set a valid name for this call limit"
+msgstr ""
+
+msgid "calls per"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Please visit www."
+#~ "schmoozecom.com/oss.php - Restrict Outbound Calls at an outbound route "
+#~ "level"
+#~ msgstr ""
+#~ "Das kommerzielle Modul benötigt eine Lizenz, damit es funktioniert. Bitte "
+#~ "besuchen Sie www.schmoozecom.com/oss.php - Eingehende Anrufe auf "
+#~ "Ausgangsebene beschränken"
+
+#~ msgid "Connectivity"
+#~ msgstr "Verbindung"
+
+#~ msgid ""
+#~ "Call limit limits the number of calls that can be made using this route."
+#~ msgstr ""
+#~ "Anruflimit begrenzt die Anzahl der Anrufe, die über diese Route getätigt "
+#~ "werden können."
+
+#~ msgid "Edit Call Limit"
+#~ msgstr "Anruflimit bearbeiten"
+
+#~ msgid "Recording"
+#~ msgstr "Aufzeichnungen"

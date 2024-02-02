@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Interfaces\Ajax; use Informunity\Rest\App\Handlers\HandlerRegistered; class getHandler implements Ajax { public static function ajaxRequest(&$setting) { $setting = array("\141\165\164\150\x65\x6e\164\x69\143\x61\164\x65" => true, "\141\x6c\154\x6f\x77\x72\x65\x6d\157\x74\x65" => false); return true; } public function ajaxHandler($config, $data) { return HandlerRegistered::load($config, array("\110\141\x6e\x64\154\x65\x72\163" => array($data["\145\166\145\x6e\x74"])))->Run(); } }

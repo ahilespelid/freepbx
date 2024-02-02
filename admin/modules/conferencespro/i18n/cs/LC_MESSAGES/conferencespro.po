@@ -1,0 +1,474 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for conferencespro
+# Copyright (C) 2008-2018 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 09:00+0000\n"
+"PO-Revision-Date: 2018-09-05 10:00+0000\n"
+"Last-Translator: Petr Varvarovsky <petrv@atlantis.cz>\n"
+"Language-Team: Czech <http://*/projects/fpbxc/conferencespro/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#, php-format
+msgid "%s's conference room"
+msgstr "konferenční místnost %s"
+
+msgid "Add to Conference IVR"
+msgstr "Přidat na IVR konference"
+
+msgid "Admin PIN:"
+msgstr "PIN administrátora:"
+
+msgid "Admin Pin"
+msgstr "Pin administrátora"
+
+msgid "Allow Menu"
+msgstr "Povolit menu"
+
+msgid "Allow Menu:"
+msgstr "Povolit menu:"
+
+msgid "Allowed Conference Bridges"
+msgstr "Povolené konferenční mosty"
+
+msgid "Allows this conference to be included in the IVR context"
+msgstr "Umožňuje zařazení této konference do kontextu IVR"
+
+msgid ""
+"Allows this conference to be managed by the specified user from the "
+"Recordings Interface"
+msgstr ""
+"Umožňuje, aby tato konference byla spravována určeným uživatelem z Rozhraní "
+"Záznamů"
+
+msgid "Announce user join/leave"
+msgstr "Oznámení uživatele připojit/opustit"
+
+msgid "Announce user(s) count on joining conference"
+msgstr "Oznámit počet uživatelů připojených do konference"
+
+msgid "Announcement"
+msgstr "Oznámení"
+
+msgid "Applications"
+msgstr "Aplikace"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Adds ability to "
+"manage Conference Room settings into the User Control Panel and also to "
+"create Conference IVRs"
+msgstr ""
+
+msgid "Conference Has Been Updated!"
+msgstr "Konference byla aktualizována!"
+
+msgid "Conference IVR Options"
+msgstr "Možnosti IVR konference"
+
+msgid "Conference List IVR"
+msgstr "Seznam IVR konference"
+
+msgid "Conference Name:"
+msgstr "Název konference:"
+
+msgid "Conference Options for Room "
+msgstr "Možnosti konference pro místnost "
+
+msgid "Conference Pro"
+msgstr "Konference Pro"
+
+msgid "Conference Room Prefix"
+msgstr "Prefix konferenční místnosti"
+
+msgid "Conference User Manager"
+msgstr "Správce uživatelů konferencí"
+
+msgid "Conference room is empty"
+msgstr "Konferenční místnost je prázdná"
+
+msgid "Conference room is not active so it can not be locked"
+msgstr "Konferenční místnost není aktivní, takže nemůže být uzamčena"
+
+msgid "Conferences"
+msgstr "Konference"
+
+msgid "Conferences Pro"
+msgstr "Konference Pro"
+
+msgid "Conferences Pro IVR Announcement"
+msgstr "IVR Oznámení Konference Pro"
+
+msgid "Conferences included in IVR"
+msgstr "Konference zahrnuté v IVR"
+
+msgid "Default"
+msgstr "Výchozí nastavení"
+
+msgid "Enable Conference Access"
+msgstr "Povolit přístup ke konferenci"
+
+msgid "Enable Music On Hold when the conference has a single caller"
+msgstr "Povolit Music on Hold, pokud má konference jednoho účastníka"
+
+msgid "Enable the conference Access in UCP for this user"
+msgstr "Povolit přístup do konference pro tohoto uživatele v UCP"
+
+msgid "Enter a PIN number for the admin user."
+msgstr "Zadejte číslo PIN pro administrátora."
+
+msgid ""
+"Enter a PIN number for the admin user.<br><br>This setting is optional "
+"unless the 'leader wait' option is in use, then this PIN will identify the "
+"leader."
+msgstr ""
+"Zadejte číslo PIN pro administrátora.<br><br>Toto nastavení je volitelné, "
+"pokud není použita volba \"čekat na moderátora\", pak tento identifikátor "
+"identifikuje moderátora."
+
+msgid "Follow Me"
+msgstr "Následuj mě"
+
+msgid "Give this conference a brief name to help you identify it."
+msgstr "Zadejte konferenci stručný název, který vám ji pomůže identifikovat."
+
+#, php-format
+msgid ""
+"If enabled a conference at '%s' will be created for this user to use (If the "
+"conference already exists it will use the already existing conference and "
+"link it to this user). It will then be linked in UCP for the user to access. "
+"The prefix can be changed in the Conferences Pro settings page. Setting this "
+"to 'No' after previously setting this to 'Yes' will not remove the "
+"conference from the system"
+msgstr ""
+"Pokud je pro daného uživatele vytvořena konference v '%s' (pokud konference "
+"využije již existující konferenci a připojí ji k tomuto uživateli), bude "
+"potom propojen v UCP, aby měl uživatel přístup. Předponu lze změnit na "
+"stránce nastavení Konference Pro. Nastavení na \"Ne\" po předchozím "
+"nastavení na \"Ano\" neodstraní konferenci ze systému"
+
+msgid "Inherit"
+msgstr "Zdědit"
+
+msgid "Invite Contact"
+msgstr "Pozvat kontakt"
+
+msgid "Invite to Conference"
+msgstr "Pozvat do konference"
+
+msgid "Join Message"
+msgstr "Připojit zprávu"
+
+msgid "Join Message:"
+msgstr "Připojit zprávu:"
+
+msgid "Leader Wait"
+msgstr "Vůdce čeká"
+
+msgid "Leader Wait:"
+msgstr "Vůdce čeká:"
+
+msgid "Link Conference to this user"
+msgstr "Propojení konference s tímto uživatelem"
+
+msgid "Locked"
+msgstr "Uzamčeno"
+
+msgid "Manageable by User"
+msgstr "Možno spravovat uživatelem"
+
+msgid "Marked"
+msgstr "Označeno"
+
+msgid "Maximum Number of users allowed to join this conference."
+msgstr "Maximální počet uživatelů, kteří se mohou připojit k této konferenci."
+
+msgid "Maximum Participants"
+msgstr "Maximální počet účastníků"
+
+msgid "Maximum Participants:"
+msgstr "Maximální počet účastníků:"
+
+msgid "Message to be played to the caller before joining the conference."
+msgstr "Zpráva, kterou chcete volajícímu přehrát, než vstoupí do konference."
+
+msgid ""
+"Message to be played to the caller before joining the conference.<br><br>To "
+"add additional recordings please talk to your administrator"
+msgstr ""
+"Zpráva, kterou chcete volajícímu přehrát, než vstoupí do konference."
+"<br><br>Chcete-li přidat další nahrávky, obraťte se na administrátora"
+
+msgid ""
+"Message to be played to the caller before joining the conference."
+"<br><br>Your administrator must install and enable the \"Systems Recordings"
+"\" Module to edit this option"
+msgstr ""
+"Zpráva, ktrerá se má volajícímu přehrát, než vstoupí do konference."
+"<br><br>Administrátor musí nainstalovat a aktivovat modul \"Systémová "
+"nahrávky\" pro možnost úpravy"
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route."
+msgstr ""
+"Hudba hrající volajícímu, zatímco čeká na začátek konference. Zvolte "
+"\"dědičnost\", chcete-li Music on Hold vybrat, například z příchozích "
+"pravidel."
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route.<br><br>  This music is "
+"defined in the \"Music on Hold\" to the left."
+msgstr ""
+"Hudba hrající volajícímu, zatímco čeká na začátek konference. Zvolte "
+"\"dědičnost\", chcete-li Music on Hold vybrat, například z příchozích "
+"pravidel.<br><br>Tato hudba je definována v části \"Music on Hold\" vlevo."
+
+msgid "Music on Hold"
+msgstr "Music on Hold"
+
+msgid "Music on Hold Class"
+msgstr "Třída Music on Hold"
+
+msgid "Music on Hold Class:"
+msgstr "Třída Music on Hold:"
+
+msgid "Music on Hold:"
+msgstr "Music on Hold:"
+
+msgid ""
+"Mute everyone when they initially join the conference. Please note that if "
+"you do not have 'Leader Wait' set to yes you must have 'Allow Menu' set to "
+"Yes to unmute yourself"
+msgstr ""
+"Vypnout mikrofon všem, když se poprvé připojí do konference. Vezměte prosím "
+"na vědomí, že pokud nemáte nastavenou možnost \"čekat na moderátora\", "
+"musíte nastavit možnost \"Povolit Menu\" na hodnotu Ano, chcete-li zapnout "
+"mikrofon"
+
+msgid "Mute on Join"
+msgstr "Při připojení ztlumit mikrofon"
+
+msgid "Mute on Join:"
+msgstr "Při připojení ztlumit mikrofon:"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "No Limit"
+msgstr "Bez omezení"
+
+msgid "None"
+msgstr "Žádný"
+
+msgid "Numeric value only."
+msgstr ""
+
+msgid "Only Numeric Values Are Allowed!"
+msgstr ""
+
+msgid "Outbound Call"
+msgstr "Odchozí hovor"
+
+msgid "Please enter a valid Conference Name"
+msgstr "Zadejte prosím platný název konference"
+
+msgid "Present Menu (user or admin) when '*' is received ('send' to menu)"
+msgstr ""
+"Současné menu (uživatel nebo admin) když '*' je přijmut ('odeslání' do menu)"
+
+msgid "Pro Options"
+msgstr "Pro možnosti"
+
+msgid "Quiet Mode"
+msgstr "Tichý mód"
+
+msgid "Quiet Mode:"
+msgstr "Tichý mód:"
+
+msgid "Quiet mode (do not play enter/leave sounds)"
+msgstr "Tichý mód (nepřehrávat zvyky pri vstupu/výstupu)"
+
+msgid "Record Conference"
+msgstr "Nahrát konferenci"
+
+msgid "Record Conference:"
+msgstr "Nahrát konferenci:"
+
+msgid "Record the conference call"
+msgstr "Nahrát konferenční hovor"
+
+msgid "Reset"
+msgstr "Resetovat"
+
+msgid "Room"
+msgstr "Místnost"
+
+msgid ""
+"Sets talker detection. Asterisk will sends events on the Manager Interface "
+"identifying\n"
+"the channel that is talking. The talker will also be identified on the "
+"output of\n"
+"the meetme list CLI command."
+msgstr ""
+"Nastaví rozpoznávání mluvících. Asterisk pošle události na Správce rozhraní, "
+"ten pozná, který kanál mluví. Mluvčí bude také identifikován na výstupu ze "
+"seznamu příkazů CLI."
+
+msgid "Starting Conference..."
+msgstr "Zahájení konference ..."
+
+msgid "Submit"
+msgstr "Potvrdit"
+
+msgid "Talker Detection:"
+msgstr "Detekce mluvícího:"
+
+msgid "Talker Optimization"
+msgstr "Optimalizace mluvícího"
+
+msgid "Talker Optimization:"
+msgstr "Optimalizace mluvícího:"
+
+msgid ""
+"The prefix used along with the linked extension in User Manager when "
+"creating a linked conference"
+msgstr ""
+"Prefix použitý spolu s propojenou pobočkou ve Správci uživatelů při "
+"vytváření propojené konference"
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+"Jedná se o přiřazené a aktivní pobočky, které se uživateli zobrazí pro "
+"ovládání a úpravu v UCP"
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who\n"
+"are not speaking as being muted, meaning that no encoding is done on "
+"transmission\n"
+"and that received audio that is not registered as talking is omitted, "
+"causing no\n"
+"buildup in background noise."
+msgstr ""
+"Zapne optimalizaci hovorů. Díky optimalizaci mluvících, Asterisk všem "
+"ostatním vypne mikrofon, tedy nevzniká šum v pozadí."
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who are not speaking as being muted, meaning that no encoding is "
+"done on transmission and that received audio that is not registered as "
+"talking is omitted, causing no buildup in background noise."
+msgstr ""
+"Zapne optimalizaci hovorů. Díky optimalizaci mluvících, Asterisk všem "
+"ostatním vypne mikrofon, tedy nevzniká šum v pozadí."
+
+msgid "User"
+msgstr "Uživatel"
+
+msgid "User Count"
+msgstr "Počet uživatelů"
+
+msgid "User Count:"
+msgstr "Počet uživatelů:"
+
+msgid "User Linked Conference"
+msgstr "Uživatelská konference"
+
+msgid "User PIN:"
+msgstr "PIN uživatele:"
+
+msgid "User Pin"
+msgstr "PIN uživatele"
+
+msgid "User Type"
+msgstr "Typ uživatele"
+
+msgid "User join/leave"
+msgstr "připojit/odhlásit uživatele"
+
+msgid "User join/leave:"
+msgstr "připojit/odhlásit uživatele:"
+
+msgid "Users"
+msgstr "Uživatelé"
+
+#, php-format
+msgid "Viewing Room %s"
+msgstr "Prohlížení místnosti %s"
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference"
+msgstr "Počkejte, dokud se nepřihlásí moderátor konference (administrátor)"
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference."
+msgstr "Počkejte, dokud se nepřihlásí moderátor konference (administrátor)."
+
+msgid "Yes"
+msgstr "Ano"
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference."
+msgstr ""
+"Pro vstup do této konference můžete požadovat, aby volající zadali heslo."
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference.<br><br>This setting is optional.<br><br>If either PIN is "
+"entered, the user will be prompted to enter a PIN."
+msgstr ""
+"Pro vstup do této konference můžete požadovat, aby volající zadali heslo."
+"<br><br>Toto nastavení je volitelné.<br><br>Pokud je zadán kód PIN, bude "
+"také uživatel vyzván k zadání kódu PIN."
+
+msgid ""
+"You must set Allow Menu to Yes when not using a Leader or Admin in your "
+"conference, otherwise you will be unable to unmute yourself"
+msgstr ""
+"Musíte nastavit Povolit Menu na Ano, pokud na konferenci nepoužíváte "
+"moderátora nebo administrátora, jinak nebudete moci zapnout mikrofon"
+
+msgid ""
+"You must set an admin PIN for the Conference Leader when selecting the "
+"leader wait option"
+msgstr ""
+"Pokud máte nastaveno čekat na moderátora, musíte pro moderátora nastavit "
+"administrátorský PIN"
+
+msgid "default"
+msgstr "Výychozí hodnota"
+
+msgid "inherit"
+msgstr "Zdědit"
+
+msgid "none"
+msgstr "žádný"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php  Adds ability to manage Conference Room "
+#~ "settings into the User Control Panel and also to create Conference IVRs"
+#~ msgstr ""
+#~ "KOMERČNÍ MODUL POŽADUJE LICENCI PRO TUTO FUNKCIONALITU. Navštivte prosím "
+#~ "www.schmoozecom.com/oss.php Přidá možnost spravovat nastavení konferenční "
+#~ "místnosti do uživatelského ovládacího panelu a také vytvářet IVR pro "
+#~ "konference"

@@ -1,0 +1,5 @@
+assets/js/dist/**
+assets/js/hightcharts/**
+assets/js/libs/**
+assets/js/plugins/**
+assets/js/jquery.timepicker.min.js

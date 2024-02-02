@@ -1,0 +1,54 @@
+<module>
+	<rawname>manager</rawname>
+	<repo>standard</repo>
+	<name>Asterisk API</name>
+	<version>15.0.22</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv2+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-2.0.txt</licenselink>
+	<category>Settings</category>
+	<menuitems>
+		<manager>Asterisk Manager Users</manager>
+	</menuitems>
+  	<description>This module is used to add AMI Users</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Asterisk+Managers+Interface</more-info>
+    <database>
+        <table name="manager">
+            <field name="manager_id" type="integer" primarykey="true" autoincrement="true"/>
+            <field name="name" type="string" length="15"/>
+            <field name="secret" type="string" length="50" notnull="false"/>
+            <field name="deny" type="string" length="255" notnull="false"/>
+            <field name="permit" type="string" length="255" notnull="false"/>
+            <field name="read" type="string" length="255" notnull="false"/>
+            <field name="write" type="string" length="255" notnull="false"/>
+            <field name="writetimeout" type="integer" notnull="false"/>
+        </table>
+    </database>
+	<changelog>
+		*15.0.22* Packaging of ver 15.0.22
+		*15.0.21* Packaging of ver 15.0.21
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* Packaging of ver 15.0.19
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEPBX-23396 Cannot Update Manager-Configuration 
+		*15.0.16* SCD-107 added cdr event filter to receive cdr events in sangomartapi 
+		*15.0.15* SCD-32 add more rtapi entries to manager_additional.conf 
+		*15.0.14* FREEI-3953 Added validation for password field 
+		*15.0.13* FREEI-3375 SQL Injection in Asterisk Manager 
+		*15.0.12* FREEI-3453: add sangomartapi conference app's entry to manager_additional.conf 
+		*15.0.11* FREEI-3453: add sangomartapi_conference entry as an asterisk manager 
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* FREEPBX-21319 Warm spare backup does not restore astersik manager passwords and permissions 
+		*15.0.8* FREEI-922 Fix XSS Bootstrap Datatable Issues 
+		*15.0.7* bump 
+		*15.0.6* FREEPBX-20436 XSS vulnerability in manager module 
+		*15.0.5* Fixing legacy restore 
+		*15.0.4* backup and restore 
+		*15.0.3* Fix issue with loading list 
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Backup 15
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

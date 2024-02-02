@@ -1,0 +1,137 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+;################################################
+;#        FreePBX Module Signature File         #
+;################################################
+;# Do not alter the contents of this file!  If  #
+;# this file is tampered with, the module will  #
+;# fail validation and be marked as invalid!    #
+;################################################
+
+[config]
+version=1
+hash=sha256
+signedwith=B53D215A755231A3
+signedby='FreePBX Mirror Servers <security@freepbx.org>'
+repo=commercial
+timestamp=1679983498.694
+[hashes]
+Api/Gql/Voipinnovations.php = a752c6cfb36f7d9cad172c269f04cffb7870be3e7848adba5deae3d8178c9be0
+Backup.php = 7ea4fe628c5a429b713ebf1aa62eb85a54ddfc4aae089a618f7c8a019d01a3bf
+Console/Voipinnovations.class.php = 4fd6fa676b00cb9d3ce6a8247e50257a9e4fecf2b19c28514f5151081582ef72
+LICENSE = d012ce07f6ec81aeae4f3aa64794d8624511e10e21f3413ef5991174d68ce58a
+Oobe.class.php = b3a4b332e18ece6032ad70cd2702c8afec80e462fcb363d1ed1f08a318583f42
+Restore.php = 15f584e9cf4b7cb9cfa82c077d353f9a39e778b511eacd39448e3326c4fdfa68
+Voipinnovations.class.php = 40c8cbd9c5200fb1384e15e62335971e38864403484a1eea3ec84b054b513d29
+agi-bin/voipinnovations_phpagi.php = 123e250afadb349e3d4243b1360bc1354e7ebdad7028e4ed1190df3d9f1e5b07
+agi-bin/voipinnovations_sms.php = 4b8e756be14e8a2d97ae713b9e66ecba40ae7bb3e990a978d82c8790f84af523
+assets/css/voipinnovations.css = 02a5c8e80c5ad9dd03edb36deeae03b94f5e33c6f4ab5f4526e49c037d180301
+assets/images/convert-trial.png = a25798d92c9d102e9fdee44d7fd1d7fa4208b5155395c7c4f9ba6244063302a5
+assets/images/full-power.png = e0999ba22243476b2f75b2e461d682a59c74db3e6ba494b777b32dceaadcaa12
+assets/images/storeFrontSipStation-00002.png = b5f0f48bb94716f9db31312b0da133d71ed75f972749ab75dcd052cecebf76f2
+assets/images/toggle_minus.png = f751115943de91fc272473a4db3875c76c7ad5c1d3432ce1bf7956dcf7ae4ae9
+assets/images/toggle_plus.png = 68c038e65d4e03c06c4ad59f11e199ed171b52b2d1b23f1cefd2cf18c3d0cea2
+assets/js/iframeResizer.map = 1d21054b4734a1a7832d6f83e14b7c3b6b5e0175e4380cff71fc54d7c118cc7c
+assets/js/iframeResizer.min.js = 65884f9ace195e3d72cdc1254f1666ad909049932ed98e2a5fe5491222c9d596
+assets/js/jquery.form.js = b11c1577afb8bc73e197d0e81648ced80d8f770fe4b92b06062b4af98c8a1bcd
+assets/js/math-session.js = 5a0448f31838934301ad4eac9ec09a5213d56ed2cfec71c40a7ff2cc689685fd
+assets/js/voipinnovations.js = 5a2460525e78b2f7eb2c03dbce1719adb38e886ddb4d9397a710e908aa3985ed
+bin/freepbx_voipinnovations_check = ba92deb2c17d554418be59be47d7e636cd7e2e51f7ed0c539c08aa114d64f85d
+functions.inc/hook_core.php = 11b45145c864eba4a0da08163f9e19032f50264631eda233f57b3aa1c3e160d9
+functions.inc.php = c2fed17512de3e99ca021381816bcd1cd55364c63ed8f43fb24db3d1f1a59c0c
+install.php = f4455021b8035d997ccc78dc89f0dfe183d83f2b6394c276a85f157b2dacdf1d
+module.xml = 7cb112a43d237bde0727e77e131b81c88c9eb38789fe0b9025ec654b21f3f622
+page.voipinnovations.php = 345c59114dec5d6c763aab1f8420236ca69fa873dc1f5a952bc388632fb41192
+sapi/PestVoipinnovations.php = a92b71dc76293a3d38f75324571f699c929aad49f0326163ebbfc2ba5de6cbf8
+sapi/Voipinnovations.php = 4f0bc52bad0962224be4f86821e68e51bc85adfe955ff3f030555485217c5a71
+sapi/config/Config101.php = 6e2a4523ecf67619bd76ca19f5ed1672f1a80a55bd377f1fbd960d8a2e1e403c
+sapi/config/Config102.php = 7412a2aaa50ad0a2f683e049869fc0e736de2062ba16e7a8dcbe4b533ee29388
+sapi/config/Config103.php = 82eda417d65acde35c7c05e13c985aba91276f7e02e793d4f6c3c75c4334679d
+sapi/config/ConfigBase.php = 407bf6306605b8746427c870a0e96c068195c4b18b0917055e5e7a2098fc48b8
+sapi/drivers/Base.php = 863757afda1d5e0ed9fa817b5089901f6479efa61fe2aec5fa9d91acf7244f8f
+sapi/drivers/Driver.php = a0f373c415072407706476df5630e7f9f146b87bc28cb87fb6fa2deceaa7844f
+sapi/drivers/Pjsip.php = 5c440f5cf27a211db7faf5c41f57894379d2468f43b7dd463cfde2cba46fe09f
+sapi/drivers/Sip.php = 04a325b5c13d0d95c34afb078647fd1e7916d844d687eb2de16e63432384ad9f
+sms/Smsapi.php = 1acaf9dd2c204bcaa04e0ee6fc24c6d734f9b733a45a3f5a47b7d320f3ee476a
+sms/VoipinnovationsSMS.php = 78e5079d2944bfbcfc5a64b618f0eb2f639dd1d7ccc6b4e7c4360049273f3667
+uninstall.php = 0ba56d40503268c394ee080a033a06da41be999dc0eb6bd4be1fc9da8d0010ff
+vendor/autoload.php = d2d0694f45d620ab1b70bef1d192ec6251d4094847343b59b9236465ecd17278
+vendor/composer/ClassLoader.php = 1057ef1b55b0f906b2f562c2204ca38a51574aa0374994c3bcf48a45a5d00a28
+vendor/composer/LICENSE = c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+vendor/composer/autoload_classmap.php = f7927c215be0fe08c9f2efe688ee45c788546cf30a30b55a25a0049befe26981
+vendor/composer/autoload_namespaces.php = f8d8fcc85e7eebf816e2a7b464db2b46025c64d0452e169ab3cdecd9b30df876
+vendor/composer/autoload_psr4.php = 9ead7763dcdb921731a7b7395385bf61dc6481899ae21d76aef52a659d21fccd
+vendor/composer/autoload_real.php = a7804f3ad632afc5a3682625a4c3f4489b4021a6fca6d71e88618a57adb51673
+vendor/composer/autoload_static.php = 2f94dc4feaea6b8f8318c1fb509cbcb3bd43d4d11dd974bf1bce85c167c3b93f
+vendor/composer/installed.json = fb57cefc062fdbae86ac28a04f738696d4c11203eadcd282e99f6b6312d3bce6
+vendor/netresearch/jsonmapper/ChangeLog = 805c0c181b15c77603ef6e7605b05ee19f8ca1c3b4ea7f3630be7bd661a63a1c
+vendor/netresearch/jsonmapper/LICENSE = 3be46680883ed8e6764a2ded4a9bfff0004c3c24eb5237445a942380b45347c3
+vendor/netresearch/jsonmapper/README.rst = 030c7ed1b230ecd286aa74f3c35fece05d1ae30da62ef347c78010a2bd2f0128
+vendor/netresearch/jsonmapper/example/Address.php = 577db0615431e85be4acce11345e77ca21aec84675ddfa39c873218c6e4e37db
+vendor/netresearch/jsonmapper/example/Contact.php = 6f5bda0df6acac66de713a21264e48b4c526ac8e76044d1525ab3e369a45ef4d
+vendor/netresearch/jsonmapper/example/run.php = 5cfb39ac25b3cda6722ab4f11dacb5dfceb9850c7c4a9b3ef1f2345671848a13
+vendor/netresearch/jsonmapper/example/single.json = 3c2e06ce03d0088d623743c2419e42ee58cf9a2433b9d40fed9c7f519b1da921
+vendor/netresearch/jsonmapper/package.xml = c5a529045dce7bed58ab7fd6ff57360a15bfbb49100785d255b39f737367a9fa
+vendor/netresearch/jsonmapper/src/JsonMapper/Exception.php = f727562af3f4aa600cf6471b559b03f1e4af22ed403e581f1dd88e560de9769f
+vendor/netresearch/jsonmapper/src/JsonMapper.php = 99c415c7b01a698f566e71678db849b3cdf90151fb20fae6d4db6599f00a0b0e
+vendor/netresearch/jsonmapper/tests/ArrayTest.php = eda1201f7f311aec88750259d0451d09b285c478fabf60f105b9d2706b41d2c4
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Array.php = 7c6fdeb09498f45503d7a6df253d6c6adf887525e0503dac6958636c5f138162
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Broken.php = ad970e58d0e5b8a35b081fedd4052ff07c9205c7cde5b8882170b8dcdb6604d3
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/DependencyInjector.php = 04dd95f7b2965391d5f0b72bfc092798ba91105117313d1e91e698d3303d4b91
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Logger.php = a7a53a4405bd8112bc22a8e007b41709467cbc862f644a883da719231e5a46bb
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Object.php = ddc9fc65b2fb5829e82371042868516777bfac6ccbb412ab848c2297071f7221
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/PlainObject.php = 71ba0dad5deafdd412f02cf24910186c1677d564680f5b3fd1985080b2ce07e8
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/PrivateWithSetter.php = a5edb401a9948dc046002acd124e75e6cf3e316606e71d59011d8c6eec2e3343
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/Simple.php = 1edb03a1209624cd61194b8cad8d7bd08793e453be421961e7b63862b7b0758f
+vendor/netresearch/jsonmapper/tests/JsonMapperTest/ValueObject.php = 13dbdc645f53bba0d35f7fb90f2278ccf8cb0fa998a4947fe903baacb8496c5c
+vendor/netresearch/jsonmapper/tests/ObjectTest.php = f38fc7a1ef53e30ad9ed50f186568e8b7090c822e1e650ef3c98944844a4ae44
+vendor/netresearch/jsonmapper/tests/OtherTest.php = adeed5057076da2d991e1cca02c0921185410e3d92e4bd940f3bf33a57699a80
+vendor/netresearch/jsonmapper/tests/PHP7_ObjectTest.php = 167d20487db992495a65e8bbd4f7f49bc66d2ea6e3c246ea273cba7c68c864b4
+vendor/netresearch/jsonmapper/tests/SimpleTest.php = 2adc7d94ec209b92267400a31f0854a276d0e4f9099dcd294730c5711d3a6ffa
+vendor/netresearch/jsonmapper/tests/bootstrap.php = 4f883f7c597637461782b09b443dcff90bd3851db8c195706f838d9b4301da36
+vendor/netresearch/jsonmapper/tests/namespacetest/NamespaceTest.php = 30456ed891c5871bf6a6c27f7a81767d60c72e83cad3200dc1b3b23281c9cc6e
+vendor/netresearch/jsonmapper/tests/namespacetest/Unit.php = fe9c5681486d69fb16647d1cfbcb2e17b7661411026612972d0f887159a586fc
+vendor/netresearch/jsonmapper/tests/namespacetest/UnitData.php = 79baa8adc64f47f74dc51c4a73c54356e2ec4e5ffc8fa8fddae7d7086d8942aa
+vendor/netresearch/jsonmapper/tests/namespacetest/model/MyArrayObject.php = 928e5b2ce1ece73a57bb02a0b97eb7f04857bbeb28785d7f9160af7ac35dda73
+vendor/netresearch/jsonmapper/tests/namespacetest/model/User.php = 54cd298707b07fe596899ca5b92c801676503dadfed6b4308d8d97c3d8e5cea1
+vendor/netresearch/jsonmapper/tests/namespacetest/model/UserList.php = 6c022f8cb51e57197fef88f3ae25b80c0d2413afac79e7fb8eef849a490f94d8
+vendor/netresearch/jsonmapper/tests/othernamespace/Foo.php = 5450e69b5c18cdcae8df408a44fcf3212c10317fde835844bbf88a12ba723a46
+views/account.php = 09f0b3ae803300e8fb4d116689ceb05afb3b34803404d60340e6445fb7236a93
+views/converttrial.php = 4cb390bffd00e39a10e55bf2344d7a9d6427fab5bd5875241bbdb5292a13caa0
+views/e911.php = e5e60073df8fa0f52a174337b345fdaf1047b4ca3ac938e532eb7e3d50fb5989
+views/failover.php = d7a5167a3c71d4a404cb41131caf5cf2e33ec4a6c6084ce961968813cee65348
+views/footer.php = 34b1fbec2335a1e3f6d3798d9535c641e0cb94cbcc8f6938cbbffc50045e56c5
+views/header.php = 68cf31e78c2085e325553cf53cf779533b1bd876234c6556ffa608b6c6dc258f
+views/hook_core.php = e89e34e2f8e57c41ae1b2b8958fe60e390afb774f3be24b7a1093f476391610d
+views/invalidnoservertempnot.php = 240fae804f9bb7530c89e03ad0bcfd6c56b1f4db0ce26b5d5dfa09f60be8a7ba
+views/location.php = e466ebee4ba1b24900b5b761d600626760c5859e669ff6c9977c5ab5cbc45729
+views/main.php = edd426b4b17c3c351d559989c6948541d73937a606988bb9c4d1eed5f34839d0
+views/maintabbed.php = dbb34e5ca106e6532e65fdeda3d19ed671a4bc72562f9516f4abfaeed36d752d
+views/newlook.php = fd683530d3afdcde518159bb2814d20bf0336ce312f86b01bfbe5bffa48c1570
+views/no_internet.php = 1de182b950f1830484aef4bb0c87a34c5f520aa85ced0144405c0d8f51d12e43
+views/nokey.php = d0df83608ad966ae56e99ce59fdab807fdf05aabe34e131ba5d6bd7b6e137a24
+views/outdated.php = 65847931ad34f27d4ab4bd9b755bed03ac2fc3dfe9f805e281fc7892887f260f
+views/routing.php = 4c43aecf4ba19352ab6be45ea8533b6bf1ebefae253b407fa8f419c7524fa613
+views/status.php = f611cf60222e69ca8e7267e5df829b316e02463a104d57c5cc3ec9d2588cc8dd
+views/ucp_config.php = e650f650563dc001da00a94952eb8d7b3c32008a85aad6ea4aa1e095b4164e22
+views/userman_config.php = aad48140fc7e04f52c7e4299e3cfa2d900024ddce5f18d41a2da5c21ec2208c0
+voipinnovations.html.php = 5118605301b2e405de11ee1bd1a82f20d6efa6c5f7936b83ee0333c920ae3cf1
+;# End
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQIcBAEBAgAGBQJkIoOKAAoJELU9IVp1UjGjAF0QAKTUDzpgwsaRHJmtjTwRnk8Y
+nfpDSumN8OnIfDbIhNSs1iXn+yqvrmcAq9jLkkcZ7Mhka18gDDmKgExU2xDGRmDP
+ZWCbbtdSdW5eAHhlZx5Kpk7Eu55jgwKRuxfnn4AtS1R8U+8kDk6CraL1lWxnX+Y7
+ZpZYr4ccQTthl4mbdzpAv5IczQIZ1gVldLzHMmAF7VrtLIg4+GX1PcGu6i0s8QdM
+NxaLUXLvRZD7DiJpakHJTavtwuv4AGI4EEikiSZWU6dGBHuL9ODOg+RTOUhxE+Kq
++IDDY01L3yexzYezc5kukq5zf8BP64/nNKIZwcJNZVXPMx7V1zS0EbvgmnyyiObp
+twXM1l3Afw6eaCKYV3NBjOMVw2H3oPX4Ms+1myEQWCY2XxP9qoZm9ahxPpUAxIQR
+8nn0iHvWcp43iNMMXY8b5lQoSrZHnN+Jdgo9F7aVTkjxp2FSCn2WPMZKXjLNTtrw
+DtnaigCs8DjWIOzy0LZ8Q0Zt+fti2UDixgIsWGgkcU6ehEspnd/EXZut76E5lvma
+7D+0q1NmHde6/5JjvhVU05lhnwG7/jcV4CGqnXxr9SFlubN8OcOH2St2Edizn/O+
+duFt8A1K+jSzVyZ/7ULPzVPCIoaoK8HEojhd/PqVlkvpw0K8t6hz/HbRLFpQIXga
+mYZ3GB+t6/BMK0TYjeLc
+=sb3W
+-----END PGP SIGNATURE-----

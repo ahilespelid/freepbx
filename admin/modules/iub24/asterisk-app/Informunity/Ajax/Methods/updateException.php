@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Exceptions; class updateException implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\165\x74\x68\145\156\164\x69\x63\x61\x74\145" => true, "\141\x6c\154\157\167\x72\x65\x6d\x6f\164\145" => false); return true; } public function ajaxHandler($config, $data) { return Exceptions::load()->updateException($config, $data); } }

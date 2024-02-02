@@ -1,0 +1,120 @@
+<module>
+	<rawname>pms</rawname>
+	<name>Sangoma Property Management</name>
+	<version>15.0.8</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#spm</link>
+	</commercial>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<description>Sangoma Property Manager is a Property Management System designed specifically for FreePBX and PBXact phone systems. It is utilized via a customized dashboard, provided by the existing User Control Panel (UCP) of FreePBX and PBXact.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Sangoma+Property+Manager</more-info>
+	<info/>
+	<category>Applications</category>
+	<menuitems>
+		<pms needsenginedb="yes">Property Management</pms>
+	</menuitems>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<module>framework ge 14.0.1.23</module>
+		<module>voicemail ge 14.0.1</module>
+		<module>userman ge 14.0.3.29</module>
+		<module>hotelwakeup ge 14.0.1</module>
+		<module>cos ge 13.0.11.3</module>
+		<module>restapps ge 14.0.22.12</module>
+		<module>ucp ge 14.0.3.18</module>
+	</depends>
+	<changelog>
+		*15.0.8* FREEI-66 
+		*15.0.7* FREEI-5885 
+		*15.0.6* FREEI-5458 
+		*15.0.5* FREEI-4971 Unable to run PMS cronjob, getting exception error 
+		*15.0.4* FREEI-4148 Move cron jobs to fwconsole job instead of asterisks crontab 
+		*15.0.3* FREEI-4350 Added backend validation for validating file format
+		*15.0.2.57* FREEI-4344 seperated ajax request to get room service into new function and called this function after selecting room service 
+		*15.0.2.56* FREEI-4343 
+		*15.0.2.55* FREEI-4057 No message in log when billing rate is failed 
+		*15.0.2.54* FREEI-3885 FREEI-3886 Fixe unloaded JS file 
+		*15.0.2.53* FREEI-3201 FREEPBX-22498 FREEPBX-20334 FREEI-3200 FREEI-3233 FREEI-3314 fixe several bugs. Improving design with new theme and JS code 
+		*15.0.2.52* FREEI-2907 
+		*15.0.2.51* Packaging of ver 15.0.2.51
+		*15.0.2.50*  
+		*15.0.2.49* FREEI-2837 Some issues in PMS module 
+		*15.0.2.48* Packaging of ver 15.0.2.48
+		*15.0.2.47* FREEI-1628 Undefined offset in Room List 
+		*15.0.2.46* FREEI-1518 When Adding CoS in SPM the Module Crashes 
+		*15.0.2.45* FREEI-1368 Change: The package 'at' is missing and change dial plan clean for Oracle connector 
+		*15.0.2.44* FREEI-1347 No context set for new rooms 
+		*15.0.2.43* Update css for Panel 
+		*15.0.2.42* FREEI-1321 Restoring PMS module issue 
+		*15.0.2.41* FREEI-1309 Remove minibar if not Hotel mode. 
+		*15.0.2.40* FREEPBX-21212 add housekeeping prefix for oracle connector 
+		*15.0.2.39* FREEPBX-21146 
+		*15.0.2.38* FREEI-1067 Improving guest page 
+		*15.0.2.37* Fix LinkFormater 
+		*15.0.2.36* bump 
+		*15.0.2.35* FREEI-924 Fix XSS Bootstrap Datatable Issues
+		*15.0.2.34* bump 
+		*15.0.2.33* FREEPBX-20600 Remove feature code Tab 
+		*15.0.2.32* bump 
+		*15.0.2.31* FREEI-727 PMS images are not restored after restoring Legacy (FreePBX 14,13) backup into FreePBX 15 system. 
+		*15.0.2.30* FREEI-737 Unable to delete Room Type under PMS even when its not used by any of the rooms. 
+		*15.0.2.29* FREEI-719 FREEI-720 Improve the button and alert in Room Type 
+		*15.0.2.28* Bugfix/FREEI-695 restoring pms module 
+		*15.0.2.27* FREEPBX-20328 
+		*15.0.2.26* /FREEPBX-20339 Prepare UCP for Oracle Connector module 
+		*15.0.2.25* FREEI-623 Missing argument 1 
+		*15.0.2.24* FREEPBX-20247 Submit Button under PMS Config --&amp;gt; General tab is not working 
+		*15.0.2.23* FREEPBX-20262 getting CDR data for Oracle Connector 
+		*15.0.2.22* FREEI-623
+		*15.0.2.21* FREEPBX-20175 PMS, changing room type breaks the room ID type 
+		*15.0.2.20* FREEPBX-20134 Permission denied on fresh install PMS 
+		*15.0.2.19* FREEPBX-20091 Property Management System module broken on restore 
+		*15.0.2.18* Bugfix/FREEI-539 pms check in page results 
+		*15.0.2.17* FREEPBX-19912 Replace SPM to PMS in feature codes which is breaking dialplan. 
+		*15.0.2.16* use console class and job scheduler
+		*15.0.2.14* FREEPBX-19912 Replace SPM to PMS in feature codes which is breaking dialplan.
+		*15.0.2.13* FREEI-469
+		*15.0.2.12* FREEI-459 PMS fresh install issue fix
+		*15.0.2.11* FREEPBX-19666
+		*15.0.2.10* FREEPBX-19627
+		*15.0.2.9* PMS module causes backup to fail
+		*15.0.2.8* Fixing FREEPBX-19464
+		*15.0.2.7* Fixing legacy restore
+		*15.0.2.6* Fixing FREEPBX-19464
+		*15.0.2.5* Fixing FREEPBX-19463
+		*15.0.2.4* Feature connector
+		*15.0.2.3* FREEPBX-19405 - Fixing syntax error on a fresh install
+		*15.0.2.2* Change repo to commercial
+		*15.0.2.1* Add licenses links
+		*15.0.2* FREEPBX-18477 Fixing syntax error
+	</changelog>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<sysadmin namespace="FreePBX\modules" class="Sysadmin">
+			<method namespace="FreePBX\modules" class="Pms" callingMethod="getModuleLicenseInformation">sendModuleLicenseInformation</method>
+		</sysadmin>
+		<framework namespace="FreePBX\Console\Command" class="Chown">
+			<method namespace="FreePBX\modules" class="Pms" callingMethod="fwcChownFiles">chownFreepbx</method>
+		</framework>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Pms" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Pms" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Pms" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Pms" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Pms" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Pms" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Pms" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+	</hooks>
+	<console>
+		<command>
+			<name>pms</name>
+		</command>
+	</console>
+</module>

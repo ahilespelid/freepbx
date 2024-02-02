@@ -1,0 +1,182 @@
+
+.grid-stack-item[data-rawname="endpoint"] {
+	.phone-container {
+		border: 1px solid lightgrey;
+		background-color: white;
+		margin-top: 1px;
+		padding: 5px;
+		height: ~"calc(100% - 4px)";
+		overflow: auto;
+		.primary {
+			i.fa-user {
+				margin-right: 5px;
+			}
+		}
+		.sub {
+			font-style: italic;
+			font-size: 85%;
+		}
+	}
+}
+
+#widget_settings[data-rawname=endpoint] {
+	@media (min-width: 768px) {
+		.modal-dialog {
+			width: 768px;
+		}
+	}
+	.modal-body {
+		.row.ui-sortable-handle:nth-child(odd) {
+			background-color: #e0e0e0;
+		}
+		.tooltip.bottom .tooltip-arrow{
+			border-bottom-color: #2f4050;
+		}
+		.tooltip.top .tooltip-arrow{
+			border-top-color: #2f4050;
+		}
+		.tooltip.left .tooltip-arrow{
+			border-left-color: #2f4050;
+		}
+		.tooltip.right .tooltip-arrow {
+			border-right-color: #2f4050;
+		}
+		.tooltip-inner {
+			background-color: #2f4050;
+		}
+		.wrap {
+			white-space: normal;
+		}
+		legend {
+			font-weight: bold;
+		}
+		.key_head {
+			font-size:1.25em;
+			font-weight:bold;
+			color:grey;
+			clear:both;
+		}
+		.sortableEndpoint {
+			list-style: none;
+			padding-left: 0px;
+		}
+		#clear {
+			clear:both;
+		}
+		.hidden-fields {
+			display: none;
+		}
+		li {
+			padding-top:0px;
+		}
+		#model {
+			max-height:700px;
+		}
+
+		//-- used for help hover --
+		.help[data-toggle="tooltip"] {
+			border-radius: 10px;
+			cursor: pointer;
+			height: 10px;
+			width: 10px;
+			font-size: 80%;
+			vertical-align: super;
+			display: inline-block;
+			text-align: center;
+			margin: 2px;
+		}
+
+		#phoneImg {
+			max-width:100px;
+			max-height:100px;
+		}
+		img.phoneImg {
+			max-width:100px;
+			max-height:100px;
+			position: absolute;
+			top:10px;
+
+			&:hover {
+				max-height: 99%;
+				max-width: 99%;
+			}
+		}
+
+		//-- used for UCP --
+		#ucpModel {
+			overflow-x:none;
+			.container-fluid {
+				margin-left: 100px;
+			}
+
+			ul {
+				padding-top:10px;
+				padding-left:10px;
+				:hover{
+					cursor: move;
+				}
+			}
+			li {
+				list-style:none;
+				font-size:1em;
+			}
+			input {
+
+			}
+			.linekeys {
+				color:black;
+				background-color:aliceblue;
+			}
+			.softkeys {
+				color:black;
+				background-color:aliceblue;
+			}
+			.prgkeys {
+				color:black;
+				background-color:aliceblue;
+			}
+			.topsoftkeys {
+				color:black;
+				background-color:aliceblue;
+			}
+			.horsoftkeys {
+				color:black;
+				background-color:aliceblue;
+			}
+			.speckeys{
+				color:black;
+				background-color:aliceblue;
+			}
+			.states {
+				input {
+					width:20px;
+				}
+			}
+			h3 {
+				font-size:1em;
+			}
+			.btn{
+				input{
+					width:100px;
+				}
+			}
+			.custom {
+				background-color: lightgreen;
+			}
+			.dpmaAppNotification {
+				background-color: #fff3cd;
+				color:#856404;
+				padding:10px;
+				font-size: 15px;
+				border-color: #ffeeba;
+			}
+			.static {
+				pointer-events:none;
+				opacity: 0.5;
+			}
+			.ui-sortable .static li {
+				cursor: not-allowed !important;
+			}
+		}
+	}
+}

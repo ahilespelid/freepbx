@@ -1,0 +1,817 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for faxpro
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-14 08:11+0000\n"
+"PO-Revision-Date: 2016-06-07 05:06+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/faxpro/"
+"es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid ""
+" Submit Changes needs to be pressed before this option can become available."
+msgstr ""
+" Enviar los cambios necesita ser presionado antes de que esta opción esté "
+"isponible."
+
+#, php-format
+msgid "1 of %s"
+msgstr "1 de %s"
+
+msgid "A PHP extension stopped the file upload"
+msgstr "Una extensión PHP detuvo la carga del archivo"
+
+msgid "A full quota will cause new faxes to be rejected by the system."
+msgstr ""
+"Una cuota llena podría causar que los nuevos faxes sean rechazados por el "
+"sistema."
+
+msgid ""
+"A full quota will cause the system to delete stored faxes to make room for "
+"new ones."
+msgstr ""
+"Cuota llena en el sistema, elimine los faxes almacenados para hacer espacio "
+"para los nuevos faxes."
+
+msgid ""
+"A number to prefix to the outbound fax to route a fax to a certain outbound "
+"route"
+msgstr ""
+"Un número de prefijo para el fax saliente para enrutar un fax a una "
+"determinada ruta de salida"
+
+msgid "Always"
+msgstr "Siempre"
+
+msgid "Archived"
+msgstr "Archivado"
+
+msgid "Are you sure you wish to delete these faxes?"
+msgstr "¿Seguro que desea eliminar estos faxes?"
+
+msgid "Are you sure you wish to delete this fax?"
+msgstr "¿Esta seguro que desea eliminar este fax?"
+
+msgid "Are you sure you wish to stop this fax?"
+msgstr "¿Esta seguro que desea detener este fax?"
+
+msgid "Attachment Format"
+msgstr "Formato Adjunto"
+
+msgid "Auto-Refresh"
+msgstr "Auto-Refrescar"
+
+msgid "Bad permissions on fax backgrounder!"
+msgstr "¡Malos permisos en fax backgrounder!"
+
+msgid "Browse"
+msgstr "Vistazo/Explorar"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. The\t\tFax Pro "
+"module adds functionality to the standard\t\tFreePBX Fax modue. Outbound "
+"faxing can be done through a web interface on your FreePBX system. Simply "
+"type in a phone\t\tnumber and upload a PDF. You can optionally set the\t"
+"\toutgoing PDF to use a locally stored fax coversheet with your faxes; and "
+"type in a personal message on the coversheet"
+msgstr ""
+
+msgid "Can Not Find Uploaded Files"
+msgstr "No pudo encontrar archivos cargados"
+
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr "No pudo crear el directorio temporal: %s"
+
+msgid "Channel Control Option"
+msgstr ""
+
+msgid ""
+"Choose this option to have faxes stored by the server; accessible via UCP."
+msgstr ""
+"Elija esta opción para que los faxes almacenados en el servidor sean "
+"accesibles desde UCP."
+
+msgid "Cleaning up temporary fax storage..."
+msgstr "Limpieza temporal del almacenamiento de faxes..."
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Company Address 1"
+msgstr "Dirección de compañía 1"
+
+msgid "Company Address 2"
+msgstr "Dirección de compañía 2"
+
+msgid "Company Address 3"
+msgstr "Dirección de compañía 3"
+
+msgid "Company Address Line 1"
+msgstr "Dirección de la compañía Línea 1"
+
+msgid "Company Address Line 1."
+msgstr ""
+
+msgid "Company Address Line 2"
+msgstr "Dirección de la compañía Línea 2"
+
+msgid "Company Address Line 2."
+msgstr ""
+
+msgid "Company Address Line 3"
+msgstr "Dirección de la compañía Línea 3"
+
+msgid "Company Address Line 3."
+msgstr ""
+
+msgid "Company Footer"
+msgstr "Pie de página de compañía"
+
+msgid "Company Logo"
+msgstr "Logotipo de compañía"
+
+msgid "Company Logo. Filetype MUST be JPG"
+msgstr "Logotipo de compañía. El tipo de archivo debe ser JPG"
+
+msgid "Company Logo. Filetype MUST be JPG."
+msgstr ""
+
+msgid "Company Name"
+msgstr "Nombre de la compañía"
+
+msgid "Company Name, Example: Sangoma Inc"
+msgstr "Nombre de la compañía, ejemplo: Sangoma Inc"
+
+msgid "Company Name, Example: Sangoma Inc."
+msgstr ""
+
+msgid "Company Phone"
+msgstr "Teléfono de la compañía"
+
+msgid "Company Phone Number"
+msgstr "Número telefónico de la compañía"
+
+msgid "Company Phone Number."
+msgstr ""
+
+msgid "Company Web Site"
+msgstr "Sitio Web de la compañia"
+
+msgid "Company Website"
+msgstr "Sitio Web de la compañía"
+
+msgid "Company Website."
+msgstr ""
+
+msgid "Concurrent Fax"
+msgstr ""
+
+msgid "Concurrent Faxes"
+msgstr "Faxes concurrentes"
+
+msgid "Controls"
+msgstr "Controles"
+
+msgid "Could not connect to asterisk."
+msgstr "No se pudo conectar a asterisk."
+
+msgid "Could not find file to send"
+msgstr "No pudo encontrar un archivo para enviar"
+
+msgid "Coversheet"
+msgstr "Portada"
+
+msgid "Coversheet Email"
+msgstr "Portada de correo electrónico"
+
+msgid "Coversheet Name"
+msgstr "Nombre de Portada"
+
+msgid "Coversheet Preview"
+msgstr "Vista previa de portada"
+
+msgid "Coversheet Tel"
+msgstr "Teléfono de Portada"
+
+msgid "Coversheet Telephone"
+msgstr "Teléfono de Portada"
+
+msgid "Coversheet name"
+msgstr "Nombre de portada"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Delete Oldest"
+msgstr "Eliminar más antiguo"
+
+msgid "Delete logo"
+msgstr "Eliminar logotipo"
+
+msgid "Destination Can Not Be Blank"
+msgstr "El destino no puede estar en blanco"
+
+msgid "Destination Numbers are more then Concurrent Channels"
+msgstr ""
+
+msgid "Destinations"
+msgstr ""
+
+msgid "Destinations should be separated by semicolon(;)"
+msgstr ""
+
+#, php-format
+msgid "Detected overage on user %s, removing older faxes from storage..."
+msgstr ""
+"Detectar exceso en usuario %s, eliminando faxes viejos desde el "
+"almacenamiento..."
+
+msgid "Device Options"
+msgstr "Opciones de dispositivo"
+
+msgid "Disable"
+msgstr ""
+
+msgid "Done"
+msgstr "Hecho"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Drag new documents here"
+msgstr "Arrastrar nuevos documentos aquí"
+
+msgid "Email Results"
+msgstr "Resultados de correo electrónico"
+
+msgid "Enable"
+msgstr ""
+
+msgid ""
+"Enter the total number of concurrent fax. This should be less than the total "
+"number of channels available on the system to still allow calls to be made "
+"and received."
+msgstr ""
+
+msgid "Excess Faxes"
+msgstr "Exceso de faxes"
+
+msgid "Failed"
+msgstr "Fallido"
+
+msgid "Failed to write file to disk"
+msgstr "Falló al escribir el archivo en disco"
+
+msgid "Failure"
+msgstr "Fallo"
+
+msgid "Failure Notification Options"
+msgstr "Opciones de notificaciones de falla"
+
+msgid "Failure Recovery Options"
+msgstr "Opciones de recuperación de falla"
+
+msgid "Failure: Destination Number Busy"
+msgstr ""
+
+msgid "Failure: Dial Failed Due To CHANUNAVAIL"
+msgstr ""
+
+msgid "Failure: Dial Failed Due To CONGESTION"
+msgstr ""
+
+msgid "Failure: No fax machine detected"
+msgstr "Falló: Máquina de fax no detectada"
+
+msgid "Failure: Transmission Error"
+msgstr "Falló: Error de transmisión"
+
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Fax Configuration Professional"
+msgstr "Configuración Profesional de Fax"
+
+msgid "Fax Cover Page Options"
+msgstr "Opciones de portada para la página de fax"
+
+msgid "Fax Licenses"
+msgstr "Licencias de fax"
+
+msgid "Fax Preview"
+msgstr "Vista previa de Fax"
+
+msgid "Fax Settings"
+msgstr "Ajustes de fax"
+
+msgid ""
+"Fax licenses missing! This feature may not have been purchased for your "
+"system. Please contact your sales associate for more information on this "
+"feature."
+msgstr ""
+"¡Falta la licencia de Fax! Puede que esta función no se haya adquirido para "
+"su sistema. Por favor contacte a representante de ventas para obtener mas "
+"información sobre esta función."
+
+msgid "Fax modules missing! Please contact customer care for more information."
+msgstr ""
+"¡Falta el módulo de fax! Por favor contacte a atención a clientes para más "
+"información."
+
+msgid "File Not Found"
+msgstr "Archivo no encontrado"
+
+msgid "File or pages not found"
+msgstr "Archivo o páginas no encontradas"
+
+#, perl-format
+msgid "File was too large. Please reduce the file size or increase %s"
+msgstr "Archivo demasiado grande. Por favor reduzca el tamaño del archivo %s"
+
+msgid "Files"
+msgstr "Archivos"
+
+msgid "Fine"
+msgstr ""
+
+msgid "Formats to convert incoming fax files to before emailing."
+msgstr ""
+"Formatos para convertir archivos de fax entrantes a antes de enviar por "
+"correo electrónico."
+
+msgid "Forward Fax"
+msgstr "Reenviar Fax"
+
+msgid "From"
+msgstr "Desde"
+
+msgid "Generating..."
+msgstr "Generando..."
+
+msgid "Global Prefix"
+msgstr "Prefijo global"
+
+msgid "Here"
+msgstr "Aquí"
+
+msgid ""
+"How the system should respond when a new fax arrives for a user whose quota "
+"is full.<ul><li>Reject: Reject the new fax and disconnect the call</"
+"li><li>Delete Oldest: Delete as many faxes as necessary to accommodate the "
+"incoming fax, starting from the oldest.</li></ul>With either option, a fax "
+"larger than the quota will be deleted after it was received."
+msgstr ""
+
+msgid "Inbox"
+msgstr "Bandeja de entrada"
+
+msgid "Inherit"
+msgstr "Heredar"
+
+msgid "Invalid Destination for Outbound Fax"
+msgstr "Destino inválido para Fax saliente"
+
+msgid "Invalid Faxpro License"
+msgstr "Licencia Fax Pro no válida"
+
+msgid "Invalid License"
+msgstr "Licencia inválida"
+
+msgid "License number"
+msgstr "Número de licencia"
+
+msgid "Local Storage Options"
+msgstr "Opciones de almacenaje local"
+
+msgid "Max Concurrent Channels: "
+msgstr ""
+
+msgid "Max Pages"
+msgstr "Páginas máximas"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Missing a temporary folder"
+msgstr "Falta una carpeta temporal"
+
+msgid "Missing destination number."
+msgstr "Falta número de destino."
+
+msgid "My Email"
+msgstr "Mi correo electrónico"
+
+msgid "My Name"
+msgstr "Mi nombre"
+
+msgid "My Telephone"
+msgstr "Mi teléfono"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "No"
+msgstr "No"
+
+msgid "No destination defined"
+msgstr "No hay destino definido"
+
+msgid "No fax modules Found!"
+msgstr "¡Módulo de fax no encontrado!"
+
+msgid "No file was uploaded"
+msgstr "El archivo no fue cargado"
+
+msgid "No files or coversheet to send"
+msgstr "No hay archivo o portadas para enviar"
+
+msgid "Not Authorized"
+msgstr "No autorizado"
+
+msgid "Number of times to retry sending a failed fax."
+msgstr "Número de veces para intentar el envío de un fax fallido."
+
+#, fuzzy
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "On Failure"
+msgstr "Fracaso"
+
+msgid "On Success"
+msgstr "Éxitoso"
+
+msgid "Outgoing"
+msgstr "Saliente"
+
+msgid "Outgoing Channels Are Busy. "
+msgstr ""
+
+msgid "Outgoing Header"
+msgstr "Cabecera outgoing"
+
+msgid "Outgoing Station ID"
+msgstr "Outgoing station ID"
+
+msgid "Pages"
+msgstr "Páginas"
+
+msgid "Please Enter a valid Destination"
+msgstr "Por favor introduzca una destino válido"
+
+msgid "Please contact customer care for more information."
+msgstr "Por favor contacte a atención a clientes para más información."
+
+msgid "Please ensure you have adequate space remaining."
+msgstr "Por favor, asegúrese de que tiene suficiente espacio restante."
+
+msgid "Please enter a phone number or extension"
+msgstr "Por favor introduzca un número de teléfono o extensión"
+
+msgid "Please upload at least one file or enable a coversheet"
+msgstr "Por favor suba al menos un archivo o habilite una portada"
+
+msgid "Preview"
+msgstr "Vista previa"
+
+msgid "Preview Coverpage"
+msgstr "Vista previa de portada"
+
+msgid "Quota exceded"
+msgstr "Sobrepasa la cuota"
+
+msgid "Recipient Name"
+msgstr "Nombre del destinatario"
+
+msgid "Reject"
+msgstr "Rechazado"
+
+msgid "Resolution"
+msgstr "Resolución"
+
+msgid "Retries"
+msgstr "Intentos"
+
+msgid "Send"
+msgstr ""
+
+msgid "Send Fax"
+msgstr "Enviar fax"
+
+msgid "Send New Fax"
+msgstr "Enviar Nuevo Fax"
+
+msgid "Send a New Fax"
+msgstr "Enviar un Nuevo Fax"
+
+msgid "Sent"
+msgstr "Enviado"
+
+msgid "Set if this device should act as a t38 gateway"
+msgstr "Establecer si este dispositivo actuará como gateway t38"
+
+msgid "Set this to yes if you are using a t38 gateway device."
+msgstr "Ponga esto en sí, si usted está usando un dispositivo t38."
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Standard"
+msgstr "Estándar"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Store Locally"
+msgstr "Almacenamiento local"
+
+msgid "Success"
+msgstr "Éxitoso"
+
+msgid "Super Fine"
+msgstr "Super fino"
+
+msgid "T38 Gateway"
+msgstr "T38 gateway"
+
+msgid "T38-Gateway Enabled"
+msgstr "T38 gateway habilitado"
+
+msgid "TThe Phone number that will appear on the cover sheet."
+msgstr "El número de teléfono que podría aparecer sobre la hoja de portada."
+
+msgid "The Phone number that will appear on the cover sheet."
+msgstr "El número de teléfono que podría aparecer sobre la hoja de portada."
+
+msgid "The email address that will appear on the coversheet."
+msgstr "El correo electrónico que podría aparecer sobre la hoja de portada."
+
+msgid "The maximum amount of pages a user is allowed to store locally."
+msgstr ""
+"La cantidad máxima de páginas permitidas a un usuario para almacenar "
+"localmente."
+
+msgid "The maximum amount of times a fax will be retried on failure."
+msgstr ""
+"La cantidad máxima de veces que un fax podría reintentar sobre un fallo."
+
+msgid "The name that should appear on the outbound coversheet."
+msgstr "El nombre que podría aparecer en la portada de salida."
+
+msgid ""
+"The outgoing Fax Machine Headers. This usually contains the name of the "
+"person or entity sending the fax."
+msgstr ""
+"La cabecera de una máquina de fax para salida. Este usualmente contiene el "
+"nombre de la persona o entidad que envía el fax."
+
+msgid "The outgoing Fax Machine Identifier. This is usually your fax number."
+msgstr ""
+"Identificador de una máquina de fax para la salida. Este usualmente es su "
+"número de fax."
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"El archivo cargado excede la directiva MAX_FILE_SIZE que se específico en el "
+"formulario HTML"
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "El archivo cargado excede la directiva upload_max_filesize en php.ini"
+
+msgid "The uploaded file was only partially uploaded"
+msgstr "El archivo cargado solo fue parcialmente cargado"
+
+msgid "This text will appear at the bottom of every outbound fax."
+msgstr "Este texto podría aparecer en la parte inferior de cada fax de salida."
+
+msgid "To"
+msgstr "A"
+
+msgid "Total"
+msgstr "Total"
+
+#, php-format
+msgid "Unable to create temporary directory %s"
+msgstr "No se puede crear el directorio temporal %s"
+
+msgid "Unable to delete file"
+msgstr "No se puede eliminar el archivo"
+
+msgid "Unable to find fax backgrounder!"
+msgstr "¡Incapaz de encontrar fax backgrounder!"
+
+msgid "Unable to find files to send!"
+msgstr "¡No se pueden encontrar archivos a enviar!"
+
+msgid "Unknown Error"
+msgstr "Error desconocido"
+
+msgid "Unsupported file format"
+msgstr "Formato de archivo no soportado"
+
+msgid "Upload Document"
+msgstr "Cargando documento"
+
+msgid "Uploading..."
+msgstr "Cargando..."
+
+msgid "Use global setting"
+msgstr "Utilizar configuración global"
+
+msgid "User Canceled"
+msgstr "El usuario cancelo"
+
+msgid "User Control Panel Faxing Options"
+msgstr "Opciones de User Control Panel Faxing"
+
+#, php-format
+msgid ""
+"User Manager users '%s' have the ability to send faxes but have no linked "
+"extension defined so they will not be able to send faxes."
+msgstr ""
+
+msgid "When to email the results of an outgoing fax."
+msgstr "Al enviar por correo electrónico los resultados de un fax saliente."
+
+msgid "Will Save Settings"
+msgstr ""
+
+msgid "Yes"
+msgstr "Si"
+
+#, perl-format
+msgid "You Have %s New Fax"
+msgstr "Usted tiene %s Nuevo Fax"
+
+#, php-format
+msgid ""
+"You are using <span id=\"usage\">%s%%</span> of your fax storage quota. "
+msgstr ""
+"Usted está usando <span id=\"usage\">%s%%</span> de su cuota de almacenaje "
+"para fax. "
+
+#, perl-format, php-format
+msgid ""
+"Your Web browser is not configured to display PDF files. Click here %s to "
+"download the PDF file"
+msgstr ""
+"Su navegador Web no esta configurado para visualizar archivos PDF. Clic aquí "
+"%s para descargar el archivo PDF"
+
+msgid "both"
+msgstr "ambos"
+
+msgid "upload an image"
+msgstr "cargar una imagén"
+
+#~ msgid "FAX"
+#~ msgstr "FAX"
+
+#~ msgid "FOR"
+#~ msgstr "PARA"
+
+#~ msgid "MESSAGE"
+#~ msgstr "MENSAJE"
+
+#~ msgid "Destination"
+#~ msgstr "Destino"
+
+#~ msgid "Check Outgoing for more information"
+#~ msgstr "Marcar Outgoing para más información"
+
+#~ msgid "Preparing to send.."
+#~ msgstr "Preparando para enviar.."
+
+#~ msgid "Send this without anything attached? (Coversheet only)"
+#~ msgstr "¿Enviar esto sin nada adjunto? (Solo la portada)"
+
+#~ msgid "Sending"
+#~ msgstr "Enviando"
+
+#~ msgid "Use Global Setting"
+#~ msgstr "Ajuste de Uso Global"
+
+#~ msgid ""
+#~ "Chose this option to have faxes stored by the server; accessible via the "
+#~ "ARI."
+#~ msgstr ""
+#~ "Elija esta opción si tiene faxes almacenados por el servidor, accesible "
+#~ "vía ARI."
+
+#~ msgid ""
+#~ "Enter an email address where faxes sent to this extension will be "
+#~ "delivered."
+#~ msgstr ""
+#~ "Introduzca una dirección de correo electrónico donde se entregarán los "
+#~ "faxes enviados a esta extensión."
+
+#~ msgid "Fax Email"
+#~ msgstr "Correo electrónico para fax"
+
+#~ msgid "Store Locally?"
+#~ msgstr "¿Almacenar localmente?"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid ""
+#~ "A full quota will cause the system to delete stored fax to make room for "
+#~ "the  ones."
+#~ msgstr ""
+#~ "Cuota llena en el sistema, elimine los faxes almacenados para hacer "
+#~ "espacio para los siguientes."
+
+#~ msgid "Click here to download the PDF file"
+#~ msgstr "Clic aquí  para descargar el archivo PDF"
+
+#~ msgid "Coversheet?"
+#~ msgstr "¿Portada?"
+
+#~ msgid "ERROR:"
+#~ msgstr "Error:"
+
+#~ msgid "File"
+#~ msgstr "Archivo"
+
+#~ msgid "Forward"
+#~ msgstr "Desvío"
+
+#~ msgid "It appears your Web browser is not configured to display PDF files"
+#~ msgstr ""
+#~ "Parece que su navegador Web no esta configurado para visualizar archivos "
+#~ "PDF"
+
+#~ msgid "It appears your Web browser is not configured to display PDF files."
+#~ msgstr ""
+#~ "Parece que su navegador Web no esta configurado para visualizar archivos "
+#~ "PDF."
+
+#~ msgid "My Details"
+#~ msgstr "Mis detalles"
+
+#~ msgid "My Tel"
+#~ msgstr "Mi teléfono"
+
+#~ msgid "No Faxes"
+#~ msgstr "No hay faxes"
+
+#~ msgid "Preview Cover Page"
+#~ msgstr "Portada de página en vista previa"
+
+#~ msgid "Preview cover page, will save your settings first"
+#~ msgstr "Vista previa de la portada, debe guardar sus ajustes primero"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Select a file to upload. Supported formats are: "
+#~ msgstr "Seleccione un archivo para cargar. Los formatos soportados son: "
+
+#~ msgid "Send to Local Extension"
+#~ msgstr "Enviar a extensión local"
+
+#~ msgid "Store Localy"
+#~ msgstr "Almacenar localmente"
+
+#~ msgid "View"
+#~ msgstr "Vista"
+
+#~ msgid "You are using %s%% of your fax storage quota. "
+#~ msgstr "Usted está usando %s%% de su cuota de almacenaje para fax. "
+
+#~ msgid "attach another file"
+#~ msgstr "adjuntar otro archivo"

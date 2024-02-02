@@ -1,0 +1,17 @@
+# Configuration automatically generated via Sysadmin RPM
+# MODIFICATIONS TO THIS FILE WILL BE OVERWRITTEN.
+# Generated at: Sun, 18 Oct 2015 00:07:21 +0000
+client
+dev tun
+proto udp
+resolv-retry 60
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+ca /config/openvpn/keys/sysadmin_ca.crt
+cert /config/openvpn/keys/sysadmin_client5.crt
+key /config/openvpn/keys/sysadmin_client5.key
+comp-lzo
+verb 3
+remote 10.4.0.148 1194

@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Dids; use Informunity\Classes\HeadersToFields; class removeUtmRelation implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\164\x68\145\x6e\164\151\x63\141\164\x65" => true, "\x61\x6c\x6c\x6f\167\x72\145\x6d\157\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return HeadersToFields::load()->remove($config, $data); } }

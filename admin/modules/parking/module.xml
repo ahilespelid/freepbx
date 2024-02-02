@@ -1,0 +1,70 @@
+<module>
+    <rawname>parking</rawname>
+    <repo>standard</repo>
+    <name>Parking Lot</name>
+    <version>15.0.15.4</version>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <category>Applications</category>
+    <description>Manages parking lot extensions and other options. Parking is a way of putting calls "on hold", and then picking them
+        up from any extension.
+    </description>
+    <more-info>https://wiki.freepbx.org/display/FPG/Parking+Module</more-info>
+    <changelog>
+		*15.0.15.4* Packaging of ver 15.0.15.4
+		*15.0.15.3* FREEI-1995 - adding some methods to support unit tests from the dphoneAPI 
+		*15.0.15.2* Packaging of ver 15.0.15.2
+		*15.0.15.1* FREEPBX-20576 park-return-routing does not handle multiple PJSIP AOR 
+		*15.0.15* FREEPBX-21339 Backup/Restore missing parking data 
+		*15.0.14* FREEPBX-20542 proposed patch fixes update logic 
+		*15.0.13* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.12* FREEPBX-20210 Parking Lot Settings changes from UI break Parking 
+		*15.0.11* FREEPBX-20090 Custom Parking Lot entries are not restored with backup restore 
+		*15.0.10* FREEPBX-20090 parking backup restore 
+		*15.0.8* FREEPBX-18832 After adding/editing a Parking Lot entry, page is not redirecting to list Parking Lot page.
+		*15.0.7* fixing legacy restore
+		*15.0.6* fixing legacy restore
+		*15.0.5* FREEPBX-18833 Parking Lot module allows to create duplicate entries with same Parking Lot Name
+		*15.0.4* FREEPBX-17846 Function AUDIOHOOK_INHERIT not registered
+		*15.0.3* Rest Api
+		*15.0.2* Packaging of ver 15.0.2
+        *15.0.1* Backup 15.0
+	</changelog>
+    <menuitems>
+        <parking needsenginedb="yes">Parking</parking>
+    </menuitems>
+    <database>
+        <table name="parkplus">
+            <field name="id" type="bigint" primarykey="true" autoincrement="true"/>
+            <field name="defaultlot" type="string" length="10" default="no"/>
+            <field name="type" type="string" length="10" default="public"/>
+            <field name="name" type="string" length="40" default=""/>
+            <field name="parkext" type="string" length="40" default=""/>
+            <field name="parkpos" type="string" length="40" default=""/>
+            <field name="numslots" type="integer" default="4"/>
+            <field name="parkingtime" type="integer" default="45"/>
+            <field name="parkedmusicclass" type="string" length="100" default="default" notnull="false"/>
+            <field name="generatefc" type="string" length="10" default="yes"/>
+            <field name="findslot" type="string" length="10" default="first"/>
+            <field name="parkedplay" type="string" length="10" default="both"/>
+            <field name="parkedcalltransfers" type="string" length="10" default="caller"/>
+            <field name="parkedcallreparking" type="string" length="10" default="caller"/>
+            <field name="alertinfo" type="string" length="254" default=""/>
+            <field name="rvolume" type="string" length="2" default=""/>
+            <field name="cidpp" type="string" length="100" default=""/>
+            <field name="autocidpp" type="string" length="10" default="none"/>
+            <field name="announcement_id" type="integer" notnull="false"/>
+            <field name="comebacktoorigin" type="string" length="10" default="yes"/>
+            <field name="dest" type="string" length="100" default="app-blackhole,hangup,1"/>
+        </table>
+    </database>
+    <depends>
+        <module>core ge 13.0.114</module>
+        <module>framework ge 13.0.121</module>
+        <module>callrecording ge 12.0.1</module>
+    </depends>
+    <supported>
+        <version>15.0</version>
+    </supported>
+</module>

@@ -1,0 +1,103 @@
+<module>
+	<rawname>queues</rawname>
+	<repo>standard</repo>
+	<name>Queues</name>
+	<version>15.0.39</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv2+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-2.0.txt</licenselink>
+	<category>Applications</category>
+	<description>Creates a queue where calls are placed on hold and answered on a first-in, first-out basis. Many options are available, including ring strategy for agents, caller announcements, max wait times, etc.</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Queues+Module</more-info>
+	<changelog>
+		*15.0.39* Packaging of ver 15.0.39
+		*15.0.38* FREEI-5848 FREEI-5574 
+		*15.0.37* FREEI-5707 
+		*15.0.36* Packaging of ver 15.0.36
+		*15.0.35* FREEI-5574 
+		*15.0.34* FREEI-3852 adding pause all toggle reason 
+		*15.0.33* FREEI-3011 Unable to Configure Queue native app in D-phone 
+		*15.0.32* FREEI-2920	Method added for Dphone API 
+		*15.0.31* FREEI-2918 Added method for Dphone API 
+		*15.0.30* FREEI-2878 methods added for Dphone API 
+		*15.0.29* FREEPBX-22294/Queues API Can Delete Member 
+		*15.0.28* Fixing FREEPBX-22294 New Queue API destroys queue if sent with no static members issue. 
+		*15.0.27* FREEPBX-22110 Improving REST API for Queues 
+		*15.0.26* Packaging of ver 15.0.26
+		*15.0.25* FREEPBX-22046 Queues Rest API fails to fetch details by QueueID 
+		*15.0.24* add encapsulating doublequotes around queue CID prefix to allow delimeting characters to be part of prefix 
+		*15.0.23* Packaging of ver 15.0.23
+		*15.0.22* Packaging of ver 15.0.22
+		*15.0.21* FREEI-1959 - optimize the queues_get() function 
+		*15.0.20* FREEI-1834 dynamic agents are not restored 
+		*15.0.19* FREEPBX-21428 Increasing the queue max caller limit 
+		*15.0.18* FREEPBX-21363 Backup/restore doesn't restore Dynamic agents in Queues 
+		*15.0.17* FREEPBX-20987 Update 'skip busy' tooltip in Queues 
+		*15.0.16* FREEI-924 Fix XSS Bootstrap Datatable Issues 
+		*15.0.15* FREEPBX-20634 Dynamic Agents with comma character in name show as (Invalid) in queues 
+		*15.0.14* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.13* FREEPBX-20461 Add detail to Queues ring strategy tool tip. 
+		*15.0.12* FREEI-618 Dynamic Queue Agents causing ALL queue agents to disappear 
+		*15.0.11* FREEPBX-19819 Queue agent restriction is not working for 'No Follow-Me or Call Forward' option. 
+		*15.0.10* FREEI-492 Duplicate entry 'Agent Availability Detail' qxact_reports 
+		*15.0.9* FREEPBX-19434 and FREEPBX-19433 
+		*15.0.7* fixing legacy restore
+		*15.0.6* Fix backup
+		*15.0.5.1* FREEPBX-18835
+		*15.0.5* Rest Api
+		*15.0.4* Packaging of ver 15.0.4
+		*15.0.3* FREEPBX-17706 Wrong URL's in Used as Destination - Announcements
+		*15.0.2* FREEPBX-17706 Wrong URL's in Used as Destination - Queues
+        *15.0.1* Backup 15
+	</changelog>
+	<depends>
+		<version>14.0.1alpha24</version>
+		<module>recordings ge 3.3.8</module>
+		<module>core ge 13.0.22</module>
+	</depends>
+	<menuitems>
+		<queues needsenginedb="yes">Queues</queues>
+	</menuitems>
+	<popovers>
+		<queues>
+			<display>queues</display>
+			<view>form</view>
+		</queues>
+	</popovers>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<database>
+		<table name="queues_details">
+			<field name="id" type="string" length="45" default="-1" primarykey="true"/>
+			<field name="keyword" type="string" length="30" default="" primarykey="true"/>
+			<field name="data" type="string" length="150" default="" primarykey="true"/>
+			<field name="flags" type="integer" default="0"/>
+		</table>
+		<table name="queues_config">
+			<field name="extension" type="string" length="20" default="" primaryKey="true"/>
+			<field name="descr" type="string" length="35" default=""/>
+			<field name="grppre" type="string" length="100" default=""/>
+			<field name="alertinfo" type="string" length="254" default=""/>
+			<field name="ringing" type="boolean" default="0"/>
+			<field name="maxwait" type="string" length="8" default=""/>
+			<field name="password" type="string" length="20" default=""/>
+			<field name="ivr_id" type="string" length="8" default="0"/>
+			<field name="dest" type="string" length="50" default=""/>
+			<field name="cwignore" type="boolean" default="0"/>
+			<field name="queuewait" type="boolean" default="0" notnull="false"/>
+			<field name="use_queue_context" type="boolean" default="0" notnull="false"/>
+			<field name="togglehint" type="boolean" default="0" notnull="false"/>
+			<field name="qnoanswer" type="boolean" default="0" notnull="false"/>
+			<field name="callconfirm" type="boolean" default="0" notnull="false"/>
+			<field name="callconfirm_id" type="integer" notnull="false"/>
+			<field name="qregex" type="string" length="255" notnull="false"/>
+			<field name="agentannounce_id" type="integer" notnull="false"/>
+			<field name="joinannounce_id" type="integer" notnull="false"/>
+			<field name="monitor_type" type="string" length="5" notnull="false"/>
+			<field name="monitor_heard" type="integer" notnull="false"/>
+			<field name="monitor_spoken" type="integer" notnull="false"/>
+			<field name="callback_id" type="string" length="8" default=""/>
+		</table>
+	</database>
+</module>

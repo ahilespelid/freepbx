@@ -1,0 +1,81 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for donotdisturb
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 02:42+0000\n"
+"PO-Revision-Date: 2018-09-04 11:25+0000\n"
+"Last-Translator: Petr Varvarovsky <petrv@atlantis.cz>\n"
+"Language-Team: Czech <http://*/projects/freepbx/donotdisturb/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#: donotdisturb.i18n.php:6
+msgid "Applications"
+msgstr "Aplikace"
+
+#: donotdisturb.i18n.php:12 install.php:6
+msgid "DND Activate"
+msgstr "Aktivovat DND"
+
+#: donotdisturb.i18n.php:10 install.php:7
+msgid "DND Deactivate"
+msgstr "Deaktivovat DND"
+
+#: donotdisturb.i18n.php:14 install.php:8
+msgid "DND Toggle"
+msgstr "Přepnout DND"
+
+#: ucp/views/widget.php:2
+msgid "Disabled"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:84
+msgid "Do Not Disturb"
+msgstr "Nerušit"
+
+#: ucp/Donotdisturb.class.php:150
+msgid "Do Not Disturb Has Been Updated!"
+msgstr "Funkce Nerušit byla aktualizována!"
+
+#: ucp/Donotdisturb.class.php:71
+#, php-format
+msgid "Do Not Disturb for %s"
+msgstr ""
+
+#: donotdisturb.i18n.php:8
+msgid ""
+"Do not disturb (DND) allows calls to be rejected at the user's request via a "
+"feature code, UCP setting, or REST App."
+msgstr ""
+
+#: donotdisturb.i18n.php:4 install.php:5
+msgid "Do-Not-Disturb (DND)"
+msgstr "Nerušit (DND)"
+
+#: ucp/views/widget.php:2
+msgid "Enabled"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:101
+msgid "Follow Me"
+msgstr ""
+
+#~ msgid "Provides donotdisturb functionality"
+#~ msgstr "Poskytuje funkci Nerušit"
+
+#~ msgid "Enable"
+#~ msgstr "Povolit"
+
+#~ msgid "Used to indicate that somebody does not wish to be disturbed."
+#~ msgstr "Označuje, že někdo nechce být rušen."

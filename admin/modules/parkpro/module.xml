@@ -1,0 +1,86 @@
+<module>
+	<rawname>parkpro</rawname>
+	<name>Parking Pro</name>
+	<version>15.0.13</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#parking-pro</link>
+	</commercial>
+	<repo>commercial</repo>
+	<description>
+		PARK PRO - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Provides Multiple Parking Lots, per extension assignment for default lots, Park and Page Announce and other advanced parking features to come
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Park+Pro</more-info>
+	<changelog>
+		*15.0.13* FREEI-1130 fix PHP 7.3 compatibility issue
+		*15.0.12.14* FREEI-1851 Park pro does not send calls to assigned extension park lot 
+		*15.0.12.13* FREEI-1924 Bulk Import does not set parking lot 
+		*15.0.12.12* Packaging of ver 15.0.12.12
+		*15.0.12.11* Packaging of ver 15.0.12.11
+		*15.0.12.10* FREEI-1924 Bulk Import does not set parking lot 
+		*15.0.12.9* FREEI-1923 Quick Config does not set default Parking Lot 
+		*15.0.12.8* FREEI-1573 Updates to licensing
+		*15.0.12.7* FREEPBX-21490 Fixing-Allow to modify the pannounce. 
+		*15.0.12.6* FREEI-1293 Park and Announce module allows to create Multiple entries with same Park &amp;amp; Announce extension. 
+		*15.0.12.5* FREEI-718 Restoring legacy(FreePBX 13) Backup into FreePBX 15 system is adding slashes "\\" to CallerID Prepend field. 
+		*15.0.12.4* FREEI-718 Restoring legacy(FreePBX 13) Backup into FreePBX 15 system is adding slashes "\\" to CallerID Prepend field. 
+		*15.0.12.3* FREEPBX-20376 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system is not restoring the Park and Announce entries. 
+		*15.0.12.2* FREEPBX-20089 Park and Announce entries flushed while doing backup restore 
+		*15.0.12.1* FREEPBX-19989
+		*15.0.11* FREEPBX-19540 
+		*15.0.9* FREEPBX-18784  Page announcements message under Park and announce
+		*15.0.8* FREEPBX-18867 5 seconds delay in playing the park announcement message.
+		*15.0.7* FREEPBX-18833 Parking Lot module allows to create duplicate entries with same Parking Lot Name
+		*15.0.6* FREEPBX-18721 and FREEPBX-18720
+		*15.0.5* FREEPBX-18725 FREEPBX-18724
+		*15.0.4* FREEPBX-18340 Page layout issue in Park and announce edit page.
+		*15.0.3* FREEPBX-17548 Amount spelled as ammount in park and annouce tooltips
+		*15.0.1* FREEPBX-15555 Exception Asterisk is not connected error issue fix
+	</changelog>
+	<category>Applications</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#parking-pro</link>
+	</commercial>
+	<popoverss>
+		<pannounce>
+			<display>pannounce</display>
+			<action>add</action>
+		</pannounce>
+ 	</popoverss>
+	<depends>
+		<engine>asterisk ge 1.8</engine>
+		<version>13.0.6</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>parking ge 13.0.19.7</module>
+		<module>framework ge 14.0.2.16</module>
+	</depends>
+	<menuitems>
+		<pannounce needsenginedb="yes">Park and Announce</pannounce>
+	</menuitems>
+	<methods>
+		<get_config pri="250">parkpro_get_config</get_config>
+	</methods>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<hooks>
+		<core class="Core" namespace="FreePBX\modules">
+			<method callingMethod="delDevice" class="Parkpro">delDevice</method>
+			 <method callingMethod="getQuickCreateDisplay" class="Parkpro">getQuickCreateDisplay</method>
+			 <method callingMethod="processQuickCreate" class="Parkpro">processQuickCreate</method>
+		</core>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Parkpro">bulkhandlerGetHeaders</method>
+			<method callingMethod="import" class="Parkpro">bulkhandlerImport</method>
+			<method callingMethod="export" class="Parkpro">bulkhandlerExport</method>
+		</bulkhandler>
+	</hooks>
+	<location>release/2.11/parkpro-2.11.0.3.tgz</location>
+	<md5sum>24e17f9ef733511884ee1f4a66360f3d</md5sum>
+</module>

@@ -1,0 +1,40 @@
+<module>
+	<rawname>voicemail_report</rawname>
+	<name>Voicemail Reports</name>
+	<version>15.0.7</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<category>Reports</category>
+	<description>Displays various information related to the voicemail system.</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Voicemail+Reports</more-info>
+	<changelog>
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* Packaging of ver 15.0.6
+		*15.0.5* FREEI-1279
+		*15.0.4* FREEI-812 Unable to play the voice mail : File does not exist 
+		*15.0.3* FREEPBX-19836 
+		*15.0.1* Back and Restore
+		*14.0.2* FREEPBX-16485 fix for none default vm context
+		*14.0.1* Branch from 13.0.13.2
+	</changelog>
+	<commercial>
+		<type>paid</type>
+		<link>//freepbx.org/voicemail-reports/</link>
+	</commercial>
+	<depends>
+		<module>recordings</module>
+		<module>sysadmin ge 13.0.69</module>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+	</depends>
+	<menuitems>
+		<voicemail_report>Voicemail Reports</voicemail_report>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<location>release/2.11/voicemail_report-2.11.0.4.tgz</location>
+	<md5sum>ed27f9501e8972cffdae1d05329f6bfa</md5sum>
+</module>

@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX - módulo miscdests module spanish translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 19:42-0500\n"
+"PO-Revision-Date: 2015-03-24 07:28+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/miscdests/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: views/grid.php:36
+msgid "Actions"
+msgstr "Acciones"
+
+#: page.miscdests.php:16 views/bootnav.php:2 views/grid.php:8
+#: views/grid.php:10
+msgid "Add Misc Destination"
+msgstr "Añadir destino"
+
+#: miscdests.i18n.php:5
+msgid ""
+"Allows creating destinations that dial any local number (extensions, feature "
+"codes, outside phone numbers) that can be used by other modules (eg, IVR, "
+"time conditions) as a call destination."
+msgstr ""
+"Permite la creación de destinos que marcan cualquier número local ("
+"extensiones, códigos de funciones, números de teléfono externos) que puede "
+"ser utilizado por otros módulos (por ejemplo, IVR, condiciones de tiempo) "
+"como un destino de la llamada."
+
+#: miscdests.i18n.php:4
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: Miscdests.class.php:79
+msgid "Delete"
+msgstr "Eliminar"
+
+#: views/form.php:37
+msgid "Description:"
+msgstr "Descripción:"
+
+#: views/form.php:59
+msgid "Dial:"
+msgstr "Marcar:"
+
+#: page.miscdests.php:14
+msgid "Edit Misc Destination"
+msgstr "Editar destino"
+
+#: views/form.php:71
+msgid ""
+"Enter the number this destination will simulate dialing, exactly as you "
+"would dial it from an internal phone. When you route a call to this "
+"destination, it will be as if the caller dialed this number from an internal "
+"phone."
+msgstr ""
+"Introduzca el número que simulará este destino, de la misma forma en la que "
+"se marcaría desde un teléfono interno. Cuando se enrute una llamada a este "
+"destino, será tratada como si se hubiera llamado desde el teléfono interno."
+
+#: views/form.php:49
+msgid "Give this Misc Destination a brief name to help you identify it."
+msgstr "Asigne al destino un breve nombre que le ayude a identificarlo."
+
+#: page.miscdests.php:9
+msgid ""
+"If you need access to a Feature Code, such as *98 to dial voicemail or a "
+"Time Condition toggle, these destinations are now provided as Feature Code "
+"Admin destinations. For upgrade compatibility, if you previously had "
+"configured such a destination, it will still work but the Feature Code short "
+"cuts select list is not longer provided.<br/><br/>"
+msgstr ""
+"Si necesita acceder a un código de función, como por ejemplo *98 para marcar "
+"el correo de voz o un toggle de  Condición Tiemporal, estos destinos son "
+"prestados actualmente como destinos Código de función admin. Para la "
+"compatibilidad de actualización, si previamente ha configurado un destino "
+"tal, seguirá funcionando, pero os atajos del código de función ya no será  "
+"provisto. <br/><br/>"
+
+#: views/grid.php:35
+msgid "Language"
+msgstr "Idioma"
+
+#: views/bootnav.php:1
+msgid "List Misc Destinations"
+msgstr "Lista de Destinos Miscelaneos"
+
+#: Miscdests.class.php:132 functions.inc.php:37
+#, php-format
+msgid "Misc Destination: %s"
+msgstr "Destino: %s"
+
+#: miscdests.i18n.php:3 miscdests.i18n.php:6 page.miscdests.php:8
+msgid "Misc Destinations"
+msgstr "Destinos varios"
+
+#: page.miscdests.php:9
+msgid ""
+"Misc Destinations are for adding destinations that can be used by other "
+"FreePBX modules, generally used to route incoming calls. If you want to "
+"create feature codes that can be dialed by internal users and go to various "
+"destinations, please see the <strong>Misc Applications</strong> module."
+msgstr ""
+"Los destinos varios se utilizan para añadir destinos que puedan ser usados "
+"por otros módulos de FreePBX, que se usan generalmente para enrutar llamadas "
+"internas. Si desea crear códigos de características que puedan ser marcados "
+"por usuarios internos y que vayan a varios destinos, utilice el módulo de "
+"<strong>Aplicaciones varias</strong>."
+
+#: assets/js/miscdests.js:11
+msgid "Please enter a valid Description"
+msgstr "Por favor, introduzca una descripción válida"
+
+#: assets/js/miscdests.js:12
+msgid "Please enter a valid Dial string"
+msgstr "Por favor, introduzca una cadena de marcación válida"
+
+#: Miscdests.class.php:22
+msgid "Removing Settings table"
+msgstr "removiendo tabla de Configuraciones"
+
+#: Miscdests.class.php:84
+msgid "Reset"
+msgstr "Restaura"
+
+#: Miscdests.class.php:89
+msgid "Submit"
+msgstr "Envio"
+
+#: assets/js/miscdests.js:55
+msgid ""
+"This destination is in use. Deleting it may cause things to not work properly"
+msgstr ""
+"Este destino esta en uso. Borrarlo puede causar algunas cosas no funcionen "
+"adecuadamente"
+
+#~ msgid "Misc Destination:"
+#~ msgstr "Destino:"
+
+#~ msgid "Misc Destination"
+#~ msgstr "Destinos varios"
+
+#~ msgid "deleted"
+#~ msgstr "eliminado"
+
+#~ msgid "Delete Misc Destination %s"
+#~ msgstr "Eliminar destino %s"
+
+#~ msgid "Submit Changes"
+#~ msgstr "Enviar cambios"
+
+#~ msgid "featurecode shortcuts"
+#~ msgstr "Accesos rápidos a códigos de características"

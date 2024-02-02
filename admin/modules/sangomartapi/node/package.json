@@ -1,0 +1,40 @@
+{
+  "name": "sangomartapi",
+  "version": "1.0.0",
+  "description": "Sangoma Realtime API for FreePBX",
+  "main": "index.js",
+  "author": "",
+  "dependencies": {
+    "any-db": "^2.2.1",
+    "any-db-mysql": "^2.3.0",
+    "asterisk-manager": "^0.1.16",
+    "base64-stream": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "connect": "^2.30.2",
+    "constant-db": "^2.0.4",
+    "cookies": "^0.8.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-proxy-middleware": "^2.0.1",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "lru": "^3.1.0",
+    "mariasql": "^0.2.6",
+    "node-fetch": "^2.6.1",
+    "readable-stream": "^3.6.0",
+    "socket.io": "^2.3.0",
+    "wscat": "^4.0.1",
+    "yargs-parser": "^20.2.6"
+  },
+  "engines": {
+    "node": ">= 8.16.0",
+    "npm": ">= 3.10.8"
+  },
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production node kickstart.js"
+  }
+}

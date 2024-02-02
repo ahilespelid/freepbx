@@ -1,0 +1,756 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for broadcast
+# Copyright (C) 2008-2016 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-24 02:40+0000\n"
+"PO-Revision-Date: 2019-02-01 01:53+0000\n"
+"Last-Translator: Media Mousavi <mousavi.media@gmail.com>\n"
+"Language-Team: Persian <http://*/projects/fpbxc/broadcast/fa/>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "Actions"
+msgstr "عملیات"
+
+msgid "Activate Campaign"
+msgstr ""
+
+msgid "Add Campaign"
+msgstr "افزودن کمپین"
+
+msgid "Add Group"
+msgstr "افزودن گروه"
+
+msgid "Add a Call Group"
+msgstr "افزودن گروه تماس"
+
+msgid "Add a Campaign"
+msgstr "افزودن کمپین"
+
+msgid "Add/Edit Callee"
+msgstr "افزودن/ویرایش Callee"
+
+msgid "After Campaign Completes"
+msgstr "بعد از تکمیل کمپین"
+
+msgid "An id used to identify Campaign"
+msgstr ""
+
+msgid "Answering Machine Detection is configured"
+msgstr "تشخیص ماشین پاسخگو پیکربندی شد"
+
+msgid "Applications"
+msgstr "برنامه ها"
+
+msgid "Are you sure you want to delete this entry ?"
+msgstr "آیا از حذف این ورودی مطمئن هستید؟"
+
+msgid "Attached is the current report of calls made."
+msgstr "گزارش تماس های ایجاد شده پیوست شده."
+
+msgid "Attached is the report of all calls made."
+msgstr "گزارش تمام تماس ها پیوست شده."
+
+msgid "Broadcast"
+msgstr "پخش"
+
+#, php-format
+msgid "Broadcast Campaign %s (%s) Complete!"
+msgstr "پخش کمپین %s تکمیل (%s)!"
+
+#, php-format
+msgid "Broadcast Campaign %s (%s) has Started"
+msgstr "پخش کمپین %s  (%s) شروع شده"
+
+msgid "Broadcast Campaigns"
+msgstr "پخش کمپین ها"
+
+#, php-format
+msgid "Broadcast Error for %s (%s)"
+msgstr "Broadcast error for %s1 (%s2)"
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"activateCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"addCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"deActivateCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"deleteCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"fetchAllCampaigns"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"startCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"stopCampaign"
+msgstr ""
+
+msgid ""
+"Broadcast commercial module does not have valid license to perform "
+"updateCampaign"
+msgstr ""
+
+msgid "Broadcast-"
+msgstr "پخش-"
+
+msgid "Browse"
+msgstr "مرور"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  The Broadcast "
+"module for FreePBX allows you to broadcast messages\tto your custoemrs or "
+"clients.  You can create campaings and set start and end times.  From their "
+"you can direct where you want the call to be directed to based on if a humna "
+"being\tor a answering machine answer the call.  Upload your CDS list of "
+"names and numbers and start your campaign.  You can also choose to get "
+"reports on your campaign daily or after the\tcampaign completes."
+msgstr ""
+
+msgid "Call Group Name"
+msgstr "نام گروه تماس"
+
+msgid "Call Group URI Source"
+msgstr "منبع URI گروه تماس"
+
+msgid "Call Groups"
+msgstr "گروه های تماس"
+
+msgid "Caller id used for the campaign"
+msgstr ""
+
+msgid "Calls"
+msgstr "تماس ها"
+
+msgid "Campaign"
+msgstr "کمپین"
+
+#, php-format
+msgid "Campaign %s (%s) deactivated"
+msgstr "کمپین٪ s1 (٪ s2) غیرفعال شده است"
+
+msgid "Campaign Active"
+msgstr "کمپین فعال"
+
+msgid "Campaign Caller ID"
+msgstr "کالر آی دی کمپین"
+
+msgid "Campaign Completed"
+msgstr ""
+
+msgid "Campaign Deactivated successfully"
+msgstr ""
+
+msgid "Campaign Name"
+msgstr "نام کمپین"
+
+msgid "Campaign Name Already Exist"
+msgstr ""
+
+msgid "Campaign activated successfully"
+msgstr ""
+
+msgid "Campaign active status"
+msgstr ""
+
+msgid "Campaign created Successfully"
+msgstr ""
+
+msgid "Campaign deleted Successfully"
+msgstr ""
+
+msgid "Campaign started"
+msgstr ""
+
+msgid "Campaign updated Successfully"
+msgstr ""
+
+msgid "Campaigns"
+msgstr "کمپین ها"
+
+msgid ""
+"Choose Daily After End Time to have a report emailed each day after the End "
+"Time is reached (see below) and also after the campaign is completed.  "
+"Choose After Campaign Completes to receive an email only after the campaign "
+"is completed."
+msgstr ""
+"Choose Daily After End Time to have a report emailed each day after the End "
+"Time is reached (see below) and also ..after the campaign is completed.  "
+"choose After Campaign Completes to receive an email only after the campaign "
+"is completed"
+
+msgid "Complete"
+msgstr "کامل"
+
+msgid "Complete Campaigns"
+msgstr "کمپین های کامل"
+
+msgid "Completed status of the campaign"
+msgstr ""
+
+msgid "Concurrent Calls"
+msgstr "تماس های همزمان"
+
+msgid "Current Campaigns"
+msgstr "کمپین های فعلی"
+
+msgid "Daily After End Time"
+msgstr "روزانه پس از پایان زمان"
+
+msgid "Date/Time Options for this campaign"
+msgstr "گزینه های تاریخ/ساعت برای این کمپین"
+
+msgid "Deactivate Campaign"
+msgstr ""
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete Campaign"
+msgstr ""
+
+msgid "Delete after Retrieving"
+msgstr "حذف بعد از بازیابی"
+
+msgid "Destination - Answering Machine / Voicemail Answered"
+msgstr "مقصد - پاسخگوی ماشین / پاسخ صوتی"
+
+msgid "Destination - Live Person Answered"
+msgstr "مقصد - فرد زنده پاسخ داده شده است"
+
+msgid "Dial Prefix"
+msgstr "شماره پیشوند"
+
+#, php-format
+msgid "Don't know what type %s is."
+msgstr "نمی دانید کدام نوع %s است."
+
+msgid "Duplicate Campaign"
+msgstr "کمپین تکراری"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Email Reports"
+msgstr "گزارشات ایمیل"
+
+msgid "Email Reports to"
+msgstr "گزارشات ایمیل به"
+
+msgid "Email address to which the reports has to be sent"
+msgstr ""
+
+msgid "Email setting when to send emails"
+msgstr ""
+
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+msgid "End Time"
+msgstr "ساعت پایان"
+
+msgid "End date for Campaign"
+msgstr ""
+
+#, php-format
+msgid "End of Period - Campaign %s (%s)"
+msgstr "پایان دوره - کمپین %s (%s)"
+
+msgid "End time for Campaign"
+msgstr ""
+
+msgid "End week for Campaign"
+msgstr ""
+
+msgid "Enter the caller id you would like to use for this campaign"
+msgstr ""
+"شناسه تماس گیرنده را که می خواهید برای این کمپین استفاده کنید را وارد کنید"
+
+msgid "Enter the email address you wish this report to be emailed to"
+msgstr "آدرس ایمیل مورد نظر را برای این گزارش ارسال کنید"
+
+msgid "Enter the maximum number of retries on failed calls."
+msgstr "حداکثر تعداد تلاش برای تماسهای ناموفق را وارد کنید."
+
+msgid "Enter the name for this call group"
+msgstr "نام این گروه تماس را وارد کنید"
+
+msgid "Enter the name for this campaign"
+msgstr "نام این کمپین را وارد کنید"
+
+msgid "Enter the name of the callee"
+msgstr "نام این callee را وارد کنید"
+
+msgid "Enter the number of the callee"
+msgstr "شماره این callee را وارد کنید"
+
+msgid ""
+"Enter the total number of concurrent calls to be active at any given time.  "
+"This should be less than the total number of channels available on the "
+"system to still allow calls to be made and received."
+msgstr ""
+"Enter the total number of concurrent calls to be active at any given time.  "
+"this should be less than the total number of channels available on the "
+"system to still allow calls to be made and received."
+
+msgid ""
+"FTP ONLY. Will attempt to delete the file after downloading. If it is unable "
+"to delete the file, for whatever reason, the import WILL NOT proceed."
+msgstr ""
+"FTP ONLY. Will attempt to delete the file after downloading. if it is unable "
+"to delete the file, for whatever reason, the import WILL NOT proceed."
+
+msgid "Friday"
+msgstr "جمعه"
+
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+msgid "Group"
+msgstr "گروه"
+
+msgid "Group Name Already Exist"
+msgstr "نام گروه وجود دارد"
+
+msgid "Group Options"
+msgstr "گزینه های گروه"
+
+msgid "Groups"
+msgstr "گروه ها"
+
+msgid "Groups to include in calls from this campaign."
+msgstr "گروه ها در تماس های این کمپین شامل می شوند."
+
+msgid "How many seconds between URI updates"
+msgstr "چند ثانیه بین URI به روز می شود"
+
+msgid "Id of the Campaign"
+msgstr ""
+
+msgid ""
+"If you would like to customize the from email address that reports appear to "
+"come from, enter the email address here."
+msgstr ""
+"اگر میخواهید آدرس ایمیل را که گزارشها از آن آمده است سفارشی کنید، آدرس ایمیل "
+"را در اینجا وارد کنید."
+
+msgid ""
+"Import a CSV File formatted as follows:<br/>Name,Number,command<br />  "
+"Fields separated by ',' <br /><br /> Command is either 'add' or 'remove', is "
+"optional, and defaults to 'add'. Example:<br/>John Doe,12345678,add<br/>John "
+"Doe,12345687,remove"
+msgstr ""
+"import a CSV File formatted as follows:<br/>1Name,Number,command<br />2  "
+"Fields separated by ',' <br />3<br />4 Command is either 'add' or 'remove', "
+"is optional, and defaults to 'add'. Example:<br/>5John Doe,12345678,add<br/"
+">6John Doe,12345687,remove"
+
+msgid "Important Notice"
+msgstr "نکته مهم"
+
+msgid "List of campaigns"
+msgstr ""
+
+msgid "Maximum Retries"
+msgstr "حداکثر تجربیات"
+
+msgid "Maximum concurrent calls that this campaign can use"
+msgstr ""
+
+msgid ""
+"Maximum concurrent calls that this campaign can use,Should be less than the "
+"Concurrent Calls available in the general settings"
+msgstr ""
+"حداکثر تماس های همزمان که این کمپین می تواند استفاده کند باید کمتر از تماس "
+"های همزمان موجود در تنظیمات عمومی باشد"
+
+msgid "Message for the request"
+msgstr ""
+
+msgid "Monday"
+msgstr "دوشنبه"
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Name of the Call Group"
+msgstr ""
+
+msgid "Name of the Campaign"
+msgstr ""
+
+msgid "Never"
+msgstr "هرگز"
+
+msgid "No"
+msgstr "خیر"
+
+msgid "None"
+msgstr "هیچکدام"
+
+msgid "Number"
+msgstr "شماره"
+
+msgid "Number of times retried"
+msgstr ""
+
+msgid "Numbers to Call"
+msgstr "اعداد برای تماس"
+
+msgid "Only Call Between"
+msgstr "تماس بگیرید فقط بین"
+
+msgid "Optional"
+msgstr "اختیاری"
+
+msgid "Overview"
+msgstr "بازنگری"
+
+msgid "PM"
+msgstr "بعد از ظهر"
+
+msgid "Please enter a valid Campaign Name"
+msgstr "لطفاً نام کمپین معتبر وارد کنید"
+
+msgid "Please enter a valid Group Name"
+msgstr "لطفاً نام گروه معتبر وارد کنید"
+
+msgid "Please enter a valid Name"
+msgstr "لطفاً نام معتبر وارد کنید"
+
+msgid "Please enter a valid Number"
+msgstr "لطفاً شماره معتبر وارد کنید"
+
+msgid "Please provide a name for the campaign"
+msgstr ""
+
+msgid "Please provide a valid id"
+msgstr ""
+
+msgid "Please provide atleast one call group"
+msgstr ""
+
+msgid "Please select a destination for Answering Machine/Voicemail Answered."
+msgstr "لطفا یک مقصد برای پاسخگوی ماشین / پاسخ صوتی را انتخاب کنید."
+
+msgid "Please select a destination for Live Person Answered."
+msgstr "لطفا یک مقصد برای شخصیت پاسخ داده شده را انتخاب کنید."
+
+msgid "Please select at least one call group."
+msgstr "لطفاً حداقل یک گروه تماس انتخاب کنید."
+
+msgid "Prefix to be appended to every number before dialed"
+msgstr ""
+
+msgid ""
+"Prefix to be appended to every number before dialed - useful to force calles "
+"out a specific Outbound Route"
+msgstr ""
+"پیشوند به هر عدد قبل از شماره گیری اضافه می شود - مفید است که باعث می شود یک "
+"مسیر خروجی خاص را فراخوانی کند"
+
+msgid "Previous Campaigns"
+msgstr "کمپین های قبلی"
+
+msgid "Remaining"
+msgstr "باقی مانده"
+
+msgid "Report"
+msgstr "گزارش"
+
+msgid "Report 'From' Address"
+msgstr "گزارش 'از' آدرس"
+
+msgid "Reset"
+msgstr "بازنشانی"
+
+msgid "Restart"
+msgstr "ریستارت"
+
+#, php-format
+msgid "Resuming Campaign %s (%s)"
+msgstr "Resuming campaign %s1 (%s2)"
+
+msgid "Retry time"
+msgstr ""
+
+msgid "Retry time in Seconds"
+msgstr ""
+
+msgid "Running"
+msgstr "در حال اجرا"
+
+msgid "Saturday"
+msgstr "شنبه"
+
+msgid "Schedule"
+msgstr "برنامه ریزی"
+
+msgid "Seconds"
+msgstr "ثانیه ها"
+
+msgid ""
+"Select Yes to activate campaign upon addition/modification.  Note, you still "
+"need to click the Start button on the Settings page to initiate the "
+"broadcast application "
+msgstr ""
+"Select Yes to activate campaign upon addition/modification...note, you still "
+"need to click the Start button on the Settings page to initiate the "
+"broadcast application. "
+
+msgid "Service Status"
+msgstr "وضعیت سرویس"
+
+msgid "Service is currently:"
+msgstr "سرویس فعلی:"
+
+msgid "Sorry, unable to find any campaign"
+msgstr ""
+
+msgid "Sorry, unable to process your create request"
+msgstr ""
+
+msgid "Sorry, unable to process your update request"
+msgstr ""
+
+msgid ""
+"Specify a URI to import the Call Group from. Currently supports FTP and HTTP "
+"in CSV format"
+msgstr ""
+"Specify a URI to import the Call Group from. currently supports FTP and HTTP "
+"in CSV format"
+
+msgid "Start Campaign"
+msgstr ""
+
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+msgid "Start Time"
+msgstr "ساعت شروع"
+
+msgid "Start date for Campaign"
+msgstr ""
+
+msgid "Start time for campaign"
+msgstr ""
+
+msgid "Start week for Campaign"
+msgstr ""
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Status for the request"
+msgstr ""
+
+msgid "Stop Campaign"
+msgstr ""
+
+msgid "Stopped"
+msgstr "متوقف شده"
+
+msgid "Submit"
+msgstr "ارسال"
+
+msgid "Sunday"
+msgstr "یکشنبه"
+
+msgid ""
+"The Broadcast doesn't stop automatically after completing a campaign.\n"
+"    It will keep running and checking for newly active campaigns, or added "
+"numbers to call."
+msgstr ""
+"پخش پس از اتمام یک کمپین به طور خودکار متوقف نمی شود.\n"
+"این کار را ادامه خواهد داد و برای کمپین های فعال جدید ادامه می دهد یا شماره "
+"های اضافه شده برای تماس را بررسی میکند."
+
+#, php-format
+msgid ""
+"The campaign %s has beed deactivated. You will not recieve any further "
+"information until it is re-activated and started."
+msgstr ""
+"کمپین ٪ s1 غیرفعال شده است. شما اطلاعات بیشتری را دریافت نخواهید کرد تا "
+"زمانی که دوباره فعال و شروع نشود."
+
+#, php-format
+msgid "The campaign %s has completed."
+msgstr "کمپین %s تکمیل شده است."
+
+#, php-format
+msgid ""
+"The campaign %s has not completed, but has finished for the current period."
+msgstr "کمپین %s کامل نشده است، اما برای دوره فعلی به پایان رسیده است."
+
+#, php-format
+msgid "The campaign %s has resumed after new contacts have been added."
+msgstr "کمپین %s پس از افزودن مخاطبین جدید، از سر گرفته شد."
+
+#, php-format
+msgid "The campaign %s has started for the current period."
+msgstr "کمپین %s برای دوره جاری آغاز شده است."
+
+#, php-format
+msgid "The group name/s %s are not valid"
+msgstr ""
+
+msgid "Thursday"
+msgstr "پنجشنبه"
+
+msgid "Tuesday"
+msgstr "سه شنبه"
+
+msgid "URI to import the Call Group from"
+msgstr ""
+
+msgid "Unable to delete campaign"
+msgstr ""
+
+msgid "Unique ID"
+msgstr ""
+
+msgid "Update Campaign"
+msgstr ""
+
+msgid "Update From CSV"
+msgstr "به روز رسانی از CSV"
+
+msgid "Update Period"
+msgstr "دوره به روز رسانی"
+
+msgid "Use to get all the campaigns"
+msgstr ""
+
+msgid "Used to set campaign values"
+msgstr ""
+
+msgid "Wait time"
+msgstr ""
+
+msgid "Wait time in Seconds"
+msgstr ""
+
+msgid "Wednesday"
+msgstr "چهارشنبه"
+
+msgid "Where to send Answering Machine calls"
+msgstr "محل ارسال تماس گیرنده ماشین"
+
+msgid "Where to send calls answered by a live person"
+msgstr ""
+
+msgid "Where to send calls answered by a live person."
+msgstr "محل ارسال تماس های پاسخ داده شده توسط یک شخص زنده."
+
+msgid "Yes"
+msgstr "بله"
+
+msgid ""
+"You can choose to dublicate an existing campaign.  Select the campaign you "
+"wish to duplicate, then click Save.  This allows you to run the same "
+"campaign after it is completed while keeping previous campaign reports "
+"intact."
+msgstr ""
+"You can choose to dublicate an existing campaign.  select the campaign you "
+"wish to duplicate, then click Save.  This allows you to run the same "
+"campaign after it is completed while keeping previous campaign reports "
+"intact."
+
+msgid "You need to add a call group before you can add a campaign."
+msgstr "قبل از افزودن کمپین باید یک گروه تماس اضافه کنید."
+
+msgid "activateCampaign"
+msgstr ""
+
+msgid "addCampaign"
+msgstr ""
+
+msgid "campaign groups"
+msgstr ""
+
+msgid "deActivateCampaign"
+msgstr ""
+
+msgid "deleteCampaign"
+msgstr ""
+
+msgid "dupes"
+msgstr ""
+
+msgid "id of the campaign to edit"
+msgstr ""
+
+msgid "inputs are validated"
+msgstr ""
+
+msgid "startCampaign"
+msgstr ""
+
+msgid "startStopCampaign"
+msgstr ""
+
+msgid "unable to activate campaign"
+msgstr ""
+
+msgid "unable to deactivate campaign"
+msgstr ""
+
+msgid "unable to start the campaign"
+msgstr ""
+
+msgid "unable to stop the campaign"
+msgstr ""
+
+msgid "updateCampaign"
+msgstr ""
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php  The Broadcast module for FreePBX allows you "
+#~ "to broadcast messages\tto your custoemrs or clients.  You can create "
+#~ "campaings and set start and end times.  From their you can direct where "
+#~ "you want the call to be directed to based on if a humna being\tor a "
+#~ "answering machine answer the call.  Upload your CDS list of names and "
+#~ "numbers and start your campaign.  You can also choose to get reports on "
+#~ "your campaign daily or after the\tcampaign completes."
+#~ msgstr ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php  The Broadcast module for FreePBX allows you "
+#~ "to broadcast messages\tto your custoemrs or clients.  You can create "
+#~ "campaings and set start and end times.  From their you can direct where "
+#~ "you want the call to be directed to based on if a humna being\tor a "
+#~ "answering machine answer the call.  Upload your CDS list of names and "
+#~ "numbers and start your campaign.  You can also choose to get reports on "
+#~ "your campaign daily or after the\tcampaign completes."

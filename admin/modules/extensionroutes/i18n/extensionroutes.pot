@@ -1,0 +1,85 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for extensionroutes
+# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-13 17:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Allowed Extensions"
+msgstr ""
+
+msgid "Allowed Routes"
+msgstr ""
+
+msgid "Blocked Extensions"
+msgstr ""
+
+msgid ""
+"By checking this box it will select all extension routes, unchecking this "
+"box will uncheck all extension routes."
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\t\t\tAllows the explicit exclusion/"
+"inclusion of extensions for each route, including calls forwarded or "
+"followme-ed from the extension"
+msgstr ""
+
+msgid "Check/Uncheck All Routes"
+msgstr ""
+
+msgid "Class Of Service is enabled"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid "Creating default Extension Routes.."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Extension Routes"
+msgstr ""
+
+msgid "Extension Routing"
+msgstr ""
+
+#, php-format
+msgid "Failed inserting %s to %s"
+msgstr ""
+
+msgid "If checked this route is accessible to this user/extension"
+msgstr ""
+
+msgid "Note: Extension Routes is not registered"
+msgstr ""
+
+msgid "Optional: Select extensions that are able to use this route."
+msgstr ""
+
+msgid "Please use CoS to manage your routes."
+msgstr ""
+
+msgid "WARNING: Cannot connect to Asterisk Manager, fields will remain stale"
+msgstr ""
+
+msgid "done"
+msgstr ""
+
+msgid "removing AMPUSER outroute field.."
+msgstr ""

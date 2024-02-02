@@ -1,0 +1,253 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asteriskinfo
+# Copyright (C) 2008-2016 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-29 05:11+0000\n"
+"PO-Revision-Date: 2018-07-18 19:13+0000\n"
+"Last-Translator: Nils Heckenkamp <nheckenkamp@sangoma.com>\n"
+"Language-Team: German <http://*/projects/freepbx/asteriskinfo/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19.1\n"
+
+#: Asteriskinfo.class.php:52
+msgid "All"
+msgstr ""
+
+#: asteriskinfo.i18n.php:4 asteriskinfo.i18n.php:10 page.asteriskinfo.php:13
+msgid "Asterisk Info"
+msgstr "Asterisk Informationen"
+
+#: Modules/Conferences.php:11
+msgid ""
+"Can't connect to Asterisk. Is Asterisk running and started by the correct "
+"user?"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Channel Count"
+msgstr ""
+
+#: page.asteriskinfo.php:16
+msgid "Current Asterisk Version:"
+msgstr "Aktuelle Asterisk Version:"
+
+#: Modules/Dahdi.php:12
+msgid "Dahdi Channels"
+msgstr ""
+
+#: Modules/Dahdi.php:13
+msgid "Dahdi PRI Spans"
+msgstr "Dahdi PRI Spans"
+
+#: asteriskinfo.i18n.php:8
+msgid "Provides a snapshot of the current Asterisk configuration"
+msgstr "Liefert eine Momentaufnahme der aktuellen Asterisk-Konfiguration"
+
+#: asteriskinfo.i18n.php:6
+msgid "Reports"
+msgstr "Berichte"
+
+#: Modules/Channels.php:40
+msgid "Resource"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Status"
+msgstr ""
+
+#: Modules/Channels.php:40
+msgid "Tech"
+msgstr ""
+
+#: Modules/Channels.php:19
+msgid "The Asterisk REST Interface Module is not loaded in asterisk"
+msgstr ""
+
+#: Modules/Channels.php:24
+msgid "The Asterisk REST Interface is Currently Disabled."
+msgstr ""
+
+#: Modules/Channels.php:32
+msgid ""
+"The Asterisk REST Interface is not able to connect please check "
+"configuration in advanced settings."
+msgstr ""
+
+#: page.asteriskinfo.php:15
+msgid "This page supplies various information about Asterisk"
+msgstr "Diese Seite liefert verschiedene Informationen über Asterisk"
+
+#~ msgid "Active Channel(s)"
+#~ msgstr "Aktive Kanäle"
+
+#~ msgid "Active IAX2 Channel(s): "
+#~ msgstr "Aktive IAX2 Kanäle: "
+
+#~ msgid "Active PJSIP Channel(s): "
+#~ msgstr "Aktive PJSIP Kanäle: "
+
+#~ msgid "Active SIP Channel(s): "
+#~ msgstr "Aktive SIP Kanäle: "
+
+#~ msgid "Asterisk doesn't appear to be running"
+#~ msgstr "Asterisk scheint nicht im Betrieb zu sein"
+
+#~ msgid "Available: "
+#~ msgstr "Verfügbar: "
+
+#~ msgid "Chan_PJSip Channel(s)"
+#~ msgstr "PJSIP Kanäle"
+
+#~ msgid "Chan_PJSip Endpoints"
+#~ msgstr "PJSIP Endpoints"
+
+#~ msgid "Chan_PJSip Info"
+#~ msgstr "PJSIP Informationen"
+
+#~ msgid "Chan_PJSip Registrations"
+#~ msgstr "PJSIP Registrierungen"
+
+#~ msgid "Chan_PJSip Transports"
+#~ msgstr "Chan PJSip Transports"
+
+#~ msgid "Chan_Sip Channel(s)"
+#~ msgstr "SIP Kanäle"
+
+#~ msgid "Chan_Sip Info"
+#~ msgstr "SIP Informationen"
+
+#~ msgid "Chan_Sip Peers"
+#~ msgstr "SIP Peers"
+
+#~ msgid "Chan_Sip Registry"
+#~ msgstr "SIP Registrierung"
+
+#~ msgid "Channels"
+#~ msgstr "Kanäle"
+
+#~ msgid "Conference Bridge Info"
+#~ msgstr "Konferenzbrücke Info"
+
+#~ msgid "Conferences"
+#~ msgstr "Konferenzen"
+
+#~ msgid "DAHDi Channels"
+#~ msgstr "DAHDi Kanäle"
+
+#~ msgid "Dahdi"
+#~ msgstr "Dahdi"
+
+#~ msgid "Full Report"
+#~ msgstr "Vollständiger Bericht"
+
+#~ msgid "Google Talk Channels"
+#~ msgstr "Google Sprachkanäle"
+
+#~ msgid "IAX Info"
+#~ msgstr "IAX Information"
+
+#~ msgid "IAX2 Channel(s)"
+#~ msgstr "IAX2 Kanäle"
+
+#~ msgid "IAX2 Peers"
+#~ msgstr "IAX2 Peers"
+
+#~ msgid "IAX2 Peers: "
+#~ msgstr "IAX2 Peers: "
+
+#~ msgid "IAX2 Registry"
+#~ msgstr "IAX2 Registrierung"
+
+#~ msgid "IAX2 Registry: "
+#~ msgstr "IAX2 Registrierung: "
+
+#~ msgid "Jabber Connections"
+#~ msgstr "Jabber Verbindungen"
+
+#~ msgid "MeetMe Conference Info"
+#~ msgstr "MeetMe Konferenzinfo"
+
+#~ msgid "Motif Connections"
+#~ msgstr "Motiv-Verbindungen"
+
+#~ msgid "Offline-Unmonitored: "
+#~ msgstr "Offline-Nicht überwacht: "
+
+#~ msgid "Offline: "
+#~ msgstr "Offline: "
+
+#~ msgid "Online-Unmonitored: "
+#~ msgstr "Online-Nicht überwacht: "
+
+#~ msgid "Online: "
+#~ msgstr "Online: "
+
+#~ msgid "PJSip Endpoints: "
+#~ msgstr "PJSIP Endpoints: "
+
+#~ msgid "PJSip Registrations: "
+#~ msgstr "PJSIP Registrierungen: "
+
+#~ msgid "Peers"
+#~ msgstr "Peers"
+
+#~ msgid "Queues"
+#~ msgstr "Warteschlangen"
+
+#~ msgid "Queues Info"
+#~ msgstr "Warteschlangeninformation"
+
+#~ msgid "Registries"
+#~ msgstr "Registrierungen"
+
+#~ msgid "Sip Peers: "
+#~ msgstr "Sip Peers: "
+
+#~ msgid "Sip Registry: "
+#~ msgstr "SIP Registrierung: "
+
+#~ msgid "Subscribe/Notify"
+#~ msgstr "Abonnieren/Benachrichtigen"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Abonnements"
+
+#~ msgid "Summary"
+#~ msgstr "Zusammenfassung"
+
+#~ msgid ""
+#~ "The module was unable to connect to the Asterisk manager.<br>Make sure "
+#~ "Asterisk is running and your manager.conf settings are proper.<br><br>"
+#~ msgstr ""
+#~ "Das Modul konnte keine Verbindung zum Asterisk-Manager herstellen. <br> "
+#~ "Stellen Sie sicher, dass Asterisk ausgeführt wird und Ihre manager.conf "
+#~ "Einstellungen korrekt sind.<br>"
+
+#~ msgid "Unavailable: "
+#~ msgstr "Nicht Verfügbar: "
+
+#~ msgid "Unknown: "
+#~ msgstr "Unbekannt: "
+
+#~ msgid "Unmonitored: "
+#~ msgstr "Nicht überwacht: "
+
+#~ msgid "Uptime"
+#~ msgstr "Betriebszeit"
+
+#~ msgid "Uptime: "
+#~ msgstr "Betriebszeit: "
+
+#~ msgid "Voicemail Users"
+#~ msgstr "Benutzernachrichten"

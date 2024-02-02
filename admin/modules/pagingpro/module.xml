@@ -1,0 +1,124 @@
+<module>
+	<rawname>pagingpro</rawname>
+	<repo>commercial</repo>
+	<name>Paging Pro</name>
+	<version>15.0.2</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#paging-pro</link>
+	</commercial>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<category>Applications</category>
+	<changelog>
+		*15.0.2*    Add support for new style lazy loading of console commands. 
+		*15.0.1.22* fixing FREEPBX-22692 
+		*15.0.1.21* Packaging of ver 15.0.1.21
+		*15.0.1.20* FREEI-1724 Fixed bug with module upgrader
+		*15.0.1.19* bump 
+		*15.0.1.18* FREEPBX-21536 
+		*15.0.1.17* FREEI-1385 Licensing Updates
+		*15.0.1.16* FREEI-1463 
+		*15.0.1.15* FREEI-1277
+		*15.0.1.14* FREEI-1236 pagingpro not clearing the deleted paging cron entries 
+		*15.0.1.13* FREEI-1228
+		*15.0.1.12* FREEI-1187 PagingPro scheduled tasks not running 
+		*15.0.1.11 bump 
+		*15.0.1.10* FREEI-1093: FPBX15 PR - This is the pagingpro update that removes the Notification feature, that is now handled by paging 
+		*15.0.1.9 FREEI-661 Scheduled paging is currently broken 
+		*15.0.1.8* FREEI-631 Scheduled multicast paging not working 
+		*15.0.1.7 Use Job class
+		*15.0.1.6* FREEPBX-19962 Update installer and database handling
+		*15.0.1.4* Fixing legacy restore
+		*15.0.1.2* FREEPBX-18647
+		*15.0.1* Add Backup 15.0
+	</changelog>
+	<depends>
+		<version>15.0.12</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<module>paging ge 15.0.4.18</module>
+		<module>framework ge 15.0.16.12</module>
+	</depends>
+	<database>
+		<table name="pagingpro">
+			<field name="page_id" type="string" length="50" primaryKey="true" default=""/>
+			<field name="busypage" type="string" length="50" notnull="false"/>
+			<field name="intro_recording" type="string" length="50" notnull="false"/>
+			<field name="cid_prepend" type="string" length="50" notnull="false"/>
+			<field name="timezone" type="string" length="50" notnull="false"/>
+			<field name="autoanswer" type="boolean" default="1" notnull="false"/>
+			<field name="enable_scheduler" type="boolean" default="0" notnull="false"/>
+			<field name="enable_calendar" type="boolean" default="0" notnull="false"/>
+			<field name="calendar_id" type="string" default="100" notnull="false"/>
+			<field name="calendar_group_id" type="string" default="100" notnull="false"/>
+			<field name="announce_count" type="boolean" default="1" notnull="false"/>
+		</table>
+		<table name="pagingpro_scheduler_events">
+			<field name="event_num" type="string" length="4" default=""/>
+			<field name="page_id" type="string" length="10" default=""/>
+			<field name="times" type="blob" notnull="false"/>
+		</table>
+		<table name="pagingpro_scheduler_range">
+			<field name="page_id" type="string" length="10" default=""/>
+			<field name="starttime" type="integer" notnull="false"/>
+			<field name="endtime" type="integer" notnull="false"/>
+		</table>
+		<table name="pagingpro_scheduler_exclusions">
+			<field name="page_id" type="string" length="10" default=""/>
+			<field name="time" type="integer" notnull="false"/>
+			<field name="comment" type="string" length="250" default=""/>
+		</table>
+		<table name="pagingpro_scheduler_crons">
+			<field name="page_id" type="string" length="10" default=""/>
+			<field name="cron_name" type="string" length="50" default=""/>
+			<field name="time" type="integer" notnull="false"/>
+		</table>
+	</database>
+	<hooks>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+		       <method callingMethod="getModuleLicenseInformation" class="Pagingpro" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+               </sysadmin>
+
+	       <framework class="Chown" namespace="FreePBX\Console\Command">
+	       		<method callingMethod="fwcChownFiles" class="Pagingpro" namespace="FreePBX\modules">chownFreepbx</method>
+	       </framework>
+	       <framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Pagingpro" namespace="FreePBX\modules">startFreepbx</method>
+	       </framework>
+	</hooks>
+	<description>
+		COMMERCIAL MODULE REQUIES A LICENSE FOR IT TO FUNCTION. This
+		Module expands the normal Paging module in
+		FreePBX to add the following features:
+
+		Outbound Notifications - Enables the ability to notify a group of phone(s) when a user dials a specific number, ie:
+		911. Any page group can be linked in the outbound routes
+		module. When a call is placed a page will go out to the page group notifying the page group of what number was failed
+		and what user dialed the number. Any user of the page
+		group can dial *1 to barge into the call and speak.
+
+		Valet Style Paging (Airport Style) - You can now choose to have your pages recorded and when you hang up have it send
+		the audio file to all the devices that are part of the
+		page group. This setting is done on a per page group. You can also tell the system to only use Valet if someone dials
+		the page group and it is in use already.
+
+		Prepend Recording - You can now have the page group weather normal or valet style play a recorded message to all
+		participants of the page group before the pager can start
+		speaking.
+
+		Scheduled Pages - You can now define custom schedules to have the system page a group of devices and play a
+		recording. This is a great replacement for school bell systems or lunch break buzzers.
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Page+Pro</more-info>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>pagingpro</name>
+		</command>
+	</console>
+</module>

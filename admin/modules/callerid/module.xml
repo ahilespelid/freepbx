@@ -1,0 +1,67 @@
+<module>
+	<rawname>callerid</rawname>
+	<name>CallerID Managment</name>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.The CallerID Management module is a unique way to
+	modify the caller ID that is outpulsed on the fly. By dialing a simple feature code you can change the Caller ID for the next call on your extension. Optionally you
+	can also specify the Persistent field, If this is checked the CID is permanently changed for all future calls for your extension until another feature code is
+	entered to change it </description>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<more-info>https://wiki.freepbx.org/display/FPG/Caller+ID+Management</more-info>
+	<repo>commercial</repo>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<version>15.0.16</version>
+	<category>Applications</category>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#callerid-management</link>
+	</commercial>
+	<changelog>
+		*15.0.16* Packaging of ver 15.0.16
+		*15.0.15* FREEI-1915 Restoring backup of 14 to 15 completes with General error 
+		*15.0.14* FREEI-1279 
+		*15.0.13* FREEI-913 Fix XSS Bootstrap Datatable Issues 
+		*15.0.12* bump 
+		*15.0.11* FREEPBX-20088 CallerID Management entries flushed while doing backup restore 
+		*15.0.10* Fixing FREEPBX-19749 Adding/Editing the caller id entry is not refreshing the page 
+		*15.0.9* FREEPBX-19750 Caller ID Management entry initial prefix field value starts with 200 
+		*15.0.8* fixing legacy restore 
+		*15.0.7* FREEPBX-19388 Caller ID Management home page contains Submit and Reset button 
+		*15.0.6* FREEPBX-18948 Check if we are in edit mode ot create mode. 
+		*15.0.5* FREEPBX-17844 Prefix field under CallerID management is not auto incrementing 
+		*15.0.4* Packaging of ver 15.0.4
+		*15.0.3* Fixing FREEPBX-17762 Adding duplicate prefix check
+		*15.0.2* FREEPBX-17762 - Fix issue where you can't insert more than one CID entry
+		*15.0.1* Fork from 13.0.8.10, implement backup
+	</changelog>
+	<database>
+		<table name="callerid_entries">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="name" type="string" length="50" notnull="false"/>
+			<field name="prefix" type="string" length="50" notnull="false"/>
+			<field name="cidname" type="string" length="50" notnull="false"/>
+			<field name="cidnum" type="string" length="50" notnull="false"/>
+			<field name="perm" type="string" length="25" notnull="false"/>
+		</table>
+	</database>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 13.0.69</module>
+		<version>13.0.194.5</version>
+	</depends>
+	<menuitems>
+		<callerid>CallerID Management</callerid>
+	</menuitems>
+	<hooks>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+				<method callingMethod="fwcChownFiles" class="Callerid" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method class="Callerid" namespace="FreePBX\modules" callingMethod="getModuleLicenseInformation">sendModuleLicenseInformation</method>
+		</sysadmin>
+	</hooks>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

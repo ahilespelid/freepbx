@@ -1,0 +1,104 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callerid
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-17 03:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add Entry"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "Are you sure you wish to delete these caller id mappings?"
+msgstr ""
+
+msgid "Attention: Extension"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.The CallerID "
+"Management module is a unique way to\tmodify the caller ID that is outpulsed "
+"on the fly. By dialing a simple feature code you can change the Caller ID "
+"for the next call on your extension. Optionally you\tcan also specify the "
+"Persistent field, If this is checked the CID is permanently changed for all "
+"future calls for your extension until another feature code is\tentered to "
+"change it"
+msgstr ""
+
+msgid "Caller ID Management"
+msgstr ""
+
+msgid "CallerID Management"
+msgstr ""
+
+#, php-format
+msgid "CallerID Management: %s %s"
+msgstr ""
+
+msgid "CallerID Managment"
+msgstr ""
+
+msgid "CallerID Name"
+msgstr ""
+
+msgid "CallerID Num"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Extension discarded!"
+msgstr ""
+
+msgid "INUSE"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Persistent"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid ""
+"The CallerID Management module allows you to change the outbound Caller ID "
+"on an extension basis by utilizing a call prefix code."
+msgstr ""
+
+#, php-format
+msgid ""
+"The prefix you are trying to use is already being used by cidnum[%s]. \n"
+"Please choose another prefix."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "conflicts with"
+msgstr ""

@@ -1,0 +1,89 @@
+<module>
+	<rawname>webrtc</rawname>
+	<name>WebRTC Phone</name>
+	<version>15.0.10.13</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<repo>standard</repo>
+	<description>
+		The WebRTC Module allows an Administrator to enable a "WebRTC phone" that can be attached to a user's
+		extension which they can connect to through FreePBX User Control Panel, this WebRTC phone will then
+		receive phone calls at the same time as the users extension using user and device mode behind the scenes.
+		If you have User and Device Mode enabled any extension you enable the WebRTC Phone a duplicate extension of 99XXXX
+		will be created (where XXXX is the original extension number), when the user then views the web interface of the WebRTC
+		phone they will be connected to device 99XXXX which will receive calls from the original extension
+	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/WebRTC+Phone-UCP</more-info>
+	<changelog>
+		*15.0.10.13* FREEPBX-23865 
+		*15.0.10.12* Packaging of ver 15.0.10.12
+		*15.0.10.11* SCD-350 Call Pickup feature using feature code *8 not working on SCD 
+		*15.0.10.10* FREEI-5337 accountcode for shadow extension only gets set at endpoint creation 
+		*15.0.10.9* FREEI-5230 button label changed from Unhold to Resume 
+		*15.0.10.8* FREEI-4683 Sangoma Phone shadow endpoint no account code 
+		*15.0.10.7* Packaging of ver 15.0.10.7
+		*15.0.10.6* FREEPBX-22794 
+		*15.0.10.5* FREEI-3916 Webrtc release(v15.0.10.4) is breaking existing webrtc setup 
+		*15.0.10.4* FREEI-3795 Create pjsip extensions(webrtc) for the Soft Phone to register against 
+		*15.0.10.3* FREEI-3830  PBXact 16 - Extension license count is not showing properly 
+		*15.0.10.2* FREEPBX-22571 
+		*15.0.10.1* Fixing FREEPBX-22571 
+		*15.0.10* Fixing FREEPBX-22186 
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* FREEI-1374 PBXact 15 QA - Devices used count is increased after restoring PBXact 13 to PBXact15 
+		*15.0.7* FREEI-1374 PBXact 15 QA - Devices used count is increased after restoring PBXact 13 to PBXact15 
+		*15.0.6* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.5* fixing legacy restore 
+		*15.0.4* backup and restore 
+		*15.0.3* FREEPBX-18471 allow 15,16,17
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Backup 15.0
+	</changelog>
+	<info/>
+	<category>Connectivity</category>
+	<depends>
+		<engine>asterisk 11.5</engine>
+		<module>certman ge 13.0.22</module>
+		<module>core ge 15.0.12.79</module>
+		<module>ucp ge 12.0.0beta7</module>
+		<version>12.0.1beta34</version>
+	</depends>
+	<hooks>
+		<ucp class="Ucp">
+			<method callingMethod="constructModuleConfigPages" class="Webrtc" namespace="FreePBX\modules">ucpConfigPage</method>
+			<method callingMethod="addUser" class="Webrtc" namespace="FreePBX\modules">ucpAddUser</method>
+			<method callingMethod="updateUser" class="Webrtc" namespace="FreePBX\modules">ucpUpdateUser</method>
+			<method callingMethod="delUser" class="Webrtc" namespace="FreePBX\modules">ucpDelUser</method>
+			<method callingMethod="addGroup" class="Webrtc" namespace="FreePBX\modules">ucpAddGroup</method>
+			<method callingMethod="updateGroup" class="Webrtc" namespace="FreePBX\modules">ucpUpdateGroup</method>
+			<method callingMethod="delGroup" class="Webrtc" namespace="FreePBX\modules">ucpDelGroup</method>
+		</ucp>
+		<dashboard class="Dashboard" namespace="">
+			<method callingMethod="extIgnoreList" class="Webrtc" namespace="FreePBX\Modules">dashboardIgnoreExt</method>
+		</dashboard>
+		<core class="Core" namespace="FreePBX\modules">
+			<method callingMethod="delUser" class="Webrtc" namespace="FreePBX\modules">delUser</method>
+			<method callingMethod="addUser" class="Webrtc" namespace="FreePBX\modules">updatefromcore</method>
+		</core>
+	</hooks>
+	<database>
+		<table name="webrtc_clients">
+			<field name="user" type="string" length="190"/>
+			<field name="device" type="string" length="190"/>
+			<field name="prefix" type="string" length="10"/>
+			<field name="module" type="string" length="100"/>
+			<field name="certid" type="integer" notnull="false"/>
+			<key name="userandprefix" type="unique">
+				<column name="user"/>
+				<column name="prefix"/>
+			</key>
+			<key name="device" type="unique">
+				<column name="device"/>
+			</key>
+		</table>
+	</database>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

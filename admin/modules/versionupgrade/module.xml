@@ -1,0 +1,70 @@
+<module>
+	<rawname>versionupgrade</rawname>
+	<repo>standard</repo>
+	<name>PBX Upgrader</name>
+	<version>15.0.42</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<license>Commercial</license>
+	<changelog>
+		*15.0.42* FREEPBX-24078 
+		*15.0.41* Packaging of ver 15.0.41
+		*15.0.40* Packaging of ver 15.0.40
+		*15.0.39* Packaging of ver 15.0.39
+		*15.0.38* Packaging of ver 15.0.38
+		*15.0.37* Packaging of ver 15.0.37
+		*15.0.36* Packaging of ver 15.0.36
+		*15.0.35* Packaging of ver 15.0.35
+		*15.0.34* Packaging of ver 15.0.34
+		*15.0.33* Packaging of ver 15.0.33
+		*15.0.32* FREEI-4480 fixing typo 
+		*15.0.31* Packaging of ver 15.0.31
+		*15.0.30* Packaging of ver 15.0.30
+		*15.0.29* Packaging of ver 15.0.29
+		*15.0.28* Packaging of ver 15.0.28
+		*15.0.27* Packaging of ver 15.0.27
+		*15.0.26* Packaging of ver 15.0.26
+		*15.0.25* FREEI-4330  - Block upgrade if missedcall module is present. 
+		*15.0.24* Packaging of ver 15.0.24
+		*15.0.23* Packaging of ver 15.0.23
+		*15.0.22* Packaging of ver 15.0.22
+		*15.0.21* Packaging of ver 15.0.21
+		*15.0.20* Packaging of ver 15.0.20
+		*15.0.19* Packaging of ver 15.0.19
+		*15.0.18* Packaging of ver 15.0.18
+		*15.0.17* FREEI-4143 not allowing 16+ upgrade if freepbx_ha module is installed 
+		*15.0.16* Packaging of ver 15.0.16
+		*15.0.15* FREEI-4040 not upgrading version upgrade module during 14-15 upgrade 
+		*15.0.14* FREEI-4089 adding caution that upgrade process might get failed due to 3rd party modules which might not be compatible with php 7.4 
+		*15.0.13* FREEI-4080 added condition for not allowing PBXact for 15-16 versionupgrade 
+		*15.0.12* Packaging of ver 15.0.12
+		*15.0.11* FREEI-3961-adding Digiumaddoninstaller/Digium_phone_module check for 16 upgrade 
+		*15.0.10* Packaging of ver 15.0.10
+		*15.0.9* Packaging of ver 15.0.9
+		*15.0.8* Packaging of ver 15.0.8
+		*15.0.7* Packaging of ver 15.0.7
+		*15.0.6* Packaging of ver 15.0.6
+		*15.0.5* Packaging of ver 15.0.5
+		*15.0.4* Packaging of ver 15.0.4
+		*15.0.3* Packaging of ver 15.0.3
+		*15.0.2* Packaging of ver 15.0.2
+		*15.0.1* Inital Release
+	</changelog>
+	<description>
+		Fully automates and upgrades the PBX to the next major release for free.
+	</description>
+	<attention>
+		You will be updated to the next version. You should make sure you have a full backup of your current system. Version 14+ requires Asterisk 11 or later. Once you upgrade, you can not downgrade. It may be possible to restore a backup though restoring a system that has been upgraded can run into some anomalies later on though will usually get you back to where you were.
+	</attention>
+	<type>tool</type>
+	<menuitems>
+		<versionupgrade display="versionupgrade" type="setup" category="Admin" sort="10">15 to 16 Upgrade Tool</versionupgrade>
+	</menuitems>
+	<depends>
+		<version>15.0.23.12</version>
+	</depends>
+	<category>Admin</category>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

@@ -1,0 +1,613 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for versionupgrade
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-16 01:52+0000\n"
+"PO-Revision-Date: 2015-03-12 16:11+0200\n"
+"Last-Translator: james <zhulizhong@gmail.com>\n"
+"Language-Team: Simplified Chinese <http://weblate.freepbx.org/projects/"
+"freepbx/versionupgrade/zh_CN/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#, php-format
+msgid "%s %s Upgrade"
+msgstr ""
+
+#, php-format
+msgid "%s %s provides many exciting new features. Click here to learn more"
+msgstr ""
+
+#, php-format
+msgid "%s Distro"
+msgstr ""
+
+#, php-format
+msgid ""
+"%s The most broadly impacting change for 16 is that the PBX project now "
+"officially supports PHP 7.4 for every supported module. This touches all "
+"areas of PBX from OSS modules, to Commercial Modules, to the PBX ISO, to "
+"security to performance."
+msgstr ""
+
+#, php-format
+msgid ""
+"%s is deprecated/not supported in PBX 16+ systems. Please remove %s module "
+"before continuing with the PBX upgrade."
+msgstr ""
+
+#, php-format
+msgid ""
+"%s is not able to connect to the remote mirror servers. An upgrade can not "
+"happen without being able to talk to these servers"
+msgstr ""
+
+msgid "15 to 16 Upgrade Tool"
+msgstr ""
+
+msgid ""
+"A new UCP Template feature has been introduced to allow PBX administrators "
+"to create UCP templates that can be applied to existing UCP users, or "
+"automatically applied to new users when they are created. Once a template "
+"has been set up and added to a group, whenever a new user is created in that "
+"group, their UCP experience will match the template.  When the user logs in "
+"for the first time they see the default widget layout, which they are then "
+"free to modify, add and remove as they wish."
+msgstr ""
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Admin"
+msgstr "管理员"
+
+msgid "All checks passed. You may now start the upgrade process."
+msgstr ""
+
+#, php-format
+msgid "Asterisk %s or higher"
+msgstr ""
+
+#, php-format
+msgid "Bumping %s to version %s..."
+msgstr ""
+
+msgid ""
+"By registering your system, you will be able to keep up with the latest "
+"software releases, bug fixes and security notifications. You'll also be able "
+"to take advantage of free software offers, have access to add-ons, support "
+"and the latest product news from the development team. Additionally the free "
+"features of Sysadmin will be disabled until the system is registered."
+msgstr ""
+
+msgid "Check the Disk Space"
+msgstr ""
+
+msgid "Check the requirements!"
+msgstr ""
+
+msgid "Checking for requirements"
+msgstr ""
+
+msgid "Checking online servers..."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Commercial modules require upgrades"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+#, php-format
+msgid "Detected modules that are not supported by Sangoma"
+msgstr ""
+
+msgid "Distribution"
+msgstr ""
+
+msgid "Distribution Name"
+msgstr ""
+
+msgid "Do Not refresh your browser!"
+msgstr ""
+
+msgid ""
+"Do not worry about ajax error in between which might occur due to NodeJS "
+"service restart as a part of system update, wizard will automatically reload "
+"to fetch the update progress status."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Downloading"
+msgstr ""
+
+#, php-format
+msgid "Error contacting server: %s"
+msgstr ""
+
+msgid "File ownership"
+msgstr ""
+
+#, php-format
+msgid ""
+"File ownership of %s will not be verified until right before the upgrade "
+"process starts. If this is an issue the upgrade will not be allowed to "
+"proceed. You can run '%s' on the CLI instead to check if this is an issue"
+msgstr ""
+
+msgid "Files are owned by the root user"
+msgstr ""
+
+msgid "Files ownership"
+msgstr ""
+
+#, php-format
+msgid "Files under %s appear to be owned by the correct user"
+msgstr ""
+
+#, php-format
+msgid "Found 16+ deprecated %s module"
+msgstr ""
+
+msgid "Found 16+ deprecated 'Digiumaddoninstaller/Digium_phone_module' modules"
+msgstr ""
+
+#, php-format
+msgid "Found 16+ incompatible vega module"
+msgstr ""
+
+#, php-format
+msgid "Framework is less than %s"
+msgstr ""
+
+msgid ""
+"Fully automates and upgrades the PBX to the next major release for free."
+msgstr ""
+
+msgid "GraphQL"
+msgstr ""
+
+msgid "I agree to the contest rules"
+msgstr ""
+
+msgid "I understand the risks and do not want to change them"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you are currently using any commercial modules please ensure that they "
+"are <strong>eligible for upgrades</strong>. You can do this by looking in "
+"%s, in the \"Activation\" tab. If a module is not eligible for upgrades, it "
+"may stop functioning!"
+msgstr ""
+
+msgid ""
+"If you are currently using these modules, please ensure that they are "
+"<strong>eligible for upgrades</strong>. You can do this by looking in System "
+"Administration, in the 'Activation' tab. If a module is not eligible for "
+"upgrades, it may stop functioning!"
+msgstr ""
+
+msgid ""
+"If you are not elegible for upgrades on any of these modules, you can "
+"continue, and the latest version suitable for the new FreePBX version will "
+"attempt to download.  However, it is <strong>not recommended</strong> to "
+"upgrade FreePBX versions without all commercial modules being in their "
+"subscription period, as it may <strong>totally break</strong> your system.  "
+"Please ensure you have a complete backup before proceeding, if this is the "
+"case!"
+msgstr ""
+
+#, php-format
+msgid ""
+"If you are not eligible for upgrades on any of these modules, you can "
+"continue, and the latest version suitable for the new %s version will "
+"attempt to download.  However, it is <strong>not recommended</strong> to "
+"upgrade %s versions without all commercial modules being in their "
+"subscription period, as it may <strong>completely break</strong> your "
+"system.  Please ensure you have a complete backup before proceeding, if this "
+"is the case!"
+msgstr ""
+
+msgid "Local modules require upgrades"
+msgstr ""
+
+msgid "Message for the request"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+#, php-format
+msgid "NodeJS %s or higher"
+msgstr ""
+
+msgid "Non-standard Repository Servers"
+msgstr ""
+
+msgid ""
+"Note: You can skip this by installing sysadmin and registering your "
+"deployment."
+msgstr ""
+
+#, php-format
+msgid ""
+"Overall Improvement to the API module has been a primary focus for 16. Over "
+"the last several months, new GraphQL API methods have been added almost "
+"weekly, such that now it is pretty much possible to provision many aspects "
+"of a new %s instance as a VM, perform an initial setup of the system, and "
+"create new extensions entirely using the API."
+msgstr ""
+
+msgid "PBX Upgrader"
+msgstr ""
+
+#, php-format
+msgid "PHP %s or higher"
+msgstr ""
+
+msgid "PHP 7.4"
+msgstr ""
+
+msgid "Passed"
+msgstr ""
+
+msgid ""
+"Pbx 15 to 16 upgrade process is started. Kindly check the fetchApiStatus api "
+"with the transaction id."
+msgstr ""
+
+msgid ""
+"Please note that, this upgrade process may take minimum 30 min to 1 hour "
+"depends on system/internet connectivity. </br> To view the system updates "
+"process from linux terminal please refer to '/var/log/pbx/freepbx16-upgrade."
+"log' log file."
+msgstr ""
+
+msgid "Please provide your company"
+msgstr ""
+
+msgid "Please provide your email"
+msgstr ""
+
+msgid "Please provide your name"
+msgstr ""
+
+msgid "Please provide your phone number"
+msgstr ""
+
+msgid "Prepare to experience a whole new way to accomplish Telephony and VoIP"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Proceed to the upgrade process"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Register Here"
+msgstr ""
+
+msgid "Reset the repos to the defaults"
+msgstr ""
+
+msgid "Run Pre-Upgrade Checks"
+msgstr ""
+
+msgid "Running checks (checking filesystem, this might take awhile)..."
+msgstr ""
+
+#, php-format
+msgid "SQL %s or higher"
+msgstr ""
+
+msgid ""
+"Since you have selected \"Other\". Please provide the name of this "
+"distribution"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid ""
+"Some checks failed. Please correct the problems in red and make note of the "
+"problems in orange below before ugrading"
+msgstr ""
+
+msgid ""
+"Some checks failed. Please correct the problems in red and make note of the "
+"problems in red below before ugrading"
+msgstr ""
+
+msgid "Sorry unable to start 15 - 16 upgrade"
+msgstr ""
+
+msgid "Sorry unable to start 15 - 16 upgrade. Sysadmin module is required."
+msgstr ""
+
+#, php-format
+msgid "Stage %s"
+msgstr ""
+
+#, php-format
+msgid "Stage %s not needed, skipping"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status of the request"
+msgstr ""
+
+#, php-format
+msgid "Step %d"
+msgstr ""
+
+#, php-format
+msgid "Sysadmin is less than %s"
+msgstr ""
+
+msgid "System Administration"
+msgstr ""
+
+msgid "System is not registered"
+msgstr ""
+
+msgid "System is registered"
+msgstr ""
+
+#, php-format
+msgid ""
+"The distribution of this system. This is defaulted to what %s has determined "
+"the system to be. Please change it if it is wrong."
+msgstr ""
+
+msgid ""
+"The system is unable to connect to either of the remote mirror servers to "
+"upgrade"
+msgstr ""
+
+#, php-format
+msgid ""
+"The system is unable to connect to either of the remote mirror servers to "
+"upgrade. Reason: %s"
+msgstr ""
+
+msgid "The upgrade process has finished. Click Refresh below to continue"
+msgstr ""
+
+msgid "The upgrader was unable to determine the SQL version. Can't continue"
+msgstr ""
+
+#, php-format
+msgid ""
+"There are files owned by the root user under %s. %s will not be able to "
+"upgrade until this is resolved. Please run: '%s' on the cli to fix this "
+"issue. Additionally you can run '%s' on the CLI to verify this is fixed"
+msgstr ""
+
+#, php-format
+msgid ""
+"These local commercial modules (%s) should be upgraded or disabled or "
+"uninstalled before continuing with the %s upgrader. Note that if any of "
+"these commercial modules are in a renewal state you will not be able to "
+"upgrade these modules until you renew them. You can continue to run these "
+"modules on the next version however they might break or cease to function"
+msgstr ""
+
+#, php-format
+msgid ""
+"These local modules (%s) need to be upgraded or disabled or uninstalled "
+"before continuing with the %s upgrader"
+msgstr ""
+
+#, php-format
+msgid ""
+"This system has been detected as the %s distro system. This means you will "
+"need to run the upgrade script manually through the CLI to completely "
+"upgrade the system %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"To help us learn more about who is using %s please tell us a little bit "
+"about yourself."
+msgstr ""
+
+#, php-format
+msgid ""
+"To help us learn more about who is using %s please verify the information "
+"below"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "UCP Template"
+msgstr ""
+
+msgid "Unable to connect to remote mirror servers"
+msgstr ""
+
+msgid "Unable to connect to the remote mirror servers"
+msgstr ""
+
+msgid "Unable to determine SQL Version"
+msgstr ""
+
+msgid "Unable to set version"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Upgrade PBX 15 to 16"
+msgstr ""
+
+msgid "Upgrade PHP "
+msgstr ""
+
+msgid "Upgrade System"
+msgstr ""
+
+#, php-format
+msgid "Upgrade to %s %s"
+msgstr ""
+
+msgid "Verify System Information"
+msgstr ""
+
+msgid "Version Upgrade"
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+#, php-format
+msgid ""
+"We have discovered that you have Vega gateway management module(vega) "
+"installed in your system. Vega management module is not compatible with PBX "
+"16 as of now, hence blocking the upgrade.\n"
+"If not using this module then please remove this module and restart the "
+"upgrade process."
+msgstr ""
+
+#, php-format
+msgid "Welcome to the %s %s updater"
+msgstr ""
+
+#, php-format
+msgid ""
+"You are not using the standard %s repository servers. By not using these "
+"servers you will miss out on important security notifications, beta releases "
+"and add-ons."
+msgstr ""
+
+msgid ""
+"You can not proceeed until you have clicked Apply Config above and refreshed "
+"this page"
+msgstr ""
+
+msgid "You do not have NodeJS installed"
+msgstr ""
+
+#, php-format
+msgid "Your %s Version of %s is supported"
+msgstr ""
+
+#, php-format
+msgid "Your %s version of %s is NOT supported. You must have version %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your Asterisk version of %s is NOT supported. You must have a version higher "
+"than or equal to %s"
+msgstr ""
+
+#, php-format
+msgid "Your Asterisk version of %s is supported"
+msgstr ""
+
+msgid "Your Company"
+msgstr ""
+
+msgid "Your Email"
+msgstr ""
+
+msgid "Your Name"
+msgstr ""
+
+#, php-format
+msgid "Your NodeJS Version of %s is supported"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your NodeJS version of %s is NOT supported. You must have a version higher "
+"than or equal to %s"
+msgstr ""
+
+#, php-format
+msgid "Your PHP Version of %s is supported"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your PHP version of %s is NOT supported. You must have a version higher than "
+"or equal to %s"
+msgstr ""
+
+msgid "Your Phone Number"
+msgstr ""
+
+#, php-format
+msgid "Your SQL Version of %s is supported"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your SQL version of %s is NOT supported. You must have a version higher than "
+"or equal to %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your Sysadmin module version is NOT supported for version upgrade. You must "
+"update to at least version %s ."
+msgstr ""
+
+#, php-format
+msgid "Your system has a valid deployement"
+msgstr ""
+
+#, php-format
+msgid ""
+"Your system has insufficient disk space i.e %s GB. Upgrade to PBX 16 "
+"requires at least 2GB or more of disk space. Kindly free up the disk space "
+"and try again."
+msgstr ""
+
+#, php-format
+msgid ""
+"Your version of Framework is NOT supported. You must upgrade to at least "
+"version %s"
+msgstr ""
+
+msgid "upgradepbx15to16"
+msgstr ""

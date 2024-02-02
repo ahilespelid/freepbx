@@ -1,0 +1,8 @@
+{
+	"require": {
+		"netresearch/jsonmapper": "1.2.0"
+	},
+	"config": {
+		"optimize-autoloader": true
+	}
+}

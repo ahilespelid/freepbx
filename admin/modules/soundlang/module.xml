@@ -1,0 +1,88 @@
+<module>
+	<rawname>soundlang</rawname>
+	<repo>standard</repo>
+	<name>Sound Languages</name>
+	<version>15.0.5.10</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<changelog>
+		*15.0.5.10* FREEI-2431 Remove timezone setting from OOBE 
+		*15.0.5.9* FREEPBX-21773 Backup "Whoops" error, backup job ends without creating file 
+		*15.0.5.8* Packaging of ver 15.0.5.8
+		*15.0.5.7* FREEPBX-20981 Increasing 'filename' column length
+		*15.0.5.6* FREEPBX-20578 Restoring legacy(FreePBX 12) Backup into FreePBX 15 system is giving sql error. 
+		*15.0.5.5* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.5.4* FREEPBX-20107 Sound Languages module gives exception error on restore when the system is not connected to internet 
+		*15.0.5.3* FREEPBX-19953 Editing the language code of the custom language is not updating in the backend. 
+		*15.0.5.2* FREEPBX-19951
+		*15.0.5* Use lazy loading console commands
+		*15.0.4* FREEPBX-19029 Reset Button under Sound Languages --&amp;gt; Settings page is not working
+		*15.0.3.3* Fixing legacy restore
+		*15.0.3.2* fixing legacy restore
+		*15.0.3.1* Backup and Restore
+		*15.0.3* Fix fwconsole to match GUI
+		*15.0.2* Backup and restore for 15.0
+		*15.0.1* Branch from 14.0.5
+	</changelog>
+	<category>Admin</category>
+	<description>
+		Management of sound prompt languages.
+	</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Sound+Languages</more-info>
+	<depends>
+		<version>15.0.6.18</version>
+	</depends>
+	<menuitems>
+		<soundlang>Sound Languages</soundlang>
+	</menuitems>
+	<oobe method="oobeHook" priority="150"/>
+	<database>
+		<table name="soundlang_packages">
+			<field name="id" type="bigint" primarykey="true" autoincrement="true"/>
+			<field name="type" type="string" length="20"/>
+			<field name="module" type="string" length="80"/>
+			<field name="language" type="string" length="20"/>
+			<field name="license" type="blob" notnull="false"/>
+			<field name="author" type="string" length="80" notnull="false"/>
+			<field name="authorlink" type="string" length="256" notnull="false"/>
+			<field name="format" type="string" length="20"/>
+			<field name="version" type="string" length="20" notnull="false"/>
+			<field name="installed" type="string" length="20" notnull="false"/>
+			<key name="id" type="unique">
+				<column name="id"/>
+			</key>
+			<key name="unique" type="unique">
+				<column name="type"/>
+				<column name="module"/>
+				<column name="language"/>
+				<column name="format"/>
+			</key>
+		</table>
+		<table name="soundlang_settings">
+			<field name="keyword" type="string" length="20" primarykey="true"/>
+			<field name="value" type="string" length="80"/>
+		</table>
+		<table name="soundlang_customlangs">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="language" type="string" length="20"/>
+			<field name="description" type="string" length="80"/>
+		</table>
+		<table name="soundlang_prompts">
+			<field name="type" type="string" length="20"/>
+			<field name="module" type="string" length="80"/>
+			<field name="language" type="string" length="20"/>
+			<field name="format" type="string" length="20"/>
+			<field name="filename" type="string" length="120" notnull="false"/>
+		</table>
+	</database>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>sounds</name>
+			<class>Soundlang</class>
+		</command>
+	</console>
+</module>

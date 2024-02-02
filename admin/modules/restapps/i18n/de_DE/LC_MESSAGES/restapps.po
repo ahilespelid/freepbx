@@ -1,0 +1,1495 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for restapps
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-18 04:21+0000\n"
+"PO-Revision-Date: 2018-06-07 09:23+0000\n"
+"Last-Translator: Nils Heckenkamp <nheckenkamp@sangoma.com>\n"
+"Language-Team: German <http://*/projects/fpbxc/restapps/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19.1\n"
+
+#, php-format
+msgid "%d secs"
+msgstr "%d sek"
+
+#, php-format
+msgid "%s"
+msgstr ""
+
+#, php-format
+msgid "%s = %s"
+msgstr ""
+
+#, php-format
+msgid "%s call(s) done."
+msgstr ""
+
+#, php-format
+msgid "%s has %d %s."
+msgstr ""
+
+#, php-format
+msgid "%s has no message."
+msgstr ""
+
+#, php-format
+msgid "%s is not authorized in the Phone Apps module for extension %s."
+msgstr ""
+"%s ist im Phone-Apps Modul nicht autorisiert für die Verwendung bei "
+"Nebenstelle %s."
+
+#, php-format
+msgid "%s is not enabled for extension %s."
+msgstr "%s ist nicht aktiviert für Nebenstelle %s."
+
+#, php-format
+msgid "(%s) - %s "
+msgstr ""
+
+#, php-format
+msgid "(F%d) %s = %s"
+msgstr ""
+
+msgid "(Un)Mute"
+msgstr "Stumschalten"
+
+msgid "(Un)Pause"
+msgstr "Pause"
+
+msgid "A-Z"
+msgstr "A-Z"
+
+#, php-format
+msgid "Abandoned: %s"
+msgstr "Verlassen: %s"
+
+msgid "Above"
+msgstr "Über"
+
+msgid "Access denied"
+msgstr "Zugriff verweigert"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Add New"
+msgstr "Hinzufügen"
+
+msgid "Additional Voicemail Boxes"
+msgstr "Zusätzliche Voicemail-Boxen"
+
+msgid ""
+"Additional Voicemail Boxes functionality will not work with Sangoma's D/P "
+"series phones which are configured with DPMA."
+msgstr ""
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin login override"
+msgstr "Admin Login überschreiben"
+
+msgid ""
+"Admin override is required for this extension. Please enter administrator "
+"password instead."
+msgstr ""
+"Für diese Nebenstelle wird eine Admin Überschreibung benötigt. Bitte geben "
+"Sie stattdessen das Administrator Passwort ein."
+
+#, php-format
+msgid "Alarm Clock"
+msgstr ""
+
+#, php-format
+msgid "Alarm Clock : %s - %s. Delete? "
+msgstr ""
+
+msgid "All"
+msgstr "Alle"
+
+msgid "All Queues"
+msgstr "Alle Warteschlangen"
+
+msgid "All Time Conditions"
+msgstr "Alle Zeitschaltungen"
+
+msgid "Allow Access"
+msgstr "Zugriff erlauben"
+
+msgid "Allowed Call Flows"
+msgstr "Erlaubte Call Flows"
+
+msgid "Allowed Conference Bridges"
+msgstr "Erlaubte Konferenzbrücken"
+
+msgid "Allowed Queues"
+msgstr "Erlaubte Warteschlangen"
+
+msgid "Allowed Time Conditions"
+msgstr "Erlaubte Zeitschaltungen"
+
+msgid "Applications"
+msgstr "Anwendungen"
+
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+msgid "Authentication Required"
+msgstr "Authentifizierung benötigt"
+
+msgid "BLF"
+msgstr "BLF"
+
+msgid "BLF Status"
+msgstr "BLF Status"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Backspace"
+msgstr "Backspace"
+
+msgid ""
+"Backup & Restore process is in progress so not running 'update-ports' hooks "
+"from install."
+msgstr ""
+
+msgid "Below"
+msgstr "Unterhalb"
+
+msgid "Best regards."
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Busy Greeting"
+msgstr "Beschäftigt Begrüßung"
+
+msgid "CID Name"
+msgstr "CID Name"
+
+msgid "CID Num"
+msgstr "CID Nummer"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Applications using "
+"the RESTful API"
+msgstr ""
+
+msgid "Call Back"
+msgstr "Zurückrufen"
+
+msgid "Call Flow"
+msgstr "Call-Flow"
+
+msgid "Call Flow Control"
+msgstr "Call Flow Kontrolle"
+
+msgid "Call Flow Settings"
+msgstr "Call Flow Einstellungen"
+
+msgid "Call Forward"
+msgstr "Rufweiterleitung"
+
+msgid "Call Forward Settings"
+msgstr "Rufweiterleitungs Einstellungen"
+
+#, php-format
+msgid "Call Forward: %s"
+msgstr "Rufweiterleitung: %s"
+
+msgid "Call Forwarding"
+msgstr "Rufweiterleitung"
+
+msgid "Call parked"
+msgstr "Geparktes Gespräch"
+
+#, php-format
+msgid "Call parked: %s"
+msgstr "Geparktes Gespräch: %s"
+
+msgid "CallDate"
+msgstr "Anrufdatum"
+
+msgid "Callers"
+msgstr "Anrufer"
+
+#, php-format
+msgid "Callers: %s"
+msgstr "Anrufer: %s"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cell"
+msgstr "Mobil"
+
+#, php-format
+msgid "Cell (%s)"
+msgstr "Mobil (%s)"
+
+msgid "Change"
+msgstr "Ändern"
+
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+msgid "Check Out Failed!!"
+msgstr ""
+
+msgid "Check out"
+msgstr ""
+
+msgid "Check out done."
+msgstr ""
+
+#, php-format
+msgid "Check your date format."
+msgstr ""
+
+msgid "Clean"
+msgstr ""
+
+#, php-format
+msgid "Company: %s"
+msgstr "Firma: %s"
+
+#, php-format
+msgid "Completed: %s"
+msgstr "Abgeschlossen: %s"
+
+msgid "Conference"
+msgstr "Konferenz"
+
+msgid "Conference Active"
+msgstr "Konferenz aktiv"
+
+msgid "Conferences"
+msgstr "Konferenzen"
+
+msgid "Confirm Calls"
+msgstr "Anrufe bestätigen"
+
+msgid "Contact Groups"
+msgstr "Kontaktgruppen"
+
+msgid "Contact details not found."
+msgstr ""
+
+msgid "Contacts"
+msgstr "Kontakte"
+
+msgid "Could not login for this extension."
+msgstr ""
+
+#, php-format
+msgid "Could not login to extension %s."
+msgstr "Fehler bei Anmeldung auf Nebenstelle %s."
+
+msgid "Could not logout for this extension."
+msgstr ""
+
+#, php-format
+msgid "Could not logout of extension %s."
+msgstr "Fehler bei Abmeldung von Nebenstelle %s."
+
+msgid "DID is blocklisted."
+msgstr ""
+
+msgid "DND"
+msgstr "DND"
+
+msgid "DND Settings"
+msgstr "DND Einstellungen"
+
+msgid "Day"
+msgstr ""
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete SCD Voicemail Symlinks"
+msgstr ""
+
+msgid "Descending "
+msgstr "Absteigend "
+
+msgid "Det. Mini-Bar"
+msgstr ""
+
+msgid "Details"
+msgstr "Details"
+
+#, php-format
+msgid "Details for %s."
+msgstr ""
+
+msgid "Device does not exist!"
+msgstr ""
+
+msgid "Dial"
+msgstr "Wählen"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#, php-format
+msgid "Display Name: %s"
+msgstr "Anzeigename: %s"
+
+msgid "Done"
+msgstr "Fertig"
+
+#, php-format
+msgid "E-Mail: %s"
+msgstr "E-Mail: %s"
+
+msgid "Enable Call Flow Access"
+msgstr "Aktiviere Zugriff auf Call Flows"
+
+msgid "Enable Call Flow Access in Phone Apps for this user"
+msgstr ""
+"Aktiviere Zugriff auf Call Flow Modul in den Phone Apps für diesen Benutzer"
+
+msgid "Enable Call Forward Access"
+msgstr "Aktiviere Zugriff auf Anrufweiterleitungen"
+
+msgid "Enable Call Forward in Phone Apps for this user"
+msgstr ""
+"Aktiviere Zugriff auf Anrufweiterleitungs Phone App für diesen Benutzer"
+
+msgid "Enable Conference Access"
+msgstr "Konferenzzugang aktivieren"
+
+msgid "Enable Conference Access in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Konferenzen Phone App für diesen Benutzer"
+
+msgid "Enable Contact Access"
+msgstr "Aktiviere Zugriff auf Kontakte"
+
+msgid ""
+"Enable Contact Access in Phone Apps for this user (Contact Groups are set "
+"under the 'Contact Manager' title)"
+msgstr ""
+"Aktiviere Zugriff auf Kontakte Phone App für diesen Benutzer (Verfügbare "
+"Kontaktgruppen werden im Reiter 'Kontakt Manager' gesetzt)"
+
+msgid "Enable DND Access"
+msgstr "Aktiviere DND Zugriff"
+
+msgid "Enable DPMA Apps Logging"
+msgstr ""
+
+msgid "Enable Do Not Disturb in Phone Apps for this user"
+msgstr ""
+"Aktiviere Zugriff auf Bitte nicht stören (DND) Phone App für diesen Benutzer"
+
+msgid "Enable Find Me/Follow Me Access"
+msgstr "Aktiviere Zugriff auf Finde mich / Folge mir Funktion"
+
+msgid "Enable Find Me/Follow Me in Phone Apps for this user"
+msgstr ""
+"Aktiviere Zugriff auf Finde mich/Folge mir Phone App für diesen Benutzer"
+
+msgid "Enable Login/Logout Access"
+msgstr "Aktiviere Zugriff auf Login/Logout"
+
+msgid "Enable Login/Logout in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Login/Logout Phone App für diesen Benutzer"
+
+msgid "Enable Parking Access"
+msgstr "Aktiviere Zugriff auf Parking"
+
+msgid "Enable Parking in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf das Parking Phone App Modul für diesen Benutzer"
+
+msgid "Enable Presence State Access"
+msgstr "Aktiviere Zugriff auf Präsenz Status"
+
+msgid "Enable Presence State in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Präsenz Staus Phone App für diesen Benutzer"
+
+msgid "Enable Promperty Management in Phone apps."
+msgstr ""
+
+msgid "Enable Property Management Access"
+msgstr ""
+
+msgid "Enable Queue Access"
+msgstr "Aktiviere Zugriff auf Warteschlangen"
+
+msgid "Enable Queue Access in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Warteschlangen Phone App für diesen Benutzer"
+
+msgid "Enable Queue Agent Access"
+msgstr "Aktiviere Zugriff auf Warteschlangen Agenten"
+
+msgid "Enable Queue Agent in Phone Apps for this user"
+msgstr ""
+"Aktiviere Zugriff  auf Warteschlangen Agenten Phone App für diesen Benutzer"
+
+msgid "Enable Time Condition Access"
+msgstr "Aktiviere Zugriff auf Zeitschaltungen"
+
+msgid "Enable Token Based Security"
+msgstr ""
+
+msgid "Enable Voicemail Access"
+msgstr "Aktiviere Zugriff auf Anrufbeantworter"
+
+msgid "Enable Voicemail Access in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Anrufbeantworter Phone App für diesen Benutzer"
+
+msgid "Enable or Disable BLF"
+msgstr "BLF - Aktivieren oder Deaktivieren"
+
+msgid ""
+"Enable or disable BLF. The phone configuration must be rebuilt and restarted "
+"to apply the changes."
+msgstr ""
+
+msgid "Enable time condition Access in Phone Apps for this user"
+msgstr "Aktiviere Zugriff auf Zeitschaltungen Phone App für diesen Benutzer"
+
+msgid "Enabled"
+msgstr "Aktivieren"
+
+msgid "Endpoint Manager"
+msgstr "Endpoint Manager"
+
+msgid "Endpoint Manager Settings"
+msgstr "Endpoint Manager Einstellungen"
+
+msgid "Enter Dest."
+msgstr "Geben Sie ein Ziel ein."
+
+msgid "Enter Name/Number"
+msgstr "Name/Nummer eingeben"
+
+msgid "Enter New Password"
+msgstr "Neues Passwort eingeben"
+
+msgid "Enter Number"
+msgstr "Nummer eingeben"
+
+#, php-format
+msgid "Entry %s"
+msgstr "Eintrag %s"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Error adding contact"
+msgstr ""
+
+msgid "Error deleting contact"
+msgstr ""
+
+msgid "Error moving voicemail message"
+msgstr ""
+
+msgid "Error playing voicemail message"
+msgstr ""
+
+msgid "Error removing voicemail message"
+msgstr ""
+
+msgid "Error setting presence"
+msgstr ""
+
+msgid "Error updating contact"
+msgstr ""
+
+msgid "Exit"
+msgstr "Beenden"
+
+#, php-format
+msgid "Ext. %s"
+msgstr "Nst. %s"
+
+msgid "Extension"
+msgstr "Nebenstelle"
+
+#, php-format
+msgid "Extension (%s)"
+msgstr "Nebenstelle (%s)"
+
+msgid "Extension not found in group list!"
+msgstr ""
+
+msgid "Extension or password is invalid."
+msgstr "Nebenstelle oder Passwort ist inkorrekt."
+
+msgid "FFwd"
+msgstr "FFwd"
+
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr "Fehler beim Ausführen:%s"
+
+msgid "Failed!"
+msgstr "Fehlerhaft!"
+
+#, php-format
+msgid "First Name: %s"
+msgstr "Vorname: %s"
+
+msgid "Follow Me"
+msgstr "Folge Mir"
+
+msgid "Follow Me Enabled"
+msgstr "Folge Mir aktiviert"
+
+msgid "Follow Me Settings"
+msgstr "Folge Mir Einstellungen"
+
+msgid ""
+"For information about this module, please visit the <a href=\"http://wiki."
+"freepbx.org/display/FPG/Phone+Apps\">Phone Apps wiki page</a>."
+msgstr ""
+"Für mehr Informationen über dieses Modul besuchen Sie bitte die <a href="
+"\"http://wiki.freepbx.org/display/FPG/Phone+Apps\">Phone Apps Wiki Seite</a>."
+
+#, php-format
+msgid "Format can be: %s"
+msgstr "Format kann sein: %s"
+
+msgid "Forward"
+msgstr "Weiterleiten"
+
+msgid ""
+"Freepbx upgrade process is in progress so not running 'update-ports' hooks "
+"from install."
+msgstr ""
+
+msgid "From Softphone"
+msgstr ""
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Group List"
+msgstr "Gruppenliste"
+
+msgid "Hello"
+msgstr ""
+
+msgid "Here"
+msgstr "Hier"
+
+msgid "Here you id for your voicemail and web access."
+msgstr ""
+
+msgid "Hide application status from idle screen"
+msgstr "Verstecke App Status von Leerlauf Bildschirm"
+
+msgid "Hide idle screen display"
+msgstr "Verstecke Leerlauf Bildschirm Anzeige"
+
+#, php-format
+msgid "Hold Time: %s"
+msgstr "Haltezeit: %s"
+
+msgid "Home"
+msgstr "Startseite"
+
+#, php-format
+msgid "Home (%s)"
+msgstr "Zuhause (%s)"
+
+msgid "Hour"
+msgstr ""
+
+#, php-format
+msgid "Hour 00 -> 23"
+msgstr ""
+
+#, php-format
+msgid "Hour and minute should have 2 digits"
+msgstr ""
+
+msgid ""
+"If enabled, users must authenticate against User Manager instead of "
+"extension and voicemail password"
+msgstr ""
+"Wenn aktiviert, dann müssen sich Benutzer mit den User Manager Daten "
+"Anmelden Anstatt der Eingabe von Nebenstelle und Anrufbeantworter Passwort"
+
+msgid ""
+"If in case Restore process not running then you may delete /var/run/asterisk/"
+"restore_running.lock file and try install again"
+msgstr ""
+
+msgid ""
+"If in case upgrade process not running then you may delete /var/run/asterisk/"
+"upgrade_running.lock file and try install again"
+msgstr ""
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#, php-format
+msgid "Inbox: %01d"
+msgstr "Posteingang: %01d"
+
+msgid "Inherit"
+msgstr "Übernehmen"
+
+msgid "Initial Ring Time"
+msgstr "Anfängliches Läuten in Sek"
+
+msgid "Invalid Caller ID number."
+msgstr "Falsche Caller ID Nummer."
+
+msgid "Invalid User ID or Password"
+msgstr ""
+
+msgid "Invalid code index!"
+msgstr ""
+
+msgid "Invalid credentials"
+msgstr "Falsche Zugangsdaten"
+
+msgid "Invalid user"
+msgstr "Falscher Benutzer"
+
+msgid "Kick"
+msgstr "Kicken"
+
+#, php-format
+msgid "Last Name: %s"
+msgstr "Nachname: %s"
+
+msgid "Line Position"
+msgstr "Zeilenposition"
+
+msgid "Line Type"
+msgstr "Zeilentyp"
+
+msgid "Login"
+msgstr "Anmelden"
+
+msgid "Login failed"
+msgstr "Anmeldung fehlgeschlagen"
+
+msgid "Login/Logout"
+msgstr "Login / Logout"
+
+msgid "Login/out"
+msgstr "Login / out"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Logout failed"
+msgstr "Abmelden fehlgeschlagen"
+
+#, php-format
+msgid ""
+"Logout not allowed. Kindly enabled Hot Desk Emergency CID for this extension "
+"%s with mac address %s."
+msgstr ""
+
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+msgid "May this user use Phone Apps"
+msgstr "Diesem Benutzer Zugriff auf Phone Apps erlauben"
+
+msgid "Members"
+msgstr "Mitglieder"
+
+#, php-format
+msgid "Members: %s"
+msgstr "Mitglieder: %s"
+
+msgid "Message Content"
+msgstr ""
+
+#, php-format
+msgid "Message for %s"
+msgstr ""
+
+#, php-format
+msgid "Migrating %s group from Rest API to Rest Apps"
+msgstr "Migriere %s Gruppe von Rest API zu Rest Apps"
+
+#, php-format
+msgid "Migrating %s user from Rest API to Rest Apps"
+msgstr "Migriere %s Benutzer von Rest API zu Rest Apps"
+
+msgid "Minute"
+msgstr ""
+
+#, php-format
+msgid "Minute 00 -> 59"
+msgstr ""
+
+msgid "Monitored Hint"
+msgstr "Überwachter Hinweis"
+
+msgid "Month"
+msgstr ""
+
+msgid "Mute the beep that occurs when idle screen notifications are displayed"
+msgstr ""
+"Schalte Piepsen auf Stumm, welches auftritt, wenn im Leerlauf Hinweise auf "
+"dem Bildschirm angezeigt werden"
+
+msgid "My Room"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "New Voicemail"
+msgstr "Neue Nachricht"
+
+msgid "No"
+msgstr "Nein"
+
+#, php-format
+msgid "No %s are authorized in the Phone Apps module for extension %s."
+msgstr ""
+"Keine %s sind für die Nutzung im Phone Apps Modul authorisiert für "
+"Nebenstelle %s."
+
+msgid "No Contacts Found"
+msgstr "Keine Kontakte gefunden"
+
+#, php-format
+msgid "No callers in queue %s (%s)"
+msgstr "Keine Anrufer in Warteschlange %s (%s)"
+
+msgid "No callers in this conference"
+msgstr "Keine Anrufer in dieser Konferent"
+
+msgid "No calls are parked"
+msgstr "Keine Gespräche geparkt"
+
+msgid "No data found!"
+msgstr ""
+
+#, php-format
+msgid "No entries configured for group %s"
+msgstr "Keine Einträge für Gruppe %s vorhanden"
+
+msgid "No entries found"
+msgstr "Keine Einträge gefunden"
+
+#, php-format
+msgid "No groups configured for user %s"
+msgstr "Keine Gruppen für Benutzer %s konfiguriert"
+
+#, php-format
+msgid "No members in queue %s (%s)"
+msgstr "Keine Mitglieder vorhanden in Warteschlange %s (%s)"
+
+#, php-format
+msgid "No numbers configured for entry %s"
+msgstr "Keine Nummern für Eintrag %s vorhanden"
+
+msgid "No parking lots found for this user"
+msgstr ""
+
+msgid "No queues assigned to this user"
+msgstr ""
+
+#, php-format
+msgid "No queues configured for user %s"
+msgstr "Keine Warteschlangen für Benutzer %s vorhanden"
+
+msgid "No voicemail messages"
+msgstr "Keine Nachrichten vorhanden"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Not Clean"
+msgstr ""
+
+msgid "Not Set"
+msgstr "Nicht konfiguriert"
+
+msgid "Not a valid conference room"
+msgstr "Kein gültiger Konferenz Raum"
+
+msgid ""
+"Note for the Sangoma D80 Conferences App: Please select a maximum of 5 "
+"individual extensions.  The \"All <*>\" option should not be included."
+msgstr ""
+
+msgid "Nothing"
+msgstr "Nichts"
+
+msgid "Numbers"
+msgstr "Anzahl"
+
+msgid "Office"
+msgstr "Büro"
+
+#, php-format
+msgid "Old: %01d"
+msgstr "Alt:%01d"
+
+msgid "Other Apps"
+msgstr "Andere Apps"
+
+msgid "Override"
+msgstr "Überschreiben"
+
+msgid "Override 'Apps' Menu"
+msgstr "Überschreibe 'Apps' Menü"
+
+msgid "Override required"
+msgstr "Überschreiben benötigt"
+
+msgid ""
+"Override the default 'Apps' menu when using the 'Apps' button with the menu "
+"used below"
+msgstr ""
+"Überschreibe das Standard  'Apps' Menü bei Verwendung des 'Apps' Buttons mit "
+"dem Menü unten"
+
+msgid "PMS module is not installed."
+msgstr ""
+
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+msgid "Parking"
+msgstr "Parken"
+
+msgid "Parking Settings"
+msgstr "Parken Einstellungen"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Password is invalid."
+msgstr "Passwort falsch."
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Paused/UnPaused"
+msgstr "Pausiert / Unpausiert"
+
+#, php-format
+msgid "Period from %s to %s"
+msgstr ""
+
+msgid "Permanent Matched"
+msgstr "Permanent in der Zeit"
+
+msgid "Permanent Unmatched"
+msgstr "Permanent außerhalb der Zeit"
+
+msgid "Phone App Hints"
+msgstr "Phone Apps Hinweise"
+
+msgid "Phone Apps"
+msgstr "Phone Apps"
+
+msgid ""
+"Phone Apps (Rest Apps) are applications for your desktop phone. They can be "
+"used to control a variety of features. From here you can control fine "
+"grained permissions for each user/device."
+msgstr ""
+"Phone Apps (Rest Apps) sind Applikationen für Ihr Telefon. Sie können für "
+"die Kontrolle Zahlreicher Funktionen verwendet werden. Von hier aus können "
+"Sie die Berechtigungen für jeden Benutzer oder  jedes Gerät setzen."
+
+msgid "Phone Apps module not licensed."
+msgstr "Phone Apps Modul ist nicht lizensiert."
+
+msgid "Phone Hint"
+msgstr "Telefon Hinweis"
+
+msgid "Pickup"
+msgstr "Holen"
+
+msgid "Play"
+msgstr "Abspielen"
+
+msgid "Please choose a module to the right for settings."
+msgstr ""
+"Bitte wählen Sie ein Modul auf der rechten Seite für weitere Einstellungen."
+
+#, php-format
+msgid "Please dial %s to initialize your mailbox."
+msgstr ""
+
+#, php-format
+msgid "Please try again."
+msgstr ""
+
+msgid ""
+"Please, apply <Save, Rebuild Config(s) and Update Phones> for each one of "
+"templates."
+msgstr ""
+"Bitte wenden Sie <Save, Rebuild Config (s) und Update Phones> für jede "
+"Vorlage an."
+
+msgid "Prefs"
+msgstr "Präfs"
+
+msgid "Presence"
+msgstr "Präsenz"
+
+msgid "Presence Settings"
+msgstr "Präsenz Einstellungen"
+
+msgid "Presets"
+msgstr "Vorgaben"
+
+msgid "Property Management Settings"
+msgstr ""
+
+msgid "Queue Active"
+msgstr "Warteschlange Aktiv"
+
+msgid "Queue Agent"
+msgstr "Warteschlangen Vermittler"
+
+msgid "Queue Agent BLF Type"
+msgstr "Warteschlangen Teilnehmer BLF -Type"
+
+msgid "Queue Settings"
+msgstr "Warteschlangeneinstellungen"
+
+msgid "Queue does not exist"
+msgstr "Warteschlange existiert nicht"
+
+msgid "Queues"
+msgstr "Warteschlangen"
+
+msgid "Quiet Alerts"
+msgstr "Stille Alarme"
+
+msgid "R. Status"
+msgstr ""
+
+msgid "Record"
+msgstr "Aufzeichnen"
+
+msgid ""
+"Recording failed to start. Kindly enabled On Demand Recording for this "
+"extension."
+msgstr ""
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Removed all SCD Voicemail Symlinks created before 12 hours."
+msgstr ""
+
+msgid "Renew Token"
+msgstr "Token erneuern"
+
+msgid "Renewing Token :"
+msgstr "Erneuerndes Token:"
+
+msgid "Request sent. Please consult the main menu."
+msgstr ""
+
+msgid "Require a password to log out of an extension"
+msgstr "Verlange ein Passwort zum Abmelden von einer Nebenstelle"
+
+msgid "Require administrator password if an extension is already in use"
+msgstr ""
+"Verlange Administrator Passwort wenn die Nebenstelle bereits in Verwendung "
+"sein sollte"
+
+msgid "Require logout password"
+msgstr "Verlange Passwort für die Abmeldung"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Reset Override"
+msgstr "Standard Einstellung"
+
+msgid "Rest Apps is not Authorized"
+msgstr "Rest Apps ist nicht authorisiert"
+
+#, php-format
+msgid "RestApps Server Failed: %s"
+msgstr "Rest-Apps Server fehlgeschlagen:%s"
+
+#, php-format
+msgid "RestApps Server has already been running on PID %s for %s"
+msgstr "RestApps Server wurde bereits auf PID %s für %s ausgeführt"
+
+msgid "RestApps Server is not running"
+msgstr "RestApps Server wird nicht ausgeführt"
+
+msgid "RestApps daemon stopped"
+msgstr "RestApps-Daemon wurde gestoppt"
+
+msgid "RestApps daemon was not running"
+msgstr "Der RestApps-Daemon wurde nicht ausgeführt"
+
+msgid "RestApps is not licensed."
+msgstr "RestApps sind nicht lizenziert."
+
+msgid "Restapp Server status on backup"
+msgstr ""
+
+msgid "Restapps Daemon"
+msgstr "Restapps-Daemon"
+
+msgid "Restapps is not running"
+msgstr "Restapps wird nicht ausgeführt"
+
+msgid "Rewind"
+msgstr "Zurückspulen"
+
+msgid "Ring Time"
+msgstr "Läut Dauer"
+
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr "Running (Uptime:%s )"
+
+msgid "Sangoma Property Management"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save Recording"
+msgstr "Aufnahme Speichern"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Select"
+msgstr "Auswählen"
+
+msgid "Send ID"
+msgstr ""
+
+msgid "Send Msg"
+msgstr ""
+
+msgid "Sending error!!"
+msgstr ""
+
+msgid "Sending has been successfully completed."
+msgstr ""
+
+msgid "Set All"
+msgstr "Setze Alle"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid ""
+"Setup and organize the menu when users hit the 'Apps' button on their "
+"phones. Note: This list is also sortable."
+msgstr ""
+"Einrichten und organisieren von Menü wenn die Benutzer den 'Apps' button auf "
+"ihrem Telefonen drücken. Hinweis: Diese können auch sortiert werden."
+
+msgid "Show BLF States: <ext> [<app>]"
+msgstr "Zeige BLF Satus: <ext> [<app>]"
+
+msgid "Sort"
+msgstr "Sortieren"
+
+msgid "Sort Order"
+msgstr "Sortierreihenfolge"
+
+msgid "Sort by"
+msgstr "Sortiere nach"
+
+#, php-format
+msgid "Started RestApps Server. PID is %s"
+msgstr "RestApps Server gestartet. PID ist %s"
+
+#, php-format
+msgid "Started with PID %s!"
+msgstr "Gestartet mit PID %s!"
+
+msgid "Starting RestApps Server..."
+msgstr "Starten von RestApps Server ..."
+
+msgid "Starting new RestApps Process..."
+msgstr "Starten des neuen RestApps-Prozesses ..."
+
+#, php-format
+msgid "Status : %s"
+msgstr ""
+
+msgid "Stopped RestApps Server"
+msgstr "RestApps-Server gestoppt"
+
+msgid "Stopping RestApps Server"
+msgstr "RestApps Server wird gestoppt"
+
+msgid "Stopping old running processes..."
+msgstr "Alte laufende Prozesse stoppen ..."
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Temporary Greeting"
+msgstr "Temporäre Begrüßung"
+
+msgid "Temporary Matched"
+msgstr "Temporär in der Zeit"
+
+msgid "Temporary Unmatched"
+msgstr "Temporär außerhalb der Zeit"
+
+msgid ""
+"The Feature Code used for Phone App Hints. Do not change this unless it "
+"conflicts with something else"
+msgstr ""
+"Dieser Feature Code wird für die Phone Apps verwendet. Ändern Sie diesen "
+"nicht wenn er nicht in Konflikt mit irgendetwas anderem sein sollte"
+
+#, php-format
+msgid ""
+"The recording failed to start. Kindly enabled On-Demand Recording for an "
+"extension %s"
+msgstr ""
+
+#, php-format
+msgid "The room is %s "
+msgstr ""
+
+#, php-format
+msgid "The room is : %s"
+msgstr ""
+
+#, php-format
+msgid "There was an error playing back the greeting for %s."
+msgstr "Bei der Wiedergabe der Begrüßung für %s ist ein Fehler aufgetreten."
+
+msgid "There's no product sold at the moment."
+msgstr ""
+
+msgid ""
+"These are the additional (besides the user's voicemail box) assigned and "
+"active voicemail box which will show up for this user to control and edit on "
+"their phone."
+msgstr ""
+"Dies sind die zusätzlichen (neben der Voicemail-Box des Benutzers) "
+"zugewiesenen und aktiven Voicemail-Boxen, die für diesen Benutzer zur "
+"Steuerung und Bearbeitung auf seinem Telefon angezeigt werden."
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit on their phone."
+msgstr ""
+
+msgid ""
+"These are the assigned and active queues which will show up for this user to "
+"control and edit on their phone"
+msgstr ""
+"Dies sind zugewiesene und aktive Warteschlangen welche diesem Benutzer für "
+"die Verwaltung am Telefon angezeigt werden"
+
+msgid ""
+"These are the assigned and active time conditions which will show up for "
+"this user to control and edit on their phone"
+msgstr ""
+"Dies sind zugewiesene und aktive Zeitschaltungen welche diesem Benutzer für "
+"die Verwaltung am Telefon angezeigt werden"
+
+msgid "This Application is not configured for this extension"
+msgstr "Diese Applikation ist für diese Nebenstelle nicht konfiguriert"
+
+#, php-format
+msgid ""
+"This extension is not configured for Rest Apps. If this is a PJSIP extension "
+"try using '%s-n' where 'n' is the pjsip contact number. Ex '%s-1'"
+msgstr ""
+"Diese Nebenstelle ist nicht für Rest Apps konfiguriert. Wenn dies eine PJSIP-"
+"Nebenstelle ist, versuchen Sie es mit '%s-n', wobei 'n' die pjsip-"
+"Kontaktnummer ist. Ex '%s-1'"
+
+msgid "This module does not currently have any settings."
+msgstr "Diese Modul besitzt im Moment noch keine Einstellungen."
+
+#, php-format
+msgid ""
+"This version of Phone Apps is not licensed, therefore all phone apps "
+"settings listed here can only be used with Sangoma Phones. For more "
+"information on Phone Apps or to purchase a license please review our wiki %s"
+msgstr ""
+"Diese Phone Apps Version ist nicht lizenziert. Aller Einstellungen welche "
+"hier gelistet werden können daher nur mit Sangoma Telefonen verwendet "
+"werden. Weitere Informationen erhalten Sie im Wiki unter %s"
+
+msgid "Time Conditions"
+msgstr "Zeitschaltungen"
+
+msgid "Time Conditions Settings"
+msgstr "Zeitschaltungen Einstellungen"
+
+#, php-format
+msgid "Title: %s"
+msgstr "Titel: %s"
+
+msgid "To"
+msgstr ""
+
+msgid "Toggle"
+msgstr "Umschalten"
+
+msgid "Toggle DND on press"
+msgstr "Schalte DND beim Drücken um"
+
+msgid "Toggle the state of DND rather than show a page."
+msgstr "Schalte den DND Status direkt um anstatt eine Seite anzuzeigen."
+
+msgid "Total"
+msgstr ""
+
+msgid "Transfer"
+msgstr "Übertragung"
+
+msgid "Transfer VM"
+msgstr "Transfer AB"
+
+msgid "Unavailable Greeting"
+msgstr "Nicht verfügbar Begrüßung"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#, php-format
+msgid "Urgent: %01d"
+msgstr "Dringend:%01d"
+
+#, php-format
+msgid "User %s does not have a default extension."
+msgstr "Benutzer %s besitzt keine Standard Nebenstelle."
+
+msgid "User Linked Conference"
+msgstr "Mit dem Benutzer verknüpfte Konferenz"
+
+msgid "User Manager authentication"
+msgstr "User Manager Authentifizierung"
+
+msgid "User does not exist!"
+msgstr ""
+
+#, php-format
+msgid "User: %s"
+msgstr "Benutzer: %s"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Voice mail : "
+msgstr ""
+
+msgid "Voicemail"
+msgstr "Voicemail"
+
+msgid "Voicemail Greeting"
+msgstr "Anrufbeantworter Begrüßung"
+
+msgid "Voicemail Settings"
+msgstr "Voicemail-Einstellungen"
+
+msgid "Voicemail Sort Order "
+msgstr "Voicemail-Sortierreihenfolge "
+
+msgid "Voicemail Sort by"
+msgstr "Voicemail Sortieren nach"
+
+msgid "Voicemail directory for this user does not exist"
+msgstr ""
+
+msgid "Voicemail is not enabled for this user"
+msgstr ""
+
+msgid "Voicemail message does not exist!"
+msgstr ""
+
+msgid "WARNING!!!! Unexpected activity has been detected from:"
+msgstr ""
+
+#, php-format
+msgid "Wake up call deleted."
+msgstr ""
+
+#, php-format
+msgid "Wake up call not deleted."
+msgstr ""
+
+#, php-format
+msgid "Website: %s"
+msgstr "Webseite: %s"
+
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#, php-format
+msgid "Welcome. Your phone is %d"
+msgstr ""
+
+msgid "What are Phone Apps"
+msgstr "Was sind Phone Apps"
+
+msgid ""
+"What the Queue Agent BLF should monitor. If 'Login/Logout' is selected only "
+"Dynamic Queue Agents will be monitored (Light will be Active if Logged In). "
+"For 'Paused/UnPaused' all Agents will be monitored (Light will be Active if "
+"Paused)"
+msgstr ""
+"Was der Queue Agent BLF überwachen soll. Wenn \"Anmelden / Abmelden\" "
+"ausgewählt ist, werden nur dynamische Warteschlangenteilnehmer überwacht "
+"(Licht ist aktiv, wenn sie angemeldet sind). Für 'Pausiert / aktiv' werden "
+"alle Teilnehmer überwacht (Licht ist aktiv wenn Pause)"
+
+msgid ""
+"When this is enabled only phones that have a token in their URL will be "
+"allowed to access the Phone Apps. You will have to regenerated all "
+"configurations for all endpoints in Endpoint Manager to get the token"
+msgstr ""
+
+msgid "Whether yes or not to invoke the DPMA Apps log facility."
+msgstr ""
+
+msgid "Work"
+msgstr "Arbeit"
+
+#, php-format
+msgid "Work (%s)"
+msgstr "Arbeit (%s)"
+
+msgid "YES"
+msgstr "JA"
+
+msgid "Year"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "You cannot forward a voicemail message to yourself"
+msgstr ""
+
+msgid "You cannot move voicemail messages to the same folder"
+msgstr ""
+
+msgid "You must synchronize EPM with your phones."
+msgstr "EPM muss mit Ihren Telefonen synchronisieren werden."
+
+msgid "Your id"
+msgstr ""
+
+msgid "Z-A"
+msgstr "Z-A"
+
+msgid "callflows"
+msgstr "callflows"
+
+msgid "clean."
+msgstr ""
+
+msgid "items"
+msgstr "Einträge"
+
+msgid "message"
+msgstr ""
+
+msgid "messages"
+msgstr ""
+
+msgid "not clean."
+msgstr ""
+
+msgid "queues"
+msgstr "Warteschlangen"
+
+msgid "timeconditions"
+msgstr "Zeitschaltungen"
+
+msgid "unknown"
+msgstr "unbekannt"
+
+msgid "web access : "
+msgstr ""
+
+#~ msgid ""
+#~ "These are the assigned and active extensions which will show up for this "
+#~ "user to control and edit on their phone"
+#~ msgstr ""
+#~ "Dies sind zugewiesene und aktive Nebenstellen welche diesem Benutzer für "
+#~ "die Verwaltung am Telefon angezeigt werden"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php. Applications using the RESTful API"
+#~ msgstr ""
+#~ "Kommerzielle Module benötigen eine Lizenz um zu funktionieren. Besuchen "
+#~ "Sie www.schmoozecom.com/oss.php. Applications using the RESTful API"
+
+#~ msgid "ERROR failed to update timestamp field"
+#~ msgstr "FEHLER - Aktualisierung des Zeitstempel Feldes fehlgeschlagen"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "already exists"
+#~ msgstr "existiert bereits"
+
+#~ msgid "checking for timestamp field.."
+#~ msgstr "Überprüfung für Zeitstempel Feld.."
+
+#~ msgid "This extension is not configured for Rest Apps"
+#~ msgstr "Diese Nebenstelle ist für Rest Apps nicht konfiguriert"
+
+#~ msgid "Next"
+#~ msgstr "Nächster"
+
+#~ msgid "Previous"
+#~ msgstr "Vorheriger"
+
+#~ msgid "Restapps daemon failed to start!"
+#~ msgstr "Restapps Daemon konnte nicht gestartet werden!"
+
+#~ msgid "Restapps daemon stopped"
+#~ msgstr "Restapps Daemon gestoppt"
+
+#~ msgid "Restapps daemon was not running"
+#~ msgstr "Restapps Daemon war nicht aktiv"
+
+#~ msgid "Starting Restapps daemon"
+#~ msgstr "Restapps Daemin wird gestartet"
+
+#~ msgid "%d sec"
+#~ msgid_plural "%d secs"
+#~ msgstr[0] "%d Sek"
+#~ msgstr[1] "%d Sek."
+
+#~ msgid "%d sec%d secs"
+#~ msgstr "%d Sek.%d Sek."
+
+#~ msgid "Hint"
+#~ msgstr "Hinweis"
+
+#~ msgid "Playback"
+#~ msgstr "Wiedergabe"

@@ -1,0 +1,127 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for extensionroutes
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-13 08:40+0000\n"
+"PO-Revision-Date: 2015-05-12 03:26+0200\n"
+"Last-Translator: Rodrigo <rodrigo.reza@neocenter.com>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/"
+"extensionroutes/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid "Allowed Extensions"
+msgstr "Extensiones Permitidas"
+
+msgid "Allowed Routes"
+msgstr "Rutas Permitidas"
+
+msgid "Blocked Extensions"
+msgstr "Extensiones Bloqueadas"
+
+msgid ""
+"By checking this box it will select all extension routes, unchecking this "
+"box will uncheck all extension routes."
+msgstr ""
+"Para marcar esta casilla debe seleccionar todas las rutas, desmarque esta "
+"casilla para desmarcar todas las rutas."
+
+msgid ""
+"COMMERCIAL MODULE, REQUIRES A LICENSE.\t\t\t\tAllows the explicit exclusion/"
+"inclusion of extensions for each route, including calls forwarded or "
+"followme-ed from the extension"
+msgstr ""
+
+msgid "Check/Uncheck All Routes"
+msgstr "Marca/Desmarca Todas las Rutas"
+
+msgid "Class Of Service is enabled"
+msgstr "Las Clases de Servicio está habilitada"
+
+msgid "Connectivity"
+msgstr "Conectividad"
+
+msgid "Creating default Extension Routes.."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Extension Routes"
+msgstr "Rutas de Extensión"
+
+msgid "Extension Routing"
+msgstr "Enrutando extensión"
+
+#, php-format
+msgid "Failed inserting %s to %s"
+msgstr ""
+
+msgid "If checked this route is accessible to this user/extension"
+msgstr "Si marca esta ruta se accesible para este usuario/extensión"
+
+msgid "Note: Extension Routes is not registered"
+msgstr "Nota: Rutas de extensión no registrada"
+
+msgid "Optional: Select extensions that are able to use this route."
+msgstr ""
+"Opcional: Seleccione las extensiones que son capaces de usar está ruta."
+
+msgid "Please use CoS to manage your routes."
+msgstr "Por favor use CoS para administrar sus rutas."
+
+msgid "WARNING: Cannot connect to Asterisk Manager, fields will remain stale"
+msgstr ""
+"Advertencia: No puede conectarse a Asterisk Manager, los campos permanecerán "
+"viciados"
+
+msgid "done"
+msgstr "hecho"
+
+msgid "removing AMPUSER outroute field.."
+msgstr "Elminando AMPUSER del campo outroute.."
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE, REQUIRES A LICENSE.        Allows the explicit "
+#~ "exclusion/inclusion of extensions for each route, including calls "
+#~ "forwarded or followme-ed from the extension"
+#~ msgstr ""
+#~ "MÓDULO COMERCIAL REQUIERE UNA LICENCIA.     Permite la exclusión/"
+#~ "inclusión explicita de extensiones para otras rutas, incluyendo desvío de "
+#~ "llamadas o sigueme desde la extensión"
+
+#~ msgid "creating extensionroutes.."
+#~ msgstr "creando rutas de extensión.."
+
+#~ msgid "dropping table extensionroutes.."
+#~ msgstr "borrando tabla de rutas de extensión.."
+
+#~ msgid "extensionroutes table already exists, exiting"
+#~ msgstr "la tabla de rutas de extensión existe, saliendo"
+
+#~ msgid "ok"
+#~ msgstr "ok"
+
+#~ msgid "Class of Service not enabled"
+#~ msgstr "Las Clases de Servicio no está habilitada"
+
+#~ msgid ""
+#~ "Drag extension from the Blocked Extensions list to allow them to use this "
+#~ "route"
+#~ msgstr ""
+#~ "Arrastre la extensión desde la lista de extensiones bloqueadas para "
+#~ "permitir también usar está ruta"
+
+#~ msgid "Standard mode."
+#~ msgstr "Modo Estándar."

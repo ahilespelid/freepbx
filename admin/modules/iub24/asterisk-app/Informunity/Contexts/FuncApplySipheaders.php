@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Contexts; class FuncApplySipheaders { public static function make(&$ext) { goto TUaIh; onSAq: $ext->splice($context, $exten, '', new \ext_Gosub("\61", "\x73", "\163\x75\142\x2d\143\141\x6c\x6c\x65\x64\55\x63\150\141\156\156\145\154")); goto mAYxn; Kxwe4: $exten = "\x73"; goto onSAq; TUaIh: $context = "\x66\x75\x6e\143\55\141\160\160\x6c\171\x2d\x73\x69\x70\x68\145\x61\144\145\162\x73"; goto Kxwe4; mAYxn: } }

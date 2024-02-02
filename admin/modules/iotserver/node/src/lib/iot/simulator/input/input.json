@@ -1,0 +1,17 @@
+{"simulator": 
+	{"listener":{"ws_url":"ws://127.0.0.1:3000"},
+	"locations":[{"name": "sng_iot_simulation"}],
+	"zones":[{"name": "zone1", "location": "sng_iot_simulation", "state":"Unarmed", "status": "OK", "actions": ["Arm", "Unarm"], "temperature":25}],
+	"scenes":[{"name": "Entrance", "zone": "zone1", "actions":[], "temperature": 26},
+		{"name": "HR Office", "zone": "zone1", "actions":[], "temperature": 26}],
+	"groups":[{"name": "HR Office Door", "type": "Door", "scene": "HR Office", "status": "Closed - Locked", "actions":["Lock", "Unlock"]}, 
+		{"name": "HR Office Sensor", "type": "Occupancy", "scene": "HR Office", "status": "Occupied", "actions":[]},
+		{"name": "Entrance Sensor", "type": "Motion", "scene": "Entrance", "status": "Inactive", "actions":[]}],
+	"devices": [{"name": "lock1", "type": "door-lock","group":"HR Office Door", "status":"Locked", "actions":["Lock", "Unlock"], "events": ["Locked", "Unlocked"]},
+		{"name": "contact1", "type": "contact","group":"HR Office Door" ,"status":"Closed", "actions":["Open", "Close"], "events": ["Opened", "Closed"]},
+		{"name": "motion1", "type": "occupancy", "group":"HR Office Sensor", "status":"Inactive", "actions":[], "events": ["Active", "Inactive"]},
+		{"name": "motion2", "type": "occupancy", "group":"Entrance Sensor", "status":"Inactive", "actions":[], "events": ["Active", "Inactive"]}], 
+	"scenarios":[{"name": "test_scenario", "events":[{"type": "wait", "data": 10000}, {"type": "motion", "device": "motion1", "data": "Active"},
+		{"type": "wait", "data": 5000}, {"type": "status", "device": "lock1", "data": "Unlocked"}]}]
+	}
+}

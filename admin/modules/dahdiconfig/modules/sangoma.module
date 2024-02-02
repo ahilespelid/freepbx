@@ -1,0 +1,115 @@
+<?php
+
+class dahdi_sangoma {
+	private $data_store = array();
+	private $sangoma_settings = array(
+		"dahdimode" => "yes",
+		"t1mode" => "T1",
+		"WANPIPE_GLOBAL_FE_CLOCK" => "NORMAL",
+		"WANPIPE_GLOBAL_HW_DTMF" => "YES",
+		"WANPIPE_GLOBAL_FAKE_POLARITY" => "NO",
+		"WANPIPE_GLOBAL_FAKE_POLARITY_THRESHOLD" => "16000",
+		"WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMER" => "400",
+		"WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMEOUT" => "5000",
+		"WANPIPE_GLOBAL_RING_DEBOUNCE" => "0",
+	);
+	public function datastore() {
+	}
+	public function get_sangoma_settings() {
+		$sql = "SELECT `settings` FROM dahdi_modules WHERE `module_name` = 'sangoma'";
+		$o = sql($sql,'getOne');
+		if($o) {
+			$array = json_decode($o,TRUE);
+			$array = !empty($array) ? $array : array();
+			foreach($this->sangoma_settings as $key => $value) {
+				if(!isset($array[$key])) {
+					$array[$key] = $value;
+				}
+			}
+			return $array;
+		} else {
+			return $this->sangoma_settings;
+		}
+	}
+	public function settings() {
+		$settings = $this->get_sangoma_settings();
+		$output['title'] = _('Sangoma Settings');
+		$output['reboot'] = true;
+		$output['dialog']['height'] = 400;
+		$output['dialog']['width'] = 500;
+		$output['javascript'] = "";
+		$output['html'] = load_view(dirname(__DIR__)."/views/sangoma.php",array("settings" => $settings));
+		return $output;
+	}
+
+	public function settings_process($type,$settings) {
+		global $db;
+		$this->check_wanrouter();
+		$n = array();
+		if($type == 'sangomasettingssubmit') {
+			foreach($this->sangoma_settings as $key => $default_value) {
+				if(isset($settings['sangoma_'.$key])) {
+					$n[$key] = $settings['sangoma_'.$key];
+				} else {
+					$n[$key] = $default_value;
+				}
+			}
+			$json_settings = json_encode($n);
+			$sql = "REPLACE INTO dahdi_modules (module_name, settings) VALUES ('sangoma', '".$db->escapeSimple($json_settings)."')";
+			sql($sql);
+
+			return array("status" => true);
+		}
+	}
+
+	public function get_filename() {
+		return array('/etc/wanpipe/global.conf');
+	}
+
+	public function generateConf($file,$force = false) {
+		global $amp_conf;
+		$settings = $this->get_sangoma_settings();
+		if($force || !$amp_conf['DAHDIDISABLEWRITE']) {
+			switch($file) {
+				case '/etc/wanpipe/global.conf':
+					global $db;
+					if(!$force && (empty($settings['dahdimode']) || $settings['dahdimode'] != "yes")) {
+						return;
+					}
+					$output = "WANPIPE_GLOBAL_CFG=DAHDI\n";
+					$output .= "WANPIPE_WITH_DIGIUM=".($settings['dahdimode'] == 'yes' ? 'TRUE' : 'FALSE')."\n";
+					$output .= !empty($settings['t1mode']) ? "WANPIPE_GLOBAL_FE_MEDIA=".$settings['t1mode']."\n" : "";
+					$output .= !empty($settings['WANPIPE_GLOBAL_FE_CLOCK']) ? "WANPIPE_GLOBAL_FE_CLOCK=".$settings['WANPIPE_GLOBAL_FE_CLOCK']."\n" : "";
+					$output .= !empty($settings['WANPIPE_GLOBAL_HW_DTMF']) ? "WANPIPE_GLOBAL_HW_DTMF=".$settings['WANPIPE_GLOBAL_HW_DTMF']."\n" : "";
+					$output .= !empty($settings['WANPIPE_GLOBAL_RING_DEBOUNCE']) ? "WANPIPE_GLOBAL_RING_DEBOUNCE=".$settings['WANPIPE_GLOBAL_RING_DEBOUNCE']."\n" : "";
+					//$output .= !empty($settings['TE_SIG_MODE']) ? "TE_SIG_MODE=".$settings['TE_SIG_MODE']."\n" : "";
+					if(!empty($settings['WANPIPE_GLOBAL_FAKE_POLARITY']) && $settings['WANPIPE_GLOBAL_FAKE_POLARITY'] == "YES") {
+						$output .= "WANPIPE_GLOBAL_FAKE_POLARITY=".$settings['WANPIPE_GLOBAL_FAKE_POLARITY']."\n";
+						$output .= "WANPIPE_GLOBAL_FAKE_POLARITY_THRESHOLD=".$settings['WANPIPE_GLOBAL_FAKE_POLARITY_THRESHOLD']."\n";
+						$output .= "WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMER=".$settings['WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMER']."\n";
+						$output .= "WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMEOUT=".$settings['WANPIPE_GLOBAL_FAKE_POLARITY_CIDTIMEOUT']."\n";
+					}
+					$dirname = dirname($file);
+					if(!is_dir($dirname) || !is_writable($file) || !file_put_contents($file, $output)) {
+						$nt = notifications::create($db);
+						$nt->add_error('dahdiconfig', 'SANGOMA', sprintf(_('Unable to write to %s'),$file), sprintf(_("Please change permissions on %s or disable Sangoma DIGIUM mode"),$file), "", false, true);
+						return;
+					}
+					return;
+				break;
+				default:
+				break;
+			}
+		}
+	}
+
+	private function check_wanrouter() {
+		/*
+		$binary = exec('which wanrouter');
+		if($binary) {
+		$version = exec($binary.' version');
+		dbug($version);
+	}
+	*/
+	}
+}

@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Classes; class ModuleRegistred { public static function Get($config) { goto Iv0Be; AK3dB: goto gETti; goto Yc4x0; WTK31: gETti: goto Y2Dm9; Iv0Be: if (\FreePBX::Modules()->checkStatus("\163\x61\156\x67\157\x6d\141\x63\x72\155")) { goto NZLUA; } goto ted0Y; ted0Y: return !empty($config["\x74\x6f\153\145\156"]) and !empty($config["\162\145\146\162\x65\x73\x68\x5f\x74\157\153\x65\156"]); goto AK3dB; grIGx: return false; goto WTK31; Yc4x0: NZLUA: goto grIGx; Y2Dm9: } }

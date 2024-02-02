@@ -1,0 +1,105 @@
+<module>
+	<rawname>faxpro</rawname>
+	<name>Fax Configuration Professional</name>
+	<version>15.0.8.17</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<repo>commercial</repo>
+	<type>setup</type>
+	<category>Settings</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. The
+		Fax Pro module adds functionality to the standard
+		FreePBX Fax modue. Outbound faxing can be done through a web interface on your FreePBX system. Simply type in a phone
+		number and upload a PDF. You can optionally set the
+		outgoing PDF to use a locally stored fax coversheet with your faxes; and type in a personal message on the coversheet</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Fax+Pro</more-info>
+	<changelog>
+		*15.0.8.17* FREEI-5391 FaxPro Generating Error 
+		*15.0.8.16* FREEI-4780 Sending fax from UCP not clearing canceled attachment-fax, adding attachment to next fax 
+		*15.0.8.15* FREEI-4113 Userman error after updates preventing GUI access 
+		*15.0.8.14* FREEI-3772 delete btn in fax widget fixed 
+		*15.0.8.13* FREEI-3667 Faxpro widget issue 
+		*15.0.8.12* Packaging of ver 15.0.8.12
+		*15.0.8.11* FREEI-1724 Fixed a bug with module updater
+		*15.0.8.10* FREEI-1574 Updates for licensing
+		*15.0.8.9* FREEI-1328 gui fix- "Use global setting" set blank 
+		*15.0.8.8* FREEI-1230 Fax PRO wrong size on cover page logo 
+		*15.0.8.7* bump 
+		*15.0.8.6* FREEI-675 False Fax status and sending failed status mail 
+		*15.0.8.5* FREEI-710 FaxPro reports "Unknown error (Originate failed)" on Busy 
+		*15.0.8.4* FREEI-556
+		*15.0.8.3* FREEI-570 UCP Send Fax - not allowing * and # 
+		*15.0.8.2* FREEPBX-19986 Validate array for install migration 
+		*15.0.8.1* Allow more than X in dialplan
+		*15.0.8* FREEPBX-18749 
+		*15.0.7* FREEPBX-19570 User management fax store locally option broken issue fix 
+		*15.0.6* FREEI-442 
+		*15.0.5* FREEPBX-18010 Added TCPDF library for generate the PDF file. 
+		*15.0.4* Fixing legacy restore 
+		*15.0.3* FREEPBX-18696 UCP/FaxPro reports 'Unknown error (Originate failed)' on Busy 
+		*15.0.2* FREEPBX-17292 UCP web error when sending fax from Contacts tab 
+		*15.0.1* Backup 15.0
+	</changelog>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#fax-pro</link>
+	</commercial>
+	<depends>
+		<version>13.0.19</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>userman ge 13.0.63</module>
+		<module>sysadmin ge 2.11.0.47</module>
+		<module>fax ge 13.0.37</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<methods>
+		<get_config pri="250">faxpro250_get_config</get_config>
+		<get_config pri="600">faxpro600_get_config</get_config>
+	</methods>
+	<hooks>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Faxpro" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Faxpro" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Faxpro" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Faxpro" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="myShowPage" class="Faxpro" namespace="FreePBX\modules">usermanShowPage</method>
+			<method callingMethod="delUser" class="Faxpro" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Faxpro" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Faxpro" namespace="FreePBX\modules">usermanUpdateUser</method>
+		</userman>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="export" class="Faxpro" namespace="FreePBX\modules">bulkhandlerExport</method>
+			<method callingMethod="import" class="Faxpro" namespace="FreePBX\modules">bulkhandlerImport</method>
+		</bulkhandler>
+	</hooks>
+	<database>
+		<table name="fax_store">
+			<field name="faxid" type="string" length="25" default="" primarykey="true"/>
+			<field name="user" type="string" length="25" notnull="false"/>
+			<field name="dir" type="string" length="10" notnull="false"/>
+			<field name="date" type="string" length="12" notnull="false"/>
+			<field name="header" type="string" length="80" notnull="false"/>
+			<field name="stationid" type="string" length="50" notnull="false"/>
+			<field name="callid" type="string" length="75" notnull="false"/>
+			<field name="dest" type="string" length="20" notnull="false"/>
+			<field name="status" type="string" length="255" notnull="false"/>
+			<field name="pages" type="string" length="10" notnull="false"/>
+			<field name="file" type="string" length="100" notnull="false"/>
+			<field name="new" type="string" length="10" notnull="false"/>
+			<field name="finished" type="string" length="2" default="1" notnull="false"/>
+			<field name="pid" type="integer" notnull="false"/>
+			<field name="channel" type="string" length="255" notnull="false"/>
+		</table>
+		<table name="faxpro_hook_core">
+			<field name="page" type="string" length="150" default="" primarykey="true"/>
+			<field name="id" type="string" length="150" default="" primarykey="true"/>
+			<field name="status" type="string" length="255" default=""/>
+		</table>
+	</database>
+</module>

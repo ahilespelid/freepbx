@@ -1,0 +1,43 @@
+<module>
+    <rawname>outroutemsg</rawname>
+    <repo>standard</repo>
+    <name>Route Congestion Messages</name>
+    <version>15.0.9</version>
+    <publisher>Sangoma Technologies Corporation</publisher>
+    <license>GPLv3+</license>
+    <licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+    <category>Settings</category>
+    <description>Configures message or congestion tones played when all trunks are busy in a route. Allows different messages for Emergency
+        Routes and Intra-Company Routes
+    </description>
+    <menuitems>
+        <outroutemsg>Route Congestion Messages</outroutemsg>
+    </menuitems>
+    <database>
+        <table name="outroutemsg">
+            <field name="keyword" type="string" length="40" default="" primarykey="true"/>
+            <field name="data" type="string" length="10"/>
+        </table>
+    </database>
+    <changelog>
+		*15.0.9* Related to FREEPBX-20414: removed $jobid from runRestore() 
+		*15.0.8* FREEPBX-20275 Unable to Custom Route Congestion Message. 
+		*15.0.7* fixing legacy restore 
+		*15.0.6* backup and restore 
+		*15.0.5* bump 
+		*15.0.4* bump 
+		*15.0.3* FREEPBX-15249 Dialplan missing macro: macro-outisbusy 
+		*15.0.2* Packaging of ver 15.0.2
+        *15.0.1* Add Backup 15.0
+	</changelog>
+    <depends>
+        <module>recordings</module>
+	<module>core ge 15.0.3.25</module>
+    </depends>
+	<methods>
+		<get_config pri="580">outroutemsg_get_config</get_config>
+	</methods>
+    <supported>
+        <version>15.0</version>
+    </supported>
+</module>

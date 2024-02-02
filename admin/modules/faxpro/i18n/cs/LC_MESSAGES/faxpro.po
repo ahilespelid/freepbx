@@ -1,0 +1,701 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for faxpro
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-14 08:11+0000\n"
+"PO-Revision-Date: 2019-07-23 11:10+0000\n"
+"Last-Translator: Petr Varvarovsky <petrv@atlantis.cz>\n"
+"Language-Team: Czech <http://*/projects/fpbxc/faxpro/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+msgid ""
+" Submit Changes needs to be pressed before this option can become available."
+msgstr " Než bude tato možnost dostupná, je třeba stisknout Odeslat změny."
+
+#, php-format
+msgid "1 of %s"
+msgstr "1 z %s1"
+
+msgid "A PHP extension stopped the file upload"
+msgstr "Nahrávání souboru zastavilo rozšíření PHP"
+
+msgid "A full quota will cause new faxes to be rejected by the system."
+msgstr "Plná kvóta způsobí, že systém odmítne nové faxy."
+
+msgid ""
+"A full quota will cause the system to delete stored faxes to make room for "
+"new ones."
+msgstr ""
+"Plná kvóta způsobí, že systém odstraní uložené faxy a vytvoří místo pro nové."
+
+msgid ""
+"A number to prefix to the outbound fax to route a fax to a certain outbound "
+"route"
+msgstr ""
+"Číslo, které má být prefixem k odchozímu faxu pro směrování faxu na určitou "
+"odchozí routu"
+
+msgid "Always"
+msgstr "Vždy"
+
+msgid "Archived"
+msgstr "Archivováno"
+
+msgid "Are you sure you wish to delete these faxes?"
+msgstr "Opravdu chcete tyto faxy odstranit?"
+
+msgid "Are you sure you wish to delete this fax?"
+msgstr "Opravdu chcete tento fax odstranit?"
+
+msgid "Are you sure you wish to stop this fax?"
+msgstr "Opravdu chcete tento fax zastavit?"
+
+msgid "Attachment Format"
+msgstr "Formát přílohy"
+
+msgid "Auto-Refresh"
+msgstr "Automatické obnovení"
+
+msgid "Bad permissions on fax backgrounder!"
+msgstr "Špatná oprávnění na pozadí faxu!"
+
+msgid "Browse"
+msgstr "Procházet"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. The\t\tFax Pro "
+"module adds functionality to the standard\t\tFreePBX Fax modue. Outbound "
+"faxing can be done through a web interface on your FreePBX system. Simply "
+"type in a phone\t\tnumber and upload a PDF. You can optionally set the\t"
+"\toutgoing PDF to use a locally stored fax coversheet with your faxes; and "
+"type in a personal message on the coversheet"
+msgstr ""
+
+msgid "Can Not Find Uploaded Files"
+msgstr "Nahrané soubory nelze najít"
+
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr "Nelze vytvořit adresář Temp: %s"
+
+msgid "Channel Control Option"
+msgstr "Možnost ovládání kanálu"
+
+msgid ""
+"Choose this option to have faxes stored by the server; accessible via UCP."
+msgstr ""
+"Tuto možnost vyberte, chcete-li mít faxy uložené serverem; přístupné přes "
+"UCP."
+
+msgid "Cleaning up temporary fax storage..."
+msgstr "Mazání dočasného úložiště faxů ..."
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Company Address 1"
+msgstr "Adresa společnosti 1"
+
+msgid "Company Address 2"
+msgstr "Adresa společnosti 2"
+
+msgid "Company Address 3"
+msgstr "Adresa společnosti 3"
+
+msgid "Company Address Line 1"
+msgstr "Adresa společnosti 1"
+
+msgid "Company Address Line 1."
+msgstr "Adresa společnosti 1."
+
+msgid "Company Address Line 2"
+msgstr "Adresa společnosti 2"
+
+msgid "Company Address Line 2."
+msgstr "Adresa společnosti 2."
+
+msgid "Company Address Line 3"
+msgstr "Adresa společnosti 3"
+
+msgid "Company Address Line 3."
+msgstr "Adresa společnosti 3."
+
+msgid "Company Footer"
+msgstr "Zápatí společnosti"
+
+msgid "Company Logo"
+msgstr "Firemní logo"
+
+msgid "Company Logo. Filetype MUST be JPG"
+msgstr "Firemní logo. Typ MUSÍ být JPG"
+
+msgid "Company Logo. Filetype MUST be JPG."
+msgstr "Firemní logo. Typ MUSÍ být JPG."
+
+msgid "Company Name"
+msgstr "Jméno společnosti"
+
+msgid "Company Name, Example: Sangoma Inc"
+msgstr "Jméno společnosti, Příklad: Sangoma"
+
+msgid "Company Name, Example: Sangoma Inc."
+msgstr "Jméno společnosti, Příklad: Sangoma."
+
+msgid "Company Phone"
+msgstr "Telefon práce"
+
+msgid "Company Phone Number"
+msgstr "Tel. číslo práce"
+
+msgid "Company Phone Number."
+msgstr "Tel. číslo práce."
+
+msgid "Company Web Site"
+msgstr "WWW stránka společnosti"
+
+msgid "Company Website"
+msgstr "Webová stránka společnosti"
+
+msgid "Company Website."
+msgstr "Webová stránka společnosti."
+
+msgid "Concurrent Fax"
+msgstr "Souběžný fax"
+
+msgid "Concurrent Faxes"
+msgstr "Souběžných faxů"
+
+msgid "Controls"
+msgstr "Řízení"
+
+msgid "Could not connect to asterisk."
+msgstr "Nelze se připojit k asterisku."
+
+msgid "Could not find file to send"
+msgstr "Nelze najít soubor k odeslání"
+
+msgid "Coversheet"
+msgstr "Úvodní stránka"
+
+msgid "Coversheet Email"
+msgstr "Úvodní stránka emailu"
+
+msgid "Coversheet Name"
+msgstr "Jméno úvodní stránky"
+
+msgid "Coversheet Preview"
+msgstr "Náhled úvodní stránky"
+
+msgid "Coversheet Tel"
+msgstr "Tel. úvodní stránky"
+
+msgid "Coversheet Telephone"
+msgstr "Telefon úvodní stránky"
+
+msgid "Coversheet name"
+msgstr "Jméno úvodní stránky"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Delete Oldest"
+msgstr "Smazat nejstarší"
+
+msgid "Delete logo"
+msgstr "Smazat logo"
+
+msgid "Destination Can Not Be Blank"
+msgstr "Cíl nemůže být prázdný"
+
+msgid "Destination Numbers are more then Concurrent Channels"
+msgstr "Cílových čísel je více než souběžných kanálů"
+
+msgid "Destinations"
+msgstr "Cíle"
+
+msgid "Destinations should be separated by semicolon(;)"
+msgstr "Cíle by měly být odděleny středníkem (;)"
+
+#, php-format
+msgid "Detected overage on user %s, removing older faxes from storage..."
+msgstr ""
+"Zjištěno přetížení uživatele %s1, odebrání starších faxů z úložiště ..."
+
+msgid "Device Options"
+msgstr "Možnosti zařízení"
+
+msgid "Disable"
+msgstr "Zakázat"
+
+msgid "Done"
+msgstr "Hotovo"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Drag new documents here"
+msgstr "Přetáhněte zde nové dokumenty"
+
+msgid "Email Results"
+msgstr "Výsledky e-mailu"
+
+msgid "Enable"
+msgstr "Povolit"
+
+msgid ""
+"Enter the total number of concurrent fax. This should be less than the total "
+"number of channels available on the system to still allow calls to be made "
+"and received."
+msgstr ""
+"Zadejte celkový počet souběžných faxů. To by mělo být menší než celkový "
+"počet kanálů dostupných v systému, aby bylo možné stále volat a přijímat "
+"hovory."
+
+msgid "Excess Faxes"
+msgstr "Přebytečné faxy"
+
+msgid "Failed"
+msgstr "Selhalo"
+
+msgid "Failed to write file to disk"
+msgstr "Nepodařilo se zapsat soubor na disk"
+
+msgid "Failure"
+msgstr "Chyba"
+
+msgid "Failure Notification Options"
+msgstr "Možnosti oznámení o selhání"
+
+msgid "Failure Recovery Options"
+msgstr "Možnosti obnovy po selhání"
+
+msgid "Failure: Destination Number Busy"
+msgstr "Chyba: Cílové číslo obsazeno"
+
+msgid "Failure: Dial Failed Due To CHANUNAVAIL"
+msgstr "Chyba: Vytáčení selhalo kvůli CHANUNAVAIL"
+
+msgid "Failure: Dial Failed Due To CONGESTION"
+msgstr "Chyba: Vytáčení selhalo z důvodu CONGESTION"
+
+msgid "Failure: No fax machine detected"
+msgstr "Chyba: Nebyl detekován žádný fax"
+
+msgid "Failure: Transmission Error"
+msgstr "Chyba: Chyba přenosu"
+
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Fax Configuration Professional"
+msgstr "Fax Konfigurace Professional"
+
+msgid "Fax Cover Page Options"
+msgstr "Fax možnosti úvodní stránky"
+
+msgid "Fax Licenses"
+msgstr "Fax Licence"
+
+msgid "Fax Preview"
+msgstr "Fax Náhled"
+
+msgid "Fax Settings"
+msgstr "Fax Nastavení"
+
+msgid ""
+"Fax licenses missing! This feature may not have been purchased for your "
+"system. Please contact your sales associate for more information on this "
+"feature."
+msgstr ""
+"Chybí faxové licence! Tato funkce možná nebyla zakoupena pro váš systém. "
+"Další informace o této funkci vám poskytne váš obchodní zástupce."
+
+msgid "Fax modules missing! Please contact customer care for more information."
+msgstr ""
+"Chybí faxové moduly! Pro více informací prosím kontaktujte zákaznickou "
+"podporu."
+
+msgid "File Not Found"
+msgstr "Soubor nenalezen"
+
+msgid "File or pages not found"
+msgstr "Soubor nebo stránky nebyly nalezeny"
+
+#, perl-format
+msgid "File was too large. Please reduce the file size or increase %s"
+msgstr "Soubor byl příliš velký. Zmenšete velikost souboru nebo zvyšte %s1"
+
+msgid "Files"
+msgstr "Soubory"
+
+msgid "Fine"
+msgstr "Dobře"
+
+msgid "Formats to convert incoming fax files to before emailing."
+msgstr "Formáty pro převod příchozích faxových souborů na e-mailem."
+
+msgid "Forward Fax"
+msgstr "Přeposlat Fax"
+
+msgid "From"
+msgstr "Od"
+
+msgid "Generating..."
+msgstr "Vytváření..."
+
+msgid "Global Prefix"
+msgstr "Globální prefix"
+
+msgid "Here"
+msgstr "Zde"
+
+msgid ""
+"How the system should respond when a new fax arrives for a user whose quota "
+"is full.<ul><li>Reject: Reject the new fax and disconnect the call</"
+"li><li>Delete Oldest: Delete as many faxes as necessary to accommodate the "
+"incoming fax, starting from the oldest.</li></ul>With either option, a fax "
+"larger than the quota will be deleted after it was received."
+msgstr ""
+"Jak by měl systém reagovat, když přijde nový fax pro uživatele, jehož kvóta "
+"je plná.<ul>1<li>2Odmítnout: Odmítne nový fax a odpojí hovor</"
+"li>3<li>4Smazat nejstarší: Vymažte tolik faxů, kolik je potřeba k přijetí "
+"příchozího faxu, počínaje nejstarší.</li>5</ul>6U obou možností bude fax po "
+"jeho přijetí odstraněn."
+
+msgid "Inbox"
+msgstr "Doručené"
+
+msgid "Inherit"
+msgstr "Zdědit"
+
+msgid "Invalid Destination for Outbound Fax"
+msgstr "Neplatný cíl pro odchozí fax"
+
+msgid "Invalid Faxpro License"
+msgstr "Neplatná Faxpro licence"
+
+msgid "Invalid License"
+msgstr "Neplatná licence"
+
+msgid "License number"
+msgstr "Číslo licence"
+
+msgid "Local Storage Options"
+msgstr "Možnosti místního úložiště"
+
+msgid "Max Concurrent Channels: "
+msgstr "Max. souběžných kanálů: "
+
+msgid "Max Pages"
+msgstr "Max stránek"
+
+msgid "Message"
+msgstr "Zpráva"
+
+msgid "Missing a temporary folder"
+msgstr "Chybí dočasná složka"
+
+msgid "Missing destination number."
+msgstr "Chybí číslo cíle."
+
+msgid "My Email"
+msgstr "Můj email"
+
+msgid "My Name"
+msgstr "Moje jméno"
+
+msgid "My Telephone"
+msgstr "Můj telefon"
+
+msgid "Never"
+msgstr "Nikdy"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "No destination defined"
+msgstr "Není definován žádný cíl"
+
+msgid "No fax modules Found!"
+msgstr "Nebyly nalezeny žádné faxové moduly!"
+
+msgid "No file was uploaded"
+msgstr "Nebyl nahrán žádný soubor"
+
+msgid "No files or coversheet to send"
+msgstr "Žádné soubory ani úvodní stránka k odeslání"
+
+msgid "Not Authorized"
+msgstr "Neautorizováno"
+
+msgid "Number of times to retry sending a failed fax."
+msgstr "Počet pokusů o odeslání neúspěšného faxu."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "Vypnuto"
+
+msgid "On"
+msgstr "Zapnuto"
+
+msgid "On Failure"
+msgstr "Při selhání"
+
+msgid "On Success"
+msgstr "Na úspěch"
+
+msgid "Outgoing"
+msgstr "Odchozí"
+
+msgid "Outgoing Channels Are Busy. "
+msgstr "Odchozí kanály jsou zaneprázdněny. "
+
+msgid "Outgoing Header"
+msgstr "Odchozí záhlaví"
+
+msgid "Outgoing Station ID"
+msgstr "ID odchozí stanice"
+
+msgid "Pages"
+msgstr "Stránky"
+
+msgid "Please Enter a valid Destination"
+msgstr "Zadejte platný cíl"
+
+msgid "Please contact customer care for more information."
+msgstr "Pro více informací prosím kontaktujte zákaznickou podporu."
+
+msgid "Please ensure you have adequate space remaining."
+msgstr "Ujistěte se, že máte dostatek místa."
+
+msgid "Please enter a phone number or extension"
+msgstr "Zadejte telefonní číslo nebo linku"
+
+msgid "Please upload at least one file or enable a coversheet"
+msgstr "Nahrajte alespoň jeden soubor nebo povolte úvodní stránku"
+
+msgid "Preview"
+msgstr "Náhled"
+
+msgid "Preview Coverpage"
+msgstr "Náhled úvodní stránky"
+
+msgid "Quota exceded"
+msgstr "Kvóta překročena"
+
+msgid "Recipient Name"
+msgstr "Jméno příjemce"
+
+msgid "Reject"
+msgstr "Odmítnout"
+
+msgid "Resolution"
+msgstr "Rozlišení"
+
+msgid "Retries"
+msgstr "Opakování"
+
+msgid "Send"
+msgstr "Poslat"
+
+msgid "Send Fax"
+msgstr "Poslat Fax"
+
+msgid "Send New Fax"
+msgstr "Poslat nový Fax"
+
+msgid "Send a New Fax"
+msgstr "Poslat nový Fax"
+
+msgid "Sent"
+msgstr "Posláno"
+
+msgid "Set if this device should act as a t38 gateway"
+msgstr "Nastavte, zda má toto zařízení fungovat jako t38 gateway"
+
+msgid "Set this to yes if you are using a t38 gateway device."
+msgstr "Pokud používáte t38 gateway, nastavte toto na Ano."
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Standard"
+msgstr "Standardní"
+
+msgid "Status"
+msgstr "Stav"
+
+msgid "Store Locally"
+msgstr "Uložit lokálně"
+
+msgid "Success"
+msgstr "Úspěšně"
+
+msgid "Super Fine"
+msgstr "Super jemné"
+
+msgid "T38 Gateway"
+msgstr "T38 Gateway"
+
+msgid "T38-Gateway Enabled"
+msgstr "T38-Gateway povoleno"
+
+msgid "TThe Phone number that will appear on the cover sheet."
+msgstr "Telefonní číslo, které se objeví na úvodní stránce."
+
+msgid "The Phone number that will appear on the cover sheet."
+msgstr "Telefonní číslo, které se objeví na úvodní stránce."
+
+msgid "The email address that will appear on the coversheet."
+msgstr "E-mailová adresa, která se objeví na úvodní stránce."
+
+msgid "The maximum amount of pages a user is allowed to store locally."
+msgstr "Maximální počet stránek, které může uživatel uložit lokálně."
+
+msgid "The maximum amount of times a fax will be retried on failure."
+msgstr "Maximální počet opakování faxu při selhání."
+
+msgid "The name that should appear on the outbound coversheet."
+msgstr "Jméno, které by se mělo objevit na odchozí úvodní stránce."
+
+msgid ""
+"The outgoing Fax Machine Headers. This usually contains the name of the "
+"person or entity sending the fax."
+msgstr ""
+"Odchozí faxové hlavičky. Obvykle obsahuje jméno osoby nebo subjektu "
+"odesílajícího fax."
+
+msgid "The outgoing Fax Machine Identifier. This is usually your fax number."
+msgstr ""
+"Identifikátor odchozího faxového stroje. Toto je obvykle vaše faxové číslo."
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Nahraný soubor překračuje MAX_FILE_SIZE položku, která byla zadána ve "
+"formuláři HTML"
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Nahraný soubor překračuje upload_max_filesize položku v php.ini"
+
+msgid "The uploaded file was only partially uploaded"
+msgstr "Nahraný soubor byl nahrán pouze částečně"
+
+msgid "This text will appear at the bottom of every outbound fax."
+msgstr "Tento text se zobrazí na konci každého odchozího faxu."
+
+msgid "To"
+msgstr "Komu"
+
+msgid "Total"
+msgstr "Celkem"
+
+#, php-format
+msgid "Unable to create temporary directory %s"
+msgstr "Nelze vytvořit dočasný adresář %s1"
+
+msgid "Unable to delete file"
+msgstr "Soubor nelze smazat"
+
+msgid "Unable to find fax backgrounder!"
+msgstr "Nelze najít fax na pozadí!"
+
+msgid "Unable to find files to send!"
+msgstr "Nelze najít soubory k odeslání!"
+
+msgid "Unknown Error"
+msgstr "Neznámá chyba"
+
+msgid "Unsupported file format"
+msgstr "Nepodporovaný formát souboru"
+
+msgid "Upload Document"
+msgstr "Nahrát dokument"
+
+msgid "Uploading..."
+msgstr "Nahrávání..."
+
+msgid "Use global setting"
+msgstr "Použít globální nastavení"
+
+msgid "User Canceled"
+msgstr "Uživatel byl zrušen"
+
+msgid "User Control Panel Faxing Options"
+msgstr "Možnosti faxování na ovládacím panelu uživatele"
+
+#, php-format
+msgid ""
+"User Manager users '%s' have the ability to send faxes but have no linked "
+"extension defined so they will not be able to send faxes."
+msgstr ""
+"Uživatelé '%s1' v správci uživatelů mají schopnost odesílat faxy, ale nemají "
+"definovanou propojenou linku, takže nebudou moci odesílat faxy."
+
+msgid "When to email the results of an outgoing fax."
+msgstr "Kdy zaslat e-mailem výsledky odchozího faxu."
+
+msgid "Will Save Settings"
+msgstr "Uloží nastavení"
+
+msgid "Yes"
+msgstr "Ano"
+
+#, perl-format
+msgid "You Have %s New Fax"
+msgstr "Máte %s1 nových faxů"
+
+#, php-format
+msgid ""
+"You are using <span id=\"usage\">%s%%</span> of your fax storage quota. "
+msgstr ""
+"Používáte <span id=\"usage\">1%s2%%3</span>4 vaší kvóty úložiště faxů. "
+
+#, perl-format, php-format
+msgid ""
+"Your Web browser is not configured to display PDF files. Click here %s to "
+"download the PDF file"
+msgstr ""
+"Váš webový prohlížeč není nakonfigurován pro zobrazování souborů PDF. "
+"Klepnutím sem zde %s1 stáhnete soubor PDF"
+
+msgid "both"
+msgstr "oba"
+
+msgid "upload an image"
+msgstr "nahrajte obrázek"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php. The Fax Pro module adds functionality to the "
+#~ "standard\tFreePBX Fax modue. Outbound faxing can be done through a web "
+#~ "interface on your FreePBX system. Simply type in a phone number and "
+#~ "upload a PDF. You can optionally set the\toutgoing PDF to use a locally "
+#~ "stored fax coversheet with your faxes; and type in a personal message on "
+#~ "the coversheet"
+#~ msgstr ""
+#~ "COMMERCIAL MODULE VYŽADUJE LICENCI, PRO JEHO FUNKČNOST. Navštivte prosím "
+#~ "www.schmoozecom.com/oss.php. Modul Fax Pro přidává funkce do standardního "
+#~ "modulu FreePBX Fax. Odchozí faxování lze provádět prostřednictvím "
+#~ "webového rozhraní vašeho systému FreePBX. Jednoduše zadejte telefonní "
+#~ "číslo a nahrajte PDF. Volitelně můžete nastavit odchozí PDF tak, aby s "
+#~ "faxy používal lokálně uloženou úvodní stránku faxu; a zadejte osobní "
+#~ "zprávu na úvodní stránku"

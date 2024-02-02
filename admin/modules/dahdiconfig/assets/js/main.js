@@ -1,0 +1,569 @@
+/* MFC/R2 show/hide */
+function mfcr2_set_defaults(span) {
+    $('#editspan_' + span + '_mfcr2_variant').val('ITU');
+    $('#editspan_' + span + '_mfcr2_max_ani').val(10);
+    $('#editspan_' + span + '_mfcr2_max_dnis').val(4);
+    $('#editspan_' + span + '_mfcr2_get_ani_first').val('no');
+    $('#editspan_' + span + '_mfcr2_category').val('national_subscriber');
+    $('#editspan_' + span + '_mfcr2_logdir').val('');
+    $('#editspan_' + span + '_mfcr2_call_files').val('no');
+    $('#editspan_' + span + '_mfcr2_logging').val('');
+    $('#editspan_' + span + '_mfcr2_mfback_timeout').val('');
+    $('#editspan_' + span + '_mfcr2_metering_pulse_timeout').val('');
+    $('#editspan_' + span + '_mfcr2_allow_collect_calls').val('no');
+    $('#editspan_' + span + '_mfcr2_double_answer').val('no');
+    $('#editspan_' + span + '_mfcr2_immediate_accept').val('no');
+    $('#editspan_' + span + '_mfcr2_accept_on_offer').val('yes');
+    $('#editspan_' + span + '_mfcr2_skip_category').val('no');
+    $('#editspan_' + span + '_mfcr2_forced_release').val('no');
+    $('#editspan_' + span + '_mfcr2_charge_calls').val('yes');
+    $('#editspan_' + span + '_mfcr2_advanced_protocol_file').val('');
+		$('#editspan_' + span + '_mfcr2_mfback_timeout').val('-1');
+		$('#editspan_' + span + '_mfcr2_metering_pulse_timeout').val('-1');
+}
+/* MFC/R2 show/hide */
+function mfcr2_toggle(span) {
+    if ($('#digital-settings-'+span+' input[name=mfcr2_active]').val() === "0") {
+        $('.mfcr2-settings').hide();
+        $('.isdn-settings').show();
+    }
+    else {
+        $('.mfcr2-settings').show();
+        $('.isdn-settings').hide();
+    }
+}
+
+/* Popup Box Function */
+function dahdi_modal_settings(type,id) {
+    if(typeof id !== 'undefined') {
+        $( "#"+type+"-settings-"+id ).dialog( "open" );
+        if (type == "digital") {
+            $('.mfcr2-settings').hide();
+            $('.isdn-settings').show();
+
+        }
+    } else {
+        if(type == "modprobe") {
+            createModProbeSettings();
+        }
+        $( "#"+type+"-settings" ).dialog( "open" );
+    }
+}
+/* End Popup Box Function */
+function storeModProbeSettings(mod_name) {
+    //Local Storage is an object {}
+    var settings = {'mp_setting_add':[]};
+	var module = (mod_name != null) ? mod_name : $('#module_name').val();
+    var z = 0;
+    //Find ALL elements in modprobe id.
+    $("#modprobe").find('*').each(function() {
+        //Store jquery data in child
+        var child = $(this);
+        //Following check to make sure they or form elements
+        if (child.is(":checkbox"))
+            settings[child.attr("name")] = child.prop("checked");
+        if (child.is(":text"))
+            settings[child.attr("name")] = child.val();
+        if (child.is("select"))
+            settings[child.attr("name")] = child.val();
+        if (child.is(":input:hidden") && child.attr("name") == 'mp_setting_add[]') {
+            settings['mp_setting_add'][z] = child.val();
+            z++
+        }
+    })
+
+    if(!modprobesettings.hasOwnProperty(module)) {
+        modprobesettings[module] = {}
+    }
+    modprobesettings[module]['formsettings'] = settings;
+}
+
+function createModProbeSettings() {
+	el = $('#module_name');
+    //If there is no session data then pull from database
+    if(typeof modprobesettings === undefined || !modprobesettings.hasOwnProperty($(el).val()) || !modprobesettings[$(el).val()].hasOwnProperty('formsettings')) {
+        $.ajaxSetup({ cache: false });
+        $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{dcmodule: $(el).val(), type: 'modprobe'}, function(j){
+            if(j.status) {
+                $('.mp_js_additionals').remove();
+                $('#mp_setting_key_0').val('')
+                $('#mp_setting_value_0').val('')
+                $('#mp_setting_origsetting_key_0').val('')
+
+				if(j.module == "wctdm") {
+					$('#tr_ringdetect').show();
+				} else {
+					$('#tr_ringdetect').hide();
+				}
+
+                if(j.module == "wctc4xxp") {
+                    $('#normal_mp_settings').hide();
+                    $('#wct4xxp_wcte12xp_settings').hide();
+                    $('#wctc4xxp_settings').show();
+                    $("#mode_checkbox").attr('checked',j.mode_checkbox);
+                    $('#mode').val(j.mode);
+                } else {
+                    if((j.module == "wct4xxp") || (j.module == "wcte12xp")||(j.module == "wcte12xp")) {
+                        $('#wct4xxp_wcte12xp_settings').show();
+                        $('#defaultlinemode_checkbox').attr('checked',j.defaultlinemode_checkbox);
+                        $('#defaultlinemode').val(j.defaultlinemode);
+						$('#normal_mp_settings').hide();
+                    } else {
+                        $('#wct4xxp_wcte12xp_settings').hide();
+                        $('#defaultlinemode_checkbox').attr('checked',false);
+                        $('#defaultlinemode').val('t1');
+						 $('#normal_mp_settings').show();
+                    }
+                    $('#wctc4xxp_settings').hide();
+                    $("#opermode_checkbox").attr('checked',j.opermode_checkbox);
+                    $('#opermode').val(j.opermode);
+                    $("#alawoverride_checkbox").attr('checked',j.alawoverride_checkbox);
+                    $('#alawoverride').val(j.alawoverride);
+                    $('#fxs_honor_mode_checkbox').attr('checked',j.fxs_honor_mode_checkbox);
+                    $('#fxs_honor_mode').val(j.fxs_honor_mode);
+                    $('#boostringer_checkbox').attr('checked',j.boostringer_checkbox);
+                    $('#boostringer').val(j.boostringer);
+                    $('#fastringer_checkbox').attr('checked',j.fastringer_checkbox);
+                    $('#fastringer').val(j.fastringer);
+                    $('#lowpower_checkbox').attr('checked',j.lowpower_checkbox);
+                    $('#lowpower').val(j.lowpower);
+                    $('#ringdetect_checkbox').attr('checked',j.ringdetect_checkbox);
+                    $('#ringdetect').val(j.ringdetect);
+                    $('#mwi_checkbox').attr('checked',j.mwi_checkbox);
+                    $('#mwi').val(j.mwi);
+                    if (j.mwi == 'neon') {
+                        $('.neon').show();
+                    } else {
+                        $('.neon').hide();
+                    }
+                    $('#neon_voltage').val(j.neon_voltage);
+                    $('#neon_offlimit').val(j.neon_offlimit);
+                }
+
+                //Re-create additionals for this probe
+                var z = 1;
+                if(typeof j.additionals !== 'undefined') {
+                    $.each(j.additionals, function(index, value) {
+                        if(z == 1) {
+                            $('#mp_setting_key_0').val(index)
+                            $('#mp_setting_value_0').val(value)
+                        } else {
+                            $("#mp_add").before('<tr class="mp_js_additionals" id="mp_additional_'+z+'"><td style="width:10px;vertical-align:top;"></td><td style="vertical-align:bottom;"><a href="#" onclick="mp_delete_field('+z+',\''+j.module+'\')"><img height="10px" src="images/trash.png"></a> <input type="hidden" name="mp_setting_add[]" value="'+z+'" /><input type="hidden" id="mp_setting_origsetting_key_'+z+'" name="mp_setting_origsetting_key_'+z+'" value="'+index+'" /> <input id="mp_setting_key_'+z+'" name="mp_setting_key_'+z+'" value="'+index+'" /> = <input id="mp_setting_value_'+z+'" name="mp_setting_value_'+z+'" value="'+value+'" /> <br /></td></tr>');
+                        }
+                        z++
+                    })
+                }
+                $("#mp_add_button").attr("onclick","mp_add_field("+z+",'"+j.module+"')");
+				storeModProbeSettings(el.val());
+				//$( "#modprobe" ).dialog( "option", "height", $("#modprobe").height() + 100 );
+            }
+        })
+    } else {
+		if($(el).val() == "wctdm") {
+			$('#tr_ringdetect').show();
+		} else {
+			$('#tr_ringdetect').hide();
+		}
+
+        if(($(el).val() == "wct4xxp") || ($(el).val() == "wcte12xp")) {
+            $('#wct4xxp_wcte12xp_settings').show();
+			$('#normal_mp_settings').hide();
+        } else {
+            $('#wct4xxp_wcte12xp_settings').hide();
+			$('#normal_mp_settings').show();
+        }
+
+        //Hide neon settings
+        $('.neon').hide();
+        //Remove all extra additionals
+        $('.mp_js_additionals').remove();
+        var module = $(el).val();
+        //Re-create additionals for this probe
+        var z = 1;
+        $.each(modprobesettings[$(el).val()]['formsettings']['mp_setting_add'], function(index, value) {
+            var i = value;
+            if(i != '0') {
+                $("#mp_add").before('<tr class="mp_js_additionals" id="mp_additional_'+i+'"><td style="width:10px;vertical-align:top;"></td><td style="vertical-align:bottom;"><a href="#" onclick="mp_delete_field('+i+',\''+module+'\')"><img height="10px" src="images/trash.png"></a> <input type="hidden" name="mp_setting_add[]" value="'+i+'" /> <input id="mp_setting_key_'+i+'" name="mp_setting_key_'+i+'" value="" /> = <input id="mp_setting_value_'+i+'" name="mp_setting_value_'+i+'" value="" /> <br /></td></tr>');
+            }
+            z++
+        })
+        $("#mp_add_button").attr("onclick","mp_add_field("+z+",'"+module+"')");
+        $.each(modprobesettings[$(el).val()]['formsettings'], function(index, value) {
+            //Check to make sure ID exits before we reset it, but only do it inside the modprobe div element (though IDs should be unique!)
+          if (document.getElementById(index)) {
+              element = $('#modprobe #'+index);
+              if (element.is(":checkbox")) {
+                  if(value) {
+                    element.attr('checked','checked');
+                } else {
+                    element.removeAttr('checked');
+                }
+              }
+              if (element.is(":text")) {
+                  element.val(value);
+              }
+
+              if (element.is("select"))
+                  element.val(value);
+                //Show extra neon stuff
+                if ((index == 'mwi') && (value == 'neon')) {
+                    $('.neon').show();
+                }
+          }
+        });
+		//console.log('end'+$("#modprobe").height());
+		//$( "#modprobe-settings" ).dialog( "option", "height", $("#modprobe").height() + 100 );
+    }
+}
+
+function reset_digital_groups(span,usedchans) {
+		spandata[span].groups = [
+			{
+				context: "from-digital",
+				endchan: Number(spandata[span].spandata.max_ch),
+				group: 0,
+				startchan: Number(spandata[span].spandata.min_ch),
+				usedchans: usedchans
+			}
+		];
+    update_digital_groups(span,0,usedchans);
+}
+
+/* Span Group Automation */
+function update_digital_groups(span,groupid,usedchans) {
+    usedchans = Number(usedchans);
+    span = Number(span);
+		var groupData = {
+			span: span,
+			groupid: groupid,
+			usedchans: usedchans
+		};
+
+		$.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'digitalgroupsupdate', span: span, groups: JSON.stringify(spandata[span].groups), group: JSON.stringify(groupData)}, function(data){
+
+		}).done(function(data){
+			spandata[span].groups = data.groups;
+			$("#dahdi_editspan_"+span+" .digital-groups").html(data.html);
+		}).fail(function () {
+			console.warn("Error");
+		});
+
+
+		/*
+		spandata[span]['groups'][group]['usedchans'] = Number(usedchans);
+		$.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'calcbchanfxx', span: span, usedchans: usedchans, startchan: spandata[span]['groups'][group]['startchan']}, function(j){
+        console.log(j);
+        j.endchan = Number(j.endchan)
+        $('#editspan_'+span+'_from_'+ group).html(j.fxx);
+        spandata[span]['groups'][group]['endchan'] = j.endchan;
+        spandata[span]['groups'][group]['fxx'] = j.fxx
+        spandata[span]['groups'][group]['span'] = j.span
+
+        if(j.endchan < (spandata[span]['spandata']['max_ch']-1)) {
+            if (!document.getElementById('editspan_'+span+'_group_settings_' + (group+1))) {
+                var startchan = j.endchan+1
+                var add = ((spandata[span]['groups'][group]['usedchans'] + Number(spandata[span]['spandata']['min_ch'])) > spandata[span]['spandata']['reserved_ch']) ? 1 : 0;
+                var usedchans = (spandata[span]['spandata']['max_ch'] + add) - startchan
+                var group_num = $('#editspan_'+span+'_group_'+group).val();
+                group_num = $.isNumeric(group_num) ? group_num : group;
+                $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'digitaladd', span: span, groupc: group+1, usedchans: usedchans, startchan: startchan, group_num: (Number(group_num)+1)}, function(z){
+										$('#editspan_'+span+'_group_settings_' + (group)).after(z.html);
+                    group++;
+                    spandata[span]['groups'][group] = {};
+                    spandata[span]['groups'][group]['endchan'] = z.endchan;
+                    spandata[span]['groups'][group]['usedchans'] = Number(usedchans);
+                    spandata[span]['groups'][group]['fxx'] = z.fxx
+                    spandata[span]['groups'][group]['startchan'] = Number(z.startchan)
+                    $('#editspan_'+span+'_definedchans_' + group).on('change', function() {
+                        var usedchans = $(this).val();
+                	    update_digital_groups(span,group,usedchans);
+                    });
+                })
+            } else {
+                var count = spandata[span]['groups'].length;
+                var i = 1;
+                var prevkey = 0;
+                $.each(spandata[span]['groups'], function(key, value) {
+                    if(group < key) {
+                        var startchan = spandata[span]['groups'][(prevkey)]['endchan'] + 1
+												startchan = Number(startchan);
+                        var usedchans = $('#editspan_'+span+'_definedchans_'+key).val()
+												usedchans = Number(usedchans);
+												var endchan = startchan + usedchans - 1;
+
+                        var selected = 0;
+                        if(i == count) {
+                            usedchans = spandata[span]['spandata']['max_ch'] - spandata[span]['groups'][prevkey]['endchan']
+                            selected = usedchans
+                        } else {
+                            selected = $('#editspan_'+span+'_definedchans_' + key).val()
+                        }
+
+                        $.ajax({
+                          url: "config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",
+                          dataType: 'json',
+                          data: {type: 'digitaladd', span: span, usedchans: usedchans, startchan: startchan},
+                          async: false
+                        }).done(function(x){
+                            $('#editspan_'+span+'_from_'+ key).html(x.fxx)
+                            $('#editspan_'+span+'_definedchans_' + key).html(x.select)
+                            $('#editspan_'+span+'_definedchans_' + key).val(selected)
+                            spandata[span]['groups'][key]['endchan'] = x.endchan
+                            spandata[span]['groups'][key]['fxx'] = x.fxx
+                            spandata[span]['groups'][key]['startchan'] = x.startchan
+                        });
+
+                    }
+                    i++;
+                    prevkey = key;
+                });
+            }
+        } else {
+            //Delete all groups forward
+            if((spandata[span]['groups'][group]['startchan'] + spandata[span]['groups'][group]['usedchans']) > spandata[span]['spandata']['max_ch']) {
+                var selected = spandata[span]['spandata']['max_ch'] - spandata[span]['groups'][group]['startchan']
+                $('#editspan_'+span+'_definedchans_' + group).val(selected)
+            }
+            $.each(spandata[span]['groups'], function(key, value) {
+                if(document.getElementById('editspan_'+span+'_group_settings_' + key) && (key > group)) {
+                    $('#editspan_'+span+'_group_settings_' + key).remove();
+                    delete spandata[span]['groups'][key]
+                }
+            })
+        }
+    })
+		*/
+}
+/* End Span Group Automation */
+
+/* Custom settings for Analog Ports */
+/* Delete Custom Analog Setting */
+function dh_analog_delete_field(port, id) {
+    var tr = $('#dh_analog_' + port + '_custom_' + id);
+
+    var origsetting_key_elt = $("#dh_analog_" + port + "_origsetting_key_" + id);
+    var setting_key_elt =     $("#dh_analog_" + port + "_setting_key_" + id);
+    var setting_val_elt =     $("#dh_analog_" + port + "_setting_val_" + id);
+
+    function isEmpty(str) {
+        // Form field with white spaces must also be considered empty
+        return (origsetting_key_elt.val().replace(/\s+/, '').length == 0) ? true : false;
+    }
+
+    if (isEmpty(origsetting_key_elt.val())) {
+        setting_key_elt.val('');
+        setting_val_elt.val('');
+        if (id != 0) {
+            tr.remove();
+        }
+    } else {
+        $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",
+            {type: 'analogcustomsettingsremove', origkeyword: origsetting_key_elt.val(), analogport: port}, function(z) {
+                setting_key_elt.val('');
+                setting_val_elt.val('');
+                if (id != 0) {
+                    tr.remove();
+                }
+        });
+    }
+}
+/* End Delete Analog Custom Setting */
+/* Add Analog Custom Setting */
+var max_dh_analog = {};
+
+function dh_analog_add_field(port, start) {
+    if (max_dh_analog[port] === undefined) {
+        max_dh_analog[port] = 0;
+    }
+
+    var id = (start < max_dh_analog[port]) ? max_dh_analog[port] : start;
+
+    html = '<tr id="dh_analog_' + port + '_custom_' + id + '">                                                                                                       \
+                <td>                                                                                                                                                 \
+                </td>                                                                                                                                                \
+                <td>                                                                                                                                                 \
+                    <a href="#" onclick="dh_analog_delete_field(' + port + ', ' + id + ')"><img height="10px" src="images/trash.png"></a>                            \
+                    <input type="hidden" name="dh_analog_' + port + '_custom_ids[]" value="' + id + '" />                                                            \
+                    <input type="hidden" id="dh_analog_' + port + '_origsetting_key_' + id + '" name="dh_analog_' + port + '_origsetting_key_' + id + '" value="" /> \
+                    <input id="dh_analog_' + port + '_setting_key_' + id + '" name="dh_analog_' + port + '_setting_key_' + id + '" value="" /> =                     \
+                    <input id="dh_analog_' + port + '_setting_val_' + id + '" name="dh_analog_' + port + '_setting_val_' + id + '" value="" /> <br />                \
+                </td>                                                                                                                                                \
+            </tr>'
+
+    $("#dh_analog_add_to_" + port).before(html);
+    max_dh_analog[port] = id + 1;
+}
+/* End Add Analog Custom Setting */
+/* End Custom settings for Analog Ports */
+
+/* Custom settings for Global Settings */
+/* Delete Custom Setting */
+function dh_global_delete_field(id) {
+    var origkey = $("#dh_global_origsetting_key_"+id).val();
+    var key = $("#dh_global_setting_key_"+id).val();
+    var val = $("#dh_global_setting_val_"+id).val();
+    if(typeof origkey === 'undefined') {
+        if(id > 0) {
+            $('#dh_global_additional_'+ id).remove();
+        } else {
+            $('#dh_global_setting_key_0').val('');
+            $('#dh_global_setting_value_0').val('');
+        }
+    } else {
+        if(id > 0) {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'globalsettingsremove', keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#dh_global_additional_'+ id).remove();
+            });
+        } else {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'globalsettingsremove', keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#dh_global_setting_key_0').val('');
+                $('#dh_global_setting_value_0').val('');
+            });
+        }
+    }
+}
+/* End Delete Custom Setting */
+/* Add Custom Setting */
+var max_dh_global = 0;
+//var dh_global_additional_key = 0;
+function dh_global_add_field(start) {
+    var i = (start < max_dh_global) ? max_dh_global : start;
+    $("#dh_global_add").before('<tr id="dh_global_additional_'+i+'"><td style="width:10px;vertical-align:top;"></td><td style="vertical-align:bottom;"><a href="#" onclick="dh_global_delete_field('+i+')"><img height="10px" src="images/trash.png"></a> <input type="hidden" name="dh_global_add[]" value="'+i+'" /><input id="dh_global_setting_key_'+i+'" name="dh_global_setting_key_'+i+'" value="" /> = <input id="dh_global_setting_value_'+i+'" name="dh_global_setting_value_'+i+'" value="" /> <br /></td></tr>');
+    max_dh_global = i+1;
+}
+/* End Add Custom Setting */
+/* End Custom settings for Global Settings */
+
+/* Start Custom settings for System Settings */
+/* Delete Custom Setting */
+function dh_system_delete_field(id) {
+    var origkey = $("#dh_system_origsetting_key_"+id).val();
+    var key = $("#dh_system_setting_key_"+id).val();
+    var val = $("#dh_system_setting_val_"+id).val();
+    if(typeof origkey === 'undefined') {
+        if(id > 0) {
+            $('#dh_system_additional_'+ id).remove();
+        } else {
+            $('#dh_system_setting_key_0').val('');
+            $('#dh_system_setting_value_0').val('');
+        }
+    } else {
+        if(id > 0) {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'systemsettingsremove', keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#dh_system_additional_'+ id).remove();
+            });
+        } else {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'systemsettingsremove', keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#dh_system_setting_key_0').val('');
+                $('#dh_system_setting_value_0').val('');
+            });
+        }
+    }
+}
+/* End Delete Custom Setting */
+/* Add Custom Setting */
+var max_dh_system = 0;
+//var dh_global_additional_key = 0;
+function dh_system_add_field(start) {
+    var i = (start < max_dh_system) ? max_dh_system : start;
+    $("#dh_system_add").before('<tr id="dh_system_additional_'+i+'"><td style="width:10px;vertical-align:top;"></td><td style="vertical-align:bottom;"><a href="#" onclick="dh_system_delete_field('+i+')"><img height="10px" src="images/trash.png"></a> <input type="hidden" name="dh_system_add[]" value="'+i+'" /><input id="dh_system_setting_key_'+i+'" name="dh_system_setting_key_'+i+'" value="" /> = <input id="dh_system_setting_value_'+i+'" name="dh_system_setting_value_'+i+'" value="" /> <br /></td></tr>');
+    max_dh_system = i+1;
+}
+/* End Add Custom Setting */
+/* End Custom settings for System Settings */
+
+var max_mp = 0;
+function mp_add_field(start,module) {
+    var i = (start < max_mp) ? max_mp : start;
+    $("#mp_add").before('<tr class="mp_js_additionals" id="mp_additional_'+i+'"><td style="width:10px;vertical-align:top;"></td><td style="vertical-align:bottom;"><a href="#" onclick="mp_delete_field('+i+',\''+module+'\')"><img height="10px" src="images/trash.png"></a> <input type="hidden" name="mp_setting_add[]" value="'+i+'" /> <input id="mp_setting_key_'+i+'" name="mp_setting_key_'+i+'" value="" /> = <input id="mp_setting_value_'+i+'" name="mp_setting_value_'+i+'" value="" /> <br /></td></tr>');
+    max_mp = i+1;
+}
+
+function mp_delete_field(id,module) {
+    var origkey = $("#mp_setting_origsetting_key_"+id).val();
+    var key = $("#mp_setting_key_"+id).val();
+    var val = $("#mp_setting_val_"+id).val();
+    if(typeof origkey === 'undefined') {
+        if(id > 0) {
+            $('#mp_additional_'+ id).remove();
+        } else {
+            $('#mp_setting_key_0').val('');
+            $('#mp_setting_value_0').val('');
+        }
+    } else {
+        if(id > 0) {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'mpsettingsremove', mod: module, keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#mp_additional_'+ id).remove();
+            });
+        } else {
+            $.getJSON("config.php?quietmode=1&handler=file&module=dahdiconfig&file=ajax.html.php",{type: 'mpsettingsremove', mod: module, keyword: key, origkeyword: origkey, value: val}, function(z){
+                $('#mp_setting_key_0').val('');
+                $('#mp_setting_value_0').val('');
+            });
+        }
+    }
+}
+
+var mods_add_id = '';
+function mods_add_field() {
+	mods_add_id = (mods_add_id == '') ? $('#mods_add_id').val() : mods_add_id;
+	$('#modules-sortable li:last').after('<li id="mod-ud-'+mods_add_id+'"><input type="checkbox" id="mod-ud-checkbox-'+mods_add_id+'"><a><img height="10px" style="cursor: pointer;" src="images/trash.png" onclick="mods_del_field(\'mod-ud-'+mods_add_id+'\')"></a><input type="textbox" id="mod-ud-name-'+mods_add_id+'" value=""></li>');
+	mods_add_id++
+	$('.modules-sortable').sortable('destroy');
+	$('.modules-sortable').sortable();
+}
+
+function mods_del_field(id) {
+	$('#'+id).remove();
+}
+
+$("#reloaddahdi").click(function(e) {
+	e.preventDefault();
+	e.stopPropagation();
+	$(this).prop("disabled",true);
+	var text = $(this).text();
+	$(this).text(_("Reloading..."));
+	var $this = this;
+	$.post("ajax.php?module=dahdiconfig&command=reload", function(z){
+		if(z.status) {
+			$($this).prop("disabled",false);
+			$($this).text(text);
+		}
+	});
+});
+
+$("#button_reload").click(function(e) {
+	alert(_("Don't forget to Restart Dahdi & Asterisk after this completes"));
+});
+
+$("#restartamportal").click(function(e) {
+	e.preventDefault();
+	e.stopPropagation();
+	if($("#button_reload").is(":visible") && !confirm(_("Are you sure you want to Restart without hitting 'Apply Config'?"))) {
+		return true;
+	}
+	$(this).prop("disabled",true);
+	var text = $(this).text();
+	$(this).text(_("Restarting..."));
+	$(".screendoor").show();
+	var $this = this;
+	$.post("ajax.php?module=dahdiconfig&command=restart", function(z){
+		if(z.status) {
+			var count = 0;
+			var inter = setInterval(function(){
+				$.post("ajax.php?module=dahdiconfig&command=checkrestart", function(z){
+					if(z.started) {
+						location.reload();
+						clearInterval(inter);
+					}
+				}).always(function() {
+					if(count > 60) {
+						location.reload();
+						clearInterval(inter);
+					}
+					count++;
+				});
+			}, 1000);
+		}
+	});
+});

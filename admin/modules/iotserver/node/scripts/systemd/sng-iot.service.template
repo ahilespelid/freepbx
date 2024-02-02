@@ -1,0 +1,25 @@
+[Unit]
+Description=Sangoma IoT service
+Documentation=https://example.com
+After=network.target
+
+[Service]
+WorkingDirectory=/usr/local/src/sng_iot_server/
+Environment=NODE_PORT=XXX_NODE_PORT_XXX
+Environment=NODE_ENV=XXX_NODE_ENV_XXX
+Environment=NODE_CONFIG_DIR=/usr/local/src/sng_iot_server/config
+Environment=LOG_LEVEL=XXX_LOG_LEVEL_XXX
+Environment=MYSQL_HOST=XXX_MYSQL_HOST_XXX
+Environment=MYSQL_USER=XXX_MYSQL_USER_XXX
+Environment=MYSQL_PASSWORD=XXX_MYSQL_PASSWORD_XXX
+Environment=MYSQL_DATABASE=XXX_MYSQL_DATABASE_XXX
+Type=simple
+User=root
+ExecStart=/usr/bin/node /usr/local/src/sng_iot_server/server.js >> /var/log/sng-iot-server-out.log 2>&1
+Restart=on-failure
+StandardOutput=/var/log/sng-iot-server-out.log
+StandardError=/var/log/sng-iot-server-err.log
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,310 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for pagingpro
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 02:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"A paging group on a scheduler is linked to a missing calendar group. The "
+"pages will fail until this is fixed"
+msgstr ""
+
+msgid ""
+"A paging group on a scheduler is linked to a missing calendar. The pages "
+"will fail until this is fixed"
+msgstr ""
+
+msgid "Add Address"
+msgstr ""
+
+msgid "Announce Count"
+msgstr ""
+
+msgid ""
+"Announcement to be played to all participants when page is intiated. Only "
+"non-compound recordings can be used. Default is a short beep."
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "Auto Answer"
+msgstr ""
+
+msgid "Busy Page Group"
+msgstr ""
+
+msgid "CID Prepend"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIES A LICENSE FOR IT TO FUNCTION. This\t\tModule "
+"expands the normal Paging module in\t\tFreePBX to add the following features:"
+"\t\tOutbound Notifications - Enables the ability to notify a group of "
+"phone(s) when a user dials a specific number, ie:\t\t911. Any page group can "
+"be linked in the outbound routes\t\tmodule. When a call is placed a page "
+"will go out to the page group notifying the page group of what number was "
+"failed\t\tand what user dialed the number. Any user of the page\t\tgroup can "
+"dial *1 to barge into the call and speak.\t\tValet Style Paging (Airport "
+"Style) - You can now choose to have your pages recorded and when you hang up "
+"have it send\t\tthe audio file to all the devices that are part of the\t"
+"\tpage group. This setting is done on a per page group. You can also tell "
+"the system to only use Valet if someone dials\t\tthe page group and it is in "
+"use already.\t\tPrepend Recording - You can now have the page group weather "
+"normal or valet style play a recorded message to all\t\tparticipants of the "
+"page group before the pager can start\t\tspeaking.\t\tScheduled Pages - You "
+"can now define custom schedules to have the system page a group of devices "
+"and play a\t\trecording. This is a great replacement for school bell systems "
+"or lunch break buzzers."
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Calendar Group"
+msgstr ""
+
+msgid "Calendar Group to schedule pages for"
+msgstr ""
+
+msgid "Calendar to schedule pages for"
+msgstr ""
+
+msgid "Cleanup stale pages and add needed pages"
+msgstr ""
+
+msgid "Cron Exists"
+msgstr ""
+
+msgid "Current Server Time"
+msgstr ""
+
+msgid "Date Range for scheduled pages"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Do Nothing"
+msgstr ""
+
+msgid "Do Nothing - plays a busy tone and then hangs up"
+msgstr ""
+
+msgid "Enable Calendar"
+msgstr ""
+
+msgid "Enable Scheduler"
+msgstr ""
+
+msgid "Enables Scheduling of Future Automated Pages"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Exclusion Dates"
+msgstr ""
+
+msgid "Execute a scheduled page now"
+msgstr ""
+
+msgid "Force Valet"
+msgstr ""
+
+msgid "Force Valet - Always record and store the page before broadcasting it"
+msgstr ""
+
+msgid "IP_ADDRESS:PORT"
+msgstr ""
+
+msgid "List Scheduled Pages"
+msgstr ""
+
+msgid "Max Paging Participants"
+msgstr ""
+
+msgid "Maximum amount of particpants allowed in a page"
+msgstr ""
+
+msgid "Missing Paging Scheduler Calendar"
+msgstr ""
+
+msgid "Missing Paging Scheduler Calendar Group"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not Calendar Controlled"
+msgstr ""
+
+msgid "Not Calendar Group Controlled"
+msgstr ""
+
+msgid ""
+"Number of times user recorded page announcement played to the remote party."
+msgstr ""
+
+msgid "Page Announcement"
+msgstr ""
+
+msgid "Page ID"
+msgstr ""
+
+msgid "Page schedule does not exist!"
+msgstr ""
+
+msgid "Paging"
+msgstr ""
+
+msgid "Paging Pro"
+msgstr ""
+
+msgid "Paging Pro is not Authorized"
+msgstr ""
+
+msgid "Paging group not found"
+msgstr ""
+
+msgid "Please enter a valid end date"
+msgstr ""
+
+msgid "Please enter a valid start date"
+msgstr ""
+
+msgid "Please select the timezone"
+msgstr ""
+
+msgid "RTP Multicast"
+msgstr ""
+
+msgid "RTP Multicast disabled (Requires Asterisk 13 or higher)"
+msgstr ""
+
+msgid "Schedule Range"
+msgstr ""
+
+msgid "Scheduler and Calendar can not both be enabled"
+msgstr ""
+
+msgid "Server Time"
+msgstr ""
+
+msgid ""
+"Should this page group force members to automatically answer when they are "
+"paged. Default is 'Yes'."
+msgstr ""
+
+msgid "Should we page based on a calendar or calendar group"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "This text will be prepended to the CallerID Name"
+msgstr ""
+
+msgid "This will override the busy page group settings"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Time for page"
+msgstr ""
+
+msgid "Timezone"
+msgstr ""
+
+msgid "Timezone for this user"
+msgstr ""
+
+msgid "Trigger a calendar page"
+msgstr ""
+
+msgid "Use Browser Timezone"
+msgstr ""
+
+msgid "Use PBX Timezone"
+msgstr ""
+
+msgid "Valet"
+msgstr ""
+
+msgid ""
+"Valet - records a page, broadcasting it when the page group becomes available"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You cant set both a group and a calendar"
+msgstr ""
+
+msgid ""
+"You may set any number of RTP Multicast streams here. They must be in the "
+"format of IP.ADD.RE.SS:PORT, such as 224.0.36.0:10000"
+msgstr ""
+
+msgid "day"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "week"
+msgstr ""
+
+msgid "weeks"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid "years"
+msgstr ""

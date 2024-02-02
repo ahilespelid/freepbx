@@ -1,0 +1,2 @@
+<?php
+ namespace Informunity\Ajax\Methods; use Informunity\Classes\Dids; use Informunity\Classes\HeadersToFields; class updateUtmRelation implements \Informunity\Interfaces\Ajax { public static function ajaxRequest(&$setting) { $setting = array("\x61\x75\x74\150\x65\x6e\x74\151\x63\x61\164\145" => true, "\141\x6c\154\x6f\167\162\x65\155\x6f\164\x65" => false); return true; } public function ajaxHandler($config, $data) { return HeadersToFields::load()->update($config, $data); } }

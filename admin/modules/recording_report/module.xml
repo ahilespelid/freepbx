@@ -1,0 +1,112 @@
+<module>
+	<rawname>recording_report</rawname>
+	<name>Call Recording Report</name>
+	<version>15.0.13</version>
+	<repo>commercial</repo>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<type>tool</type>
+	<category>Reports</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Displays various information related to the voicemail system. This is a non standard module and requies a license for it to work</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Call+Recording+Reports</more-info>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#call-recording-reports</link>
+	</commercial>
+	<changelog>
+		*15.0.13* Packaging of ver 15.0.13
+		*15.0.12* Packaging of ver 15.0.12
+		*15.0.11* FREEI-5673 
+		*15.0.10* FREEI-5530 call recording archive not behaving as expected 
+		*15.0.9* FREEI-664 
+		*15.0.8* FREEI-3993 Allow call recording archive frequency shorter than 1 month 
+		*15.0.7* FREEPBX-23384 
+		*15.0.6* FREEI-4339 Call Recording Reports missing outbound calls 
+		*15.0.5* FREEI-3992 Adding filestore module hook to offload the recording archive to remote storage 
+		*15.0.4.41* FREEI-3992 Adding filestore module hook to offload the recording archive to remote storage 
+		*15.0.4.40* Fixing FREEI-1856 Removing notification which was added as a part of FREEI-1808. 
+		*15.0.4.39* FREEI-3811 optimized the download_file function to download large files in chunks 
+		*15.0.4.38* FREEI-3735 
+		*15.0.4.37* FREEI-3735 
+		*15.0.4.36* FREEI-3735 Call recording report failing to create recordings archive 
+		*15.0.4.35* FREEI-3824 Recording Reports - It doesn't delete zero files 
+		*15.0.4.34* FREEI-3506 Call Recording Reports can execute a command fwconsole even if not licensed 
+		*15.0.4.33* FREEI-2534 
+		*15.0.4.32* Packaging of ver 15.0.4.32
+		*15.0.4.31* Packaging of ver 15.0.4.31
+		*15.0.4.30* Fixing FREEI-1986-call-recording-report-not-playing-back 
+		*15.0.4.29* FREEI-1935 error installing recording reports 
+		*15.0.4.28* Fixing FREPEBX-21689 Adding check to ensure DB Table exist 
+		*15.0.4.27* FREEI-1808 FREEI-1852 Removing default behaviour of adding Call recordings to new backup jobs
+		*15.0.4.26* FREEI-1820 Cannot finish the backup job at PBXact15 
+		*15.0.4.25* FREEI-1456 On demand call recordings records data not showing under Call Recording Reports 
+		*15.0.4.24* FREEI-1336 PBXact QA - Unable to take backup 
+		*15.0.4.23* FREEI-1066 Issues with Archiving in Call Recording Reports 
+		*15.0.4.22* FREEI-1066 Issues with Archiving in Call Recording Reports 
+		*15.0.4.21* FREEI-1066 Issues with Archiving in Call Recording Reports 
+		*15.0.4.20* FREEI-924 Fix XSS Bootstrap Datatable Issues 
+		*15.0.4.19* FREEI-842 Call recordings with Anonymous in CID do not show in call recording reports 
+		*15.0.4.18* FREEPBX-20384 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system is not restoring Call Recording Reports and Call Recording Reports is still showing older data which were there before restore. 
+		*15.0.4.17* FREEI-609 Recording Report archives not being created 
+		*15.0.4.16* FREEI-603 Zero duration recordings not being purged. 
+		*15.0.4.15* FREEI-599 Call recordings are not showing for all days 
+		*15.0.4.14* FREEPBX-20139 Call recording files are not backed up in FreePBX 15 Backup Restore 
+		*15.0.4.13* bump 
+		*15.0.4.12* Same as below
+		*15.0.4.11* Fix search functionality
+		*15.0.4.10* Use job class
+		*15.0.4.9* add console class
+		*15.0.4.8* FREEPBX-18958 Cleanup cron jobs on uninstall
+		*15.0.4.7* FREEI-474 Add date time stamp to every line in log recording_report
+		*15.0.4.6* FREEI-475 Recording_Report module /YEAR/MONTH/null/ ( ALL Days ) issue fix
+		*15.0.4.5* FREEI-471
+		*15.0.4.4* FreePBX-19753
+		*15.0.4.3* FREEI-471
+		*15.0.4.2* FREEI-461 Recording reports 'file does not exists' issue fix
+		*15.0.4.1* Better handling and logging of file durations
+		*15.0.4* Consolidate composer libs
+		*15.0.3.6* FREEI-426
+		*15.0.3.5* Add backup and restore
+		*15.0.3.4* FREEPBX-19406 Inbound call record not showing on Call recording report
+		*15.0.3.3* Fixing FREEPBX-19031 Regex modification to match optional + sign number also
+		*15.0.3.2* FREEPBX-18565 reduce page load
+		*15.0.3* attempt to provide more verbose logging for cli commands
+		*15.0.2* FREEPBX-18302 Fixe issue to delete zero length files
+		*15.0.1* Remove monolog now handled in framework
+	</changelog>
+	<depends>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 15.0.21.99</module>
+		<module>recordings</module>
+		<module>framework ge 15.0.17.64</module>
+		<module>filestore ge 15.0.3.27</module>
+	</depends>
+	<database>
+		<table name="recording_report">
+			<field name="key" type="string" length="25" notnull="false"/>
+			<field name="value" type="text" notnull="false"/>
+			<key name="key" type="unique">
+				<column name="key"/>
+			</key>
+		</table>
+		<table name="recording_files">
+			<field name="file" type="string" length="190" default="" primarykey="true"/>
+			<field name="duration" type="integer" notnull="false"/>
+			<field name="updated" type="integer" notnull="false"/>
+		</table>
+	</database>
+	<menuitems>
+		<recording_report>Call Recordings</recording_report>
+	</menuitems>
+	<supported>
+		<version>15.0</version>
+	</supported>
+	<console>
+		<command>
+			<name>recordingreports</name>
+			<class>Recording_report</class>
+		</command>
+	</console>
+</module>

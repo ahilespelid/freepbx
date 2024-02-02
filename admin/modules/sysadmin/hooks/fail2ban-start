@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Ensure all logfiles exist so fail2ban starts
+logfiles=("/var/log/vsftpd.log" "/var/log/asterisk/fail2ban" "/var/log/asterisk/freepbx_security.log" "/var/log/fail2ban.log")
+
+for item in ${logfiles[*]}
+do
+	if [ ! -f "$item" ]; then
+		touch "$item"
+	fi
+done
+
+# Validate permissions
+chown root.root /var/log/vsftpd.log /var/log/fail2ban.log
+chmod 600 /var/log/vsftpd.log /var/log/fail2ban.log
+
+chown asterisk.asterisk /var/log/asterisk/fail2ban /var/log/asterisk/freepbx_security.log
+chmod 640 /var/log/asterisk/fail2ban
+chmod 664 /var/log/asterisk/freepbx_security.log
+if [ "$1" = "" ] ; then
+	root="/var/run/asterisk"
+	else
+	root="$1"
+fi
+
+# Only flush iptables if firewall is NOT running
+if flock -nx $root/firewall/lock-firewall true; then
+	# Firewall not running
+	# FREEPBX-13123 - If /etc/sysconfig/iptables exists, and it's known bad, only
+	# stop iptables. Otherwise restart.
+	CURRENT=$(md5sum /etc/sysconfig/iptables 2>/dev/null | awk ' { print $1 } ')
+	if [ "$CURRENT" = "e628a913aa0d84645947744ea55d8556" ]; then 
+		# Default RHEL7 iptables config that blocks everything apart from ssh
+		service iptables stop
+		service ip6tables stop
+	else
+		service iptables restart
+		service ip6tables restart
+	fi
+fi
+
+# Restart starts it if it's not running
+service fail2ban restart
+
+
+

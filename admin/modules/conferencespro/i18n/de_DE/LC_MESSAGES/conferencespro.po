@@ -1,0 +1,520 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for conferencespro
+# Copyright (C) 2008-2017 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-02 09:00+0000\n"
+"PO-Revision-Date: 2018-02-07 07:30+0200\n"
+"Last-Translator: tranlsated <noemi@translated.net>\n"
+"Language-Team: German <http://weblate.freepbx.org/projects/fpbxc/"
+"conferencespro/de_DE/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+#, php-format
+msgid "%s's conference room"
+msgstr "Konferenzraum von %s"
+
+msgid "Add to Conference IVR"
+msgstr "Zu Konferenz IVR hinzufügen"
+
+msgid "Admin PIN:"
+msgstr "Admin-PIN:"
+
+msgid "Admin Pin"
+msgstr "Admin-Pin"
+
+msgid "Allow Menu"
+msgstr "Menü aktivieren"
+
+msgid "Allow Menu:"
+msgstr "Menü aktivieren:"
+
+msgid "Allowed Conference Bridges"
+msgstr "Erlaubte Konferenzbrücken"
+
+msgid "Allows this conference to be included in the IVR context"
+msgstr "Ermöglicht, dass diese Konferenz im IVR-Kontext eingeschlossen wird"
+
+msgid ""
+"Allows this conference to be managed by the specified user from the "
+"Recordings Interface"
+msgstr ""
+"Ermöglicht, dass diese Konferenz vom angegebenen Benutzer über die "
+"Aufzeichnungsschnittstelle verwaltet wird"
+
+msgid "Announce user join/leave"
+msgstr "Beitritt/Verlassen eines Benutzers melden"
+
+msgid "Announce user(s) count on joining conference"
+msgstr "Anzahl der Benutzer, die der Konferenz beitreten, melden"
+
+msgid "Announcement"
+msgstr "Meldung"
+
+msgid "Applications"
+msgstr "Anwendungen"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Adds ability to "
+"manage Conference Room settings into the User Control Panel and also to "
+"create Conference IVRs"
+msgstr ""
+
+msgid "Conference Has Been Updated!"
+msgstr "Die Konferenz wurde aktualisiert!"
+
+msgid "Conference IVR Options"
+msgstr "Konferenz-IVR-Optionen"
+
+msgid "Conference List IVR"
+msgstr "Konferenzliste IVR"
+
+msgid "Conference Name:"
+msgstr "Konferenzname:"
+
+msgid "Conference Options for Room "
+msgstr "Konferenzoptionen für Raum "
+
+msgid "Conference Pro"
+msgstr "Conference Pro"
+
+msgid "Conference Room Prefix"
+msgstr "Konferenzraum Vorwahl"
+
+msgid "Conference User Manager"
+msgstr "Konferenz-Benutzermanager"
+
+msgid "Conference room is empty"
+msgstr ""
+
+msgid "Conference room is not active so it can not be locked"
+msgstr ""
+
+msgid "Conferences"
+msgstr "Konferenzen"
+
+msgid "Conferences Pro"
+msgstr "Konferenzen Profi"
+
+msgid "Conferences Pro IVR Announcement"
+msgstr "Conferences Pro IVR-Meldung"
+
+msgid "Conferences included in IVR"
+msgstr "In IVR integrierte Konferenzen"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Enable Conference Access"
+msgstr "Konferenzzugang aktivieren"
+
+msgid "Enable Music On Hold when the conference has a single caller"
+msgstr ""
+"Musik in der Warteschleife aktivieren, wenn die Konferenz einen einzigen "
+"Anrufer hat"
+
+msgid "Enable the conference Access in UCP for this user"
+msgstr "Konferenzzugang in UCP für diesen Benutzer aktivieren"
+
+msgid "Enter a PIN number for the admin user."
+msgstr "PIN-Nummer für diesen Admin-Benutzer eingeben."
+
+msgid ""
+"Enter a PIN number for the admin user.<br><br>This setting is optional "
+"unless the 'leader wait' option is in use, then this PIN will identify the "
+"leader."
+msgstr ""
+"PIN-Nummer für diesen Admin-Benutzer eingeben.<br><br>Diese Einstellung ist "
+"optional, es sei denn,die Option 'Leiter warten' wird verwendet. In diesem "
+"Fall identifiziert diese PIN den Leiter."
+
+msgid "Follow Me"
+msgstr ""
+
+msgid "Give this conference a brief name to help you identify it."
+msgstr ""
+"Geben Sie dieser Konferenz einen kurzen Namen, damit Sie sie identifizieren "
+"können."
+
+#, php-format
+msgid ""
+"If enabled a conference at '%s' will be created for this user to use (If the "
+"conference already exists it will use the already existing conference and "
+"link it to this user). It will then be linked in UCP for the user to access. "
+"The prefix can be changed in the Conferences Pro settings page. Setting this "
+"to 'No' after previously setting this to 'Yes' will not remove the "
+"conference from the system"
+msgstr ""
+"Wenn diese Funktion aktiviert ist, wird eine Konferenz bei '%s' für diesen "
+"Benutzer erstellt. (Sollte die Konferenz bereits existieren, wird die "
+"bereits bestehende Konferenz verwendet und mit diesem Benutzer verknüpft). "
+"Sie wird dann in UCP verknüpft, so dass der Benutzer Zugang erhält. Die "
+"Vorwahl kann auf der Einstellungsseite von Conferences Pro geändert werden. "
+"Wenn Sie diese Einstellung erst auf 'Ja' und anschließend auf 'Nein' "
+"einstellen, wird die Konferenz nicht vom System gelöscht"
+
+msgid "Inherit"
+msgstr "Übernehmen"
+
+msgid "Invite Contact"
+msgstr ""
+
+msgid "Invite to Conference"
+msgstr "Zur Konferenz einladen"
+
+msgid "Join Message"
+msgstr "Nachricht hinzufügen"
+
+msgid "Join Message:"
+msgstr "Nachricht hinzufügen:"
+
+msgid "Leader Wait"
+msgstr "Auf Leiter warten"
+
+msgid "Leader Wait:"
+msgstr "Auf Leiter warten:"
+
+msgid "Link Conference to this user"
+msgstr "Konferenz mit diesem Benutzer verknüpfen"
+
+msgid "Locked"
+msgstr "Gesperrt"
+
+msgid "Manageable by User"
+msgstr "Kann vom Benutzer verwaltet werden"
+
+msgid "Marked"
+msgstr "Markiert"
+
+msgid "Maximum Number of users allowed to join this conference."
+msgstr ""
+"Maximale Anzahl von Benutzern, die an dieser Konferenz teilnehmen dürfen."
+
+msgid "Maximum Participants"
+msgstr "Maximale Anzahl an Teilnehmern"
+
+msgid "Maximum Participants:"
+msgstr "Maximale Anzahl an Teilnehmern:"
+
+msgid "Message to be played to the caller before joining the conference."
+msgstr "Meldung, die ein Anrufer erhält, bevor er einer Konferenz beitritt."
+
+msgid ""
+"Message to be played to the caller before joining the conference.<br><br>To "
+"add additional recordings please talk to your administrator"
+msgstr ""
+"Meldung, die ein Anrufer erhält, bevor er einer Konferenz beitritt."
+"<br><br>Wenn Sie weitere Aufnahmen hinzufügen möchten, wenden Sie sich an "
+"den Administrator"
+
+msgid ""
+"Message to be played to the caller before joining the conference."
+"<br><br>Your administrator must install and enable the \"Systems Recordings"
+"\" Module to edit this option"
+msgstr ""
+"Meldung, die ein Anrufer erhält, bevor er einer Konferenz beitritt."
+"<br><br>Ihr Administrator muss das Modul \"Systemaufzeichnungen\" "
+"installieren und aktivieren, um diese Option zu bearbeiten"
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route."
+msgstr ""
+"Musik (oder Werbung), die dem Anrufer vorgespielt wird, während er in der "
+"Warteschleife auf den Start der Konferenz wartet. Wählen Sie \"Übernehmen\" "
+"aus, wenn Sie die MoH0-Klasse als derzeitige Auswahl festlegen möchten, wie "
+"bei der eingehenden Route."
+
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route.<br><br>  This music is "
+"defined in the \"Music on Hold\" to the left."
+msgstr ""
+"Musik (oder Werbung), die dem Anrufer vorgespielt wird, während er in der "
+"Warteschleife auf den Start der Konferenz wartet. Wählen Sie \"Übernehmen\" "
+"aus, wenn Sie die MoH0-Klasse als derzeitige Auswahl festlegen möchten, wie "
+"bei der eingehenden Route.<br><br> Diese Musik wird links in \"Musik in der "
+"Warteschlange\" festgelegt."
+
+msgid "Music on Hold"
+msgstr "Musik in der Warteschlange"
+
+msgid "Music on Hold Class"
+msgstr "Musik in der Warteschlangen-Klasse"
+
+msgid "Music on Hold Class:"
+msgstr "Musik in der Warteschlangen-Klasse:"
+
+msgid "Music on Hold:"
+msgstr "Musik in der Warteschlange:"
+
+msgid ""
+"Mute everyone when they initially join the conference. Please note that if "
+"you do not have 'Leader Wait' set to yes you must have 'Allow Menu' set to "
+"Yes to unmute yourself"
+msgstr ""
+"Schalten Sie alle Teilnehmer beim Beitritt zur Konferenz stumm. Bitte "
+"beachten Sie, dass Sie 'Menü ermöglichen' auf Ja einstellen müssen, um Ihre "
+"eigene Stummschaltung aufzuheben, wenn Sie 'Auf Leiter warten' nicht auf Ja "
+"eingestellt haben"
+
+msgid "Mute on Join"
+msgstr "Beim Beitritt stumm schalten"
+
+msgid "Mute on Join:"
+msgstr "Beim Beitritt stumm schalten:"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "No Limit"
+msgstr "Unbegrenzt"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Numeric value only."
+msgstr ""
+
+msgid "Only Numeric Values Are Allowed!"
+msgstr ""
+
+msgid "Outbound Call"
+msgstr "Ausgehender Anruf"
+
+msgid "Please enter a valid Conference Name"
+msgstr "Bitte geben Sie einen gültigen Konferenznamen ein"
+
+msgid "Present Menu (user or admin) when '*' is received ('send' to menu)"
+msgstr ""
+"Aktuelles Menü (Benutzer oder Admin), wenn '*' empfangen wird (zum Menü "
+"'gesendet')"
+
+msgid "Pro Options"
+msgstr "Profi-Optionen"
+
+msgid "Quiet Mode"
+msgstr "Stiller Modus"
+
+msgid "Quiet Mode:"
+msgstr "Stiller Modus:"
+
+msgid "Quiet mode (do not play enter/leave sounds)"
+msgstr "Stiller Modus (keine Tonsignale bei Beitritt/Verlassen abspielen)"
+
+msgid "Record Conference"
+msgstr "Konferenz aufnehmen"
+
+msgid "Record Conference:"
+msgstr "Konferenz aufnehmen:"
+
+msgid "Record the conference call"
+msgstr "Konferenzanruf aufzeichnen"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Room"
+msgstr "Raum"
+
+msgid ""
+"Sets talker detection. Asterisk will sends events on the Manager Interface "
+"identifying\n"
+"the channel that is talking. The talker will also be identified on the "
+"output of\n"
+"the meetme list CLI command."
+msgstr ""
+"Aktiviert die Sprechererkennung. Asterisk sendet Ereignisse zur "
+"Managerschnittstelle und identifiziert\n"
+"den Kanal, der gerade spricht. Der Sprecher wird also beim Ausgang des\n"
+"CLI-Befehls der meetme-Liste identifiziert."
+
+msgid "Starting Conference..."
+msgstr "Konferenz wird gestartet ..."
+
+msgid "Submit"
+msgstr "Senden"
+
+msgid "Talker Detection:"
+msgstr "Sprechererkennung:"
+
+msgid "Talker Optimization"
+msgstr "Sprecheroptimierung"
+
+msgid "Talker Optimization:"
+msgstr "Sprecheroptimierung:"
+
+msgid ""
+"The prefix used along with the linked extension in User Manager when "
+"creating a linked conference"
+msgstr ""
+"Die Vorwahl, die mit der verknüpften Erweiterung im Benutzermanager "
+"verwendet wird, wenn eine verknüpfte Konferenz erstellt wird"
+
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+"Dies sind die zugeordneten und aktiven Nebenstellen, die diesem Benutzer zur "
+"Steuerung und Bearbeitung in UCP angezeigt werden"
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who\n"
+"are not speaking as being muted, meaning that no encoding is done on "
+"transmission\n"
+"and that received audio that is not registered as talking is omitted, "
+"causing no\n"
+"buildup in background noise."
+msgstr ""
+"Aktiviert die Sprecheroptimierung. Mit der Sprecheroptimierung behandelt "
+"Asterisk Sprecher,\n"
+"die gerade nicht sprechen, als stumm geschaltet, das heißt, dass bei der "
+"Übertragung keine\n"
+"Codierung erfolgt und dass die empfangenen Klänge nicht aufgezeichnet "
+"werden, da das Sprechen\n"
+"ausgelassen wird und somit kein Hintergrundgeräusch entsteht."
+
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who are not speaking as being muted, meaning that no encoding is "
+"done on transmission and that received audio that is not registered as "
+"talking is omitted, causing no buildup in background noise."
+msgstr ""
+"Aktiviert die Sprecheroptimierung. Mit der Sprecheroptimierung behandelt "
+"Asterisk Sprecher, die gerade nicht sprechen als stumm geschaltet, das "
+"heißt, dass bei der Übertragung keine Codierung erfolgt und dass die "
+"empfangenen Klänge nicht aufgezeichnet werden, da das Sprechen\n"
+"ausgelassen wird und somit kein Hintergrundgeräusch entsteht."
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "User Count"
+msgstr "Benutzerkonto"
+
+msgid "User Count:"
+msgstr "Benutzerkonto:"
+
+msgid "User Linked Conference"
+msgstr "Mit dem Benutzer verknüpfte Konferenz"
+
+msgid "User PIN:"
+msgstr "Benutzer-PIN:"
+
+msgid "User Pin"
+msgstr "Benutzer-Pin"
+
+msgid "User Type"
+msgstr ""
+
+msgid "User join/leave"
+msgstr "Beitritt/Verlassen eines Benutzers"
+
+msgid "User join/leave:"
+msgstr "Beitritt/Verlassen eines Benutzers:"
+
+msgid "Users"
+msgstr "Benutzer"
+
+#, php-format
+msgid "Viewing Room %s"
+msgstr ""
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference"
+msgstr ""
+"Warten Sie, bis der Konferenzleiter (Admin-Benutzer) beitritt, bevor Sie die "
+"Konferenz starten"
+
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference."
+msgstr ""
+"Warten Sie, bis der Konferenzleiter (Admin-Benutzer) beitritt, bevor Sie die "
+"Konferenz starten."
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference."
+msgstr ""
+"Sie können Anrufer dazu auffordern, ein Passwort einzugeben, bevor sie an "
+"der Konferenz teilnehmen können."
+
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference.<br><br>This setting is optional.<br><br>If either PIN is "
+"entered, the user will be prompted to enter a PIN."
+msgstr ""
+"Sie können Anrufer dazu auffordern, ein Passwort einzugeben, bevor sie an "
+"der Konferenz teilnehmen können.<br><br>Diese Einstellung ist optional."
+"<br><br>Wenn eine PIN eingegeben wurde, wird der Benutzer aufgefordert, eine "
+"PIN einzugeben."
+
+msgid ""
+"You must set Allow Menu to Yes when not using a Leader or Admin in your "
+"conference, otherwise you will be unable to unmute yourself"
+msgstr ""
+"Sie müssen \"Menü ermöglichen\" auf Ja setzen, wenn Sie keinen Leiter oder "
+"Admin nutzen, ansonsten können Sie Ihre eigene Stummschaltung nicht aufheben"
+
+msgid ""
+"You must set an admin PIN for the Conference Leader when selecting the "
+"leader wait option"
+msgstr ""
+"Sie müssen eine Admin-PIN für den Konferenzleiter festlegen, wenn Sie die "
+"Auf-Leiter-Warten-Option auswählen"
+
+msgid "default"
+msgstr "Standardeinstellung"
+
+msgid "inherit"
+msgstr "Übernehmen"
+
+msgid "none"
+msgstr "Keine"
+
+#~ msgid ""
+#~ "COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit "
+#~ "www.schmoozecom.com/oss.php  Adds ability to manage Conference Room "
+#~ "settings into the User Control Panel and also to create Conference IVRs"
+#~ msgstr ""
+#~ "DAS KOMMERZIELLE MODUL ERFORDERT EINE LIZENZ FÜR DEN BETRIEB. Besuchen "
+#~ "Sie www.schmooze.com/oss.php. Ermöglicht die Verwaltung von "
+#~ "Konferenzraumeinstellungen im Benutzerbedienfeld und die Erstellung von "
+#~ "Konferenz-IVR"
+
+#~ msgid "Conference \"%s\" Settings"
+#~ msgstr "Konferenz \"%s\" Einstellungen"
+
+#~ msgid "Invite"
+#~ msgstr "Einladen"
+
+#~ msgid "Number"
+#~ msgstr "Nummer"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "View Room"
+#~ msgstr "Ansichtsraum"
+
+#~ msgid "Viewing Room %s - %s"
+#~ msgstr "Ansichtsraum %s - %s"

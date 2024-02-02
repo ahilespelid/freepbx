@@ -1,0 +1,302 @@
+<module>
+	<rawname>restapps</rawname>
+	<repo>commercial</repo>
+	<name>Phone Apps</name>
+	<version>15.0.42.1</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<category>Admin</category>
+	<description>COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Applications using the RESTful API</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Phone+Apps</more-info>
+	<changelog>
+		*15.0.42.1* FREEPBX-24353 Adding Transient CDR DB Table 
+		*15.0.42* FREEI-358 reverting the fix 
+		*15.0.41*    FREEI-70 Fixing Phone Apps weak auth issue 
+		*15.0.40.28* FREEI-233 
+		*15.0.40.27* FREEI-183 
+		*15.0.40.26* STALK-534 
+		*15.0.40.25* FREEI-148 
+		*15.0.40.24* FREEI-127 
+		*15.0.40.23* FREEI-107 
+		*15.0.40.22* FREEI-112 
+		*15.0.40.21* Packaging of ver 15.0.40.21
+		*15.0.40.20* FREEI-96 and FREEI-91 
+		*15.0.40.19* FREEI-88 
+		*15.0.40.18* Packaging of ver 15.0.40.18
+		*15.0.40.17* FREEI-54,FREEI-63 and FREEI-23 
+		*15.0.40.16* FREEI-5880 
+		*15.0.40.15* FREEI-15 
+		*15.0.40.14* FREEI-5880, FREEI-5878 and FREEI-5879 
+		*15.0.40.13* FREEI-5857 
+		*15.0.40.12* FREEI-5841 
+		*15.0.40.11* Packaging of ver 15.0.40.11
+		*15.0.40.10* FREEI-5840 
+		*15.0.40.9* Packaging of ver 15.0.40.9
+		*15.0.40.8* Packaging of ver 15.0.40.8
+		*15.0.40.7* FREEI-5734 and FREEI-5690 
+		*15.0.40.6* FREEI-5740 
+		*15.0.40.5* Packaging of ver 15.0.40.5
+		*15.0.40.4* Packaging of ver 15.0.40.4
+		*15.0.40.3* Packaging of ver 15.0.40.3
+		*15.0.40.2* Packaging of ver 15.0.40.2
+		*15.0.40.1*  FREEI-5606 
+		*15.0.40*  FREEI-5607, FREEI-5615 and FREEI-5557 
+		*15.0.39*  SCD-356 Fixing VM delay issue and Adding Voicemail mark as read feature support in SCD
+		*15.0.38.14* Packaging of ver 15.0.38.14
+		*15.0.38.13* FREEI-5463 
+		*15.0.38.12* Packaging of ver 15.0.38.12
+		*15.0.38.11* Packaging of ver 15.0.38.11
+		*15.0.38.10* SCD-316 
+		*15.0.38.9* SCD-341 
+		*15.0.38.8* SCD-343 and FREEI-5310 
+		*15.0.38.7* FREEI-5288 
+		*15.0.38.6* FREEI-5146 and SCD-320 
+		*15.0.38.5* Packaging of ver 15.0.38.5
+		*15.0.38.4* FREEI-4015 D series - Voicemail app on multiple AORs 
+		*15.0.38.3* Packaging of ver 15.0.38.3
+		*15.0.38.2* SCD-332 
+		*15.0.38.1* SCD-333 
+		*15.0.38* FREEI-5205, SCD-318, SCD-299, SCD-329, SCD-316 and Make call with feature support in desktop client.
+		*15.0.37* FREEI-5081 Hotdesking D6X phones Login issue 
+		*15.0.36* FREEI-5077 
+		*15.0.35* FREEI-5077 
+		*15.0.34* SCD-312, SCD-FREEI-5060 and SCD-305 
+		*15.0.33* SCD-309 
+		*15.0.32* SCD-309 
+		*15.0.31* SCD-295 Dphone api methods to enable rapid dial list 
+		*15.0.30* SCD-287 
+		*15.0.29* bump 
+		*15.0.28.2* SCD-272, FREEPBX-23524 and SCD-137 
+		*15.0.28.1* SCD-265: add dphoneApi method pbx.users.sms.send
+		*15.0.28* FREEI-4847 Phone Call logs shows no Caller Name info 
+		*15.0.27* Packaging of ver 15.0.27
+		*15.0.26* Packaging of ver 15.0.26
+		*15.0.25* Add unit tests for RCE Bug and SCD-230 
+		*15.0.24.2* SCD-224 modified the code to move the voicemail message only if from folder and to folder are different 
+		*15.0.24.1* bump 
+		*15.0.24* bump 
+		*15.0.23.1* FREEI-4600 
+		*15.0.23* Packaging of ver 15.0.23
+		*15.0.22* Packaging of ver 15.0.22
+		*15.0.21* Fixing FREEPBX-23242 
+		*15.0.20* bump 
+		*15.0.19.89* FREEPBX-23176
+		*15.0.19.88* SCD-120 
+		*15.0.19.87* FREEI-4286 Phone apps doesn't display the page 
+		*15.0.19.86* SCD-115 
+		*15.0.19.85* SCD-83 answered call is showing as missed when same account is used in multiple endpoints at the same time 
+		*15.0.19.84* FREEI-4268 logout issue with external user 
+		*15.0.19.83* SCD-24 and SCD-112 
+		*15.0.19.82* FREEI-4234 S phones login button gives error Failed to XML file 
+		*15.0.19.81* FREEI-4232 new restapps call log issue fixes improvement 
+		*15.0.19.80* FREEI-4222 Call_logs shows duplicate in D-phones 
+		*15.0.19.79* SCD-94 changed the code to take SCD Client Host Address instead of internal IP while forming the voicemail URL 
+		*15.0.19.78* SCD-89 and FREEI-4209 
+		*15.0.19.77* SCD-89 removed voicemail directory check 
+		*15.0.19.76* SCD-90: add quotes around function_exists parameter 
+		*15.0.19.75* SCD-91:  have the dphoneApi auth also check for PHP_AUTH_USER/PW in $_SERVER 
+		*15.0.19.74* Packaging of ver 15.0.19.74
+		*15.0.19.73* Packaging of ver 15.0.19.73
+		*15.0.19.72* Packaging of ver 15.0.19.72
+		*15.0.19.71* SCD-40 adjusted getSoftwareVersion response required by the softphone
+		*15.0.19.70* SCD-30 and FREEI-3709 
+		*15.0.19.69* FREEI-4027, FREEI-4122 and SCD-25 
+		*15.0.19.68* Packaging of ver 15.0.19.68
+		*15.0.19.67* SCD-13 added method to fetch the contacts url and user info 
+		*15.0.19.66* FREEI-3903 Dphone API: Add _() for translate the response error messages. 
+		*15.0.19.65* FREEI-3635 dphoneapi: add start/stop call recording methods 
+		*15.0.19.64* SCD-18 pbx.admin.modules.getLicenseInfo needs special case for sangomaconnect 
+		*15.0.19.63* SCF-16 DphoneApi - License issue 
+		*15.0.19.62* SCD-12: remove the % symbol from the random string generator 
+		*15.0.19.61* SCD-15 added method to validate phone's main login using username or default_extension and password 
+		*15.0.19.60* SCD-10 added browser phone login method 
+		*15.0.19.59* SCD-12 added api to return list of registered devices from the asterisk database for registrar/contact 
+		*15.0.19.58* FREEI-3872 dphoneApi - add method to check for module license status 
+		*15.0.19.57* FREEI-3902 P315 not able to pull call logs 
+		*15.0.19.56* FREEI-3871 D phone Api 
+		*15.0.19.55* FREEPBX-22770 Can't logout for hot desking For Sangoma S Series Phone 
+		*15.0.19.54* FREEI-3769 split unit test file into smaller files 
+		*15.0.19.53* FREEI-3775 Native app Call_logs not showing properly for CF calls 
+		*15.0.19.52* FREEI-3714 
+		*15.0.19.51* FREEI-3725 Call_logs are not working for D/P phones with native apps 
+		*15.0.19.50* FREEI-3651 Fixing DPMA error message issue 
+		*15.0.19.49* FREEI-3652 
+		*15.0.19.48* FREEI-3652 
+		*15.0.19.47* FREEI-3640 D80 Native App- Call log does not shows missed call entries 
+		*15.0.19.46* FREEI-3046 Native app for D-80 is not working 
+		*15.0.19.45* FREEI-3509 D-phone API for call_log delay issue fix 
+		*15.0.19.44* FREEI-3510 D-phone API for call_log issue fix 
+		*15.0.19.43* FREEI-3508 call history api issue 
+		*15.0.19.42* FREEI-3424 Call history delivered duplicated to P310 phone 
+		*15.0.19.41* FREEI-3476 
+		*15.0.19.40* FREEI-3396 Rest Apps - led indicator on Yealink phones issue 
+		*15.0.19.39* FREEI-3456 Hotdesking DPMA Apps issue fix 
+		*15.0.19.38* FREEI-3240 Hot Desking App 
+		*15.0.19.37* FREEI-3231 
+		*15.0.19.36* FREEI-3166 
+		*15.0.19.35* FREEI-3101 
+		*15.0.19.34* Packaging of ver 15.0.19.34
+		*15.0.19.33* Packaging of ver 15.0.19.33
+		*15.0.19.32* Packaging of ver 15.0.19.32
+		*15.0.19.31* FREEI-3101 
+		*15.0.19.30* FREEI-2982 
+		*15.0.19.29* FREEI-3023 
+		*15.0.19.28* FREEI-3018 
+		*15.0.19.27* FREEI-3015: fix the way xml requests are handled 
+		*15.0.19.26* FREEI-2981 
+		*15.0.19.25* FREEI-2939 Queues App 
+		*15.0.19.24* FREEI-2940 
+		*15.0.19.23* Packaging of ver 15.0.19.23
+		*15.0.19.22* Packaging of ver 15.0.19.22
+		*15.0.19.21* Packaging of ver 15.0.19.21
+		*15.0.19.20* FREEI-2866: remove 'request=' from all request bodies 
+		*15.0.19.19* FREEI-2763: Accept Sangoma in user agent 
+		*15.0.19.18* Packaging of ver 15.0.19.18
+		*15.0.19.17* FREEI-2429: include context when looking up EXTENSION_STATE 
+		*15.0.19.16* Packaging of ver 15.0.19.16
+		*15.0.19.15* Packaging of ver 15.0.19.15
+		*15.0.19.14* Packaging of ver 15.0.19.14
+		*15.0.19.13* FREEI-2143 On Yealink, cannot park call while another call rings in. 
+		*15.0.19.12* Packaging of ver 15.0.19.12
+		*15.0.19.11* FREEI-1663 LED's arent working on Aastra/Mitel phones for Restapps 
+		*15.0.19.10* Packaging of ver 15.0.19.10
+		*15.0.19.9* Packaging of ver 15.0.19.9
+		*15.0.19.8* FREEI-1770 Queue restapps dropping call on Pickup ver15 
+		*15.0.19.7* FREEI-1815 PBXact Legacy(13) backup restore in PBXact 15 issue fix 
+		*15.0.19.6* FREEI-1724 Fixed a bug with module upgrader
+		*15.0.19.5* FREEI-1576 Updates to licensing
+		*15.0.19.4* FREEI-1552 phoneapps replication kills service on warm spare during restore 
+		*15.0.19.3* FREEI-1419 Allow users to start with a zero 
+		*15.0.19.2* SECURITY: Potential Phone Apps RCE
+		*15.0.19.1*  FREEI-1224 Phone is not sending the PIN DTMF presses once it access Conference RestApp
+		*15.0.19*    Fixing FREEI-1207 
+		*15.0.18.23* Fixing FREEI-1057 - Adding Yealink T54S support for restapps. 
+		*15.0.18.22* FREEI-832 Extension list in xfer to vm restapp not sorted 
+		*15.0.18.21* FREEI-708 allow custom titles. 
+		*15.0.18.20* FREEI-810 Use *98 + extension instead of *98  only. 
+		*15.0.18.19* bump 
+		*15.0.18.18* bump 
+		*15.0.18.17* bump 
+		*15.0.18.16* FREEI-708 Behavior of Transfer to VM restapp changed 
+		*15.0.18.15* FREEPBX-20370 backup restore lock check 
+		*15.0.18.14* Fixing FREEPBX-20371 
+		*15.0.18.13* Fixing FREEI-637 
+		*15.0.18.12* FREEPBX-20263 Some bugs happen with Oracle Connector 
+		*15.0.18.11* FREEPBX-20245 Restore Restapps require fwconsole restart 
+		*15.0.18.10* FREEI-621  Restappps not restoring backup data 
+		*15.0.18.9* Bugfix/FREEI-532 whoops error 
+		*15.0.18.8* Fixing restore issue 
+		*15.0.18.7* FREEI-532 whoops error when playing message with visual voicemail 
+		*15.0.18.6* TELE-925 Phone Contact groups appearing in Z to A order instead of A to Z 
+		*15.0.18.5* FREEI-489 improving regex rule. 
+		*15.0.18.4* FREEPBX-19876 Fixe XML error 
+		*15.0.18.3* FREEI-489 Add a rule to get the new user_agent for Digium phones. 
+		*15.0.18.2* FREEPBX-18691 pjsip listen to voicemail from multiple extensions 
+		*15.0.18.1* Use lazy loading console commands
+		*15.0.18* FREEI-457
+		*15.0.17* FREEI-457 FREEI-458 Remove and enable the good softkeys following operating mode
+		*15.0.15* Fixing FREEPBX-18979
+		*15.0.14* fixing legacy restore
+		*15.0.13* fixing legacy restore
+		*15.0.12* Fixing FREEPBX-19462
+		*15.0.11* Feature/FREEPBX-18742
+		*15.0.10* FREEPBX-18723 Phone apps voicemail password change - Randomizes settings
+		*15.0.9* Feature/FREEPBX-18633 restapps pms module
+		*15.0.8* FREEPBX-18605 Phone App permissions in userman not working for VM and DND
+		*15.0.7* FREEPBX-18442 Phone Apps CANCEL button inconsistencies or not working
+		*15.0.6* FREEPBX-18444 Phone Apps Voicemail fails silently when VM is not initialized
+		*15.0.5* FREEPBX-17917 Contacts app sorting default
+		*15.0.4* FREEPBX-18469 Restapps Contact shows (not_set) near the item to dial
+		*15.0.3* FREEPBX-17635 aastra blf indication for restapps DND no longer functioning
+		*15.0.2* Backup and restore for 15.0
+		*15.0.1* Branch 15.0
+	</changelog>
+	<depends>
+		<version>15.0.6.18</version>
+		<module>endpoint ge 15.0.65.2</module>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.3.0</phpversion>
+		<module>sysadmin ge 15.0.29.19</module>
+		<module>userman 13.0.57</module>
+		<module>voicemail ge 15.0.27</module>
+		<module>timeconditions</module>
+		<module>contactmanager ge 13.0.30</module>
+		<module>callforward</module>
+		<module>conferences</module>
+		<module>daynight</module>
+		<module>donotdisturb</module>
+		<module>findmefollow</module>
+		<module>parking ge 15.0.15.3</module>
+		<module>presencestate</module>
+		<module>queues</module>
+		<module>paging</module>
+		<module>pm2 ge 13.0.3</module>
+	</depends>
+	<database>
+		<table name="restapps_settings">
+			<field name="module" type="string" length="25" default="" primarykey="true"/>
+			<field name="key" type="string" length="25" default="" primarykey="true"/>
+			<field name="value" type="string" length="80" notnull="false"/>
+		</table>
+		<table name="restapps_stats">
+			<field name="brand" type="string" length="80"/>
+			<field name="model" type="string" length="80"/>
+			<field name="application" type="string" length="80"/>
+			<field name="page" type="string" length="80"/>
+			<field name="timestamp" type="integer" notnull="false"/>
+		</table>
+	</database>
+	<menuitems>
+		<restapps>Phone Apps</restapps>
+	</menuitems>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/add-ons/#phone-apps</link>
+	</commercial>
+	<hooks>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Restapps" namespace="FreePBX\Modules">delGroup</method>
+			<method callingMethod="addGroup" class="Restapps" namespace="FreePBX\Modules">addGroup</method>
+			<method callingMethod="updateGroup" class="Restapps" namespace="FreePBX\Modules">updateGroup</method>
+			<method callingMethod="delUser" class="Restapps" namespace="FreePBX\Modules">delUser</method>
+			<method callingMethod="addUser" class="Restapps" namespace="FreePBX\Modules">addUser</method>
+			<method callingMethod="updateUser" class="Restapps" namespace="FreePBX\Modules">updateUser</method>
+			<method callingMethod="myShowPage" class="Restapps" namespace="FreePBX\Modules">usermanShowPage</method>
+		</userman>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Restapps" namespace="FreePBX\Modules">dashboardService</method>
+		</dashboard>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Restapps" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Restapps" namespace="FreePBX\Modules">startFreepbx</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Restapps" namespace="FreePBX\Modules">stopFreepbx</method>
+		</framework>
+		<framework class="Reload" namespace="FreePBX">
+			<method callingMethod="postReload" class="Restapps" namespace="FreePBX\Modules">postReloadFreepbx</method>
+			<method callingMethod="preReload" class="Restapps" namespace="FreePBX\Modules">preReloadFreepbx</method>
+		</framework>
+		<Backup class="Backup" namespace="FreePBX\modules">
+			<method callingMethod="postrestoreModulehook" class="Restapps" namespace="FreePBX\modules">postrestorehook</method>
+		</Backup>
+		<contactmanager class="Contactmanager" namespace="FreePBX\modules">
+	 		<method callingMethod="updateContactUpdatedDetails" class="Restapps" namespace="FreePBX\modules">updateContactUpdatedDetailsHook</method>
+		</contactmanager>
+		<bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="importFinished" class="Restapps" namespace="FreePBX\modules">regenerateAllContactFiles</method>
+		</bulkhandler>
+	</hooks>
+	<console>
+		<command>
+			<name>phoneapps</name>
+			<class>Restapps</class>
+		</command>
+	</console>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

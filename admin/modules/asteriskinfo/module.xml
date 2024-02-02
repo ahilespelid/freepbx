@@ -1,0 +1,39 @@
+<module>
+	<rawname>asteriskinfo</rawname>
+	<repo>standard</repo>
+	<name>Asterisk Info</name>
+	<version>15.0.14</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Reports</category>
+	<description>
+		Provides a snapshot of the current Asterisk configuration
+	</description>
+	<more-info>https://wiki.freepbx.org/display/FPG/Asterisk+Info+Module</more-info>
+	<menuitems>
+		<asteriskinfo needsenginedb="yes">Asterisk Info</asteriskinfo>
+	</menuitems>
+	<changelog>
+		*15.0.14* Packaging of ver 15.0.14
+		*15.0.13* Packaging of ver 15.0.13
+		*15.0.12* FREEI-2356 Adding Dahdi into asteriskinfo 
+		*15.0.11* Packaging of ver 15.0.11
+		*15.0.10* FREEI-1585 Initializing $arr_registries array 
+		*15.0.9* FREEPBX-21071 Whoops\Exception\ErrorException Error 
+		*15.0.8* FREEI-1144 Getting whoops error while accessing asteriskinfo page. 
+		*15.0.7* FREEPBX-21037
+		*15.0.6* FREEPBX-20873 Whoops\Exception\ErrorException failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found 
+		*15.0.5* FREEPBX-20644 check IAX2 loaded before querying, add SCCP 
+		*15.0.4* FREEPBX-18384 Add ARI dependency; 
+		*15.0.3* Add arimanager dependency
+		*15.0.2* Packaging of ver 15.0.2
+		*13.0.1* Fork from 13 branch
+	</changelog>
+	<depends>
+		<module>arimanager</module>
+	</depends>
+	<supported>
+		<version>15.0</version>
+	</supported>
+</module>

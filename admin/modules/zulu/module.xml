@@ -1,0 +1,270 @@
+<module>
+	<rawname>zulu</rawname>
+	<repo>commercial</repo>
+	<name>Zulu</name>
+	<version>15.0.62</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>Commercial</license>
+	<licenselink>https://portal.sangoma.com/marketing/resources/2808/Sangoma%20Corporate/Terms%20of%20Service%20and%20User%20License%20Agreement/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<commercial>
+		<type>paid</type>
+		<link>//www.freepbx.org/zulu</link>
+	</commercial>
+	<changelog>
+		*15.0.62* Packaging of ver 15.0.62
+		*15.0.61* Packaging of ver 15.0.61
+		*15.0.60* Packaging of ver 15.0.60
+		*15.0.59*    Allow lazy loading for fwconsole commands
+		*15.0.58.12* bump 
+		*15.0.58.11* FREEI-3300 
+		*15.0.58.10* Packaging of ver 15.0.58.10
+		*15.0.58.9* Packaging of ver 15.0.58.9
+		*15.0.58.8* Packaging of ver 15.0.58.8
+		*15.0.58.7* Packaging of ver 15.0.58.7
+		*15.0.58.6* Packaging of ver 15.0.58.6
+		*15.0.58.5* Packaging of ver 15.0.58.5
+		*15.0.58.4* Packaging of ver 15.0.58.4
+		*15.0.58.3* Packaging of ver 15.0.58.3
+		*15.0.58.2* Packaging of ver 15.0.58.2
+		*15.0.58.1* Packaging of ver 15.0.58.1
+		*15.0.58.0* Packaging of ver 15.0.58.0
+		*15.0.57.12* Packaging of ver 15.0.57.12
+		*15.0.57.11* Packaging of ver 15.0.57.11
+		*15.0.57.10* Packaging of ver 15.0.57.10
+		*15.0.57.9* skipped
+		*15.0.57.8* Packaging of ver 15.0.57.8
+		*15.0.57.7* Packaging of ver 15.0.57.7
+		*15.0.57.6* Packaging of ver 15.0.57.6
+		*15.0.57.5* Packaging of ver 15.0.57.5
+		*15.0.57.4* Packaging of ver 15.0.57.4
+		*15.0.57.3* Packaging of ver 15.0.57.3
+		*15.0.57.2* Packaging of ver 15.0.57.2
+		*15.0.57.1* Packaging of ver 15.0.57.1
+		*15.0.57* Packaging of ver 15.0.57
+		*14.0.4.7* Packaging of ver 14.0.4.7
+		*14.0.4.6* Packaging of ver 14.0.4.6
+		*14.0.4.5* Packaging of ver 14.0.4.5
+		*14.0.4.3* Bug fixes
+		*14.0.4.2* Fix migration script
+		*14.0.4.1* FREEPBX-18053 database defs
+		*14.0.4* Remove XMPP need
+		*14.0.3.34* Fix mobile tokens issues
+		*14.0.3.33* Fix originate setting
+		*14.0.3.32* FREEPBX-17918
+		*14.0.3* Zulu 3.0
+	</changelog>
+	<category>Admin</category>
+	<description>Zulu bridges the gap between your PBX and your desktop. Providing unified communications directly in the applications you use daily</description>
+	<menuitems>
+		<zulu>Zulu</zulu>
+	</menuitems>
+	<depends>
+		<version>15.0.14</version>
+		<phpcomponent>Zend Guard Loader</phpcomponent>
+		<phpversion>5.6.0</phpversion>
+		<module>sysadmin ge 15.0.16.10</module>
+		<module>userman ge 14.0.3.44</module>
+		<module>pm2 ge 13.0.4.1</module>
+		<module>certman ge 14.0.1</module>
+		<module>core ge 15.0.9.69</module>
+		<module>sms ge 14.0.3.1</module>
+		<module>contactmanager ge 15.0.8.15</module>
+		<module>presencestate ge 14.0.1.7</module>
+		<module>arimanager ge 13.0.4</module>
+		<engine>asterisk 13</engine>
+	</depends>
+	<supported>
+			<version>15.0</version>
+	</supported>
+	<hooks>
+		<contactmanager class="Contactmanager" namespace="FreePBX\modules">
+			<method callingMethod="updateEntry" class="Zulu" namespace="FreePBX\modules">contactmanagerUpdateEntry</method>
+			<method callingMethod="deleteEntryByID" class="Zulu" namespace="FreePBX\modules">contactmanagerDeleteEntryByID</method>
+			<method callingMethod="deleteEntriesByGroupID" class="Zulu" namespace="FreePBX\modules">contactmanagerDeleteEntriesByGroupID</method>
+			<method callingMethod="updateUsermanEntryByGroupID" class="Zulu" namespace="FreePBX\modules">contactmanagerUpdateUsermanEntryByGroupID</method>
+			<method callingMethod="addEntryByGroupID" class="Zulu" namespace="FreePBX\modules">contactmanagerAddEntryByGroupID</method>
+		</contactmanager>
+		<certman class="Certman" namespace="FreePBX\modules">
+			<method callingMethod="makeCertDefault" class="Zulu" namespace="FreePBX\modules">setDefaultCert</method>
+		</certman>
+		<core class="Core" namespace="FreePBX\modules">
+			<method callingMethod="hookTabs" class="Zulu" namespace="FreePBX\modules">coreDIDHook</method>
+			<method callingMethod="delUser" class="Zulu" namespace="FreePBX\modules">delUser</method>
+		</core>
+		<queues class="Queues" namespace="FreePBX\modules">
+			<method callingMethod="hookTabs" class="Zulu" namespace="FreePBX\modules">tabhookQueues</method>
+		</queues>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Zulu" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Zulu" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Zulu" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="delUser" class="Zulu" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Zulu" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Zulu" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method callingMethod="myShowPage" class="Zulu" namespace="FreePBX\modules">usermanShowPage</method>
+		</userman>
+		<dashboard class="Overview" namespace="FreePBX\modules\Dashboard\Sections">
+			<method callingMethod="getSummary" class="Zulu" namespace="FreePBX\modules">dashboardService</method>
+		</dashboard>
+		<framework class="Start" namespace="FreePBX\Console\Command">
+			<method callingMethod="postAsteriskHooks" class="Zulu" namespace="FreePBX\modules">startFreepbx</method>
+		</framework>
+		<framework class="Stop" namespace="FreePBX\Console\Command">
+			<method callingMethod="preAsteriskHooks" class="Zulu" namespace="FreePBX\modules">stopFreepbx</method>
+		</framework>
+		<framework class="Chown" namespace="FreePBX\Console\Command">
+			<method callingMethod="fwcChownFiles" class="Zulu" namespace="FreePBX\modules">chownFreepbx</method>
+		</framework>
+		<sysadmin class="Sysadmin" namespace="FreePBX\modules">
+			<method callingMethod="getModuleLicenseInformation" class="Zulu" namespace="FreePBX\modules">sendModuleLicenseInformation</method>
+		</sysadmin>
+		<ucp class="Ucp">
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="addUser">ucpAddUser</method>
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="updateUser">ucpUpdateUser</method>
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="delUser">ucpDelUser</method>
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="addGroup">ucpAddGroup</method>
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="updateGroup">ucpUpdateGroup</method>
+			<method namespace="FreePBX\Modules" class="Zulu" callingMethod="delGroup">ucpDelGroup</method>
+		</ucp>
+		<dashboard class="Dashboard" namespace="">
+			<method class="Zulu" namespace="FreePBX\Modules" callingMethod="extIgnoreList">dashboardIgnoreExt</method>
+		</dashboard>
+	</hooks>
+	<database>
+		<table name="zulu_interactions_interaction_states">
+			<field name="userman_id" type="integer"/>
+			<field name="interaction_id" type="string" length="36" default=""/>
+			<field name="archived" type="boolean" default="0"/>
+			<field name="topic" type="string" length="45" notnull="false"/>
+			<field name="notification" type="string" length="20" default="normal"/>
+			<key name="contact_id" type="unique">
+				<column name="userman_id"/>
+				<column name="interaction_id"/>
+			</key>
+		</table>
+		<table name="zulu_softphones">
+			<field name="user" type="bigint" length="32" primarykey="true"/>
+			<field name="device" type="bigint" length="32"/>
+			<field name="certid" type="integer"/>
+		</table>
+		<table name="zulu_tokens">
+			<field name="uid" type="integer"/>
+			<field name="token" type="string" length="36"/>
+			<field name="websocket_session" type="string" length="100" primarykey="true"/>
+			<field name="client_version" type="string" length="255"/>
+			<field name="connect_time" type="integer"/>
+			<field name="client_ip" type="string" length="255"/>
+			<field name="client_type" type="string" length="255"/>
+		</table>
+		<table name="zulu_interactions_contacts">
+			<field name="id" type="string" length="36" primarykey="true"/>
+			<field name="zulu_id" type="integer" notnull="false"/>
+			<field name="type" type="string" length="45"/>
+			<field name="calleridnumber" type="string" length="45" notnull="false"/>
+			<field name="userman_id" type="integer" notnull="false"/>
+			<field name="calleridname" type="string" length="150" notnull="false"/>
+			<field name="linkedid" type="string" length="36" notnull="false"/>
+			<field name="contactman_id" type="integer" notnull="false"/>
+			<key name="zulu_id" type="index">
+				<column name="zulu_id"/>
+			</key>
+			<key name="userman_id" type="index">
+				<column name="userman_id"/>
+			</key>
+			<key name="type" type="index">
+				<column name="type"/>
+			</key>
+		</table>
+		<table name="zulu_interactions_interactions">
+			<field name="id" type="string" length="36" primarykey="true"/>
+			<field name="start_time" type="integer"/>
+			<field name="topic" type="string" length="45" notnull="false"/>
+			<field name="type" type="string" length="45" default="direct"/>
+			<field name="description" type="string" length="255" notnull="false"/>
+			<field name="close" type="integer" default="0"/>
+			<field name="hidden" type="integer" default="0"/>
+			<field name="conference_number" type="string" length="50" notnull="false"/>
+			<field name="closable" type="integer" default="1"/>
+			<field name="updated_at" type="integer" notnull="false"/>
+			<key name="updated_at" type="index">
+				<column name="updated_at"/>
+			</key>
+			<key name="conference_number" type="index">
+				<column name="conference_number"/>
+			</key>
+			<key name="type" type="index">
+				<column name="type"/>
+			</key>
+		</table>
+		<table name="zulu_interactions_owners">
+			<field name="interaction_id" type="string" length="36" primarykey="true"/>
+			<field name="userman_id" type="integer" primarykey="true"/>
+		</table>
+		<table name="zulu_interactions_members">
+			<field name="linkedid" type="string" length="36" primarykey="true"/>
+			<field name="interaction_id" type="string" length="36" primarykey="true"/>
+			<field name="type" type="string" length="45"/>
+		</table>
+		<table name="zulu_interactions_streams">
+			<field name="id" type="string" length="36" primarykey="true"/>
+			<field name="interaction_id" type="string" length="36"/>
+			<field name="member_id" type="string" notnull="false" length="36"/>
+			<field name="zulu_id" type="integer" notnull="false"/>
+			<field name="when" type="integer"/>
+			<field name="type" type="string" length="100"/>
+			<key name="member_id" type="index">
+				<column name="member_id"/>
+			</key>
+			<key name="zulu_id" type="index">
+				<column name="zulu_id"/>
+			</key>
+			<key name="when" type="index">
+				<column name="when"/>
+			</key>
+			<key name="interaction_id" type="index">
+				<column name="interaction_id"/>
+			</key>
+			<key name="type" type="index">
+				<column name="type"/>
+			</key>
+		</table>
+		<table name="zulu_interactions_stream_bodies">
+			<field name="stream_id" type="string" length="36" primarykey="true"/>
+			<field name="body" type="blob" notnull="false"/>
+			<field name="searchable" type="text" notnull="false"/>
+		</table>
+		<table name="zulu_interactions_stream_links">
+			<field name="stream_id" type="string" length="36"/>
+			<field name="link" type="text"/>
+		</table>
+		<table name="zulu_interactions_stream_actions">
+			<field name="stream_id" type="string" length="36" primarykey="true"/>
+			<field name="zulu_id" type="integer" primarykey="true"/>
+			<field name="seen" type="boolean" default="0"/>
+			<field name="archived" type="boolean" default="0"/>
+		</table>
+		<table name="zulu_login_tokens">
+			<field name="token" type="string" length="36" default="" primarykey="true"/>
+			<field name="uid" type="integer" notnull="false"/>
+			<field name="temp" type="boolean" default="1"/>
+			<field name="expires" type="integer" notnull="false"/>
+			<field name="websocket_session" type="string" length="100" default=""/>
+		</table>
+		<table name="zulu_mobile_tokens">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+			<field name="zulu_id" type="integer" notnull="true"/>
+			<field name="type" type="string" notnull="true"/> <!-- apple, apple-dev or android -->
+			<field name="notify_token" type="string" notnull="false"/>
+			<field name="voip_token" type="string" notnull="false"/> <!-- not valid for android -->
+			<field name="refreshed_at" type="integer" notnull="false"/>
+			<key name="zulu_id" type="index">
+				<column name="zulu_id"/>
+			</key>
+		</table>
+	</database>
+	<console>
+		<command>
+			<name>zulu</name>
+		</command>
+	</console>
+</module>

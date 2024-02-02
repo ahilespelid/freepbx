@@ -1,0 +1,660 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for parkpro
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-29 13:24+0000\n"
+"PO-Revision-Date: 2016-08-08 13:59+0200\n"
+"Last-Translator: Kenichi <k.kitani@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/parkpro/"
+"ja_JP/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid ""
+"A visual name used to identify your Park &amp; Announce extension easily"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add New Park and Announce"
+msgstr ""
+
+msgid "Add New Parking Lot"
+msgstr ""
+
+msgid "Add Park and Announce"
+msgstr ""
+
+msgid "Add Parking Lot"
+msgstr ""
+
+msgid ""
+"Alert-Info to add to the call prior to sending back to the Originator or to "
+"the Alternate Destination."
+msgstr ""
+
+msgid "Allow Parkee To Record a Message"
+msgstr ""
+
+msgid "Alternate Destination"
+msgstr ""
+
+msgid "Announce Order"
+msgstr ""
+
+msgid "Announce Park Slot"
+msgstr ""
+
+msgid "Announcement"
+msgstr "アナウンス"
+
+msgid ""
+"Announcement #1 to use in the page group. Only noncompunded recordings can "
+"be used"
+msgstr ""
+
+msgid ""
+"Announcement #2 to use in the page group. Only noncompunded recordings can "
+"be used"
+msgstr ""
+
+msgid ""
+"Announcement #3 to use in the page group. Only noncompunded recordings can "
+"be used"
+msgstr ""
+
+msgid ""
+"Anyone can transfer calls into a public parking lot. Only the extension that "
+"is set to said parking lot in the extensions page can transfer into a "
+"private parking lot"
+msgstr ""
+
+msgid "Applications"
+msgstr "アプリケーション"
+
+msgid "Assigned Devices"
+msgstr ""
+
+msgid "Attended Transfer call into Park lot nn"
+msgstr ""
+
+msgid ""
+"Attended Transfer call to the Parking Lot Extension. The lot number will be "
+"announced to the parker"
+msgstr ""
+
+msgid "Attended transfer to lot 75"
+msgstr ""
+
+msgid "Auto CallerID Prepend"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Caller"
+msgstr ""
+
+msgid "Caller Message"
+msgstr ""
+
+msgid "CallerID Prepend"
+msgstr ""
+
+#, php-format
+msgid "Choose a default parkinglot for this %s"
+msgstr ""
+
+msgid "Come Back to Origin"
+msgstr ""
+
+msgid "Default Parking Lot Destination"
+msgstr ""
+
+msgid "Default Parkinglot, Blank for none."
+msgstr ""
+
+msgid ""
+"Defines the feature code that can be used to force park a call into a "
+"Private Lot or Slots that the Extension perforimcing the park does not have "
+"permissions to.  Example if Extension 8001 was setup to use Parking Lot 70 "
+"but wanted to park a call into Lot 80 that was private they could transfer "
+"the call with this feature code and the lot number of 80."
+msgstr ""
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Destination"
+msgstr "宛先"
+
+msgid ""
+"Devices that have this parkling lot assigned as their default when "
+"transfering a call to the parking lot feature code"
+msgstr ""
+
+msgid "Enable Parking Timeout Override"
+msgstr ""
+
+msgid ""
+"Enable or Disable the announcement of the parking lot slot that the caller "
+"has been placed into"
+msgstr ""
+
+msgid "Enables or disables DTMF based parking when picking up a parked call. "
+msgstr ""
+
+msgid "Example Usage"
+msgstr ""
+
+msgid "Extension"
+msgstr "内線"
+
+msgid "Find Slot"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "Force Park into Private Lot"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid ""
+"How many times should the above announcement be announced in the page. This "
+"is helpful for loud environments. In normal environments this should usually "
+"be set to 1."
+msgstr ""
+
+msgid ""
+"How many times to retry waiting in the parking lot before giving up and "
+"going to the destination below"
+msgstr ""
+
+msgid "INUSE"
+msgstr ""
+
+#, php-format
+msgid "Invalid Destination, Page Group %s"
+msgstr ""
+
+msgid "Invalid Park & Announce Extension already exists"
+msgstr ""
+
+msgid "Invalid Park & Announce Extension specified"
+msgstr ""
+
+msgid "List Park and Announce"
+msgstr ""
+
+msgid "List Parking Lots"
+msgstr ""
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Neither"
+msgstr ""
+
+msgid "New Park &amp; Announce Extension"
+msgstr ""
+
+msgid "Next"
+msgstr "次"
+
+msgid ""
+"Next: If you want the parking lot to seek the next sequential parking slot "
+"relative to the the last parked call instead of seeking the first available "
+"slot. First: Use the first parking lot slot available"
+msgstr ""
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Number of Slots"
+msgstr ""
+
+msgid "Number of seconds to be silent before playing the announcement message."
+msgstr ""
+
+msgid ""
+"Optional message to be played to the call after first iteration if returning "
+"and retrying"
+msgstr ""
+
+msgid ""
+"Optional message to be played to the call prior to sending back to the "
+"Originator or the Alternate Destination."
+msgstr ""
+
+msgid ""
+"Optional message to be played to the call prior to sending it to the parking "
+"lot"
+msgstr ""
+
+msgid ""
+"Order of Paging Announcements. The options are as follows:"
+"<ul><li><strong>PA1:</strong> Page Announcement #1</li><li><strong>PA2:</"
+"strong> Page Announcement #2</li><li><strong>PA3:</strong> Page Announcement "
+"#3</li><li><strong>Caller Message:</strong> The Recorded Message from the "
+"Parkee</li><li><strong>Park Slot #:</strong> The Parking Slot the Parkee is "
+"Parked on</li></ul>"
+msgstr ""
+
+msgid "Override Page Announcement"
+msgstr ""
+
+msgid "Override the Selected page group's announcement"
+msgstr ""
+
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "PA 1"
+msgstr ""
+
+msgid "PA 2"
+msgstr ""
+
+msgid "PA 3"
+msgstr ""
+
+msgid ""
+"PARK PRO - COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION. Provides "
+"Multiple Parking Lots, per extension assignment for default lots, Park and "
+"Page Announce and other advanced parking features to come"
+msgstr ""
+
+msgid "Page Announcement 1"
+msgstr ""
+
+msgid "Page Announcement 2"
+msgstr ""
+
+msgid "Page Announcement 3"
+msgstr ""
+
+msgid "Page Group"
+msgstr ""
+
+msgid "Page Options"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce 'Announcement': %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce 'Page Announcement 1': %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce 'Page Announcement 2': %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce 'Page Announcement 3': %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce 'Retry Announcement': %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce has %s invalid page groups"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce: %s"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce: %s (%s)"
+msgstr ""
+
+#, php-format
+msgid "Park & Announce: %s (%s)%s"
+msgstr ""
+
+msgid "Park &amp; Announce"
+msgstr ""
+
+msgid "Park &amp; Announce Extension"
+msgstr ""
+
+msgid "Park &amp; Announce Name"
+msgstr ""
+
+msgid "Park &amp; Announce Options"
+msgstr ""
+
+#, php-format
+msgid "Park &amp; Announce: %s"
+msgstr ""
+
+msgid "Park Options"
+msgstr ""
+
+msgid "Park Prefix"
+msgstr ""
+
+msgid "Park Slot #"
+msgstr ""
+
+msgid "Park Yourself into lot 75"
+msgstr ""
+
+msgid "Park Yourself into lot nn"
+msgstr ""
+
+msgid "Park Yourself. The lot number will be announced to you"
+msgstr ""
+
+msgid "Park and Announce"
+msgstr ""
+
+msgid "Park to your Assigned Lot"
+msgstr ""
+
+msgid "Parked"
+msgstr ""
+
+msgid "Parked Music Class"
+msgstr ""
+
+msgid ""
+"Parkee must press # or wait for the timeout when done recording. If silence "
+"of 3 seconds is detected then message is ignored"
+msgstr ""
+
+msgid "Parking Alert-Info"
+msgstr ""
+
+msgid "Parking Lot"
+msgstr ""
+
+msgid "Parking Lot Extension"
+msgstr ""
+
+msgid "Parking Lot Name"
+msgstr ""
+
+msgid "Parking Lot Options"
+msgstr ""
+
+msgid "Parking Lot Pro"
+msgstr ""
+
+msgid "Parking Lot Starting Position"
+msgstr ""
+
+msgid "Parking Lot Type"
+msgstr ""
+
+msgid "Parking Pro"
+msgstr ""
+
+msgid "Parking Timeout (seconds)"
+msgstr ""
+
+msgid "ParkingLot"
+msgstr ""
+
+msgid "Parkinglot"
+msgstr ""
+
+msgid "Pickup Courtesy Tone"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgid ""
+"Provide a Descriptive Title for this Parking Lot. Used throughout FreePBX to "
+"visually identify your Lot"
+msgstr ""
+
+msgid "Public"
+msgstr ""
+
+msgid "Re-Parking Capability"
+msgstr ""
+
+msgid "Recorded Message Announcement"
+msgstr ""
+
+msgid "Recorded Message Failure"
+msgstr ""
+
+msgid "Recorded Message Length"
+msgstr ""
+
+msgid "Recorded Message Success"
+msgstr ""
+
+msgid "Repeat Announcement"
+msgstr ""
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Retry Announcement"
+msgstr ""
+
+msgid "Retry Count"
+msgstr ""
+
+msgid "Returned Call Behavior"
+msgstr ""
+
+msgid "Ringer Volume Override"
+msgstr ""
+
+msgid "Seconds"
+msgstr ""
+
+msgid "Sets who can re-park a call after it has timed out."
+msgstr ""
+
+msgid "Silence Detection Length"
+msgstr ""
+
+msgid "Silence Period Before Announcement"
+msgstr ""
+
+msgid "Slot"
+msgstr ""
+
+msgid "Slot Range"
+msgstr ""
+
+msgid "Slots"
+msgstr ""
+
+msgid ""
+"String to prepend to the current Caller ID associated with the paging group"
+msgstr ""
+
+msgid ""
+"String to prepend to the current Caller ID associated with the parked call "
+"prior to sending back to the Originator or the Alternate Destination."
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid ""
+"The amount of silence to detect before accepting the callee has said nothing"
+msgstr ""
+
+msgid "The amount of time to record the callee's message"
+msgstr ""
+
+msgid "The announcement to be played prior to the message being recorded"
+msgstr ""
+
+msgid "The generated slot range"
+msgstr ""
+
+msgid ""
+"The message to be played after the callee has successfully recorded their "
+"message"
+msgstr ""
+
+msgid ""
+"The message to be played if the callee said nothing during the recording"
+msgstr ""
+
+msgid "The page group this extension will announce to"
+msgstr ""
+
+msgid "The parking lot this Park and Announce Extension will send the call to"
+msgstr ""
+
+msgid "The starting postion of the parking lot"
+msgstr ""
+
+msgid ""
+"The timeout period in seconds that a parked call will attempt to ring back "
+"the original parker if not answered"
+msgstr ""
+
+msgid ""
+"The timeout period in seconds that a parked call will attempt to ring back "
+"the original parker if not answered. This will override whatever is set in "
+"the parking lot"
+msgstr ""
+
+msgid ""
+"The total number of parking lot spaces to configure. Example, if the Parking "
+"Slot Starting Position is 70 and 8 slots are configured, the parking slots "
+"will be 70-77"
+msgstr ""
+
+msgid ""
+"These options will be appended after CallerID Prepend if set. Otherwise they "
+"will appear first. The automatic options are as follows:<ul><li><strong>None:"
+"</strong> No Automatic Prepend</li><li><strong>Slot:</strong> Parking lot "
+"they were parked on</li><li><strong>Extension:</strong> The extension number "
+"that parked the call</li><li><strong>Name:</strong> The user who parked the "
+"call</li></ul>"
+msgstr ""
+
+msgid ""
+"These options will be appended after CallerID Prepend is set. Otherwise they "
+"will appear first. The automatic options are as follows:<ul><li><strong>None:"
+"</strong> No Automatic Prepend</li><li><strong>Slot:</strong> Parking lot "
+"they were parked on</li></ul>"
+msgstr ""
+
+msgid ""
+"This is the extension where you will transfer a call to Park &amp; Announce "
+"it"
+msgstr ""
+
+msgid "This is the extension where you will transfer a call to park it"
+msgstr ""
+
+msgid ""
+"This is the music class that will be played to a parked call while in the "
+"parking lot UNLESS the call flow prior to parking the call explicitly set a "
+"different music class, such as if the call came in through a queue or ring "
+"group."
+msgstr ""
+
+msgid ""
+"This module allows you to setup and define a way to announce to a page group "
+"when callers enter a parking lot."
+msgstr ""
+
+msgid "This module is used to configure Parking Lot(s)"
+msgstr ""
+
+msgid "Timeout Destination"
+msgstr ""
+
+msgid "Transfer Capability"
+msgstr ""
+
+msgid "What is Park and Announce"
+msgstr ""
+
+msgid "What is Parking Lot Pro"
+msgstr ""
+
+msgid ""
+"Where to send a parked call that has timed out. If set to yes then the "
+"parked call will be sent back to the originating device that sent the call "
+"to this parking lot. If the origin is busy then we will send the call to the "
+"Destination selected below. If set to no then we will send the call directly "
+"to the destination selected below"
+msgstr ""
+
+msgid ""
+"Where to send the call when the timeout limit and retry limit has been "
+"reached. If no destination is set then the call will be sent to the parking "
+"lot's timeout destination"
+msgstr ""
+
+msgid "Whom to play the courtesy tone to when a parked call is retrieved."
+msgstr ""
+
+msgid ""
+"With the addition of the Parking Lot Pro Module you are now able to add "
+"multiple marking lots and Per extension assignment for default lots."
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid ""
+"You can also transfer directly to a lot number (71 through 78) and if that "
+"lot is empty, your call will be parked there"
+msgstr ""
+
+msgid ""
+"You can transfer a call to the Parking Lot Extension (70 by default), the "
+"call will then be placed into a lot (71-78 by default) and the lot number "
+"will be announced to you."
+msgstr ""
+
+#, php-format
+msgid "You have no Page groups. Please go set one up <a %s>here</a>"
+msgstr ""
+
+msgid "default"
+msgstr "デフォルト"
+
+#~ msgid "Enable"
+#~ msgstr "有効にする"
+
+#~ msgid "creating table %s if needed"
+#~ msgstr "必要な場合は %s テーブルをここで作成します"
+
+#~ msgid ""
+#~ "A visual name used throughout FreePBX to identify your Park &amp; "
+#~ "Announce extension easily"
+#~ msgstr "FreePBX全体で使う、このパーク＆アナウンス内線を特定できる名前。"
